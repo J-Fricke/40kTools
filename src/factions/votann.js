@@ -246,6 +246,13 @@ export const UNITS=[
         sWs:null,
         mWs:[[10,2,6,-2,1,{}]]},
 
+    // ── Einhyr Champion (solo attach eval) ───────────────────────────────────────
+    {id:"ch01",uid:"ch",unit:"Einhyr Champion",pts:65,pts10:70,m:1,W:5,sv:2,inv:4,fnp:null,
+        label:"1m solo — attach eval only",
+        chars:["none"],
+        sWs:[[4,2,4,0,1,{}]],
+        mWs:[[3,3,12,-3,4.5,{}],[2.25,2,99,0,1,{dev:1}]]},
+
     // ── Arkanyst Evaluator ───────────────────────────────────────────────────────
     {id:"ak01",uid:"ak",unit:"Arkanyst Evaluator",pts:70,pts10:65,m:1,W:4,sv:3,inv:null,fnp:null,
         label:"Overcharge (AP-3 D3 · SH1)",
@@ -286,5 +293,5 @@ export const DETACHMENTS=[
 export const UC={
     hk:"#818cf8",hg:"#a78bfa",bs:"#f472b6",tk:"#fbbf24",sv:"#34d399",
     sm:"#2dd4bf",ya:"#60a5fa",pi:"#38bdf8",es:"#fb923c",
-    hf:"#f87171",sg:"#c084fc",kd:"#a3e635",bu:"#e879f9",ak:"#22d3ee",
+    hf:"#f87171",sg:"#c084fc",kd:"#a3e635",bu:"#e879f9",ak:"#22d3ee",ch:"#f59e0b",
 };

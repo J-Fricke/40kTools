@@ -27,7 +27,7 @@ export default function App(){
     const [inclShoot,setInclShoot]=useState(true);
     const [inclMelee,setInclMelee]=useState(true);
     const [sort,setSort]=useState({k:"ctan",d:1});
-    const [killPctSort,setKillPctSort]=useState(false);
+    const [killPctSort,setKillPctSort]=useState(true);
     const [doHeat,setDoHeat]=useState(true);
     const [showOldPts,setShowOldPts]=useState(true);
     const [showCfg,setShowCfg]=useState(false);
