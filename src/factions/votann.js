@@ -58,8 +58,13 @@ export const UNITS=[
     // ── Hearthkyn Warriors ──────────────────────────────────────────────────────
     {id:"hk06",uid:"hk",unit:"Hearthkyn Warriors",pts:100,pts10:100,m:10,W:1,sv:4,inv:null,fnp:6,
         label:"10m max: rotary+magna+ion×7+Theyn pistol",
-        chars:["none","kahl","grimnyr","uthar"],
-        sWs:[[6,4,6,-1,1,{sh1:1}],[1,4,12,-3,4.5,{dev:1}],[7,4,5,-2,1,{}],[1,4,8,-2,1,{}]],
+        chars:["none","kahl","champion","grimnyr","uthar"],
+        sWs:[[6,4,6,-1,1,{sh1:1}],[1,4,12,-3,5,{dev:1}],[7,4,5,-2,1,{}],[1,4,8,-2,1,{}]],
+        mWs:[[7,4,4,0,1,{}],[4,4,4,-2,1,{}],[2,4,5,-2,2,{}]]},
+    {id:"hk07",uid:"hk",unit:"Hearthkyn Warriors",pts:100,pts10:100,m:10,W:1,sv:4,inv:null,fnp:6,
+        label:"10m max: rotary+plasma beamer+ion×7+Theyn pistol",
+        chars:["none","kahl","champion","grimnyr","uthar"],
+        sWs:[[6,4,6,-1,1,{sh1:1}],[1,4,8,-3,2,{shd3:1}],[7,4,5,-2,1,{}],[1,4,8,-2,1,{}]],
         mWs:[[7,4,4,0,1,{}],[4,4,4,-2,1,{}],[2,4,5,-2,2,{}]]},
 
     // ── Einhyr Hearthguard ──────────────────────────────────────────────────────
@@ -235,12 +240,12 @@ export const UNITS=[
         mWs:null},
 
     // ── Buri Aegnirssen ──────────────────────────────────────────────────────────
-    {id:"bu01",uid:"bu",unit:"Buri Aegnirssen",pts:95,pts10:95,m:1,W:5,sv:3,inv:4,fnp:4,
+    {id:"bu01",uid:"bu",unit:"Buri Aegnirssen",pts:95,pts10:95,m:1,W:5,sv:3,inv:4,fnp:null,
         label:"Strike: S12 AP-3 D3",
         chars:["none"],
         sWs:null,
         mWs:[[5,2,12,-3,3,{}]]},
-    {id:"bu02",uid:"bu",unit:"Buri Aegnirssen",pts:95,pts10:95,m:1,W:5,sv:3,inv:4,fnp:4,
+    {id:"bu02",uid:"bu",unit:"Buri Aegnirssen",pts:95,pts10:95,m:1,W:5,sv:3,inv:4,fnp:null,
         label:"Sweep: S7 AP-2 D1 ×10",
         chars:["none"],
         sWs:null,
