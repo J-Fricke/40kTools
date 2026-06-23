@@ -1,6 +1,12 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { calcWs, ewCalc } from "./engine.js";
-import { TARGETS, CHARS, UNITS, DETACHMENTS, UC } from "./factions/votann.js";
+import { TARGETS, CHARS as V_CHARS, UNITS as V_UNITS, DETACHMENTS as V_DETS, UC as V_UC } from "./factions/votann.js";
+import { CHARS as C_CHARS, UNITS as C_UNITS, DETACHMENTS as C_DETS, UC as C_UC } from "./factions/custodes.js";
+
+const FACTIONS = {
+    votann:   {label:"Leagues of Votann", units:V_UNITS, chars:V_CHARS, dets:V_DETS, uc:V_UC},
+    custodes: {label:"Adeptus Custodes",  units:C_UNITS, chars:C_CHARS, dets:C_DETS, uc:C_UC},
+};
 
 // ─── UI ───────────────────────────────────────────────────────────────────────
 const C={bg:"#060e1c",bg2:"#0a1525",bg3:"#0d1f35",bdr:"#1e293b",bdr2:"#2d4266",
@@ -18,10 +24,24 @@ function heat(v,lo,hi){
 
 // ─── APP ─────────────────────────────────────────────────────────────────────
 export default function App(){
-    const uids=useMemo(()=>[...new Set(UNITS.map(u=>u.uid))],[]);
-    const allIds=useMemo(()=>new Set(UNITS.map(u=>u.id)),[]);
+    const [faction,setFaction]=useState("votann");
+    const fd=FACTIONS[faction];
+    const UNITS=fd.units, CHARS=fd.chars, DETACHMENTS=fd.dets, UC=fd.uc;
 
-    const [vis,setVis]=useState(allIds);
+    const changeFaction=f=>{
+        const d=FACTIONS[f];
+        setFaction(f);
+        setVis(new Set(d.units.map(u=>u.id)));
+        setCharSel(()=>{const s={};d.units.forEach(u=>s[u.id]=new Set(["none"]));return s;});
+        setActiveDets(new Set());
+    };
+
+    useEffect(()=>{document.title=`${fd.label} · Unit Evaluator`;},[faction]);
+
+    const uids=useMemo(()=>[...new Set(UNITS.map(u=>u.uid))],[faction]);
+    const allIds=useMemo(()=>new Set(UNITS.map(u=>u.id)),[faction]);
+
+    const [vis,setVis]=useState(()=>new Set(V_UNITS.map(u=>u.id)));
     const [tgrp,setTgrp]=useState("meta");
     const [yp,setYp]=useState(true);
     const [inclShoot,setInclShoot]=useState(true);
@@ -37,7 +57,7 @@ export default function App(){
 
     // charSel: {id -> Set<charKey>}, "none" = base unit, other keys = unit+char variants
     const [charSel,setCharSel]=useState(()=>{
-        const s={};UNITS.forEach(u=>s[u.id]=new Set(["none"]));return s;
+        const s={};V_UNITS.forEach(u=>s[u.id]=new Set(["none"]));return s;
     });
 
     const dpSpent=useMemo(()=>[...activeDets].reduce((a,id)=>{
@@ -86,7 +106,7 @@ export default function App(){
     };
 
     const getDetBuff=(unit,charKey)=>{
-        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0;
+        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false;
         for(const id of activeDets){
             const det=DETACHMENTS.find(d=>d.id===id);
             if(!det||!det.affects)continue;
@@ -94,25 +114,31 @@ export default function App(){
             const matchUnit=a.all||(a.uids&&a.uids.includes(unit.uid));
             if(!matchUnit)continue;
             if(a.bhBonus)bhBonus+=a.bhBonus;
+            if(a.wBonus)wBonus+=a.wBonus;
             if(a.rrw1)rrw1=true;
             if(a.rrw1Shoot)rrw1Shoot=true;
             if(a.ap1uids&&a.ap1uids.includes(unit.uid))ap1=true;
             if(a.ap1chars&&a.ap1chars.includes(charKey))ap1=true;
+            if(a.ap1m)ap1m=true;
         }
         // Ironskein (10pts enhancement): +2W to Kâhl when HGC or Hearthband active
         if(charKey==="kahl"&&(activeDets.has("hg_covenant")||activeDets.has("hearthband"))){
             kahlW=2;
             enhancementPts+=10;
         }
-        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts};
+        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m};
     };
 
     const applyBuff=(ws,buff,isShooting)=>{
         const useRrw1=buff.rrw1||(isShooting&&buff.rrw1Shoot);
-        if(!ws||(!useRrw1&&!buff.ap1))return ws;
+        const useAp1=buff.ap1||(!isShooting&&buff.ap1m);
+        if(!ws||(!useRrw1&&!useAp1&&!buff.wBonus))return ws;
         return ws.map(w=>{
             const[shots,skill,s,ap,d,tags]=w;
-            return[shots,skill,s,buff.ap1?ap-1:ap,d,{...tags,rrw1:useRrw1?1:(tags.rrw1||0)}];
+            return[shots,skill,s,useAp1?ap-1:ap,d,{...tags,
+                rrw1:useRrw1?1:(tags.rrw1||0),
+                w1:buff.wBonus>0?1:(tags.w1||0),
+            }];
         });
     };
 
@@ -245,23 +271,30 @@ export default function App(){
         <div style={{fontFamily:"'Courier New',monospace",background:C.bg,minHeight:"100vh",color:C.tx,display:"flex",flexDirection:"column",fontSize:12}}>
             <div style={{padding:"10px 14px 4px",flexShrink:0}}>
                 <div style={{fontSize:9,color:C.amb,letterSpacing:".3em",textTransform:"uppercase"}}>⚙ Kinhost Analytics v15</div>
-                <h1 style={{fontSize:15,fontWeight:900,margin:"2px 0",letterSpacing:"-.02em"}}>Leagues of Votann · Unit Evaluator
+                <h1 style={{fontSize:15,fontWeight:900,margin:"2px 0",letterSpacing:"-.02em"}}>{fd.label} · Unit Evaluator
                     <span style={{fontSize:11,fontWeight:400,color:C.dim,marginLeft:10}}>{phaseLabel}</span>
                 </h1>
             </div>
 
             {/* ── CONTROL BAR ── */}
             <div style={{padding:"6px 14px 8px",display:"flex",flexWrap:"wrap",gap:8,flexShrink:0,borderBottom:`1px solid ${C.bdr}`}}>
+                <div><div style={{fontSize:9,color:C.vdim,marginBottom:3,textTransform:"uppercase"}}>Faction</div>
+                    <select value={faction} onChange={e=>changeFaction(e.target.value)}
+                        style={{fontSize:11,padding:"2px 6px",background:C.bg3,color:C.tx,border:`1px solid ${C.bdr2}`,borderRadius:3,cursor:"pointer",height:24}}>
+                        {Object.entries(FACTIONS).map(([k,f])=>(
+                            <option key={k} value={k}>{f.label}</option>
+                        ))}
+                    </select></div>
                 <div><div style={{fontSize:9,color:C.vdim,marginBottom:3,textTransform:"uppercase"}}>Targets</div>
                     <div style={{display:"flex",gap:3}}>
                         <Btn on={tgrp==="std"} click={()=>setTgrp("std")}>Standard</Btn>
                         <Btn on={tgrp==="meta"} click={()=>setTgrp("meta")}>Meta</Btn>
                     </div></div>
-                <div><div style={{fontSize:9,color:C.vdim,marginBottom:3,textTransform:"uppercase"}}>Yield Points</div>
+                {faction==="votann"&&<div><div style={{fontSize:9,color:C.vdim,marginBottom:3,textTransform:"uppercase"}}>Yield Points</div>
                     <div style={{display:"flex",gap:3}}>
                         <Btn on={yp} click={()=>setYp(true)}>+1 Hit</Btn>
                         <Btn on={!yp} click={()=>setYp(false)}>No YP</Btn>
-                    </div></div>
+                    </div></div>}
                 <div><div style={{fontSize:9,color:C.vdim,marginBottom:3,textTransform:"uppercase"}}>Phase</div>
                     <div style={{display:"flex",gap:3}}>
                         <Btn on={inclShoot} click={toggleShoot} col={C.bl} disabled={inclShoot&&!inclMelee}>Shooting</Btn>
@@ -277,9 +310,9 @@ export default function App(){
                     <label style={{display:"flex",alignItems:"center",gap:4,cursor:"pointer",fontSize:10,color:C.dim}}>
                         <input type="checkbox" checked={doHeat} onChange={e=>setDoHeat(e.target.checked)} style={{accentColor:C.amb}}/>Heat
                     </label>
-                    <label style={{display:"flex",alignItems:"center",gap:4,cursor:"pointer",fontSize:10,color:C.dim}}>
+                    {faction==="votann"&&<label style={{display:"flex",alignItems:"center",gap:4,cursor:"pointer",fontSize:10,color:C.dim}}>
                         <input type="checkbox" checked={showOldPts} onChange={e=>setShowOldPts(e.target.checked)} style={{accentColor:C.vdim}}/>10th pts
-                    </label>
+                    </label>}
                     {tgrp==="meta"&&<label style={{display:"flex",alignItems:"center",gap:4,cursor:"pointer",fontSize:10,color:killPctSort?C.grn:C.dim}}>
                         <input type="checkbox" checked={killPctSort} onChange={e=>setKillPctSort(e.target.checked)} style={{accentColor:C.grn}}/>Kill%
                     </label>}

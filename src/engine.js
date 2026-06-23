@@ -12,6 +12,7 @@ export function calcW(shots,skill,s,ap,d,tags,tgt,bh=1){
     let h=shots*hp;
     if(tags.sh1)h+=shots*cp;if(tags.sh2)h+=shots*cp*2;if(tags.shd3)h+=shots*cp*2;
     let wp=Math.min((7-wt(s,tgt.T))/6,5/6);
+    if(tags.w1)wp=Math.min((7-Math.max(2,wt(s,tgt.T)-1))/6,5/6);
     if(tags.av3&&tgt.veh)wp=Math.max(wp,4/6);if(tags.am3&&tgt.mon)wp=Math.max(wp,4/6);
     if(tags.tl)wp=Math.min(wp+(1-wp)*wp,5/6);if(tags.rrw1)wp=Math.min(wp*7/6,5/6);
     let w=(tags.let||tags.conv||tags.con)?(shots*cp+(h-shots*cp)*wp):h*wp;
