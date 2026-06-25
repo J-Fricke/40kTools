@@ -34,6 +34,7 @@ export default function App(){
         setVis(new Set(d.units.map(u=>u.id)));
         setCharSel(()=>{const s={};d.units.forEach(u=>s[u.id]=new Set(["none"]));return s;});
         setActiveDets(new Set());
+        setDetOpts({});
     };
 
     useEffect(()=>{document.title=`${fd.label} · Unit Evaluator`;},[faction]);
@@ -52,6 +53,7 @@ export default function App(){
     const [showOldPts,setShowOldPts]=useState(true);
     const [showCfg,setShowCfg]=useState(false);
     const [activeDets,setActiveDets]=useState(new Set());
+    const [detOpts,setDetOpts]=useState({});
     const [showDets,setShowDets]=useState(false);
     const [enemyAp,setEnemyAp]=useState(0);
 
@@ -106,11 +108,17 @@ export default function App(){
     };
 
     const getDetBuff=(unit,charKey)=>{
-        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false;
+        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false,ch5m=false;
         for(const id of activeDets){
             const det=DETACHMENTS.find(d=>d.id===id);
-            if(!det||!det.affects)continue;
-            const a=det.affects;
+            if(!det)continue;
+            let a=det.affects;
+            if(det.options){
+                const optKey=detOpts[id]||(det.options[0]&&det.options[0].key);
+                const opt=det.options.find(o=>o.key===optKey);
+                a=opt?opt.affects:null;
+            }
+            if(!a)continue;
             const matchUnit=a.all||(a.uids&&a.uids.includes(unit.uid));
             if(!matchUnit)continue;
             if(a.bhBonus)bhBonus+=a.bhBonus;
@@ -120,24 +128,27 @@ export default function App(){
             if(a.ap1uids&&a.ap1uids.includes(unit.uid))ap1=true;
             if(a.ap1chars&&a.ap1chars.includes(charKey))ap1=true;
             if(a.ap1m)ap1m=true;
+            if(a.ch5m)ch5m=true;
         }
         // Ironskein (10pts enhancement): +2W to Kâhl when HGC or Hearthband active
         if(charKey==="kahl"&&(activeDets.has("hg_covenant")||activeDets.has("hearthband"))){
             kahlW=2;
             enhancementPts+=10;
         }
-        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m};
+        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m,ch5m};
     };
 
     const applyBuff=(ws,buff,isShooting)=>{
         const useRrw1=buff.rrw1||(isShooting&&buff.rrw1Shoot);
         const useAp1=buff.ap1||(!isShooting&&buff.ap1m);
-        if(!ws||(!useRrw1&&!useAp1&&!buff.wBonus))return ws;
+        const useCh5=!isShooting&&buff.ch5m;
+        if(!ws||(!useRrw1&&!useAp1&&!buff.wBonus&&!useCh5))return ws;
         return ws.map(w=>{
             const[shots,skill,s,ap,d,tags]=w;
             return[shots,skill,s,useAp1?ap-1:ap,d,{...tags,
                 rrw1:useRrw1?1:(tags.rrw1||0),
                 w1:buff.wBonus>0?1:(tags.w1||0),
+                ch5:useCh5?1:(tags.ch5||0),
             }];
         });
     };
@@ -193,7 +204,7 @@ export default function App(){
                 ewpt,ewpt10,avgDpt,avgDpt10,
             };
         });
-    }),[tgts,yp,inclShoot,inclMelee,activeDets,enemyAp,charSel]);
+    }),[tgts,yp,inclShoot,inclMelee,activeDets,detOpts,enemyAp,charSel]);
 
     const rng=useMemo(()=>{
         const r={ewpt:[Infinity,-Infinity],avgDpt:[Infinity,-Infinity],composite:[Infinity,-Infinity],
@@ -345,10 +356,26 @@ export default function App(){
                                 <div style={{display:"flex",alignItems:"center",gap:5,marginBottom:2}}>
                                     <span style={{fontSize:9,background:active?C.amb:C.bdr2,color:active?C.bg:C.sub,borderRadius:2,padding:"1px 4px",fontWeight:700}}>{det.dp}DP</span>
                                     <span style={{fontSize:10,fontWeight:700,color:active?C.amb:C.tx}}>{det.name}</span>
-                                    {det.affects&&<span style={{fontSize:8,color:C.grn,marginLeft:"auto"}}>+calc</span>}
+                                    {(det.affects||det.options)&&<span style={{fontSize:8,color:C.grn,marginLeft:"auto"}}>+calc</span>}
                                 </div>
                                 <div style={{fontSize:8,color:C.vdim,marginBottom:2,letterSpacing:".05em",textTransform:"uppercase"}}>{det.disp}</div>
                                 <div style={{fontSize:9,color:C.vdim,lineHeight:1.3}}>{det.desc}</div>
+                                {det.options&&active&&(
+                                    <div onClick={e=>e.stopPropagation()} style={{marginTop:5,display:"flex",gap:3}}>
+                                        {det.options.map(opt=>{
+                                            const sel=(detOpts[det.id]||det.options[0].key)===opt.key;
+                                            return(
+                                                <button key={opt.key} onClick={()=>setDetOpts(p=>({...p,[det.id]:opt.key}))}
+                                                    style={{fontSize:8,padding:"2px 6px",borderRadius:2,cursor:"pointer",
+                                                        border:`1px solid ${sel?C.grn:C.bdr2}`,
+                                                        background:sel?`${C.grn}22`:"transparent",
+                                                        color:sel?C.grn:C.vdim}}>
+                                                    {opt.label}
+                                                </button>
+                                            );
+                                        })}
+                                    </div>
+                                )}
                             </div>
                         );
                     })}

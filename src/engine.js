@@ -7,7 +7,7 @@ function wt(s,t){if(s>=t*2)return 2;if(s>t)return 3;if(s===t)return 4;if(s*2<=t)
 
 export function calcW(shots,skill,s,ap,d,tags,tgt,bh=1){
     if(!shots)return 0;
-    const cp=tags.conv?(3/6):1/6;
+    const cp=tags.conv?(3/6):tags.ch5?(2/6):1/6;
     const hp=Math.min((7-Math.max(2,skill-bh))/6,5/6);
     let h=shots*hp;
     if(tags.sh1)h+=shots*cp;if(tags.sh2)h+=shots*cp*2;if(tags.shd3)h+=shots*cp*2;

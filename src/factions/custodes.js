@@ -455,11 +455,14 @@ export const UNITS = [
 // ─── DETACHMENTS ──────────────────────────────────────────────────────────────
 export const DETACHMENTS = [
     {id:"talons",  dp:3, name:"Talons of the Emperor", disp:"Take and Hold",
-        desc:"Revered Companions: Custodes aura gives nearby Sisters +1 hit. Sisters aura gives nearby Custodes FNP 5+ vs mortal wounds. No Custodes offence buff.",
-        affects:null},
+        desc:"Revered Companions: Custodes aura gives Sisters +1 hit. Sisters aura gives Custodes FNP 5+ vs mortal wounds.",
+        affects:{uids:["pro","vig","wit"], bhBonus:1}},
     {id:"shield_h",dp:2, name:"Shield Host", disp:"Purge the Foe",
-        desc:"Martial Mastery: choose each round — 5+ crits OR +1 AP on Ka'tah melee attacks. (+1 AP melee modelled.)",
-        affects:{all:true, ap1m:true}},
+        desc:"Martial Mastery: choose each battle round — 5+ crits OR +1 AP on Ka'tah melee attacks.",
+        options:[
+            {key:"crit", label:"5+ crits",   affects:{all:true, ch5m:true}},
+            {key:"ap",   label:"+1 AP melee", affects:{all:true, ap1m:true}},
+        ]},
     {id:"lions",   dp:2, name:"Lions of the Emperor", disp:"Disruption",
         desc:"[Unique: Lions] Against All Odds: +1 hit and +1 wound when no other friendly within 6\" (non-vehicles).",
         affects:{all:true, bhBonus:1, wBonus:1}},
