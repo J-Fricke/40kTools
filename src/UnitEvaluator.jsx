@@ -2,10 +2,12 @@ import { useState, useMemo, useEffect } from "react";
 import { calcWs, ewCalc } from "./engine.js";
 import { TARGETS, CHARS as V_CHARS, UNITS as V_UNITS, DETACHMENTS as V_DETS, UC as V_UC } from "./factions/votann.js";
 import { CHARS as C_CHARS, UNITS as C_UNITS, DETACHMENTS as C_DETS, UC as C_UC } from "./factions/custodes.js";
+import { CHARS as GK_CHARS, UNITS as GK_UNITS, DETACHMENTS as GK_DETS, UC as GK_UC } from "./factions/greyknights.js";
 
 const FACTIONS = {
-    votann:   {label:"Leagues of Votann", units:V_UNITS, chars:V_CHARS, dets:V_DETS, uc:V_UC},
-    custodes: {label:"Adeptus Custodes",  units:C_UNITS, chars:C_CHARS, dets:C_DETS, uc:C_UC},
+    votann:      {label:"Leagues of Votann", units:V_UNITS,  chars:V_CHARS,  dets:V_DETS,  uc:V_UC},
+    custodes:    {label:"Adeptus Custodes",  units:C_UNITS,  chars:C_CHARS,  dets:C_DETS,  uc:C_UC},
+    greyknights: {label:"Grey Knights",      units:GK_UNITS, chars:GK_CHARS, dets:GK_DETS, uc:GK_UC},
 };
 
 // ─── UI ───────────────────────────────────────────────────────────────────────
@@ -96,6 +98,7 @@ export default function App(){
         const mergedMWs=[...unitMWs,...(char.mWs||[])];
         const fnp=char.buffs.unitFnp||unit.fnp;
         const inv=char.buffs.unitInv?Math.min(unit.inv||99,char.buffs.unitInv):unit.inv;
+        const eApMod=char.buffs.eApMod||0;
         return{
             pts:unit.pts+char.pts,
             W:unit.W, sv:unit.sv, inv, fnp,
@@ -104,11 +107,12 @@ export default function App(){
             ew2:{m:1,W:char.W,sv:char.sv,inv:char.inv,fnp:char.fnp},
             charLabel:char.name,
             buffs:char.buffs,
+            eApMod,
         };
     };
 
     const getDetBuff=(unit,charKey)=>{
-        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false,ch5m=false;
+        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false,ch5m=false,sh1m=false,letm=false;
         for(const id of activeDets){
             const det=DETACHMENTS.find(d=>d.id===id);
             if(!det)continue;
@@ -129,26 +133,32 @@ export default function App(){
             if(a.ap1chars&&a.ap1chars.includes(charKey))ap1=true;
             if(a.ap1m)ap1m=true;
             if(a.ch5m)ch5m=true;
+            if(a.sh1m)sh1m=true;
+            if(a.letm)letm=true;
         }
         // Ironskein (10pts enhancement): +2W to Kâhl when HGC or Hearthband active
         if(charKey==="kahl"&&(activeDets.has("hg_covenant")||activeDets.has("hearthband"))){
             kahlW=2;
             enhancementPts+=10;
         }
-        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m,ch5m};
+        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m,ch5m,sh1m,letm};
     };
 
     const applyBuff=(ws,buff,isShooting)=>{
         const useRrw1=buff.rrw1||(isShooting&&buff.rrw1Shoot);
         const useAp1=buff.ap1||(!isShooting&&buff.ap1m);
         const useCh5=!isShooting&&buff.ch5m;
-        if(!ws||(!useRrw1&&!useAp1&&!buff.wBonus&&!useCh5))return ws;
+        const useSh1=!isShooting&&buff.sh1m;
+        const useLet=!isShooting&&buff.letm;
+        if(!ws||(!useRrw1&&!useAp1&&!buff.wBonus&&!useCh5&&!useSh1&&!useLet))return ws;
         return ws.map(w=>{
             const[shots,skill,s,ap,d,tags]=w;
             return[shots,skill,s,useAp1?ap-1:ap,d,{...tags,
                 rrw1:useRrw1?1:(tags.rrw1||0),
                 w1:buff.wBonus>0?1:(tags.w1||0),
                 ch5:useCh5?1:(tags.ch5||0),
+                sh1:useSh1?1:(tags.sh1||0),
+                let:useLet?1:(tags.let||0),
             }];
         });
     };
@@ -185,8 +195,9 @@ export default function App(){
             const ew2=combo.ew2&&buff.kahlW>0
                 ?{...combo.ew2,W:combo.ew2.W+buff.kahlW}
                 :combo.ew2;
-            const ew=ewCalc(unit.m*combo.W,combo.sv,combo.inv,combo.fnp,enemyAp)
-                +(ew2?ewCalc(ew2.m*ew2.W,ew2.sv,ew2.inv,ew2.fnp,enemyAp):0);
+            const eApUnit=enemyAp+(combo.eApMod||0);
+            const ew=ewCalc(unit.m*combo.W,combo.sv,combo.inv,combo.fnp,eApUnit)
+                +(ew2?ewCalc(ew2.m*ew2.W,ew2.sv,ew2.inv,ew2.fnp,eApUnit):0);
             const scoreTgts=tgts.filter(t=>!t.scoreExclude);
             const arr=scoreTgts.map(t=>vals[t.key]);
             const arr10=scoreTgts.map(t=>vals10[t.key]);
