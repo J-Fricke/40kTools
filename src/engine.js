@@ -1,7 +1,9 @@
 // ─── COMBAT MATH (army-agnostic) ─────────────────────────────────────────────
 // Weapon arrays: [shots, skill, S, AP, D, tags]
-// tags: { sh1, sh2, shd3, let, conv, con, tl, rrw1, dev, av3, am3, ai }
-// ai = ANTI-INFANTRY 2+: all hits auto-wound vs non-VEH/non-MON targets
+// tags: { sh1, sh2, shd3, let, conv, con, tl, rrw1, rrwf, dev, devmv, av3, am3, ai, sowf }
+// ai   = ANTI-INFANTRY 2+: all hits auto-wound vs non-VEH/non-MON targets
+// sowf = conditional rrwf (full wound reroll) applied only when target is VEH or MON
+// devmv = DEVASTATING WOUNDS: MONSTER/VEHICLE only (e.g. Desecrator laser destructor)
 // Target: { T, sv, inv, fnp, veh, mon }
 
 function wt(s,t){if(s>=t*2)return 2;if(s>t)return 3;if(s===t)return 4;if(s*2<=t)return 6;return 5;}
@@ -16,10 +18,11 @@ export function calcW(shots,skill,s,ap,d,tags,tgt,bh=1){
     let wp=Math.min((7-wt(s,tgt.T))/6,5/6);
     if(tags.w1)wp=Math.min((7-Math.max(2,wt(s,tgt.T)-1))/6,5/6);
     if(tags.av3&&tgt.veh)wp=Math.max(wp,4/6);if(tags.am3&&tgt.mon)wp=Math.max(wp,4/6);
-    if(tags.tl)wp=Math.min(wp+(1-wp)*wp,5/6);if(tags.rrw1)wp=Math.min(wp*7/6,5/6);if(tags.rrwf)wp=Math.min(1-(1-wp)*(1-wp),5/6);
+    if(tags.tl)wp=Math.min(wp+(1-wp)*wp,5/6);if(tags.rrw1)wp=Math.min(wp*7/6,5/6);
+    if(tags.rrwf||(tags.sowf&&(tgt.veh||tgt.mon)))wp=Math.min(1-(1-wp)*(1-wp),5/6);
     let w=(tags.let||tags.conv||tags.con||(tags.ai&&isInf))?(shots*cp+(h-shots*cp)*wp):h*wp;
     let mort=0,nw=w;
-    if(tags.dev){mort=h/6;nw=h*Math.max(0,wp-1/6);}
+    if(tags.dev||(tags.devmv&&(tgt.veh||tgt.mon))){mort=h/6;nw=h*Math.max(0,wp-1/6);}
     const ms=tgt.sv-ap,es=tgt.inv?Math.min(ms,tgt.inv):ms,sp=es<=6?(7-Math.max(es,2))/6:0;
     let out=(mort+nw*(1-sp))*d;
     if(tgt.fnp)out*=(1-(7-tgt.fnp)/6);

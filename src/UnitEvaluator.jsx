@@ -3,11 +3,13 @@ import { calcWs, ewCalc } from "./engine.js";
 import { TARGETS, CHARS as V_CHARS, UNITS as V_UNITS, DETACHMENTS as V_DETS, UC as V_UC } from "./factions/votann.js";
 import { CHARS as C_CHARS, UNITS as C_UNITS, DETACHMENTS as C_DETS, UC as C_UC } from "./factions/custodes.js";
 import { CHARS as GK_CHARS, UNITS as GK_UNITS, DETACHMENTS as GK_DETS, UC as GK_UC } from "./factions/greyknights.js";
+import { CHARS as CK_CHARS, UNITS as CK_UNITS, DETACHMENTS as CK_DETS, UC as CK_UC } from "./factions/chaosknights.js";
 
 const FACTIONS = {
-    votann:      {label:"Leagues of Votann", units:V_UNITS,  chars:V_CHARS,  dets:V_DETS,  uc:V_UC},
-    custodes:    {label:"Adeptus Custodes",  units:C_UNITS,  chars:C_CHARS,  dets:C_DETS,  uc:C_UC},
-    greyknights: {label:"Grey Knights",      units:GK_UNITS, chars:GK_CHARS, dets:GK_DETS, uc:GK_UC},
+    votann:       {label:"Leagues of Votann", units:V_UNITS,  chars:V_CHARS,  dets:V_DETS,  uc:V_UC},
+    custodes:     {label:"Adeptus Custodes",  units:C_UNITS,  chars:C_CHARS,  dets:C_DETS,  uc:C_UC},
+    greyknights:  {label:"Grey Knights",      units:GK_UNITS, chars:GK_CHARS, dets:GK_DETS, uc:GK_UC},
+    chaosknights: {label:"Chaos Knights",     units:CK_UNITS, chars:CK_CHARS, dets:CK_DETS, uc:CK_UC},
 };
 
 // ─── UI ───────────────────────────────────────────────────────────────────────
@@ -33,7 +35,7 @@ export default function App(){
     const changeFaction=f=>{
         const d=FACTIONS[f];
         setFaction(f);
-        setVis(new Set(d.units.map(u=>u.id)));
+        setVis(new Set(d.units.filter(u=>!u.hidden).map(u=>u.id)));
         setCharSel(()=>{const s={};d.units.forEach(u=>s[u.id]=new Set(["none"]));return s;});
         setActiveDets(new Set());
         setDetOpts({});
@@ -44,7 +46,7 @@ export default function App(){
     const uids=useMemo(()=>[...new Set(UNITS.map(u=>u.uid))],[faction]);
     const allIds=useMemo(()=>new Set(UNITS.map(u=>u.id)),[faction]);
 
-    const [vis,setVis]=useState(()=>new Set(V_UNITS.map(u=>u.id)));
+    const [vis,setVis]=useState(()=>new Set(V_UNITS.filter(u=>!u.hidden).map(u=>u.id)));
     const [tgrp,setTgrp]=useState("meta");
     const [yp,setYp]=useState(true);
     const [inclShoot,setInclShoot]=useState(true);
@@ -112,7 +114,7 @@ export default function App(){
     };
 
     const getDetBuff=(unit,charKey)=>{
-        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false,ch5m=false,sh1m=false,letm=false;
+        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false,ch5m=false,sh1m=false,letm=false,sh1g=false,letg=false;
         for(const id of activeDets){
             const det=DETACHMENTS.find(d=>d.id===id);
             if(!det)continue;
@@ -135,21 +137,23 @@ export default function App(){
             if(a.ch5m)ch5m=true;
             if(a.sh1m)sh1m=true;
             if(a.letm)letm=true;
+            if(a.sh1g)sh1g=true;
+            if(a.letg)letg=true;
         }
         // Ironskein (10pts enhancement): +2W to Kâhl when HGC or Hearthband active
         if(charKey==="kahl"&&(activeDets.has("hg_covenant")||activeDets.has("hearthband"))){
             kahlW=2;
             enhancementPts+=10;
         }
-        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m,ch5m,sh1m,letm};
+        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m,ch5m,sh1m,letm,sh1g,letg};
     };
 
     const applyBuff=(ws,buff,isShooting)=>{
         const useRrw1=buff.rrw1||(isShooting&&buff.rrw1Shoot);
         const useAp1=buff.ap1||(!isShooting&&buff.ap1m);
         const useCh5=!isShooting&&buff.ch5m;
-        const useSh1=!isShooting&&buff.sh1m;
-        const useLet=!isShooting&&buff.letm;
+        const useSh1=buff.sh1g||(!isShooting&&buff.sh1m);
+        const useLet=buff.letg||(!isShooting&&buff.letm);
         if(!ws||(!useRrw1&&!useAp1&&!buff.wBonus&&!useCh5&&!useSh1&&!useLet))return ws;
         return ws.map(w=>{
             const[shots,skill,s,ap,d,tags]=w;

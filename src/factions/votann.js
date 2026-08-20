@@ -1,4 +1,5 @@
 // ─── FACTION: LEAGUES OF VOTANN ───────────────────────────────────────────────
+// Last updated: Faction Pack v1.1 (legal 2026-08-03); MFM 2026-07 v1.1; no weapon stat changes
 
 export const TARGETS=[
     {key:"light", grp:"std", label:"Light",  sub:"T3 5+sv",    T:3, sv:5,inv:null,fnp:null,veh:false,mon:false,scoreExclude:true},

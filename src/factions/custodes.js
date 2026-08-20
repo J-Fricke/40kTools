@@ -1,4 +1,5 @@
 // ─── FACTION: ADEPTUS CUSTODES ────────────────────────────────────────────────
+// Last updated: Faction Pack v1.1 (legal 2026-08-03); weapon profiles already reflected v1.1 data
 // Weapon note: Ka'tah (army rule) lets each unit pick Dacatarai (SH1 melee) or
 // Rendax (Lethal Hits melee) before each Fight phase. Rows labelled "Da" / "Re"
 // reflect those stances. Units without meaningful melee get a single row.
