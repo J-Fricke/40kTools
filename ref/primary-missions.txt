@@ -1,0 +1,253 @@
+PRIMARY MISSION CARDS — transcribed from ref/all-the-primary-mission-cards-*.webp photos.
+Icon legend (confirmed by user against physical cards):
+  Shield/skull badge = TAKE AND HOLD
+  Eye                = RECONNAISSANCE
+  Target/compass     = PRIORITY ASSETS
+  X                  = DISRUPTION
+  Sword-in-triangle  = PURGE THE FOE
+
+These are PRIMARY mission cards — the primary mission is determined by the
+disposition matchup itself, not drawn/dealt. (SECONDARY missions are a separate,
+similarly-styled deck, NOT covered by this file — different draw-2 mechanic,
+different card pool; don't conflate the two.)
+
+Card anatomy: top-left = primary mission name/spine. Lower-left icon = the card's
+OWN disposition (which 5-card pool it belongs to — this is what each section below
+is organized by). Middle = scoring rules. Lower-right icon (next to "OPPONENT") =
+the opponent disposition that triggers use of this specific card — within your own
+disposition's 5-card pool, which one of the 5 you actually play depends on what
+your opponent is running that game. Each pool has exactly 5 unique missions (one
+per possible opponent disposition, including a mirror matchup vs itself), with one
+of the 5 printed as 2 physical copies for some reason (not a 6th mission).
+
+Priority Assets is structurally different: its 6 cards (5 unique + Sabotage x2)
+have NO opponent-matchup badge at all — just a plain Objective Action icon. All are
+"Objective Action" cards (secure/maintain/extract/vanguard/sabotage) with no VP
+scoring table printed on them. Confirmed this is the correct/complete PA image, so
+PA's scoring is likely defined by a shared/generic rule elsewhere (check
+core-rules.txt or event-companion-v1.1.txt) rather than per-card — not yet found.
+
+Transcribed from photos, not official text — minor OCR errors possible in VP
+numbers/wording. All 4 non-PA sections below are now fully cross-referenced
+(every card's opponent-matchup confirmed against a clear photo).
+
+================================================================================
+RECONNAISSANCE (eye) — full 5-matchup set confirmed
+================================================================================
+Recon missions consistently reward: units spread across multiple table quarters,
+completing actions (intel/markers), and denying/clearing zones of enemy models —
+NOT raw kill count or single-objective camping.
+
+RECONNAISSANCE SWEEP (vs Take and Hold)
+  Any battle round: 1+ friendly units in 3+ different table quarters and not within
+    6" of centre of battlefield — 3VP; for each enemy unit destroyed this turn — 1VP
+  2nd round onwards: you control 1+ objectives (excl. home) — 3VP
+
+TRIANGULATION (vs Purge the Foe, Objective Action)
+  Starts: your Shooting phase, 2nd round onwards. Units: 1 friendly unit within
+    range of an objective. Use limit: once/turn. Completes: end of turn if your unit
+    and one other unit are within 6" of that objective. Effect: objective is
+    "triangulated."
+  2nd round onwards: 2 objectives triangulated — 6VP; 3+ triangulated — 10VP
+
+SURVEIL THE FOE (vs Disruption, Objective Action)
+  Starts: your Shooting phase. Units: any friendly unit. Use limit: once/unit.
+    Completes: immediately. Effect: select a visible enemy unit not yet surveilled
+    this turn; it is surveilled until end of the battle round.
+
+GATHER INTEL (vs Reconnaissance — mirror matchup, Objective Action)
+  Starts: your Shooting phase. Units: 1 friendly unit within range of an objective
+    (each unit starting this action must use a different objective). Use limit:
+    once/turn. Completes: end of turn if your unit controls that objective.
+    Effect: place an operation marker within range of that objective.
+  Scoring seen: 4VP control-based; 7VP for completing the Extract Intelligence
+    action; 5VP end-of-battle for 3+ operation markers on the battlefield / a
+    marker within range of opponent's home objective.
+  (Two near-identical copies photographed — the x2-print pattern, not two
+  separate missions.)
+
+SEARCH AND SCOUR (vs Priority Assets)
+  Any battle round: control 1+ central objectives — 3VP; 1+ enemy units that
+    started the turn within a terrain area are destroyed — 2VP
+  2nd round onwards: for each objective you control (excl. home) — 4VP
+  End of battle: no enemy units wholly within your territory — 5VP
+
+================================================================================
+DISRUPTION (X) — full 5-matchup set confirmed
+================================================================================
+Disruption missions lean on terrain/objective denial, decoys, and operation markers
+rather than pure kill count or simple hold.
+
+DEATH TRAP (vs Take and Hold)
+  Any battle round: for each terrain area trapped this turn — 2VP (+3VP cumulative
+    if it's an objective); 1+ enemy units that started the turn in a trapped
+    terrain area were destroyed — 3VP
+  2nd round onwards: control 1+ objectives (excl. home) — 4VP
+
+DELAYING ACTION (vs Purge the Foe)
+  Any battle round: 1+ enemy units destroyed this turn — 2VP
+  2nd round onwards: control 1+ objectives (excl. home) — 4VP; and 1+ expansion
+    objectives — 3VP
+
+OUTMANOEUVRE (vs Disruption — mirror matchup, x2 copies seen)
+  Any battle round: control opponent's home objective — 10VP
+  1st round: for each objective you control (excl. home) — 4VP
+  2nd-3rd round: for each objective you control (excl. home) — 5VP
+  4th round onwards: for each objective you control (excl. home/expansion) — 6VP
+
+SMOKE AND MIRRORS (vs Reconnaissance, Objective Action)
+  Any battle round: for each objective decoyed this turn — 2VP (+2VP cumulative if
+    within opponent's territory)
+  2nd round onwards: control 1+ objectives (excl. home) — 4VP
+  End of battle: 1+ objectives are decoyed — 10VP
+
+LOCATE AND DENY (vs Priority Assets)
+  Start of turn: select one of your operation markers; check enemy units in the
+    same terrain area as that marker (contest logic).
+  Any battle round: 1+ enemy units that started the turn within range of an
+    operation marker are destroyed — 4VP
+  2nd round onwards: control 1+ objectives (excl. home) — 4VP
+  End of battle: only one of your operation markers remains, uncontested — 5VP
+
+Note: "Sensor Sweep" appeared at the edge of one Disruption photo but is NOT one
+of Disruption's 5 — it was a stray card from an adjacent stack in frame (per
+instruction to ignore edge/flipped cards). Not included above; likely belongs to
+whichever disposition its own lower-left icon actually shows.
+
+================================================================================
+PURGE THE FOE (sword-in-triangle) — full 5-matchup set confirmed
+================================================================================
+Straightforward kill-count-driven missions, most with a control-based kicker.
+
+DESTROYER'S WRATH (vs Priority Assets)
+  Any battle round: 1+ enemy units destroyed this turn — 3VP
+  2nd round onwards: control 1+ objectives (excl. home) — 4VP
+
+CONSECRATE (vs Reconnaissance)
+  Any battle round: 1-2 objectives consecrated this turn — 3VP; 3+ consecrated — 6VP
+  2nd round onwards: control 1+ objectives (excl. home) — 4VP
+  End of battle: opponent's home objective is consecrated — 5VP
+
+PUNISHMENT (vs Disruption)
+  Start of turn: select up to 3 enemy units on the battlefield/within range of
+    objectives that destroyed a friendly unit last turn — they are "condemned"
+    until the start of your next turn.
+  Any battle round: 1+ condemned units destroyed this turn — 5VP
+  2nd round onwards: control 1+ objectives (excl. home) — 4VP
+  End of battle: control opponent's home objective — 8VP
+
+MEATGRINDER (vs Purge the Foe — mirror matchup, x2 copies seen)
+  Any battle round: 1+ enemy units destroyed this turn — 3VP
+  2nd round onwards: control 1+ objectives (excl. home) — 4VP; more enemy units
+    destroyed than friendly units lost last turn — 5VP
+
+UNSTOPPABLE FORCE (vs Take and Hold)
+  Any battle round: 1+ enemy units destroyed this turn — 3VP
+  2nd round onwards: for each objective you did NOT control at the start of the
+    turn (excl. home) — 3VP
+  End of battle: control 1+ central objectives — 5VP
+
+================================================================================
+PRIORITY ASSETS (target/compass) — full 5-matchup set confirmed (front-of-card)
+================================================================================
+Earlier version of this section was built from card BACKS (action mechanics only,
+lightning-bolt icon, no scoring) — corrected below using the actual fronts. VP
+numbers below are best-effort reads off small print, flag anything that looks off.
+
+SECURE ASSET (vs Take and Hold, Objective Action)
+  Any battle round, end of turn: a friendly unit secured this objective this turn
+    (see below) — 6VP; 1+ units that started the turn within 6" of a central
+    objective were destroyed — 2VP
+  2nd round onwards: control 1+ objectives — 4VP; 1+ of those is a central
+    objective — cumulative bonus (~8VP, unconfirmed)
+  End of battle: control opponent's home objective — 10VP
+
+VITAL LINK (vs Purge the Foe, Objective Action)
+  Any battle round: control 1+ central objectives — 2VP; for each of your
+    operation markers within range of a central objective — +1VP cumulative
+  2nd round onwards: control 1+ objectives — 4VP; 1+ central — cumulative bonus
+    (unconfirmed)
+  End of battle: 3+ central objectives — 10VP (unconfirmed)
+
+EXTRACT RELIC (vs Disruption, Objective Action)
+  Any battle round: 1+ of your operation markers within a terrain area — VP
+    (value unconfirmed)
+  2nd round onwards: control 1+ objectives — 4VP
+  End of battle: only 1 of your opponent's operation markers on the battlefield,
+    within a terrain area with one of yours and no enemy units present — ~4VP
+
+VANGUARD OPERATION (vs Reconnaissance, Objective Action)
+  Any battle round: a friendly unit performed a vanguard operation this turn —
+    4VP; 1+ enemy units destroyed this turn — 2VP
+  2nd round onwards: control 1+ objectives — 4VP
+  End of battle: control opponent's home objective — 10VP
+
+SABOTAGE (vs Priority Assets — mirror matchup, x2 copies seen, Objective Action)
+  Any battle round: for each friendly unit that committed sabotage this turn —
+    3VP; for each of those within range of an objective in opponent's
+    territory — +2VP cumulative
+  2nd round onwards: control 1+ objectives — 4VP
+
+Action definitions (from the earlier back-of-card read, still accurate for HOW
+each action works — just missing scoring context before):
+  SECURE ASSET: starts your Shooting phase, 1 friendly unit within range of an
+    objective (incl. home), once/turn, completes end of turn if unit controls it.
+  VITAL LINK/MAINTAIN CONTROL: same shape, 1 friendly unit within range of an
+    objective, once/turn.
+  EXTRACT RELIC: same shape, effect places an operation marker within range of
+    the objective.
+  VANGUARD OPERATION: 1 friendly unit within opponent's territory, once/turn,
+    completes if no enemy units are within that terrain area.
+  SABOTAGE: unlimited uses/turn, each unit must target a different objective.
+
+================================================================================
+TAKE AND HOLD (shield/skull) — full 5-matchup set confirmed
+================================================================================
+Simple objective-count/control missions, least reliant on actions or kills.
+
+INESCAPABLE DOMINION (vs Priority Assets)
+  Any battle round, end of turn: control 2+ objectives — 4VP
+  2nd round onwards: control 2+ objectives — 5VP
+  End of battle: control opponent's home objective — 5VP
+
+PURGE AND SECURE (vs Reconnaissance)
+  Any battle round, end of turn: 1+ enemy units destroyed this turn within range of
+    1+ objectives — 3VP
+  2nd round onwards, end of Command phase (or end of turn in 5th round): for each
+    objective you control (excl. home) — 4VP
+
+DETERMINED ACQUISITION (vs Disruption)
+  Any battle round, end of turn: 1+ objectives you did NOT control at start of
+    turn (excl. home) — 2VP
+  2nd round onwards: for each objective you control (excl. home) — +3VP cumulative
+
+IMMOVABLE OBJECT (vs Purge the Foe)
+  Any battle round, end of turn: control one central objective — 3VP
+  2nd-4th round: control 1+ objectives (excl. home) — 5VP
+  5th round: same — 5VP
+
+BATTLEFIELD DOMINANCE (vs Take and Hold — mirror matchup, x2 copies seen)
+  1st-2nd round, end of turn: control more objectives than opponent — 2VP
+  2nd round onwards: for each objective you control (excl. home) — +2VP cumulative;
+    bonus if you control your home objective
+
+================================================================================
+TAKEAWAYS FOR LIST-BUILDING (per faction conversation, not on the cards themselves)
+================================================================================
+- Recon rewards SPREAD (multiple quarters), MOBILITY, and ACTIONS over raw killing —
+  favors more independent cheap/mobile units over concentrated blobs.
+- Disruption leans on terrain control, decoys, and operation markers — action
+  economy and board denial matter more than a kill count.
+- Purge the Foe is the simplest "kill stuff, hold what you can" profile — favors
+  raw damage output (GMND, Crowe+Purifiers) over spread.
+- Priority Assets is pure objective-action completion, scoring mechanism not yet
+  located (not on the cards themselves) — needs the core/event-companion rules.
+- Take and Hold is the most "just control more objectives than them" of the five —
+  favors durable, hard-to-shift units sitting on objectives over mobility.
+
+Since our list targets Reconnaissance specifically: whichever of the 5 Recon
+missions comes up depends on the OPPONENT's disposition — e.g. facing a Purge the
+Foe opponent means playing Triangulation (an action/positioning mission), while
+facing a Take and Hold opponent means Reconnaissance Sweep (quarters + kills). The
+list may want to flex differently depending on what the opponent's disposition
+tells you about which of the 5 Recon missions is actually in play that game.

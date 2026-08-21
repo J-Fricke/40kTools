@@ -1,3 +1,10 @@
 node_modules/
 dist/
 .DS_Store
+
+# raw source material for ref/ (PDFs, images) - not tracked, only the
+# transcribed .txt output in ref/ itself is committed
+ref/archive/*
+!ref/archive/.gitkeep
+ref/ingest/*
+!ref/ingest/.gitkeep

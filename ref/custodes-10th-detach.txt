@@ -1,0 +1,1281 @@
+
+Datasheets
+ 
+ 
+ 
+ 
+The Rules
+ 
+Factions
+Search this site...
+Adeptus Custodes 
+[ 
+No filter
+ ]
+The shining golden warriors known as the Adeptus Custodes are the elite bodyguard of the Emperor himself. Their word is law and their might in battle unsurpassed, even amongst the ranks of the Space Marines. Striding resplendent and fearless through the fog of war, they bring hope to the embattled civilisations of Mankind and swift death to their enemies.
+
+Contents
+Books
+FAQ
+Faction Pack: Adeptus Custodes
+Keywords
+Introduction
+Army Rules
+Martial Ka’tah
+Talons Of The Emperor
+Detachment Rule
+Revered Companions
+Enhancements
+Stratagems
+Shield Host
+Detachment Rule
+Martial Mastery
+Enhancements
+Stratagems
+Null Maiden Vigil
+Detachment Rule
+Creeping Dread (Aura)
+Enhancements
+Stratagems
+Auric Champions
+Detachment Rule
+Assemblage of Might
+Enhancements
+Stratagems
+Solar Spearhead
+Detachment Rule
+Auric Armour
+Enhancements
+Stratagems
+Lions of the Emperor
+Detachment Rule
+Against All Odds
+Enhancements
+Stratagems
+Crusade Rules
+Magisterium Lex Ultima
+Endeavour Imperatives
+Endeavour Rewards
+Dishonour
+Battle Scars
+Agendas
+Requisitions
+Battle Traits
+Crusade Relics
+Artefacts of the Vaults
+Crusade Badges
+Boarding Actions
+Voyagers in Darkness
+Mustering a Boarding Patrol
+Rules Adaptations
+Army Rule
+Focused Ka’tah
+Detachment Rule
+Overwhelming Magnificence
+Enhancements
+Stratagems
+Black Ship Guardians
+Mustering a Boarding Patrol
+Rules Adaptations
+Army Rule
+Focused Ka’tah
+Detachment Rule
+Priority Quarry
+Enhancements
+Stratagems
+Books
+Show History
+Book	Kind	Edition	Version	Last update
+  Adeptus Custodes	Faction Pack	10	1.0	October 2025
+  Munitorum Field Manual	Expansion	10	4.3	May 2026
+  Balance Dataslate	Rulebook	10	3.4	March 2026
+  Boarding Actions	Expansion	10	1.1	July 2025
+FAQ
+Faction Pack: Adeptus Custodes
+Q:	If an enemy model is within 12" of any part of a unit that is led by a CHARACTER with the Radiant Mantle Enhancement when that enemy model selects targets for its attacks, do those attacks suffer from the -1 Hit roll penalty?
+A:	
+Yes.
+Q:	If I am using the Auric Champions Detachment and an ADEPTUS CUSTODES CHARACTER model that is leading a unit from my army is destroyed (e.g. by an attack with the [PRECISION] ability), does the Assemblage of Might Detachment rule still apply to the remaining models in that unit until the start of my next Command phase?
+A:	
+No.
+Q:	If I am using the Auric Champions Detachment, when selecting an enemy unit for the Assemblage of Might Detachment rule, can I select a unit that is embarked within a TRANSPORT?
+A:	
+No.
+
+Keywords
+ADEPTUS CUSTODES (31),AIRCRAFT (2),ANATHEMA PSYKANA (6),BATTLELINE (1),CHARACTER (8),DEDICATED TRANSPORT (1),EPIC HERO (3),FLY (9),IMPERIUM (31),INFANTRY (17),JUMP PACK (1),MOUNTED (3),RHINO (1),SHIELD-CAPTAIN (4),SMOKE (2),TERMINATOR (3),TRANSPORT (4),VEHICLE (11),WALKER (4)
+
+The keywords presented in this section have a number of special features:
+CLICK on the link to open the tooltip.
+The number in parentheses indicates the number of datasheets containing this keyword. This number represents the total number of datasheets in the faction, regardless of the filter.
+The list does not include named keywords that match the datasheet’s name (unless there are other datasheets with such a keyword).
+Introduction
+On the following pages you will find several ADEPTUS CUSTODES Detachments you can select from, as described in the Core Rules (see the Select Detachment Rules step). If you are playing a Crusade battle, see the equivalent step in the Mustering a Crusade Army section of the main Crusade rules. Each Detachment is a themed fighting force that focuses on one particular combat style employed by the Adeptus Custodes - the rules they include are as follows:
+
+1
+DETACHMENT RULE
+The Detachment rule listed here will apply to either your whole army or to particular units within it. If any additional restrictions or benefits apply to a Detachment, they’ll be listed here. This can include units your army either must include or cannot include, as well as additional keywords some of your units may gain.
+
+2
+ENHANCEMENTS
+When mustering your army, your chosen Detachment enables you to upgrade CHARACTERS using the Enhancements listed here, as described in the Core Rules (see the Select Units step).
+If you are playing a Crusade battle, you can instead use the Renowned Heroes Requisition to give your CHARACTERS Enhancements, as described in the main Crusade rules.
+
+3
+STRATAGEMS
+Your chosen Detachment gives you access to the Stratagems listed here in addition to the Core Stratagems listed in the Core Rules. During the battle, you can spend Command points (CP) to use these Stratagems.
+Army Rules
+Martial Ka’tah
+Specialised disciplines mastered by Custodians over decades if not centuries, each ka’tah equips its practitioner to overmaster any foe in a particular discipline or philosophy. Martial katahs allow the warriors of the Adeptus Custodes to deploy stances, movements, war philosophies and lethal skills that enhance their already terrifying martial prowess and focus it against particular threats.
+
+Each time a unit from your army with this ability is selected to fight, select one of the Ka’tah Stances below. Until that unit has finished making its attacks, the selected Stance is active for it and it gains the relevant ability:
+Dacatarai Stance
+
+Those Custodians skilled in the Dacatarai Ka'tah are able to turn their enemies numerical advantage against them. Reserved for when the Custodians must battle seething hordes of foes, this stance sees them reap a terrible tally
+
+Melee weapons equipped by models in this unit have the [SUSTAINED HITS 1] ability.
+
+Rendax Stance
+
+Masters of Rendax are superlative monster and war machine hunters. They have studied every aspect of how to do battle with a foe far larger than themselves, how to evade its powerful attacks, exploit its blind spots and lay it low.
+
+Melee weapons equipped by models in this unit have the [LETHAL HITS] ability.
+
+Talons Of The Emperor
+Detachment Rule
+Revered Companions
+The Custodians and the Silent Sisters often fought as one during the earliest days of the Imperium. Ten thousand years on, they have lost none of the unity of doctrine and purpose that makes them such a deadly combination.
+
+ANATHEMA PSYKANA units from your army gain the following the ability:
+
+Null Aegis (Aura): While an ADEPTUS CUSTODES unit is within 6" of this unit, models in that unit have the Feel No Pain 5+ ability against Psychic Attacks and mortal wounds.
+
+All other ADEPTUS CUSTODES units from your army gain the following ability:
+
+Deadly Unity (Aura): While an ANATHEMA PSYKANA unit is within 6" of this unit, each time a model in that ANATHEMA PSYKANA unit makes an attack, add 1 to the Hit roll.
+
+Enhancements
+Aegis Projector20 pts
+This archeotech field projector triggers in response to autopremonitory danger input. It pulse-casts a temporary force field that can stave off even the most powerful attacks, before charging ready for another use.
+
+ADEPTUS CUSTODES model only. Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0.
+
+Champion of the Imperium25 pts
+This leader is amongst the finest martial champions in all the Emperor's realm, and their mere presence inspires their followers to remarkable efforts.
+
+ADEPTUS CUSTODES model only. The range of the bearer’s Null Aegis or Deadly Unity ability is increased to 9".
+
+Gift of Terran Artifice15 pts
+This warrior wields a close-quarters weapon crafted by the finest noble artisans of Terra, the workmanship of which is magnificent in its lethality.
+
+ADEPTUS CUSTODES model only. Each time the bearer makes a melee attack, add 1 to the Wound roll.
+
+Radiant Mantle30 pts
+The golden glory of the Emperor himself glows around this magnificent warrior like Sol's own fire. Enemies are blinded by its light, forced to recoil in pain and terror.
+
+ADEPTUS CUSTODES model only. Each time an attack targets the bearer’s unit, if the attacking model is within 12", subtract 1 from the Hit roll.
+
+
+Stratagems
+HUNT AS ONE
+1CP
+Talons Of The Emperor – Strategic Ploy Stratagem
+Custodians and Null Maidens cover one another seamlessly as they manoeuvre to corner their prey.
+WHEN: Start of your Movement phase.
+
+TARGET: Up to two ADEPTUS CUSTODES units from your army.
+
+EFFECT: Until the end of the turn, your units are eilgible to shoot and/or declare a charge in a turn in which they Fell Back.
+
+RESTRICTIONS: You can only select two units if one (and only one) of them is an ANATHEMA PSYKANA unit and both are within 6" of each other.
+TALONS INTERLOCKED
+1CP
+Talons Of The Emperor – Battle Tactic Stratagem
+With practiced ease, the Talons of the Emperor establish vicious crossfires to cut the foe apart.
+WHEN: Your Shooting phase.
+
+TARGET: Up to two ADEPTUS CUSTODES INFANTRY units from your army, and one enemy unit that is an eligible target for all of those units.
+
+EFFECT: Until the end of the phase, your units can only target that enemy unit, but each time a model in one of your units makes a ranged attack, improve the Strength and Armour Penetration characteristics of that attack by 1.
+
+RESTRICTIONS: You can only select two units if one (and only one) of them is an ANATHEMA PSYKANA unit and both are within 6" of each other.
+EMPYRIC SEVERANCE
+1CP
+Talons Of The Emperor – Battle Tactic Stratagem
+Null Maidens quash the manifestations of witches.
+WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One ADEPTUS CUSTODES unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one friendly ANATHEMA PSYKANA unit within 6" of that ADEPTUS CUSTODES unit.
+
+EFFECT: Until the end of the phase, your unit has the Feel No Pain 4+ ability against Psychic attacks and mortal wounds.
+EMPEROR’S EXECUTIONERS
+2CP
+Talons Of The Emperor – Battle Tactic Stratagem
+The Talons of the Emperor tear apart their prey.
+WHEN: Start of the Fight phase.
+
+TARGET: Up to two ADEPTUS CUSTODES units from your army.
+
+EFFECT: Until the end of the phase, each time a model in one of your units targets an enemy unit that is below its Starting Strength, add 1 to the Wound roll.
+
+RESTRICTIONS: You can only select two units if one (and only one) of them is an ANATHEMA PSYKANA unit and both are within 6" of each other.
+TALONED PINCER
+1CP
+Talons Of The Emperor – Battle Tactic Stratagem
+Every move the enemy makes only sees them fall.
+WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.
+
+TARGET: Up to two ADEPTUS CUSTODES units from your army that are within 9" of that enemy unit.
+
+EFFECT: Your units can make a Normal move of up to 6".
+
+RESTRICTIONS: You cannot select units that are within Engagement Range of one or more enemy units. You can only select two units if one (and only one) of them is an ANATHEMA PSYKANA unit and both are within 6" of each other.
+SHIELD OF HONOUR
+1CP
+Talons Of The Emperor – Epic Deed Stratagem
+It is second nature for Custodes to place themselves between their comrades and potential peril.
+WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.
+
+TARGET: One ANATHEMA PSYKANA INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks, and one other friendly ADEPTUS CUSTODES INFANTRY unit (excluding ANATHEMA PSYKANA units) within 6" of that ANATHEMA PSYKANA INFANTRY unit.
+
+EFFECT: Until the end of the phase, any attack that targets your ANATHEMA PSYKANA unit must instead target your other ADEPTUS CUSTODES unit (unless it is not an eligible target).
+Shield Host
+Detachment Rule
+Martial Mastery
+The Custodians have perfected countless ways of making war, be it on a personal, tactical or strategic scale.
+
+At the start of the battle round, you can select one of the bullet points below. If you do, until the start of the next battle round, that bullet point’s effects apply.
+Each time an ADEPTUS CUSTODES model from your army with the Martial Ka’tah ability makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.
+Improve the Armour Penetration characteristic of melee weapons equipped by ADEPTUS CUSTODES models from your army with the Martial Ka’tah ability by 1.
+
+Enhancements
+Auric Mantle15 pts
+This auramite weave garment is draped about its wearers shoulders before they don their battle armour. It forms a final, incredibly resilient layer of protection for them should all their other defences fail.
+
+SHIELD-CAPTAIN or BLADE CHAMPION model only. Add 2 to the bearer’s Wounds characteristic.
+
+Castellan’s Mark20 pts
+This finely worked pauldron is awarded to whichever living Custodian currently holds the greatest tally of victories in the Blood Games. The one who bears the Castellan 's Mark is guaranteed to be a superlative strategic genius.
+
+SHIELD-CAPTAIN model only. After both players have deployed their armies, you can select up to two ADEPTUS CUSTODES units from your army (excluding ANATHEMA PSYKANA units) and redeploy all of those units. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves.
+
+From the Hall of Armouries25 pts
+The racks of the Adeptus Custodes’ armouries yield up some of the most finely crafted close-quarters weaponry borne by any soldiers of the Imperium.
+
+SHIELD-CAPTAIN model only. Add 1 to the Strength and Damage characteristics of the bearer’s melee weapons.
+
+Panoptispex5 pts
+This incredibly advanced precursor to Imperial auspicators is able to see through solid objects and into esoteric spectra, meaning no malcontent against the Throne can ever hide from its bearer’s gaze.
+
+SHIELD-CAPTAIN or BLADE CHAMPION model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES cover] ability.
+
+
+Stratagems
+ARCANE GENETIC ALCHEMY
+1CP
+Shield Host – Battle Tactic Stratagem
+The Adeptus Custodes are individually engineered on a molecular level using secrets of genetic alchemy that render them virtual demigods in battle.
+WHEN: Any phase, just after a mortal wound has been allocated to an ADEPTUS CUSTODES model from your army(excluding ANATHEMA PSYKANA models).
+
+TARGET: That ADEPTUS CUSTODES model’s unit.
+
+EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds.
+AVENGE THE FALLEN
+1CP
+Shield Host – Strategic Ploy Stratagem
+The loss of a single Talon of the Emperor is commemorated by the tolling of the Bell of Lost Souls on Terra, and by their comrades’ bloody vengeance on the battlefield.
+WHEN: Start of the Fight phase.
+
+TARGET: One ADEPTUS CUSTODES unit from your army (excluding ANATHEMA PSYKANA units) that is below its Starting Strength.
+
+EFFECT: Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. If your unit is Below Half-strength, until the end of the phase, add 2 to the Attacks characteristic of those melee weapons instead.
+UNWAVERING SENTINELS
+1CP
+Shield Host – Strategic Ploy Stratagem
+Once the Custodians have laid claim to a location, they defend it with incredible tenacity and skill.
+WHEN: Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One ADEPTUS CUSTODES INFANTRY unit from your army (excluding ANATHEMA PSYKANA units) that is within range of an objective marker you control and that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, each time a melee attack targets your unit, subtract 1 from the Hit roll.
+MULTIPOTENTIALITY
+1CP
+Shield Host – Strategic Ploy Stratagem
+So widely skilled and studied are the Custodians that, whatever situation they find themselves in, they have the martial wisdom to prevail.
+WHEN: Your Movement phase.
+
+TARGET: One ADEPTUS CUSTODES unit from your army that Fell Back this phase.
+
+EFFECT: Until the end of your turn, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+VIGILANCE ETERNAL
+1CP
+Shield Host – Strategic Ploy Stratagem
+Simply because the Adeptus Custodes do not stand sentinel over a strategic location or asset, does not mean that it - or any who would threaten it - escapes their gaze.
+WHEN: Your Movement phase.
+
+TARGET: One ADEPTUS CUSTODES BATTLELINE unit from your army (excluding ANATHEMA PSYKANA units) within range of an objective marker you control.
+
+EFFECT: That objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn.
+ARCHEOTECH MUNITIONS
+1CP
+Shield Host – Wargear Stratagem
+The Shield Hosts have access to stockpiles of ancient and incredibly rare weaponry and ammunition.
+WHEN: Your Shooting phase.
+
+TARGET: One ADEPTUS CUSTODES unit from your army (excluding ANATHEMA PSYKANA units) that has not been selected to shoot this phase.
+
+EFFECT: Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase ranged weapons equipped by models in your unit have the selected ability.
+Null Maiden Vigil
+Detachment Rule
+Creeping Dread (Aura)
+The instinctive fear caused by the Pariah gene spreads like a terrible pall before the cadres of the Silent Sisterhood.
+
+In the Battle-shock step of your opponent’s Command phase, if an enemy unit that is either a PSYKER unit or below its Starting Strength is within 12" of one or more ANATHEMA PSYKANA models from your army, that enemy unit must take a Battle-shock test. If that unit is Below Half-strength, it must subtract 1 from its Battle-shock test this phase instead.
+
+Designer’s Note: This means that all enemy PSYKER units within range of this Aura ability and all enemy units within range of this Aura ability that have lost one or more models must take a Battle-shock test in your opponents Command phase, not just those that are Below Half-strength.
+
+KEYWORDS
+If you select this Detachment, PROSECUTORS units from your army have the BATTLELINE keyword.
+
+Enhancements
+Enhanced Voidsheen Cloak10 pts
+Now rare, enhanced voidsheen cloaks were worn by commanders of the Sisters of Silence during the Great Crusade. They are made from micro-vitrious mesh designed to diffract and absorb attacks, and include inbuilt refractor fields.
+
+ANATHEMA PSYKANA model only. Each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack. If that attack was made by a PSYKER or Battle-shocked model, change the Damage characteristic of that attack to 1 instead.
+
+Huntress’ Eye15 pts
+This ancient bionic acts like a miniature animus speculum, focusing the bearers null abilities into a stare that can literally terrify foes to death.
+
+ANATHEMA PSYKANA model only. In your Command phase, select one enemy unit within 12" of the bearer. That unit must take a Battle-shock test.
+
+Oblivion Knight25 pts
+Oblivion Knights are among the most powerful and experienced of the Sisters of Silence. When one leads their sisters in the field, witches must truly beware.
+
+ANATHEMA PSYKANA model only. While the bearer is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If that attack targeted an enemy PSYKER unit, add 1 to the Wound roll as well.
+
+Raptor Blade5 pts
+The Raptor Blade is an ancient relic of the Null Maidens, as razor sharp now as it was on the day of its forging and ever the bane of witches.
+
+ANATHEMA PSYKANA model only. Add 1 to the Attacks, Strength and Damage characteristics of the bearers melee weapons. While the bearer is within Engagement Range of one or more enemy PSYKER units that are Battle-shocked, add 2 to the Attacks, Strength and Damage characteristics of the bearer’s melee weapons instead.
+
+
+Stratagems
+DESPERATION’S PRICE
+1CP
+Null Maiden Vigil – Strategic Ploy Stratagem
+To overcome the Null Maidens’ aura, enemy psykers overstretch themselves with horrible consequences.
+WHEN: Any phase, just after an enemy PSYKER unit has either finished using a Psychic ability that targets a unit, or finished making Psychic Attacks.
+
+TARGET: One ANATHEMA PSYKANA unit from your army within 18" of that enemy PSYKER unit.
+
+EFFECT: That enemy PSYKER unit must take a Leadership test If the test is passed, that PSYKER unit is Battle-shocked; if the test is failed that PSYKER unit suffers 3 mortal wounds and is Battle-shocked.
+WITCH HUNTERS
+1CP
+Null Maiden Vigil – Battle Tactic Stratagem
+Null Maidens train to slay psykers with swift martial efficiency, for they know their prey have many weapons beyond just their powers and must not be allowed time or opportunity to employ them.
+WHEN: Your Shooting phase or the Fight phase.
+
+TARGET: One ANATHEMA PSYKANA unit from your army that has not been selected to shoot or fight this phase.
+
+EFFECT: Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in your unit have the selected ability, but models in your unit can only target PSYKER units with their attacks.
+ANATHEMA BLADEMASTERY
+1CP
+Null Maiden Vigil – Battle Tactic Stratagem
+The Vigilators train tirelessly in the art of the swift, beheading strike, with a particular emphasis on the swift elimination of enemy witches.
+WHEN: Fight phase.
+
+TARGET: One VIGILATORS unit from your army that has not been selected to fight this phase.
+
+EFFECT: Until the end of the phase, each time a model in your unit makes a melee attack, you can re-roll the Hit roll If the target of that attack is Battle-shocked or a PSYKER, you can re-roll the Wound roll as well.
+PSY-CHAFF VOLLEY
+1CP
+Null Maiden Vigil – Strategic Ploy Stratagem
+Prosecutors can fire psy-chaff bolts whose esoteric emissions weaken those targets not slain outright.
+WHEN: Your Shooting phase.
+
+TARGET: One PROSECUTORS unit from your army that has just shot.
+
+EFFECT: Select one enemy unit hit by one or more of those attacks. Until the start of your next turn, while your unit is on the battlefield, that enemy unit is prosecuted. While a unit is prosecuted, each time an ANATHEMA PSYKANA model makes an attack against that unit, improve the Armour Penetration characteristic of that attack by 1. While a PSYKER or Battle-shocked unit is prosecuted, each time a model in that unit makes an attack, subtract 1 from the Hit roll.
+PURGATION SWEEP
+1CP
+Null Maiden Vigil – Battle Tactic Stratagem
+Witchseekers know their role in combat is to spread indiscriminate carnage through the foe’s ranks.
+WHEN: Your Shooting phase.
+
+TARGET: One WITCHSEEKERS unit from your army that has not been selected to shoot this phase.
+
+EFFECT: Until the end of the phase, add 1 to the Attacks characteristic of Torrent weapons equipped by models in your unit. If such a weapon targets a PSYKER or Battle-shocked unit this phase, add 2 to its Attacks characteristic instead.
+PSYCHIC ABOMINATIONS
+1CP
+Null Maiden Vigil – Strategic Ploy Stratagem
+Enemies must overcome disorienting waves of revulsion in order to even focus upon Null Maidens.
+WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.
+
+TARGET: One ANATHEMA PSYKANA INFANTRY unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, your unit has the Stealth ability, and Battle-shocked and PSYKER models can only select your unit as a target of a ranged attack if they are within 12".
+Auric Champions
+Detachment Rule
+Assemblage of Might
+When such exceptional warriors as these gather to quest in the Emperors name, even the most dreadful foes of Humanity are right to fear for their lives.
+
+At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model in an ADEPTUS CUSTODES CHARACTER unit from your army makes an attack that targets that enemy unit, add 1 to the Wound roll.
+
+Enhancements
+Blade Imperator25 pts
+This warrior is the Emperors own wrath made manifest, the living weapon of the Master of Mankind.
+
+ADEPTUS CUSTODES model only. Each time the bearer’s unit ends a Charge move, select one enemy unit within Engagement Range of the bearer and roll one D6: on a 4+, that enemy unit suffers D3 mortal wounds. Once per battle, after the bearer s unit ends a Charge move, all enemy units within 6" of the bearer must take a Battle-shock test.
+
+Inspirational Exemplar10 pts
+Here is a singular being even the mighty Custodians can look up to and be inspired by
+
+ADEPTUS CUSTODES model only. The bearer has a Leadership characteristic of 5+. Once per battle, at the start of any phase, you can select one friendly ADEPTUS CUSTODES unit that is Battle-shocked and within 12" of the bearer; that unit is no longer Battle-shocked.
+
+Martial Philosopher30 pts
+Few in the history of the Imperium have been so skilled in reading - and directing- the ebb and flow of battle.
+
+ADEPTUS CUSTODES model only. The bearer’s unit is eligible to shoot and/or declare a charge in a turn in which it Fell Back. Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 9" of the bearer, if the bearer’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6".
+
+Veiled Blade25 pts
+Said to have been fashioned for dark deeds during the Horus Heresy, this blade is an icon of vengeance.
+
+ADEPTUS CUSTODES model only. Add 2 to the Attacks characteristic of the bearers melee weapons. Once per battle, at the start of any Command phase, triple the bearer’s Objective Control characteristic until the end of the turn.
+
+
+Stratagems
+SLAYER OF CHAMPIONS
+1CP
+Auric Champions – Epic Deed Stratagem
+Whatfoe can withstand a warrior who has so tested the defences of the Throneworld itself?
+WHEN: Any phase.
+
+TARGET: One ADEPTUS CUSTODES CHARACTER unit from your army that has just destroyed the unit you selected at the start of your Command phase as the target of your Assemblage of Might ability.
+
+EFFECT: Select one enemy unit on the battlefield Until the start of your next Command phase, each time an ADEPTUS CUSTODES CHARACTER model from your army makes an attack that target that enemy unit, add 1 to the Wound roll In addition, if the destroyed unit was a CHARACTER unit, gain 1CP.
+SUPERHUMAN RESERVES
+2CP
+Auric Champions – Epic Deed Stratagem
+With practiced ease, the Talons of the Emperor establish vicious crossfires to cut the foe apart.
+WHEN: Any phase, just after an ADEPTUS CUSTODES WARLORD model from your army has used an ability on its datasheet or from an Enhancement that says it can only be used Once per battle.
+
+TARGET: That ADEPTUS CUSTODES WARLORD model.
+
+EFFECT: Your model can use its Once per battle’ ability one additional time during this battle (but not in the same phase).
+
+RESTRICTIONS: You cannot use this Stratagem more than once per battle.
+THE EMPEROR’S AUSPICE
+1CP
+Auric Champions – Epic Deed Stratagem
+In an age plagued by monsters, when primordial horrors from the darkest void circle Humanity's dying light, still the Adeptus Custodes stand strong.
+WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One ADEPTUS CUSTODES CHARACTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, CHARACTER models in your unit have the Feel No Pain 4+ ability.
+EARNING OF A NAME
+1CP
+Auric Champions – Epic Deed Stratagem
+To lay low the greatest and most terrible monsters and heretics is to earn new names for a Custodian's mighty tally.
+WHEN: Fight phase.
+
+TARGET: Up to two ADEPTUS CUSTODES CHARACTER units from your army that have not been selected to fight this phase.
+
+EFFECT: Until the end of the phase, each time a CHARACTER model in either of your units makes an attack that targets a MONSTER or VEHICLE unit, you can re-roll the Hit roll and you can re-roll the Wound roll.
+VIGIL UNENDING
+2CP
+Auric Champions – Epic Deed Stratagem
+The Custodes do not yield while their duty remains unfulfilled.
+WHEN: Fight phase.
+
+TARGET: One ADEPTUS CUSTODES CHARACTER model from your army that was just destroyed and has not fought this phase. You can use this Stratagem on that unit even though it was just destroyed.
+
+EFFECT: Do not remove your destroyed model from play. The destroyed model can fight after the attacking unit has finished making attacks, and is then removed from play.
+SHOULDER THE MANTLE
+1CP
+Auric Champions – Epic Deed Stratagem
+The greatest Custodians know when it is both their duty and their right to command their comrades.
+WHEN: Your Movement phase, before the Reinforcements step.
+
+TARGET: One ADEPTUS CUSTODES CHARACTER model from your army that is not leading a unit.
+
+EFFECT: Select one friendly unit (excluding Battle-shocked and Attached units) within 2" horizontally and 5" vertically of your model that it could lead (as described in the Leader section of its datasheet). Your model attaches to that unit as a Leader. Change that unit’s Starting Strength accordingly.
+Solar Spearhead
+Within the deepest engine vaults of the Imperial Palace, the ancient and mighty vehicles of the Custodians reside. Auramite-clad combat walkers bristling with arcane weapons are roused from stasis, ready to be unleashed upon the galaxy’s battlefields. Venerable Land Raiders as old as the Imperium are awoken by complex rituals and prepared for war. When battle dawns, these dread engines of destruction stride or rumble towards the cowering foe, their guns emitting furious torrents of destruction. Those brave or foolish enough to stand before this armoured spearhead are crushed beneath the tread of auric battle tanks or smashed to a bloody pulp by wrathful interred champions.
+
+Detachment Rule
+Auric Armour
+The venerable war engines of the Adeptus Custodes possess aggressive machine spirits.
+
+While an ADEPTUS CUSTODES VEHICLE unit from your army is at Starting Strength, unless that unit is an AIRCRAFT or it is Battle-shocked, add 2 to the Objective Control characteristic of models in that unit.
+While an ADEPTUS CUSTODES VEHICLE unit from your army is below Starting Strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1.
+While an ADEPTUS CUSTODES VEHICLE unit from your army is Below Half-strength, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.
+
+MORITOI ANCIENTS
+The Adeptus Custodes’ honoured fallen are ever eager for battle.
+
+Add 2" to the Move characteristic of models in ADEPTUS CUSTODES WALKER units from your army and add 1 to Advance and Charge rolls made for such units.
+
+KEYWORDS
+In the Muster Armies step, you can select up to 2 ADEPTUS CUSTODES WALKER models from your army. The selected units gain the CHARACTER keyword.
+
+Designer’s Note: This means that the selected models can be given Enhancements and one of them can be selected as your WARLORD.
+
+Enhancements
+Adamantine Talisman25 pts
+This amulet contains a reservoir of promethium harvested from the wreckage of one of the Adeptus Custodes’ most ancient Land Raiders. The fluid is said to possess the last lingering traces of that ancient vehicle’s bellicose machine spirit, inspiring greater might and ferocity within its bearer.
+
+ADEPTUS CUSTODES model only. Improve the Attacks, Strength and Damage characteristics of melee weapons equipped by the bearer by 1.
+
+Augury Uplink35 pts
+The war engines of the Adeptus Custodes possess an array of augury equipment that combines to build an intricate picture of the unfolding conflict, enabling the bearer to tap into this accumulated data stream, detect incoming threats and angle their armour to repel the worst of enemy attacks.
+
+ADEPTUS CUSTODES model only. The bearer has the Feel No Pain 5+ ability.
+
+Honoured Fallen (Aura)15 pts
+The eldest warriors of the Moritoi are revered champions with centuries of battle experience, and their presence on the battlefield is inspirational.
+
+ADEPTUS CUSTODES VEHICLE model only. While a friendly ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED unit is within 6" of the bearer, each time a model in that unit makes an attack, re-roll a Hit roll of 1.
+
+Veteran of the Kataphraktoi10 pts
+This champion has served amongst the Kataphraktoi and is a master at coordinating swift armoured assaults.
+
+ADEPTUS CUSTODES INFANTRY or ADEPTUS CUSTODES MOUNTED model only. In your Command phase, select one ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit within 6" of the bearer. Until the start of your next Command phase, that unit is eligible to shoot in a turn in which it Fell Back.
+
+
+Stratagems
+FLAWLESS CONSTRUCTION
+1CP
+Solar Spearhead – Battle Tactic Stratagem
+The vehicles of the Adeptus Custodes are the finest examples of their kind. Their expertly wrought armoured forms contain ancient and esoteric technology, including auto-repair subroutines and reactive field generators.
+WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One ADEPTUS CUSTODES VEHICLE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, each time an attack targets a model in your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.
+EMPEROR’S VENGEANCE
+1CP
+Solar Spearhead – Battle Tactic Stratagem
+Even as death’s cold embrace falls upon them, Custodians vent the last of their wrath upon the foe.
+WHEN: Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One ADEPTUS CUSTODES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit has the WALKER keyword. On a 4+, do not remove it from play; The destroyed model can fight after the attacking unit has finished making its attacks (when doing so, it is assumed to have 1 wound remaining), and is then removed from play.
+WRATHFUL ADVANCE
+1CP
+Solar Spearhead – Battle Tactic Stratagem
+The golden-armoured onslaught smashes through the enemy line, trapping the foe and preventing their escape.
+WHEN: Fight phase, just before an ADEPTUS CUSTODES unit from your army Piles In.
+
+TARGET: That ADEPTUS CUSTODES unit.
+
+EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in move, it can move up to D3+3" instead of up to 3".
+UNSTOPPABLE
+1CP
+Solar Spearhead – Strategic Ploy Stratagem
+Armoured in adamantine and possessed of furious machine spirits, the vehicles of the Adeptus Custodes are almost impossible to stop in their tracks.
+WHEN: Your Movement phase or your Charge phase.
+
+TARGET: One ADEPTUS CUSTODES VEHICLE or ADEPTUS CUSTODES MOUNTED unit from your army.
+
+EFFECT: Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.
+RELENTLESS PERSECUTION
+1CP
+Solar Spearhead – Strategic Ploy Stratagem
+Custodians coax wrathful fury from their war engines’ machine spirits to hunt down and eliminate their foes at speed.
+WHEN: Your Movement phase, just after an ADEPTUS CUSTODES VEHICLE unit from your army Advances.
+
+TARGET: That ADEPTUS CUSTODES VEHICLE unit.
+
+EFFECT: Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced. If your unit has the WALKER keyword, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced instead.
+PUNISHMENT INESCAPABLE
+1CP
+Solar Spearhead – Strategic Ploy Stratagem
+The Ten Thousand are relentless in pursuing the Emperor’s foes and thorough in their annihilation. No armour, sorcery or hiding place can shield an enemy from their wrath.
+WHEN: Your Shooting phase.
+
+TARGET: One ADEPTUS CUSTODES unit from your army that has not been selected to shoot this phase.
+
+EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and/or any or all modifiers to the Hit roll.
+Lions of the Emperor
+Many of the galaxy’s warrior cultures accept the time-honoured truth that there is greater strength in numbers. Not so for the champions of the Adeptus Custodes, the Lions of the Emperor. Each of them is an army unto themselves, a warrior of legend gifted with terrifying strength, armoured in nigh-impenetrable golden plate and possessing limitless resolve. When the greatest Custodians take to the field at once, those auric-armoured champions have no need to pool their resources in order to smite their foes. Relying instead upon their superhuman strength and mastery of martial ka’tahs, they hurl themselves into the midst of the enemy, sweeping aside gunlines, eviscerating rampaging monsters and obliterating enemy war machines with terrifying ease.
+
+Detachment Rule
+Against All Odds
+The Adeptus Custodes are outnumbered on every battlefield upon which they fight, yet no matter the foe, and no matter their number, the Lions of the Emperor will prevail.
+
+Each time a model in an ADEPTUS CUSTODES unit from your army (excluding VEHICLES) makes an attack, if there are no other friendly units within 6" of that unit, add 1 to the Hit roll and add 1 to the Wound roll.
+
+Enhancements
+Superior Creation25 pts
+The cellular alchemy by which this heroic warrior was forged has rendered them breathtakingly resilient.
+
+ADEPTUS CUSTODES INFANTRY model only. The first time the bearer is destroyed, roll one D6 at the end of the phase. On a 2+, set the bearer back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining.
+
+Praesidius25 pts
+Fashioned by the Terran armourer Annah Tsvochakin in the latter years of the 32nd millennium, the stunningly worked Praesidius is a singular artefact. Nestled within its golden form are a series of microshield generators and stealth emitters. Employing a modification of displacer technology, the shield generates small localised displacement bubbles at the point of impact, literally beaming bolts, bullets and the tips of blades harmlessly away from its bearer.
+
+ADEPTUS CUSTODES model only. The bearer has the Lone Operative and Stealth abilities.
+
+Fierce Conqueror15 pts
+This Captain-Commander has trained extensively to face multiple foes at once, knowing that the Custodes will always be outnumbered.
+
+SHIELD-CAPTAIN model only. At the start of the Fight phase, until the end of the phase, add 2 to the Attacks characteristic of melee weapons equipped by the bearer for every 5 enemy models within 6" of the bearer (rounding down).
+
+Admonimortis10 pts
+A relic of the Dread Host, this towering blade was wrought to make a bloody example of those who dare to set themselves against the might of Terra.
+
+SHIELD-CAPTAIN model only. Improve the Strength characteristic of melee weapons equipped by the bearer by 3, and improve the Armour Penetration and Damage characteristics of those weapons by 1.
+
+
+Stratagems
+GILDED CHAMPION
+1CP
+Lions of the Emperor – Strategic Ploy Stratagem
+The shining champions of the Adeptus Custodes are looked upon in awe by all who witness their grim arts. Their judgement is without flaw, and their tactical acumen utterly impeccable.
+WHEN: Any phase, just after an ADEPTUS CUSTODES CHARACTER model from your army has used an ability on its datasheet that states it can only be used ‘once per battle’.
+
+TARGET: That ADEPTUS CUSTODES CHARACTER model.
+
+EFFECT: Your model can use that ‘once per battle’ ability one additional time during the battle (but not in the same phase).
+
+RESTRICTIONS: You cannot use this Stratagem on the same ADEPTUS CUSTODES CHARACTER model more than once per battle.
+DEFIANT TO THE LAST
+1CP
+Lions of the Emperor – Strategic Ploy Stratagem
+The harder the battle, and the heavier their losses, the more resolute the Lions of the Emperor become.
+WHEN: Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One ADEPTUS CUSTODES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if that model has the CHARACTER keyword. On a 4+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks (when doing so, it is treated as having 1 wound remaining), and is then removed from play.
+PEERLESS WARRIOR
+1CP
+Lions of the Emperor – Battle Tactic Stratagem
+With every strike, the Lions of the Emperor prove themselves the masters of single combat, even when engaging the mightiest foes.
+WHEN: Fight phase.
+
+TARGET: One ADEPTUS CUSTODES unit from your army that has not been selected to fight this phase.
+
+EFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.
+UNLEASH THE LIONS
+1CP
+Lions of the Emperor – Strategic Ploy Stratagem
+Heroic bands of Terminator-armoured Custodians engage entire armies in unrelenting battle.
+WHEN: Your Command phase.
+
+TARGET: One ALLARUS CUSTODIANS or AQUILON CUSTODIANS unit from your army that is on the battlefield.
+
+EFFECT: That unit is split into separate units, each containing one model. These new units each have a Starting Strength of 1.
+MANOEUVRE AND FIRE
+1CP
+Lions of the Emperor – Strategic Ploy Stratagem
+The Adeptus Custodes are unrelenting in their advance, laying down punishing fire even as they manoeuvre to new positions.
+WHEN: Your Movement phase, just after an ADEPTUS CUSTODES unit from your army Falls Back.
+
+TARGET: That ADEPTUS CUSTODES unit.
+
+EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+SWIFT AS THE EAGLE
+1CP
+Lions of the Emperor – Strategic Ploy Stratagem
+Although every Custodian is devastatingly fast on the battlefield, with preternatural reactions to match, the Lions of the Emperor are outstanding even among their peers.
+WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.
+
+TARGET: One ADEPTUS CUSTODES unit from your army (excluding VEHICLE units) that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Your unit can make a Normal move of up to D6".
+Crusade Rules
+In this section you’ll find additional rules for playing Crusade battles that are bespoke to ADEPTUS CUSTODES units.
+
+This section contains the following rules:
+
+MAGISTERIUM LEX ULTIMA
+Your ADEPTUS CUSTODES Crusade force will set out on key Imperatives in the name of the Emperor, accomplishing amazing feats swiftly for unique rewards. But if they fail to complete these tasks, they will suffer consequences in the form of Dishonour.
+
+BATTLE SCARS
+Themed to the unique nature of ADEPTUS CUSTODES, these Battle Scars represent long-lasting effects units from your Crusade force may come to carry.
+
+AGENDAS
+ADEPTUS CUSTODES armies can attempt to achieve unique Agendas in addition to those found in other publications. These represent the factions unique goals and their particular methods of waging war.
+
+REQUISITIONS
+ADEPTUS CUSTODES armies have access to a number of bespoke Requisitions in addition to those found in other publications.
+
+BATTLE TRAITS
+As they gain experience and prowess, ADEPTUS CUSTODES units in your Crusade force can be given one of the Battle Traits in this section instead of one presented elsewhere.
+
+CRUSADE RELICS
+In addition to the Crusade Relics presented in other publications, ADEPTUS CUSTODES CHARACTER models can claim one of the Crusade Relics found here.
+
+ARTEFACTS OF THE VAULTS
+As well as their Crusade Relics, ADEPTUS CUSTODES can borrow unique Artefacts of the Vaults to assist in completing the Magisterium Lex Ultima.
+
+CRUSADE BADGES
+Here you will find three Crusade Badges representing goals you can set yourself when campaigning with your Crusade force. Once one is achieved, you could set yourself a new goal, or take the opportunity to start a new Crusade force.
+Magisterium Lex Ultima
+As far back as records exist of the Adeptus Custodes, they have held the Magisterium Lex Ultima, making them answerable to only one - the Emperor. Such a mark of office holds them above all law and command save for the direct authority of the Master of Mankind, and affords them the incontestable jurisdiction to pursue Imperative Endeavours as they feel is appropriate.
+
+If your Crusade force includes TRAJANN VALORIS or any other SHIELD-CAPTAIN units and you are not currently on an Endeavour, you can claim the Magisterium Lex Ultima before a battle. If you do, you must commence an Endeavour for your Crusade force. This entails a collection of objectives (known as Imperatives) that you must attempt to complete in sequence over a series of battles. Doing so will earn you Endeavour Rewards, but failure will bring about Dishonour.
+
+When you commence an Endeavour, you must determine its three Imperatives from the Imperative tables. To do this, roll one D6 to decide which Imperative table to use, then another D6 to determine an Imperative from that Imperative table. You cannot determine the same Imperative for each Endeavour more than once (roll again until a new Imperative is determined). Once you have determined all three of your Imperatives, make a note of them, and the order in which they were generated, in your Order of Battle. Your Endeavour has now commenced and you must complete its Imperatives one at a time, starting with the first Imperative you determined - this is known as the active Imperative.
+
+At the end of a battle, if you have completed the active Imperative, mark that Imperative as completed in your Order of Battle. The next Imperative you determined is now active for subsequent battles. Once you have completed all of your Endeavour’s Imperatives, you can claim an Endeavour Reward, and can then claim the Magisterium Lex Ultima once more.
+
+You can abandon an Endeavour at the end of a battle. If you do, and you have completed two out of three Imperatives, you can randomly select an Endeavour Reward from the two you have completed, and the other Endeavour Reward is lost.
+
+In addition, if you have not completed all of your Endeavour’s Imperatives within nine battles of beginning that Endeavour, then it is abandoned.
+
+When an Endeavour is abandoned, you must select a Dishonour, and can then start a new Endeavour before the next battle.
+
+Endeavour Imperatives
+
+IMPERATIVE (D6 1-3)D6
+EMPEROR'S DOMAIN
+Some crucial heartland territories must be kept free of foes at any cost.
+
+Complete two battles where, at the end of the battle, you have more friendly units wholly within your deployment zone than enemy units (excluding AIRCRAFT).
+WRATH OF THE EMPEROR
+You must embody the Emperor's fury in your wholesale destruction of the foe.
+
+Complete two battles in which you have destroyed four or more units by the start of the third battle round.
+MAKE AN EXAMPLE
+So absolute must your victory be that it sends a message to any who threaten Terra.
+
+Win a battle by more than 10 Victory points.
+VITAL TARGETS
+Priority threats to the Throne must be eliminated.
+
+Complete two battles in which you destroy the three units from your opponent’s army with the highest points values (if one or more units are tied in this way, then the destruction of any of them counts towards this Imperative).
+SHADOWED DIRECTIVE
+Sometimes the Custodians must work secretly and to hidden agendas.
+
+Complete two battles in which you earned XP from an Adeptus Custodes Agenda.
+ABSOLUTE MASTERY
+You must display excellence in every theatre of strategy and tactics.
+
+Complete two battles in which you earned XP from non-ADEPTUS CUSTODES Agendas (such as those found in the main Crusade rules).
+
+IMPERATIVE (D6 4-6)D6
+SHADOW OF THE THRONE
+Those territories claimed by the Emperor must be irrefutably uncontested.
+
+At the end of the battle, both of the following are satisfied:
+You control three or more objective markers.
+You control at least double the number of objective markers that your opponent does.
+MARTIAL SUPREMACY
+The blood-price of defying Terra must be rendered insupportable.
+
+At the end of a battle, at least twice as many enemy units were destroyed in that battle than units from your Crusade army.
+ALPHA THREAT CONFIRMED
+Augury suggests this fiend is a direct threat to the Throne and must be destroyed!
+
+At the end of the battle, the enemy WARLORD is destroyed.
+ANNIHILATION
+Shatter this danger before it can develop.
+
+At the end of a battle, every enemy unit is destroyed, or is Below Half-strength.
+EMPEROR'S WILL BE DONE
+Sweep the enemy aside and reclaim that which is the Emperor's.
+
+Complete two battles where, atthe end of the battle, you have more friendly units wholly within your opponent’s deployment zone than enemy units (excluding AIRCRAFT).
+INSPIRATIONAL EXAMPLE
+Fight as the Emperor's true champions.
+
+At the end of the battle, two or more enemy units were destroyed by melee attacks made by an ADEPTUS CUSTODES CHARACTER model from your Crusade army.
+
+Endeavour Rewards
+If your Crusade force is on an Endeavour, once you have completed all of your Endeavour’s Imperatives you can claim an Endeavour Reward. If you have completed all three Imperatives, you may choose which reward you would like to claim from those three. If you abandon your Imperatives after only completing two, you can randomly claim one reward of the two completed Imperatives.
+
+Some Endeavour Rewards are labelled ‘Instant’ - apply the effects of such Endeavour Rewards immediately. Other Endeavour Rewards are labelled ‘Persistent’ - make a note of such Endeavour Rewards in your Order of Battle. Before each battle, when mustering your Crusade army, you can select one of your Persistent Endeavour Rewards to be active for that battle. If you do, add 1 to your Crusade army’s total Crusade points for that battle.
+
+IMPERATIVE (D6 1-3)	ENDEAVOUR REWARD
+	EMPEROR'S DOMAIN	Instant - Gain 3RP.
+	WRATH OF THE EMPEROR	Instant - You can select two additional units to be Marked for Greatness after the battle in which you completed your final Imperative.
+	MAKE AN EXAMPLE	Instant - Every unit from your Crusade force gains 1XP.
+	VITAL TARGETS	Instant - Gain 1RP. The unit from your Crusade army that earned the most XP from an Agenda in the battle in which you completed your final Imperative gains 5XP.
+	SHADOWED DIRECTIVE	Instant - Every unit in your Crusade force gains 1XP. If that unit earned XP from an Agenda in the battle in which you completed your final Imperative, it gains 2XP.
+	ABSOLUTE MASTERY	Instant - Your WARLORD from the battle in which you completed your final Imperative gains 5XP.
+
+IMPERATIVE (D6 4-6)	ENDEAVOUR REWARD
+	SHADOW OF THE THRONE	Persistent - Once per battle, you can target a friendly unit with an Adeptus Custodes Stratagem for 0CP
+	MARTIAL SUPREMACY	Persistent - Once per battle, you can target a friendly unit with the Fire Overwatch Stratagem or the Heroic Intervention Stratagem for 0CP.
+	ALPHA THREAT CONFIRMED	Instant - If the enemy WARLORD was destroyed in the battle in which you completed your final Imperative, the friendly unit that destroyed it gains a Battle Honour. If no friendly unit achieved this, claim the Endeavour reward from Wrath of the Emperor Imperative instead.
+	ANNIHILATION	Persistent - Once per battle, you can target a friendly unit with the Counter-offensive Stratagem or the Epic Challenge Stratagem for 0CP.
+	EMPEROR'S WILL BE DONE	Persistent - Once per battle, you can target a friendly unit with the Command Re-roll Stratagem or the Rapid Ingress Stratagem for OCP.
+	INSPIRATIONAL EXAMPLE	Instant - The ADEPTUS CUSTODES CHARACTER that completed this Imperative gains a Battle Honour.
+
+Dishonour
+Each time your Crusade force abandons an Endeavour, you must determine a Dishonour from the table (see Dishonour table). You can either select the Dishonour that you feel is most appropriate or randomly determine one by rolling one D6 and applying the corresponding result.
+
+DISHONOUR	D6
+COMMAND IN QUESTION
+Failing to uphold the trust of their comrades and their Emperor is a black mark indeed for a Shield-Captain.
+
+Select one SHIELD-CAPTAIN unit from your Crusade force. That unit gains the Disgraced Battle Scar and the Mark of Shame Battle Scar from the main Crusade rules. If your Crusade force does not contain any SHIELD-CAPTAIN units, re-roll this result.	 
+DAMAGE LIMITATION
+Progress must for now be set aside in favour of repairing the damage already done by recent failures.
+
+Halve the XP (rounding down) that units in your Crusade force earn for a number of battles equivalent to the number of your Endeavour’s Imperatives that were not completed (the previous battle counts as the first of such battles).	 
+PETITION THE TOWER OF HEGEMON
+It is no easy thing for the Adeptus Custodes to admit they are unequal to a task, but in this instance reinforcements have been requested and the Custodians must make do until they arrive.
+
+Reduce your Requisition points to 0. You cannot gain Requisition points for a number of battles equivalent to the number of Imperatives of your Endeavour that were not completed (the previous battles counts as the first of such battles).	 
+
+Battle Scars
+When an ADEPTUS CUSTODES unit gains a Battle Scar, you can use the table presented here to determine which Battle Scar that unit has gained.
+BATTLE SCARS	D6
+IMMEDIATE THREATS
+Knowing the myriad threats facing the Golden Throne, some sodalities of Custodians have been known to develop a shortened focus on the foes directly within their blades’ reach.
+
+In your Charge phase, each time this unit declares a charge, you can only select the closest enemy unit as the target of that charge.
+Each time a model in this unit makes a melee attack, you can re-roll a Wound roll of 1.
+ 
+LIONS, NOT WOLVES
+Sometimes, the Custodians tendency to fight as individuals becomes so pronounced that it can detract from their wider strategic vision.
+
+This unit loses its Martial Ka'tah ability.
+Each time a model in this unit makes a melee attack, you can re-roll a Hit roll of 1 and you can re-roll a Wound roll of 1.
+ 
+SENSE OF INSUFFICIENCY
+It has been known for Custodians, faced by the rarely seen spectre of failure, to throw themselves into studying the ka’tahs to the exclusion of all else, determined not to befound wanting again.
+
+INFANTRY unit only
+Change the Objective Control characteristic of models in this unit to 0. It cannot be increased by any means.
+Each time this unit is selected to fight, both Ka'tah Stances are active for this unit, instead of only one.
+ 
+
+Agendas
+If your Crusade army includes any ADEPTUS CUSTODES units, you can select Agendas from those presented here.
+
+PURSUIT OF EXCELLENCE
+The Custodians know that no matter how honed their skills or focused their thoughts, the defence of the Golden Throne always demands more and better.
+
+At the end of the battle, the ADEPTUS CUSTODES unit from your Crusade army with the lowest XP (if two or more are tied, select one of them) gains 1XP for each of the following that are satisfied:
+That unit is not destroyed.
+That unit is within range of an objective marker outside your deployment zone that you control.
+That unit destroyed one or more enemy units during the battle.
+That unit destroyed three or more enemy units during the battle.
+JUDGEMENT DELIVERED
+A devastating victory is a great deterrent to potential foes, sending ripples of dismay through those who might otherwise have thought to threaten the Throneworld.
+
+At the end of the battle, if there are no models from your opponent’s Crusade army remaining on the battlefield, each ADEPTUS CUSTODES unit from your Crusade army that is on the battlefield gains 2XP.
+GREAT TITHE
+The work of harvesting powerful psykers to feed the Golden Throne is never-ending. The same is true of the quest to purge the galaxy of those witches deemed powerful enough to present a threat to the Emperor or his realm.
+
+Each time an enemy PSYKER unit is destroyed, if that enemy unit was destroyed by an ANATHEMA PSYKANA unit from your Crusade army, that ANATHEMA PSYKANA unit gains 2XP. Otherwise, the ANATHEMA PSYKANA unit from your Crusade army that was closest to that enemy unit when it was destroyed gains 1XP.
+UNTO THE DARK CELLS
+More than one dread entity or forbidden artefact has slipped away from the cells beneath the Emperor's Palace since the emergence of the Great Rift. Seizing and recovering these is a rewarding priority for many Custodians.
+
+At the end of the battle, if you control more objective markers in No Man’s Land than your opponent, you can select up to three ADEPTUS CUSTODES units within range of objective markers in No Man’s Land that you control. Each selected unit gains 2XP.
+
+Requisitions
+If your Crusade army includes any ADEPTUS CUSTODES units, you can spend Requisition points (RPs) on any of the following Requisitions.
+
+ARTEFACTS OF THE VAULTS
+1RP
+There are ancient devices and weapons within the vaults of the Emperor's Palace that only the Custodians are entrusted with their use.
+
+Purchase this Requisition before a battle. Select one ADEPTUS CUSTODES CHARACTER model from your Crusade army (excluding EPIC HERO models), then select one of the following for that model:
+You can only select this option if your Crusade force is on an Endeavour. Select one Artefact of the Vaults. That model gains that Artefact of the Vaults until your Crusade force completes its active Imperative or abandons its Endeavour. Your Crusade force can only have one Artefact of the Vaults at any time.
+Remove one Enhancement from that model and replace it with another that it is eligible to have.
+EARNING OF A NAME
+1RP
+The Custodians earn new names for their tallies in honour of especially mighty deeds.
+
+Purchase this Requisition after a battle in which the enemy WARLORD was destroyed by an ADEPTUS CUSTODES CHARACTER model (excluding ANATHEMA PSYKANA and EPIC HERO models) from your Crusade army. Generate an additional Honour-Name for that CHARACTER model (this has no rules purpose) then gain the following ability:
+
+Earned Name: Each time this model’s unit is selected to fight, both Ka’tah Stances are active for that unit, instead of only one.
+SUPERHUMAN FOCUS
+1RP
+The Adeptus Custodes are masters at seizing control of rapidly developing situations and applying their talents to alter the strategic parameters in their favour.
+
+Purchase this Requisition after you have rolled to determine your Imperatives. Select one of those Imperatives, then select a different Imperative to replace it (this must be unique to the other Imperatives you have rolled and you can only use this Requisition once per Endeavour).
+PROVEN METTLE
+1RP
+Amongst the meritocratic structures of the Adeptus Custodes, warriors may prove themselves worthy of command in many ways.
+
+Purchase this Requisition when an ADEPTUS CUSTODES INFANTRY or MOUNTED unit from your Crusade force (excluding CHARACTER and ANATHEMA PSYKANA units) reaches 30XP or more. Add one ADEPTUS CUSTODES CHARACTER unit to your Order of Battle (excluding EPIC HERO units). You cannot purchase this Requisition if doing so would cause your total Points Limit to exceed your Crusade force’s Supply Limit. That ADEPTUS CUSTODES CHARACTER starts with 30XP and gains the appropriate number of Battle Honours for its rank. Then, change the XP of the ADEPTUS CUSTODES unit that reached 30XP or more to 6XP, remove any Battle Honours it has until it has no more than one, and update its Crusade card accordingly.
+
+Battle Traits
+When a ADEPTUS CUSTODES unit gains a Battle Trait, you can use one of the tables presented here to determine which Battle Trait that unit has gained.
+
+ADEPTUS CUSTODES INFANTRY UNITSD6
+Excluding ANATHEMA PSYKANA units
+CELERITOUS SENTRIES
+Even while standing statue-still upon their endless watch, these Custodians are ready to spring instantly into violent action.
+
+Once per battle, you can target this unit with the Counter-offensive Stratagem for 0CP.
+NOT A SHELL WASTED
+These warriors place every shot to fell the maximum number of victims with the most murderous efficiency.
+
+Each time a model within this unit makes a ranged attack that targets a unit that contains 10 or more models, that attack has the [SUSTAINED HITS 1] ability.
+COMPANION’S WATCH
+Having stood guard over the very throne room of the Emperor himself, these Custodians are no strangers to staging the most resolute defence.
+
+While this unit is within range of an objective marker, it has the Feel No Pain 6+ ability.
+FLAWLESS BLADEWORK
+Even by the exceptional standards of the Adeptus Custodes, these warriors skills in close-quarters combat are breathtaking.
+
+Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1.
+WILL OF AURAMITE
+There is no circumstance this side of the grove that can truly shake the composure of the Custodians.
+
+You can target this unit with Stratagems even while it is Battle-shocked.
+GENALCHEMIC WARDING
+The genetic alchemy that saturates these warriors' physiologies has been tempered by many perils to resist more strongly than ever the corrupting touch of the warp.
+
+Each time a Psychic Attack targets this unit, subtract 1 from the Hit roll.
+
+ADEPTUS CUSTODES MOUNTED UNITSD6
+ON GILDED WINGS
+These warriors become veritable streaks of golden light as they sweep down upon their foes.
+
+This unit has the Stealth ability. Each time this unit Remains Stationary, it loses this ability until the start of your next Movement phase.
+TIP OF THE TALON
+Fighting at the forefront of the battle, these Custodians hit their victims with perfectly timed volleys the instant before they tear into their ranks.
+
+Each time a model in this unit makes a ranged attack that targets an enemy unit within 6", add 1 to the Strength characteristic of that attack.
+HERALDS OF THE HOST
+These Custodians push their mounts to the limit, the better to capitalise upon the element of surprise.
+
+Each time this unit Advances, add 2" to its Move characteristic (this is cumulative with the Turbo-boost ability).
+
+ANATHEMA PSYKANA INFANTRY UNITSD6
+HUNTERS' STRIKE
+The Sisters of Silence know that witches are best struck down before they have a chance for trickery.
+
+Each time this unit is selected to fight, if this unit made a Charge move this turn, until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in this unit.
+RELENTLESS PURSUIT
+Once on the trail of their quarry, these Null Maidens run them down with merciless determination.
+
+You can re-roll Advance and Charge rolls made for this unit.
+RAPID PROSECUTION
+These Sisters of Silence are ruthless and dogged in their pursuit of the enemy.
+
+This unit is eligible to either shoot or declare a charge (but not both) in a turn in which it Advanced.
+
+Crusade Relics
+
+Artificer Relics
+Aurulent Warding
+Auramite can be etched with protective wards. Few have the skills or knowledge to amend the Custodes’ armour in such a way, and the process takes many months to complete.
+
+Once per turn, you can re-roll one saving throw made for the bearer.
+EMPEROR’S LIGHT
+Said to have been crafted from a crystallised shard of the Emperors glorious light, this misericordia has been borne into battle by three separate Captain-Generals. It is reputed to flood the heart of its victim with searing radiance.
+
+ADEPTUS CUSTODES INFANTRY model only. The bearer is equipped with the following melee weapon in addition to its other weapons:
+MELEE WEAPONS
+RANGE
+A
+WS
+S
+AP
+D
+Emperor’s Light DEVASTATING WOUNDS EXTRA ATTACKS	
+Melee
+3
+2+
+5
+-2
+1
+
+Antiquity Relics
+VERACITY, THE SWORD OF OBLIVION
+This blade is the pattern upon which all executioner greatblades were built. Its substance is capable of cutting any material without the need of a power field or disruption generator.
+
+KNIGHT-CENTURA model equipped with an executioner greatblade only. The bearer’s melee weapons gain the [LANCE] and [SUSTAINED HITS 1] abilities.
+
+Legendary Relics
+LUCENT AUREOLE
+This gleaming halo is an ancient artefact fitted with a powerful conversion field that offers heightened protection to the wearer.
+
+The bearer has a 3+ invulnerable save.
+APOLLONIAN SPEAR
+The Apollonian Spear was wielded by Constantin Valdor, the first Captain-General of the Custodes. After his disappearance, the spear was placed in the vaults of Terra. Only rarely now, in the most terrible of circumstances, is it brought from there and wielded by the mightiest of the Custodians.
+
+SHIELD-CAPTAIN model only. Once per battle, at the start of the Fight phase, the bearer can use this ability. If it does, add 3 to the Strength and Attacks characteristics of the bearer’s melee weapons until the end of that phase.
+
+Artefacts of the Vaults
+Artefacts of the Vaults are rare Crusade Relics from ages past, kept in stasis deep within the vaults of the Imperial Palace. They cannot be selected as normal. Instead, if your Crusade force is on an Endeavour, they can be temporarily used by ADEPTUS CUSTODES CHARACTERS to turn the tide of key battles by using the Artefacts of the Vaults Requisition.
+
+Each time a model gains an Artefact of the Vaults, make a note on its Crusade card and increase its Crusade points total by 1. Artefacts of the Vaults can be removed before or after a battle, and are also removed when your Crusade force completes its active Imperative or abandons its Endeavour. Each time a model loses an Artefact of the Vaults, reduce its Crusade points total by 1.
+
+Artefacts of The Vaults
+ARAE-SHRIKE
+A counter-intelligence device that twists and distorts electromagnetic signals, arae-shrikes are considered blasphemous in principle and arcane function by the Adeptus Mechanicus.
+
+Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12" of this unit.
+MORTIS GYRE
+The Mortis Gyre is an orb of energy that, when activated, seeks out its victim and rapidly embeds itself into their consciousness. The victim is shown a horrifying vision of their impending doom and a killing blow is delivered to send them to that fate.
+
+Once per battle, when the bearer is selected to fight, it can activate the Mortis Gyre. If it does, until that fight is resolved, melee attacks made by this model that target an INFANTRY unit have the [DEVASTATING WOUNDS] ability.
+TWILIGHT PALLIUM
+What appears to be a cloak of office can be activated to envelop the bearer in the very fabric of its surrounding reality, allowing them to traverse atomically with a thought and re-emerge with a blink.
+
+Once per battle, at the end of any of your phases, the bearer can use the Twilight Pallium. If it does, remove the bearer’s unit from the battlefield and set it up again anywhere on the battlefield more than 3" horizontally away from all enemy units. The bearer’s unit is not eligible to charge in a turn in which it was set up in this manner unless it is more than 9" horizontally away from all enemy units.
+ANATHEMATIC DIADEM
+A circlet of spiritual darkness believed to hail from the earliest eras of Mankind, this sinister artefact focuses null energies in a vortex around its wearer.
+
+The bearer gains the following ability:
+
+Anathematic Diadem (Aura): When an enemy model within 12" of this model makes an attack with a Psychic weapon, subtract 1 from the Wound roll.
+PARELDOR'S CADUCATRIX
+This immeasurably ancient auto-medicae device stems from an age of learnings now long lost. It meshes seamlessly with any suit of battle armour and exudes filament probes through the bearer’s body, there to dispense remarkable panaceaic elixirs should it detect severe physical or mental trauma.
+
+Once per battle, in your Command phase, the bearer can regain up to D6 lost wounds.
+AURIFEROUS ORB
+The Auriferous Orb appears to be a sphere of solid gold, but its simple beauty belies its dangers. When it detonates, it unleashes beams of such pure, radiating light that it kills those enemies of the Emperor it does not blind.
+
+The bearer is equipped with the following ranged weapon in addition to its other weapons:
+
+Blinding Light: Each time a unit is hit by this weapon, it is blinded until the start of your next turn. While a unit is blinded, each time a model in that units makes an attack, subtract 1 from the Hit roll.
+RANGED WEAPONS
+RANGE
+A
+BS
+S
+AP
+D
+Auriferous Orb ANTI-INFANTRY 4+ BLAST BLINDING LIGHT DEVASTATING WOUNDS	
+8"
+D3
+2+
+1
+0
+1
+EPOCH AUSPICE
+The Epoch Auspice resembles an unremarkable book - with its battered cover and worn pages - but this appearance hides the strange technologies bound within that allow the bearer to create a temporal bubble around themselves and nearby allies.
+
+Once per battle, at the start of the battle round, the bearer can deploy the Epoch Auspice. If it does, until the end of the battle round, each time an attack targets the bearer’s unit, subtract 1 from the Wound roll.
+
+Crusade Badges
+When your Crusade force accomplishes specific long-term goals, you can earn the Crusade badges shown below, representing your warriors’ successes over many battles.
+
+Trusted Sentinel
+Your victories have earned the approbation of your peers within the Ten Thousand. They have also seen you awarded with several new names to add to your tally, and opened new opportunities for you to advance within the esoteric subsocieties of your order All of this is as it should be, for with every plaudit or advancement your ability to serve the Emperor and defend the Golden Throne increases. Yet there are myriad threats still to be met. There are countless challenges for you to rise to, and your duties remain endless. Continue your watch with honour...
+
+You have completed three Imperatives or more and earned one Endeavour Reward.
+You have won two or more battles.
+
+
+
+Champion of The Throne
+The tale of your names winds across the inner surfaces of your armour, an indisputable record of your valiant and merciless deeds. Many amongst the ranks of the Adeptus Custodes know of you. Your reputation as an exemplary warrior, battlefield commander and living implement of the Emperor's vengeance grows with every victory.
+
+You have completed nine Imperatives and earned three Endeavour Rewards.
+You have won six or more battles.
+You have used the Artefacts of the Vaults Requisition at least once, and won one or more battles while a model from your Crusade army has an Artefact of the Vaults.
+
+
+
+Auric Exemplar
+Your name has become a byword for terror amongst the enemies of the Emperor, while across the Throne world you are celebrated in statue, tapestry and song.
+
+You have completed 15 Imperatives and earned five Endeavour Rewards.
+You have won ten or more battles.
+You have used the Artefacts of the Vaults Requisition at least three times, and won three or more battles while a model from your Crusade army has an Artefact of the Vaults.
+An ADEPTUS CUSTODES CHARACTER model has reached the Legendary rank.
+
+
+Boarding Actions
+Introduction
+Within the following pages you will find numerous Boarding Actions Detachments that can be used in your Boarding Actions games. Each lists which units you can include in your army, any modifications to those units’ army rule as presented in their Codex or Index, a Detachment rule unique to that Detachment, and a number of Enhancements and Stratagems that you can use.
+
+ARMY FACTION
+A keyword that will be shared by all units in your army.
+
+MUSTERING RULES
+Which units you are allowed to include in your army.
+
+FORMING BOARDING SQUADS
+Any additional rules that will apply in the missions Form Boarding Squads step. Note that not all Detachments will have these.
+
+RULES ADAPTATIONS
+Some units will be unable to use certain abilities in Boarding Actions battles. Where this is the case, these units and their relevant abilities will be listed here.
+
+ARMY RULE
+Due to the distinct nature of close-quarters battle in Boarding Actions, most army rules require some modifications to their effects. Where this is the case, these will be described here.
+
+DETACHMENT RULE
+Each faction will have a number of different Detachments to choose from, each with its own Detachment rule to reflect the unique fighting methods of such forces.
+
+ENHANCEMENTS
+Further Enhancements that you can give to CHARACTER models from your army, beyond those(Boarding Actions Enhancments), will be found here.
+
+STRATAGEMS
+Additional Stratagems that you can use, in addition to those (Boarding Actions Stratagems), will be found here.
+Voyagers in Darkness
+Some shield companies of the Adeptus Custodes set sail into the darkness between the stars, either guided by visions of the Emperor’s will or believing that they can do the most to defend Terra by seeking out and destroying distant threats.
+
+Mustering a Boarding Patrol
+You can include up to two of the following units (duplicates are not allowed):
+BLADE CHAMPION
+INFANTRY SHIELD-CAPTAIN
+TRAJANN VALORIS
+VALERIAN
+You can include up to three of the following unit:
+CUSTODIAN GUARD (4 or 5 models)
+You can include up to one of each of the following units:
+ALLARUS CUSTODIANS (2 or 3 models)
+CUSTODIAN WARDENS (4 or 5 models)
+You can include up to one of each of the following units:
+PROSECUTORS* (5 or 10 models)
+VIGILATORS* (5 or 10 models)
+WITCHSEEKERS* (5 or 10 models)
+* The total number of all of these units cannot be more than the total number of ALLARUS CUSTODIANS, CUSTODIAN GUARD and CUSTODIAN WARDEN units.
+
+Rules Adaptations
+ADEPTUS CUSTODES units cannot perform the Secure Site Tactical Manoeuvre.
+The ALLARUS CUSTODIANS unit loses the From Golden Light ability.
+The BLADE CHAMPION model loses the Martial Inspiration ability.
+The SHIELD-CAPTAIN model loses the Master of the Stances ability.
+
+Army Rule
+Focused Ka’tah
+In the claustrophobic battlegrounds of voidship interiors, even the lone champions of the Adeptus Custodes find benefit in focussing their efforts upon certain, particularly beneficial fighting styles.
+
+Units from your army with the Martial Ka’tah ability retain that ability and gain this one.
+
+However, you no longer select a Ka’tah Stance each time a unit with the Martial Ka’tah ability is selected to fight. Instead, at the start of the Fight phase, you can select one Ka’tah Stance. Until the end of the phase, the selected Stance is active for your army and units from your army with the Martial Ka’tah ability gain the relevant ability. Each Ka’tah Stance can only be selected once per battle.
+
+Detachment Rule
+Overwhelming Magnificence
+To confront the towering, auramite-clad warriors of the Adeptus Custodes across an open battlefield is terrifying enough. To meet them in the cramped confines of a voidship is so overwhelming as to render many foes witless.
+
+While an enemy unit is within Engagement Range of one or more ADEPTUS CUSTODES units from your army, subtract 1 from the Objective Control characteristic of models in that enemy unit.
+Enhancements
+Voidstrider
+At home in voidborne warfare, this superhuman warrior is able to move with marked purpose and speed.
+
+Add 2" to the bearer’s Move characteristic.
+
+Mantle of the Emissary
+This ancient cloak symbolises its wearer’s dedication to a vision-sent mission from the Emperor, and fills them with overwhelming purpose and determination.
+
+The bearer has an Objective Control characteristic of 5.
+
+Stratagems
+INESCAPABLE VENGEANCE
+1CP
+Voyagers in Darkness – Strategic Ploy Stratagem
+The incredible sensory acuity of the Custodians' wargear coupled with their superhuman senses means no foe can hide from them.
+WHEN: Your Movement phase.
+
+TARGET: One ADEPTUS CUSTODES unit from your army (excluding ANATHEMA PSYKANA units) that has not been selected to move this phase.
+
+EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can ignore Walls and other models for the purposes of determining which enemy units are visible to its own.
+BREACHING BEHEMOTHS
+1CP
+Voyagers in Darkness – Strategic Ploy Stratagem
+When unleashed aboard an enemy voidship, Custodians simply smash a path through any who stand against them by their sheer armoured might.
+WHEN: Your Movement phase.
+
+TARGET: One ADEPTUS CUSTODES unit from your army (excluding ANATHEMA PSYKANA units) that has not been selected to move this phase.
+
+EFFECT: Until the end of the phase, each time your unit makes a Normal, Advance or Fall Back move, models in your unit can move through other models as if they were not there. In addition, any Desperate Escape tests taken for models in your unit are automatically passed.
+ARTIFICER ROUNDS
+1CP
+Voyagers in Darkness – Battle Tactic Stratagem
+These hand-crafted bolt shells are made to fragment with particular ferocity, making them ideal for boarding actions.
+WHEN: Your Shooting phase.
+
+TARGET: One ADEPTUS CUSTODES unit from your army that has not been selected to shoot this phase.
+
+EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit (excluding ballistus grenade launchers) have the [SUSTAINED HITS 1] ability while targeting units within 6".
+AURIC STORM
+1CP
+Voyagers in Darkness – Strategic Ploy Stratagem
+Even the boldest foes falter before the sudden and unstoppable onslaught of the Allarus Terminators.
+WHEN: Your Charge phase, just after an ALLARUS CUSTODIANS unit from your army ends a Charge move.
+
+TARGET: That ALLARUS CUSTODIANS unit.
+
+EFFECT: Each enemy unit within Engagement Range of your unit must take a Battle-shock test, subtracting 1 from the result.
+Black Ship Guardians
+Whether fighting furiously to prevent enemies from boarding one of the sinister Black Ships and freeing its psyker inmates, or sweeping into an enemy vessel or installation to seize and imprison powerful witches, the Sisters of Silence are a force to be reckoned with in void warfare.
+
+Mustering a Boarding Patrol
+You can include up to two of the following units (duplicates are not allowed):
+ALEYA
+KNIGHT-CENTURA
+If you include only one other CHARACTER unit, you can include up to one of the following units:
+INFANTRY SHIELD-CAPTAIN
+VALERIAN
+You can include up to three of each of the following units:
+PROSECUTORS (5 or 10 models)
+VIGILATORS (5 or 10 models)
+You can include up to one of the following unit:
+WITCHSEEKERS (5 or 10 models)
+
+Rules Adaptations
+The SHIELD-CAPTAIN model loses the Master of the Stances ability.
+
+Army Rule
+Focused Ka’tah
+In the claustrophobic battlegrounds of voidship interiors, even the lone champions of the Adeptus Custodes find benefit in focussing their efforts upon certain, particularly beneficial fighting styles.
+
+Units from your army with the Martial Ka’tah ability retain that ability and gain this one.
+
+However, you no longer select a Ka’tah Stance each time a unit with the Martial Ka’tah ability is selected to fight. Instead, at the start of the Fight phase, you can select one Ka’tah Stance. Until the end of the phase, the selected Stance is active for your army and units from your army with the Martial Ka’tah ability gain the relevant ability. Each Ka’tah Stance can only be selected once per battle.
+
+Detachment Rule
+Priority Quarry
+With merciless efficiency, the Sisters of Silence mark their priority prey amidst the maelstrom of shiphoard combat, then focus on their elimination above all else.
+
+At the start of the first battle round, you can select up to two enemy units to be your army’s quarry, one of which must be your opponents WARLORD. Each time an ANATHEMA PSYKANA unit from your army makes an attack that targets one of your army’s quarries, re-roll a Hit roll of 1. Each time an ANATHEMA PSYKANA unit from your army declares a charge, it can include one or more of your army’s quarries as targets of that charge, even if they are not visible to it.
+Enhancements
+The Vratine Aquila (Aura)
+This ancient device is said to have been crafted for use during a vital conclave during the waning days of the Great Crusade, wreathing its bearer in energy veils.
+
+ANATHEMA PSYKANA model only. While a friendly ANATHEMA PSYKANA unit is within 3" of the bearer, models in that unit have a 4+ invulnerable save.
+
+Sinister Presence (Aura)
+So deeply unsettling is the null aura surrounding this warrior that it causes unreasoning paranoia to spread amongst her foes, shattering their focus.
+
+ANATHEMA PSYKANA model only. While an enemy unit is within 6" of the bearer (when measuring this distance, Walls and closed Hatchways are ignored), that unit cannot Seize objective markers and, in your opponent’s Command phase, that unit must take a Battle-shock lest. This Enhancement cannot cause a unit to take two Battle-shock tests in the same phase.
+
+Stratagems
+BLADES OF THE VIGILATORS
+1CP
+Black Ship Guardians – Battle Tactic Stratagem
+Though intended for lopping the heads from witches, the Vigilators' long blades also allow for skilful parrying of incoming attacks.
+WHEN: Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One VIGILATORS, ALEYA or KNIGHT-CENTURA equipped with an executioner greatblade unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.
+FOCUSED FEAR
+1CP
+Black Ship Guardians – Battle Tactic Stratagem
+Fighting in the confines of a voidship heightens the fearful aura of the Sisters of Silence, fouling their foes'aim and weakening their sword arms.
+WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One ANATHEMA PSYKANA unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.
+CORNERED PREY
+1CP
+Black Ship Guardians – Strategic Ploy Stratagem
+Once they have their quarry trapped within a section of the voidship, the Silent Sisters relentlessly run them to ground.
+WHEN: Your Movement phase, just after an ANATHEMA PSYKANA unit from your army Falls Back.
+
+TARGET: That ANATHEMA PSYKANA unit.
+
+EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+PUNISHMENT OF THE PROSECUTORS
+1CP
+Black Ship Guardians – Battle Tactic Stratagem
+The Prosecutors cut down without mercy all who dare stand between the Silent Sisters and their prey.
+WHEN: Your Shooting phase.
+
+TARGET: One PROSECUTORS unit from your army that has not been selected to shoot this phase.
+
+EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1. In addition, each time a model in your unit makes a ranged attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by an additional 1.
+© Vyacheslav Maltsev 2013-2026
+Privacy Preferences
+We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below.
+
+Consent Do Not Sell My Information

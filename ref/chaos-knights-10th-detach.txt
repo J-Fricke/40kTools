@@ -1,0 +1,1229 @@
+
+Datasheets
+ 
+ 
+ 
+ 
+The Rules
+ 
+Factions
+Search this site...
+Chaos Knights 
+[ 
+No filter
+ ]
+Chaos Knights tower over the battlefield, each a god of war wrought in iron. Piloted by Nobles who have forsworn their allegiance to the Imperium, these bipedal engines of destruction are amongst the most fearsome creations in the galaxy.
+
+Contents
+Books
+Keywords
+Introduction
+Army Rules
+Harbingers of Dread
+Dreadblades
+Super-heavy Walker
+Traitoris Lance
+Detachment Rule
+Paragons of Terror
+Enhancements
+Stratagems
+Infernal Lance
+Detachment Rule
+Malefic Surge
+Enhancements
+Stratagems
+Lords of Dread
+Detachment Rule
+Tyrannical Court
+Enhancements
+Stratagems
+Houndpack Lance
+Detachment Rule
+Marked Prey
+Enhancements
+Stratagems
+Helhunt Lance
+Detachment Rule
+Masters of the Pack
+Enhancements
+Stratagems
+Bastions of Tyranny
+Detachment Rule
+Annihilate the Unworthy
+Enhancements
+Stratagems
+Hunting Warpack
+Detachment Rule
+Scenting Fear
+Enhancements
+Stratagems
+Iconoclast Fiefdom
+Detachment Rule
+Wretched Thralls
+Enhancements
+Stratagems
+Crusade Rules
+Agendas
+Amassing Power
+Beginning to Amass Power
+Gaining Standing Levels
+Idolators’ Offerings
+Hunting Packs
+Pacts of Damnation
+Requisitions
+Battle Scars
+Crusade Relics
+Crusade Badges
+Books
+Show History
+Book	Kind	Edition	Version	Last update
+  Chaos Knights	Faction Pack	11	1.1	July 2026
+  Chaos Space Marines	Faction Pack	11	1.1	July 2026
+  Munitorum Field Manual	Expansion	11	1.1	
+
+Keywords
+ABHORRENT (7);ACASTUS (2);BATTLELINE (2);BEASTS (1);CERASTUS (4);CHAOS (37);CHAOS KNIGHTS (20);CHARACTER (17);CULT DEMAGOGUE (1);DAMNED (17);FRAME (2);GRENADES (9);HERETIC ASTARTES (17);INFANTRY (15);KNIGHT ACHERON (1);KNIGHT ASTERIUS (1);KNIGHT ATRAPOS (1);KNIGHT CASTIGATOR (1);KNIGHT LANCER (1);KNIGHT MAGAERA (1);KNIGHT PORPHYRION (1);KNIGHT STYRIX (1);MOIRAX (1);NURGLE (3);PSYKER (3);SWARM (1);TITANIC (14);TOWERING (14);VEHICLE (20);WALKER (20);WAR DOG (6)
+
+The keywords presented in this section have a number of special features:
+CLICK on the link to open the tooltip.
+The number in parentheses indicates the number of datasheets containing this keyword. This number represents the total number of datasheets in the faction, regardless of the filter.
+The list does not include named keywords that match the datasheet’s name (unless there are other datasheets with such a keyword).
+Introduction
+Below you will find several CHAOS KNIGHTS Detachments you can select from, as described in the Core Rules (see the Select Detachment rules step). If you are playing a Crusade battle, see the equivalent step in the Mustering a Crusade army section of the main Crusade rules. Each Detachment is a themed fighting force that focuses on one particular combat style employed by the Chaos Knights - the rules they include are as follows:
+
+1
+DETACHMENT RULE
+The Detachment rule listed here will apply to either your whole army or to particular units within it. If any additional restrictions or benefits apply to a Detachment, they will be listed here.
+
+2
+ENHANCEMENTS
+When mustering your army, your chosen Detachment enables you to upgrade CHARACTERS using the Enhancements listed here, as described in the Core Rules (see the Select Units step). If you are playing a Crusade battle, you can instead use the Renowned Heroes Requisition to give your CHARACTERS Enhancements, as described in the main Crusade rules.
+
+3
+STRATAGEMS
+Your chosen Detachment gives you access to the Stratagems listed here in addition to the Core Stratagems listed in the Core Rules. During the battle, you can spend Command points (CP) to use these Stratagems. You can find out more about how to use Stratagems here.
+Army Rules
+Harbingers of Dread
+Where Chaos Knights tread, the skies grow unnaturally dark and the power of the warp permeates the battlefield.
+
+If your Army Faction is CHAOS KNIGHTS, each unit from your army with this ability gains Dread abilities, depending which are active for your army (see below). The Deathly Terror ability is active for your army from the start of the battle. In addition, at the start of the first, third and fifth battle rounds, you can either select one of the other Dread abilities or randomly select two Dread abilities to apply by rolling two D6 and applying the results rolled, from those numbered 1-6.
+
+Any Dread abilities that have been selected are active until the end of the battle. You cannot select the same Dread ability more than once, and any duplicated Dread abilities (as a result of randomly selecting them) have no additional effect.
+
+DEATHLY TERROR (AURA)
+N/A
+While an enemy unit is within 9" of this model, worsen the Leadership characteristic of models in that unit by 1.
+DESPAIR (AURA)
+While an enemy unit is within 9" of this model, worsen the Leadership characteristic of models in that unit by 1. This is cumulative with the Deathly Terror ability (see above).
+DOOM
+Each time this model makes an attack, if the target of that attack is Battle-shocked, add 1 to the Wound roll.
+DARKNESS
+This model has Stealth.
+DISMAY (AURA)
+In the Battle-shock step of your opponent’s Command phase, for each enemy unit that is below its Starting Strength and within 9" of this model, that enemy unit must take a Battle-shock test.
+DELIRIUM (AURA)
+While an enemy unit that is Below Half-strength is within 9" of this model, each time that unit fails a Battle-shock test, it suffers D3 mortal wounds.
+DOMINION
+Add 3" to the range of this model’s Aura abilities.
+
+Dreadblades
+Dreadblades stalk the galaxy, carving a path of destruction alongside other forces of Chaos.
+
+If every model in your army has the CHAOS keyword, you can include either 1 Titanic Chaos Knights model or up to 3 WAR DOG models in your army, even if they do not have the Faction keyword you selected in the Select Army Faction step. None of these models can be your WARLORD, and they cannot be given Enhancements.
+
+Super-heavy Walker
+Each time a model with this ability makes a Normal, Advance or Fall Back move, it can move through models (excluding TITANIC models) and sections of terrain features that are 4" or less in height. When doing so:
+It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.
+It can also move through sections of terrain features that are more than 4" in height, but if it does, after it has moved, roll one D6: on a 1, that model is Battle-shocked.
+Traitoris Lance
+2DP
+To fight amidst a Traitoris Lance is to epitomise what it means to be a Chaos Knight. Here is the dark mirror of nobility wrought in adamantine and steel, an army of sinister war giants driven ever onward by hate, cruelty and the tyrannical need to crush all beneath their mighty tread. Nightmarish storm clouds spread above these Chaos Knights as they stride into battle, drowning their quailing foes in creeping shadow and filling their hearts with dread. Empyric lightning leaps through the heavens, while the grotesque avian entities known as Pterrorshades swoop above the advancing Knights like tattered rags or roost malevolently upon their baroque hulls. As the Traitoris Lance bears down upon its victims, the Fallen Nobles lengthen their steeds’ strides and let fly with massive cannons, laser blasters and racks of shrieking missiles. By the time their charge thunders home, the crumbling enemy lines can do naught but shatter before the unstoppable onslaught of these diabolical engines of war.
+
+Detachment Rule
+Paragons of Terror
+Steeped in the dark powers of the warp, bred into bloodlines who make a tradition of cruelty and a virtue of malice, these merciless warriors delight in spreading fear and dismay.
+
+At the start of the first battle round, after selecting one or more Dread abilities to be active for your army, you can select one additional Dread ability to be active for your army (this additional Dread ability cannot be randomly selected).
+
+Enhancements
+Nightmare’s Master20 pts
+The mere sight of this warrior and their steed upon the battlefield, even the rumour of their coming, is enough to put the foe to flight.
+
+CHAOS KNIGHTS model only. At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.
+
+Tyrant’s Shadow25 pts
+Once this despotic warlord lays claim to territory, their warp-infused will taints the very land itself and resists those who seek to defy them.
+
+CHAOS KNIGHTS model only. At the end of your Command phase, select one objective marker the bearer is within range of and that you control. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a CHAOS KNIGHTS model from your army.
+
+Malevolent Heraldry30 pts
+Inscribed by Idolators schooled in dark arts, these unholy blazons burn themselves into the gaze of the foe and trigger nausea, disorientation and stark, unreasoning terror.
+
+CHAOS KNIGHTS model only. Each time you roll dice to randomly select which Dread abilities are active for your army, if the bearer is on the battlefield, you can re-roll one or both results rolled.
+
+Veil of Medrengard35 pts
+Said to have been fashioned upon Perturabo’s own daemon world, this baroque device projects an energy barrier of greater power than a standard ion shield.
+
+CHAOS KNIGHTS model only. The bearer has a 4+ invulnerable save against ranged attacks, and a 5+ invulnerable save against melee attacks.
+
+
+Stratagems
+PTERRORSHADES
+1CP
+Traitoris Lance – Wargear Stratagem
+Shrieking with hunger, Pterrorshades descend in a whirlwind to feast on the fearful souls of the foe. Their banquet transmutes into vital energy that flows into the Chaos Knight on which they roost.
+WHEN: Any phase, just after an enemy unit fails a Battle-shock test.
+
+TARGET: One Chaos Knights unit from your army that is within 12" of that enemy unit.
+
+EFFECT: Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound and one model in your unit regains up to 1 lost wound.
+
+RESTRICTIONS: You can only use this Stratagem once per battle round.
+CONQUERORS WITHOUT MERCY
+1CP
+Traitoris Lance – Battle Tactic Stratagem
+Chaos Knights leave only death and devastation in their wake, and reduce entire worlds to ruin.
+WHEN: Fight phase.
+
+TARGET: One Chaos Knights model from your army that made a Charge move this turn and has not been selected to fight this phase.
+
+EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by your model by 1. After your model has finished making its attacks this phase, if it destroyed one or more enemy units this phase, each enemy unit within 6" of your model must take a Battle-shock test.
+DISDAIN FOR THE WEAK
+1CP
+Traitoris Lance – Strategic Ploy Stratagem
+Fallen Nobles sneer at the pathetic efforts of their foes, doubly so in the case of those who fear them.
+WHEN: Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models.
+A LONG LEASH
+1CP
+Traitoris Lance – Strategic Ploy Stratagem
+The neural connections between Fallen Nobles and doggedly loyal or fearful War Dog pilots can extend over remarkable distances.
+WHEN: Your Command phase.
+
+TARGET: One ABHORRENT unit from your army and up to two friendly WAR DOG units.
+
+EFFECT: Until the start of your next Command phase, those WAR DOG units are treated as being within range of any Aura abilities your ABHORRENT unit has.
+IMPERIOUS ADVANCE
+1CP
+Traitoris Lance – Epic Deed Stratagem
+Employing piloting skill or brute force, Fallen Nobles can either manoeuvre or simply barge their steeds through foes and obstacles alike.
+WHEN: Your Movement phase or your Charge phase.
+
+TARGET: Up to two WAR DOG units from your army or one Titanic Chaos Knights unit from your army.
+
+EFFECT: Until the end of the phase, each time a model in one of your units makes a Normal, Advance, Fall Back or Charge move, it can move through models and terrain features. When doing so, it can move within Engagement Range of such models but, unless it made a Charge move, cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed (the Super-heavy Walker ability does not apply while using this Stratagem).
+STORM OF DARKNESS
+1CP
+Traitoris Lance – Strategic Ploy Stratagem
+Through dark rituals and dread pacts, the Chaos Knights draw upon the fear and despair of their foes and bind it into a curse upon the land itself, wreathing themselves in a shrouding pall.
+WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.
+
+TARGET: One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT:
+Your unit has Stealth.
+Melee attacks that target your unit have -1 to hit rolls.
+Infernal Lance
+3DP
+Whether sworn to a Traitor Titan Legion, in thrall to the cyborg priests of the Dark Mechanicum, pledged to the Ruinous Powers or corrupted over millennia, the Knights of Infernal Lances are twisted by the warp and swollen with unholy technologies. Each Knight suit is a hideous blend of the mechanical and the supernatural. Some bear the blessings of a Dark God of Chaos, which renders them freakish with mutation yet enhances their might or resilience in battle. Others mount weapon systems of ancient or diabolical provenance, serve as the possessed metal body of a malevolent daemon or exhibit strange abilities conferred by the experimentations of dark magi. When such monstrous war engines stalk into battle behind the banner of one strong-willed enough to master them, the Infernal Lances they form sweep aside any foe. Those not obliterated or reduced to gruesome spawn by the Knights’ warp-tainted weapons are driven mad and sent fleeing in mindless terror by the horrors they witness.
+
+Detachment Rule
+
+Malefic Surge
+Calling upon heretical - often supernatural - powers, these Knights are infused with strange and terrible might.
+
+In your Command phase, one or more Chaos Knights units from your army can make a Malefic Surge. Each one that does must first take a Leadership test; if that test is failed, that unit suffers D3 mortal wounds. Then, until the start of your next Command phase, that unit is Empowered. While a unit is Empowered it can use one of the Malefic Surge abilities below. Once that unit has used a Malefic Surge ability, it is no longer Empowered.
+Unholy Hunger: When a model in this unit makes a Normal, Advance or Fall Back move, until the end of the phase, add 3" to its Move characteristic.
+Diabolic Power: When this unit is selected to shoot or fight, select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in this unit have the selected ability.
+Unnatural Fortitude: When this unit is selected as the target of an attack, select one of the following to apply until the end of the phase:
+Models in this unit have a 5+ invulnerable save.
+Models in this unit have the Feel No Pain 6+ ability.
+
+Designer’s Note: We recommend placing a token next to Chaos Knights models that are Empowered, removing it once they have used a Malefic Surge ability, and removing all unused tokens at the start of your Command phase.
+
+Enhancements
+Knight Diabolus25 pts
+Whether through duelling monstrous foes or thanks to unnatural enhancements and boons, this Fallen Noble and their steed have become powerful indeed.
+
+CHAOS KNIGHTS model only. Improve the Weapon Skill characteristic of the bearer’s melee weapons by 1. While the bearer is using the Diabolic Power ability, its melee weapons have the [LANCE] ability.
+
+Blasphemous Engine35 pts
+In rituals that took centuries to conduct, Idolators and dark priests have bound a greater daemon within the reactor of this Chaos Knight, allowing the war machine to syphon the roiling power of the caged entity.
+
+CHAOS KNIGHTS model only. Add 2 to the bearer’s Wounds characteristic. Each time the bearer’s unit makes a Malefic Surge, you can re-roll the Leadership test taken to see if it suffers any mortal wounds.
+
+Fleshmetal Fusion35 pts
+This Knight is a terrifying blend of daemonic flesh and warp-hardened machine, its pilot unable to leave their Throne until death - or something darker - takes them.
+
+CHAOS KNIGHTS model only. Add 1 to the bearer’s Toughness characteristic. While the bearer is using the Unnatural Fortitude ability, each time an attack with a Damage characteristic of 1 is allocated to the bearer, add 1 to any armour saving throw made against that attack.
+
+Bestial Aspect30 pts
+The machine spirit of this Knight suit has become so ferocious and blood-hungry that it now moves and hunts like a monstrous beast.
+
+CHAOS KNIGHTS model only. The bearer’s ranged weapons have the [assault] ability. While the bearer is using the Unholy Hunger ability, it can ignore any or all modifiers to its Move characteristic and/or to Advance rolls made for its unit.
+
+
+Stratagems
+PROFANE SYMBIOSIS
+1CP
+Infernal Lance – Battle Tactic Stratagem
+Some Fallen Nobles are conjoined, symbiotically or parasitically, with the hideous systems of their Chaos Knight. This allows them to channel more unholy energies, though not without risk.
+WHEN: End of any phase.
+
+TARGET: One Chaos Knights unit from your army that is not Empowered.
+
+EFFECT: Your unit makes a Malefic Surge.
+
+RESTRICTIONS: You cannot select the same unit as the target of this Stratagem more than once per battle round.
+HELLFORGED CONSTRUCTION
+1CP
+Infernal Lance – Battle Tactic Stratagem
+Reinforced with warp-infused materials and warded through ritual blood sacrifice, these Chaos Knights can withstand unnatural levels of punishment.
+WHEN: Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.
+CORRUPTING TAINT
+1CP
+Infernal Lance – Epic Deed Stratagem
+The foul energies and unnatural influence of the Chaos Knights spread from them like sorcerous radiation, tainting all they touch.
+WHEN: Your Command phase, just after a Chaos Knights Character unit from your army makes a Malefic Surge.
+
+TARGET: That CHAOS KNIGHTS CHARACTER unit.
+
+EFFECT: Select one objective marker your unit is within range of that you control. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.
+UNLEASH BALEFIRE
+1CP
+Infernal Lance – Wargear Stratagem
+These weapons bathe the target in blasts of daemonic balefire that burns flesh and soul alike.
+WHEN: Your Shooting phase.
+
+TARGET: One Chaos Knights unit from your army that has not been selected to shoot this phase.
+
+EFFECT: After your unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test; if the test is failed, until the end of your opponent’s next turn, it is aflame. While a unit is aflame, subtract 2" from its Move characteristic and subtract 2 from Charge rolls made for it.
+WARP VISION
+1CP
+Infernal Lance – Wargear Stratagem
+Supernatural sensors perceive the soul-spoor of their prey, or even stare forward through fate and time.
+WHEN: Your Shooting phase.
+
+TARGET: One Chaos Knights unit from your army that has not been selected to shoot this phase.
+
+EFFECT: Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability.
+DIABOLIC BULWARK
+1CP
+Infernal Lance – Wargear Stratagem
+Ectoplasmic blood surges hot through glowing conduits as the Fallen Noble feeds power to their Knight suit’s supernaturally enhanced ion shield emitters.
+WHEN: Your opponent’s Shooting phase, just after an enemy unit has selected its targets.
+
+TARGET: One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, models in your unit have a 4+ invulnerable save.
+Lords of Dread
+2DP
+None are safe when the long shadows of the Lords of Dread stretch across the battlefield. Some Fallen Nobles are so toweringly arrogant, so twisted in mind and soul or so enamoured of personal power and wealth that they fight only for themselves. Those not slain by jealous rivals or laid low by foes instead earn notoriety and become the dark heroes in their tales of legend. They earn supernatural boons for their mightiest deeds. They recover ancient and devastating artefacts of war or gather coteries of followers who trail in their wake and hope for reflected glory. Such lords amongst the Chaos Knights may seek one another out and fight side by side. Some do this to test their mettle and prove themselves the greatest. Others find twisted kinship in the company of other Fallen Nobles as egocentric as themselves, forming Dreadblade lances or staging a hostile takeover of a dread household before supplanting its original rulers with a new and especially tyrannical court of monsters.
+
+Detachment Rule
+
+Tyrannical Court
+Every one of these egomaniacal warriors seeks to claim all the battlefield glory for themselves, at any cost.
+
+Improve the Objective Control characteristic of Chaos Knights Character models from your army by 2. In addition, once per battle round, if your WARLORD is on the battlefield, you can use the Claimed for the Dark Gods Stratagem for 0CP.
+
+Enhancements
+Throne Mechanicum of Skulls25 pts
+Flowing from this brazen Throne, an all-consuming need for murder grips the pilot and never lets go.
+
+CHAOS KNIGHTS model only. You can re-roll Charge rolls made for the bearer’s unit. In addition, once per battle, in your Charge phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer’s unit is eligible to declare a charge in a turn in which it Advanced.
+
+Blade of Celerity35 pts
+Inlaid with esoteric circuitry, this relic sword is sheathed within the mechanisms of the pilot’s Throne where it imbues the Knight suit with flowing swiftness.
+
+CHAOS KNIGHTS model only. The bearer’s ranged weapons have the [ASSAULT] ability. In addition, once per battle, in the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer’s unit have the Fights First ability.
+
+Warp-borne Stalker25 pts
+Daemonic whispers guide this Knights pilot through the empyric tempests, straight into battle.
+
+CHAOS KNIGHTS model only. The bearer has the Deep Strike ability. In addition, once per battle, at the end of your opponent’s turn, if the bearer is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.
+
+Putrid Carapace30 pts
+Blessed by Nurgle, the Chaos God of plague and despair, the hide of this Knight suit is thickened with steadily regenerating layers of rust and rotting blubber.
+
+CHAOS KNIGHTS model only. The bearer has a Save characteristic of 2+. In addition, once per battle, at the start of either player’s Command phase, the bearer can use this Enhancement. If it does, the bearer regains up to D6 lost wounds.
+
+Mirror of Fates30 pts
+Hammered into the flesh of a Fallen Noble’s forehead and allowed to take root, this warp crystal allows them to predict their enemy’s plans and exploit them.
+
+CHAOS KNIGHTS model only. Once per turn, when your opponent targets a unit from their army within 12" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP.
+
+Blessing of the Dark Master20 pts
+This pilot has won the favour of a sinister patron, granting them a measure of mysterious protection.
+
+CHAOS KNIGHTS model only. The bearer has the Stealth ability. In addition, once per battle, after you make a saving throw for the bearer, you can change the Damage characteristic of that attack to 0.
+
+
+Stratagems
+CLAIMED FOR THE DARK GODS
+1CP
+Lords of Dread – Epic Deed Stratagem
+The Fallen Noble dedicates their latest conquest to the Dark Gods in hope of reward.
+WHEN: Start of your Command phase.
+
+TARGET: One Chaos Knights Character unit from your army that is within range of one or more objective markers you control.
+
+EFFECT: Select one of those objective markers. That objective marker remains under your control, with a Level of Control of 5 (unless it would otherwise be higher), until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.
+SPITEFUL DEMISE
+1CP
+Lords of Dread – Epic Deed Stratagem
+Determined that tales will be told of their spectacular end, the Fallen Noble overloads the internal generators of their Knight suit, hoping to take their enemy with them into oblivion.
+WHEN: Any phase, just after a Chaos Knights Character unit from your army is destroyed.
+
+TARGET: That CHAOS KNIGHTS CHARACTER unit. You can use this Stratagem on that unit even though it was just destroyed.
+
+EFFECT: When rolling to determine whether mortal wounds are inflicted by your unit’s Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of a 4+ instead of on a 6.
+RUNES OF DISDAIN
+2CP
+Lords of Dread – Epic Deed Stratagem
+Inscribed into the Knight suit’s servo-skeleton, these markings channel the pilot’s contempt for the foe and manifest it as a sorcerous aura of defence.
+WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One Chaos Knights Character unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.
+TITANIC DUEL
+1CP
+Lords of Dread – Epic Deed Stratagem
+The Chaos Knights engage in duels not for honour, but to assert their absolute dominance over the battlefield.
+WHEN: Your Shooting phase or the Fight phase.
+
+TARGET: One Chaos Knights Character unit from your army that has not been selected to shoot or fight this phase.
+
+EFFECT: Select one enemy MONSTER or VEHICLE unit. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. Each time a model in your unit makes an attack that targets that enemy unit, if that enemy unit is TITANIC, you can re-roll the Hit roll and you can re-roll the Wound roll instead.
+TROPHY HUNTER
+1CP
+Lords of Dread – Epic Deed Stratagem
+To these Fallen Nobles, each new foe chased down is another opportunity to claim gory trophies.
+WHEN: Fight phase, just before a Chaos Knights Character unit from your army consolidates.
+
+TARGET: That CHAOS KNIGHTS CHARACTER unit.
+
+EFFECT: Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3" as long as your unit can end that move within Engagement Range of one or more enemy units.
+CRUSHED LIKE VERMIN
+1CP
+Lords of Dread – Epic Deed Stratagem
+Screaming enemy warriors are crushed to gory paste as the Chaos Knight tramples spitefully through their midst, stamping and raking these unworthy foes with its huge, taloned feet.
+WHEN: Your Movement phase, just after a Chaos Knights Character unit from your army ends a Normal move.
+
+TARGET: That CHAOS KNIGHTS CHARACTER unit.
+
+EFFECT: Select one enemy unit (excluding MONSTERS and VEHICLES) that your unit moved over during that move and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. If one or more models are destroyed as a result of this Stratagem, that enemy unit must take a Battle-shock test.
+UNIQUE: WAR DOGS
+Houndpack Lance
+2DP
+Swift, comparatively numerous, yet each still a towering war engine in its own right, when War Dogs gather for the hunt they bring terrifying might to bear. Sometimes this power is leashed to the mental domination of masters piloting Abhorrent-class Knights. Such formations lope out like some feudal world hunting party, the larger Knights inhabiting the roles of bloodthirsty nobles while the War Dogs serve as their baying hounds. Other dread households prefer to give their War Dogs more freedom. They dispatch formations of these light and fast Knight suits into the wilds of the war zone to raid and cause mayhem at will, choking off supply lines and tearing apart targets of opportunity until the foe fears to leave their strongholds. Then there are the Unleashed. These masterless packs of War Dogs have broken their former masters’ control and now hunt and slaughter in pursuit of their own glories. Over time, these packs become ever more feral, following the direction of their alphas and dragging down prey like murderous super-predators.
+
+Detachment Rule
+
+Marked Prey
+Once War Dogs have singled out a victim, they target it relentlessly until it is dragged down and torn apart.
+
+At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a WAR DOG model from your army makes an attack that targets that enemy unit, if that unit is visible to the attacking model, that attack has the [SUSTAINED HITS 1] ability.
+
+KEYWORDS
+While using the Houndpack Lance Detachment, the following rules apply:
+Your army must include three or more WAR DOG units.
+WAR DOG units from your army have the BATTLELINE keyword.
+When mustering your army, select three WAR DOG units from your army. Until the end of the battle, those units have the CHARACTER keyword.*
+
+*Designer’s Note: This means that the selected units can be given Enhancements and one of them can be selected as your WARLORD.
+
+Enhancements
+Preyslayer’s Mantle15 pts
+This ancient War Dog chassis is said to have been forged in warpfires and ensorcelled with the spirit of the hunt unending.
+
+WAR DOG model only. The bearer has the Super-heavy Walker ability.
+
+Final Howl (Aura)20 pts
+Biomechanoid parasites lace a War Dog’s vox-emitters with the infernal baying of supernatural hunting hounds. Its effects upon other nearby War Dogs are profound and alarming.
+
+WAR DOG model only. While a friendly War Dog model is within 6" of the bearer, each time that model makes an attack, re-roll a Wound roll of 1.
+
+Loping Predator10 pts
+This swift attacker is adept at firing on the move, trusting the predatory senses of their War Dogs machine spirit to single out targets of opportunity.
+
+WAR DOG model only. The bearer’s ranged weapons have the [assault] ability.
+
+Panoply of the Cursed Knight15 pts
+Borne within by an order of silent Idolators, this collection of tattered pennants, chain-strung charms and armour scraps represent the last remains of the Knight Carnivus Grymm, torn apart by his own pack of War Dogs. It is said festooning one’s Knight suit with these charms instils the legendary fortitude of that doomed war engine, but also invites Carnivus Grymm’s ghastly end.
+
+WAR DOG model only. Each time an attack targets the bearer, worsen the Armour Penetration characteristic of that attack by 1.
+
+
+Stratagems
+VOX-HOWL
+2CP
+Houndpack Lance – Battle Tactic Stratagem
+This artificially generated vox-borne rallying cry booms out across multiple wavelengths. It bolsters the courage of fellow War Dog pilots and their steeds, even as it fills the foes’ communications with squealing scrapcode and monstrous howling.
+WHEN: Start of the Shooting phase or the start of the Fight phase.
+
+TARGET: One WAR DOG CHARACTER unit from your army.
+
+EFFECT: Each enemy unit within 6" of your unit must take a Battle-shock test. Each friendly WAR DOG unit that is within 6" of your unit and is Battle-shocked must take a Leadership test; if that test is passed, that unit is no longer Battle-shocked.
+
+RESTRICTIONS: You can only use this Stratagem once per turn.
+HUNGRY FOR COMBAT
+1CP
+Houndpack Lance – Battle Tactic Stratagem
+Eager to get into battle, these War Dogs hope to win glory and prove their worth to peers and masters alike.
+WHEN: Start of the Fight phase.
+
+TARGET: Two or more WAR DOG units from your army within Engagement Range of the same enemy unit.
+
+EFFECT: Select one enemy unit within Engagement Range of those WAR DOG units. Until the end of the phase, models in those WAR DOG units can only target that enemy unit, but each time a model in one of those WAR DOG units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.
+CUNNING HUNTER
+1CP
+Houndpack Lance – Strategic Ploy Stratagem
+This War Dog's pilot knows when to feign fight or give ground, only to redouble their attack the moment their prey’s guard drops.
+WHEN: Your Movement phase, just after a WAR DOG unit from your army Falls Back.
+
+TARGET: That WAR DOG unit.
+
+EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+ANIMALISTIC RAGE
+1CP
+Houndpack Lance – Battle Tactic Stratagem
+Many War Dog pilots are bitter and twisted souls whose hearts are filled with animalistic rage, and they will vent that anger with their last dying gasp.
+WHEN: Your opponent’s Shooting phase or the Fight phase, just after a WAR DOG unit from your army that has not been selected to attack this phase is destroyed.
+
+TARGET: That WAR DOG unit. You can use this Stratagem on that unit even though it was just destroyed.
+
+EFFECT: Before resolving your unit’s Deadly Demise ability, it can either shoot or fight. When doing so, it must target only the enemy unit that just destroyed it, and can only do so if that enemy unit is an eligible target. After it has done so and after any Consolidation moves have been made, resolve your unit’s Deadly Demise ability as normal.
+HARRYING HOUNDS
+1CP
+Houndpack Lance – Strategic Ploy Stratagem
+War Dogs fight with agility and guile, giving ground only to surge in on the attack from another angle.
+WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.
+
+TARGET: One WAR DOG unit from your army that is within 8" of that enemy unit.
+
+EFFECT: Your unit can make a Normal move of up to 6".
+ENCIRCLING PACK
+1CP
+Houndpack Lance – Strategic Ploy Stratagem
+The War Dogs of the dread household move to outflank and encircle their prey.
+WHEN: End of your opponent’s Fight phase.
+
+TARGET: One WAR DOG unit from your army that is wholly within 12" of one or more battlefield edges and not within Engagement Range of one or more enemy units.
+
+EFFECT: Remove your unit from the battlefield and place it into Strategic Reserves.
+Helhunt Lance
+2DP
+When the Chaos Knight houses ride out on the hunt, their prey endure a living nightmare. Eye lenses blaze in the gloom. Ion shields flicker like corpselight. The howl of brazen vox-horns announces the coming of the hunt. War Dogs lead the charge, loping beasts plunging into the densest terrain to flush warriors-turned-quarry into the open. Behind them come their masters, diabolical scions in monstrous steeds. They sneer in contempt, rune-locking choice prey upon their Knights’ targeters before picking them off with the clinical precision of master hunters. All the while the War Dog packs continue to harry the enemy, snarling target triangulation data to their masters through neural uplinks, redoubling their efforts with every goading lash. Soon enough, the enemy are reduced to heaped corpses and burning wrecks. Pausing only long enough to select the finest trophies to be lashed and chained to their Knight suits’ hulls, the hunt then moves on in search of new prey.
+
+Detachment Rule
+
+Masters of the Pack
+By bending their tyrannical will upon their War Dog underlings, the masters of the hunt goad them to provide a constant stream of sensor data. This influx of supplementary targeting, prey-seeking and omnisensory analysis enhances the scions’ ability to hunt alongside their snarling ironclad hounds.
+
+If a Titanic Chaos Knights unit from your army has an Aura ability that affects friendly WAR DOG units, while two or more friendly WAR DOG models are within range of that TITANIC CHAOS KNIGHTS unit’s Aura ability, that TITANIC CHAOS KNIGHTS unit is affected by that Aura ability as well.
+
+Example: Two friendly WAR DOG models are within 9" of a Knight Desecrator when it is selected to shoot. As a result, the KNIGHT DESECRATOR’s Taskmaster ability also affects itself, even though it does not have the WAR DOG keyword, so each time that KNIGHT DESECRATOR makes a ranged attack, Hit rolls of 1 are re-rolled.
+
+Enhancements
+Aspect of the Beast30 pts
+Something predatory and monstrous from the depths of the Warp has possessed this Knight suit. Its terrifying presence spreads like a pall.
+
+Chaos Knights model only. At the start of your Command phase, select one Dread ability to be active for the bearer until the start of your next Command phase, in addition to the Dread abilities active for your army
+
+Hunter’s Helm15 pts
+This infernal faceplate was forged by the cannibalistic Dark Magi of Ghanarkh. Affixed to a Chaos Knight, it infuses the steed with a carnivore’s ferocious hunger.
+
+Chaos Knights model only. You can re-roll Advance and Charge rolls made for the bearer’s unit.
+
+Octagram of Conjuration40 pts
+This Knight suit’s cockpit incorporates a summoning octagram that drags warp gheists into reality and sends them screaming out to bedevil rune‑marked prey.
+
+KNIGHT ABOMINANT model only. The bearer has the following ability:
+
+Octagram of Conjuration (Aura): While a friendly WAR DOG model is within 9" of this model, after that WAR DOG model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test.
+
+Throne Tyrannicus25 pts
+So dominant is the psychoneural signature of this Throne Mechanicum that it dominates even other scions and their steeds as they rule over War Dogs.
+
+Titanic Chaos Knights model only. In your Command phase, select one other Chaos Knights Character model within 9" of the bearer. If the bearer has one or more Aura abilities that affect friendly WAR DOG units, until the start of your next Command phase, the selected CHAOS KNIGHTS CHARACTER model is affected by those Aura abilities as well.
+
+
+Stratagems
+FERAL ARROGANCE
+1CP
+Helhunt Lance – Strategic Ploy Stratagem
+This Chaos Knight shrugs off even the most dire hurts as though they are beneath such a mighty, warp‑empowered predator.
+WHEN: Any phase, just after a mortal wound is allocated to a Chaos Knights unit from your army.
+
+TARGET: That CHAOS KNIGHTS unit.
+
+EFFECT: Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.
+MERCILESS FUSILLADE
+1CP
+Helhunt Lance – Battle Tactic Stratagem
+The scion slaves their servants’ weapons to their own, forming an overwhelming firestorm.
+WHEN: Start of your Shooting phase or the start of the Fight phase.
+
+TARGET: One Titanic Chaos Knights unit from your army, and up to two friendly WAR DOG units, that have not been selected to shoot or fight this phase.
+
+EFFECT: Select one enemy unit that is an eligible target for each of those CHAOS KNIGHTS units. Until the end of the phase, each time one of those Chaos Knights units is selected to shoot or fight, if that enemy unit is an eligible target, you can only select that enemy unit as the target for all of those attacks and those attacks have the [SUSTAINED HITS 1] ability.
+BEASTHIDE MANIFESTATION
+1CP
+Helhunt Lance – Battle Tactic Stratagem
+The raw and bestial power of the Warp causes this Chaos Knight to sprout thick mutant scales and layered hide in response to incoming attacks
+WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.
+
+TARGET: One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
+
+EFFECT: Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.
+FLUSH THE QUARRY
+1CP
+Helhunt Lance – Battle Tactic Stratagem
+Urged on by their masters, the War Dogs push hard through the densest terrain.
+WHEN: Start of your Movement phase.
+
+TARGET: One Titanic Chaos Knights unit from your army and up to three friendly WAR DOG units within 6" of that Titanic Chaos Knights unit.
+
+EFFECT: Until the end of the phase, each time one of those War Dog units makes a Normal, Advance or Fall Back move, its models can move through models and terrain features. When doing so, they can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.
+CONTEMPTUOUS VOLLEYS
+1CP
+Helhunt Lance – Strategic Ploy Stratagem
+No mere prey swirling about their steed’s feet will prevent this scion from focusing their fire.
+WHEN: Your Movement phase, just after a CHAOS KNIGHTS unit from your army Falls Back.
+
+TARGET: That Chaos Knights unit.
+
+EFFECT: Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.
+GOADED BEAST
+1CP
+Helhunt Lance – Strategic Ploy Stratagem
+Firing upon adamantine monsters only goads them to greater wrath and more ferocious bloodshed.
+WHEN: Your opponent’s Shooting phase, just after an enemy unit has shot.
+
+TARGET: One CHAOS KNIGHTS unit from your army that lost one or more wounds as a result of those attacks.
+
+EFFECT: Your unit can make a surge move of up to D6"
+Bastions of Tyranny
+1DP
+KNIGHTS TYRANT CRUELLY DEMONSTRATE THEIR ARROGANT SCORN FOR THE WEAK IN TAINTED SALVOES
+
+Detachment Rule
+
+Annihilate the Unworthy
+The withering arsenal of cursed weaponry available to a Knight Tyrant is turned with the cruellest focus upon those its scion despises for their weakness of spirit.
+
+Friendly KNIGHT TYRANT units’ attacks that target a battle-shocked unit have +1 to the hit roll.
+
+Enhancements
+Pterrorshade Rookery20 pts
+The gothic and mutated extrusions of this Knight Tyrant are the roost of a parasitic flock of pterrorshades. From their Throne, the Fallen Noble within has brokered a fragmented understanding of the maddening chorus they emit, enough to know when their unnatural senses have spotted fresh prey to be annihilated.
+
+KNIGHT TYRANT model only. When this unit is selected to shoot, select one enemy unit within 24" of this unit. That enemy unit has +6" detection range until this unit has shot.
+
+Hate-Filled Dominion20 pts
+This arrogant despot has yoked their weapon spirits to their will with a dominion forged of pure hate. Every maximised salvo is an expression of their malice and tyranny.
+
+KNIGHT TYRANT model only. This unit can re-roll rolls to determine the A of a weapon.
+
+
+Stratagems
+RUNE-CURSED STRONGHOLD
+1CP
+Bastions of Tyranny Stratagem
+The mightiest of the Chaos Knights are etched with malign wards capable of shielding them from powerful weapons and throwing back esoteric assaults.
+WHEN: Any phase, when a friendly KNIGHT TYRANT unit suffers a mortal wound.
+
+TARGET: That KNIGHT TYRANT unit.
+
+EFFECT: Your unit has Feel No Pain 5+ against mortal wounds.
+PITILESS FOCUS
+1CP
+Bastions of Tyranny Stratagem
+Eager to unleash the full power at their fingertips, the scion of a Knight Tyrant will allow nothing to impede their devastating arsenal.
+WHEN: Your Movement phase, when a friendly KNIGHT TYRANT unit is selected to make a fall-back move.
+
+TARGET: That KNIGHT TYRANT unit.
+
+EFFECT: That move does not prevent your unit from being eligible to shoot.
+INTIMIDATING REMINDER
+1CP
+Bastions of Tyranny Stratagem
+With a spiteful lash of suppressive firepower, a Knight Tyrant reminds its foes of the deferent fear and awe that are the only acceptable attitudes in the presence of such power.
+WHEN: Your Shooting phase, when a friendly KNIGHT TYRANT unit has shot.
+
+TARGET: That KNIGHT TYRANT unit.
+
+EFFECT: Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next Command phase:
+While a unit is suppressed, that unit’s attacks have -1 to hit rolls.
+UNIQUE: WAR DOGS
+Hunting Warpack
+1DP
+WAR DOGS ROOT OUT PREY AND SOW RUINATION ON HIGH‑SPEED HUNTS
+
+Detachment Rule
+
+Scenting Fear
+The corrupted pilots of War Dog suits despise fear and cowardice in the foe almost as much as they revel in hunting such prey and betraying their hiding places.
+
+(Once per battle round, per army) In your Shooting phase, you can select one visible enemy unit within 12" of a friendly WAR DOG unit. That enemy unit has +6" detection range.
+
+This detachment has the WAR DOGS tag and cannot be taken with another WAR DOGS detachment.
+
+Enhancements
+Soul-Spoor AuspicatorUPGRADE15 pts
+Those Huntsmen darkly blessed with a daemonic device sensitive to a worthy prey’s spirits are capable of killing shots at greater effective ranges.
+
+HUNTSMAN unit only. This unit’s ranged attacks have +6" R.
+
+Snarling RivalryUPGRADE10 pts
+The greatest Executioners are expert long‑range killers. They viciously compete for tallies of slaughter and eagerly eviscerate dug‑in foes to prove their skill.
+
+EXECUTIONER unit only. This unit’s ranged attacks have [IGNORES COVER].
+
+
+Stratagems
+INSENSATE BLOODTHIRST
+1CP
+Hunting Warpack Stratagem
+Gripped by a fever to kill and with prey within reach, whatever damage the prey inflicts is smothered by a War Dog’s thrill of the hunt.
+WHEN: Fight phase, when an enemy unit targets a friendly WAR DOG unit.
+
+TARGET: That WAR DOG unit.
+
+EFFECT: Your unit has Feel No Pain 5+
+LEASH OF THE MASTERS
+1CP
+Hunting Warpack Stratagem
+Under the painful neural leash of a Helm Mechanicum, a War Dog pilot’s gory instincts can be overridden to undertake vital operations prioritised by their larger masters.
+WHEN: Your Shooting phase, when a friendly WAR DOG unit has shot.
+
+TARGET: That WAR DOG unit.
+
+EFFECT: Those attacks do not prevent your unit from being eligible to start an action.
+STALKING FOCUS
+1CP
+Hunting Warpack Stratagem
+With a prize under their talons, War Dogs are adept at evading the prey’s sight by loping low through cover.
+WHEN: Your opponent’s Shooting phase, when an enemy unit targets a friendly WAR DOG unit within range of an objective.
+
+TARGET: That WAR DOG unit.
+
+EFFECT: Ranged attacks that target your unit have -1 AP until that enemy unit has attacked.
+Iconoclast Fiefdom
+1DP
+DEBASED HERETICS SERVE TOWERING MASTERS AS IDOLISING THRALLS AND SACRIFICIAL PAWNS ALIKE
+
+Detachment Rule
+
+Wretched Thralls
+Devoted mortal thralls flock to fight in the titanic shadow of their mechanical idols with chanted prayers and brayed challenges.
+
+You can include DAMNED units in your army (see Codex: Chaos Space Marines). The combined points cost of such units cannot exceed 500 points.
+Friendly DAMNED units can re-roll leadership rolls.
+
+Enhancements
+Cruel Lashmaster (Aura)25 pts
+This callous Fallen Noble drives teeming hordes of their twisted serfs at a desperate pace to overwhelm their prey with lesser targets.
+
+CHAOS KNIGHTS model only. While a friendly DAMNED unit is within 6" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2" M until the end of the phase.
+
+Iconoclast Idol (Aura)20 pts
+Chanting mortal thralls have pledged their lives and souls to this Chaos Knight’s defence, and throw themselves at any who dare threaten the object of their idolatry
+
+CHAOS KNIGHTS model only. While a friendly DAMNED unit is within 6" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP.
+
+
+Stratagems
+AVENGE THE MASTERS!
+1CP
+Iconoclast Fiefdom Stratagem
+As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.
+WHEN: Any phase, when a friendly CHAOS KNIGHTS unit is destroyed by an enemy unit.
+
+TARGET: That enemy unit.
+
+EFFECT: That enemy unit is marked until the end of the battle.
+Friendly DAMNED units’ attacks that target a marked unit have [LETHAL HITS].
+DARK SACRIFICE
+1CP
+Iconoclast Fiefdom Stratagem
+The pilots of corrupted Knight suits demand a ritual offering of their serfs, and their mechanical steed feeds upon the victims’ life forces and raw fear.
+WHEN: Your Command phase.
+
+TARGET: One friendly DAMNED unit (excluding ACCURSED CULTISTS units) within 9" of a friendly CHAOS KNIGHTS model.
+
+EFFECT: Select one CHAOS KNIGHTS model within 9" of your unit and roll D3+3:
+Your DAMNED unit suffers that number of mortal wounds.
+That CHAOS KNIGHTS model heals that number of wounds.
+COURSING THRALLS
+1CP
+Iconoclast Fiefdom Stratagem
+With blaring hunting horns and bellowed calls to their towering masters, mortal thralls signal the location of hiding prey.
+WHEN: Start of your Shooting phase.
+
+TARGET: One friendly DAMNED unit.
+
+EFFECT: Select one visible enemy unit within 12" of your unit. That enemy unit is hunted:
+While a unit is hunted, that unit has +6" detection range.
+Crusade Rules
+In this section you’ll find additional rules for playing Crusade battles that are bespoke to the CHAOS KNIGHTS units. You can find out more about Crusade armies in the main Crusade rules.
+
+This section contains the following rules:
+
+AGENDAS
+Chaos Knights armies can attempt to achieve unique Agendas in addition to those found in other publications. These represent the factions unique goals and their particular methods of waging war.
+
+AMASSING POWER
+The rules presented in this section represent the efforts of a Chaos Knights household force, as it strives to carve out its own dominion in the galaxy, by gaining power over the various forces that can aid or hinder them in the form of the Idolators that are essential to maintaining and upgrading your colossi of brutality, the War Dog Hunting Packs that are driven by their heinous instincts, or the malefic pacts offered to the Dark Gods themselves.
+
+IDOLATORS’ OFFERINGS
+As they gain experience and prowess, Chaos Knights Titanic units in your Crusade force can be given one of the Battle Traits in this section instead of one presented elsewhere. Each attaches to different parts of the Knight itself, letting you create a bespoke war machine of death.
+
+HUNTING PACKS
+As the harrying Hunting Packs congregate, War Dog units in your Crusade force can be given one of the Battle Traits in this section instead of one presented elsewhere. These allow them to hunt savagely together, working to bring down their foes as one.
+
+PACTS OF DAMNATION
+Over your Crusade forces journey, CHAOS KNIGHTS TITANIC units in your collection can make pacts with the Dark Gods. These special Battle Honours represent the unique benefits and perils that come from such dealings.
+
+REQUISITIONS
+CHAOS KNIGHTS armies have access to a number of bespoke Requisitions in addition to those found in other publications.
+
+BATTLE SCARS
+In addition to the Battle Scars presented in other publications, the ones presented here can better portray the damage to the CHAOS KNIGHTS TITANIC units from your Crusade force.
+
+CRUSADE RELICS
+In addition to the Crusade Relics presented in other publications, Chaos Knights Character models can claim one of the Crusade Relics found here.
+
+CRUSADE BADGES
+Here you will find three Crusade Badges representing goals you can set yourself when campaigning with your Crusade force. Once one is achieved, you could set yourself a new goal, or take the opportunity to start a new Crusade force.
+
+Agendas
+If your Crusade army includes any Chaos Knights units, you can select Agendas from those presented here.
+
+MALICIOUS HUNT
+Singling out their mightiest foe as little more than a game animal to prey upon, the Fallen Nobles ride out to prove their dominance by competing to be the one to slay it.
+
+At the start of the battle, the enemy unit with the highest Wounds characteristic (excluding DEDICATED TRANSPORT units) becomes your Crusade army’s Prey. If there are multiple such units, select one of those units to be your Crusade army’s Prey. At the end of the battle, if your Crusade army’s Prey was destroyed by a CHAOS KNIGHTS model from your Crusade army, that unit gains 3XP. If that model from your Crusade army has the WAR DOG keyword, your Crusade force’s standing with the War Dog Domination increases by 1 level.
+TEAR DOWN THE FALSE GODS
+Many Fallen Nobles are fanatical in their devotion to the Gods of Chaos, quick to topple the idols and smash the fanes of any other deity.
+
+At the start of the battle, your opponent must set up three Sacred Site markers, 40mm in diameter, anywhere on the battlefield not within 9" of any battlefield edges and not within 9" of each other. Sacred Site markers are controlled in the same manner as objective markers. At the start of your Command phase and at the end of the battle, for each Sacred Site marker you control, select one CHAOS KNIGHTS unit from your Crusade army within range of that Sacred Site marker. That 4 Sacred Site marker is desecrated by your Crusade army and removed from the battlefield, and that selected unit gains 2XP. At the end of the battle, if two or more Sacred Site markers were desecrated by your Crusade army, your Crusade forces standing with the Dark Gods increases by 1 level.
+SEIZE RICHES
+The foe bears ancient devices and complex weapons of whose might they are not worthy. The Chaos Knights must crush those who hoard these technological riches, claiming them as their rightful due or using them to curry favour with Idolators and dark priests.
+
+Each time a CHAOS KNIGHTS unit from your Crusade army destroys an enemy unit within 6", if that enemy unit has an Enhancement or a Crusade Relic, that CHAOS KNIGHTS unit gains 2XP and your Crusade army recovers one tech-trophy. At the end of the battle, if your Crusade army has recovered two or more tech-trophies, your Crusade force’s standing with the Idolators’ Influence increases by 1 level.
+TYRANNICAL DOMINATION
+The enemy must be driven from this place and the banners of the Chaos Knights raised high over it, proclaiming to all their dominion and their right to seize whatever lands they please.
+
+At the end of the third, fourth and fifth battle rounds, for each objective marker you control that is not within your deployment zone, you can select one CHAOS KNIGHTS TITANIC unit within range of that objective marker (excluding Battle-shocked units). Each selected unit gains 1XP. At the end of the battle, if your WARLORD is on the battlefield, your WARLORD gains a number of XP equal to the number of objective markers you control that are not within your deployment zone.
+Amassing Power
+Chaos Knights attempt to amass power and influence on their campaigns throughout the galaxy. The true strength of a Chaos Knights force lies in the Power Bases presented below.
+
+
+
+Dark Gods
+Those who strike dark bargains with warp entities or their mortal servants may gain great power. Yet there is always a price to be paid.
+
+Those blessed by the Dark Gods can enter into powerful Pacts of Damnation, granting them potent abilities at the cost of some part of themselves. The more favoured they are by these malign entities the better they will be able to bargain with them, and the greater the blessing they will receive in return.
+
+
+
+Idolator Influence
+It is a wise Fallen Noble who either cultivates the favour of their Idolators or sets one cabal against the other and reaps the rewards of their fierce competition.
+
+Leaders that have curried goodwill amongst the ranks of the Idolators will have access to new and powerful Battle Traits in the form of Idolators’ Offerings, which can be fashioned onto various parts of a Knight, granting unique capabilities specific to that part of their Knight suit.
+
+
+
+War Dog Domination
+Be it Fallen Nobles perfecting their control of War Dogs via the link between Thrones and Helms, or a pack of Unleashed Chaos Knights gaining their independence, mastery of these lighter Knights brings tactical benefits.
+
+The War Dog pilots in this force have been firmly dominated by Fallen Noble masters or pack Alphas, allowing them to be formed into large Hunting Packs and used to pin and bring down foes.
+
+When a Crusade force begins to amass power, it will have a standing level in each of these Power Bases that is determined by the type of Chaos Knights force it is. Over the course of its Crusade, it will gain and lose standing in each of these Power Bases through a combination of achieving Agendas and making various decisions between battles. Having a high standing within a Power Base will open up new opportunities specific to that Power Base.
+
+There are five levels of standing for each Power Base:
+
+
+Hostile
+
+Distrustful
+
+Wary
+
+Cautious Alliance
+
+Aligned Interests
+
+A standing level can never be reduced below Hostile and can never be increased beyond Aligned Interests.
+
+Beginning to Amass Power
+When your Crusade force begins to Amass Power, select one of the following Allegiances (Iconoclast House, Infernal House or Dreadblades) and make a note of it on your Order of Battle. The starting standing level of each of your Crusade force’s Power Bases is then shown in the table below. You may use Amassing Power tracker.
+
+Icono­clast House
+Given to tyrannical leanings and a violent drive to determine their own fates, the warriors of most Iconoclast houses are slow to place their fates in others’ hands. They prefer to politick and dominate, amassing power through their own efforts and wielding it in their own name.
+
+In­fernal House
+The Infernal houses are often defined by their oath-sworn service to dark magi, heretic warlords or the Dark Gods them­selves. Such bargains bring them great and terrible power, their souls traded away in exchange for super­natural abilities and unholy weapons.
+
+Dread­blades
+Amongst Dreadblade companies and mercenary lances, power and influence are all. Though they do make use of War Dogs at times, such smaller, weaker Knight suits are usually expended with callous disregard by masters who prize dark riches and personal might more highly.
+
+
+Dark Gods
+Starting Standing
+
+
+
+
+Idolator Influence
+Starting Standing
+
+
+
+
+War Dog Domination
+Starting Standing
+
+
+
+
+Gaining Standing Levels
+Additional standing can be gained through completing Agendas. In addition:
+Each time you win a battle, select one Power Base and increase its standing level by 1. Then roll one D6 for each other Power Base: on a 1-2, reduce that Power Base’s standing level by 1.
+Each time you draw or lose a battle, roll one D6: on a 1-3, randomly select one Power Base and reduce its standing level by 1.
+
+Idolators’ Offerings
+Idolators’ Offerings are a form of Battle Trait. Each time a Chaos Knights Titanic model from your Crusade army gains a Battle Trait, as long as your Idolator Influence standing level is Wary or better, you can give it one of these Battle Traits instead of one from elsewhere. Each Idolators’ Offering is assigned to a different part of the Knight suit, and no model can have more than one Idolators’ Offering for each suit location. If you wish to change a pre-existing Idolators’ Offering which is on model for another one, you must use the Vile Reworking Requisition.
+
+Each time you give a model an Idolators’ Offering, after selecting the location you wish to upgrade, you can either roll one D6 to randomly determine the Battle Trait or select the one most appropriate for your narrative. If you have a good standing level within the Idolator Influence, you will also gain access to some of their most powerful technologies that you can install instead of ones generated from the table. Each location has two special Idolators’ Offerings: one that can only be given to a model if your Idolator Influence standing level is Cautious Alliance or higher and another that can only be given if it is Aligned Interests.
+
+Legs
+D6
+FLESHMETAL SERVO-TENDONS
+These bundles of gruesomely harvested muscle and rune-etched machinery strain with unnatural vitality. They lend a Chaos Knight an obscene turn of speed.
+
+Add 2" to the Move characteristic of this model and you can re-roll Advance rolls made for it.
+CRUEL SPIKES
+Clusters of vicious spikes, wrought from metal or bone, have been mounted on this Knight’s hull or have sprouted from it. They impale luckless foes at close quarters.
+
+Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2-4, that enemy unit suffers D3+1 mortal wounds; on a 5+, that enemy unit suffers D3+3 mortal wounds.
+RUNES OF SCORN
+Carved into the Knight’s huge armoured greaves, these foul glyphs radiate hatred and arrogance, foes struggling not to instinctively cower at the sight of them.
+
+At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll.
+SPITE CAPACITORS
+With every stride towards its victims, every foe crushed underfoot, the Chaos Knight fills these empyric batteries with a charge of spiteful power to be released in the form of speed at a vital moment.
+
+While your Idolators Influence standing level is Cautious Alliance or better, this model is eligible to declare a charge in a turn in which it Fell Back.
+RAKING TALONS
+Those seeking to flee from this towering monster may be caught and torn apart by swipes of these vicious talons.
+
+Only one model in your Order of Battle can have this Idolators’ Offering. While your Idolators’ Influence standing level is Aligned Interests, each time an enemy unit (excluding MONSTERS and VEHICLES) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.
+
+Arms
+D6
+DOOMLOCK TARGETER
+This arcane device reads the strands of its victims’ fates in the winds of the warp, then guides even the most wildly aimed firepower to where their doom awaits.
+
+Ranged weapons equipped by this model have the [ASSAULT] ability.
+MUTANT MUSCULATURE
+Threaded through the mechanisms of the weapon arm, these foul masses of muscle and flesh lend extra force to the Chaos Knight’s blows.
+
+Each time this model makes a melee attack, if it made a Charge move this turn, add 2 to the Strength characteristic of that attack.
+SOULSIGHT OCCULUM
+Blister-like eyes peer from this arm’s weapon housing, perceiving the souls of the prey no matter where or how they hide.
+
+Each time this model makes a ranged attack, it can ignore any or all modifiers to its Ballistic Skill and the Hit roll.
+PREDATORY MACHINE SPIRIT
+This weapon has been infused with a machine spirit so fierce and predacious that it will strike before its pilot even consciously recognises the need.
+
+While your Idolators’ Influence standing level is Cautious Alliance or better, once per battle, you can target this model with the Counter-offensive Stratagem for 0CP,
+and can do so even if you have already targeted a different unit with that Stratagem this phase.
+AUTO-FURY CACODAEMONS
+Caged within the weapon limb, these sparks of warp sentience watch constantly for approaching foes and turn their spite upon any who dare draw too near.
+
+Only one model in your Order of Battle can have this Idolators’ Offering. While your Idolators Influence standing level is Aligned Interests, each time this model makes a ranged attack, if it targets the closest eligible unit within 12", that attack has the [SUSTAINED HITS 1] ability.
+
+Torso
+D6
+ION COWL
+This rare device channels momentary surges of ion shield energy across the Chaos Knight’s hull, protecting it from the back blast from its own point-blank fire.
+
+When making ranged attacks with its Blast weapons, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit).
+MALIGN WARDS
+This Chaos Knight’s hull crawls with heretical warding runes and protective spells.
+
+This model has the Feel No Pain 4+ ability against mortal wounds.
+BALEFURY FAIL SAFES
+These reactor-limiter spirits actively overcharge the Chaos Knight’s power plant in the instant before its destruction, ensuring its demise claims many lives.
+
+When this model is destroyed, this model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 3+ instead of on a 6.
+SHRIEKING ARMOUR
+Tormented faces constantly rise to the surface of these rippling armour plates, straining and screaming in terrifying fashion before submerging once again.
+
+While your Idolator Influence standing level is Cautious Alliance or better, at the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test.
+DAMNED CONSTRUCTION
+Supplied by magi of the Dark Mechanicum itself, these armour plates are fashioned from the most infernal materials that endure with supernatural tenacity.
+
+Only one model in your Order of Battle can have this Idolators’ Offering. While your Idolator Influence standing level is Aligned Interests, this model has a Save characteristic of 2+.
+
+Head
+D6
+WARP OPTICS
+This fleshmetal visor slithers down over the pilot’s face and allows them to see in supernatural spectra.
+
+Ranged weapons equipped by this model have the [IGNORES COVER] ability.
+VOX-SYMBIOTE
+This foul entity’s data-tendrils stretch out from the pilot’s Throne to infest others in the lance and transmit whispered messages.
+
+Each time you select this unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.
+DAEMONIC POSSESSOR
+This entity lurks within the shell of the Chaos Knight, held at bay by the pilot’s will but ever ready to seize control should that will waver.
+
+Once per battle, after this model fails a Battle-shock test, this model can use this ability. If it does, it is no longer Battle-shocked.
+MALEVOLUS LOCKOUT
+This pseudo-sentient machine spirit singles out key prey and temporarily dominates all other systems within the Chaos Knight, goading it to pour all its fury into the chosen victim.
+
+While your Idolators’ Influence standing level is Cautious Alliance or better, once per battle, when this model is selected to shoot, it can use this ability. If it does, select one enemy unit. Until the end of the phase, ranged weapons equipped by this model have the [devastating WOUNDS] ability while targeting that enemy unit.
+TYRANTUS ARRAY
+This arcane array of biomechanical and warp-infused instrumentation draws information in from both the realspace battlefield and its echoes in the warp, giving its user unparalleled strategic command.
+
+Only one model in your Order of Battle can have this Idolators’ Offering. While your Idolator Influence standing level is Aligned Interests, when selecting Agendas, you can select one additional Agenda for this battle.
+
+Hunting Packs
+Hunt Tactics are a type of Battle Trait that WAR DOG models can earn. Each time a WAR DOG model from your Crusade army gains a Battle Trait, as long as your War Dog Domination standing level is Wary or better, you can give it one of these Battle Traits instead of one from elsewhere. Each time you give a model a Hunt Tactic, you can either roll one D6 to randomly determine the Battle Trait or select the one most appropriate for your narrative.
+
+At the start of the first battle round, you can form the WAR DOG models from your army into one or more Hunting Packs for the duration of the battle, the size of which is determined by your standing level with the War Dog Domination as shown in the table below.
+
+War Dog Domination
+Standing Level
+Number of models in Hunting Pack
+
+
+2
+
+2-3
+
+Once you have done so, you must select one Hunt Tactic for each Hunting Pack in your Crusade army. Until the end of the battle, while a model from that Hunting Pack is within 12" of one or more other models from that Hunting Pack, that model has the Hunt Tactic selected for that Hunting Pack.
+
+Each Hunt Tactic has a secondary effect that only affects its Hunting Pack if that Hunting Pack is Ascendant. At the start of the battle, no Hunting Packs are Ascendant. Each time a model from a Hunting Pack destroys an enemy unit, after resolving all of that model’s attacks, that Hunting Pack becomes Ascendant, if it is not already, until the end of the battle.
+
+Hunt Tactics
+AGGRESSIVE CHARGE
+Making straight for the prey, the pack aims to either tear it to pieces or else drive it from cover in terrified disarray.
+
+This model is eligible to declare a charge in a turn in which it Advanced. In addition, if this model’s Hunting Pack is Ascendant, each time this model makes a melee attack, if it made a Charge move this turn, that attack has the [DEVASTATING WOUNDS] ability.
+PIN AND PREDATE
+The pack focuses on trapping their prey before ripping them limb from limb.
+
+Each time this model makes a melee attack, you can re-roll a Wound roll of 1. If this model’s Hunting Pack is Ascendant, you can re-roll the Wound roll instead.
+ROVING ASSASSINS
+Prowling the battlefield, these War Dogs wait until their prey believe themselves safe before picking them off with long-ranged firepower.
+
+Add 3" to the Range characteristic of ranged weapons equipped by this model. In addition, if this model’s Hunting Pack is Ascendant, ranged weapons equipped by this model have the [IGNORES COVER] ability.
+BRUTE TACTICS
+The pack’s War Dogs close formation and present their thickest armour to the prey, bulling forward into their midst.
+
+This model has a 5+ invulnerable save against melee attacks. In addition, if this model’s Hunting Pack is Ascendant, each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds.
+HIDDEN STALKERS
+These hunters focus on evading their prey’s notice, closing in through dense terrain and loping low to the ground.
+
+This model has the Benefit of Cover. In addition, if this model’s Hunting Pack is Ascendant, this model can only be targeted by a ranged attack if the attacking model is within 18".
+COORDINATED HUNTERS
+Maintaining constant vox-contact and employing a gestalt warp-manifold to exchange strategic data, War Dogs hunt their prey with exceptional cunning.
+
+Add 2 to this model’s Objective Control characteristic. In addition, if this model’s Hunting Pack is Ascendant, each time you select this model as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.
+
+Pacts of Damnation
+Pacts of Damnation are a type of Battle Honour that can only be gained and removed using the Path to Damnation Requisition.
+
+A Pact of Damnation consists of two parts, a Dark Boon and a Cursed Price. A Dark Boon is a powerful benefit that the model gains, and can be selected from those below, while the Cursed Price is a Battle Scar that cannot be removed without breaking the pact entirely using the Path to Damnation Requisition. Note that a Cursed Price does not count towards the number of Battle Scars a model is considered to have for the purposes of Out of Action tests (so you can choose the Battle Scar result on an Out of Action test for a unit with two normal Battle Scars and a Cursed Price).
+
+When a unit gains a Pact of Damnation, choose the Dark Boon that most fits your narrative, based on your Crusade forces Dark Gods standing level. Then determine the Cursed Price by randomly generating a Chaos Knights Battle Scar.
+
+A model can never have more than one Pact of Damnation, and you cannot have more than one model in your Order of Battle with the same Dark Boon.
+
+Minor Dark Boons
+When a model from your Crusade force gains a Dark Boon, if your Dark Gods standing level is Wary, Cautious Alliance or Aligned Interests, you can select from the following options.
+
+
+
+
+THRONE INSIDIOUS
+The ghosts within this Fallen Noble’s Throne have been granted malevolent insight. They constantly whisper into the pilot’s mind, revealing the deepest fears of the foe.
+
+Once per battle, in your Command phase, you can change one of your army’s currently active Dread abilities for another one.
+WRATHFUL AURA
+Raw fury radiates from this Chaos Knight, crushing the will and courage of those it touches.
+
+Double this model’s Objective Control characteristic.
+BEGUILER’S MAW
+The words that slither from this Fallen Noble’s twisted lips become irresistible compulsions in the minds of their servants.
+
+Once per battle, in your Command phase, you can change the Hunt Tactic of one Hunting Pack from your Crusade army. If that Hunting Pack was Ascendant before the change, it remains so.
+
+Major Dark Boons
+When a model from your Crusade force gains a Dark Boon, if your Dark Gods standing level is Aligned Interests, you can select from the following options.
+
+
+ENSORCELLED SHIELD
+The dark power of a patron deity flow through this Knight suit’s ion shield and weave themselves about its hull in a divine protective aegis.
+
+This model has a 4+ invulnerable save against ranged attacks, and the Feel No Pain 6+ ability.
+WARP WALKER
+Occluded by a magnificent gilded glare, this Chaos Knight vanishes into the warp seemingly at will only to emerge elsewhere.
+
+At the end of your opponent’s turn, if this model is not within Engagement Range of one or more enemy units, you can remove this model from the battlefield and place it into Strategic Reserves.
+BRAZEN HEART
+The blood fury of this raging power plant can reignite even after the most grievous damage.
+
+The first time this model is destroyed, roll one D6 at the end of the phase: on a 3+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with 7 wounds remaining.
+
+Requisitions
+If your Crusade army includes any Chaos Knights units, you can spend Requisition points (RP) on any of the following Requisitions.
+
+VILE REWORKING
+1RP
+Cabals of Idolators can replace technologies they have previously worked into a Chaos Knights chassis. There are risks to such work, however, as damage - accidental or malicious - may be inflicted.
+
+Purchase this Requisition at any time. You cannot use this Requisition if your Crusade force’s Idolator Influence standing level is Distrustful or Hostile. Select one Chaos Knights Titanic model from your Crusade force with one or more Idolators’ Offerings. Select one of those Idolators’ Offerings and remove it. You can then select a new Idolators’ Offering for that model. Afterwards, if your Idolator Influence standing level is Wary or worse, roll one D6: on a 1, your model gains a Battle Scar.
+PATH TO DAMNATION
+1RP
+The Dark Gods are said to be jealous patrons and the ways of the warp are fickle. There is peril in breaking and remaking pacts that court their favour.
+
+Purchase this Requisition after winning a battle. You cannot purchase this Requisition if your Crusade force’s Dark Gods standing level is Distrustful or Hostile. Select one Chaos Knights Titanic model from your Crusade army to attempt to make a pact with the Dark Gods. If that model already has a Pact of Damnation, it must break it. Remove that pact’s Dark Boon, then roll one D6: on a 4+ remove that pact’s Cursed Price; otherwise, that pact’s Cursed Price is then treated as a normal Battle Scar. Finally, roll one D6, and consult the table below to see if your model successfully gains a Pact of Damnation.
+
+Dark Gods
+Standing Level
+Successful Result
+
+
++
+
+
++
+
+
++
+DARK AMBITION
+1RP
+Many Fallen Nobles cleave with psychotic fervour to sworn oaths. Yet when the chance of greater power beckons, they can be all too quick to justify betraying these very pacts while believing that their deeds do no such thing.
+
+Purchase this Requisition after a battle, and no more than once after each battle. Select one Power Base, and reduce your standing level with that Power Base to Hostile. For each level of standing lost when reducing it in this way, select a different Power Base and increase your standing level with that Power Base by 1.
+
+For example, if your standing level with the Power Base you select is Aligned Interests, then you lose 4 levels of standing, and can increase your standing level with a different Power Base 4 times.
+A NEW STEED
+1RP
+Whether claimed as a trophy in battle and broken to heel, presented as martial tribute by fawning underlings or unleashed from within the dread household’s hellish stable, a new Knight suit beckons.
+
+Purchase this Requisition at any time. Select one Chaos Knights Titanic unit from your Order of Battle. Remove that unit from your Order of Battle and replace it with one CHAOS KNIGHTS TITANIC unit. You cannot purchase this Requisition if doing so would cause you to exceed your Crusade force’s Supply Limit. The new unit starts with the same XP, Battle Honours, Battle Scars, Crusade points and Pacts of Damnation (if applicable) as the unit it replaced.
+
+Battle Scars
+When generating a Battle Scar for a Chaos Knights unit, you can use the table below. If rolling for a WAR DOG model, only apply results 1-3, re-rolling results of 4-6.
+
+
+Chaos Knights UNITS
+D6
+CRIPPLED ACTUATORS
+Motive actuators crucial to the Knight suit’s mobility have been damaged.
+
+Subtract 2" from the Move characteristic of this model and you cannot re-roll Advance rolls made for it.
+FERAL MACHINE SPIRIT
+This Knight’s machine spirit has devolved into feral savagery and needs goading back to full function.
+
+Each time you target this model with a Stratagem, roll one D6: on a 1-2, that Stratagem has no effect.
+MIASMAL EMISSIONS
+Battle damage or warp corruption has led this Knight suit to emit gouts of pollutant foulness and flaring energy that betray its position.
+
+This model cannot have the Benefit of Cover.
+INADEQUATE OFFERINGS
+Whether through intentional sabotage, battle damage or sheer incompetence, the Idolators’ technological additions to this Knight suit are starting to fail.
+
+Re-roll this result if this model has no Idolators’ Offerings. In your Command phase, roll one D6: on a 1-2, randomly select one Idolators’ Offering this model has. Until the start of your next Command phase,that Idolators’ Offering has no effect on this model.
+FALTERING REACTOR
+Capricious fluctuations in this Knight suit’s power supply rob command systems and empyric resonators of energy at crucial moments.
+
+The range of this model’s Aura abilities is reduced to a maximum of 6" and cannot be increased by any means.
+TATTERED PANOPLY
+Broken trophy chains, damaged armour and torn banners trail from this Knight suit, becoming snarled on battlefield obstacles.
+
+Each time this model moves through a terrain feature, when rolling to see if it is Battle-shocked as a result of the Super-heavy Walker ability, it becomes Battle-shocked on a roll of 1-3.
+
+Crusade Relics
+When a Chaos Knights Character model gains a Crusade Relic, you can select one of the Relics presented here.
+
+
+Artificer Relics
+TYRANT’S RAIMENT
+Legend has it this cloak of woven hair and threaded teeth comprises contributions taken from the populations of a hundred conquered worlds.Unutterably foul it may be, but any who wears it is imbued with a supernatural talent for oppression and martial domination. Wars have been fought between dread households over its possession.
+
+Each time the bearer makes an attack that targets a unit within range of an objective marker, add 1 to the Hit roll.
+ICON OF DAMNATION
+This eight-pointed emblem is bestowed by dark artificers in return for a bounty of stolen technology. Striking it causes it to shatter, the fragments running like quicksilver to patch rent armour and mend broken power lines. Mysteriously, in the wake of battle, the icon is always discovered whole again somewhere about its owner’s person - even should they seek to rid themselves of its unsettling presence.
+
+Once per battle, in your Command phase, the bearer can use this Crusade Relic. If it does, it regains up to D6 lost wounds.
+HARBINGER’S CHAINS
+Said to have been forged from the despoiled ramparts of the Keep Inviolate, these warp-soaked chains radiate a malice that can make even the stoutest heart falter.
+
+While an enemy unit is within Engagement Range of the bearer, subtract 1 from the Objective Control characteristic of models in that enemy unit (to a minimum of 1).
+
+Antiquity Relics
+CRAAHDEKH’S THRONE OF SACRIFICE
+This thrice-cursed Throne Mechanicum feeds off the blood and soul of its user as a perpetual offering to the Dark Gods, in return for a mote of their favour.
+
+Each time the bearer is selected to shoot or fight, it can use this Crusade Relic. If it does, it suffers D6 mortal wounds and until the end of the phase, each time it makes an attack, you can re-roll the Wound roll.
+SHADES OF RUIN
+Those who assail this Knight are beset by a squall of shadowy wings, flashing beaks and gouging talons. It is a determined foe indeed who dares the wrath of these swarming Pterrorshades.
+
+Each time an enemy unit within 18" of the bearer makes an attack that targets the bearer, until the end of the phase, that enemy unit’s ranged weapons have the [HAZARDOUS] ability.
+
+Legendary Relics
+BATTLESTORM’S EYE
+Said to imprison an entire warp storm, hues of madness ripple and change constantly in the crystal shard at the talisman’s heart. Supernatural tempests gather about its bearer and drown the lands around them in a tide of dread.
+
+The bearer always benefits from every Dread ability, regardless of which ones are currently active for your army.
+
+Crusade Badges
+When your Crusade force accomplishes specific long-term goals, you can earn the Crusade badges shown below, representing your warriors’ successes over many battles.
+
+
+Dread Baron
+Through violent conquest, cunning politicking and the striking of diabolical pacts, you have attained considerable personal power. A lance of Chaos Knights marches at your command. Lands are yours to tyrannise and exploit however you see fit. Yet this is only a beginning, a foundation laid for something greater still to come, and your cruel ambitions know no limit.
+
+You have the maximum standing level in at least one Power Base.
+You have won two or more battles.
+
+
+
+Exalted Fiend
+So great and terrible is the tale of your deeds, so many foes have you slain and battlefields have you conquered, that your star is now firmly in the ascendant. You have earned a place within the innermost circle of your dread household’s monarch, becoming a trusted advisor as well as their champion, herald, headsman or seneschal. Yet you still desire greater power, and the Path to Glory is paved with the skulls of rulers betrayed by their closest lieutenants.
+
+You have the maximum standing level in at least two different Power Bases at the same time.
+You have won six or more battles.
+At least one CHARACTER unit from your Order of Battle has reached the Heroic rank.
+
+
+
+Heretic Monarch
+Your victories - over enemies and former allies alike - have elevated you to ultimate power. You now rule an entire dread household, commanding the world-conquering might of its massed lances, Idolator cabals and myriad esoteric assets. Your realm is an entire world, perhaps even a stellar empire. Of course, with so much power at your disposal, the galactic conquests you could achieve are considerable. Fresh wars beckon. Your Path to Glory does not end here.
+
+You have the maximum standing level in all three Power Bases at the same time.
+You have won ten or more battles.
+At least one CHARACTER unit from your Order of Battle has reached the Legendary rank.
+
+
+© Vyacheslav Maltsev 2013-2026
+Privacy Preferences
+We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below.
+
+Consent Do Not Sell My Information
