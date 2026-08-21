@@ -16,6 +16,7 @@ export const TARGETS=[
     {key:"poss",   grp:"meta",label:"Poss",   sub:"T6 3+/5++",  T:6, sv:3,inv:5,fnp:null,veh:false,mon:false,wounds:30},
     {key:"necron", grp:"meta",label:"Necron", sub:"T4 4+/4++",  T:4, sv:4,inv:4,fnp:null,veh:false,mon:false,wounds:20},
     {key:"rubric", grp:"meta",label:"Rubric", sub:"T4 3+/5++",  T:4, sv:3,inv:5,fnp:null,veh:false,mon:false,wounds:20},
+    {key:"bcrush", grp:"meta",label:"B'crusher",sub:"T7 3+/5++", T:7, sv:3,inv:5,fnp:null,veh:false,mon:false,wounds:24},
 ];
 
 // Characters: each has pts, durability, weapons, buffs applied to unit weapons, valid uids
