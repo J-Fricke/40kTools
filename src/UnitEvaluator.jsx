@@ -90,9 +90,11 @@ export default function App(){
             sWs:unit.sWs, mWs:unit.mWs, ew2:null, charLabel:null, buffs:{}
         };
         // Apply char buff to unit shoot/melee weapons
-        const unitSWs=char.buffs.let
+        let unitSWs=char.buffs.let
             ?(unit.sWs||[]).map(w=>[w[0],w[1],w[2],w[3],w[4],{...w[5],let:1}])
             :(unit.sWs||[]);
+        if(char.buffs.pfBonus)unitSWs=unitSWs.map(w=>
+            w[5]&&w[5].ai?[w[0]+unit.m*char.buffs.pfBonus,w[1],w[2],w[3],w[4],w[5]]:w);
         const unitMWs=char.buffs.sh1m
             ?(unit.mWs||[]).map(w=>[w[0],w[1],w[2],w[3],w[4],{...w[5],sh1:1}])
             :(unit.mWs||[]);

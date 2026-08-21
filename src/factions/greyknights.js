@@ -35,7 +35,8 @@ export const CHARS = {
     crowe: {name:"Castellan Crowe",       pts:100, W:5, sv:2, inv:4,   fnp:null,
         sWs:[[3,2,4,-2,1,{ai:1}],[4,2,4,0,1,{}]],
         mWs:[[5,2,6,-2,2,{dev:1}]],
-        buffs:{}, validFor:["pur"]},
+        // Champion of the Order of Purifiers: +1A to Purifying Flame (tag ai) for every model in the unit
+        buffs:{pfBonus:1}, validFor:["pur"]},
     gm:    {name:"Grand Master",          pts:95,  W:7, sv:2, inv:4,   fnp:null,
         sWs:[[4,2,4,0,1,{}]],
         mWs:[[5,2,6,-2,2,{}]],
