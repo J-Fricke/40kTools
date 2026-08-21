@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .DS_Store
+__pycache__/
+*.pyc
 
 # raw source material for ref/ (PDFs, images) - not tracked, only the
 # transcribed .txt output in ref/ itself is committed
