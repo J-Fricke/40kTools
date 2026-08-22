@@ -347,6 +347,79 @@ here (Ork Boyz/Gretchin/Lootas, Slaanesh Daemonettes/Fiends/Keeper of Secrets,
 Dark Angels' Lion El'Jonson speed force) in the evaluator, which was explicitly
 deferred earlier in favor of this survey.
 
+## Can our current list (1985pt, Techmarine Warlord + 2xRazorback + VenDread version)
+## actually kill the specific "boogeyman" units found in this survey?
+
+Added real datasheet-backed target profiles to the evaluator's meta tab
+(`src/factions/votann.js` TARGETS, shared across all factions) for the key
+dangerous units identified above: Daemonette squad (10W), Keeper of Secrets
+(18W monster), Fiends (24W), Ork Boyz blob (20W), plus the already-existing
+Bloodcrusher (24W). Then checked our list's kill% (damage as % of the unit's
+total wounds — 100%+ means a reliable one-activation wipe) both per-unit and
+as a whole-list total.
+
+**Framing, per user correction:** raw kill% matters less than whether we can
+kill *enough in one go* to deny scoring/an action, or avoid being denied
+ourselves — partial chip damage across multiple turns doesn't secure anything
+most missions care about (see `primary-missions.txt` — kill-bonus VP require
+a destroyed unit, not damage dealt).
+
+**Trivially one-shot by any single unit in our list** (no focus-fire needed):
+Daemonettes (any unit ≥113% alone; Crowe+Purifiers alone hits 644%), Fiends
+(any unit ≥80%), Ork Boyz (any unit ≥71%, GMND alone at 144%). **Our killing
+capacity against the actual chaff/mid-tier units in these lists is not the
+problem.** This strongly implies the earlier blowout losses to Slaanesh
+Daemons (100-23, 99-35) were NOT about failing to kill Daemonettes/Fiends —
+those die easily to anything we own — but about their speed/alpha-strike
+getting to us first, or committing too little to a Keeper of Secrets and
+having it survive to swing back. A positioning/sequencing lesson, not a list
+problem. Same logic for Orks: Boyz die easily, the real issue is their *unit
+count* (Lootas, multiple Dakkarigs, Gretchin, Squighogs all needing separate
+attention) outpacing how many targets we can wipe per turn — a coverage
+problem, not a lethality one.
+
+**Genuinely hard, needs real commitment:**
+- **Keeper of Secrets (18W monster)** — even our best single answer
+  (Crowe+Purifiers) only reaches 95%; GMND/BTS/Interceptors sit at 77-91%.
+  Needs two units focusing it in the same activation to guarantee the wipe,
+  or a stratagem boost (see below).
+- **Bloodcrusher (24W)** — Crowe+Purifiers clears it alone (136%), but
+  GMND/BTS alone (75-77%) are borderline, not reliable solo answers.
+
+**Stratagem check — what can we rely on with minimal decision-making?**
+Sanctic Spearhead's *Abominus-Class Targets* (1CP, +1 to wound vs
+MONSTER/VEHICLE) tested against Keeper of Secrets:
+
+| Unit | Base | +1CP (Abominus-Class Targets) |
+|---|---|---|
+| Crowe+Purifiers | 95% | **156%** |
+| BTS10 | 77% | **123%** |
+| 3× Interceptor | 91% | **148%** |
+| GMND | 77% | 80% (barely moves) |
+
+**Counterintuitive but clear: don't spend the CP on GMND** — its own Surge of
+Wrath ability already rerolls wounds vs MONSTER/VEHICLE, so the stratagem's
++1-to-wound overlaps and adds almost nothing. **Spend it on BTS or
+Crowe+Purifiers instead** — turns a shaky ~77-95% into a comfortable
+120-156% overkill. That's the repeatable, low-thought play: Keeper of Secrets
+(or any real Monster/Vehicle) in range → 1CP Abominus-Class Targets on
+whichever of BTS/Crowe-Purifiers/Interceptors is already in range, not GMND.
+
+**Resolved — full Immaterial Interdiction text now in `ref/greyknights-11th-detach.txt`.**
+Every II stratagem/enhancement is Interceptor-Squad-specific: Echojump (D6+1"
+surge move after shooting, but replaces that unit's Personal Teleporters use
+that turn — an either/or, not a stack), Predestined Coordinates/Astral Overlap
+(enhancements, turn-1 ingress / Stealth), Blades from the Beyond (1CP, charged
+Interceptor Squad's melee gains [LANCE] — not Lethal+Sustained as scodge's
+Discord paraphrase suggested, just LANCE, and Interceptors' S4 melee means
+this doesn't make them a real answer to Keeper of Secrets/Bloodcrushers even
+with the wound bonus), By Thought Alone (1CP, action+shoot same phase),
+Responsive Displacement (1CP, reactive move). **None of this touches
+GMND/BTS/Purifiers/VenDread — it's a separate mobility/action-economy layer,
+not a kill-boosting one.** So the earlier finding stands as the complete
+answer, not a partial one: Sanctic's Abominus-Class Targets on BTS or
+Crowe+Purifiers is the actual reliable kill-boosting tool available to us.
+
 ## Open threads / not yet resolved
 
 - Matchup reconstruction idea (cross-reference all 600 players' round-by-round
