@@ -52,15 +52,15 @@ export const UNITS = [
     // Force Edge: AP-3 melee vs non-MON/VEH. MFM: 10m ▼-15pts → 360. 3rd+=375.
     // Psycannons: +5pts each (up to 4 per squad, UPDATED requisition removed).
     {id:"bts5",  uid:"bts", unit:"Brotherhood Terminator Squad", pts:175, m:5,  W:3, sv:2, inv:4, fnp:null,
-        label:"5m storm bolter / NF weapon (Force Edge AP-3)",
+        label:"5m storm bolter / NF weapon (Force Edge AP-3, AP-2 vs MON/VEH)",
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[20,3,4,0,1,{}]],
-        mWs:[[20,3,6,-3,2,{}]]},
+        mWs:[[20,3,6,-3,2,{fe:1}]]},
     {id:"bts10", uid:"bts", unit:"Brotherhood Terminator Squad", pts:360, m:10, W:3, sv:2, inv:4, fnp:null, // 3rd+=375
-        label:"10m storm bolter / NF weapon (Force Edge AP-3)",
+        label:"10m storm bolter / NF weapon (Force Edge AP-3, AP-2 vs MON/VEH)",
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[40,3,4,0,1,{}]],
-        mWs:[[40,3,6,-3,2,{}]]},
+        mWs:[[40,3,6,-3,2,{fe:1}]]},
 
     // ── Strike Squad ────────────────────────────────────────────────────────────
     // MFM: 5m ▼-5pts → 115, 10m ▼-10pts → 230.
@@ -340,7 +340,7 @@ export const DETACHMENTS = [
             {key:"letm", label:"Lethal psychic melee", affects:{all:true, letm:true}},
         ]},
     {id:"ssp", dp:2, name:"Sanctic Spearhead",   disp:"Priority Assets", // MFM: ▲1DP→2DP
-        desc:"Mailed Fist: VEHICLE units advancing gain +6\" move and ranged weapons get ASSAULT.",
+        desc:"Mailed Fist: VEHICLE units advancing gain +6\" move and ranged weapons get ASSAULT (positional, no calc effect).",
         affects:null},
     {id:"aug", dp:2, name:"Augurium Task Force",  disp:"Reconnaissance", // MFM: ▲1DP→2DP, disp updated
         desc:"Prescient Redeployment: Gate of Infinity redeployment at start of Movement phase.",

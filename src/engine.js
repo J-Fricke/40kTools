@@ -1,9 +1,11 @@
 // ─── COMBAT MATH (army-agnostic) ─────────────────────────────────────────────
 // Weapon arrays: [shots, skill, S, AP, D, tags]
-// tags: { sh1, sh2, shd3, let, conv, con, tl, rrw1, rrwf, dev, devmv, av3, am3, ai, sowf }
+// tags: { sh1, sh2, shd3, let, conv, con, tl, rrw1, rrwf, dev, devmv, av3, am3, ai, sowf, fe }
 // ai   = ANTI-INFANTRY 2+: all hits auto-wound vs non-VEH/non-MON targets
 // sowf = conditional rrwf (full wound reroll) applied only when target is VEH or MON
 // devmv = DEVASTATING WOUNDS: MONSTER/VEHICLE only (e.g. Desecrator laser destructor)
+// fe   = Force Edge: AP value already includes a +1 AP bonus that does NOT apply
+//        vs MONSTER/VEHICLE targets (excluded by the ability text) - reverted here
 // Target: { T, sv, inv, fnp, veh, mon }
 
 function wt(s,t){if(s>=t*2)return 2;if(s>t)return 3;if(s===t)return 4;if(s*2<=t)return 6;return 5;}
@@ -23,7 +25,8 @@ export function calcW(shots,skill,s,ap,d,tags,tgt,bh=1){
     let w=(tags.let||tags.conv||tags.con||(tags.ai&&isInf))?(shots*cp+(h-shots*cp)*wp):h*wp;
     let mort=0,nw=w;
     if(tags.dev||(tags.devmv&&(tgt.veh||tgt.mon))){mort=h/6;nw=h*Math.max(0,wp-1/6);}
-    const ms=tgt.sv-ap,es=tgt.inv?Math.min(ms,tgt.inv):ms,sp=es<=6?(7-Math.max(es,2))/6:0;
+    const effAp=(tags.fe&&(tgt.veh||tgt.mon))?ap+1:ap;
+    const ms=tgt.sv-effAp,es=tgt.inv?Math.min(ms,tgt.inv):ms,sp=es<=6?(7-Math.max(es,2))/6:0;
     let out=(mort+nw*(1-sp))*d;
     if(tgt.fnp)out*=(1-(7-tgt.fnp)/6);
     return out;
