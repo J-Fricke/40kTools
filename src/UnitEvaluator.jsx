@@ -117,19 +117,11 @@ export default function App(){
     };
 
     const getDetBuff=(unit,charKey)=>{
-        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false,ch5m=false,sh1m=false,letm=false,sh1g=false,letg=false;
-        for(const id of activeDets){
-            const det=DETACHMENTS.find(d=>d.id===id);
-            if(!det)continue;
-            let a=det.affects;
-            if(det.options){
-                const optKey=detOpts[id]||(det.options[0]&&det.options[0].key);
-                const opt=det.options.find(o=>o.key===optKey);
-                a=opt?opt.affects:null;
-            }
-            if(!a)continue;
+        let bhBonus=0,rrw1=false,rrw1Shoot=false,ap1=false,kahlW=0,enhancementPts=0,wBonus=0,ap1m=false,ch5m=false,sh1m=false,letm=false,sh1g=false,letg=false,w1mv=false;
+        const applyAffects=a=>{
+            if(!a)return;
             const matchUnit=a.all||(a.uids&&a.uids.includes(unit.uid));
-            if(!matchUnit)continue;
+            if(!matchUnit)return;
             if(a.bhBonus)bhBonus+=a.bhBonus;
             if(a.wBonus)wBonus+=a.wBonus;
             if(a.rrw1)rrw1=true;
@@ -142,13 +134,28 @@ export default function App(){
             if(a.letm)letm=true;
             if(a.sh1g)sh1g=true;
             if(a.letg)letg=true;
+            if(a.w1mv)w1mv=true;
+        };
+        for(const id of activeDets){
+            const det=DETACHMENTS.find(d=>d.id===id);
+            if(!det)continue;
+            let a=det.affects;
+            if(det.options){
+                const optKey=detOpts[id]||(det.options[0]&&det.options[0].key);
+                const opt=det.options.find(o=>o.key===optKey);
+                a=opt?opt.affects:null;
+            }
+            applyAffects(a);
+            // Stratagems: applied whenever their detachment is active - CP budget is
+            // never tracked, the app always assumes CP is available when needed to secure a kill.
+            if(det.stratagems)for(const strat of det.stratagems)applyAffects(strat.affects);
         }
         // Ironskein (10pts enhancement): +2W to Kâhl when HGC or Hearthband active
         if(charKey==="kahl"&&(activeDets.has("hg_covenant")||activeDets.has("hearthband"))){
             kahlW=2;
             enhancementPts+=10;
         }
-        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m,ch5m,sh1m,letm,sh1g,letg};
+        return{bhBonus,rrw1,rrw1Shoot,ap1,kahlW,enhancementPts,wBonus,ap1m,ch5m,sh1m,letm,sh1g,letg,w1mv};
     };
 
     const applyBuff=(ws,buff,isShooting)=>{
@@ -157,12 +164,13 @@ export default function App(){
         const useCh5=!isShooting&&buff.ch5m;
         const useSh1=buff.sh1g||(!isShooting&&buff.sh1m);
         const useLet=buff.letg||(!isShooting&&buff.letm);
-        if(!ws||(!useRrw1&&!useAp1&&!buff.wBonus&&!useCh5&&!useSh1&&!useLet))return ws;
+        if(!ws||(!useRrw1&&!useAp1&&!buff.wBonus&&!useCh5&&!useSh1&&!useLet&&!buff.w1mv))return ws;
         return ws.map(w=>{
             const[shots,skill,s,ap,d,tags]=w;
             return[shots,skill,s,useAp1?ap-1:ap,d,{...tags,
                 rrw1:useRrw1?1:(tags.rrw1||0),
                 w1:buff.wBonus>0?1:(tags.w1||0),
+                w1mv:buff.w1mv?1:(tags.w1mv||0),
                 ch5:useCh5?1:(tags.ch5||0),
                 sh1:useSh1?1:(tags.sh1||0),
                 let:useLet?1:(tags.let||0),
@@ -374,7 +382,7 @@ export default function App(){
                                 <div style={{display:"flex",alignItems:"center",gap:5,marginBottom:2}}>
                                     <span style={{fontSize:9,background:active?C.amb:C.bdr2,color:active?C.bg:C.sub,borderRadius:2,padding:"1px 4px",fontWeight:700}}>{det.dp}DP</span>
                                     <span style={{fontSize:10,fontWeight:700,color:active?C.amb:C.tx}}>{det.name}</span>
-                                    {(det.affects||det.options)&&<span style={{fontSize:8,color:C.grn,marginLeft:"auto"}}>+calc</span>}
+                                    {(det.affects||det.options||det.stratagems)&&<span style={{fontSize:8,color:C.grn,marginLeft:"auto"}}>+calc</span>}
                                 </div>
                                 <div style={{fontSize:8,color:C.vdim,marginBottom:2,letterSpacing:".05em",textTransform:"uppercase"}}>{det.disp}</div>
                                 <div style={{fontSize:9,color:C.vdim,lineHeight:1.3}}>{det.desc}</div>
@@ -392,6 +400,17 @@ export default function App(){
                                                 </button>
                                             );
                                         })}
+                                    </div>
+                                )}
+                                {det.stratagems&&active&&(
+                                    <div style={{marginTop:6,display:"flex",flexDirection:"column",gap:3}}>
+                                        {det.stratagems.map(strat=>(
+                                            <div key={strat.key} title={strat.desc}
+                                                style={{fontSize:11,fontWeight:700,padding:"3px 7px",borderRadius:3,
+                                                    border:`1.5px solid ${C.pur}`,background:`${C.pur}33`,color:"#fff"}}>
+                                                ✓ STRAT ACTIVE: {strat.name} ({strat.cp}CP, always used)
+                                            </div>
+                                        ))}
                                     </div>
                                 )}
                             </div>

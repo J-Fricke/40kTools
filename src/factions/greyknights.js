@@ -341,7 +341,12 @@ export const DETACHMENTS = [
         ]},
     {id:"ssp", dp:2, name:"Sanctic Spearhead",   disp:"Priority Assets", // MFM: ▲1DP→2DP
         desc:"Mailed Fist: VEHICLE units advancing gain +6\" move and ranged weapons get ASSAULT (positional, no calc effect).",
-        affects:null},
+        affects:null,
+        stratagems:[
+            {key:"abominus", name:"Abominus-Class Targets", cp:1,
+                desc:"+1 to Wound vs MONSTER/VEHICLE (assume available when needed to secure a kill)",
+                affects:{all:true, w1mv:true}},
+        ]},
     {id:"aug", dp:2, name:"Augurium Task Force",  disp:"Reconnaissance", // MFM: ▲1DP→2DP, disp updated
         desc:"Prescient Redeployment: Gate of Infinity redeployment at start of Movement phase.",
         affects:null},

@@ -6,6 +6,8 @@
 // devmv = DEVASTATING WOUNDS: MONSTER/VEHICLE only (e.g. Desecrator laser destructor)
 // fe   = Force Edge: AP value already includes a +1 AP bonus that does NOT apply
 //        vs MONSTER/VEHICLE targets (excluded by the ability text) - reverted here
+// w1mv = conditional w1 (+1 to Wound roll) applied only vs MONSTER/VEHICLE
+//        (e.g. Sanctic Spearhead's Abominus-Class Targets stratagem)
 // Target: { T, sv, inv, fnp, veh, mon }
 
 function wt(s,t){if(s>=t*2)return 2;if(s>t)return 3;if(s===t)return 4;if(s*2<=t)return 6;return 5;}
@@ -18,7 +20,7 @@ export function calcW(shots,skill,s,ap,d,tags,tgt,bh=1){
     let h=shots*hp;
     if(tags.sh1)h+=shots*cp;if(tags.sh2)h+=shots*cp*2;if(tags.shd3)h+=shots*cp*2;
     let wp=Math.min((7-wt(s,tgt.T))/6,5/6);
-    if(tags.w1)wp=Math.min((7-Math.max(2,wt(s,tgt.T)-1))/6,5/6);
+    if(tags.w1||(tags.w1mv&&(tgt.veh||tgt.mon)))wp=Math.min((7-Math.max(2,wt(s,tgt.T)-1))/6,5/6);
     if(tags.av3&&tgt.veh)wp=Math.max(wp,4/6);if(tags.am3&&tgt.mon)wp=Math.max(wp,4/6);
     if(tags.tl)wp=Math.min(wp+(1-wp)*wp,5/6);if(tags.rrw1)wp=Math.min(wp*7/6,5/6);
     if(tags.rrwf||(tags.sowf&&(tgt.veh||tgt.mon)))wp=Math.min(1-(1-wp)*(1-wp),5/6);
