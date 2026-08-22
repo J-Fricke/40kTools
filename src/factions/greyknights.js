@@ -184,6 +184,11 @@ export const UNITS = [
         chars:["none"],
         sWs:[[12,3,6,0,1,{sh1:1}]],
         mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
+    {id:"ndk_hi", uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, // heavy incinerator (free) + heavy psycannon (+15); 3rd+=225
+        label:"heavy incinerator + heavy psycannon + greatsword",
+        chars:["none"],
+        sWs:[[7,1,6,-1,1,{}],[6,3,10,-2,3,{}]],
+        mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
 
     // ── Grand Master in Nemesis Dreadknight (GMND) ──────────────────────────────
     // Surge of Wrath vs MON/VEH: re-roll hit + wound + damage (rrwf models wound only).
@@ -267,9 +272,14 @@ export const UNITS = [
     // Guidance of the Ancients: +1 hit for all GK vs chosen target — not modeled.
     // 1st-2nd: 130pts. 3rd+: 140pts.
     {id:"vd",    uid:"vd",  unit:"Venerable Dreadnought", pts:130, m:1, W:8, sv:2, inv:null, fnp:null,
-        label:"assault cannon [DEV] + DCW",
+        label:"assault cannon [DEV] + heavy flamer + DCW",
         chars:["none"],
-        sWs:[[6,3,6,0,1,{dev:1}]],
+        sWs:[[6,3,6,0,1,{dev:1}],[3.5,1,5,-1,1,{}]],
+        mWs:[[5,3,12,-2,3,{}]]},
+    {id:"vd_sb", uid:"vd",  unit:"Venerable Dreadnought", pts:130, m:1, W:8, sv:2, inv:null, fnp:null,
+        label:"assault cannon [DEV] + storm bolter + DCW",
+        chars:["none"],
+        sWs:[[6,3,6,0,1,{dev:1}],[4,3,4,0,1,{}]],
         mWs:[[5,3,12,-2,3,{}]]},
 
     // ── Stormraven Gunship (Vehicle, Transport, M14") ────────────────────────────
@@ -285,6 +295,33 @@ export const UNITS = [
         label:"twin lascannon [TL] + twin multi-melta [TL] + 2× stormstrike",
         chars:["none"],
         sWs:[[1,3,12,-3,4.5,{tl:1}],[2,3,9,-4,5.5,{tl:1}],[2,3,10,-3,5.5,{}]],
+        mWs:[[6,4,8,0,1,{}]]},
+
+    // ── Rhino (Vehicle, Transport, Dedicated Transport) ───────────────────────────
+    // Truesilver Aegis: FNP6+ vs mortals for nearby GK units — not modeled.
+    // 1st-3rd: 70pts. 4th+: 80pts.
+    {id:"rhino", uid:"rhino", unit:"Rhino", pts:70, m:1, W:10, sv:3, inv:null, fnp:null,
+        label:"storm bolter + armoured tracks",
+        chars:["none"],
+        sWs:[[4,3,4,0,1,{}]],
+        mWs:[[3,4,6,0,1,{}]]},
+
+    // ── Razorback (Vehicle, Transport, Dedicated Transport) ───────────────────────
+    // Fire Focus: +1 AP for disembarked units shooting the same target this turn — not modeled.
+    // 1st-3rd: 75pts. 4th+: 85pts. Twin lascannon swap (shown) is a free wargear option.
+    {id:"razorback", uid:"razorback", unit:"Razorback", pts:75, m:1, W:10, sv:3, inv:null, fnp:null,
+        label:"twin lascannon + storm bolter + armoured tracks",
+        chars:["none"],
+        sWs:[[1,3,12,-3,4.5,{}],[4,3,4,0,1,{}]],
+        mWs:[[3,4,6,0,1,{}]]},
+
+    // ── Land Raider Redeemer (Vehicle, Transport) ─────────────────────────────────
+    // Assault Ramp: unit disembarking after a normal move can still charge — not modeled.
+    // 1st: 250pts. 2nd+: 270pts. Default loadout incl. free hunter-killer/multi-melta/storm bolter options.
+    {id:"lrr", uid:"lrr", unit:"Land Raider Redeemer", pts:250, m:1, W:16, sv:2, inv:null, fnp:null,
+        label:"2× flamestorm + twin assault cannon [DEV+TL] + multi-melta + storm bolter",
+        chars:["none"],
+        sWs:[[13,1,6,-2,2,{}],[6,3,6,0,1,{dev:1,tl:1}],[2,3,9,-4,5.5,{}],[4,3,4,0,1,{}]],
         mWs:[[6,4,8,0,1,{}]]},
 ];
 
