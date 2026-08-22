@@ -22,4 +22,12 @@ export const TARGETS=[
     {key:"keeper",grp:"meta",label:"Keeper",   sub:"T10 5+/4++ 18W",T:10,sv:5,inv:4,fnp:null,veh:false,mon:true, wounds:18},
     {key:"fiends",grp:"meta",label:"Fiends",   sub:"T5 -/5++ 24W", T:5, sv:7,inv:5,fnp:null,veh:false,mon:false,wounds:24},
     {key:"orkboyz",grp:"meta",label:"Ork Boyz",sub:"T5 5+sv 20W",  T:5, sv:5,inv:null,fnp:null,veh:false,mon:false,wounds:20},
+    // Magnus the Red: real Sv2+ matters here (unlike Keeper/LoC's bad armor
+    // saves, which never beat their own 4++ in this engine's math). Unearthly
+    // Power lets him pick ONE Crimson King ability per battle round; if he
+    // picks Impossible Form that round, non-psychic attacks vs him get -1
+    // Damage - opponent's choice, not permanent, so NOT modeled here (this
+    // profile is his baseline; a real kill attempt could be softer some
+    // rounds if he calls Impossible Form).
+    {key:"magnus",grp:"meta",label:"Magnus",   sub:"T11 2+/4++ 16W (dmg-1 some rounds, not modeled)",T:11,sv:2,inv:4,fnp:null,veh:false,mon:true, wounds:16},
 ];
