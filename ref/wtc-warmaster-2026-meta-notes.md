@@ -1,0 +1,361 @@
+# WTC Warmaster GT 2026 — meta deep dive (5+ win lists, n=55)
+
+Working notes for the GK Recon list competitiveness question. Source data:
+`ref/ingest/lists/WTC-Warmaster-GT-2026-d0f86a313ef8c966e4/` (55 lists, fetched via
+`scripts/scrapers/listhammer.py`). Goal: figure out whether our locked GK Recon list
+(Sanctic Spearhead, 2x GMND, Purifier+Crowe, 3x Interceptor, Callidus ally — see
+project memory `project_greyknights_recon_list`) can be competitive against what's
+actually winning, and what to change if not.
+
+## Disposition frequency (5+ win lists)
+
+| Disposition | Count | % |
+|---|---|---|
+| Take and Hold | 15 | 27% |
+| Priority Assets | 15 | 27% |
+| Reconnaissance | 15 | 27% |
+| Purge the Foe | 9 | 16% |
+| Disruption | 1 | 2% |
+
+Take and Hold — our community-agreed hardest matchup as a low-model-count army — is
+tied for *most common*, not rare. Disruption (a lot of Discord discussion energy)
+is nearly unplayed at this level. Re-prioritize prep time accordingly.
+
+## Take and Hold (15 lists) — we'd play Reconnaissance Sweep vs. this
+
+Faction spread: 7x Orks, 3x Custodes, 2x Necrons, 2x Space Wolves, 1x Tyranids.
+**Orks dominate (nearly half).**
+
+### Orks/Take and Hold (7/7 lists read) — DONE
+
+Two sub-archetypes found, but one dominates:
+- **More Dakka | Freebooter Krew** (5 of 7 lists) — a remarkably consistent, near-
+  solved shell across 5 different players: Ghazghkull+19 Boyz (Warlord, hard to
+  snipe out of the blob), Zodgrod+20 Gretchin, 1-3x Big Mek Dakkarig (walker,
+  Blitzkannon), 2-3x 8-man Lootas (Deffgun shooting), a Squighog Boyz unit,
+  Wazdakka, plus filler (Flash Gitz/Tankbustas/Kommandos/Stormboyz) tuned to
+  points. Shooting+horde hybrid.
+- **War Horde** (2 of 7): melee-cavalry-leaning — heavy Squighog Boyz investment
+  (up to 15 models across multiple units), less dedicated shooting, otherwise
+  same Ghazghkull/Zodgrod/Wazdakka core.
+
+Common thread regardless of sub-archetype: **60-90+ cheap bodies per list**
+(Boyz/Gretchin/Squighog), Ghazghkull as centerpiece Warlord.
+
+**Real evidence, not just theory:** 3 of these 7 lists' own matchup logs show
+actual games against Grey Knights at this event — all Ork wins: **91-57, 85-72,
+90-70**. Consistent ~15-30pt margins, not blowouts but a clear, repeated pattern
+of GK losing this specific matchup at this event. This is the single strongest
+piece of concrete evidence so far that our archetype has a real problem here,
+not just a theoretical one.
+
+**Implication for us:** we cannot out-body Orks on raw objective/quarter contests.
+Our edges are (1) FLY/deep-strike mobility (Interceptors, Gate of Infinity) to get
+into quarters they can't defend everywhere, and (2) Purifying Flame's guaranteed-
+wound-regardless-of-toughness mechanic (esp. doubled by Crowe) as the efficient
+answer to cheap T4/Sv5+ chaff — GMND's low-shot-count high-damage guns are
+inefficient against 10-20-body units, and Reconnaissance Sweep needs full unit
+kills (not chip damage) for the kill-bonus VP. Whether that's *enough* given the
+real losses observed is still open — worth stress-testing our list's actual
+output against a Boyz/Gretchin/Lootas profile in the evaluator once we're done
+surveying.
+
+## Reconnaissance (15 lists) — mirror matchup, we'd play Gather Intel
+
+Faction spread: 6x Dark Angels (dominant), 3x Chaos Daemons, 2x Space Marines,
+2x Emperor's Children, 1x Aeldari, 1x Leagues of Votann.
+
+### Dark Angels/Reconnaissance (5/6 lists checked) — DONE, effectively a solved list
+
+All 6 run the identical detachment pairing (Darkflight Pursuit | Company of
+Hunters), and 5 of 6 share nearly the same roster: **Azrael + Lion El'Jonson**
+(W8-ish, 2+/4++, a genuinely dangerous independent melee centerpiece) +
+**Sammael/Ravenwing Command Squad**, backed by 5-6 fast vehicles (2x Land
+Speeder, 3x Land Speeder Vengeance, sometimes Storm Speeder Thunderstrike),
+Deathwing Knights or Ravenwing Black Knights as the elite melee/durability
+piece, an Outrider Squad, and 1-2 cheap 5-man Scout squads for actions.
+
+This is our **mirror matchup** (they're Reconnaissance too -> we'd both play
+Gather Intel). The comparison scodge drew ("Company of Hunters doing what we're
+doing") holds up structurally: same speed+action-body gameplan we're going for
+with Interceptors, but DA backs it with a much scarier independent melee
+centerpiece (Lion El'Jonson) and more numerous fast vehicle platforms (5-6 vs
+our 2 GMND) than we currently field. Worth noting for the synthesis step: if
+this mirror matchup comes down to "whoever's speed force does more work," their
+speed force has a stronger single hard-to-kill threat in it than ours does.
+
+## Priority Assets (15 lists) — we'd play Search and Scour
+
+Faction spread: 5x Chaos Daemons (dominant), 2x Thousand Sons, 2x Orks,
+2x Adeptus Mechanicus, 1 each Death Guard/Space Marines/Votann/Dark Angels.
+
+### Chaos Daemons/Priority Assets (5/5 lists checked) — DONE, solved list, distinct from the Purge the Foe Daemons archetype
+
+All 5 run Legion of Excess | Warptide and share the same core: **Contorted
+Epitome (x1-2 leaders), 5-7x Daemonette squads (9-model, fast melee),
+3x Fiends (5-model fast melee monsters), 1-2x Keeper of Secrets (huge melee
+monster), Tormentbringer**, sometimes Beasts of Nurgle/Flesh Hounds. This is a
+**Slaanesh speed+melee-monster build**, completely different from the Khorne
+Bloodcrusher/durability build seen under Purge the Foe (David Gaylard's #2
+seed) — Chaos Daemons is fielding two distinct, both-dominant sub-archetypes at
+this event, one per disposition. Chaos Daemons is the single most important
+faction to prepare for overall, appearing at the top of both Purge the Foe and
+Priority Assets with different threat shapes.
+
+**Real evidence, severe:** Hugo Richiardi's list (6-0, undefeated at the whole
+event) shows a matchup log entry of **Chaos Daemons 100 pts v Grey Knights 23
+pts** — a blowout, worse than any of the Ork results. This is the single worst
+recorded GK result found in this survey. Fast melee-monster-heavy Daemons lists
+look like a serious, specific weak point — worth checking in the evaluator
+whether our GMND/BTS/Purifier survive being charged by multiple 9-Daemonette
+squads or a Keeper of Secrets before they can shoot back.
+
+## Purge the Foe (9 lists) — we'd play Triangulation
+
+### Purge the Foe (9/9 lists checked) — DONE, genuinely mixed, no single dominant archetype
+
+Mixed: 2x Chaos Daemons, 2x Necrons, 1 each Space Marines/T'au/Adepta Sororitas/
+Imperial Knights/Votann. Unlike the other 3 dispositions surveyed, no single
+faction/build repeats enough to call it "solved" here.
+
+- **Chaos Daemons (2 lists)**: both Khorne-flavored, both feature Bloodcrushers
+  again (David Gaylard's #2-seed Blood Legion list, and Joel Larsson's Shadow
+  Legion list — 2x Bloodcrushers + Bloodletters + Skullmaster + Rendmaster +
+  Skull Cannons + a Lord of Change). Confirms Bloodcrushers (T7/Sv3+/Inv5+, now
+  in the evaluator's meta tab as `bcrush`) are the recurring Purge the Foe
+  Daemons threat, distinct from the Slaanesh speed/melee build seen under
+  Priority Assets.
+- **Space Marines (Konrad Schmuck, 5-0-1)**: two full 10-man Terminator Assault
+  Squads (345/350pts each, Storm Shield+Thunder Hammer) — a genuine durable
+  melee-brick mirror of what our own BTS is trying to do, just bigger investment.
+- **T'au (Durante Bozzini)**: pure battlesuit gunline — Crisis suits x4,
+  Commanders x4, 2x Hammerhead, 2x Pathfinder, 2x Stealth suits. No melee
+  presence to speak of; a shooting attrition matchup.
+- Sororitas/Necrons x2/Imperial Knights/Votann not deep-read given time budget —
+  no GK matchup data surfaced for any of these specifically.
+
+Community consensus flagged this disposition as our *favorable* matchup. Nothing
+found here contradicts that directly, but nothing strongly confirms it either —
+the aggregate GK loss data above (see below) doesn't include any Purge the Foe
+results specifically, so this claim remains untested by real match data so far.
+
+## Disruption (1 list) — we'd play Surveil the Foe — DONE
+
+Adeptus Custodes, Lions of the Emperor | Silent Hunters. Notably MSU rather than
+concentrated: 5 small attached units (Trajann+4 Custodian Guard, Allarus
+Shield-Captain+5 Allarus, Inquisitor Draxus+4 Custodian Guard, Blade Champion+4
+Custodian Guard, Dawneagle Shield-Captain+2 Vertus Praetors) plus a standalone
+5-man Allarus and 2x cheap Witchseekers — spread bodies for actions rather than
+one or two big bricks, unlike the Take-and-Hold Custodes lists earlier. Makes
+sense given Disruption's action/terrain-control demands. No GK matchup data
+found in this one. Given the disposition is nearly unplayed at this level (1/55),
+not worth deeper investment beyond this single data point.
+
+## Grey Knights at this event (all 16 entries, not just 5+ win filter)
+
+| Placing | Record | Detachment(s) | Disposition | Player |
+|---|---|---|---|---|
+| 134 | 4-2 | Immaterial Interdiction \| Sanctic Spearhead | Reconnaissance | Sebastien Jeoffroy ("scodge") |
+| 149 | 4-2 | Fires of Purgation \| Brotherhood Strike | Purge the Foe | Jort Kassies |
+| 153 | 4-2 | Banishers \| Argent Assault | Priority Assets | Riccardo Ghio |
+| 214 | 3-2 | Argent Assault \| Sanctic Spearhead | Priority Assets | Richard Calnon |
+| 255 | 3-3 | Banishers \| Argent Assault | Priority Assets | Raphaël blere |
+| 279 | 3-3 | Warpbane Task Force | Take and Hold | Aaron Hermans |
+| 303 | 3-3 | Hallowed Conclave \| Argent Assault | Priority Assets | Ari Hartikainen |
+| 316 | 3-3 | Fires of Purgation \| Brotherhood Strike | Purge the Foe | Gabor Csordas |
+| 355 | 2-3-1 | Brotherhood Strike \| Argent Assault | Purge the Foe | Luke Handley |
+| 381 | 2-4 | Banishers \| Argent Assault | Disruption | George Babagiannis |
+| 406 | 2-4 | Warpbane Task Force | Take and Hold | Flament Paul |
+| 447 | 2-4 | Warpbane Task Force | Take and Hold | Mickael Pouliquen |
+| 450 | 2-4 | Brotherhood Strike \| Argent Assault | Purge the Foe | Vlad Olich |
+| 472 | 2-5 | Brotherhood Strike | Purge the Foe | cedric chassaigne |
+| 528 | 1-2 | Warpbane Task Force | Take and Hold | Dorian Jacquot |
+| 554 | 1-5 | Banishers \| Argent Assault | Priority Assets | Kevin O'Connor |
+
+**Baseline, with proper weighting:** no GK entry reached 5+ wins at this
+578-player event, but the field itself is elite (WTC Warmaster — top players
+worldwide), and the best GK result (scodge, 4-2, placing 134/578) is an
+above-average record against that competition — he lost exactly one match that
+kept him off our 5+ cut. That's a genuinely competent showing, not a failure;
+don't read GK's absence from the 5+ list as "GK can't compete here."
+
+**Real signal from the 16 entries:**
+- **scodge's list (4-2) is the one GK Recon entry at the whole event, running
+  Immaterial Interdiction + Sanctic Spearhead** — which is also our own settled
+  detachment choice (confirmed, not up for further debate). Direct structural
+  comparison against our locked list:
+
+  | | scodge (4-2, real event) | Our locked list |
+  |---|---|---|
+  | Detachment | II + Sanctic Spearhead (3DP) | Same |
+  | Warlord | Techmarine (cheap, disposable) | not yet explicitly set |
+  | Dreadknight chassis | 2× GMND + 2× plain NDK (4 total) | 2× GMND + VenDread (3 total, no plain NDK) |
+  | Infantry anchor | none — no Terminators, no Purifiers | BTS+Voldus, Purifier+Crowe |
+  | Transport | 2× Razorback (75pts each, twin lascannon) + Land Raider Redeemer | 1× Rhino |
+  | Interceptors | 3×5-man (125/125/135) | same, matches exactly |
+  | Ally | Inquisitorial Agents (60pts, cheap bodies) | Callidus Assassin (100pts, specialist) |
+
+  The Razorbacks stood out as notably efficient — 75pts each for a twin
+  lascannon is cheap, real anti-armor output, not just a taxi. Land Raider
+  Redeemer adds both mobility (Assault Ramp) and infantry-clearing (2x
+  flamestorm cannon) in one package. Our build's biggest divergence is going
+  infantry-anchor-heavy (BTS/Purifier) where the one real result goes
+  Dreadknight-and-transport-heavy with zero infantry blobs — worth a real look
+  at trial in the synthesis step, not just banked as trivia.
+- **Warpbane Task Force is a clear loser for GK here**: 4 of the 6 worst GK
+  results (3-3, 2-4, 2-4, 1-2) all ran it, all for Take and Hold.
+- **Banishers|Argent Assault** is the most common pairing (4 entries) but wildly
+  inconsistent (4-2 down to 1-5) — looks matchup/execution-dependent, not
+  reliably strong or weak on its own.
+
+## IMPORTANT METHODOLOGY CORRECTION — see aggregate stats below first
+
+The section immediately below (7 anecdotal GK losses, 0 wins) was found by
+reading the matchup logs of top-*opponent* lists — a method that can only ever
+surface games the opponent won, by construction. It is NOT a real win-rate
+signal and should not be read as "GK loses to X." The real signal is the
+cross-event aggregate further down: **Reconnaissance is GK's best disposition
+(67% win rate)**, which directly contradicts the pessimistic impression these
+anecdotes create in isolation. Kept below for the specific tactical detail
+(archetypes, scores, gameplan lessons) but do not treat the 0-for-7 framing as
+a verdict on GK's viability.
+
+## Anecdotal GK losses found via opponent matchup logs (selection-biased sample)
+
+Found opportunistically in opponents' matchup logs while reading top lists —
+NOT a full survey of every GK game at the event. 7 games found, all losses,
+**because the method can't find wins** (see correction above). Still useful for
+the specific tactical detail:
+
+| Opponent | Score (GK-Opp) | Archetype |
+|---|---|---|
+| Orks | 57-91 | More Dakka\|Freebooter Krew |
+| Orks | 72-85 | War Horde |
+| Orks | 70-90 | More Dakka\|Freebooter Krew |
+| Chaos Daemons | 23-100 | Slaanesh (Warptide\|Legion of Excess) |
+| Chaos Daemons | 35-99 | Slaanesh (Warptide\|Legion of Excess) |
+| Chaos Daemons | 42-75 | Slaanesh (Warptide\|Legion of Excess) |
+| Adeptus Mechanicus | 96-98 | — (narrow, near-draw) |
+
+Slaanesh Daemons (Contorted Epitome/Daemonettes/Fiends/Keeper of Secrets) is a
+fast melee-monster army — per user's note, the blowout margins likely reflect
+getting caught out of position against a fast-closing threat, a gameplan/
+deployment lesson (don't clump, use own mobility to dictate engagement range),
+not evidence the matchup is unwinnable. Orks' cheap-horde volume is a genuine
+structural challenge (see Take and Hold section above) but the 67% Recon win
+rate below suggests our gameplan already handles it well enough on average.
+
+## Cross-event aggregate: GK win rate by disposition (the trustworthy number)
+
+Checked 8 events for GK entries (WTC Warmaster GT 2026, Warhammer Open Newport,
+Edmonton Wargaming Open, Surrey Primarchs GW Golden Ticket, Upkeep Games GT I,
+Utah Cup 2026, Salt City GT, Lone Star Open 2026 — 39 GK players total, sizes
+ranging 64-327 players). Most of these players didn't submit full lists to
+listhammer (`hasList=0`), so this is a records-only aggregate, not a
+composition study — but it's the first *unbiased* signal in this whole survey.
+
+**Aggregate: 98-121-2 (44.3% win rate)** — below average but not catastrophic.
+
+| Disposition | Record | Win rate | n |
+|---|---|---|---|
+| **Reconnaissance** | **8-4** | **67%** | 12 |
+| Take and Hold | 13-16 | 45% | 29 |
+| Priority Assets | 51-61 | 46% | 112 |
+| Disruption | 7-10-1 | 39% | 18 |
+| Purge the Foe | 19-30-1 | 38% | 50 |
+
+**Reconnaissance is GK's clearly best disposition by win rate, and it's the one
+we're building for.** Caveat: n=12 is a small sample with a wide confidence
+interval — 8-4 could easily have been 6-6 or 10-2 on slightly different draws,
+so treat this as "directionally encouraging," not "proven." It's still the best
+signal in the whole survey precisely because it's unbiased (a real cross-event
+record tally, not cherry-picked anecdotes), and it points the same direction as
+scodge's own real result and community consensus. The anecdotal losses above
+are real games that happened, but they're not representative of the
+disposition's overall win rate — treat them as specific tactical lessons
+(positioning vs fast melee armies, body-count problem vs Orks) rather than a
+verdict against the archetype.
+
+**Counter-example worth weighing, same caution applies:** David Harris (Lone
+Star Open 2026, 327 players) went 4-2 running Banishers|Argent Assault /
+Priority Assets with two full 10-man Paladin Squads (950pts combined) + GMND +
+2 small Terminator squads + 2 Strike squads + Rhino — and his match log shows a
+**95-73 win over Orks**, plus wins over Adeptus Mechanicus, Emperor's Children,
+and Necrons, losses to Imperial Knights and Space Wolves. This is one list
+beating one Ork opponent once — it doesn't prove "Paladin bricks solve Orks,"
+but it's a real, concrete counterexample to the anecdotal Ork losses above, and
+shows composition/gameplan clearly can flip a matchup that looked bad in
+isolation.
+
+## Synthesis — is our GK Recon list competitive, and what would we actually change?
+
+Calibration first: everything below is drawn from one 578-player event studied
+deeply plus a records-only skim of 7 more (39 GK players, 64-327 players each).
+That's real, unbiased-where-it-counts data, but still a small slice of a whole
+season. Treat conclusions as "reasonable working hypotheses," not settled.
+
+**On competitiveness:** the honest answer is "probably yes, cautiously."
+Reconnaissance is GK's best disposition in the cross-event aggregate (67%,
+n=12) — a small but real sample pointing the same direction as scodge's actual
+4-2 result and community consensus. GK's overall win rate (44.3%) is
+below-average but not a lost cause, and the worst anecdotal results
+(blowout losses to Slaanesh Daemons, moderate losses to Orks) came from a
+selection-biased method that can't show wins — real counter-evidence exists
+(David Harris beating Orks 95-73 with a completely different build). This
+isn't "GK is secretly great," it's "GK-as-Recon is a defensible, not-crazy
+choice," which is a meaningfully different and more useful claim.
+
+**Concrete list-building takeaways, roughly in order of confidence:**
+
+1. **Detachment: II + Sanctic Spearhead is confirmed correct, not up for
+   further debate** — it's our own settled choice AND the only real
+   Reconnaissance list found (scodge, 4-2) uses exactly this pairing.
+2. **The infantry-anchor-heavy structure (BTS+Voldus, Purifier+Crowe) is the
+   biggest open question, not a settled strength.** Every real high-performing
+   GK list found across this whole survey — scodge's Recon list, David Harris's
+   Priority Assets list — skews toward Dreadknight-chassis-and-vehicles or
+   Paladin-bricks-plus-vehicles, not our specific BTS+Purifier combination.
+   That's not proof our structure is wrong (small sample, different
+   dispositions), but it's a real pattern worth a genuine trial: a
+   Dreadknight/transport-heavy variant (closer to scodge's list: more plain
+   NDK, Razorbacks, Land Raider Redeemer, cheap Techmarine Warlord) alongside
+   our current build, not a forced replacement.
+3. **Techmarine as a cheap, disposable Warlord** (confirmed in scodge's real
+   list) is a free, low-risk adjustment worth adopting regardless of the
+   bigger structural question — denies easy Assassinate/Warlord-kill value at
+   effectively no cost.
+4. **Crowe's Purifying Flame doubling (now correctly modeled in the tool) is
+   validated as a strong anti-horde/anti-elite-infantry tool** — directly
+   relevant to the Ork body-count problem identified in the Take and Hold
+   section, independent of whether we keep the BTS/Purifier structure or shift
+   toward Dreadknights.
+5. **Avoid Warpbane Task Force and Brotherhood Strike for Take and Hold /
+   Purge the Foe respectively** — both show up disproportionately among the
+   worst GK results in the WTC dataset (small sample, but a consistent one).
+6. **Gameplan lesson, not a list change:** against fast melee-monster armies
+   (Slaanesh Daemons), the anecdotal blowout losses likely reflect getting
+   caught out of position rather than a stat-line problem — deployment
+   discipline and using our own mobility to dictate engagement range matters
+   at least as much as list composition here.
+
+**What we did NOT establish:** whether our exact current build (as opposed to
+the Dreadknight/transport-heavy alternative) wins or loses more than average —
+no real GK list matching our specific composition was found anywhere in this
+survey to check directly. That's the natural next step if we want a firmer
+answer: simulate our actual list against the specific threat profiles found
+here (Ork Boyz/Gretchin/Lootas, Slaanesh Daemonettes/Fiends/Keeper of Secrets,
+Dark Angels' Lion El'Jonson speed force) in the evaluator, which was explicitly
+deferred earlier in favor of this survey.
+
+## Open threads / not yet resolved
+
+- Matchup reconstruction idea (cross-reference all 600 players' round-by-round
+  score logs by reciprocal score + faction to identify actual opponents without
+  BCP) — viable, not yet attempted. Score collisions are a real risk.
+- Reference faction datasheets now in `ref/`: chaos-daemons, orks, tau,
+  thousand-sons, emperors-children, space-marines, dark-angels (DA chapter
+  filtered). Custodes/Votann/GK/Chaos Knights already fully tracked.
+
+## Final verdict on GK competitiveness
+
+*(pending — fill in once all sections above are complete, per task #6)*
