@@ -16,7 +16,11 @@ reliable one-activation wipe (accounts for wound/save math, not dice variance).
 
 ### Trivial — any single unit in the list handles these alone, don't overthink it
 - **Daemonette squad** (10-model, T3/no-save/5++) — GMND alone: 192%. Purifying
-  Flame chews through these regardless of squad size.
+  Flame chews through these regardless of squad size. **Not a kill-priority
+  threat, but don't ignore them either** — their actual danger is tempo, not
+  durability: cheap, fast, and a huge attack volume that goes off before most
+  of our units get to swing back. Treat them as a "kill on sight if it's free,
+  don't go out of your way" unit, not a boogeyman.
 - **Fiends** (T5/no-save/5++, ~24W unit) — GMND alone: 80%, most units clear it.
 - **Ork Boyz blob** (T5/5+sv, ~20W unit) — GMND alone: 144%, Crowe+Purifiers: 365%.
 
@@ -36,6 +40,20 @@ reliable one-activation wipe (accounts for wound/save math, not dice variance).
   BTS + VenDread (107%)
 - **Don't bother:** anything + 2×Razorback alone (94-96%, falls short) unless
   paired with 3×Interceptor instead (117%, works)
+
+### Magnus the Red (16W monster, T11/2+/4++) — needs help, harder than Keeper
+- **Cheapest solo:** Crowe+Purifiers + 1CP (Abominus-Class Targets) → 125%
+- Base (no CP): Crowe+Purifiers 78%, BTS10 75%, 3x Interceptor 87%, GMND 73%
+- **Never spend Abominus-Class Targets on GMND** here either — same Surge of
+  Wrath overlap, moves 73%→81% only.
+- **Caveat:** Magnus can pick "Impossible Form" (-1 Damage vs non-psychic
+  attacks) once per battle round instead of this profile's baseline — his
+  controller chooses, so a real kill attempt could run softer than predicted
+  on any given round. Not modeled in the % above.
+- **If the list has multiple big Monsters** (e.g. Thousand Sons running
+  Magnus + 2x Lord of Change + Kairos in one list) — plan to use the
+  stratagem more than once across the game, not once. One CP doesn't clear
+  a whole deathstar list.
 
 ### General pattern
 - **VenDread's real job vs hard targets is as the "top-up" piece** — turns a
@@ -72,6 +90,20 @@ reliable one-activation wipe (accounts for wound/save math, not dice variance).
   issue (don't get caught out of position), not a lethality issue.
 - **Chaos Daemons Purge the Foe (Khorne)**: Bloodcrushers (recurring across
   multiple top lists), Skarbrand/Be'lakor, Skull Cannons, Flesh Hounds.
+- **Space Marine "skimmer spam" Reconnaissance**: 2-3x Land Speeder plus
+  2-3x Storm Speeder variants (Hailstrike/Hammerstrike/Thunderstrike). Seen
+  from 4 of 6 Reconnaissance lists (Dark Angels, Raven Guard, two plain SM
+  builds) at a single event (Newport) — zero sightings at a second event
+  (Upkeep) that also had Recon lists. Treat as "possible, seen once at one
+  GT" not "expect this every time" until it shows up at another event.
+- **Space Marine "Librarius Conclave + Reclamation Force" Take and Hold**:
+  a big multi-character melee/elite deathball (seen wrapped around both
+  Captain Titus/Wardens of Ultramar/Bladeguard, and Marneus Calgar/Cato
+  Sicarius/Victrix Honour Guard/Sternguard) — same detachment combo, flexible
+  choice of elite blocks. We'd face this if forced into their mirror mission.
+- **Thousand Sons "four Monsters" deathstar**: Magnus the Red + 2x Lord of
+  Change + Kairos Fateweaver in one 2000pt list — see Magnus section above,
+  needs Abominus-Class Targets more than once per game.
 
 ## Game log — does it kill? (predicted vs actual)
 

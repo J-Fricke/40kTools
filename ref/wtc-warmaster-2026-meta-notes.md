@@ -432,57 +432,125 @@ grounds — the numbers didn't move. This wouldn't catch a non-points rules
 change from a Balance Dataslate/FAQ, but MFM updates are points-only by GW
 convention, so the risk that matters here is closed.
 
-## Second data point: Reconnaissance archetype survey (2 more events)
+## Two more events, evaluated separately: Warhammer Open Newport + The Upkeep Games GT I
 
-Pulled actual list composition (not just win/loss records) for the
-Reconnaissance-disposition entries at two of the events already counted in
-the cross-event aggregate above: **Warhammer Open Newport** (2026-08-14–16,
-188 players, 21 lists submitted) and **The Upkeep Games GT I** (2026-08-15–16,
-126 players, 21 lists submitted). Both post-v1.2, so directly comparable to
-our own data. This doesn't change the win-rate table above (those events were
-already counted there) — it's a composition/archetype layer on top.
+Pulled actual list composition (not just win/loss records) for two more of
+the events already counted in the cross-event aggregate above. Both post-v1.2,
+directly comparable to our own data. This doesn't change the win-rate table
+above (those events were already counted there) — it's a composition/
+archetype layer on top. Unlike Warmaster, these are **all submitted lists,
+not filtered to 5+ wins** (both events had far fewer full-list submissions,
+so no min-wins filter was applied) — treat as "what's being played" more than
+"what's definitely winning."
 
-Disposition frequency across these two events combined (42 lists, all
-placings, not just 5+ wins — sample is smaller so no min-wins filter applied):
-Take and Hold 38% (16), Reconnaissance 21% (9), Priority Assets 19% (8),
-Purge the Foe 19% (8), Disruption 2% (1). Same direction as Warmaster (T&H
-and Recon both common, Disruption near-unplayed), though T&H skews higher
-here — small samples, treat as reinforcing not conclusive.
+### Warhammer Open Newport (2026-08-14–16, 188 players, 21 lists submitted)
 
-**Reconnaissance archetypes found (9 lists read in full):**
+Disposition frequency: Take and Hold 38% (8), Reconnaissance 29% (6),
+Priority Assets 19% (4), Purge the Foe 14% (3), Disruption 0%.
 
-- **Space Marine chapters have converged on a "skimmer spam" shell** — 3 of
-  the 9 lists (Dark Angels/Lion El'Jonson, Raven Guard/Kayvaan Shrike, and a
-  plain Space Marines/Vulkan He'stan list) each independently ran 2-3x Land
-  Speeder plus 2-3x Storm Speeder variants (Hailstrike/Hammerstrike/
-  Thunderstrike). Three unrelated players converging on the same shell is a
-  real pattern, not noise — expect fast, disposable AT/anti-elite skimmers
-  as a recurring Recon-mirror threat.
-- **Emperor's Children Recon runs the exact boogeyman trio already profiled**
-  in this doc: Keeper of Secrets + 4x Daemonettes (90pts each) + 2x Defiler.
-  Confirms that matchup is a live Recon-vs-Recon threat, not just a Priority
-  Assets/Slaanesh theorycraft case.
-- **New, harder case not yet covered**: Thousand Sons' "Reconnaissance
+Faction spread: 4x Orks, 4x Space Marines, 2x Adeptus Custodes, 2x Chaos
+Daemons, 1 each Adeptus Mechanicus/Drukhari/Dark Angels/Space Wolves/
+T'au/Thousand Sons/Emperor's Children/Grey Knights/Black Templars.
+
+One Grey Knights entry (Ryan Johnson, 5-3, Warpbane Task Force/Take and
+Hold) — already counted in the aggregate table above. Not our archetype
+(Take and Hold, not Reconnaissance), so it doesn't validate or invalidate our
+specific build, just confirms GK players are spread across multiple
+disposition/detachment choices at this level.
+
+### The Upkeep Games GT I (2026-08-15–16, 126 players, 21 lists submitted)
+
+Disposition frequency: Take and Hold 38% (8), Purge the Foe 24% (5),
+Priority Assets 19% (4), Reconnaissance 14% (3), Disruption 5% (1).
+
+Faction spread: 3 each T'au/Space Marines/Orks, 2 each Emperor's Children/
+Tyranids/Blood Angels, 1 each Chaos Space Marines/Thousand Sons/Adeptus
+Custodes/Black Templars/Imperial Knights/Necrons. No Grey Knights entries.
+
+**Reconnaissance archetypes found (9 lists total across both events, read in full):**
+
+- **"Skimmer spam" shell found - but concentrated at one event, not confirmed
+  cross-event.** 4 of Newport's 6 Reconnaissance lists (Dark Angels/Lion
+  El'Jonson, Raven Guard/Kayvaan Shrike, and two separate plain Space Marines
+  lists incl. Vulkan He'stan) ran 2-3x Land Speeder plus 2-3x Storm Speeder
+  variants (Hailstrike/Hammerstrike/Thunderstrike). **Zero of Upkeep's 3
+  Reconnaissance lists ran this shell.** Read as "this specific 188-player
+  field had a skimmer-spam cluster" (a local-scene/netlist-copy effect is
+  plausible) rather than "the format is trending toward skimmer spam" — the
+  second data point that would confirm a real cross-event trend isn't there
+  yet. Worth re-checking at the next event before treating it as a threat
+  you'll definitely see, rather than one you might see.
+- **Emperor's Children Recon (Upkeep) runs the exact boogeyman trio already
+  profiled** in this doc: Keeper of Secrets + 4x Daemonettes (90pts each) +
+  2x Defiler. Confirms that matchup is a live Recon-vs-Recon threat, not just
+  a Priority Assets/Slaanesh theorycraft case.
+- **New, harder case, now modeled**: Thousand Sons' (Newport) "Reconnaissance
   (thicc)" list stacks Magnus the Red (455pts) + 2x Lord of Change (650pts
-  combined) + Kairos Fateweaver (305pts) + an Exalted Sorcerer — four
-  separate large MONSTERs in one 2000pt list. Our Abominus-Class Targets
-  answer (see stratagem section above) was validated against a single
-  Keeper/Bloodcrusher; a list with four huge Monsters would need it applied
-  repeatedly across the game, not once. Worth a follow-up check once we can
-  simulate multi-turn CP usage rather than single-activation snapshots.
-- **T'au (Kauyon Crisis-suit spam) and Drukhari (Lelith/Archon/Drazhar/Lady
-  Malys multi-Incubi+Wych blade list) Recon builds are opposite-profile
-  threats** — pure ranged alpha-strike vs. fast melee blade-spam — no single
-  tactic in our current matchplay reference covers both.
-- Adeptus Custodes Recon (Trajann + 2x Shield-Captain/Dawneagle + 5x Vertus
-  Praetors + 3x undersized Allarus squads + Witchseekers) is a mixed
-  elite-melee/anti-horde build, distinct from either extreme above.
+  combined) + Kairos Fateweaver (305pts) + an Exalted Sorcerer — four separate large
+  MONSTERs in one 2000pt list. Lord of Change's stat line (T10/6+/4++/18W) is
+  defensively identical to the already-modeled Keeper of Secrets profile in
+  this engine's math (its Sv6+ never beats its own 4++, same as Keeper's
+  Sv5+) - no new profile needed there. Magnus is the real outlier: T11/**2+**/
+  4++/16W - his actual armor save matters (unlike Keeper/LoC), added as a new
+  `magnus` target profile. Kill% vs Magnus, base / with Abominus-Class
+  Targets:
 
-One Grey Knights entry found at Newport (Ryan Johnson, 5-3, Warpbane Task
-Force/Take and Hold) — already counted in the aggregate table above. Not our
-archetype (Take and Hold, not Reconnaissance), so it doesn't validate or
-invalidate our specific build, just confirms GK players are spread across
-multiple disposition/detachment choices at this level.
+  | Unit | Base | +1CP (Abominus-Class Targets) |
+  |---|---|---|
+  | Crowe+Purifiers | 78% | **125%** |
+  | BTS10 | 75% | **116%** |
+  | 3x Interceptor | 87% | **135%** |
+  | GMND | 73% | 81% (barely moves, same Surge of Wrath overlap as Keeper) |
+
+  Same pattern as Keeper: don't spend the CP on GMND, spend it on BTS/
+  Crowe+Purifiers/Interceptors. Caveat: Magnus's Unearthly Power lets him pick
+  one Crimson King ability per battle round; if he calls Impossible Form that
+  round, non-psychic attacks vs him take -1 Damage (opponent's choice, not
+  modeled here) - so real in-game kill% could be softer on any given round.
+  Also: a list with four huge Monsters needs the stratagem applied repeatedly
+  across the game, not once - worth a follow-up once we can simulate
+  multi-turn CP usage rather than single-activation snapshots.
+- **T'au (Kauyon Crisis-suit spam, Upkeep) and Drukhari (Lelith/Archon/
+  Drazhar/Lady Malys multi-Incubi+Wych blade list, Newport) Recon builds are
+  opposite-profile threats** — pure ranged alpha-strike vs. fast melee
+  blade-spam — no single tactic in our current matchplay reference covers
+  both.
+- Adeptus Custodes Recon (Upkeep) (Trajann + 2x Shield-Captain/Dawneagle +
+  5x Vertus Praetors + 3x undersized Allarus squads + Witchseekers) is a
+  mixed elite-melee/anti-horde build, distinct from either extreme above.
+
+## Cross-event archetype confirmations from the other 33 lists (Take and Hold/Priority Assets/Purge the Foe/Disruption)
+
+Didn't open every one of these 33 (much smaller, more scattered faction
+spread than Warmaster's 55 - most factions show up only once or twice), but
+the detachment-name column of the standings itself surfaces two repeated
+archetypes worth confirming with a full read:
+
+- **Orks "Freebooter Krew | Equatorial Hordes" repeats 3 of 3 Ork Take and
+  Hold entries**: Jake Dinner and Jude Burges at **Newport**, Rick Kincaid at
+  **Upkeep**. Read Rick Kincaid's list in full: opens with Ghazghkull Thraka
+  + 19 Boyz (Warlord) + Painboy, second Boyz blob with Warboss + Painboy —
+  the exact same "Ghazghkull+19 Boyz" core shell identified at Warmaster.
+  Third independent confirmation of this being the near-solved Ork Take and
+  Hold shell, not a Warmaster-specific artifact.
+- **Space Marines "Librarius Conclave | Reclamation Force" repeats 3 times**
+  in Take and Hold: Adam Crellin at **Newport**, Kramer Doyle and Jerry
+  Reynolds at **Upkeep** - a pattern Warmaster's own Take and Hold section
+  didn't show at all (that section was Orks/Custodes/Necrons/Space
+  Wolves/Tyranids, no Space Marines). Read Adam Crellin's and Kramer Doyle's
+  lists in full: both are big multi-character melee/elite deathballs
+  (Captain Titus + Wardens of Ultramar + Bladeguard Veterans in one; Marneus
+  Calgar + Cato Sicarius + Victrix Honour Guard + Sternguard in the other) -
+  same detachment combo (psychic buff auras + army-wide reinforcement) built
+  around different specific elite blocks each time. Worth watching as an
+  emerging Take and Hold archetype, not yet in the matchplay reference.
+
+Everything else in this batch (AdMech 8-0 Priority Assets at Newport, T'au
+Mont'ka 7-1 at Newport, Thousand Sons/Emperor's Children/Tyranids/Imperial
+Knights Priority Assets at Upkeep, Custodes/Chaos Daemons Purge the Foe at
+Newport, Chaos Space Marines/Necrons/Blood Angels Purge the Foe at Upkeep,
+one Ork Disruption entry at Upkeep) are one-off data points - no repeated
+pattern to confirm, not worth a deep read for a single result each.
 
 ## Open threads / not yet resolved
 
@@ -495,4 +563,41 @@ multiple disposition/detachment choices at this level.
 
 ## Final verdict on GK competitiveness
 
-*(pending — fill in once all sections above are complete, per task #6)*
+**Competitive: probably yes, cautiously — this hasn't changed since the
+Synthesis section above, but it's now resting on more than one event.** The
+cross-event aggregate (39 GK players, 8 events) still shows Reconnaissance as
+GK's best disposition (67%, n=12) against a below-average overall rate
+(44.3%). The two extra events pulled since Synthesis was written (Newport,
+Upkeep) didn't add GK Reconnaissance data points directly (only one GK entry
+found, and it was Take and Hold), but they did stress-test the *matchup*
+side of the picture, and nothing found there overturns the verdict:
+
+- **Our kill-tools hold up against every new threat found.** The Abominus-
+  Class Targets stratagem answer (BTS/Crowe+Purifiers, not GMND) that worked
+  against Keeper of Secrets and Bloodcrusher works the same way against
+  Magnus the Red (78%→125%, 75%→116%) — this is now a validated, repeatable
+  pattern across three independent hard targets, not a one-off tuned to a
+  single boogeyman.
+- **New threats to actually prep for, not yet in the matchplay reference:**
+  the Space Marine "Land Speeder/Storm Speeder skimmer spam" Reconnaissance
+  shell (4 players, but concentrated at one event with zero sightings at a
+  second - possible, not confirmed), the Space Marine "Librarius Conclave +
+  Reclamation Force" melee-deathball Take and Hold shell (3 independent
+  players across two events, would face us if we're forced into playing
+  their mirror mission),
+  and the Thousand Sons "four Monsters in one list" deathstar (Magnus + 2x
+  Lord of Change + Kairos) as a harder version of the Keeper problem — needs
+  the stratagem more than once per game, which we can't fully model yet.
+- **Nothing here changes the structural open question from Synthesis**: we
+  still haven't found a real GK list matching our specific BTS+Purifier
+  composition to check directly — that remains the honest gap, not something
+  this round of data closed.
+
+**Bottom line:** the list is a defensible, evidence-backed choice for
+Reconnaissance, our kill math is now validated against a wider and harder
+set of targets than when this doc started, and the concrete prep items are
+(1) trial a Dreadknight/transport-heavy variant per Synthesis point 2, (2)
+add the SM skimmer-spam and Librarius Conclave shells to the matchplay
+reference's threat list, (3) treat Magnus-style multi-Monster lists as a
+"need the stratagem more than once" edge case rather than assuming one CP
+solves it.
