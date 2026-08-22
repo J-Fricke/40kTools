@@ -8,14 +8,17 @@ The Rules
  
 Factions
 Search this site...
-Grey Knights 
-[ 
-No filter
- ]
+Clear
+Grey Knights
 An ancient order of champions shrouded in mystery and legend, the Grey Knights are Humanity’s greatest defence against the threat of Daemonkind. Though the common folk of the Imperium will never know of their sacrifice and courage, it is only by their hand that the untold perils of the warp are kept at bay.
 
+Detachments:
+Select All / Unselect All Total: 16DP
+Boarding Actions
 Contents
 Books
+FAQ
+Faction Pack: Grey Knights
 Keywords
 Introduction
 Army Rules
@@ -50,6 +53,21 @@ Detachment Rule
 Hallowed Ground
 Enhancements
 Stratagems
+Argent Assault
+Detachment Rules
+Dauntless Champions
+Enhancements
+Stratagems
+Fires of Purgation
+Detachment Rules
+Searing Soulflame
+Enhancements
+Stratagems
+Immaterial Interdiction
+Detachment Rules
+Echojump
+Enhancements
+Stratagems
 Crusade Rules
 Visions from the Augurium
 Chaos Incursion
@@ -60,35 +78,19 @@ Battle Traits
 Psychic Fortitudes
 Crusade Relics
 Crusade Badges
-Boarding Actions
-Void Purge Force
-Mustering a Boarding Patrol
-Rules Adaptations
-Army Rule
-Eye of the Prognosticars
-Detachment Rule
-An Urgent Duty
-Enhancements
-Stratagems
-Baneslayer Strike
-Mustering a Boarding Patrol
-Rules Adaptations
-Army Rule
-Eye of the Prognosticars
-Detachment Rule
-Pre-Emptive Strike
-Enhancements
-Stratagems
 Books
-Show History
 Book	Kind	Edition	Version	Last update
-  Grey Knights	Faction Pack	10	1.0	October 2025
-  Munitorum Field Manual	Expansion	10	4.3	May 2026
-  Balance Dataslate	Rulebook	10	3.4	March 2026
+  Grey Knights	Faction Pack	11	1.1	July 2026
   Boarding Actions	Expansion	10	1.1	July 2025
+  Munitorum Field Manual	Expansion	11	1.2	
+FAQ
+Faction Pack: Grey Knights
+Q:	Can a unit with the Sigil of Exigence enhancement use that ability during my opponent’s first turn?
+A:	
+Yes
 
 Keywords
-AIRCRAFT (4),BATTLELINE (2),CHARACTER (12),DEDICATED TRANSPORT (3),DREADNOUGHT (1),EPIC HERO (4),FLY (5),GRENADES (14),GREY KNIGHTS (31),IMPERIUM (31),INFANTRY (17),LAND RAIDER (3),PSYKER (20),RHINO (1),SMOKE (9),TERMINATOR (9),TITANIC (1),TRANSPORT (8),VEHICLE (14),WALKER (4)
+AIRCRAFT (2);BATTLELINE (2);CHARACTER (12);DEDICATED TRANSPORT (3);DREADNOUGHT (1);EPIC HERO (4);FLY (5);FRAME (5);GRENADES (14);GREY KNIGHTS (31);IMPERIUM (31);INFANTRY (17);LAND RAIDER (2);PSYKER (20);SMOKE (9);TERMINATOR (9);TITANIC (1);TRANSPORT (8);VEHICLE (14);WALKER (4)
 
 The keywords presented in this section have a number of special features:
 CLICK on the link to open the tooltip.
@@ -119,8 +121,11 @@ Incursion	Up to 2 units
 Strike Force	Up to 3 units
 Onslaught	Up to 4 units
 
-Once you have made your selections, remove those units from the battlefield and place them into Strategic Reserves.
+Place those units in strategic reserves.
+Those units can make an ingress move in your next Movement phase (including in your first turn).
+Errata
 Brotherhood Strike
+2DP
 When supernatural terrors endanger the very survival of Humanity, strike forces assembled from the might of the Grey Knights brotherhoods deploy to end the threat. Forewarned by the scrying of the Prognosticars, these hosts bring a balance of infantry and armour assets best suited to completing their mission, allied by the mightiest war leaders the Chapter can muster. No weapon or relic of esoteric technology is forbidden to such strike forces. In particular, these warriors wield the potent sorceries of Titan, not only to blast their enemies with excoriating energies but also to rapidly traverse battlefields through coruscating Warp gates. By employing such arcane tactics, the Grey Knights can rapidly outmanoeuvre even the most well-entrenched or fast-moving foes and focus the full wrath of their brotherhood precisely where it is most needed. Heretical rituals are cast into ruin, daemonic demagogues exorcised and slain, and the mightiest foes of the Imperium are purged without mercy by these warrior hosts.
 
 Detachment Rule
@@ -170,6 +175,7 @@ WHEN: Your Movement phase.
 TARGET: One GREY KNIGHTS unit from your army that is arriving using the Deep Strike ability this phase.
 
 EFFECT: Set your unit up anywhere on the battlefield that is more than 6" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.
+Errata
 PURGATION PATTERN
 1CP
 Brotherhood Strike – Battle Tactic Stratagem
@@ -209,6 +215,7 @@ EFFECT: If every model in your unit has the Deep Strike ability, remove your uni
 
 Designer’s Note: This Stratagem allows you to remove a unit in addition to those removed using the Gate of Infinity rule, and it allows you to remove a unit within Engagement Range of one or more enemy units.
 Hallowed Conclave
+2DP
 The indomitable core of the Grey Knights’ fighting forces are their Terminator-armoured battle-brothers. When enough of these heavily equipped combatants gather, their amassed strength and resilience are a match for hosts of enemies many times their number. Incoming fire rattles from blessed and warded Terminator plate while hostile sorcery dwindles to nothing before the Grey Knights’ combined Aegis. In return, the hulking templars of Titan maintain unceasing firepower and banishing magicks that winnow the enemy’s ranks before their inevitable and overwhelming charge crashes home. Though surrounded by screaming foes, the Grey Knights hack a relentless path ever deeper with their Nemesis blades and hammers singing in their fists. Unstoppable, indefatigable, the Terminators press forward to shatter diabolical rites, seal diabolical Warp gates, slay possessed tyrants and carve the will of the Emperor into the flesh of their foes.
 
 Detachment Rule
@@ -222,8 +229,11 @@ Enhancements
 Eye of the Augurium25 pts
 A miniature facsimile of the silver mirrors used by the Prognosticars, this artefact affords its bearer a glimpse of where they will be needed most in the heat of battle.
 
-GREY KNIGHTS model only. Once per battle round, the bearer can use this Enhancement. If it does, you can target the bearer’s unit with the Fire Overwatch or Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this turn.
+GREY KNIGHTS model only. You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:
 
+That use is -1 CP.
+That use does not prevent any uses of that stratagem on other units this phase.
+Errata
 Inescapable Judgement (Psychic)20 pts
 So crushing is this warrior’s psychic presence that those he scorns as cowards are slain even as they flee, withering beneath the weight of his disgust.
 
@@ -283,9 +293,10 @@ Hallowed Conclave – Strategic Ploy Stratagem
 The psychic abilities of these battle-brothers are turned toward predicting the foe's actions even before their enemies know what they will do.
 WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.
 
-TARGET: One GREY KNIGHTS INFANTRY unit from your army that is within 9" of that enemy unit and not within Engagement Range of one or more enemy units.
+TARGET: One GREY KNIGHTS INFANTRY unit from your army that is within 8" of that enemy unit and not within Engagement Range of one or more enemy units.
 
 EFFECT: Your unit can make a Normal move of up to D6".
+Errata
 SHINING RESOLVE
 1CP
 Hallowed Conclave – Strategic Ploy Stratagem
@@ -296,6 +307,7 @@ TARGET: One GREY KNIGHTS INFANTRY unit from your army that was selected as the t
 
 EFFECT: Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.
 Banishers
+2DP
 The esoteric arsenal of the Grey Knights is as potent as their armoury of more conventional munitions. Indeed, when the most corrupt or supernatural foes must be defeated, these arcane weapons may prove more powerful than any volume of bolt shells and blades. By bringing together their mightiest psychic warriors and focusing the empyric powers they have learned to wield as no others could, the Grey Knights harness the terrifying might of the Warp without succumbing to its insidious taint. The result is a strike force of warriors wreathed in unnatural flame and shielded by potent warding sigils that whirl about them like an arcane constellation. The air shudders with psychic overpressure as the Grey Knights advance, vox-amplified voices raised in chants of banishment and malediction that ring above the thunder of their guns and the crackle of their blades. Warp-spawned entities are blasted into ectoplasmic slicks before their advance, while more corporeal foes fall as swiftly before the psychic might of Titan made manifest.
 
 Detachment Rule
@@ -381,10 +393,12 @@ Banishers – Epic Deed Stratagem
 This muttered incantation conjures a sympathetic shadow of the true darkness beneath Mount Anarch, through which the Grey Knights stride fearlessly to emerge elsewhere than where they began.
 WHEN: Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.
 
-TARGET: One GREY KNIGHTS PSYKER unit from your army that is within 9" of that enemy unit and is not within Engagement Range of one or more enemy units.
+TARGET: One GREY KNIGHTS PSYKER unit from your army that is within 8" of that enemy unit and is not within Engagement Range of one or more enemy units.
 
 EFFECT: Your unit can make a Normal move of up to 6" or, if it has the Deep Strike ability, it can be placed into Strategic Reserves.
+Errata
 Sanctic Spearhead
+2DP
 Many Grey Knights task forces are supported by assets drawn from the Chapter’s Armoury, be it ward-inscribed armoured transports, ancient Dreadnought battle-brothers, swift Stormraven Gunships or towering Nemesis Dreadknights piloted by the Chapter’s greatest warriors. Yet there are threats and foes so monstrous that they must be countered with a mass host of these sanctified engines of war. At such times, the ground shudders beneath pounding adamantine feet, and the grinding tracks of the mightiest battle tanks to roll from the Deimosian forges. Entire flights of silver-grey gunships streak overhead, their holds packed with psychic battle-brothers, their wings guarded by nimble fighter craft. Combat walkers stride from teleport flares just as the rest of their armoured onslaught hits the enemy lines like a thunderbolt, leaving nothing but devastation in their wake. In this way, the Grey Knights shatter the mightiest enemy armies or break through to critical locations in time to stave off calamity.
 
 Detachment Rule
@@ -408,8 +422,9 @@ GREY KNIGHTS INFANTRY model only. In your Movement phase, each time the bearer�
 Sigil of Exigence30 pts
 This powerful and ancient sorcerous ward reacts to imminent peril by wrenching the bearer momentarily out of sync with reality itself.
 
-GREY KNIGHTS model only. Once per battle, in your opponent’s Shooting phase, when the bearer’s unit is selected as the target of a ranged attack, you can remove the bearer’s unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 9" horizontally away from all enemy units. If the bearer’s unit is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer’s unit.
+GREY KNIGHTS model only. Once per battle, in your opponent’s Shooting phase, when the bearer’s unit is selected as the target of a ranged attack, you can remove the bearer’s unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 8" horizontally away from all enemy units. If the bearer’s unit is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer’s unit.
 
+FAQ / Errata
 Spiritus Machina25 pts
 Thought to date back to Old Night, this device allows the bearer to draw targeting data from machine spirit senses and entwine it with their own perceptions.
 
@@ -472,6 +487,7 @@ TARGET: That GREY KNIGHTS VEHICLE unit.
 
 EFFECT: Each enemy unit within 3" of your unit must take a Battle-shock test, subtracting 1 from that test.
 Augurium Task Force
+2DP
 Empyric scrying, ancient prophecies of cataclysmic events, Warp-sent visions experienced by the Chapter’s most potent psykers: by such esoteric means are the Grey Knights sometimes forewarned of where, when and how a threat will arise in far more detail even than is usual. Such omens are never squandered. When allowed to truly prepare, the warriors of Titan ensure they are positioned to prevent the rising peril rapidly. Battles of this sort see the Grey Knights remaining ahead of their enemies as they employ their foreknowledge to anticipate and outmanoeuvre the foe’s every strike. Bands of steely-eyed battle-brothers step from blazing teleport flares to gun down flanking forces. Champions of Titan intervene at pivotal moments to send summoning rituals awry or bring supernatural portals crashing down in ruin. Locking blades with fate itself, the Grey Knights hack and parry, stab and slice until they have carved the future into a new and bloody form that benefits the Imperium.
 
 Detachment Rule
@@ -494,11 +510,14 @@ Foreknowledge of the foe’s offensive capabilities allows tailored incantations
 
 GREY KNIGHTS model only. Once per battle, at the start of the battle round, the bearer can use this Enhancement. If it does, until the end of the battle round, add 2 to the Toughness characteristic of models in the bearer’s unit.
 
-A Foot in the Future15 pts
+One Foot in the Future15 pts
 Stratego-prescient telecasts scroll over this warrior’s heads-up display, providing them with tactical battlefield foretellings to which they swiftly react.
 
-GREY KNIGHTS model only. Each time the bearer’s unit is set up in your Reinforcements step, the bearer can use this Enhancement. If it does, the bearer’s unit can make a Normal move of up to D6", and until the end of the turn, the bearer’s unit is not eligible to declare a Charge.
+GREY KNIGHTS model only. When this unit ends an ingress move, you can use this ability. If you do:
 
+This unit can make a normal move of up to D6".
+Until the end of the turn, this unit is not eligible to declare a charge.
+Errata
 Doomseer’s Amulet25 pts
 The cruel powers of this forbidden artefact cause foes to perceive the wearer as a death omen drawn from their culture, manifested to prophecy their doom.
 
@@ -514,7 +533,8 @@ WHEN: Your Shooting phase or the Fight phase.
 
 TARGET: One GREY KNIGHTS PSYKER unit from your army that has not been selected to shoot or fight this phase.
 
-EFFECT: Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack’s Weapon Skill or Ballistic Skill characteristics and/or any or all modifiers to the Hit roll.
+EFFECT: Your unit’s attacks can re-roll hit rolls.
+Errata
 APPOINTED HOUR
 1CP
 Augurium Task Force – Battle Tactic Stratagem
@@ -563,6 +583,7 @@ TARGET: One GREY KNIGHTS PSYKER unit from your army that is within 12" of that e
 
 EFFECT: If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.
 Warpbane Task Force
+3DP
 When daemonic entities corrupt the worlds of the Imperium, Grey Knights forces strike to cleanse unhallowed ground and restore the sanctity of the Emperor’s domain. Such formations are raised when only the most obscure and esoteric rituals of purgation will drive the taint of Chaos back into the depths of the Warp. Striding fearlessly into malignant hellscapes, the warriors of the Order of Purifiers lead the assault. The combined psychic might of these anointed champions manifests in an azure fire that ignites the bodies and souls of unclean foes and scours away the taint of witchcraft and infernal corruption. In place of this excised perversion, an ensorcelled zone of consecration is created, within which the Grey Knights are emboldened and empowered.
 
 Detachment Rule
@@ -588,7 +609,7 @@ This warrior is a master slayer whose blade has found the cursed hearts of count
 
 GREY KNIGHTS INFANTRY model only. The bearer’s melee weapons have the [PRECISION] ability, and while the bearer is wholly within your army’s Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage.
 
-Phial of the Abyss25 pts
+Phial of the Abyss15 pts
 Gifted by the Prognosticars of the Augurium, this ampoule contains cosmic energies syphoned from the event horizon of a Warp singularity. At the prophesied hour, the vial shatters, its contents swirling around the bearer and wreathing them in a localised field of time and light distortion.
 
 GREY KNIGHTS INFANTRY model only. Models in the bearer’s unit have the Stealth ability.
@@ -653,6 +674,160 @@ WHEN: Start of your opponent’s Charge phase.
 TARGET: One GREY KNIGHTS INFANTRY unit from your army.
 
 EFFECT: Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army’s Hallowed Ground.
+Argent Assault
+1DP
+THE GREATEST CHAMPIONS OF THE GREY KNIGHTS SEEK OUT THEIR DEADLIEST FOES FOR PURGATION
+
+Detachment Rules
+Dauntless Champions
+To be a Paladin of the Grey Knights is to do battle with the greatest and most terrible enemies and yet emerge victorious, no matter the odds.
+
+When a friendly PALADIN SQUAD unit is selected to fight, if the S of those attacks is lower than the T of the target, those attacks have +1 to wound rolls.
+
+Enhancements
+Psychic Celerity15 pts
+These champions of Titan employ their psychic might to lend themselves supernatural speed and catch their enemies unawares
+
+TERMINATOR model only. This unit has +1 to charge rolls
+
+Vigilance of Titan20 pts
+None who would work the unclean will of the Warp – even unknowingly – can escape the merciless gaze of the Grey Knights.
+
+TERMINATOR model only. At the start of your Shooting phase, you can select one visible enemy unit within 12" of this unit. That enemy unit has +6" detection range.
+
+
+Stratagems
+TRUESILVER AEGIS
+1CP
+Argent Assault Stratagem
+Layered into the Paladins’ armour by shriven seers and blessed saints, these potent wards of abjuration turn aside attacks both supernatural and mundane.
+WHEN: Any phase, when a friendly PALADIN SQUAD unit suffers a mortal wound.
+
+TARGET: That PALADIN SQUAD unit.
+
+EFFECT: Your unit has Feel No Pain 4+ against mortal wounds.
+A THREAT ENDED
+1CP
+Argent Assault Stratagem
+Paladins, more than even their brother Grey Knights, must strive to lay low those heretical champions from whom the taint of damnation spreads to threaten the Imperium.
+WHEN: Fight phase, when a friendly PALADIN SQUAD unit is selected to fight.
+
+TARGET: That PALADIN SQUAD unit.
+
+EFFECT: Your unit’s melee attacks have [PRECISION].
+AURA OF VENGEANCE
+1CP
+Argent Assault Stratagem
+Chanting incantations of vengeful wrath, the Paladins cursethose who strike at them to be laid low by their own strength and hatred.
+WHEN: Fight phase, when an enemy unit targets a friendly PALADIN SQUAD unit.
+
+TARGET: That PALADIN SQUAD unit.
+
+EFFECT: That enemy unit’s melee attacks have [HAZARDOUS].
+Fires of Purgation
+1DP
+PURGATION SQUADS LEAD THEIR BRETHREN TO PURIFY THE BATTLEFIELD THROUGH FEROCIOUS FIREPOWER
+
+Detachment Rules
+Searing Soulflame
+Through potent psychic focus and the channelling of their vehement wrath, Purgators imbue their salvoes with bursts of soul-burning psy-fire.
+
+When you select a unit to be pinned by a friendly PURGATION SQUAD unit’s Righteous Persecution ability, that enemy unit makes a battle-shock roll, with -1 to that battle-shock roll.
+
+Enhancements
+Precognicient VolleysUPGRADE10 pts
+These champions of Titan employ their psychic might to lend themselves supernatural speed and catch their enemies unawares
+
+PURGATION SQUAD unit only. This unit’s snap shooting attacks hit on unmodified hit rolls of 5+.
+
+Boons of DeimosUPGRADE20 pts
+None who would work the unclean will of the Warp – even unknowingly – can escape the merciless gaze of the Grey Knights.
+
+PURGATION SQUAD unit only. This unit’s ranged attacks have +2 S.
+
+
+Stratagems
+SOUL-LOCKED
+1CP
+Fires of Purgation Stratagem
+Once these warriors have acquired a spiritual target lock upon the animus of their enemies, they can hammer them with deadly fire, no matter the circumstances.
+WHEN: Your Movement phase, when a friendly PURGATION SQUAD unit is selected to make a fall-back move.
+
+TARGET: That PURGATION SQUAD unit.
+
+EFFECT: That move does not prevent your unit from being eligible to shoot.
+FOCUSED IMMOLATION
+1CP
+Fires of Purgation Stratagem
+Concentrating their fire on a single luckless target and pouring all their psychic might into every shot, the Purgators sear their victims from existence as though cauterising an infested wound in the flesh of realspace.
+WHEN: Your Shooting phase, when a friendly PURGATION SQUAD unit is selected to shoot.
+
+TARGET: That PURGATION SQUAD unit.
+
+EFFECT: Select one enemy unit. Your unit’s ranged attacks that target that unit have:
+[DEVASTATING WOUNDS].
+[SUSTAINED HITS 1].
+SPIRITSEAR
+1CP
+Fires of Purgation Stratagem
+With their spiritual armour shattered along with that of their physical forms, the very souls of the enemy fall prey to the devastating fire of the Purgators.
+WHEN: Your Shooting phase, when a friendly PURGATION SQUAD unit has shot.
+
+TARGET: That PURGATION SQUAD unit.
+
+EFFECT: Select one battle-shocked enemy unit hit by those attacks. That enemy unit suffers D3+1 mortal wounds.
+Immaterial Interdiction
+1DP
+GREY KNIGHTS INTERCEPTORS LEAP THROUGH THE WARP TO MEET AND TURN BACK EACH NEW ENEMY PUSH
+
+Detachment Rules
+Echojump
+Pushing their esoteric wargear to its limits, Interceptors are able to make secondary, shorter personal teleportation jumps, effectively skimming the very surface of the Immaterium to respond all the more quickly to developing threats.
+
+In your Shooting phase, when a friendly INTERCEPTOR SQUAD unit has shot, you can use this ability. If you do:
+That unit cannot use its Personal Teleporters ability.
+That unit can make a surge move of up to D6+1".
+
+Enhancements
+Predestined CoordinatesUPGRADE10 pts
+This rune‑sealed data-scroll is opened at the ordained moment, providing vital strategic insights and empyric jump coordinates foreseen by the Prognosticars themselves.
+
+INTERCEPTOR SQUAD unit only. In your first Movement phase, this unit can make an ingress move.
+
+Astral OverlapUPGRADE10 pts
+Esoteric adjustments to the calibration of these Interceptors’ teleportation arrays allow them to achieve a temporary state of semi‑incorporeality, in which enemy projectiles may simply pass through them as though they were ghosts.
+
+INTERCEPTOR SQUAD unit only. This unit has Stealth.
+
+
+Stratagems
+BLADES FROM THE BEYOND
+1CP
+Immaterial Interdiction Stratagem
+With exceptional skill, these Interceptors teleport perilously close to their foes, bursting from the Immaterium into their very midst with lethal force.
+WHEN: Fight phase, when a friendly INTERCEPTOR SQUAD unit that made a charge move this turn is selected to fight.
+
+TARGET: That INTERCEPTOR SQUAD unit.
+
+EFFECT: Your unit’s melee attacks have [LANCE].
+BY THOUGHT ALONE
+1CP
+Immaterial Interdiction Stratagem
+Employing telekinetic sorceries even in the midst of a furious battle, Interceptors are able to complete vital mission objectives while interdicting the foe’s forces.
+WHEN: Your Shooting phase, when a friendly INTERCEPTOR SQUAD unit starts an action.
+
+TARGET: That INTERCEPTOR SQUAD unit.
+
+EFFECT: That action does not prevent your unit from being eligible to shoot.
+RESPONSIVE DISPLACEMENT
+1CP
+Immaterial Interdiction Stratagem
+Masters of reading the ebb and flow of battle, Interceptors stay ever on the move and exploit any gap in the enemy lines with lightning swiftness.
+WHEN: Your opponent’s Movement phase, when an enemy unit that was engaged with a friendly INTERCEPTOR SQUAD unit ends a fall-back move, if that INTERCEPTOR SQUAD unit is unengaged.
+
+TARGET: That INTERCEPTOR SQUAD unit.
+
+EFFECT: Your unit can make a normal move of up to D3+3".
 Crusade Rules
 In this section you’ll find additional rules for playing Crusade battles that are bespoke to the GREY KNIGHTS units. You can find out more about Crusade armies in the main Crusade rules.
 
@@ -886,7 +1061,8 @@ Battle Traits
 When a GREY KNIGHTS unit gains a Battle Trait, you can use one of the tables presented here to determine which Battle Trait that unit has gained.
 
 
-GREY KNIGHTS UNITSD6
+GREY KNIGHTS UNITS
+D6
 SIGILS OF SWIFTNESS
 Freshly inscribed sorcerous sigils channel wisps of empyric energy to hasten these warriors through the flow of time.
 
@@ -912,7 +1088,8 @@ To be the best of even this elite Chapter is to fight all the more fiercely when
 
 Each time a model in this unit makes a melee attack, add 1 to the Hit roll if this unit is below its Starting Strength, and add 1 to the Wound roll as well if this unit is Below Half-strength.
 
-GREY KNIGHTS CHARACTER UNITSD6
+GREY KNIGHTS CHARACTER UNITS
+D6
 MIGHTY DESTINY
 While none beyond the Chapter may ever know of their deeds, there is no denying this champion will achieve incredible things.
 
@@ -933,7 +1110,8 @@ A unit can only have one of these Battle Traits, and having one increases the un
 
 An Attached unit can only use one Psychic Fortitude at a time - while a Leader with one of these traits is attached to a Bodyguard unit with a different one of these traits, only one can be in effect; select which at the Declare Battle Formations step - that trait then applies to the Attached unit until either the Leader unit or the Bodyguard unit is destroyed, at which point the remaining units Psychic Fortitude comes into effect.
 
-Psychic FortitudesD6
+Psychic Fortitudes
+D6
 FORTRESS OF MINDS (PSYCHIC)
 These warriors possess such psychic fortitude that, once gathered and focusing their powers, few malevolent entities can overwhelm them.
 
@@ -1030,209 +1208,6 @@ You have completed the No Witnesses Agenda one or more times, or you have scored
 You have used the Master Among Masters Requisition one or more times.
 
 
-Boarding Actions
-Introduction
-Within the following pages you will find numerous Boarding Actions Detachments that can be used in your Boarding Actions games. Each lists which units you can include in your army, any modifications to those units’ army rule as presented in their Codex or Index, a Detachment rule unique to that Detachment, and a number of Enhancements and Stratagems that you can use.
-
-ARMY FACTION
-A keyword that will be shared by all units in your army.
-
-MUSTERING RULES
-Which units you are allowed to include in your army.
-
-FORMING BOARDING SQUADS
-Any additional rules that will apply in the missions Form Boarding Squads step. Note that not all Detachments will have these.
-
-RULES ADAPTATIONS
-Some units will be unable to use certain abilities in Boarding Actions battles. Where this is the case, these units and their relevant abilities will be listed here.
-
-ARMY RULE
-Due to the distinct nature of close-quarters battle in Boarding Actions, most army rules require some modifications to their effects. Where this is the case, these will be described here.
-
-DETACHMENT RULE
-Each faction will have a number of different Detachments to choose from, each with its own Detachment rule to reflect the unique fighting methods of such forces.
-
-ENHANCEMENTS
-Further Enhancements that you can give to CHARACTER models from your army, beyond those(Boarding Actions Enhancements), will be found here.
-
-STRATAGEMS
-Additional Stratagems that you can use, in addition to those (Boarding Actions Stratagems), will be found here.
-Void Purge Force
-Whether striking into a warp-compromised vessel to annihilate all aboard, defending a vital Grey Knights warship from infernal threats, or removing allies or foes who know too much, these strike teams of Grey Knights hit hard and fast to ensure none escape their purge.
-
-Mustering a Boarding Patrol
-You can include up to two of the following unit (duplicates are not allowed):
-BROTHER-CAPTAIN
-BROTHER-CAPTAIN STERN
-BROTHERHOOD CHAMPION
-BROTHERHOOD CHAPLAIN
-BROTHERHOOD LIBRARIAN
-BROTHERHOOD TECH MARINE
-CASTELLAN CROWE
-GRAND MASTER
-GRAND MASTER VOLDUS
-KALDOR DRAIGO
-You can include up to three of the following unit:
-STRIKE SQUAD (5 or 10 models)
-You can include up to one of each of the following units:
-INTERCEPTOR SQUAD (5 or 10 model)
-PURIFIER SQUAD (5 model)
-You can include up to one of the following unit :
-BROTHERHOOD TERMINATOR SQUAD (5 model )
-PALADIN SQUAD (5 model )
-
-Rules Adaptations
-The BROTHERHOOD LIBRARIAN model loses the Vortex of Doom ability.
-The GRAND MASTER VOLDUS model loses the Hammer Aflame ability.
-The INTERCEPTOR SQUAD unit loses the Personal Teleporters ability.
-The KALDOR DRAIGO model loses the One With the Warp ability.
-The STRIKE SQUAD unit loses the Sanctifying Ritual ability.
-
-Army Rule
-Eye of the Prognosticars
-Forewarned of threats yet to manifest by the divinations of the Prognosticars, these Grey Knights are ready to exploit any eventuality.
-
-Units from your army with the Teleport Assault ability replace that ability with this one.
-
-Each time you target this unit with a Stratagem, roll one D6, adding 1 to the result if this unit is within range of an objective marker you control: on a 5+, you gain 1CP.
-
-Detachment Rule
-An Urgent Duty
-None can be allowed to reach an escape craft or get a distress call away - the purge must be swift and total. This knowledge lends the Grey Knights even greater urgency.
-
-Add 1 to Advance and Charge rolls made for GREY KNIGHTS units from your army.
-Enhancements
-Sigil of Warding
-This minute silver icon contains a personal teleport matrix and a vigilant machine spirit. Its precogitative psyroutines carefully watch for attacks from a distance, and at the sign of danger it transports its bearer away in a crack of energy.
-
-Once per battle, at the end of your Shooting phase, the bearer can use this Enhancement. If it does, it can make a Normal move of up to 3" and can then attempt to operate a Hatchway. The bearer is then not eligible to declare a charge this turn.
-
-Tactical Haruspexy
-Sanctioned psychic foretelling has determined the future whereabouts of this warrior’s primary target at a precise moment in time. It is a rendezvous only one will survive.
-
-Once per battle, when the bearer declares a charge, it can use this Enhancement. If it does, it can select units that are not visible to it as targets of that charge, provided they are within 9" of it.
-
-Stratagems
-BREACH-SHOCK
-1CP
-Void Purge Force – Strategic Ploy Stratagem
-So swift and overwhelming is a boarding assault by the Grey Knights that foes are overrun in short order before they even realise their peril.
-WHEN: Fight phase.
-
-TARGET: One GREY KNIGHTS unit from your army that has not been selected to fight this phase.
-
-EFFECT: Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6" instead of up to 3".
-HEXBANE WARDS
-1CP
-Void Purge Force – Battle Tactic Stratagem
-These unsettling hexagrammatic wards, inscribed on the Grey Knights' wargear before boarding, cause enemy weapons to falter and misfire as machine spirits are banished or tormented to madness.
-WHEN: Fight phase, just after an enemy unit has selected its targets.
-
-TARGET: One GREY KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.
-
-EFFECT: Until the end of the phase, melee weapons equipped by models in that enemy unit have the [HAZARDOUS] ability.
-TRANSLOCATION
-1CP
-Void Purge Force – Strategic Ploy Stratagem
-Employing single-use microteleportation matrices or focused psychic powers, these Grey Knights step through the warp and back to realspace in an eyeblink.
-WHEN: Your Movement phase.
-
-TARGET: One INTERCEPTOR SQUAD or GREY KNIGHTS CHARACTER unit from your army that has not been selected to move this phase.
-
-EFFECT: The next time your unit is selected to move this phase, models in that unit can move through Walls and closed Hatchways as if they were not there, but when doing so, no model can move more than 6".
-
-RESTRICTIONS: You can only use this Stratagem once.
-SANCTIFIED SLAUGHTER
-1CP
-Void Purge Force – Battle Tactic Stratagem
-With their foes cornered, the Grey Knights’ blades rise and fall, the purge thorough and unmerciful.
-WHEN: Your Fight phase.
-
-TARGET: One GREY KNIGHTS unit from your army that charged this turn.
-
-EFFECT: Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. If such a weapon already has that ability, until the end of the phase, each time an attack is made with that weapon, a successful unmodified Hit roll of 5+ scores a Critical Hit.
-Baneslayer Strike
-The infernal power of dire threats such as the Heretic Astartes, the Daemons of Chaos or the most abominable of xenos horrors is magnified within the close quarters of shipboard war. The Grey Knights have the tools to deal with even such arch-fiends, however, and they come clad in Terminator plate.
-
-Mustering a Boarding Patrol
-You can include up to two of the following units (duplicates are not allowed):
-BROTHER-CAPTAIN
-BROTHER-CAPTAIN STERN
-BROTHERHOOD CHAPLAIN
-BROTHERHOOD LIBRARIAN
-GRAND MASTER
-GRAND MASTER VOLDUS
-KALDOR DRAIGO
-You can include up to two of each of the following units:
-BROTHERHOOD TERMINATOR SQUAD (5 or 10 models)
-PALADIN SQUAD (5 or 10 models)
-
-Rules Adaptations
-The BROTHERHOOD LIBRARIAN model loses the Vortex of Doom ability.
-The GRAND MASTER VOLDUS model loses the Hammer Aflame ability.
-The KALDOR DRAIGO model loses the One With the Warp ability.
-
-Army Rule
-Eye of the Prognosticars
-Forewarned of threats yet to manifest by the divinations of the Prognosticars, these Grey Knights are ready to exploit any eventuality.
-
-Units from your army with the Teleport Assault ability replace that ability with this one.
-
-Each time you target this unit with a Stratagem, roll one D6, adding 1 to the result if this unit is within range of an objective marker you control: on a 5+, you gain 1CP.
-
-Detachment Rule
-Pre-Emptive Strike
-Employing ancient teleportation technologies, the Grey Knights are able to strike deep into enemy vessels or reposition with supernatural haste to defend vital sites on their own ships.
-
-In the Reinforcements step of your first Movement phase, you can set up on the battlefield one GREY KNIGHTS Reserves unit from your army using the Deep Strike ability. When doing so, you can set up that unit anywhere on the battlefield that is more than 6" horizontally away from all enemy models (measure this distance as you would normally for the Deep Strike ability). Until the end of the turn, that unit is not eligible to declare a charge.
-Enhancements
-Shield of Admonishment
-This ancient and heavily warded pauldron gleams with searing light in a range of empyric spectra that blind not only a foe’s physical sight, but also its intangible senses.
-
-Each time a melee attack targets the bearer, subtract 1 from the Hit roll.
-
-Close and Sanction
-Focused on closing the distance to their quarry, this warrior surges forward through enemy fire.
-
-In your opponent’s Shooting phase, each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was hit by one or more of those attacks, the bearer can make a Dash move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but it must finish that move as close as possible to the closest visible enemy unit. When doing so, it can be moved within Engagement Range of that enemy unit. The bearer can only make one Dash move per phase.
-
-Stratagems
-ARMOURED AEGIS
-1CP
-Baneslayer Strike – Epic Deed Stratagem
-This warrior stands indomitable, a shining tower of strength amidst a maelstrom of foes.
-WHEN: Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.
-
-TARGET: One GREY KNIGHTS CHARACTER model from your army that was selected as the target of one or more of the attacking unit’s attacks.
-
-EFFECT: Until the end of the phase, your model has the Feel No Pain 4+ ability.
-SANCTIC CIRCLE
-2CP
-Baneslayer Strike – Epic Deed Stratagem
-Through focused psychic might, this warrior cleanses and wards a vital location against the foe.
-WHEN: Your Command phase.
-
-TARGET: One GREY KNIGHTS CHARACTER or PALADIN SQUAD unit from your army.
-
-EFFECT: Select one objective marker within 9” of and visible to your unit. If that objective marker does not have any enemy models within range of it (excluding Battle-shocked models), your unit must take a Leadership test, subtracting 1 from the result if that objective marker is Secured by your opponent’s army. If that test is passed, that objective marker is no longer considered Secured by your opponent’s army and is Secured by your army.
-RELENTLESS BOARDERS
-1CP
-Baneslayer Strike – Strategic Ploy Stratagem
-Once aboard the enemy vessel, the elite of the Grey Knights press forward relentlessly, even their momentary withdrawals only presaging another aggressive push into the next chamber.
-WHEN: Your Charge phase.
-
-TARGET: One GREY KNIGHTS unit from your army that has not been selected to charge this phase.
-
-EFFECT: Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Fell Back.
-PSYBOLT AMMUNITION
-1CP
-Baneslayer Strike – Wargear Stratagem
-By entreating the machine spirit of his weapon with psychic incantations, a battle-brother can infuse it's already deadly payload with explosive mental energy.
-WHEN: Your Shooting phase.
-
-TARGET: One GREY KNIGHTS unit from your army that has not been selected to shoot this phase.
-
-EFFECT: Until the end of the phase, improve the Armour Penetration characteristic of storm bolters equipped by models in your unit by 1.
 © Vyacheslav Maltsev 2013-2026
 Privacy Preferences
 We and our partners share information on your use of this website to help improve your experience. For more information, or to opt out click the Do Not Sell My Information button below.
