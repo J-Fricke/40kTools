@@ -49,13 +49,31 @@ def fetch_event(event_id: str) -> dict:
 
 
 def fetch_list_text(list_uid: str) -> str:
+    """Fetch a list page and return clean, plain-text content, with the leading
+    site-nav chrome trimmed off.
+
+    Two title-marker formats have been observed:
+      - the normal listforge-style title line, "<name> (<N> points)" - the
+        number can use comma/period/space (incl. unicode narrow-no-break-space)
+        thousands separators, and "points"/"Points"/"pts" casing varies.
+      - a pasted WTC-style export, which has no such title line at all and
+        instead starts its metadata block with a line like "+ Pseudo:..."
+    Whichever marker is found first (if any) wins; if neither is found, nothing
+    is trimmed rather than risk cutting real content.
+    """
     raw_html = http_get(f"{BASE}/list/{list_uid}")
     text = html_to_text(raw_html)
     lines = text.split("\n")
-    title_idx = next(
-        (i for i, l in enumerate(lines) if re.search(r"\(\d+\s*points?\)\s*$", l)),
-        0,
-    )
+
+    def find(pattern):
+        return next((i for i, l in enumerate(lines) if re.search(pattern, l, re.I)), None)
+
+    candidates = [
+        find(r"\(\s*[\d,.\s]+\s*(?:points?|pts)\)\s*$"),
+        find(r"^\+\s"),
+    ]
+    candidates = [c for c in candidates if c is not None]
+    title_idx = min(candidates) if candidates else 0
     return "\n".join(lines[title_idx:])
 
 
