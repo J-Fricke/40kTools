@@ -420,6 +420,70 @@ not a kill-boosting one.** So the earlier finding stands as the complete
 answer, not a partial one: Sanctic's Abominus-Class Targets on BTS or
 Crowe+Purifiers is the actual reliable kill-boosting tool available to us.
 
+## Points-version sanity check: is any of this data stale?
+
+WTC Warmaster ran 2026-08-11–13, three days after MFM v1.2 went legal
+(2026-08-05) — so Warmaster was played entirely under v1.2. Checked
+`mfmdiff.com` for all four factions we track: **Grey Knights, Leagues of
+Votann, Adeptus Custodes, and Chaos Knights all had zero points changes
+between v1.1 and v1.2.** So none of the analysis in this file (or our own
+list data, still labeled "v1.1" in the faction files) is stale on points
+grounds — the numbers didn't move. This wouldn't catch a non-points rules
+change from a Balance Dataslate/FAQ, but MFM updates are points-only by GW
+convention, so the risk that matters here is closed.
+
+## Second data point: Reconnaissance archetype survey (2 more events)
+
+Pulled actual list composition (not just win/loss records) for the
+Reconnaissance-disposition entries at two of the events already counted in
+the cross-event aggregate above: **Warhammer Open Newport** (2026-08-14–16,
+188 players, 21 lists submitted) and **The Upkeep Games GT I** (2026-08-15–16,
+126 players, 21 lists submitted). Both post-v1.2, so directly comparable to
+our own data. This doesn't change the win-rate table above (those events were
+already counted there) — it's a composition/archetype layer on top.
+
+Disposition frequency across these two events combined (42 lists, all
+placings, not just 5+ wins — sample is smaller so no min-wins filter applied):
+Take and Hold 38% (16), Reconnaissance 21% (9), Priority Assets 19% (8),
+Purge the Foe 19% (8), Disruption 2% (1). Same direction as Warmaster (T&H
+and Recon both common, Disruption near-unplayed), though T&H skews higher
+here — small samples, treat as reinforcing not conclusive.
+
+**Reconnaissance archetypes found (9 lists read in full):**
+
+- **Space Marine chapters have converged on a "skimmer spam" shell** — 3 of
+  the 9 lists (Dark Angels/Lion El'Jonson, Raven Guard/Kayvaan Shrike, and a
+  plain Space Marines/Vulkan He'stan list) each independently ran 2-3x Land
+  Speeder plus 2-3x Storm Speeder variants (Hailstrike/Hammerstrike/
+  Thunderstrike). Three unrelated players converging on the same shell is a
+  real pattern, not noise — expect fast, disposable AT/anti-elite skimmers
+  as a recurring Recon-mirror threat.
+- **Emperor's Children Recon runs the exact boogeyman trio already profiled**
+  in this doc: Keeper of Secrets + 4x Daemonettes (90pts each) + 2x Defiler.
+  Confirms that matchup is a live Recon-vs-Recon threat, not just a Priority
+  Assets/Slaanesh theorycraft case.
+- **New, harder case not yet covered**: Thousand Sons' "Reconnaissance
+  (thicc)" list stacks Magnus the Red (455pts) + 2x Lord of Change (650pts
+  combined) + Kairos Fateweaver (305pts) + an Exalted Sorcerer — four
+  separate large MONSTERs in one 2000pt list. Our Abominus-Class Targets
+  answer (see stratagem section above) was validated against a single
+  Keeper/Bloodcrusher; a list with four huge Monsters would need it applied
+  repeatedly across the game, not once. Worth a follow-up check once we can
+  simulate multi-turn CP usage rather than single-activation snapshots.
+- **T'au (Kauyon Crisis-suit spam) and Drukhari (Lelith/Archon/Drazhar/Lady
+  Malys multi-Incubi+Wych blade list) Recon builds are opposite-profile
+  threats** — pure ranged alpha-strike vs. fast melee blade-spam — no single
+  tactic in our current matchplay reference covers both.
+- Adeptus Custodes Recon (Trajann + 2x Shield-Captain/Dawneagle + 5x Vertus
+  Praetors + 3x undersized Allarus squads + Witchseekers) is a mixed
+  elite-melee/anti-horde build, distinct from either extreme above.
+
+One Grey Knights entry found at Newport (Ryan Johnson, 5-3, Warpbane Task
+Force/Take and Hold) — already counted in the aggregate table above. Not our
+archetype (Take and Hold, not Reconnaissance), so it doesn't validate or
+invalidate our specific build, just confirms GK players are spread across
+multiple disposition/detachment choices at this level.
+
 ## Open threads / not yet resolved
 
 - Matchup reconstruction idea (cross-reference all 600 players' round-by-round
