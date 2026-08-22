@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import { calcWs, ewCalc } from "./engine.js";
-import { TARGETS, CHARS as V_CHARS, UNITS as V_UNITS, DETACHMENTS as V_DETS, UC as V_UC } from "./factions/votann.js";
+import { TARGETS } from "./targets.js";
+import { CHARS as V_CHARS, UNITS as V_UNITS, DETACHMENTS as V_DETS, UC as V_UC } from "./factions/votann.js";
 import { CHARS as C_CHARS, UNITS as C_UNITS, DETACHMENTS as C_DETS, UC as C_UC } from "./factions/custodes.js";
 import { CHARS as GK_CHARS, UNITS as GK_UNITS, DETACHMENTS as GK_DETS, UC as GK_UC } from "./factions/greyknights.js";
 import { CHARS as CK_CHARS, UNITS as CK_UNITS, DETACHMENTS as CK_DETS, UC as CK_UC } from "./factions/chaosknights.js";
