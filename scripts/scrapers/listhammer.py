@@ -101,7 +101,8 @@ def cmd_event(args):
     print(f"{data['eventResult'].get('name', args.event_id)} - {len(matched)}/{len(players)} players matched\n")
     for p in matched:
         rec = f"{p['wins']}-{p['losses']}" + (f"-{p['draws']}" if p.get("draws") else "")
-        print(f"#{p.get('placing','?'):<4} {rec:<8} {p['faction']:<20} {p['detachment']:<40} {p['disposition']:<15} {p['playerName']}  [{p['listUid']}]")
+        placing = p.get("placing")
+        print(f"#{placing if placing is not None else '?':<4} {rec:<8} {p['faction']:<20} {p['detachment']:<40} {p['disposition']:<15} {p['playerName']}  [{p['listUid']}]")
 
     if args.save_dir:
         event_name = data["eventResult"].get("name", args.event_id)
