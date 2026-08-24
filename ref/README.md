@@ -3,9 +3,9 @@
 `ref/` holds the raw game-data corpus the app's faction files
 (`src/factions/*.js`) and Claude sessions are built/checked against: GW
 rulebooks, faction packs, datasheets, and points data, transcribed to plain
-text. It is **not** where research output, tournament-meta analysis, or
-strategy write-ups go — those live in `ref/findings/` (see below), kept
-separate so the two don't get mixed together as the corpus grows.
+text. Research output, tournament-meta analysis, and strategy write-ups have
+their own home in `ref/findings/` (see below), keeping the GW source corpus
+and our own analysis as two separate, growing collections.
 
 ## Naming convention
 
@@ -14,9 +14,9 @@ separate so the two don't get mixed together as the corpus grows.
 Content-type suffixes in use:
 
 - **`-datasheets.txt`** — full unit datasheet text (stats/wargear/abilities)
-  for a faction. Includes opponent factions we don't play but need for
-  matchup research (e.g. `orks-datasheets.txt`, `chaos-daemons-datasheets.txt`),
-  not just our four tracked factions.
+  for a faction. Covers every faction worth matchup research, including
+  opponent factions (e.g. `orks-datasheets.txt`, `chaos-daemons-datasheets.txt`),
+  alongside our four tracked factions.
 - **`-faction-vX.Y.txt`** — the GW Faction Pack for a faction: detachments,
   stratagems, enhancements, rules updates/FAQs. This is the **current**
   naming pattern going forward.
@@ -25,43 +25,46 @@ Content-type suffixes in use:
 - Non-faction-specific shared rules: `core-rules.txt`, `primary-missions.txt`,
   `event-companion-v1.1.txt`, `universalrules-update-v1.0.txt`.
 
-Versions (`vX.Y`) are read from the document's own internal header text
-("Legal for matched play from..."), never from download date.
+Versions (`vX.Y`) always come from the document's own internal header text
+("Legal for matched play from..."), independent of whenever it happened to
+be downloaded.
 
-**Known inconsistency, not yet cleaned up**: a few older files still use a
-`-<edition>th-detach.txt` pattern (e.g. `custodes-10th-detach.txt`,
-`chaos-knights-10th-detach.txt`, `greyknights-11th-detach.txt`) instead of
-the current `-faction-vX.Y.txt` pattern — same content type, older naming,
-left as-is rather than renamed without being asked. Also:
-`greyknights-11th-faction-pack.txt` is a superseded v1.0 Faction Pack sitting
-alongside its v1.1 replacement (`greyknights-faction-v1.1.txt`) — per the
-archive rule below it's a candidate to move to `ref/archive/`, flagged here
-rather than moved unprompted.
+**Known naming drift, flagged for a future cleanup pass**: a few older files
+still use a `-<edition>th-detach.txt` pattern (e.g. `custodes-10th-detach.txt`,
+`chaos-knights-10th-detach.txt`, `greyknights-11th-detach.txt`) — same
+content type as `-faction-vX.Y.txt`, just from before that pattern was
+adopted; left as a decision for you to make on renaming, not something to
+change silently. Similarly, `greyknights-11th-faction-pack.txt` is a
+superseded v1.0 Faction Pack sitting alongside its v1.1 replacement
+(`greyknights-faction-v1.1.txt`) — per the archive rule below, a candidate
+to move to `ref/archive/`, surfaced here for you to decide on rather than
+moved on my own.
 
 ## Subdirectories
 
 - **`ref/ingest/`** (gitignored except `.gitkeep`) — raw source material
-  (PDFs, images, pasted text) not yet transcribed into a proper `.txt` file
-  here. Also used by the tournament-meta scrapers as a scratch download
+  (PDFs, images, pasted text) awaiting transcription into a proper `.txt`
+  file here. Also doubles as the tournament-meta scrapers' scratch download
   location for raw list text (`ref/ingest/lists/<event>/`).
 - **`ref/archive/`** (gitignored except `.gitkeep`) — raw source material
-  that *has* been transcribed already, kept around for reference/re-checking
-  rather than re-downloading, but not itself committed.
+  that's already been transcribed, kept around for reference and
+  re-checking so it's available locally instead of needing a re-download.
 - **`ref/findings/`** — tournament-meta research and strategy output: event
   deep-dives, the cross-event synthesis, matchplay references, community
-  notes. Distinct from everything above because it's *our own analysis*,
-  not GW source material — see `ref/findings/wtc-warmaster-2026-meta-notes.md`
-  for the format these follow.
+  notes. This is our own analysis built on top of the GW source material
+  above, kept in its own directory — see
+  `ref/findings/wtc-warmaster-2026-meta-notes.md` for the format these
+  follow.
 
 ## Adding or updating a faction
 
 1. Transcribe new source material into `ref/` using the naming convention
    above (prefer `-faction-vX.Y.txt` / `-mfm-vX.Y.txt` for new files).
-2. If a file replaces an older version, move the old one to `ref/archive/`
-   rather than deleting it or leaving both in `ref/` unlabeled.
-3. Before doing a fresh web lookup for rules content, check whether it's
-   already here — this corpus exists specifically so repeated web fetches
-   for the same rules text aren't necessary.
-4. Faction/unit data actually used by the app lives in `src/factions/*.js`,
-   not here — `ref/` is the source-of-truth text these are checked against,
-   not consumed directly by the app at runtime.
+2. When a file replaces an older version, move the old one to
+   `ref/archive/` to keep only the current version visible in `ref/` itself.
+3. Before doing a fresh web lookup for rules content, check here first —
+   this corpus exists specifically to make repeated web fetches for the
+   same rules text unnecessary.
+4. The app itself reads faction/unit data from `src/factions/*.js` at
+   runtime; `ref/` is the source-of-truth text those files get checked and
+   updated against during development.
