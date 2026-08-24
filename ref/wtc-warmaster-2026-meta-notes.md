@@ -432,127 +432,195 @@ grounds — the numbers didn't move. This wouldn't catch a non-points rules
 change from a Balance Dataslate/FAQ, but MFM updates are points-only by GW
 convention, so the risk that matters here is closed.
 
-## Two more events, evaluated separately: Warhammer Open Newport + The Upkeep Games GT I
+## Two more events, evaluated separately
 
-Pulled actual list composition (not just win/loss records) for two more of
-the events already counted in the cross-event aggregate above. Both post-v1.2,
-directly comparable to our own data. This doesn't change the win-rate table
-above (those events were already counted there) — it's a composition/
-archetype layer on top. Unlike Warmaster, these are **all submitted lists,
-not filtered to 5+ wins** (both events had far fewer full-list submissions,
-so no min-wins filter was applied) — treat as "what's being played" more than
-"what's definitely winning."
+Reconnaissance archetype composition for Warhammer Open Newport and The
+Upkeep Games GT I - the skimmer-spam cluster, the Magnus/Lord of Change/
+Kairos deathstar, the Slaanesh boogeyman-trio confirmation, and the
+Librarius Conclave Take and Hold shell - has moved to its own dedicated
+files, matching this file's structure and depth rather than being tacked on
+here as extra sections:
 
-### Warhammer Open Newport (2026-08-14–16, 188 players, 21 lists submitted)
+- `warhammer-open-newport-2026-meta-notes.md`
+- `upkeep-games-gt-i-2026-meta-notes.md`
 
-Disposition frequency: Take and Hold 38% (8), Reconnaissance 29% (6),
-Priority Assets 19% (4), Purge the Foe 14% (3), Disruption 0%.
+See `40k-v1.2-meta-competitive-thoughts.md` for the merged cross-event view.
 
-Faction spread: 4x Orks, 4x Space Marines, 2x Adeptus Custodes, 2x Chaos
-Daemons, 1 each Adeptus Mechanicus/Drukhari/Dark Angels/Space Wolves/
-T'au/Thousand Sons/Emperor's Children/Grey Knights/Black Templars.
+## Full-field breakdown: all 587 lists by performance tier
 
-One Grey Knights entry (Ryan Johnson, 5-3, Warpbane Task Force/Take and
-Hold) — already counted in the aggregate table above. Not our archetype
-(Take and Hold, not Reconnaissance), so it doesn't validate or invalidate our
-specific build, just confirms GK players are spread across multiple
-disposition/detachment choices at this level.
+Everything above uses the 55 five-plus-win lists (top ~9% of the 578-600
+player field, depending which player-count field you read from the API).
+That's a strong signal for "what's winning outright," but it's a small
+slice - Warmaster actually has list data for 587 of ~600 entrants, so the
+same source lets us look at the *whole* field, not just the top. Pulled all
+587 via `scripts/scrapers/listhammer.py event d0f86a313ef8c966e4 --min-wins
+0 --save-dir ref/ingest/lists`, split into five win-count tiers (round count
+appears to be 6, so 5+ wins/top(5+), 4 wins/upper-mid, 3 wins/mid, 2 wins/
+lower-mid, 0-1 wins/bottom). Reporting what the data shows across a few
+different angles below - deliberately not drawing conclusions past what the
+numbers directly support, per the caution to avoid leaps.
 
-### The Upkeep Games GT I (2026-08-15–16, 126 players, 21 lists submitted)
+**Tier sizes:** top(5+) n=55, upper-mid(4) n=118, mid(3) n=171, lower-mid(2)
+n=140, bottom(0-1) n=103.
 
-Disposition frequency: Take and Hold 38% (8), Purge the Foe 24% (5),
-Priority Assets 19% (4), Reconnaissance 14% (3), Disruption 5% (1).
+### Angle 1: does disposition share shift between winning and losing tiers?
 
-Faction spread: 3 each T'au/Space Marines/Orks, 2 each Emperor's Children/
-Tyranids/Blood Angels, 1 each Chaos Space Marines/Thousand Sons/Adeptus
-Custodes/Black Templars/Imperial Knights/Necrons. No Grey Knights entries.
+| Disposition | top(5+) | upper-mid(4) | mid(3) | lower-mid(2) | bottom(0-1) |
+|---|---|---|---|---|---|
+| Reconnaissance | 27% (15) | 20% (24) | 19% (32) | 19% (27) | 17% (18) |
+| Priority Assets | 27% (15) | 30% (35) | 34% (58) | 31% (43) | 37% (38) |
+| Take and Hold | 27% (15) | 24% (28) | 27% (46) | 26% (37) | 26% (27) |
+| Purge the Foe | 16% (9) | 17% (20) | 14% (24) | 16% (23) | 17% (17) |
+| Disruption | 2% (1) | 9% (11) | 6% (11) | 7% (10) | 3% (3) |
 
-**Reconnaissance archetypes found (9 lists total across both events, read in full):**
+What the numbers show: Reconnaissance's share falls in a straight line from
+top to bottom (27%→20%→19%→19%→17%). Priority Assets shows the opposite
+direction (27%→30%→34%→31%→37%), though not as cleanly monotonic in the
+middle tiers. Take and Hold, Purge the Foe, and Disruption stay roughly flat
+across every tier. This is the largest sample we've looked at for this
+question (587 lists vs. the cross-event aggregate's n=12 GK-specific
+games), and at this event specifically, Reconnaissance lists placed better
+than their overall frequency would predict, Priority Assets lists placed
+worse. Caveat: this is one event, disposition choice is one of many
+variables (faction, list quality, matchup luck, player skill all vary too),
+and correlation here doesn't establish that choosing Reconnaissance *causes*
+better results - it's a real pattern worth registering, not a proven
+mechanism.
 
-- **"Skimmer spam" shell found - but concentrated at one event, not confirmed
-  cross-event.** 4 of Newport's 6 Reconnaissance lists (Dark Angels/Lion
-  El'Jonson, Raven Guard/Kayvaan Shrike, and two separate plain Space Marines
-  lists incl. Vulkan He'stan) ran 2-3x Land Speeder plus 2-3x Storm Speeder
-  variants (Hailstrike/Hammerstrike/Thunderstrike). **Zero of Upkeep's 3
-  Reconnaissance lists ran this shell.** Read as "this specific 188-player
-  field had a skimmer-spam cluster" (a local-scene/netlist-copy effect is
-  plausible) rather than "the format is trending toward skimmer spam" — the
-  second data point that would confirm a real cross-event trend isn't there
-  yet. Worth re-checking at the next event before treating it as a threat
-  you'll definitely see, rather than one you might see.
-- **Emperor's Children Recon (Upkeep) runs the exact boogeyman trio already
-  profiled** in this doc: Keeper of Secrets + 4x Daemonettes (90pts each) +
-  2x Defiler. Confirms that matchup is a live Recon-vs-Recon threat, not just
-  a Priority Assets/Slaanesh theorycraft case.
-- **New, harder case, now modeled**: Thousand Sons' (Newport) "Reconnaissance
-  (thicc)" list stacks Magnus the Red (455pts) + 2x Lord of Change (650pts
-  combined) + Kairos Fateweaver (305pts) + an Exalted Sorcerer — four separate large
-  MONSTERs in one 2000pt list. Lord of Change's stat line (T10/6+/4++/18W) is
-  defensively identical to the already-modeled Keeper of Secrets profile in
-  this engine's math (its Sv6+ never beats its own 4++, same as Keeper's
-  Sv5+) - no new profile needed there. Magnus is the real outlier: T11/**2+**/
-  4++/16W - his actual armor save matters (unlike Keeper/LoC), added as a new
-  `magnus` target profile. Kill% vs Magnus, base / with Abominus-Class
-  Targets:
+### Angle 2: does faction share shift between winning and losing tiers?
 
-  | Unit | Base | +1CP (Abominus-Class Targets) |
-  |---|---|---|
-  | Crowe+Purifiers | 78% | **125%** |
-  | BTS10 | 75% | **116%** |
-  | 3x Interceptor | 87% | **135%** |
-  | GMND | 73% | 81% (barely moves, same Surge of Wrath overlap as Keeper) |
+| Faction | top(5+) | upper-mid(4) | mid(3) | lower-mid(2) | bottom(0-1) | total |
+|---|---|---|---|---|---|---|
+| Chaos Daemons | 10 | 8 | 15 | 8 | 4 | 45 |
+| Orks | 9 | 14 | 9 | 4 | 5 | 41 |
+| Dark Angels | 7 | 3 | 7 | 3 | 3 | 23 |
+| Emperor's Children | 2 | 11 | 15 | 10 | 9 | 47 |
+| Necrons | 4 | 10 | 12 | 9 | 8 | 43 |
+| Adeptus Custodes | 4 | 6 | 11 | 6 | 8 | 35 |
+| Tyranids | 1 | 6 | 11 | 11 | 5 | 34 |
+| T'au Empire | 1 | 9 | 9 | 9 | 6 | 34 |
+| Chaos Space Marines | 0 | 5 | 11 | 3 | 7 | 26 |
+| Grey Knights | 0 | 3 | 5 | 6 | 2 | 16 |
 
-  Same pattern as Keeper: don't spend the CP on GMND, spend it on BTS/
-  Crowe+Purifiers/Interceptors. Caveat: Magnus's Unearthly Power lets him pick
-  one Crimson King ability per battle round; if he calls Impossible Form that
-  round, non-psychic attacks vs him take -1 Damage (opponent's choice, not
-  modeled here) - so real in-game kill% could be softer on any given round.
-  Also: a list with four huge Monsters needs the stratagem applied repeatedly
-  across the game, not once - worth a follow-up once we can simulate
-  multi-turn CP usage rather than single-activation snapshots.
-- **T'au (Kauyon Crisis-suit spam, Upkeep) and Drukhari (Lelith/Archon/
-  Drazhar/Lady Malys multi-Incubi+Wych blade list, Newport) Recon builds are
-  opposite-profile threats** — pure ranged alpha-strike vs. fast melee
-  blade-spam — no single tactic in our current matchplay reference covers
-  both.
-- Adeptus Custodes Recon (Upkeep) (Trajann + 2x Shield-Captain/Dawneagle +
-  5x Vertus Praetors + 3x undersized Allarus squads + Witchseekers) is a
-  mixed elite-melee/anti-horde build, distinct from either extreme above.
+What the numbers show: some factions have a similar total volume but very
+different distribution shapes. Chaos Daemons (45 total) and Orks (41 total)
+both put a large share of their entries in the top tier (10/45=22% and
+9/41=22% respectively) relative to their share of the bottom tier
+(4/45=9% and 5/41=12%). Dark Angels (23 total) is the most lopsided of all -
+7 of 23 (30%) in the top tier, 3 of 23 (13%) in the bottom, and literally
+zero Dark Angels entries anywhere in this table's other tiers' top-6 lists
+(meaning very few Dark Angels players placed in the middle either - most DA
+entries are concentrated at the very top or scattered thin elsewhere).
+Emperor's Children (47 total, the single largest faction count in this
+table) shows close to the opposite shape - only 2 of 47 (4%) reached the
+top tier, while 15 of 47 (32%) landed in the mid tier and 9 of 47 (19%) in
+the bottom - the most entries of any tracked faction in the bottom tier.
+Necrons (43 total) and Adeptus Custodes (35 total) are the most evenly
+spread across all five tiers of any faction checked - present everywhere,
+concentrated nowhere.
 
-## Cross-event archetype confirmations from the other 33 lists (Take and Hold/Priority Assets/Purge the Foe/Disruption)
+**What this doesn't tell us, and needs actual list reads to answer** (per
+your question about whether bottom results are a list-building problem or a
+matchup/skill problem): Emperor's Children shows up at every tier including
+the top, so the faction itself isn't unplayable - the question is whether
+the top-tier and bottom-tier Emperor's Children entries are running
+recognizably different sub-archetypes (a list-composition signal) or
+whether they're similar lists with different matchup luck/pilot skill (not
+a list signal at all). That requires reading actual list text on both ends,
+which the full download now sitting in `ref/ingest/lists/` makes possible -
+flagged as a follow-up, not yet done.
 
-Didn't open every one of these 33 (much smaller, more scattered faction
-spread than Warmaster's 55 - most factions show up only once or twice), but
-the detachment-name column of the standings itself surfaces two repeated
-archetypes worth confirming with a full read:
+Grey Knights (16 total) is covered in detail in the dedicated section above
+- no entries in the top tier, one entry each in bottom(0-1) explained by
+Warpbane Task Force's uniformly poor showing there.
 
-- **Orks "Freebooter Krew | Equatorial Hordes" repeats 3 of 3 Ork Take and
-  Hold entries**: Jake Dinner and Jude Burges at **Newport**, Rick Kincaid at
-  **Upkeep**. Read Rick Kincaid's list in full: opens with Ghazghkull Thraka
-  + 19 Boyz (Warlord) + Painboy, second Boyz blob with Warboss + Painboy —
-  the exact same "Ghazghkull+19 Boyz" core shell identified at Warmaster.
-  Third independent confirmation of this being the near-solved Ork Take and
-  Hold shell, not a Warmaster-specific artifact.
-- **Space Marines "Librarius Conclave | Reclamation Force" repeats 3 times**
-  in Take and Hold: Adam Crellin at **Newport**, Kramer Doyle and Jerry
-  Reynolds at **Upkeep** - a pattern Warmaster's own Take and Hold section
-  didn't show at all (that section was Orks/Custodes/Necrons/Space
-  Wolves/Tyranids, no Space Marines). Read Adam Crellin's and Kramer Doyle's
-  lists in full: both are big multi-character melee/elite deathballs
-  (Captain Titus + Wardens of Ultramar + Bladeguard Veterans in one; Marneus
-  Calgar + Cato Sicarius + Victrix Honour Guard + Sternguard in the other) -
-  same detachment combo (psychic buff auras + army-wide reinforcement) built
-  around different specific elite blocks each time. Worth watching as an
-  emerging Take and Hold archetype, not yet in the matchplay reference.
+### Angle 3: what this means for our own list, stated carefully
 
-Everything else in this batch (AdMech 8-0 Priority Assets at Newport, T'au
-Mont'ka 7-1 at Newport, Thousand Sons/Emperor's Children/Tyranids/Imperial
-Knights Priority Assets at Upkeep, Custodes/Chaos Daemons Purge the Foe at
-Newport, Chaos Space Marines/Necrons/Blood Angels Purge the Foe at Upkeep,
-one Ork Disruption entry at Upkeep) are one-off data points - no repeated
-pattern to confirm, not worth a deep read for a single result each.
+Reconnaissance placing better than its base rate at this specific event is
+a second, much larger-sample data point in the same direction as the
+cross-event aggregate's 67% GK Reconnaissance win rate (n=12) - both point
+toward "Reconnaissance is not a weak disposition to be building around,"
+which is reassuring but not new information, just better-supported. What
+*is* new: no claim above says anything about *why* Reconnaissance performs
+this way at this event (faster missions rewarding action-taking, a
+disposition-specific scoring quirk, or simply that stronger players
+gravitated to it) - that mechanism question is open, and worth being honest
+that we don't have the data to answer it yet.
 
-## Open threads / not yet resolved
+## What do winning Reconnaissance lists specifically look like? (116 lists, all tiers)
+
+The angles above look at Reconnaissance vs. the other four dispositions.
+This section stays inside Reconnaissance only and asks what separates its
+better-placing lists from its worse-placing ones - unit count, detachment
+choice, and (with real caveats) mobility investment. Built with a new
+reusable tool, `scripts/scrapers/list_stats.py`, which parses saved list
+text for a rough unit count and a mobility-keyword count; see the tool's own
+comments for exactly what it can and can't detect (it undercounts mobility
+for any faction whose speed comes from something other than a named fast
+vehicle/transport, since jump packs, jetbikes-by-other-names, and Deep
+Strike/Scout abilities aren't visible in the exported list text at all).
+
+**Unit count by tier:**
+
+| Tier | n | mean | median | min | max |
+|---|---|---|---|---|---|
+| top(5+) | 15 | 15.9 | 16.0 | 14 | 20 |
+| upper-mid(4) | 24 | 16.5 | 16.0 | 12 | 22 |
+| mid(3) | 32 | 16.9 | 16.0 | 11 | 26 |
+| lower-mid(2) | 27 | 17.8 | 18.0 | 13 | 22 |
+| bottom(0-1) | 18 | 17.6 | 18.0 | 10 | 23 |
+
+What the numbers show: the top tier is both the lowest-average (15.9) and
+the most tightly clustered (range 14-20, a spread of 6) of all five tiers.
+The bottom tier has a noticeably wider spread (range 10-23, a spread of 13)
+- both the single lowest unit count in the whole Reconnaissance sample (10,
+a 1-4 Chaos Daemons Warptide list) and one of the highest (23, appearing
+twice) show up at the bottom, not just low counts. Read carefully: this
+isn't "fewer units wins" or "more units wins" in a straight line - it's
+that unit counts *outside* roughly 14-20 appear more often paired with
+losing records than counts inside that band. That's a correlation in the
+data, not a mechanism - list size is entangled with faction (elite armies
+like Custodes/Grey Knights naturally run fewer, bigger units than horde
+factions like Genestealer Cult/Astra Militarum) so this isn't isolating
+"unit count" as an independent variable on its own.
+
+Our own reference point: scodge's Grey Knights Reconnaissance list (4-2,
+upper-mid tier) runs 14 units - the same number as the lowest list in the
+top tier, sitting inside the 14-20 band associated with better placements
+here.
+
+**Detachment concentration within the single largest archetype (Dark
+Angels, 15 of 116 Reconnaissance lists):** 13 of 15 run the identical
+Darkflight Pursuit | Company of Hunters pairing (the other 2 run a
+Librarius Conclave variant). Their records, in full: 5-1, 5-1, 5-1, 5-1,
+5-1, 5-1, 4-2, 4-1, 3-3, 3-2, 3-2, 3-1, 2-3, 2-1, 1-5. Even holding
+detachment (and roughly unit count - all but two of these sit in the
+15-18 range) constant, records span the entire possible range from 5-1
+down to 1-5. Stated plainly: a near-identical, repeatedly-chosen shell
+does not produce a narrow band of outcomes - matchup and/or execution
+variance is doing real work even for what looks like a "solved" list from
+the outside.
+
+**Faction share within Reconnaissance specifically, top vs. bottom tier**
+(full table already in the Angle 2 breakdown above, repeated here filtered
+to just this disposition): Dark Angels holds 6 of 15 top-tier Reconnaissance
+slots (40%) against 1 of 18 bottom-tier slots - the most lopsided
+distribution of any faction in this disposition. Emperor's Children, which
+skewed heavily toward the bottom in the whole-field breakdown (Angle 2:
+only 2/47 in the top tier overall), looks close to proportional *within*
+Reconnaissance specifically (2 of 15 top-tier, 14 total Reconnaissance
+entries) - meaning Emperor's Children's overall weak showing isn't
+concentrated in this one disposition; whatever is happening to that faction
+elsewhere isn't visibly repeating itself here.
+
+**Mobility keyword count:** flat across every tier (1.1-1.3 average, no
+separation). Given the tool's stated blind spots (misses jump packs,
+non-vehicle fast movement, and all deep-strike/scout-move abilities
+entirely), this result should be read as "inconclusive with this
+measurement," not "mobility doesn't matter" - the tool likely isn't
+sensitive enough to detect a real effect here even if one exists.
+
+
 
 - Matchup reconstruction idea (cross-reference all 600 players' round-by-round
   score logs by reciprocal score + faction to identify actual opponents without
