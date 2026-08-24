@@ -49,14 +49,25 @@ export const CHARS = {
 
 export const UNITS = [
     // ── Brotherhood Terminator Squad ────────────────────────────────────────────
-    // Force Edge: AP-3 melee vs non-MON/VEH. MFM: 10m ▼-15pts → 360. 3rd+=375.
+    // Force Edge: AP-3 melee vs non-MON/VEH. No 1st/2nd/3rd+ tiering for this unit (unlike Paladin Squad).
+    // MFM v1.1 size breaks: 4m=140, 5m=175, 8m=300, 10m=360 (▼-15).
     // Psycannons: +5pts each (up to 4 per squad, UPDATED requisition removed).
+    {id:"bts4",  uid:"bts", unit:"Brotherhood Terminator Squad", pts:140, m:4,  W:3, sv:2, inv:4, fnp:null,
+        label:"4m storm bolter / NF weapon (Force Edge AP-3, AP-2 vs MON/VEH)",
+        chars:["none","bc","chap","lib","gm","voldus"],
+        sWs:[[16,3,4,0,1,{}]],
+        mWs:[[16,3,6,-3,2,{fe:1}]]},
     {id:"bts5",  uid:"bts", unit:"Brotherhood Terminator Squad", pts:175, m:5,  W:3, sv:2, inv:4, fnp:null,
         label:"5m storm bolter / NF weapon (Force Edge AP-3, AP-2 vs MON/VEH)",
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[20,3,4,0,1,{}]],
         mWs:[[20,3,6,-3,2,{fe:1}]]},
-    {id:"bts10", uid:"bts", unit:"Brotherhood Terminator Squad", pts:360, m:10, W:3, sv:2, inv:4, fnp:null, // 3rd+=375
+    {id:"bts8",  uid:"bts", unit:"Brotherhood Terminator Squad", pts:300, m:8,  W:3, sv:2, inv:4, fnp:null,
+        label:"8m storm bolter / NF weapon (Force Edge AP-3, AP-2 vs MON/VEH)",
+        chars:["none","bc","chap","lib","gm","voldus"],
+        sWs:[[32,3,4,0,1,{}]],
+        mWs:[[32,3,6,-3,2,{fe:1}]]},
+    {id:"bts10", uid:"bts", unit:"Brotherhood Terminator Squad", pts:360, m:10, W:3, sv:2, inv:4, fnp:null,
         label:"10m storm bolter / NF weapon (Force Edge AP-3, AP-2 vs MON/VEH)",
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[40,3,4,0,1,{}]],
@@ -88,7 +99,18 @@ export const UNITS = [
 
     // ── Paladin Squad (2+ BS/WS, Terminator) ────────────────────────────────────
     // Attuned Onslaught: +1D after charge → "charged" rows use D3.
-    // 1st-2nd: 5m=215, 10m=450. 3rd+: 5m=230, 10m=465. +5pts per psycannon.
+    // MFM v1.1 1st-2nd size breaks: 4m=170, 5m=215, 8m=360, 10m=450. 3rd+: 4m=185, 5m=230, 8m=375, 10m=465.
+    // +5pts per psycannon (not modeled in base rows).
+    {id:"pal4",  uid:"pal", unit:"Paladin Squad", pts:170, m:4,  W:3, sv:2, inv:4, fnp:null,
+        label:"4m storm bolter / NF weapon (base D2)",
+        chars:["none","bc","chap","lib","gm","voldus"],
+        sWs:[[16,2,4,0,1,{}]],
+        mWs:[[16,2,6,-2,2,{}]]},
+    {id:"pal4c", uid:"pal", unit:"Paladin Squad", pts:170, m:4,  W:3, sv:2, inv:4, fnp:null,
+        label:"4m charged: Attuned Onslaught (D2→D3)",
+        chars:["none","bc","chap","lib","gm","voldus"],
+        sWs:[[16,2,4,0,1,{}]],
+        mWs:[[16,2,6,-2,3,{}]]},
     {id:"pal5",  uid:"pal", unit:"Paladin Squad", pts:215, m:5,  W:3, sv:2, inv:4, fnp:null,
         label:"5m storm bolter / NF weapon (base D2)",
         chars:["none","bc","chap","lib","gm","voldus"],
@@ -99,11 +121,26 @@ export const UNITS = [
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[20,2,4,0,1,{}]],
         mWs:[[20,2,6,-2,3,{}]]},
-    {id:"pal10", uid:"pal", unit:"Paladin Squad", pts:450, m:10, W:3, sv:2, inv:4, fnp:null, // 3rd+=465
+    {id:"pal8",  uid:"pal", unit:"Paladin Squad", pts:360, m:8,  W:3, sv:2, inv:4, fnp:null,
+        label:"8m storm bolter / NF weapon (base D2)",
+        chars:["none","bc","chap","lib","gm","voldus"],
+        sWs:[[32,2,4,0,1,{}]],
+        mWs:[[32,2,6,-2,2,{}]]},
+    {id:"pal8c", uid:"pal", unit:"Paladin Squad", pts:360, m:8,  W:3, sv:2, inv:4, fnp:null,
+        label:"8m charged: Attuned Onslaught (D2→D3)",
+        chars:["none","bc","chap","lib","gm","voldus"],
+        sWs:[[32,2,4,0,1,{}]],
+        mWs:[[32,2,6,-2,3,{}]]},
+    {id:"pal10", uid:"pal", unit:"Paladin Squad", pts:450, m:10, W:3, sv:2, inv:4, fnp:null,
         label:"10m storm bolter / NF weapon (base D2)",
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[40,2,4,0,1,{}]],
         mWs:[[40,2,6,-2,2,{}]]},
+    {id:"pal10c", uid:"pal", unit:"Paladin Squad", pts:450, m:10, W:3, sv:2, inv:4, fnp:null,
+        label:"10m charged: Attuned Onslaught (D2→D3)",
+        chars:["none","bc","chap","lib","gm","voldus"],
+        sWs:[[40,2,4,0,1,{}]],
+        mWs:[[40,2,6,-2,3,{}]]},
 
     // ── Interceptor Squad (FLY, M12", no characters) ───────────────────────────
     // 1st-2nd: 5m=125, 10m=250. 3rd+: 5m=135, 10m=260.
