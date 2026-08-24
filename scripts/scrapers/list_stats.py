@@ -36,13 +36,13 @@ MOBILITY_KEYWORDS = [
 #   states its own unit count on a "+ NUMBER OF UNITS: N" header line, which
 #   is used directly instead of counting headers (the pasted format's
 #   "Char2:"/"Vehi4:"-prefixed headers don't cleanly match the same regex).
-UNIT_HEADER_RE = re.compile(r"^(?!\s*[•◦])(.+)\n(\d[\d,]*)\s*(?:[Pp]oints?|pts)\s*$", re.MULTILINE)
+UNIT_HEADER_RE = re.compile(r"^(?!\s*[•◦])(.+)\n(\d[\d,]*)\s*(?:[Pp]oints?|pts|Punkte)\s*$", re.MULTILINE)
 WTC_UNIT_COUNT_RE = re.compile(r"^\+\s*NUMBER OF UNITS:\s*(\d+)", re.MULTILINE)
 # Rare third variant (seen in ~2/587 Warmaster files, likely an HTML->text
 # stripping quirk): name and points glued onto one line with no separator,
 # e.g. "Patriarch105 Points". Only used as a fallback when the primary regex
 # finds nothing, to avoid false-positives on the far more common formats.
-GLUED_UNIT_RE = re.compile(r"^(?!\s*[•◦])(\D+?)(\d[\d,]*)\s*(?:[Pp]oints?|pts)\s*$", re.MULTILINE)
+GLUED_UNIT_RE = re.compile(r"^(?!\s*[•◦])(\D+?)(\d[\d,]*)\s*(?:[Pp]oints?|pts|Punkte)\s*$", re.MULTILINE)
 SECTION_LABELS = {
     "attached units", "characters", "battleline", "other datasheets",
     "dedicated transports", "epic hero", "allied units",

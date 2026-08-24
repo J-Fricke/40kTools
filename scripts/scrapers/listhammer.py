@@ -52,12 +52,15 @@ def fetch_list_text(list_uid: str) -> str:
     """Fetch a list page and return clean, plain-text content, with the leading
     site-nav chrome trimmed off.
 
-    Two title-marker formats have been observed:
+    Title-marker formats observed:
       - the normal listforge-style title line, "<name> (<N> points)" - the
         number can use comma/period/space (incl. unicode narrow-no-break-space)
         thousands separators, and "points"/"Points"/"pts" casing varies.
       - a pasted WTC-style export, which has no such title line at all and
         instead starts its metadata block with a line like "+ Pseudo:..."
+      - a non-English UI locale (seen: German, "Einsatzverband (2000
+        Punkte)" instead of "Strike Force (2000 points)") - only German
+        confirmed so far, add more translations here if others show up.
     Whichever marker is found first (if any) wins; if neither is found, nothing
     is trimmed rather than risk cutting real content.
     """
@@ -69,7 +72,7 @@ def fetch_list_text(list_uid: str) -> str:
         return next((i for i, l in enumerate(lines) if re.search(pattern, l, re.I)), None)
 
     candidates = [
-        find(r"\(\s*[\d,.\s]+\s*(?:points?|pts)\)\s*$"),
+        find(r"\(\s*[\d,.\s]+\s*(?:points?|pts|Punkte)\)\s*$"),
         find(r"^\+\s"),
     ]
     candidates = [c for c in candidates if c is not None]
@@ -102,23 +105,31 @@ def cmd_event(args):
     for p in matched:
         rec = f"{p['wins']}-{p['losses']}" + (f"-{p['draws']}" if p.get("draws") else "")
         placing = p.get("placing")
-        print(f"#{placing if placing is not None else '?':<4} {rec:<8} {p['faction']:<20} {p['detachment']:<40} {p['disposition']:<15} {p['playerName']}  [{p['listUid']}]")
+        faction = p.get("faction") or "?"
+        detachment = p.get("detachment") or "?"
+        disposition = p.get("disposition") or "?"
+        print(f"#{placing if placing is not None else '?':<4} {rec:<8} {faction:<20} {detachment:<40} {disposition:<15} {p['playerName']}  [{p['listUid']}]")
 
     if args.save_dir:
         event_name = data["eventResult"].get("name", args.event_id)
         out_dir = Path(args.save_dir) / f"{safe_filename(event_name)}-{args.event_id}"
         out_dir.mkdir(parents=True, exist_ok=True)
         for p in matched:
-            fname = f"{p.get('placing','x')}-{safe_filename(p['playerName'])}-{safe_filename(p['faction'])}.txt"
+            faction = p.get("faction") or "Unknown"
+            detachment = p.get("detachment") or "Unknown"
+            disposition = p.get("disposition") or "Unknown"
+            placing = p.get("placing")
+            placing = placing if placing is not None else "x"
+            fname = f"{placing}-{safe_filename(p['playerName'])}-{safe_filename(faction)}.txt"
             path = out_dir / fname
             print(f"fetching {p['playerName']} -> {path}", file=sys.stderr)
             try:
                 text = fetch_list_text(p["listUid"])
                 header = (
-                    f"# {p['playerName']} - {p['faction']}\n"
-                    f"# {p['detachment']} | {p['disposition']}\n"
+                    f"# {p['playerName']} - {faction}\n"
+                    f"# {detachment} | {disposition}\n"
                     f"# record: {p['wins']}-{p['losses']}"
-                    f"{'-' + str(p['draws']) if p.get('draws') else ''}, placing {p.get('placing','?')}\n"
+                    f"{'-' + str(p['draws']) if p.get('draws') else ''}, placing {placing}\n"
                     f"# {BASE}/list/{p['listUid']}\n\n"
                 )
                 path.write_text(header + text, encoding="utf-8")
