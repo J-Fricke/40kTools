@@ -292,8 +292,8 @@ export default function App(){
         <button onClick={click} disabled={disabled} style={{padding:"3px 8px",fontSize:10,borderRadius:3,border:"1px solid",cursor:disabled?"not-allowed":"pointer",opacity:disabled?.5:1,
             borderColor:on?(col||C.amb):C.bdr,background:on?`${col||C.amb}22`:"transparent",color:on?(col||C.amb):C.dim}}>{children}</button>
     );
-    const Th=({k,lbl,sub,left})=>(
-        <th onClick={()=>clkSort(k)} style={{padding:"5px 7px",cursor:"pointer",whiteSpace:"nowrap",
+    const Th=({k,lbl,sub,left,title})=>(
+        <th onClick={()=>clkSort(k)} title={title} style={{padding:"5px 7px",cursor:"pointer",whiteSpace:"nowrap",
             background:sort.k===k?C.bg3:C.bg2,borderBottom:`2px solid ${sort.k===k?C.bl:C.bdr}`,
             color:sort.k===k?C.bl:C.sub,fontSize:10,textTransform:"uppercase",letterSpacing:".05em",
             userSelect:"none",position:"sticky",top:0,zIndex:2,textAlign:left?"left":"right"}}>
@@ -488,7 +488,7 @@ export default function App(){
                     <Th k="label" lbl="Loadout" left/>
                     <Th k="pts" lbl="Pts"/>
                     <Th k="m" lbl="Mdl"/>
-                    {tgts.map(t=><Th key={t.key} k={t.key} lbl={t.label} sub={t.sub}/>)}
+                    {tgts.map(t=><Th key={t.key} k={t.key} lbl={t.label} sub={t.sub} title={t.title}/>)}
                     <Th k="composite" lbl="Score" sub="65%dmg+35%dur"/>
                     <Th k="ewpt" lbl="EW/pt" sub="dur/cost"/>
                     <Th k="avgDpt" lbl="Avg D/pt" sub="excl. Light"/>

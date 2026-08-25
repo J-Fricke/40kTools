@@ -26,6 +26,7 @@ export const TARGETS=[
     // picks Impossible Form that round, non-psychic attacks vs him get -1
     // Damage - opponent's choice, not permanent, so NOT modeled here (this
     // profile is his baseline; a real kill attempt could be softer some
-    // rounds if he calls Impossible Form).
-    {key:"magnus",grp:"meta",label:"Magnus",   sub:"T11 2+/4++ 16W (dmg-1 some rounds, not modeled)",T:11,sv:2,inv:4,fnp:null,veh:false,mon:true, wounds:16},
+    // rounds if he calls Impossible Form). Full caveat lives in `title`,
+    // shown on hover instead of cluttering the column header.
+    {key:"magnus",grp:"meta",label:"Magnus",   sub:"T11 2+/4++ 16W", title:"Baseline profile - Magnus can pick Impossible Form (-1 Damage vs non-psychic attacks) some rounds, not modeled here",T:11,sv:2,inv:4,fnp:null,veh:false,mon:true, wounds:16},
 ];
