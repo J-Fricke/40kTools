@@ -81,7 +81,17 @@ export default function App(){
         });
     };
 
-    const bh=yp?1:0;
+    // yp = Votann's Yield Points army rule (see ref/votann-army-rule.txt):
+    // Hostile Acquisition/Fortify Takeover both grant +1 to Hit, but only
+    // conditionally (attack must target/originate near an objective marker).
+    // This toggle simplifies that to a binary assume-active/inactive switch -
+    // a reasonable approximation for Votann specifically, but it has no
+    // rules basis at all for any other faction. Its UI control is hidden for
+    // non-Votann factions, but bh was still applying unconditionally,
+    // silently overstating hit chance for GK/Custodes/Chaos Knights this
+    // whole time. Any faction-specific +1-to-hit bonus that IS real still
+    // flows through the separate buff.bhBonus mechanism below.
+    const bh=(yp&&faction==="votann")?1:0;
     const tgts=TARGETS.filter(t=>t.grp===tgrp);
 
     // Build effective unit+char combo for a given unit row
