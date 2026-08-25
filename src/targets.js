@@ -18,10 +18,8 @@ export const TARGETS=[
     {key:"necron", grp:"meta",label:"Necron", sub:"T4 4+/4++",  T:4, sv:4,inv:4,fnp:null,veh:false,mon:false,wounds:20},
     {key:"rubric", grp:"meta",label:"Rubric", sub:"T4 3+/5++",  T:4, sv:3,inv:5,fnp:null,veh:false,mon:false,wounds:20},
     {key:"bcrush", grp:"meta",label:"B'crusher",sub:"T7 3+/5++", T:7, sv:3,inv:5,fnp:null,veh:false,mon:false,wounds:24},
-    {key:"daemonette",grp:"meta",label:"Daemonette",sub:"T3 -/5++ 10W",T:3,sv:7,inv:5,fnp:null,veh:false,mon:false,wounds:10},
     {key:"keeper",grp:"meta",label:"Keeper",   sub:"T10 5+/4++ 18W",T:10,sv:5,inv:4,fnp:null,veh:false,mon:true, wounds:18},
     {key:"fiends",grp:"meta",label:"Fiends",   sub:"T5 -/5++ 24W", T:5, sv:7,inv:5,fnp:null,veh:false,mon:false,wounds:24},
-    {key:"orkboyz",grp:"meta",label:"Ork Boyz",sub:"T5 5+sv 20W",  T:5, sv:5,inv:null,fnp:null,veh:false,mon:false,wounds:20},
     // Magnus the Red: real Sv2+ matters here (unlike Keeper/LoC's bad armor
     // saves, which never beat their own 4++ in this engine's math). Unearthly
     // Power lets him pick ONE Crimson King ability per battle round; if he
