@@ -441,7 +441,7 @@ export default function App(){
                                         <div key={u.id} style={{paddingLeft:16,marginBottom:4}}>
                                             <label style={{display:"flex",alignItems:"center",gap:5,cursor:"pointer"}}>
                                                 <input type="checkbox" checked={vis.has(u.id)} onChange={()=>toggleId(u.id)} style={{accentColor:uc,width:11,height:11}}/>
-                                                <span style={{fontSize:10,color:vis.has(u.id)?C.sub:C.vdim}}>
+                                                <span style={{fontSize:10,color:vis.has(u.id)?C.sub:C.dim}}>
                                                     {u.label}
                                                     <span style={{color:C.vdim}}> {u.pts}pt</span>
                                                     {u.sWs&&u.mWs&&<span style={{color:C.bl,marginLeft:3}}>S+M</span>}
