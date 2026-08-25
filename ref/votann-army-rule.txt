@@ -1,0 +1,53 @@
+LEAGUES OF VOTANN
+ARMY RULE: YIELD POINTS
+Source: Codex Leagues of Votann, 11th edition (via warhammer-community.com,
+"Maximise your yields with the new Leagues of Votann army rule")
+
+YIELD POINTS
+At the end of each player's Command phase, you gain 1YP if you control one
+or more objective markers within your deployment zone, and, from the second
+battle round onwards, you gain 1 additional YP for each of the following
+conditions you satisfy:
+- You control one or more objective markers not within your deployment zone.
+- You control two or more objective markers not within your deployment zone.
+- You control more objective markers than your opponent.
+You also gain 1 YP each time you destroy an enemy unit through the Martial
+Leverage rule.
+
+YP is a genuinely two-layer resource, not just a passive threshold trigger -
+both layers below matter and are separate from each other.
+
+LAYER 1: PASSIVE THRESHOLD ABILITY (not spent, just checked)
+Depending on your current YP total, every unit in your army has one of the
+following two abilities. Both are CONDITIONAL on objective-marker proximity,
+not an unconditional bonus - the app's "+1 Hit" / "No YP" toggle simplifies
+this to a binary assume-active/assume-inactive switch, which is a reasonable
+approximation for a quick calculator but not literally what the rule says.
+
+HOSTILE ACQUISITION (while you have fewer than 7 YP)
+- Each time a model in this unit makes an attack that targets an enemy unit
+  within range of one or more objective markers, add 1 to the Hit roll.
+- You can re-roll Advance and Charge rolls made for this unit.
+
+FORTIFY TAKEOVER (while you have 7 or more YP)
+- Each time a model in this unit makes an attack that targets an enemy unit,
+  if this unit is within range of one or more objective markers you control,
+  add 1 to the Hit roll.
+- Each time an attack targets this unit, if the Strength characteristic of
+  that attack is greater than this unit's Toughness characteristic and this
+  unit is not a Vehicle, subtract 1 from the Wound roll.
+
+LAYER 2: SPENDABLE RESOURCE (separate mechanic, NOT modeled anywhere in the
+app currently - the "yp" toggle only covers Layer 1 above)
+Whenever a rule lets you spend YP, your YP total is reduced by that amount
+(cannot go below 0); if you don't have enough, you can't use that rule.
+Known examples (paraphrased from secondary sources, not independently
+verified against the Codex text - re-check exact wording before relying on
+specifics):
+- Ancestral Sentence (stratagem): gives a unit Sustained Hits 1 in the
+  Shooting phase; spending 3 YP upgrades that to Sustained Hits 2.
+- A movement stratagem: lets a unit Advance and Charge as its baseline
+  effect; spending up to 2 YP adds extra inches of movement scaled to YP
+  spent.
+- Uthar the Destined's Ancestral Fortune: once per turn, spend 1 YP to
+  change a hit/wound/save roll to an unmodified 6.
