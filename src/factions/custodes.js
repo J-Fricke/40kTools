@@ -1,5 +1,8 @@
 // ─── FACTION: ADEPTUS CUSTODES ────────────────────────────────────────────────
-// Last updated: Faction Pack v1.1 (legal 2026-08-03); weapon profiles already reflected v1.1 data
+// Last updated: Faction Pack v1.1 (legal 2026-08-03); MFM v1.3 (legal 2026-08-26); weapon profiles already reflected v1.1 data
+// MFM v1.3 pts delta: Allarus Custodians 5m ▲+5/6m ▲+10 (pts10 = pre-v1.3 value).
+// MFM v1.3 rules changes: Lions of the Emperor DP 2→3 + disposition Disruption→Take and Hold;
+// Tharanatoi Hammerblow disposition Priority Assets→Disruption.
 // Weapon note: Ka'tah (army rule) lets each unit pick Dacatarai (SH1 melee) or
 // Rendax (Lethal Hits melee) before each Fight phase. Rows labelled "Da" / "Re"
 // reflect those stances. Units without meaningful melee get a single row.
@@ -135,22 +138,23 @@ export const UNITS = [
         sWs:[[10,2,4,-1,2,{}]],
         mWs:[[20,2,9,-1,3,{let:1}]]},
 
-    {id:"al5g",uid:"al",unit:"Allarus Custodians",pts:275,pts10:275,m:5,W:4,sv:2,inv:4,fnp:null,
+    // MFM v1.3: 5m ▲+5 → 280, 6m ▲+10 → 340 (pts10 = pre-v1.3 value)
+    {id:"al5g",uid:"al",unit:"Allarus Custodians",pts:280,pts10:275,m:5,W:4,sv:2,inv:4,fnp:null,
         label:"5m guardian spear (Re: lethal)",
         chars:["none","sc_a"],
         sWs:[[10,2,4,-1,2,{}],[17.5,2,4,-1,1,{}]],
         mWs:[[25,2,7,-2,2,{let:1}]]},
-    {id:"al5ax",uid:"al",unit:"Allarus Custodians",pts:275,pts10:275,m:5,W:4,sv:2,inv:4,fnp:null,
+    {id:"al5ax",uid:"al",unit:"Allarus Custodians",pts:280,pts10:275,m:5,W:4,sv:2,inv:4,fnp:null,
         label:"5m castellan axe vs CHAR/MON/VEH (full rrw)",
         chars:["none","sc_a"],
         sWs:[[10,2,4,-1,2,{rrwf:1}],[17.5,2,4,-1,1,{rrwf:1}]],
         mWs:[[20,2,9,-1,3,{let:1,rrwf:1}]]},
-    {id:"al6g",uid:"al",unit:"Allarus Custodians",pts:330,pts10:330,m:6,W:4,sv:2,inv:4,fnp:null,
+    {id:"al6g",uid:"al",unit:"Allarus Custodians",pts:340,pts10:330,m:6,W:4,sv:2,inv:4,fnp:null,
         label:"6m guardian spear (Re: lethal)",
         chars:["none","sc_a"],
         sWs:[[12,2,4,-1,2,{}],[21,2,4,-1,1,{}]],
         mWs:[[30,2,7,-2,2,{let:1}]]},
-    {id:"al6ax",uid:"al",unit:"Allarus Custodians",pts:330,pts10:330,m:6,W:4,sv:2,inv:4,fnp:null,
+    {id:"al6ax",uid:"al",unit:"Allarus Custodians",pts:340,pts10:330,m:6,W:4,sv:2,inv:4,fnp:null,
         label:"6m castellan axe vs CHAR/MON/VEH (full rrw)",
         chars:["none","sc_a"],
         sWs:[[12,2,4,-1,2,{rrwf:1}],[21,2,4,-1,1,{rrwf:1}]],
@@ -164,6 +168,9 @@ export const UNITS = [
         mWs:[[20,2,5,-2,1,{}]]},
 
     // ── Vertus Praetors ───────────────────────────────────────────────────────────
+    // MFM v1.3 flags this entry with a ▲, but the 1st-2nd values it lists (145/215) match what's
+    // coded below already. v1.3 also lists 3rd+ as 170/240 (not tracked here) - no delta markers
+    // shown on any of these lines, so the actual source of the ▲ flag is unclear.
     {id:"vp2s",uid:"vp",unit:"Vertus Praetors",pts:145,pts10:150,m:2,W:5,sv:2,inv:4,fnp:null,
         label:"2m salvo launcher TL (anti-vehicle)",
         chars:["none","sc_b"],
@@ -474,7 +481,7 @@ export const DETACHMENTS = [
             {key:"crit", label:"5+ crits",   affects:{all:true, ch5m:true}},
             {key:"ap",   label:"+1 AP melee", affects:{all:true, ap1m:true}},
         ]},
-    {id:"lions",   dp:2, name:"Lions of the Emperor", disp:"Disruption",
+    {id:"lions",   dp:3, name:"Lions of the Emperor", disp:"Take and Hold", // MFM v1.3: DP 2→3, disposition Disruption→Take and Hold
         desc:"[Unique: Lions] Against All Odds: +1 hit and +1 wound when no other friendly within 6\" (non-vehicles).",
         affects:{all:true, bhBonus:1, wBonus:1}},
     {id:"auric",   dp:2, name:"Auric Champions", disp:"Priority Assets",
@@ -492,7 +499,7 @@ export const DETACHMENTS = [
     {id:"silent",  dp:1, name:"Silent Hunters", disp:"Recon",
         desc:"Skin-Crawling Disorientation: Anathema units can advance + start actions; Ceaseless Vigilance marks enemy units.",
         affects:null},
-    {id:"tharanatoi",dp:1,name:"Tharanatoi Hammerblow",disp:"Priority Assets",
+    {id:"tharanatoi",dp:1,name:"Tharanatoi Hammerblow",disp:"Disruption", // MFM v1.3: disposition Priority Assets→Disruption
         desc:"[Unique: Lions] The Hammer Falls: Terminator units that made an ingress move can re-roll charge rolls.",
         affects:null},
 ];

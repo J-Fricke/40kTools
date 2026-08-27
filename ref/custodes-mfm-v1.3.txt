@@ -2,7 +2,7 @@
 English
 ADEPTUS CUSTODES
 Warhammer 40,000 Logo
-v1.1
+v1.3
 FACTIONS
 UNITS
 AGAMATUS CUSTODIANS
@@ -10,22 +10,26 @@ YOUR UNIT COSTS
 3 models225 pts
 6 models450 pts
 ALEYA
-▼
 YOUR UNIT COSTS
-1 model▼ (-10) 55 pts
+1 model55 pts
 LEADER
 
 PROSECUTORS, VIGILATORS, WITCHSEEKERS
 ALLARUS CUSTODIANS
-YOUR UNIT COSTS
+▲
+YOUR 1ST TO 2ND UNITS COST
 2 models110 pts
 3 models165 pts
-5 models275 pts
-6 models330 pts
+5 models▲ (+5) 280 pts
+6 models▲ (+10) 340 pts
+YOUR 3RD + UNIT COSTS
+2 models140 pts
+3 models195 pts
+5 models310 pts
+6 models370 pts
 ANATHEMA PSYKANA RHINO
-▲▼
 YOUR 1ST TO 3RD UNITS COST
-1 model▼ (-10) 65 pts
+1 model65 pts
 YOUR 4TH + UNIT COSTS
 1 model75 pts
 AQUILON CUSTODIANS
@@ -81,13 +85,12 @@ YOUR 1ST TO 3RD UNITS COST
 YOUR 4TH + UNIT COSTS
 5 models260 pts
 CUSTODIAN WARDENS
-▼
 YOUR 1ST UNIT COSTS
-4 models▼ (-10) 200 pts
-5 models▼ (-10) 250 pts
+4 models200 pts
+5 models250 pts
 YOUR 2ND + UNIT COSTS
-4 models▼ (-10) 220 pts
-5 models▼ (-10) 270 pts
+4 models220 pts
+5 models270 pts
 KNIGHT-CENTURA
 YOUR UNIT COSTS
 1 model55 pts
@@ -147,10 +150,9 @@ LEADER
 
 CUSTODIAN GUARD, CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS, CUSTODIAN WARDENS, SAGITTARUM CUSTODIANS
 VENATARI CUSTODIANS
-▲▼
 YOUR 1ST TO 2ND UNITS COST
-3 models▼ (-10) 150 pts
-6 models▼ (-20) 300 pts
+3 models150 pts
+6 models300 pts
 YOUR 3RD + UNIT COSTS
 3 models160 pts
 6 models310 pts
@@ -168,9 +170,13 @@ YOUR 1ST UNIT COSTS
 YOUR 2ND + UNIT COSTS
 1 model240 pts
 VERTUS PRAETORS
-YOUR UNIT COSTS
+▲
+YOUR 1ST TO 2ND UNITS COST
 2 models145 pts
 3 models215 pts
+YOUR 3RD + UNIT COSTS
+2 models170 pts
+3 models240 pts
 VIGILATORS
 YOUR UNIT COSTS
 4 models50 pts
@@ -197,18 +203,20 @@ Martial Philosopher
 Veiled Blade
 25 pts
 LIONS OF THE EMPEROR
-2DP
-DISRUPTION
+3DP ▲
+TAKE AND HOLD
 UNIQUE: LIONS
 ENHANCEMENTS
 Admonimortis
-▲ (+10) 30 pts
+30 pts
 Fierce Conqueror
 15 pts
 Praesidius
 25 pts
 Superior Creation
 25 pts
+UPDATED
+FORCE DISPOSITION(S) CHANGED
 MIGHT OF THE MORITOI
 1DP
 TAKE AND HOLD
@@ -218,8 +226,6 @@ Auramite Sarcophagus (Upgrade)
 15 pts
 Interred Expertise (Upgrade)
 25 pts
-UPDATED
-FORCE DISPOSITION(S) CHANGED
 NULL MAIDEN VIGIL
 2DP
 RECONNAISSANCE
@@ -241,7 +247,7 @@ Auric Mantle
 Castellan’s Mark
 20 pts
 From the Hall of Armouries
-▼ (-5) 20 pts
+20 pts
 Panoptispex
 5 pts
 SILENT HUNTERS
@@ -279,10 +285,12 @@ Radiant Mantle
 30 pts
 THARANATOI HAMMERBLOW
 1DP
-PRIORITY ASSETS
+DISRUPTION
 UNIQUE: LIONS
 ENHANCEMENTS
 Efficient Aggression
 25 pts
 Mnemo-locked Shrine Cipher
 25 pts
+UPDATED
+FORCE DISPOSITION(S) CHANGED
