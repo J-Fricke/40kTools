@@ -282,6 +282,20 @@ export const DETACHMENTS=[
         affects:{all:true,rrw1:true,ap1uids:["hg"],ap1chars:["kahl","uthar"]}},
 ];
 
+// Per-uid Toughness/Vehicle/Monster, for use as a TARGET (e.g. Fight Simulator).
+// Sourced from ref/votann-datasheets.txt.
+export const DEFENSE={
+    hk:{T:5,veh:false,mon:false}, hg:{T:5,veh:false,mon:false},
+    bs:{T:6,veh:false,mon:false}, tk:{T:6,veh:false,mon:false},
+    sv:{T:6,veh:false,mon:false}, sm:{T:6,veh:false,mon:false},
+    ya:{T:5,veh:false,mon:false}, pi:{T:6,veh:false,mon:false},
+    es:{T:6,veh:false,mon:false},
+    hf:{T:12,veh:true,mon:false}, sg:{T:9,veh:true,mon:false},
+    kd:{T:7,veh:true,mon:false},
+    bu:{T:6,veh:false,mon:false}, ch:{T:5,veh:false,mon:false},
+    ak:{T:5,veh:false,mon:false},
+};
+
 // Unit accent colours (keyed by uid)
 export const UC={
     hk:"#818cf8",hg:"#a78bfa",bs:"#f472b6",tk:"#fbbf24",sv:"#34d399",

@@ -504,6 +504,25 @@ export const DETACHMENTS = [
         affects:null},
 ];
 
+// Per-uid Toughness/Vehicle/Monster, for use as a TARGET (e.g. Fight Simulator).
+// Sourced from ref/custodes-datasheets.txt.
+export const DEFENSE = {
+    cg:{T:6,veh:false,mon:false}, cw:{T:6,veh:false,mon:false},
+    al:{T:7,veh:false,mon:false}, sag:{T:6,veh:false,mon:false},
+    vp:{T:7,veh:false,mon:false}, vn:{T:6,veh:false,mon:false},
+    ag:{T:6,veh:false,mon:false}, aq:{T:7,veh:false,mon:false},
+    cgs:{T:6,veh:false,mon:false},
+    cal:{T:11,veh:true,mon:false}, pal:{T:8,veh:true,mon:false},
+    cor:{T:12,veh:true,mon:false}, vcd:{T:9,veh:true,mon:false},
+    ach:{T:9,veh:true,mon:false}, gal:{T:9,veh:true,mon:false},
+    tel:{T:10,veh:true,mon:false}, vlr:{T:12,veh:true,mon:false},
+    pro:{T:3,veh:false,mon:false}, vig:{T:3,veh:false,mon:false},
+    wit:{T:3,veh:false,mon:false},
+    bc:{T:6,veh:false,mon:false}, sc:{T:6,veh:false,mon:false},
+    sca:{T:7,veh:false,mon:false}, scb:{T:7,veh:false,mon:false},
+    tj:{T:6,veh:false,mon:false}, val:{T:6,veh:false,mon:false},
+};
+
 // Unit accent colours (keyed by uid)
 export const UC = {
     cg:"#fbbf24",  cw:"#f59e0b",  al:"#d97706",  sag:"#7dd3fc",

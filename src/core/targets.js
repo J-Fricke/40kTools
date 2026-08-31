@@ -14,6 +14,8 @@ export const TARGETS=[
     {key:"defiler",grp:"meta",label:"Defiler",sub:"T11 5++ 18W", T:11,sv:2,inv:5,fnp:null,veh:true, mon:false,wounds:18},
     {key:"riptide",grp:"meta",label:"Riptide",sub:"T8 3+/5++",  T:8, sv:3,inv:5,fnp:null,veh:false,mon:true, wounds:14},
     {key:"cust",   grp:"meta",label:"Cust",   sub:"T6 2+/4++",  T:6, sv:2,inv:4,fnp:null,veh:false,mon:false,wounds:15},
+    // Allarus Custodians, 6-model max size (T7 sv2+/inv4+ ALL attacks, 4W/model = 24W total)
+    {key:"allarus",grp:"meta",label:"Allarus", sub:"T7 2+/4++ 24W",T:7, sv:2,inv:4,fnp:null,veh:false,mon:false,wounds:24},
     {key:"poss",   grp:"meta",label:"Poss",   sub:"T6 3+/5++",  T:6, sv:3,inv:5,fnp:null,veh:false,mon:false,wounds:30},
     {key:"necron", grp:"meta",label:"Necron", sub:"T4 4+/4++",  T:4, sv:4,inv:4,fnp:null,veh:false,mon:false,wounds:20},
     {key:"rubric", grp:"meta",label:"Rubric", sub:"T4 3+/5++",  T:4, sv:3,inv:5,fnp:null,veh:false,mon:false,wounds:20},

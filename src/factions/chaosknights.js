@@ -237,6 +237,22 @@ export const DETACHMENTS = [
     {id:"icf",    name:"Iconoclast Fiefdom (Wretched Thralls)", dp:1, affects:null},
 ];
 
+// Per-uid Toughness/Vehicle/Monster, for use as a TARGET (e.g. Fight Simulator).
+// Every Chaos Knight is Vehicle/Walker, never Monster - values match the T
+// already noted in this file's own section-header comments above.
+export const DEFENSE = {
+    abom:{T:11,veh:true,mon:false}, desc:{T:11,veh:true,mon:false},
+    desp:{T:11,veh:true,mon:false}, ramp:{T:11,veh:true,mon:false},
+    ruin:{T:11,veh:true,mon:false}, tyrant:{T:12,veh:true,mon:false},
+    ach:{T:11,veh:true,mon:false}, atra:{T:11,veh:true,mon:false},
+    casti:{T:11,veh:true,mon:false}, lanc:{T:11,veh:true,mon:false},
+    mag:{T:11,veh:true,mon:false}, sty:{T:11,veh:true,mon:false},
+    aster:{T:13,veh:true,mon:false}, porf:{T:13,veh:true,mon:false},
+    brigand:{T:9,veh:true,mon:false}, exec:{T:9,veh:true,mon:false},
+    huntsman:{T:9,veh:true,mon:false}, karnivore:{T:9,veh:true,mon:false},
+    stalker:{T:9,veh:true,mon:false}, moirax:{T:10,veh:true,mon:false},
+};
+
 export const UC = {
     abom:      "#dc2626",
     desc:      "#b91c1c",

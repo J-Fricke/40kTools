@@ -531,6 +531,19 @@ export const DETACHMENTS = [
         affects:null},
 ];
 
+// Per-uid Toughness/Vehicle/Monster, for use as a TARGET (e.g. Fight Simulator).
+// Sourced from ref/greyknights-10th-datasheets.txt - unit rows above only ever
+// needed defensive save stats for themselves as an ATTACKER, never their own T.
+export const DEFENSE = {
+    bts:{T:5,veh:false,mon:false}, ss:{T:4,veh:false,mon:false},
+    pal:{T:5,veh:false,mon:false}, int:{T:4,veh:false,mon:false},
+    purg:{T:4,veh:false,mon:false}, pur:{T:4,veh:false,mon:false},
+    ndk:{T:8,veh:true,mon:false}, gmndk:{T:8,veh:true,mon:false},
+    vd:{T:9,veh:true,mon:false}, sr:{T:10,veh:true,mon:false},
+    rhino:{T:9,veh:true,mon:false}, razorback:{T:9,veh:true,mon:false},
+    lrr:{T:12,veh:true,mon:false},
+};
+
 export const UC = {
     bts:"#94a3b8", ss:"#60a5fa",  pal:"#fbbf24", int:"#c084fc",
     purg:"#34d399", pur:"#22d3ee", ndk:"#f87171", gmndk:"#fb923c",
