@@ -8,10 +8,11 @@ is functional across all four factions.
 
 **Tracked as GitHub issues as of 2026-09-01** - this file stays as the
 detailed writeup, but the actionable to-do list now lives at
-https://github.com/J-Fricke/40kTools/issues (#1 named-variant slots, #2
-base-weapon fallback, #3 LRR flamestorm cannons, #4 wargear points, #6
-coverage audit, #7 unrecognized keywords). Check there for current status
-before assuming something below is still open.
+https://github.com/J-Fricke/40kTools/issues (#1 named-variant slots - 12/21
+fixed same day, #2 base-weapon fallback, #3 LRR flamestorm cannons, #4
+wargear points, #6 coverage audit - now built into the pipeline itself
+rather than a separate script, see below, #7 unrecognized keywords). Check
+there for current status before assuming something below is still open.
 
 ## The systemic pattern: single-model "vehicle-shape" units
 
@@ -77,18 +78,53 @@ Prosecutors, Vigilators, Witchseekers, Trajann Valoris, Valerian.
 **Votann** (5): Cthonian Beserks, Ironkin Steeljacks with Heavy Volkanite
 Disintegrators, Hernkyn Yaegirs, Hernkyn Pioneers, Buri Aegnirssen.
 
-**User's explicit call (2026-09-01)**: ship the Unit Builder wired into
-Fight Simulator with these 21 units at fixed-loadout-only for now, revisit
-in a dedicated pass rather than blocking on it. If picked up later: the fix
-is a second recognized shape in `extractSlots.mjs` - detect a squad-size
-group whose children are multiple named model variants (not a `selectionEntryGroups`
-with weapon-only children, `extractSlots`'s current only trigger), resolve
-each variant's own fixed weapons (reusing/extending `extractBase`'s
-`directWeaponEntries` per-variant), treat whichever variant `extractBase`
-already selected as the family's `base`, and expose the OTHER variants as
-choices in a synthesized slot (their own `selections`/`scope:"parent"` cap,
-via the same `getVariantCap()` used for Paladin's Heavy Weapon slot, becomes
-that choice's max pick count).
+**Fixed 2026-09-01**: `extractSlots.mjs` now recognizes this shape via
+`namedVariantSlot()` - a group whose children are all `type:"model"`
+entries, each resolving its own weapon-bearing entries directly. Of the
+original 21 flagged, 12 were real gaps and are now fixed (GK Interceptor/
+Purgation/Purifier Squad; Custodes Custodian Guard, Allarus, Vertus,
+Venatari, Agamatus, Aquilon, Custodian Guard with Adrasite/Pyrithite
+spears; Votann Hernkyn Yaegirs/Pioneers). The other 9 turned out, on
+individual inspection of their raw BSData tree, to be legitimately
+fixed-loadout units in the real game (Sagittarum Custodians, Prosecutors,
+Vigilators, Witchseekers, Trajann Valoris, Valerian) - the original 21-unit
+list was itself imprecise (pattern-matched, not individually verified per
+unit). See buildFamily.mjs/composableUnit.js for how a synthesized
+variant's weapons are threaded through (`choice.entries`, plural, since a
+variant can bundle more than one weapon-bearing upgrade).
+
+## Coverage-audit mechanism (added 2026-09-01)
+
+`extractSlots.mjs` now also returns `warnings`: any group with 2+ children
+that matched NEITHER recognized shape (weapon-swap-group or named-variant)
+and produced no slot anywhere beneath it - the exact structural signature
+Custodian Guard had before its shape was recognized. `convertFaction.mjs`
+folds these into the same `gaps` array `sync.mjs` already reports, prefixed
+`COVERAGE WARNING`. This runs automatically on every `sync.mjs` run - no
+separate audit script needed, and no reliance on comparing against the old
+(imprecise) hand-authored data as a proxy.
+
+**Current warnings (21, as of the same sync that fixed the 12 above)** -
+mostly single-model "vehicle-shape" units already in the base-weapon
+fallback list above (a third, not-yet-recognized shape: a `Wargear`/
+`Weapon` group whose children are named WEAPON-COMBO entries directly,
+not nested model variants) plus a couple of squads with deeper nesting
+than either recognized shape handles:
+
+Grey Knights: Venerable Dreadnought, Stormraven Gunship.
+Custodes: Telemon Heavy Dreadnought.
+Votann: Einhyr Hearthguard (Crest sub-choice only - its main weapon slots
+already work), Cthonian Beserks (genuine unresolved squad weapon choice,
+not just a vehicle-shape case), Ironkin Steeljacks w/ Heavy Volkanite
+Disintegrators, Hekaton Land Fortress, Sagitaur, Kapricus Defenders,
+Einhyr Champion.
+Chaos Knights: Knight Despoiler, Knight Tyrant, Chaos Questoris Knight
+Magaera/Styrix, War Dog Moirax.
+
+Not fixed in this pass - flagged and left for individual review, same
+"flag and keep moving" instinct as the rest of this file. Re-running
+`sync.mjs` after any future extraction fix will show whether the warning
+list shrinks.
 
 ## Specific confirmed real BSData data gaps (not just structural ambiguity)
 

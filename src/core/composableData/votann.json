@@ -42,6 +42,80 @@
     },
     "slots": [
       {
+        "id": "6bf0-d579-38eb-5bc9",
+        "label": "Hearthkyn Warriors",
+        "pick": {
+          "min": 0,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "7802-9a4a-cc1c-7103",
+            "label": "Hearthkyn Warrior w/ ion blaster",
+            "sWs": [
+              [
+                1,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ],
+              [
+                1,
+                4,
+                5,
+                -2,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                1,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "6c9e-f7c7-6e0e-4dd7",
+            "label": "Hearthkyn Warrior w/ plasma knife",
+            "sWs": [
+              [
+                1,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                1,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ],
+              [
+                2,
+                4,
+                4,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
         "id": "6b3e-7051-ba8e-6ea9",
         "label": "Weapon",
         "pick": {
@@ -523,6 +597,42 @@
     },
     "slots": [
       {
+        "id": "1e4a-c7b6-74c1-9afd",
+        "label": "2-5 Ironkin Steeljacks",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "79d8-6081-2fae-ff86",
+            "label": "Ironkin Steeljack w/ plasma sword",
+            "sWs": [
+              [
+                2,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                6,
+                3,
+                6,
+                -2,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
         "id": "c775-3316-df7d-3fb8",
         "label": "Melee Weapon",
         "pick": {
@@ -602,7 +712,83 @@
         ]
       ]
     },
-    "slots": [],
+    "slots": [
+      {
+        "id": "3416-40f4-a25c-0282",
+        "label": "9 Hernkyn Yaegir",
+        "pick": {
+          "min": 0,
+          "max": 3
+        },
+        "choices": [
+          {
+            "id": "4ba2-a404-9610-744a",
+            "label": "Hernkyn Yaegir w/ APM launcher",
+            "sWs": [
+              [
+                1,
+                4,
+                6,
+                -2,
+                3.5,
+                {
+                  "am3": 1,
+                  "av3": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                1,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "6756-0984-a734-939b",
+            "label": "Hernkyn Yaegir w/ magna-coil rifle",
+            "sWs": [
+              [
+                1,
+                4,
+                5,
+                -2,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                1,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "231c-6a2a-f0aa-aa88",
+            "label": "Hernkyn Yaegir w/ revolver and knife",
+            "mWs": [
+              [
+                1,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
     "chars": [
       "none"
     ]
@@ -657,7 +843,138 @@
         ]
       ]
     },
-    "slots": [],
+    "slots": [
+      {
+        "id": "6016-5c68-b821-0070",
+        "label": "3 - 6 Pioneers",
+        "pick": {
+          "min": 0,
+          "max": 3
+        },
+        "choices": [
+          {
+            "id": "bd9c-c54e-c236-ade3",
+            "label": "Hernkyn Pioneer w/ comms array",
+            "sWs": [
+              [
+                1,
+                4,
+                5,
+                0,
+                1,
+                {}
+              ],
+              [
+                2,
+                4,
+                5,
+                0,
+                1,
+                {}
+              ],
+              [
+                3,
+                4,
+                7,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                2,
+                4,
+                4,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e7c2-eaab-0dbb-9f36",
+            "label": "Hernkyn Pioneer w/ pan-spectral scanner",
+            "sWs": [
+              [
+                1,
+                4,
+                5,
+                0,
+                1,
+                {}
+              ],
+              [
+                2,
+                4,
+                5,
+                0,
+                1,
+                {}
+              ],
+              [
+                3,
+                4,
+                7,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                2,
+                4,
+                4,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "1689-9abb-20cf-5c8b",
+            "label": "Hernkyn Pioneer w/ searchlight",
+            "sWs": [
+              [
+                1,
+                4,
+                5,
+                0,
+                1,
+                {}
+              ],
+              [
+                2,
+                4,
+                5,
+                0,
+                1,
+                {}
+              ],
+              [
+                3,
+                4,
+                7,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                2,
+                4,
+                4,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
     "chars": [
       "none"
     ]

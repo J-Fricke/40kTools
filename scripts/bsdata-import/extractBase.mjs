@@ -1,19 +1,4 @@
-import { resolveEntry } from "./extractSlots.mjs";
-
-function hasWeaponProfile(entry) {
-    return (entry.profiles || []).some(p => p.typeName === "Ranged Weapons" || p.typeName === "Melee Weapons");
-}
-
-function directWeaponEntries(node, catalogue) {
-    const out = [];
-    for (const e of node.selectionEntries || []) if (hasWeaponProfile(e)) out.push(e);
-    for (const link of node.entryLinks || []) {
-        if (link.type !== "selectionEntry") continue;
-        const target = resolveEntry(catalogue, link.targetId);
-        if (target && hasWeaponProfile(target)) out.push(target);
-    }
-    return out;
-}
+import { directWeaponEntries } from "./weaponHelpers.mjs";
 
 // extractBase: finds the unit's fixed (no-choice) base weapons.
 //  - Single-model units (vehicles, characters): weapons hang directly off

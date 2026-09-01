@@ -31,7 +31,14 @@ export function buildFamily({ uid, unit, faction, sizeTiers, baseProfiles, slots
     const resolvedSlots = slots.map(slot => ({
         id: slot.id, label: slot.label, pick: slot.pick,
         choices: slot.choices.map(c => {
-            const weaponProfiles = (c.entry.profiles || []).filter(p => p.typeName === "Ranged Weapons" || p.typeName === "Melee Weapons");
+            // A real BSData swap-group choice (Paladin-shape) carries one `entry`;
+            // a synthesized named-model-variant choice (Custodian Guard-shape,
+            // see extractSlots.mjs's namedVariantSlot()) carries `entries`
+            // (plural) since a variant can bundle more than one weapon-bearing
+            // upgrade (e.g. Vexilla + Misericordia together).
+            const sourceEntries = c.entries || (c.entry ? [c.entry] : []);
+            const weaponProfiles = sourceEntries.flatMap(e =>
+                (e.profiles || []).filter(p => p.typeName === "Ranged Weapons" || p.typeName === "Melee Weapons"));
             const sWs = [], mWs = [];
             for (const p of weaponProfiles) {
                 const { array, isMelee } = resolveWeaponArray(p);

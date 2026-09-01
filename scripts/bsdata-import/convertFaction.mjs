@@ -23,7 +23,8 @@ export function convertFaction({ factionKey, bsdataFile, nameMap, _preloaded }) 
         const link = (cat.entryLinks || []).find(l => l.name === name && l.type === "selectionEntry" && !ADMIN.has(l.name));
         if (!link) { notFound.push(`${uid} (${name})`); continue; }
         const entry = resolveEntry(cat, link.targetId);
-        const slots = extractSlots(entry, cat);
+        const { slots, warnings } = extractSlots(entry, cat);
+        for (const w of warnings) gaps.push(`${uid} (${name}): COVERAGE WARNING - ${w}`);
         const base = extractBase(entry, cat);
         const refUnit = fd.units.find(u => u.uid === uid);
         const def = { sv: refUnit.sv, inv: refUnit.inv, fnp: refUnit.fnp, W: refUnit.W };
