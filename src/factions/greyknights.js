@@ -181,7 +181,7 @@ export const UNITS = [
     {id:"purg5sl", uid:"purg", unit:"Purgation Squad", pts:105, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true, // free upgrade
         label:"5m 4× psilencer (S5 AP0 D1 SH1)",
         chars:["none","champ","tech"],
-        sWs:[[24,3,5,0,1,{sh1:1}],[4,3,4,0,1,{}]],
+        sWs:[[24,3,5,0,1,{sustained:1}],[4,3,4,0,1,{}]],
         mWs:[[15,3,6,-2,2,{}]]},
     {id:"purg5i",  uid:"purg", unit:"Purgation Squad", pts:105, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true, // free upgrade
         label:"5m 4× incinerator (torrent S6 AP-1 D1, 12\")",
@@ -224,22 +224,22 @@ export const UNITS = [
     {id:"ndk_pi_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:195, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=210
         label:"psl+inc+GS",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1}],[7,1,6,-1,1,{}]],
+        sWs:[[12,3,6,0,1,{sustained:1}],[7,1,6,-1,1,{}]],
         mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
     {id:"ndk_pi_gh",  uid:"ndk", unit:"Nemesis Dreadknight", pts:195, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=210
         label:"psl+inc+GH",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1}],[7,1,6,-1,1,{}]],
+        sWs:[[12,3,6,0,1,{sustained:1}],[7,1,6,-1,1,{}]],
         mWs:[[5,3,14,-3,4.5,{}]]},
     {id:"ndk_ph_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=225
         label:"psl+hpc+GS",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1}],[6,3,10,-2,3,{}]],
+        sWs:[[12,3,6,0,1,{sustained:1}],[6,3,10,-2,3,{}]],
         mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
     {id:"ndk_ph_gh",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, // 3rd+=225
         label:"psl+hpc+GH",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1}],[6,3,10,-2,3,{}]],
+        sWs:[[12,3,6,0,1,{sustained:1}],[6,3,10,-2,3,{}]],
         mWs:[[5,3,14,-3,4.5,{}]]},
     {id:"ndk_ih_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=225
         label:"inc+hpc+GS",
@@ -275,19 +275,19 @@ export const UNITS = [
     // psilencer + incinerator (200pts 1st-2nd, 215pts 3rd+) - base, no paid ranged weapon
     {id:"gmndk_pi_h",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:200, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=215
         label:"psl+inc+H", chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
+        sWs:[[12,3,6,0,1,{sustained:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
         mWs:[[5,3,14,-3,4.5,{sowf:1}]]},
     {id:"gmndk_pi_s", uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:200, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=215
         label:"psl+inc+S", chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
+        sWs:[[12,3,6,0,1,{sustained:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
         mWs:[[5,2,10,-2,3.5,{sowf:1}],[10,2,5,-1,1,{sowf:1}]]},
     {id:"gmndk_pi_m",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:200, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=215
         label:"psl+inc+M", chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
+        sWs:[[12,3,6,0,1,{sustained:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
         mWs:[[5,2,6,-3,2,{sowf:1}]]},
     {id:"gmndk_pi_f",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:200, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=215
         label:"psl+inc+F", chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
+        sWs:[[12,3,6,0,1,{sustained:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
         mWs:[[10,2,5,-1,2,{sowf:1}]]},
 
     // hpc + incinerator (215pts 1st-2nd, 230pts 3rd+)
@@ -311,19 +311,19 @@ export const UNITS = [
     // hpc + psilencer (215pts 1st-2nd, 230pts 3rd+)
     {id:"gmndk_hp_h",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"hpc+psl+H", chars:["none"],
-        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,3,14,-3,4.5,{sowf:1}]]},
     {id:"gmndk_hp_s", uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"hpc+psl+S", chars:["none"],
-        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,10,-2,3.5,{sowf:1}],[10,2,5,-1,1,{sowf:1}]]},
     {id:"gmndk_hp_m",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"hpc+psl+M", chars:["none"],
-        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,6,-3,2,{sowf:1}]]},
     {id:"gmndk_hp_f",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"hpc+psl+F", chars:["none"],
-        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[10,2,5,-1,2,{sowf:1}]]},
 
     // sub + incinerator, normal range (215pts 1st-2nd, 230pts 3rd+)
@@ -365,37 +365,37 @@ export const UNITS = [
     // sub + psilencer, normal range (215pts 1st-2nd, 230pts 3rd+)
     {id:"gmndk_up_h",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub+psl+H", chars:["none"],
-        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,3,14,-3,4.5,{sowf:1}]]},
     {id:"gmndk_up_s", uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub+psl+S", chars:["none"],
-        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,10,-2,3.5,{sowf:1}],[10,2,5,-1,1,{sowf:1}]]},
     {id:"gmndk_up_m",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub+psl+M", chars:["none"],
-        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,6,-3,2,{sowf:1}]]},
     {id:"gmndk_up_f",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub+psl+F", chars:["none"],
-        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[10,2,5,-1,2,{sowf:1}]]},
 
     // sub★ + psilencer, melta range (215pts 1st-2nd, 230pts 3rd+)
     {id:"gmndk_upx_h",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub★+psl+H", chars:["none"],
-        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,3,14,-3,4.5,{sowf:1}]]},
     {id:"gmndk_upx_s", uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub★+psl+S", chars:["none"],
-        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,10,-2,3.5,{sowf:1}],[10,2,5,-1,1,{sowf:1}]]},
     {id:"gmndk_upx_m",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub★+psl+M", chars:["none"],
-        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,6,-3,2,{sowf:1}]]},
     {id:"gmndk_upx_f",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub★+psl+F", chars:["none"],
-        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[10,2,5,-1,2,{sowf:1}]]},
 
     // sub + hpc, normal range (230pts 1st-2nd, 245pts 3rd+)

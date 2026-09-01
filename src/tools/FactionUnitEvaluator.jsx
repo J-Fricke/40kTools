@@ -19,7 +19,10 @@ const DEFAULT_STATE = {
     yp: true,
     inclShoot: true,
     inclMelee: true,
-    sort: { k: "ctan", d: 1 },
+    // Default sort: best against the hardest-to-remove meta target (leftmost
+    // in TARGETS - see the ordering comment there) rather than a hardcoded
+    // key, so this stays correct if that ordering ever changes.
+    sort: { k: TARGETS.find(t => t.grp === "meta")?.key || "ctan", d: 1 },
     killPctSort: true,
     doHeat: true,
     showOldPts: true,

@@ -16,7 +16,7 @@ export function buildCombo(unit, char) {
     if (char.buffs.pfBonus) unitSWs = unitSWs.map(w =>
         w[5] && w[5].ai ? [w[0] + unit.m * char.buffs.pfBonus, w[1], w[2], w[3], w[4], w[5]] : w);
     const unitMWs = char.buffs.sh1m
-        ? (unit.mWs || []).map(w => [w[0], w[1], w[2], w[3], w[4], { ...w[5], sh1: 1 }])
+        ? (unit.mWs || []).map(w => [w[0], w[1], w[2], w[3], w[4], { ...w[5], sustained: Math.max(1, w[5]?.sustained || 0) }])
         : (unit.mWs || []);
     const mergedSWs = [...unitSWs, ...(char.sWs || [])];
     const mergedMWs = [...unitMWs, ...(char.mWs || [])];

@@ -40,7 +40,7 @@ export const UNITS = [
     // enemies at end of Movement phase) not modeled.
     {id:"abom",       uid:"abom",    unit:"Knight Abominant",        label:"",                           pts:355, pts10:null, m:1, W:26, sv:3, inv:5, fnp:null,
         sWs:[[12,3,12,0,3,{dev:1}],[3,3,5,0,1,{}]],
-        mWs:[[9,3,10,-2,3,{sh1:1}],[3,3,8,-1,2,{sh1:1}]]},
+        mWs:[[9,3,10,-2,3,{sustained:1}],[3,3,8,-1,2,{sustained:1}]]},
 
     // Knight Desecrator — 355/370
     // Faction Pack v1.2 datasheet correction (Desecrator Laser Destructor → [3,2,18,-4,6.5,{devmv:1}])
@@ -70,13 +70,13 @@ export const UNITS = [
     // all melee have SH1 native (WS 2+); Bloodlust: melee gains DEV after a charge move → _c rows
     {id:"ramp_rc",    uid:"ramp",    unit:"Knight Rampager",         label:"Chainsword",                 pts:355, pts10:365, m:1, W:26, sv:3, inv:5, fnp:null,
         sWs:[[3,3,5,0,1,{}]],
-        mWs:[[18,2,9,-3,2,{sh1:1}]]},
+        mWs:[[18,2,9,-3,2,{sustained:1}]]},
     {id:"ramp_wc",    uid:"ramp",    unit:"Knight Rampager",         label:"Warp Claw",                  pts:355, pts10:365, m:1, W:26, sv:3, inv:5, fnp:null,
         sWs:[[3,3,5,0,1,{}]],
-        mWs:[[6,2,20,-3,8,{sh1:1}],[12,2,9,-3,2,{sh1:1}]]},
+        mWs:[[6,2,20,-3,8,{sustained:1}],[12,2,9,-3,2,{sustained:1}]]},
     {id:"ramp_c",     uid:"ramp",    unit:"Knight Rampager",         label:"Charged (Bloodlust +DEV)",   pts:355, pts10:365, m:1, W:26, sv:3, inv:5, fnp:null,
         sWs:[[3,3,5,0,1,{}]],
-        mWs:[[6,2,20,-3,8,{sh1:1,dev:1}],[12,2,9,-3,2,{sh1:1,dev:1}]]},
+        mWs:[[6,2,20,-3,8,{sustained:1,dev:1}],[12,2,9,-3,2,{sustained:1,dev:1}]]},
 
     // Knight Ruinator — 340/355
     // Darkflame lance: torrent 9.5 shots × 6/5 = 11.4
@@ -98,13 +98,13 @@ export const UNITS = [
 
     // Cerastus Knight Acheron — 370/385 — inv5 ranged only
     {id:"ach",        uid:"ach",     unit:"Cerastus Acheron",        label:"",                           pts:370, pts10:null, m:1, W:28, sv:3, inv:5, fnp:null,
-        sWs:[[8.4,3,8,-1,2,{}],[3,3,5,-1,2,{sh1:1,tl:1}]],
+        sWs:[[8.4,3,8,-1,2,{}],[3,3,5,-1,2,{sustained:1,tl:1}]],
         mWs:[[12,3,9,-3,2,{}]]},
 
     // Cerastus Knight Atrapos — MFM v1.3: 1st ▼-10 → 385 (was 395) — inv5 ALL attacks (no asterisk on sheet)
     {id:"atra",       uid:"atra",    unit:"Cerastus Atrapos",        label:"",                           pts:385, pts10:395, m:1, W:28, sv:3, inv:5, fnp:null,
-        sWs:[[7,3,7,-1,2,{sh1:1}],[3.5,3,14,-3,4,{sh1:1}],[2,3,16,-4,4.5,{}]],
-        mWs:[[6,3,14,-3,4,{sh1:1}]]},
+        sWs:[[7,3,7,-1,2,{sustained:1}],[3.5,3,14,-3,4,{sustained:1}],[2,3,16,-4,4.5,{}]],
+        mWs:[[6,3,14,-3,4,{sustained:1}]]},
 
     // Cerastus Knight Castigator — 370/385 — inv5 ranged only
     {id:"casti",      uid:"casti",   unit:"Cerastus Castigator",     label:"",                           pts:370, pts10:null, m:1, W:28, sv:3, inv:5, fnp:null,
@@ -113,10 +113,10 @@ export const UNITS = [
 
     // Cerastus Knight Lancer — MFM v1.3: 1st ▼-10 → 385 (was 395), 2nd+ 415 unchanged — inv4 ALL attacks
     {id:"lanc",       uid:"lanc",    unit:"Cerastus Lancer",         label:"Sweep",                      pts:385, pts10:395, m:1, W:28, sv:3, inv:4, fnp:null,
-        sWs:[[6,3,6,0,2,{sh2:1}]],
+        sWs:[[6,3,6,0,2,{sustained:2}]],
         mWs:[[10,2,10,-2,3,{}]]},
     {id:"lanc_s",     uid:"lanc",    unit:"Cerastus Lancer",         label:"Strike (Lance = w1)",        pts:385, pts10:395, m:1, W:28, sv:3, inv:4, fnp:null,
-        sWs:[[6,3,6,0,2,{sh2:1}]],
+        sWs:[[6,3,6,0,2,{sustained:2}]],
         mWs:[[5,2,20,-3,8,{w1:1}]]},
 
     // ── QUESTORIS KNIGHTS — T11, W26, sv3+, inv5 ALL attacks ─────────────────
@@ -124,10 +124,10 @@ export const UNITS = [
     // Questoris Knight Magaera — 375/390
     // Rad cleanser torrent D6=3.5 × 6/5 = 4.2 shots
     {id:"mag_rc",     uid:"mag",     unit:"Questoris Magaera",       label:"Reaper Chainsword",          pts:375, pts10:null, m:1, W:26, sv:3, inv:5, fnp:null,
-        sWs:[[12,3,9,0,2,{sh2:1}],[2,3,8,-3,2,{}],[4.2,3,2,0,1,{ai:1,tl:1}]],
+        sWs:[[12,3,9,0,2,{sustained:2}],[2,3,8,-3,2,{}],[4.2,3,2,0,1,{ai:1,tl:1}]],
         mWs:[[12,3,9,-3,2,{}]]},
     {id:"mag_hk",     uid:"mag",     unit:"Questoris Magaera",       label:"Siege Claw + Rad Cleanser",  pts:375, pts10:null, m:1, W:26, sv:3, inv:5, fnp:null,
-        sWs:[[12,3,9,0,2,{sh2:1}],[2,3,8,-3,2,{}],[4.2,3,2,0,1,{ai:1,tl:1}]],
+        sWs:[[12,3,9,0,2,{sustained:2}],[2,3,8,-3,2,{}],[4.2,3,2,0,1,{ai:1,tl:1}]],
         mWs:[[4,3,20,-3,8,{}],[8,3,10,-2,3,{}]]},
 
     // Questoris Knight Styrix — 365/380 — inv5 ALL attacks
@@ -144,10 +144,10 @@ export const UNITS = [
     // 2× volkite culverin = 12 shots; karacnos = D6+3=6.5; 2× twin conv beam = 6 shots conv+shd3+tl
     // Sunderer of Fortresses: +1S+1D vs VEH → _v rows
     {id:"aster",      uid:"aster",   unit:"Acastus Asterius",        label:"",                           pts:785, pts10:null, m:1, W:30, sv:2, inv:5, fnp:null,
-        sWs:[[12,3,6,0,2,{dev:1}],[6.5,3,6,-1,1,{ai:1}],[6,3,16,-2,3.5,{conv:1,shd3:1,tl:1}]],
+        sWs:[[12,3,6,0,2,{dev:1}],[6.5,3,6,-1,1,{ai:1}],[6,3,16,-2,3.5,{conv:1,sustained:2,tl:1}]],
         mWs:[[6,4,10,-1,2,{}]]},
     {id:"aster_v",    uid:"aster",   unit:"Acastus Asterius",        label:"vs Vehicle (Sunderer +1S+1D)",pts:785, pts10:null, m:1, W:30, sv:2, inv:5, fnp:null,
-        sWs:[[12,3,7,0,3,{dev:1}],[6.5,3,7,-1,2,{ai:1}],[6,3,17,-2,4.5,{conv:1,shd3:1,tl:1}]],
+        sWs:[[12,3,7,0,3,{dev:1}],[6.5,3,7,-1,2,{ai:1}],[6,3,17,-2,4.5,{conv:1,sustained:2,tl:1}]],
         mWs:[[6,4,11,-1,3,{}]]},
 
     // Acastus Knight Porphyrion — 725/800
@@ -179,7 +179,7 @@ export const UNITS = [
     // Karnivore: all melee SH1 native. MFM v1.3: ▼-10 → 145 (was 155)
     {id:"karnivore",  uid:"karnivore",unit:"War Dog Karnivore",      label:"Slaughterclaw + Chaintalon", pts:145, pts10:155, m:1, W:14, sv:3, inv:5, fnp:null,
         sWs:[[3,3,5,0,1,{}]],
-        mWs:[[6,3,12,-3,5.5,{sh1:1}],[12,3,8,-2,1,{sh1:1}]]},
+        mWs:[[6,3,12,-3,5.5,{sustained:1}],[12,3,8,-2,1,{sustained:1}]]},
 
     // Stalker: +1 wound if isolated → w1 (conditional, modeled always-on)
     {id:"stalker",    uid:"stalker", unit:"War Dog Stalker",         label:"Chaincannon + Slaughterclaw",pts:135, pts10:null, m:1, W:14, sv:3, inv:5, fnp:null,
@@ -191,7 +191,7 @@ export const UNITS = [
         sWs:[[3.5,3,7,-1,2,{av3:1}],[4,3,8,0,2,{dev:1}]],
         mWs:[[4,3,6,0,1,{}]]},
     {id:"moirax_lc",  uid:"moirax",  unit:"War Dog Moirax",          label:"Lightning Lock + Conv Beam", pts:150, pts10:null, m:1, W:12, sv:3, inv:5, fnp:null,
-        sWs:[[6,3,8,0,1,{sh2:1}],[1,3,10,-2,3,{conv:1,shd3:1}]],
+        sWs:[[6,3,8,0,1,{sustained:2}],[1,3,10,-2,3,{conv:1,sustained:2}]],
         mWs:[[4,3,6,0,1,{}]]},
     {id:"moirax_sc",  uid:"moirax",  unit:"War Dog Moirax",          label:"Siege Claw melee",           pts:150, pts10:null, m:1, W:12, sv:3, inv:5, fnp:null,
         sWs:[[3.5,3,7,-1,2,{av3:1}],[4,3,8,0,2,{dev:1}]],

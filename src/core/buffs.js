@@ -68,7 +68,9 @@ export function applyBuff(ws, buff, isShooting) {
             w1: buff.wBonus > 0 ? 1 : (tags.w1 || 0),
             w1mv: buff.w1mv ? 1 : (tags.w1mv || 0),
             ch5: useCh5 ? 1 : (tags.ch5 || 0),
-            sh1: useSh1 ? 1 : (tags.sh1 || 0),
+            // A granted Sustained Hits 1 doesn't downgrade a weapon that already has a
+            // higher magnitude natively - keep whichever is better, don't overwrite.
+            sustained: useSh1 ? Math.max(1, tags.sustained || 0) : (tags.sustained || 0),
             let: useLet ? 1 : (tags.let || 0),
         }];
     });
