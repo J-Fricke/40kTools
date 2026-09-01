@@ -1,0 +1,1356 @@
+{
+  "hk": {
+    "uid": "hk",
+    "unit": "Hearthkyn Warriors",
+    "faction": "votann",
+    "models": {
+      "10": 90
+    },
+    "base": {
+      "sv": 4,
+      "inv": null,
+      "fnp": 6,
+      "W": 1,
+      "sWs": [
+        [
+          1,
+          4,
+          4,
+          0,
+          1,
+          {}
+        ],
+        [
+          2,
+          4,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          1,
+          4,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "6b3e-7051-ba8e-6ea9",
+        "label": "Weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "77d1-ad07-5fa7-0006",
+            "label": "Autoch-pattern bolter",
+            "sWs": [
+              [
+                2,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "6fc8-4163-7dbd-06cb",
+            "label": "Ion blaster",
+            "sWs": [
+              [
+                1,
+                4,
+                5,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "8dd9-560b-6d2d-1f2b",
+            "label": "Theyn's pistol",
+            "sWs": [
+              [
+                1,
+                4,
+                8,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "kahl",
+      "champion",
+      "grimnyr",
+      "uthar"
+    ]
+  },
+  "hg": {
+    "uid": "hg",
+    "unit": "Einhyr Hearthguard",
+    "faction": "votann",
+    "models": {
+      "5": 130,
+      "10": 270
+    },
+    "base": {
+      "sv": 2,
+      "inv": 5,
+      "fnp": null,
+      "W": 2,
+      "sWs": [
+        [
+          2,
+          3,
+          3,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": []
+    },
+    "slots": [
+      {
+        "id": "ccb3-8ee6-568d-eee9",
+        "label": "Squad ranged weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "58c5-35f8-3823-bf60",
+            "label": "EtaCarn plasma gun",
+            "sWs": [
+              [
+                2,
+                3,
+                7,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "0263-c056-d80a-2192",
+            "label": "Volkanite disintegrator",
+            "sWs": [
+              [
+                3,
+                3,
+                5,
+                0,
+                1,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d243-2501-7db6-ba08",
+        "label": "Squad melee weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "62a4-5af9-8d4d-9d0d",
+            "label": "Concussion gauntlet",
+            "mWs": [
+              [
+                2,
+                3,
+                8,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "b37a-91d6-b8b2-f879",
+            "label": "Plasma blade gauntlet",
+            "mWs": [
+              [
+                3,
+                3,
+                6,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2d48-f92f-50fa-df9f",
+        "label": "Ranged weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "8619-9766-108e-f579",
+            "label": "EtaCarn plasma gun",
+            "sWs": [
+              [
+                2,
+                3,
+                7,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "ee96-471c-ef12-d689",
+            "label": "Volkanite disintegrator",
+            "sWs": [
+              [
+                3,
+                3,
+                5,
+                0,
+                1,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6be0-87e2-a6a6-4d89",
+        "label": "Exchange melee weapon for hammer",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "4af9-1fdc-54b3-617a",
+            "label": "Concussion gauntlet",
+            "mWs": [
+              [
+                2,
+                3,
+                8,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e5aa-490d-0302-1725",
+            "label": "Plasma blade gauntlet",
+            "mWs": [
+              [
+                3,
+                3,
+                6,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "65c7-0826-fdc5-4c70",
+            "label": "Graviton hammer",
+            "mWs": [
+              [
+                3,
+                4,
+                9,
+                -1,
+                3,
+                {
+                  "am3": 1,
+                  "av3": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "kahl",
+      "champion",
+      "uthar"
+    ]
+  },
+  "bs": {
+    "uid": "bs",
+    "unit": "Cthonian Beserks",
+    "faction": "votann",
+    "models": {
+      "5": 95,
+      "10": 190
+    },
+    "base": {
+      "sv": 5,
+      "inv": null,
+      "fnp": 4,
+      "W": 1,
+      "sWs": [],
+      "mWs": [
+        [
+          15,
+          4,
+          5,
+          -2,
+          3,
+          {
+            "av3": 1,
+            "am3": 1
+          }
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none",
+      "berehk"
+    ]
+  },
+  "tk": {
+    "uid": "tk",
+    "unit": "Brôkhyr Thunderkyn",
+    "faction": "votann",
+    "models": {
+      "3": 80,
+      "6": 170
+    },
+    "base": {
+      "sv": 3,
+      "inv": null,
+      "fnp": null,
+      "W": 2,
+      "sWs": [
+        [
+          9,
+          4,
+          6,
+          -1,
+          2,
+          {
+            "sustained": 2
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          6,
+          4,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "61ca-457c-aa33-d379",
+        "label": "Weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "4d0a-154d-c18d-9b8c",
+            "label": "Bolt cannon",
+            "sWs": [
+              [
+                3,
+                4,
+                6,
+                -1,
+                2,
+                {
+                  "sustained": 2
+                }
+              ]
+            ]
+          },
+          {
+            "id": "a726-7fd4-2f40-4fa8",
+            "label": "Graviton blast cannon",
+            "sWs": [
+              [
+                3,
+                4,
+                5,
+                -2,
+                3,
+                {
+                  "am3": 1,
+                  "av3": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "5fbe-6fb1-3b14-a22b",
+            "label": "SP conversion beamer",
+            "sWs": [
+              [
+                2,
+                4,
+                7,
+                -2,
+                3,
+                {
+                  "conv": 1,
+                  "let": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "ironmaster"
+    ]
+  },
+  "sv": {
+    "uid": "sv",
+    "unit": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+    "faction": "votann",
+    "models": {
+      "6": 170
+    },
+    "base": {
+      "sv": 2,
+      "inv": null,
+      "fnp": null,
+      "W": 3,
+      "sWs": [
+        [
+          6,
+          4,
+          6,
+          -1,
+          1,
+          {
+            "dev": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          2,
+          3,
+          6,
+          -2,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  },
+  "sm": {
+    "uid": "sm",
+    "unit": "Ironkin Steeljacks with Melee Weapons",
+    "faction": "votann",
+    "models": {
+      "6": 150
+    },
+    "base": {
+      "sv": 2,
+      "inv": null,
+      "fnp": null,
+      "W": 3,
+      "sWs": [
+        [
+          2,
+          4,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          3,
+          4,
+          10,
+          -2,
+          2,
+          {
+            "let": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "c775-3316-df7d-3fb8",
+        "label": "Melee Weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "c867-1c31-b019-febb",
+            "label": "Plasma sword",
+            "mWs": [
+              [
+                6,
+                3,
+                6,
+                -2,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "1625-bb6a-9990-094c",
+            "label": "Concussion gauntlet",
+            "mWs": [
+              [
+                3,
+                4,
+                10,
+                -2,
+                2,
+                {
+                  "let": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "ya": {
+    "uid": "ya",
+    "unit": "Hernkyn Yaegirs",
+    "faction": "votann",
+    "models": {
+      "10": 90
+    },
+    "base": {
+      "sv": 5,
+      "inv": null,
+      "fnp": null,
+      "W": 1,
+      "sWs": [
+        [
+          2,
+          4,
+          5,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          1,
+          4,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  },
+  "pi": {
+    "uid": "pi",
+    "unit": "Hernkyn Pioneers",
+    "faction": "votann",
+    "models": {
+      "3": 80,
+      "6": 160
+    },
+    "base": {
+      "sv": 4,
+      "inv": null,
+      "fnp": null,
+      "W": 3,
+      "sWs": [
+        [
+          1,
+          4,
+          5,
+          0,
+          1,
+          {}
+        ],
+        [
+          2,
+          4,
+          5,
+          0,
+          1,
+          {}
+        ],
+        [
+          3,
+          4,
+          7,
+          -1,
+          2,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          2,
+          4,
+          4,
+          -2,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  },
+  "es": {
+    "uid": "es",
+    "unit": "Cthonian Earthshakers",
+    "faction": "votann",
+    "models": {
+      "2": 100
+    },
+    "base": {
+      "sv": 4,
+      "inv": null,
+      "fnp": null,
+      "W": 6,
+      "sWs": [
+        [
+          4.5,
+          4,
+          10,
+          -1,
+          2,
+          {
+            "dev": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          8,
+          3,
+          5,
+          -2,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "407f-7414-00fe-a189",
+        "label": "Main weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "9170-fbc8-e679-4182",
+            "label": "Breacher ordnance",
+            "sWs": [
+              [
+                4.5,
+                5,
+                10,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "84ba-4fd7-04ed-d283",
+            "label": "Tremor shells",
+            "sWs": [
+              [
+                7.5,
+                5,
+                6,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "hf": {
+    "uid": "hf",
+    "unit": "Hekaton Land Fortress",
+    "faction": "votann",
+    "models": {
+      "1": 250
+    },
+    "base": {
+      "sv": 2,
+      "inv": null,
+      "fnp": null,
+      "W": 16,
+      "sWs": [
+        [
+          4,
+          4,
+          10,
+          -2,
+          4,
+          {
+            "con": 1,
+            "let": 1
+          }
+        ],
+        [
+          6,
+          4,
+          6,
+          -1,
+          2,
+          {
+            "sustained": 2,
+            "tl": 1
+          }
+        ],
+        [
+          6,
+          4,
+          7,
+          -1,
+          2,
+          {
+            "sustained": 1
+          }
+        ]
+      ],
+      "mWs": []
+    },
+    "slots": [
+      {
+        "id": "c800-24e7-4c01-efc2",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "8376-0494-75e0-8ea2",
+            "label": "Armoured wheels",
+            "mWs": [
+              [
+                6,
+                4,
+                8,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "8d16-a849-dd95-997f",
+            "label": "MATR autocannon",
+            "sWs": [
+              [
+                6,
+                4,
+                7,
+                -1,
+                2,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "8bd8-ce25-04fb-0707",
+        "label": "Main weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "6a5d-d311-99dc-aa34",
+            "label": "SP heavy conversion beamer",
+            "sWs": [
+              [
+                4,
+                4,
+                10,
+                -2,
+                4,
+                {
+                  "conv": 1,
+                  "let": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "d4d5-abd4-b267-340f",
+            "label": "Heavy magna-rail cannon",
+            "sWs": [
+              [
+                2,
+                4,
+                18,
+                -4,
+                7.5,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "542-3f3e-969b-c932",
+            "label": "Cyclic ion cannon",
+            "sWs": [
+              [
+                5.5,
+                4,
+                7,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ed73-88aa-f7af-8490",
+        "label": "Sponson weapons",
+        "pick": {
+          "min": 2,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "c84b-96c6-419b-fa92",
+            "label": "Twin ion beamer",
+            "sWs": [
+              [
+                3,
+                4,
+                8,
+                -2,
+                1,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "43cd-5e9f-e550-83e0",
+            "label": "Twin bolt cannon",
+            "sWs": [
+              [
+                3,
+                4,
+                6,
+                -1,
+                2,
+                {
+                  "sustained": 2,
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "sg": {
+    "uid": "sg",
+    "unit": "Sagitaur",
+    "faction": "votann",
+    "models": {
+      "1": 85
+    },
+    "base": {
+      "sv": 3,
+      "inv": null,
+      "fnp": null,
+      "W": 9,
+      "sWs": [
+        [
+          2,
+          4,
+          12,
+          -3,
+          4.5,
+          {}
+        ],
+        [
+          3,
+          4,
+          6,
+          -1,
+          2,
+          {
+            "sustained": 2,
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": []
+    },
+    "slots": [
+      {
+        "id": "f345-ef22-665e-8149",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "97ff-6dbb-8293-7243",
+            "label": "Armoured wheels",
+            "mWs": [
+              [
+                3,
+                4,
+                6,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "43cd-5e9f-e550-83e0",
+            "label": "Twin bolt cannon",
+            "sWs": [
+              [
+                3,
+                4,
+                6,
+                -1,
+                2,
+                {
+                  "sustained": 2,
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "kd": {
+    "uid": "kd",
+    "unit": "Kapricus Defenders",
+    "faction": "votann",
+    "models": {
+      "1": 70
+    },
+    "base": {
+      "sv": 4,
+      "inv": null,
+      "fnp": null,
+      "W": 7,
+      "sWs": [
+        [
+          1,
+          4,
+          14,
+          -4,
+          4.5,
+          {
+            "dev": 1
+          }
+        ],
+        [
+          3,
+          4,
+          7,
+          -1,
+          2,
+          {
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": []
+    },
+    "slots": [
+      {
+        "id": "56bd-02fb-932d-236b",
+        "label": "Weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "c96f-9f3d-8a0b-7bda",
+            "label": "Magna-rail cannon ",
+            "sWs": [
+              [
+                1,
+                4,
+                14,
+                -4,
+                5,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "0a28-6bcb-a0bc-b869",
+            "label": "HYLas rotary cannon",
+            "sWs": [
+              [
+                6,
+                4,
+                6,
+                -1,
+                2,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "bu": {
+    "uid": "bu",
+    "unit": "Buri Aegnirssen",
+    "faction": "votann",
+    "models": {
+      "1": 95
+    },
+    "base": {
+      "sv": 3,
+      "inv": 4,
+      "fnp": null,
+      "W": 5,
+      "sWs": [
+        [
+          1,
+          2,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          12,
+          -3,
+          3,
+          {}
+        ],
+        [
+          10,
+          2,
+          6,
+          -2,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  },
+  "ch": {
+    "uid": "ch",
+    "unit": "Einhyr Champion",
+    "faction": "votann",
+    "models": {
+      "1": 65
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 5,
+      "sWs": [
+        [
+          4,
+          2,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          3,
+          3,
+          12,
+          -3,
+          4.5,
+          {}
+        ],
+        [
+          2.25,
+          2,
+          99,
+          0,
+          1,
+          {
+            "dev": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "efc5-6144-fcf2-f366",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "6a0b-0a93-2494-57f9",
+            "label": "Autoch-pattern combi-bolter",
+            "sWs": [
+              [
+                4,
+                2,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aab6-e41b-da7f-10ed",
+        "label": "Melee weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "d302-52a9-ef8a-d430",
+            "label": "Mass hammer",
+            "mWs": [
+              [
+                3,
+                3,
+                12,
+                -3,
+                4.5,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "ac4f-c500-41ba-07cf",
+            "label": "Darkstar axe",
+            "mWs": [
+              [
+                6,
+                2,
+                6,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "ak": {
+    "uid": "ak",
+    "unit": "Arkanyst Evaluator",
+    "faction": "votann",
+    "models": {
+      "1": 70
+    },
+    "base": {
+      "sv": 3,
+      "inv": null,
+      "fnp": null,
+      "W": 4,
+      "sWs": [
+        [
+          3,
+          2,
+          8,
+          -3,
+          3,
+          {
+            "sustained": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          1,
+          4,
+          3,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "de09-dafd-ce50-8a4c",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "b55e-7811-b05a-5f38",
+            "label": "Transmatter inverter",
+            "sWs": [
+              [
+                4,
+                2,
+                8,
+                -1,
+                1,
+                {}
+              ],
+              [
+                5,
+                2,
+                8,
+                -2,
+                2,
+                {}
+              ],
+              [
+                6,
+                2,
+                8,
+                -3,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "facf-684d-ff54-cf3d",
+            "label": "Close combat weapon",
+            "mWs": [
+              [
+                1,
+                4,
+                3,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  }
+}
