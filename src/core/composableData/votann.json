@@ -250,7 +250,7 @@
         "id": "6be0-87e2-a6a6-4d89",
         "label": "Exchange melee weapon for hammer",
         "pick": {
-          "min": 0,
+          "min": 1,
           "max": 1
         },
         "choices": [
@@ -384,8 +384,8 @@
         "id": "61ca-457c-aa33-d379",
         "label": "Weapon",
         "pick": {
-          "min": 1,
-          "max": 1
+          "min": 3,
+          "max": 6
         },
         "choices": [
           {
@@ -702,8 +702,8 @@
         "id": "407f-7414-00fe-a189",
         "label": "Main weapon",
         "pick": {
-          "min": 1,
-          "max": 1
+          "min": 2,
+          "max": 2
         },
         "choices": [
           {

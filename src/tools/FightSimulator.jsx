@@ -1,18 +1,21 @@
 import { useMemo, useEffect } from "react";
 import { calcWs } from "../core/engine.js";
 import { FACTIONS, FACTION_KEYS } from "../core/registry.js";
+import { COMPOSABLE } from "../core/composableRegistry.js";
+import { resolveBuild } from "../core/composableUnit.js";
 import { buildCombo } from "../core/combo.js";
 import { getDetBuff, applyBuff } from "../core/buffs.js";
 import { usePersistedState, serializeWithSets, deserializeWithSets } from "../hooks/usePersistedState.js";
 import { C, Btn } from "../components/ui.jsx";
-import FactionConfigPanel from "../components/FactionConfigPanel.jsx";
+import UnitBuilder from "../components/UnitBuilder.jsx";
+import DetachmentPanel from "../components/DetachmentPanel.jsx";
 
 // Each faction module now exports DEFENSE (per-uid Toughness/Vehicle/Monster,
 // sourced from the real datasheets in ref/) - see the DEFENSE export at the
 // top of each src/factions/*.js file. This lets a unit act as a TARGET, which
 // nothing before Fight Simulator ever needed.
 const emptySide = faction => ({
-    faction, unitId: null, charKey: "none",
+    faction, uid: null, modelCount: null, slotChoices: {}, charKey: "none",
     activeDets: new Set(), detOpts: {},
 });
 
@@ -27,21 +30,39 @@ const toggleInSet = (set, item) => { const n = new Set(set); n.has(item) ? n.del
 
 function resolveSide(side, { inclShoot, inclMelee }) {
     const fd = FACTIONS[side.faction];
-    const unit = side.unitId ? fd.units.find(u => u.id === side.unitId) : null;
-    if (!unit) return null;
+    const family = side.uid ? COMPOSABLE[side.faction][side.uid] : null;
+    if (!family || !side.modelCount) return null;
+
+    const built = resolveBuildSafe(family, side.modelCount, side.slotChoices);
+    const basePts = family.models[side.modelCount] ?? 0;
+    // buildCombo() expects a plain unit-shaped object (pts/W/sv/inv/fnp/sWs/mWs/m) -
+    // the composable build result already matches that shape once pts is resolved
+    // from a delta to an absolute value, so character attachment reuses the exact
+    // same logic the Faction Unit Evaluator uses, unchanged.
+    const asUnit = { pts: basePts + built.ptsDelta, W: built.W, sv: built.sv, inv: built.inv, fnp: built.fnp, sWs: built.sWs, mWs: built.mWs, m: side.modelCount, uid: side.uid };
     const char = fd.chars[side.charKey] || fd.chars.none;
-    const combo = buildCombo(unit, char);
-    const buff = getDetBuff(unit, side.charKey, { activeDets: side.activeDets, detOpts: side.detOpts, DETACHMENTS: fd.dets });
+    const combo = buildCombo(asUnit, char);
+    const buff = getDetBuff(asUnit, side.charKey, { activeDets: side.activeDets, detOpts: side.detOpts, DETACHMENTS: fd.dets });
     const bh = (side.faction === "votann") ? 1 : 0; // Votann YP assumed active, same default as the Evaluator
     const unitBh = bh + buff.bhBonus;
     const sWs = inclShoot ? applyBuff(combo.sWs, buff, true) : null;
     const mWs = inclMelee ? applyBuff(combo.mWs, buff, false) : null;
     const pts = combo.pts + buff.enhancementPts;
-    const totalWounds = unit.m * combo.W;
-    const def = fd.defense[unit.uid] || { T: 6, veh: false, mon: false };
+    const totalWounds = side.modelCount * combo.W;
+    const def = fd.defense[side.uid] || { T: 6, veh: false, mon: false };
     const target = { T: def.T, sv: combo.sv, inv: combo.inv, fnp: combo.fnp, veh: def.veh, mon: def.mon };
     const keyword = def.veh ? "Vehicle" : def.mon ? "Monster" : "Infantry";
-    return { unit, combo, buff, unitBh, sWs, mWs, pts, totalWounds, target, def, keyword, label: `${unit.unit}${char.name !== "None" ? ` +${char.name}` : ""} — ${unit.label}` };
+    return { combo, buff, unitBh, sWs, mWs, pts, totalWounds, target, def, keyword, label: `${family.unit}${char.name !== "None" ? ` +${char.name}` : ""}` };
+}
+
+// resolveBuild expects slotChoices with only valid slot ids for THIS family -
+// guards against a stale slotChoices object left over from a different unit
+// (e.g. right after switching which unit is selected).
+function resolveBuildSafe(family, modelCount, slotChoices) {
+    const validIds = new Set(family.slots.map(s => s.id));
+    const cleaned = {};
+    for (const [k, v] of Object.entries(slotChoices || {})) if (validIds.has(k)) cleaned[k] = v;
+    return resolveBuild(family, { modelCount, slotChoices: cleaned });
 }
 
 function dmgPerRound(attacker, defenderTarget, bh) {
@@ -52,37 +73,68 @@ function dmgPerRound(attacker, defenderTarget, bh) {
 
 function SidePanel({ label, side, onChange, dpCap = 3 }) {
     const fd = FACTIONS[side.faction];
+    const family = side.uid ? COMPOSABLE[side.faction][side.uid] : null;
     const setSide = patch => onChange({ ...side, ...patch });
+    const uidOptions = Object.keys(COMPOSABLE[side.faction]).sort((a, b) =>
+        COMPOSABLE[side.faction][a].unit.localeCompare(COMPOSABLE[side.faction][b].unit));
+
     return (
         <div style={{ flex: "1 1 380px", minWidth: 320 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6, flexWrap: "wrap" }}>
                 <span style={{ fontSize: 12, fontWeight: 900, color: C.tx }}>{label}</span>
                 <select value={side.faction} onChange={e => onChange(emptySide(e.target.value))}
                     style={{ fontSize: 11, padding: "2px 6px", background: C.bg3, color: C.tx, border: `1px solid ${C.bdr2}`, borderRadius: 3, cursor: "pointer" }}>
                     {FACTION_KEYS.map(f => <option key={f} value={f}>{FACTIONS[f].label}</option>)}
                 </select>
+                <select value={side.uid || ""} onChange={e => setSide({ uid: e.target.value || null, modelCount: null, slotChoices: {}, charKey: "none" })}
+                    style={{ fontSize: 11, padding: "2px 6px", background: C.bg3, color: C.tx, border: `1px solid ${C.bdr2}`, borderRadius: 3, cursor: "pointer" }}>
+                    <option value="">Pick a unit...</option>
+                    {uidOptions.map(uid => <option key={uid} value={uid}>{COMPOSABLE[side.faction][uid].unit}</option>)}
+                </select>
             </div>
-            <FactionConfigPanel
-                faction={side.faction} fd={fd} singleSelect
-                visibleIds={side.unitId ? new Set([side.unitId]) : new Set()}
-                onToggleVisible={rawId => setSide({ unitId: rawId, charKey: "none" })}
-                onToggleUidGroup={() => {}}
-                charSel={{ [side.unitId]: new Set([side.charKey]) }}
-                onToggleChar={(rawId, ck) => setSide({ charKey: ck })}
-                activeDets={side.activeDets}
-                onToggleDet={detId => setSide({ activeDets: toggleInSet(side.activeDets, detId) })}
-                onClearDets={() => setSide({ activeDets: new Set() })}
-                dpCap={dpCap}
-                detOpts={side.detOpts}
-                onSetDetOpt={(detId, optKey) => setSide({ detOpts: { ...side.detOpts, [detId]: optKey } })}
-            />
+
+            {family && (
+                <>
+                    <UnitBuilder family={family}
+                        value={{ modelCount: side.modelCount ?? Math.min(...Object.keys(family.models).map(Number)), slotChoices: side.slotChoices }}
+                        onChange={v => setSide(v)} />
+
+                    {family.chars && family.chars.length > 1 && (
+                        <div style={{ marginTop: 8, display: "flex", flexWrap: "wrap", gap: 3 }}>
+                            {family.chars.map(ck => {
+                                const ch = fd.chars[ck]; if (!ch) return null;
+                                const on = side.charKey === ck;
+                                return (
+                                    <button key={ck} onClick={() => setSide({ charKey: ck })}
+                                        style={{
+                                            fontSize: 9, padding: "2px 6px", borderRadius: 3, cursor: "pointer",
+                                            border: `1px solid ${on ? C.pur : C.bdr2}`,
+                                            background: on ? `${C.pur}22` : "transparent",
+                                            color: on ? C.pur : C.vdim
+                                        }}>
+                                        {ck === "none" ? "Base" : `+${ch.name}${ch.pts > 0 ? ` (${ch.pts}pt)` : ""}`}
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    )}
+
+                    <div style={{ marginTop: 8 }}>
+                        <DetachmentPanel dets={fd.dets} activeDets={side.activeDets}
+                            onToggleDet={detId => setSide({ activeDets: toggleInSet(side.activeDets, detId) })}
+                            onClearDets={() => setSide({ activeDets: new Set() })}
+                            dpCap={dpCap} detOpts={side.detOpts}
+                            onSetDetOpt={(detId, optKey) => setSide({ detOpts: { ...side.detOpts, [detId]: optKey } })} />
+                    </div>
+                </>
+            )}
         </div>
     );
 }
 
 export default function FightSimulator() {
     const [state, setState, reset] = usePersistedState(
-        "40ktools.fightsim", DEFAULT_STATE,
+        "40ktools.fightsim.v2", DEFAULT_STATE,
         { serialize: serializeWithSets, deserialize: deserializeWithSets }
     );
     const { sideA, sideB, inclShoot, inclMelee } = state;

@@ -82,7 +82,7 @@
         "id": "e0fc-e1e9-eb95-5da8",
         "label": "Weapon",
         "pick": {
-          "min": 1,
+          "min": 0,
           "max": 1
         },
         "choices": [

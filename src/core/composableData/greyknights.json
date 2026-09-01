@@ -40,7 +40,7 @@
         "id": "c9a0-cf4e-fb96-6bf1",
         "label": "Weapon Choice",
         "pick": {
-          "min": 1,
+          "min": 0,
           "max": 1
         },
         "choices": [
@@ -108,7 +108,7 @@
         "id": "c1b7-ce3c-faf0-2090",
         "label": "Heavy Weapon",
         "pick": {
-          "min": 1,
+          "min": 0,
           "max": 1
         },
         "choices": [
@@ -207,7 +207,7 @@
         "id": "c5d2-640d-6bd-6b71",
         "label": "Heavy Weapon",
         "pick": {
-          "min": 1,
+          "min": 0,
           "max": 1
         },
         "choices": [
@@ -305,7 +305,7 @@
         "id": "f8cc-ac46-67b2-46f6",
         "label": "Storm Bolter",
         "pick": {
-          "min": 1,
+          "min": 0,
           "max": 1
         },
         "choices": [
@@ -373,8 +373,8 @@
         "id": "a890-27d0-cd5-b20",
         "label": "Heavy Weapon",
         "pick": {
-          "min": 1,
-          "max": 1
+          "min": 0,
+          "max": 2
         },
         "choices": [
           {

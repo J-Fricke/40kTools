@@ -44,14 +44,42 @@
 //   chars: ["none", "bc", "chap", ...],  // unchanged from today's convention
 // }
 //
+// `base.sWs`/`base.mWs` weapon arrays are PER MODEL (one model's storm bolter,
+// one model's melee weapon, etc.) - the engine's calcWs() expects a unit-total
+// shots count, so resolveBuild scales each entry by how many models are still
+// on the base loadout before handing it off.
+function scaleWeapons(ws, n) {
+    if (!ws || n <= 0) return [];
+    return ws.map(([shots, skill, s, ap, d, tags]) => [shots * n, skill, s, ap, d, tags]);
+}
+
 // resolveBuild: given a unit family definition and a chosen configuration
 // (model count + chosen choice ids per slot), produce the same {pts, W, sv,
 // inv, fnp, sWs, mWs} shape buildCombo() already expects - so the rest of the
 // pipeline (getDetBuff, applyBuff, calcWs) doesn't need to know a unit was
 // ever composable in the first place.
+//
+// Slot choices follow GW's overwhelmingly-common wargear pattern - "N of this
+// unit's models can replace their default weapon with 1 of: A/B/C" - so each
+// selected choice id is treated as 1 model stepping out of the base loadout
+// to take the choice's weapon(s) instead. Ranged and melee are tracked
+// separately: a choice that only carries a ranged weapon (the overwhelmingly
+// common case - basic gun swapped for a special/heavy weapon) only steps that
+// model out of the base RANGED count, leaving its base melee weapon (e.g. a
+// Paladin's Nemesis force weapon) untouched - and symmetrically for a
+// melee-only choice. A choice carrying both steps the model out of both.
 export function resolveBuild(family, { modelCount, slotChoices }) {
-    let sWs = [...(family.base.sWs || [])];
-    let mWs = [...(family.base.mWs || [])];
+    let modelsSwappedRanged = 0, modelsSwappedMelee = 0;
+    for (const slot of family.slots || []) {
+        for (const choiceId of (slotChoices?.[slot.id] || [])) {
+            const choice = slot.choices.find(c => c.id === choiceId);
+            if (!choice) continue;
+            if (choice.sWs) modelsSwappedRanged++;
+            if (choice.mWs) modelsSwappedMelee++;
+        }
+    }
+    let sWs = scaleWeapons(family.base.sWs, Math.max(0, modelCount - modelsSwappedRanged));
+    let mWs = scaleWeapons(family.base.mWs, Math.max(0, modelCount - modelsSwappedMelee));
     let ptsDelta = 0;
     for (const slot of family.slots || []) {
         const chosen = (slotChoices?.[slot.id] || []);

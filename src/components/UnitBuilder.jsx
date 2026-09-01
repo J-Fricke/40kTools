@@ -4,27 +4,35 @@ import { C } from "./ui.jsx";
 
 // ─── UNIT BUILDER ───────────────────────────────────────────────────────────
 // Configure one unit from a composable family definition (base profile +
-// wargear slots + choices per slot, see src/core/composableUnit.js) and add
-// the resolved result to a compare list - replaces picking from a pre-baked
-// list of every loadout combination as a separate row.
+// wargear slots + choices per slot, see src/core/composableUnit.js).
+//
+// Two usage modes:
+//  - Uncontrolled + `onAdd`: the component owns its own config state and
+//    exposes an "Add" button that hands the caller a resolved, immutable
+//    snapshot - for a compare-list style UI (Faction Unit Evaluator).
+//  - Controlled via `value`/`onChange`: the caller owns {modelCount,
+//    slotChoices} and re-renders live as it changes, no Add button - for a
+//    single-live-instance UI (Fight Simulator's one-unit-per-side).
+// Pass either `onAdd` or `value`+`onChange`, not both.
 //
 // `family.models` is {modelCount: basePts} sourced from OUR OWN MFM-verified
 // data, not BSData - see project memory for why. `family.slots[].choices[]`
 // carry their own weapon arrays (sWs/mWs) and an optional ptsDelta.
-export default function UnitBuilder({ family, onAdd }) {
+export default function UnitBuilder({ family, onAdd, value, onChange }) {
     const sizes = Object.keys(family.models).map(Number).sort((a, b) => a - b);
-    const [modelCount, setModelCount] = useState(sizes[0]);
-    const [slotChoices, setSlotChoices] = useState({}); // slotId -> [choiceId,...]
+    const controlled = value != null && onChange != null;
+    const [localState, setLocalState] = useState(() => ({ modelCount: sizes[0], slotChoices: {} }));
+    const { modelCount, slotChoices } = controlled ? value : localState;
+    const setState = patch => controlled ? onChange({ ...value, ...patch }) : setLocalState(prev => ({ ...prev, ...patch }));
 
     const setSlot = (slotId, choiceId, max) => {
-        setSlotChoices(prev => {
-            const cur = prev[slotId] || [];
-            if (max === 1) return { ...prev, [slotId]: cur[0] === choiceId ? [] : [choiceId] };
-            const has = cur.includes(choiceId);
-            if (has) return { ...prev, [slotId]: cur.filter(id => id !== choiceId) };
-            if (cur.length >= max) return prev; // slot full
-            return { ...prev, [slotId]: [...cur, choiceId] };
-        });
+        const cur = slotChoices[slotId] || [];
+        let next;
+        if (max === 1) next = cur[0] === choiceId ? [] : [choiceId];
+        else if (cur.includes(choiceId)) next = cur.filter(id => id !== choiceId);
+        else if (cur.length >= max) next = cur; // slot full
+        else next = [...cur, choiceId];
+        setState({ slotChoices: { ...slotChoices, [slotId]: next } });
     };
 
     const resolved = resolveBuild(family, { modelCount, slotChoices });
@@ -38,7 +46,7 @@ export default function UnitBuilder({ family, onAdd }) {
                 {sizes.length > 1 && (
                     <label style={{ fontSize: 10, color: C.sub, display: "flex", alignItems: "center", gap: 5 }}>
                         Models
-                        <select value={modelCount} onChange={e => setModelCount(Number(e.target.value))}
+                        <select value={modelCount} onChange={e => setState({ modelCount: Number(e.target.value) })}
                             style={{ fontSize: 11, padding: "2px 4px", background: C.bg3, color: C.tx, border: `1px solid ${C.bdr2}`, borderRadius: 3 }}>
                             {sizes.map(m => <option key={m} value={m}>{m}</option>)}
                         </select>
@@ -47,6 +55,7 @@ export default function UnitBuilder({ family, onAdd }) {
                 <span style={{ fontSize: 11, color: C.amb, fontWeight: 700, marginLeft: "auto" }}>{totalPts}pts</span>
             </div>
 
+            {family.slots.length === 0 && <div style={{ fontSize: 10, color: C.vdim, marginBottom: 4 }}>Fixed loadout - no wargear options.</div>}
             {family.slots.map(slot => (
                 <div key={slot.id} style={{ marginBottom: 8 }}>
                     <div style={{ fontSize: 9, color: C.dim, textTransform: "uppercase", marginBottom: 3 }}>
@@ -71,10 +80,12 @@ export default function UnitBuilder({ family, onAdd }) {
                 </div>
             ))}
 
-            <button onClick={() => onAdd({ ...resolved, pts: totalPts, unit: family.unit, uid: family.uid })}
-                style={{ fontSize: 11, fontWeight: 700, padding: "5px 12px", borderRadius: 4, cursor: "pointer", border: `1px solid ${C.grn}`, background: `${C.grn}22`, color: C.grn, marginTop: 4 }}>
-                + Add to compare list
-            </button>
+            {onAdd && (
+                <button onClick={() => onAdd({ ...resolved, pts: totalPts, unit: family.unit, uid: family.uid })}
+                    style={{ fontSize: 11, fontWeight: 700, padding: "5px 12px", borderRadius: 4, cursor: "pointer", border: `1px solid ${C.grn}`, background: `${C.grn}22`, color: C.grn, marginTop: 4 }}>
+                    + Add to compare list
+                </button>
+            )}
         </div>
     );
 }
