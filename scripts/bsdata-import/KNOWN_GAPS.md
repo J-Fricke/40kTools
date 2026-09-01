@@ -40,6 +40,49 @@ Champion, Arkanyst Evaluator.
 **Chaos Knights** (20 of 20 - every unit in this faction is single-model):
 all of them.
 
+## The second systemic pattern: named fixed-loadout model variants (zero slots)
+
+Found 2026-09-01 while hands-on testing the wired-up Unit Builder in Fight
+Simulator: 21 of 74 units come back with `slots: []` (fixed loadout, no
+wargear options at all) even though the real unit has genuine options -
+Custodian Guard being the flagship example the user hit immediately.
+
+Root cause: `extractSlots.mjs` was written and proven against Paladin
+Squad's BSData shape - one base model plus a separate "swap group" (pick 1
+of Incinerator/Psycannon/Psilencer for a model). A second, at least equally
+common shape exists that shape-detection never learned: the squad-size
+container holds several **named, already-fully-built model variants** as
+direct siblings, with no inner "pick 1 of N" group at all -
+`"Custodian Guard (Guardian Spear)"`, `"Custodian Guard (Sentinel Blade &
+Praesidium Shield)"`, `"Custodian Guard (Vexilla, Praesidium Shield &
+Misericordia)"`. Building the squad *is* choosing how many of each named
+variant to take - `extractSlots` correctly finds no swap group (there isn't
+one) and returns nothing, so `extractBase`'s "no ' with ' in the name"
+heuristic just happens to grab ONE variant (whichever survives the regex)
+as if it were the unit's only loadout.
+
+Affected (21 of 74) - **Grey Knights** (3): Interceptor Squad, Purgation
+Squad, Purifier Squad. **Custodes** (13, hit hardest - this is its
+dominant squad pattern): Custodian Guard, Allarus Custodians, Sagittarum
+Custodians, Vertus Praetors, Venatari Custodians, Agamatus Custodians,
+Aquilon Custodians, Custodian Guard with Adrasite and Pyrithite spears,
+Prosecutors, Vigilators, Witchseekers, Trajann Valoris, Valerian.
+**Votann** (5): Cthonian Beserks, Ironkin Steeljacks with Heavy Volkanite
+Disintegrators, Hernkyn Yaegirs, Hernkyn Pioneers, Buri Aegnirssen.
+
+**User's explicit call (2026-09-01)**: ship the Unit Builder wired into
+Fight Simulator with these 21 units at fixed-loadout-only for now, revisit
+in a dedicated pass rather than blocking on it. If picked up later: the fix
+is a second recognized shape in `extractSlots.mjs` - detect a squad-size
+group whose children are multiple named model variants (not a `selectionEntryGroups`
+with weapon-only children, `extractSlots`'s current only trigger), resolve
+each variant's own fixed weapons (reusing/extending `extractBase`'s
+`directWeaponEntries` per-variant), treat whichever variant `extractBase`
+already selected as the family's `base`, and expose the OTHER variants as
+choices in a synthesized slot (their own `selections`/`scope:"parent"` cap,
+via the same `getVariantCap()` used for Paladin's Heavy Weapon slot, becomes
+that choice's max pick count).
+
 ## Specific confirmed real BSData data gaps (not just structural ambiguity)
 
 - **Land Raider Redeemer (`lrr`, Grey Knights)**: BSData's catalogue does not
