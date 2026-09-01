@@ -6,6 +6,13 @@ an automated import silently drop or corrupt it. Revisit once the main
 architecture (schema, extraction, Unit Builder UI, wiring into both tools)
 is functional across all four factions.
 
+**Tracked as GitHub issues as of 2026-09-01** - this file stays as the
+detailed writeup, but the actionable to-do list now lives at
+https://github.com/J-Fricke/40kTools/issues (#1 named-variant slots, #2
+base-weapon fallback, #3 LRR flamestorm cannons, #4 wargear points, #6
+coverage audit, #7 unrecognized keywords). Check there for current status
+before assuming something below is still open.
+
 ## The systemic pattern: single-model "vehicle-shape" units
 
 Confirmed across all four factions, not GK-specific: squads (Paladin Squad,
