@@ -5,6 +5,7 @@ import { buildFamily } from "./buildFamily.mjs";
 import { resolveProfiles } from "./weaponHelpers.mjs";
 import { ourSizeTiers } from "./ourSizeTiers.mjs";
 import { applyWargearPoints } from "./wargearPoints.mjs";
+import { applyHardpointTags } from "./hardpointMap.mjs";
 import { FACTIONS } from "../../src/core/registry.js";
 
 const ADMIN = new Set(["Detachment", "Show/Hide Options", "Order of Battle"]);
@@ -46,6 +47,7 @@ export function convertFaction({ factionKey, bsdataFile, nameMap, _preloaded }) 
             });
             if (fallbackSWs) { family.base.sWs = fallbackSWs; family.base.mWs = fallbackMWs; }
             applyWargearPoints(factionKey, uid, family);
+            applyHardpointTags(factionKey, uid, family);
             results[uid] = family;
         } catch (err) {
             gaps.push(`${uid} (${name}): CONVERSION FAILED - ${err.message}`);

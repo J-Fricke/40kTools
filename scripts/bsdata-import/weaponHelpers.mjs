@@ -24,7 +24,23 @@ export function resolveProfiles(entry, catalogue) {
         .filter(l => l.type === "profile")
         .map(l => (catalogue.sharedProfiles || []).find(p => p.id === l.targetId))
         .filter(Boolean);
-    return [...embedded, ...linked];
+    const all = [...embedded, ...linked];
+    // Carry a quantity multiplier (see directWeaponEntries' _qty) from the
+    // entry onto its own resolved profiles, so buildFamily.mjs's weapon-array
+    // resolution can multiply shots by it further downstream.
+    return entry._qty ? all.map(p => ({ ...p, _qty: entry._qty })) : all;
+}
+
+// An entryLink can carry its own "N copies of this weapon" constraint
+// (a min===max>1 "selections"/scope:"parent" constraint on the LINK itself,
+// not the resolved target) - found on Knight Tyrant's "2 Gheiststrike
+// missile launchers and 1 twin desecrator cannon" combo choice, where the
+// Gheiststrike link has min:2/max:2. Without reading this, a "2 of weapon
+// X, 1 of weapon Y" choice resolves both at ×1, silently under-counting.
+function entryLinkQty(link) {
+    const cs = (link.constraints || []).filter(c => c.field === "selections" && c.scope === "parent");
+    const min = cs.find(c => c.type === "min"), max = cs.find(c => c.type === "max");
+    return (min && max && min.value === max.value && min.value > 1) ? min.value : 1;
 }
 
 export function hasWeaponProfile(entry, catalogue) {
@@ -40,7 +56,10 @@ export function directWeaponEntries(node, catalogue) {
     for (const link of node.entryLinks || []) {
         if (link.type !== "selectionEntry") continue;
         const target = resolveEntry(catalogue, link.targetId);
-        if (target && hasWeaponProfile(target, catalogue)) out.push(target);
+        if (target && hasWeaponProfile(target, catalogue)) {
+            const qty = entryLinkQty(link);
+            out.push(qty > 1 ? { ...target, _qty: qty } : target);
+        }
     }
     return out;
 }

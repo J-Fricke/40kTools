@@ -15,6 +15,10 @@ function resolveWeaponArray(profile) {
     }
     let shots = diceAverage(w.rawShots);
     shots = shots * w.shotMultiplier + w.extraShots;
+    // A choice can bundle "N copies of this weapon" (see weaponHelpers.mjs's
+    // entryLinkQty) - profile._qty carries that through from the entryLink
+    // that pointed at this profile, multiplying total shots for N mounts.
+    if (profile._qty) shots *= profile._qty;
     const skill = w.skillRaw === "N/A" ? 2 : Number(w.skillRaw.replace("+", ""));
     return { array: [shots, skill, w.s, w.ap, Number(w.dRaw.match(/^-?\d+(\.\d+)?$/) ? w.dRaw : diceAverage(w.dRaw)), w.tags], isMelee: w.isMelee, name: w.name };
 }

@@ -87,11 +87,15 @@ export const UNITS = [
         mWs:[[4,3,14,-3,6,{av3:1,am3:1}],[10,3,9,-2,2,{}]]},
 
     // Knight Tyrant — T12, W28, sv3+, inv5 (ranged only) — 400/420
+    // sWs corrected 2026-09-02 (GitHub issue #22): gheiststrike missile
+    // launcher shots was 1, should be 2 (model has "2 gheiststrike missile
+    // launchers" per ref/chaos-knights-datasheets.txt); twin desecrator
+    // cannon was missing entirely from both rows.
     {id:"tyrant",     uid:"tyrant",  unit:"Knight Tyrant",           label:"Volcano Lance",              pts:400, pts10:null, m:1, W:28, sv:3, inv:5, fnp:null,
-        sWs:[[2,3,20,-5,11.5,{}],[6.5,3,9,-4,2,{}],[1,3,12,-6,4.5,{dev:1}],[2,3,9,-4,3.5,{tl:1}]],
+        sWs:[[2,3,20,-5,11.5,{}],[6.5,3,9,-4,2,{}],[2,3,12,-6,4.5,{dev:1}],[3.5,3,6,0,1,{tl:1}],[2,3,9,-4,3.5,{tl:1}]],
         mWs:[[4,4,8,-1,2,{}]]},
     {id:"tyrant_df",  uid:"tyrant",  unit:"Knight Tyrant",           label:"Darkflame Cannon",           pts:400, pts10:null, m:1, W:28, sv:3, inv:5, fnp:null,
-        sWs:[[12.6,3,8,-1,2,{}],[2,3,24,-6,12,{dev:1}],[1,3,12,-6,4.5,{dev:1}],[2,3,9,-4,3.5,{tl:1}]],
+        sWs:[[12.6,3,8,-1,2,{}],[2,3,24,-6,12,{dev:1}],[2,3,12,-6,4.5,{dev:1}],[3.5,3,6,0,1,{tl:1}],[2,3,9,-4,3.5,{tl:1}]],
         mWs:[[4,4,8,-1,2,{}]]},
 
     // ── CERASTUS KNIGHTS — T11, W28, sv3+ ────────────────────────────────────
