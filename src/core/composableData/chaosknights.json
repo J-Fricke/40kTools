@@ -1,0 +1,2542 @@
+{
+  "abom": {
+    "uid": "abom",
+    "unit": "Knight Abominant",
+    "faction": "chaosknights",
+    "models": {
+      "1": 355
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 26,
+      "sWs": [
+        [
+          12,
+          3,
+          12,
+          0,
+          3,
+          {
+            "dev": 1
+          }
+        ],
+        [
+          3,
+          3,
+          5,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          9,
+          3,
+          10,
+          -2,
+          3,
+          {
+            "sustained": 1
+          }
+        ],
+        [
+          3,
+          3,
+          8,
+          -1,
+          2,
+          {
+            "sustained": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "33dc-a75a-19ca-9d4e",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "bd23-9709-8dba-312e",
+            "label": "Balemace",
+            "mWs": [
+              [
+                3,
+                3,
+                8,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "f738-4e10-b894-f056",
+            "label": "Electroscourge",
+            "mWs": [
+              [
+                9,
+                3,
+                10,
+                -2,
+                3,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "7f9d-c996-4304-d9ab",
+            "label": "Volkite combustor",
+            "sWs": [
+              [
+                12,
+                3,
+                12,
+                0,
+                3,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "dfe8-cea0-8d16-db95",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "desc": {
+    "uid": "desc",
+    "unit": "Knight Desecrator",
+    "faction": "chaosknights",
+    "models": {
+      "1": 355
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 26,
+      "sWs": [
+        [
+          3,
+          2,
+          18,
+          -4,
+          6.5,
+          {
+            "devmv": 1
+          }
+        ],
+        [
+          3,
+          2,
+          5,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          12,
+          3,
+          9,
+          -3,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "6128-b4e5-e879-21fe",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "d6a1-5530-317a-4686",
+            "label": "Desecrator laser destructor",
+            "sWs": [
+              [
+                3,
+                2,
+                18,
+                -4,
+                6.5,
+                {
+                  "devmv": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "2b80-b811-01a8-1562",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                2,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ffd4-3748-8ded-ef0a",
+        "label": "Replace reaper chainsword",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "5eca-c264-36cf-172e",
+            "label": "Reaper chainsword",
+            "mWs": [
+              [
+                4,
+                3,
+                14,
+                -4,
+                6,
+                {}
+              ],
+              [
+                12,
+                3,
+                9,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "5623-efa6-bed8-fa42",
+            "label": "Warpstrike claw",
+            "mWs": [
+              [
+                4,
+                3,
+                20,
+                -3,
+                8,
+                {}
+              ],
+              [
+                8,
+                3,
+                10,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "desp": {
+    "uid": "desp",
+    "unit": "Knight Despoiler",
+    "faction": "chaosknights",
+    "models": {
+      "1": 360
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 26,
+      "sWs": [
+        [
+          1,
+          3,
+          9,
+          -4,
+          3.5,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          4,
+          3,
+          20,
+          -3,
+          8,
+          {}
+        ],
+        [
+          12,
+          3,
+          9,
+          -3,
+          2,
+          {}
+        ],
+        [
+          4,
+          4,
+          8,
+          -1,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "3018-3716-d944-ae36",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "3f41-4b71-a07b-506a",
+            "label": "Titanic feet",
+            "mWs": [
+              [
+                4,
+                4,
+                8,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d94e-6d0e-c5d3-30a3",
+        "label": "Carapace weapon",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "a37b-438f-7e62-486e",
+            "label": "Havoc missile pod",
+            "sWs": [
+              [
+                4.5,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "005c-b2d1-4432-415a",
+            "label": "Ruinspear rocket pod",
+            "sWs": [
+              [
+                3,
+                3,
+                8,
+                -2,
+                3.5,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "08ba-94c4-8833-a27d",
+            "label": "Hellstorm autocannons",
+            "sWs": [
+              [
+                3,
+                3,
+                7,
+                -1,
+                2,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "68b3-ab57-f708-140f",
+        "label": "Shoulder weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "dfe8-cea0-8d16-db95",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e0dc-e414-aa41-8ebd",
+            "label": "Daemonbreath meltagun",
+            "sWs": [
+              [
+                1,
+                3,
+                9,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "ramp": {
+    "uid": "ramp",
+    "unit": "Knight Rampager",
+    "faction": "chaosknights",
+    "models": {
+      "1": 355
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 26,
+      "sWs": [
+        [
+          3,
+          3,
+          5,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          18,
+          2,
+          9,
+          -3,
+          2,
+          {
+            "sustained": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "7ad7-78c1-ce8b-d787",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "e420-9e00-9c96-ce4a",
+            "label": "Reaper chainsword",
+            "mWs": [
+              [
+                6,
+                2,
+                14,
+                -4,
+                6,
+                {
+                  "sustained": 1
+                }
+              ],
+              [
+                18,
+                2,
+                9,
+                -3,
+                2,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "fe5b-e66a-4aa7-62e",
+            "label": "Warpstrike claw",
+            "mWs": [
+              [
+                6,
+                2,
+                20,
+                -3,
+                8,
+                {
+                  "sustained": 1
+                }
+              ],
+              [
+                12,
+                2,
+                10,
+                -2,
+                3,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "dfe8-cea0-8d16-db95",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "ruin": {
+    "uid": "ruin",
+    "unit": "Knight Ruinator",
+    "faction": "chaosknights",
+    "models": {
+      "1": 340
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 26,
+      "sWs": [
+        [
+          11.4,
+          3,
+          8,
+          -1,
+          2,
+          {}
+        ],
+        [
+          9.5,
+          3,
+          8,
+          -2,
+          2,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          4,
+          3,
+          14,
+          -3,
+          6,
+          {
+            "av3": 1,
+            "am3": 1
+          }
+        ],
+        [
+          10,
+          3,
+          9,
+          -2,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "3af4-5792-3b4b-c03f",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "b4ca-3419-c219-f429",
+            "label": "Darkflame lance",
+            "sWs": [
+              [
+                11.4,
+                2,
+                8,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "f075-4ccc-9a91-5e6d",
+            "label": "Fellbore",
+            "mWs": [
+              [
+                4,
+                3,
+                14,
+                -3,
+                6,
+                {
+                  "am3": 1,
+                  "av3": 1
+                }
+              ],
+              [
+                10,
+                3,
+                9,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "9e94-b7d4-ec7f-9163",
+            "label": "Terrorpulse missiles",
+            "sWs": [
+              [
+                9.5,
+                3,
+                8,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "tyrant": {
+    "uid": "tyrant",
+    "unit": "Knight Tyrant",
+    "faction": "chaosknights",
+    "models": {
+      "1": 400
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 28,
+      "sWs": [
+        [
+          2,
+          3,
+          20,
+          -5,
+          11.5,
+          {}
+        ],
+        [
+          6.5,
+          3,
+          9,
+          -4,
+          2,
+          {}
+        ],
+        [
+          1,
+          3,
+          12,
+          -6,
+          4.5,
+          {
+            "dev": 1
+          }
+        ],
+        [
+          2,
+          3,
+          9,
+          -4,
+          3.5,
+          {
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          4,
+          4,
+          8,
+          -1,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "575b-3eb5-4179-23d9",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "52fe-84a1-27cf-c9ce",
+            "label": "Titanic feet",
+            "mWs": [
+              [
+                4,
+                4,
+                8,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "65a3-e04c-fa08-2a01",
+            "label": "Twin daemonbreath meltagun",
+            "sWs": [
+              [
+                1,
+                3,
+                9,
+                -4,
+                3.5,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "ach": {
+    "uid": "ach",
+    "unit": "Chaos Cerastus Knight Acheron",
+    "faction": "chaosknights",
+    "models": {
+      "1": 370
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 28,
+      "sWs": [
+        [
+          8.4,
+          3,
+          8,
+          -1,
+          2,
+          {}
+        ],
+        [
+          3,
+          3,
+          5,
+          -1,
+          2,
+          {
+            "sustained": 1,
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          12,
+          3,
+          9,
+          -3,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "1efb-9072-5202-07ad",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "eab7-2fd-1641-4f4",
+            "label": "Acheron flame cannon",
+            "sWs": [
+              [
+                8.4,
+                2,
+                8,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "b4e0-25f1-54a4-4308",
+            "label": "Reaper chainfist",
+            "mWs": [
+              [
+                4,
+                3,
+                14,
+                -4,
+                6,
+                {}
+              ],
+              [
+                12,
+                3,
+                9,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "6423-b7ff-a468-7e6a",
+            "label": "Twin heavy bolter",
+            "sWs": [
+              [
+                3,
+                3,
+                5,
+                -1,
+                2,
+                {
+                  "sustained": 1,
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "atra": {
+    "uid": "atra",
+    "unit": "Chaos Cerastus Knight Atrapos",
+    "faction": "chaosknights",
+    "models": {
+      "1": 385
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 28,
+      "sWs": [
+        [
+          7,
+          3,
+          7,
+          -1,
+          2,
+          {
+            "sustained": 1
+          }
+        ],
+        [
+          3.5,
+          3,
+          14,
+          -3,
+          4,
+          {
+            "sustained": 1
+          }
+        ],
+        [
+          2,
+          3,
+          16,
+          -4,
+          4.5,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          6,
+          3,
+          14,
+          -3,
+          4,
+          {
+            "sustained": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "68e0-c460-8491-5b75",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "f57d-be6e-77e4-bfe3",
+            "label": "Atrapos lascutter",
+            "sWs": [
+              [
+                7,
+                3,
+                7,
+                -1,
+                2,
+                {
+                  "sustained": 1
+                }
+              ],
+              [
+                3.5,
+                3,
+                14,
+                -3,
+                4,
+                {
+                  "sustained": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                12,
+                3,
+                7,
+                -1,
+                2,
+                {
+                  "sustained": 1
+                }
+              ],
+              [
+                6,
+                3,
+                14,
+                -3,
+                4,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "7546-5742-581c-9e8b",
+            "label": "Graviton singularity cannon",
+            "sWs": [
+              [
+                2,
+                3,
+                16,
+                -4,
+                4.5,
+                {}
+              ],
+              [
+                2,
+                3,
+                16,
+                -4,
+                4.5,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "casti": {
+    "uid": "casti",
+    "unit": "Chaos Cerastus Knight Castigator",
+    "faction": "chaosknights",
+    "models": {
+      "1": 370
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 28,
+      "sWs": [
+        [
+          18,
+          3,
+          6,
+          -2,
+          2,
+          {
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          12,
+          3,
+          9,
+          -3,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "d82a-7e7f-ffdf-9ebb",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "8860-55c6-5ee9-227b",
+            "label": "Castigator bolt cannon",
+            "sWs": [
+              [
+                18,
+                3,
+                6,
+                -2,
+                2,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "fb4f-9321-e4de-99da",
+            "label": "Tempest warblade",
+            "mWs": [
+              [
+                4,
+                3,
+                14,
+                -4,
+                6,
+                {}
+              ],
+              [
+                12,
+                3,
+                9,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "lanc": {
+    "uid": "lanc",
+    "unit": "Chaos Cerastus Knight Lancer",
+    "faction": "chaosknights",
+    "models": {
+      "1": 385
+    },
+    "base": {
+      "sv": 3,
+      "inv": 4,
+      "fnp": null,
+      "W": 28,
+      "sWs": [
+        [
+          6,
+          3,
+          6,
+          0,
+          2,
+          {
+            "sustained": 2
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          10,
+          2,
+          10,
+          -2,
+          3,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "f815-dfdc-be4d-9a12",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "545a-eead-e216-5939",
+            "label": "Cerastus shock lance",
+            "sWs": [
+              [
+                6,
+                3,
+                6,
+                0,
+                2,
+                {
+                  "sustained": 2
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                20,
+                -3,
+                8,
+                {
+                  "w1": 1
+                }
+              ],
+              [
+                10,
+                2,
+                10,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "mag": {
+    "uid": "mag",
+    "unit": "Chaos Questoris Knight Magaera",
+    "faction": "chaosknights",
+    "models": {
+      "1": 375
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 26,
+      "sWs": [
+        [
+          12,
+          3,
+          9,
+          0,
+          2,
+          {
+            "sustained": 2
+          }
+        ],
+        [
+          2,
+          3,
+          8,
+          -3,
+          2,
+          {}
+        ],
+        [
+          4.2,
+          3,
+          2,
+          0,
+          1,
+          {
+            "ai": 1,
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          12,
+          3,
+          9,
+          -3,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "6bcd-fc7d-6947-223b",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "7152-d126-5030-8aaa",
+            "label": "Lightning cannon",
+            "sWs": [
+              [
+                12,
+                3,
+                9,
+                0,
+                2,
+                {
+                  "sustained": 2
+                }
+              ]
+            ]
+          },
+          {
+            "id": "49da-529d-d89f-71e3",
+            "label": "Phased plasma-fusil",
+            "sWs": [
+              [
+                4,
+                3,
+                8,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "sty": {
+    "uid": "sty",
+    "unit": "Chaos Questoris Knight Styrix",
+    "faction": "chaosknights",
+    "models": {
+      "1": 365
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 26,
+      "sWs": [
+        [
+          12,
+          3,
+          12,
+          0,
+          3,
+          {
+            "dev": 1
+          }
+        ],
+        [
+          3,
+          3,
+          6,
+          -1,
+          2,
+          {
+            "av3": 1
+          }
+        ],
+        [
+          4.2,
+          3,
+          2,
+          0,
+          1,
+          {
+            "ai": 1,
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          12,
+          3,
+          9,
+          -3,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "4063-8e8e-6869-ec97",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "b2f6-fda6-d756-f8e4",
+            "label": "Graviton crusher",
+            "sWs": [
+              [
+                3,
+                3,
+                6,
+                -1,
+                2,
+                {
+                  "av3": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "bb21-f914-ecd0-f2b8",
+            "label": "Volkite chierovile",
+            "sWs": [
+              [
+                12,
+                3,
+                12,
+                0,
+                3,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "aster": {
+    "uid": "aster",
+    "unit": "Chaos Acastus Knight Asterius",
+    "faction": "chaosknights",
+    "models": {
+      "1": 785
+    },
+    "base": {
+      "sv": 2,
+      "inv": 5,
+      "fnp": null,
+      "W": 30,
+      "sWs": [
+        [
+          12,
+          3,
+          6,
+          0,
+          2,
+          {
+            "dev": 1
+          }
+        ],
+        [
+          6.5,
+          3,
+          6,
+          -1,
+          1,
+          {
+            "ai": 1
+          }
+        ],
+        [
+          6,
+          3,
+          16,
+          -2,
+          3.5,
+          {
+            "conv": 1,
+            "sustained": 2,
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          6,
+          4,
+          10,
+          -1,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "850f-b369-61dd-ddc2",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "a895-55eb-d2ea-6b87",
+            "label": "Asterius volkite culverin",
+            "sWs": [
+              [
+                6,
+                3,
+                6,
+                0,
+                2,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "506b-fe3c-9d9f-1d55",
+            "label": "Karacnos mortar battery",
+            "sWs": [
+              [
+                6.5,
+                3,
+                6,
+                -1,
+                1,
+                {
+                  "ai": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "1e7e-f373-3db1-a768",
+            "label": "Twin conversion beam cannon",
+            "sWs": [
+              [
+                3,
+                3,
+                16,
+                -2,
+                6,
+                {
+                  "conv": 1,
+                  "tl": 1,
+                  "sustained": 2
+                }
+              ]
+            ]
+          },
+          {
+            "id": "28a-8545-4104-4ffa",
+            "label": "Titanic feet",
+            "mWs": [
+              [
+                6,
+                4,
+                10,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "porf": {
+    "uid": "porf",
+    "unit": "Chaos Acastus Knight Porphyrion",
+    "faction": "chaosknights",
+    "models": {
+      "1": 725
+    },
+    "base": {
+      "sv": 2,
+      "inv": 5,
+      "fnp": null,
+      "W": 30,
+      "sWs": [
+        [
+          4,
+          3,
+          9,
+          -1,
+          3,
+          {}
+        ],
+        [
+          9.5,
+          3,
+          5,
+          0,
+          1,
+          {}
+        ],
+        [
+          6,
+          3,
+          10,
+          -2,
+          3.5,
+          {}
+        ],
+        [
+          2,
+          3,
+          12,
+          -3,
+          4.5,
+          {}
+        ],
+        [
+          7,
+          3,
+          18,
+          -4,
+          9.5,
+          {
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          6,
+          4,
+          10,
+          -1,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "559b-9e67-c50e-0be3",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "ab22-ae06-7c8c-48c5",
+            "label": "Twin magna lascannon",
+            "sWs": [
+              [
+                3.5,
+                3,
+                18,
+                -4,
+                9.5,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "28a-8545-4104-4ffa",
+            "label": "Titanic feet",
+            "mWs": [
+              [
+                6,
+                4,
+                10,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3a86-44ef-e8e8-b7a0",
+        "label": "Carapace weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "2bd3-2771-a737-adee",
+            "label": "Acastus ironstorm missile pod",
+            "sWs": [
+              [
+                9.5,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e5d0-2359-8a2a-3601",
+            "label": "Helios defence missiles",
+            "sWs": [
+              [
+                3,
+                3,
+                10,
+                -2,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b24c-86fa-7e04-48a7",
+        "label": "Shoulder weapons",
+        "pick": {
+          "min": 2,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "ba14-8cac-6b19-4318",
+            "label": "Acastus autocannon",
+            "sWs": [
+              [
+                2,
+                3,
+                9,
+                -1,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "1561-195a-c202-2f45",
+            "label": "Lascannon",
+            "sWs": [
+              [
+                1,
+                3,
+                12,
+                -3,
+                4.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "brigand": {
+    "uid": "brigand",
+    "unit": "War Dog Brigand",
+    "faction": "chaosknights",
+    "models": {
+      "1": 135
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 14,
+      "sWs": [
+        [
+          12,
+          3,
+          6,
+          -1,
+          1,
+          {}
+        ],
+        [
+          2,
+          3,
+          12,
+          -4,
+          3.5,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          4,
+          3,
+          6,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "b650-3089-7379-b036",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "6638-278a-5331-d1ff",
+            "label": "Armoured feet",
+            "mWs": [
+              [
+                4,
+                3,
+                6,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "a30d-6752-d912-315e",
+            "label": "Avenger chaincannon",
+            "sWs": [
+              [
+                12,
+                3,
+                6,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "0b63-2988-ec78-7913",
+            "label": "Daemonbreath spear",
+            "sWs": [
+              [
+                2,
+                3,
+                12,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6b38-d599-2a21-b5db",
+        "label": "Carapace weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "dfe8-cea0-8d16-db95",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "773c-c2e1-0261-d8f4",
+            "label": "Havoc multi-launcher",
+            "sWs": [
+              [
+                3.5,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "exec": {
+    "uid": "exec",
+    "unit": "War Dog Executioner",
+    "faction": "chaosknights",
+    "models": {
+      "1": 130
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 14,
+      "sWs": [
+        [
+          8,
+          3,
+          9,
+          -1,
+          3,
+          {}
+        ],
+        [
+          1,
+          3,
+          9,
+          -4,
+          3.5,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          4,
+          3,
+          6,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "2d04-234d-6303-6fa1",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "7193-1dfe-7721-ecbd",
+            "label": "War Dog autocannon",
+            "sWs": [
+              [
+                4,
+                3,
+                9,
+                -1,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "6638-278a-5331-d1ff",
+            "label": "Armoured feet",
+            "mWs": [
+              [
+                4,
+                3,
+                6,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7ab5-d4cd-c28f-b481",
+        "label": "Carapace weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "dfe8-cea0-8d16-db95",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e0dc-e414-aa41-8ebd",
+            "label": "Daemonbreath meltagun",
+            "sWs": [
+              [
+                1,
+                3,
+                9,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "huntsman": {
+    "uid": "huntsman",
+    "unit": "War Dog Huntsman",
+    "faction": "chaosknights",
+    "models": {
+      "1": 135
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 14,
+      "sWs": [
+        [
+          2,
+          3,
+          12,
+          -4,
+          3.5,
+          {
+            "rrwf": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          4,
+          3,
+          10,
+          -3,
+          3,
+          {
+            "rrwf": 1
+          }
+        ],
+        [
+          8,
+          3,
+          8,
+          -2,
+          1,
+          {
+            "rrwf": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "7eb1-464a-daa4-9f30",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "0b63-2988-ec78-7913",
+            "label": "Daemonbreath spear",
+            "sWs": [
+              [
+                2,
+                3,
+                12,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "34bd-d83f-3753-d642",
+            "label": "Reaper chaintalon",
+            "mWs": [
+              [
+                4,
+                3,
+                10,
+                -3,
+                3,
+                {}
+              ],
+              [
+                8,
+                3,
+                8,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "936b-0b10-40c1-25bc",
+        "label": "Carapace weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "dfe8-cea0-8d16-db95",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e0dc-e414-aa41-8ebd",
+            "label": "Daemonbreath meltagun",
+            "sWs": [
+              [
+                1,
+                3,
+                9,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "karnivore": {
+    "uid": "karnivore",
+    "unit": "War Dog Karnivore",
+    "faction": "chaosknights",
+    "models": {
+      "1": 145
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 14,
+      "sWs": [
+        [
+          3,
+          3,
+          5,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          6,
+          3,
+          12,
+          -3,
+          5.5,
+          {
+            "sustained": 1
+          }
+        ],
+        [
+          12,
+          3,
+          8,
+          -2,
+          1,
+          {
+            "sustained": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "184a-3920-781a-3fa8",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "efec-643e-117d-a977",
+            "label": "Reaper chaintalon",
+            "mWs": [
+              [
+                12,
+                3,
+                8,
+                -2,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "2a1d-e15f-408e-7660",
+            "label": "Slaughterclaw",
+            "mWs": [
+              [
+                6,
+                3,
+                12,
+                -3,
+                5.5,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6c92-d9c2-33be-f547",
+        "label": "Carapace weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "dfe8-cea0-8d16-db95",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "773c-c2e1-0261-d8f4",
+            "label": "Havoc multi-launcher",
+            "sWs": [
+              [
+                3.5,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "stalker": {
+    "uid": "stalker",
+    "unit": "War Dog Stalker",
+    "faction": "chaosknights",
+    "models": {
+      "1": 135
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 14,
+      "sWs": [
+        [
+          12,
+          3,
+          6,
+          -1,
+          1,
+          {
+            "w1": 1
+          }
+        ],
+        [
+          2,
+          3,
+          12,
+          -4,
+          3.5,
+          {
+            "w1": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          4,
+          3,
+          12,
+          -3,
+          5.5,
+          {
+            "w1": 1
+          }
+        ],
+        [
+          4,
+          3,
+          10,
+          -3,
+          3,
+          {
+            "w1": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "b8a7-8d73-91ca-0a64",
+        "label": "Carapace weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "dfe8-cea0-8d16-db95",
+            "label": "Diabolus heavy stubber",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "773c-c2e1-0261-d8f4",
+            "label": "Havoc multi-launcher",
+            "sWs": [
+              [
+                3.5,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f768-f4d7-e564-fcc5",
+        "label": "Chaincannon/spear",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "a30d-6752-d912-315e",
+            "label": "Avenger chaincannon",
+            "sWs": [
+              [
+                12,
+                3,
+                6,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "0b63-2988-ec78-7913",
+            "label": "Daemonbreath spear",
+            "sWs": [
+              [
+                2,
+                3,
+                12,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7374-c431-24dc-5b33",
+        "label": "Slaughterclaw/chaintalon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "c4a1-e0b1-20c1-7092",
+            "label": "Slaughterclaw",
+            "mWs": [
+              [
+                4,
+                3,
+                12,
+                -3,
+                5.5,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "34bd-d83f-3753-d642",
+            "label": "Reaper chaintalon",
+            "mWs": [
+              [
+                4,
+                3,
+                10,
+                -3,
+                3,
+                {}
+              ],
+              [
+                8,
+                3,
+                8,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "moirax": {
+    "uid": "moirax",
+    "unit": "War Dog Moirax",
+    "faction": "chaosknights",
+    "models": {
+      "1": 150
+    },
+    "base": {
+      "sv": 3,
+      "inv": 5,
+      "fnp": null,
+      "W": 12,
+      "sWs": [
+        [
+          3.5,
+          3,
+          7,
+          -1,
+          2,
+          {
+            "av3": 1
+          }
+        ],
+        [
+          4,
+          3,
+          8,
+          0,
+          2,
+          {
+            "dev": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          4,
+          3,
+          6,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "8429-5740-f1fd-0046",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "6638-278a-5331-d1ff",
+            "label": "Armoured feet",
+            "mWs": [
+              [
+                4,
+                3,
+                6,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  }
+}

@@ -1,6 +1,10 @@
 // ─── COMBAT MATH (army-agnostic) ─────────────────────────────────────────────
 // Weapon arrays: [shots, skill, S, AP, D, tags]
-// tags: { sh1, sh2, shd3, let, conv, con, tl, rrw1, rrwf, dev, devmv, av3, am3, ai, sowf, fe }
+// tags: { sustained, let, conv, con, tl, rrw1, rrwf, dev, devmv, av3, am3, ai, sowf, fe }
+// sustained = Sustained Hits N (magnitude, not a boolean): 1 for "Sustained
+//        Hits 1", 2 for "Sustained Hits 2" or "Sustained Hits D3" (D3
+//        averages to 2, so those two collapse to the same value - they were
+//        never mechanically distinct in this engine, just named differently)
 // ai   = ANTI-INFANTRY 2+: all hits auto-wound vs non-VEH/non-MON targets
 // sowf = conditional rrwf (full wound reroll) applied only when target is VEH or MON
 // devmv = DEVASTATING WOUNDS: MONSTER/VEHICLE only (e.g. Desecrator laser destructor)
@@ -18,7 +22,7 @@ export function calcW(shots,skill,s,ap,d,tags,tgt,bh=1){
     const hp=Math.min((7-Math.max(2,skill-bh))/6,5/6);
     const cp=tags.conv?(3/6):tags.ch5?(2/6):(tags.ai&&isInf)?Math.min(hp,5/6):1/6;
     let h=shots*hp;
-    if(tags.sh1)h+=shots*cp;if(tags.sh2)h+=shots*cp*2;if(tags.shd3)h+=shots*cp*2;
+    if(tags.sustained)h+=shots*cp*tags.sustained;
     let wp=Math.min((7-wt(s,tgt.T))/6,5/6);
     if(tags.w1||(tags.w1mv&&(tgt.veh||tgt.mon)))wp=Math.min((7-Math.max(2,wt(s,tgt.T)-1))/6,5/6);
     if(tags.av3&&tgt.veh)wp=Math.max(wp,4/6);if(tags.am3&&tgt.mon)wp=Math.max(wp,4/6);

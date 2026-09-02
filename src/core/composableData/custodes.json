@@ -1,0 +1,2393 @@
+{
+  "cg": {
+    "uid": "cg",
+    "unit": "Custodian Guard",
+    "faction": "custodes",
+    "models": {
+      "4": 170,
+      "5": 215
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 3,
+      "sWs": [
+        [
+          2,
+          2,
+          4,
+          -1,
+          2,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          7,
+          -2,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "a293-9470-77c1-c8da",
+        "label": "4-5 Custodian Guard",
+        "pick": {
+          "min": 0,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "c5ee-8179-ecc0-cafb",
+            "label": "Custodian Guard (Sentinel Blade & Praesidium Shield)",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                6,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "01d2-1f35-606f-1664",
+            "label": "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)",
+            "mWs": [
+              [
+                5,
+                2,
+                5,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "sc",
+      "trajann",
+      "valerian",
+      "blade_v",
+      "blade_h"
+    ]
+  },
+  "cw": {
+    "uid": "cw",
+    "unit": "Custodian Wardens",
+    "faction": "custodes",
+    "models": {
+      "4": 210,
+      "5": 260
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 3,
+      "sWs": [
+        [
+          2,
+          2,
+          4,
+          -1,
+          2,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          7,
+          -2,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "e0fc-e1e9-eb95-5da8",
+        "label": "Weapon",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "9269-d5ba-f2a-c30f",
+            "label": "Guardian Spear",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                7,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "3b38-fa2c-6bc7-f457",
+            "label": "Castellan Axe",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                4,
+                2,
+                9,
+                -1,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "sc",
+      "trajann",
+      "valerian",
+      "blade_v",
+      "blade_h"
+    ]
+  },
+  "al": {
+    "uid": "al",
+    "unit": "Allarus Custodians",
+    "faction": "custodes",
+    "models": {
+      "2": 110,
+      "3": 165,
+      "5": 280,
+      "6": 340
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 4,
+      "sWs": [
+        [
+          2,
+          2,
+          4,
+          -1,
+          2,
+          {}
+        ],
+        [
+          3.5,
+          2,
+          4,
+          -1,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          7,
+          -2,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "61e8-07d2-58ab-c98a",
+        "label": "Allarus Custodians",
+        "pick": {
+          "min": 0,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "fab4-d437-6e07-eb33",
+            "label": "Allarus Custodian (Castellan Axe)",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ],
+              [
+                3.5,
+                2,
+                4,
+                -1,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                4,
+                2,
+                9,
+                -1,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "cea8-14c8-fb23-d286",
+            "label": "Allarus Custodian (Vexilla & Misericordia)",
+            "sWs": [
+              [
+                3.5,
+                2,
+                4,
+                -1,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                5,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "sc_a"
+    ]
+  },
+  "sag": {
+    "uid": "sag",
+    "unit": "Sagittarum Custodians",
+    "faction": "custodes",
+    "models": {
+      "5": 225
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 3,
+      "sWs": [
+        [
+          15,
+          2,
+          5,
+          -1,
+          2,
+          {
+            "sustained": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          20,
+          2,
+          5,
+          -2,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none",
+      "sc",
+      "trajann",
+      "valerian",
+      "blade_v",
+      "blade_h"
+    ]
+  },
+  "vp": {
+    "uid": "vp",
+    "unit": "Vertus Praetors",
+    "faction": "custodes",
+    "models": {
+      "2": 145,
+      "3": 215
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 5,
+      "sWs": [
+        [
+          1,
+          2,
+          10,
+          -3,
+          4.5,
+          {
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          7,
+          -2,
+          2,
+          {
+            "w1": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "69df-7851-7194-4fc0",
+        "label": "2-3 Vertus Praetors",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "5bd5-bca3-6228-ef17",
+            "label": "Vertus Praetor (Hurricane Bolter)",
+            "sWs": [
+              [
+                6,
+                2,
+                4,
+                -1,
+                2,
+                {
+                  "tl": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                7,
+                -2,
+                2,
+                {
+                  "w1": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "sc_b"
+    ]
+  },
+  "vn": {
+    "uid": "vn",
+    "unit": "Venatari Custodians",
+    "faction": "custodes",
+    "models": {
+      "3": 160,
+      "6": 320
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 3,
+      "sWs": [
+        [
+          2,
+          2,
+          4,
+          -1,
+          2,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          7,
+          -2,
+          2,
+          {
+            "w1": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "e46c-c154-2f14-8940",
+        "label": "3-6 Venatari Custodians",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "358a-4a13-adf5-35b1",
+            "label": "Venatari Custodian (Kinetic Destroyer & Tarsus Buckler)",
+            "sWs": [
+              [
+                2,
+                2,
+                6,
+                -1,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                5,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "ag": {
+    "uid": "ag",
+    "unit": "Agamatus Custodians",
+    "faction": "custodes",
+    "models": {
+      "3": 225,
+      "6": 450
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 4,
+      "sWs": [
+        [
+          3,
+          2,
+          6,
+          -1,
+          1,
+          {
+            "sustained": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          7,
+          -2,
+          2,
+          {
+            "w1": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "3225-32dc-a9cf-d175",
+        "label": "Agamatus Custodians",
+        "pick": {
+          "min": 0,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "509b-6148-c31d-45c8",
+            "label": "Agamatus Custodian (Adrathic devastator)",
+            "sWs": [
+              [
+                1,
+                2,
+                7,
+                -2,
+                3,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                7,
+                -2,
+                2,
+                {
+                  "w1": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "aae1-9f45-ab84-91dd",
+            "label": "Agamatus Custodian (Twin las-pulsar)",
+            "sWs": [
+              [
+                2,
+                2,
+                9,
+                -1,
+                2,
+                {
+                  "tl": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                7,
+                -2,
+                2,
+                {
+                  "w1": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "sc_b"
+    ]
+  },
+  "aq": {
+    "uid": "aq",
+    "unit": "Aquilon Custodians",
+    "faction": "custodes",
+    "models": {
+      "3": 195,
+      "6": 390
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 4,
+      "sWs": [
+        [
+          4,
+          2,
+          5,
+          -1,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          8,
+          -2,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "7c36-2977-4aba-fbfc",
+        "label": "Aquilon Custodians",
+        "pick": {
+          "min": 0,
+          "max": 5
+        },
+        "choices": [
+          {
+            "id": "0ad8-9b00-1a86-728a",
+            "label": "Aquilon Custodian (Gauntlet & Twin adrathic destructor)",
+            "sWs": [
+              [
+                1,
+                2,
+                6,
+                -2,
+                3,
+                {
+                  "tl": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                8,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "2a66-fa39-323b-d151",
+            "label": "Aquilon Custodian (Gauntlet & Infernus firepike)",
+            "sWs": [
+              [
+                4.2,
+                2,
+                6,
+                -1,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                8,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "2ea4-2187-a3d7-fa4e",
+            "label": "Aquilon Custodian (Talon & infernus firepike)",
+            "sWs": [
+              [
+                4.2,
+                2,
+                6,
+                -1,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                7,
+                2,
+                7,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "5953-8c0d-dfbc-9af5",
+            "label": "Aquilon Custodian (Talon & Lastrum bolter)",
+            "sWs": [
+              [
+                4,
+                2,
+                5,
+                -1,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                7,
+                2,
+                7,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "ef9e-37b5-b42f-65ee",
+            "label": "Aquilon Custodian (Talon & Twin adrathic destructor)",
+            "sWs": [
+              [
+                1,
+                2,
+                6,
+                -2,
+                3,
+                {
+                  "tl": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                7,
+                2,
+                7,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "sc_a"
+    ]
+  },
+  "cgs": {
+    "uid": "cgs",
+    "unit": "Custodian Guard with Adrasite and Pyrithite spears",
+    "faction": "custodes",
+    "models": {
+      "5": 250
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 3,
+      "sWs": [
+        [
+          1,
+          2,
+          5,
+          -2,
+          3,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          7,
+          -2,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "21cf-8edd-3b24-5ea1",
+        "label": "5 Custodian Guard",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "f6a0-f67b-e333-0252",
+            "label": "Custodian Guard (Pyrithite spear)",
+            "sWs": [
+              [
+                1,
+                2,
+                9,
+                -4,
+                3.5,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                7,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none",
+      "sc",
+      "trajann",
+      "valerian",
+      "blade_v",
+      "blade_h"
+    ]
+  },
+  "cal": {
+    "uid": "cal",
+    "unit": "Caladius Grav-tank",
+    "faction": "custodes",
+    "models": {
+      "1": 210
+    },
+    "base": {
+      "sv": 2,
+      "inv": 5,
+      "fnp": null,
+      "W": 14,
+      "sWs": [
+        [
+          4,
+          2,
+          10,
+          -1,
+          3,
+          {
+            "tl": 1,
+            "let": 1
+          }
+        ],
+        [
+          3,
+          2,
+          6,
+          -1,
+          1,
+          {
+            "sustained": 1
+          }
+        ]
+      ],
+      "mWs": []
+    },
+    "slots": [
+      {
+        "id": "5043-dc01-5cbc-9328",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "dca3-638e-52a2-b1b8",
+            "label": "Armoured hull",
+            "mWs": [
+              [
+                4,
+                4,
+                6,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "62a1-1fa7-70b7-614d",
+            "label": "Twin lastrum bolt cannon",
+            "sWs": [
+              [
+                3,
+                2,
+                6,
+                -1,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cbfe-9c88-8c0d-d293",
+        "label": "Equipped with",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "28a6-d971-1c4d-6bf6",
+            "label": "Twin iliastus accelerator cannon",
+            "sWs": [
+              [
+                8,
+                2,
+                10,
+                -1,
+                3,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "65f3-bcd5-17ad-e068",
+            "label": "Twin arachnus heavy blaze cannon",
+            "sWs": [
+              [
+                4,
+                2,
+                12,
+                -3,
+                5.5,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "pal": {
+    "uid": "pal",
+    "unit": "Pallas Grav-attack",
+    "faction": "custodes",
+    "models": {
+      "1": 100
+    },
+    "base": {
+      "sv": 2,
+      "inv": 5,
+      "fnp": null,
+      "W": 9,
+      "sWs": [
+        [
+          8,
+          2,
+          5,
+          -1,
+          1,
+          {
+            "dev": 1,
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": []
+    },
+    "slots": [
+      {
+        "id": "445a-d0a7-f252-1702",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "5645-646-96f-9768",
+            "label": "Armoured hull",
+            "mWs": [
+              [
+                3,
+                4,
+                6,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "2693-63bf-611f-37fe",
+            "label": "Twin arachnus blaze cannon",
+            "sWs": [
+              [
+                8,
+                2,
+                5,
+                -1,
+                1,
+                {
+                  "dev": 1,
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "cor": {
+    "uid": "cor",
+    "unit": "Coronus Grav-carrier",
+    "faction": "custodes",
+    "models": {
+      "1": 180
+    },
+    "base": {
+      "sv": 2,
+      "inv": 5,
+      "fnp": null,
+      "W": 16,
+      "sWs": [
+        [
+          8,
+          2,
+          5,
+          -1,
+          1,
+          {
+            "dev": 1,
+            "tl": 1
+          }
+        ],
+        [
+          3,
+          2,
+          6,
+          -1,
+          1,
+          {
+            "sustained": 1
+          }
+        ]
+      ],
+      "mWs": []
+    },
+    "slots": [
+      {
+        "id": "3aad-ad77-5f52-9248",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "66-f0fd-e679-7c3d",
+            "label": "Armoured hull",
+            "mWs": [
+              [
+                6,
+                4,
+                8,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "c515-ed5-b39e-691a",
+            "label": "Twin arachnus blaze cannon",
+            "sWs": [
+              [
+                8,
+                2,
+                5,
+                -1,
+                1,
+                {
+                  "dev": 1,
+                  "tl": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "6fdb-341f-d4a6-3946",
+            "label": "Twin lastrum bolt cannon",
+            "sWs": [
+              [
+                3,
+                2,
+                6,
+                -1,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "vcd": {
+    "uid": "vcd",
+    "unit": "Venerable Contemptor Dreadnought",
+    "faction": "custodes",
+    "models": {
+      "1": 170
+    },
+    "base": {
+      "sv": 2,
+      "inv": 5,
+      "fnp": null,
+      "W": 10,
+      "sWs": [
+        [
+          6,
+          2,
+          7,
+          -1,
+          1,
+          {
+            "dev": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          12,
+          -2,
+          3,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "f869-c5f5-f929-8502",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "33a3-7a7b-c766-bf09",
+            "label": "Combi-bolter",
+            "sWs": [
+              [
+                4,
+                2,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "355c-3441-af3d-849",
+            "label": "Contemptor combat weapon",
+            "mWs": [
+              [
+                5,
+                2,
+                12,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6ee7-91e7-5929-dbdb",
+        "label": "equipped with",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "8b8b-4b36-94ed-9483",
+            "label": "Multi-melta",
+            "sWs": [
+              [
+                2,
+                2,
+                9,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "f2da-e26c-e0e9-7c84",
+            "label": "Kheres-pattern assault cannon",
+            "sWs": [
+              [
+                6,
+                2,
+                7,
+                -1,
+                1,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "ach": {
+    "uid": "ach",
+    "unit": "Contemptor-Achillus Dreadnought",
+    "faction": "custodes",
+    "models": {
+      "1": 155
+    },
+    "base": {
+      "sv": 2,
+      "inv": 5,
+      "fnp": null,
+      "W": 10,
+      "sWs": [
+        [
+          4,
+          2,
+          5,
+          -1,
+          1,
+          {}
+        ],
+        [
+          1,
+          2,
+          9,
+          -2,
+          3,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          12,
+          -2,
+          4.5,
+          {
+            "sustained": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "6db1-a68f-db04-8f95",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "b1eb-9d70-dfc2-208b",
+            "label": "Achillus dreadspear",
+            "sWs": [
+              [
+                1,
+                2,
+                9,
+                -2,
+                3,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                12,
+                -2,
+                4.5,
+                {
+                  "w1": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "551e-4148-5814-7f07",
+        "label": "equipped with",
+        "pick": {
+          "min": 2,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "6610-ef88-536f-9e15",
+            "label": "Infernus incinerator",
+            "sWs": [
+              [
+                4.2,
+                2,
+                6,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "d9a6-8dbd-2c01-862b",
+            "label": "Lastrum storm bolter",
+            "sWs": [
+              [
+                4,
+                2,
+                5,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "89d9-93fa-1d9a-3407",
+            "label": "Twin adrathic destructor",
+            "sWs": [
+              [
+                1,
+                2,
+                6,
+                -2,
+                3,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "gal": {
+    "uid": "gal",
+    "unit": "Contemptor-Galatus Dreadnought",
+    "faction": "custodes",
+    "models": {
+      "1": 165
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 10,
+      "sWs": [
+        [
+          3.5,
+          1,
+          6,
+          -1,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          8,
+          2,
+          8,
+          -2,
+          3,
+          {
+            "sustained": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "9e8a-1f63-8eb0-0b13",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "a287-990-9f34-9836",
+            "label": "Galatus warblade",
+            "sWs": [
+              [
+                4.2,
+                2,
+                6,
+                -1,
+                1,
+                {
+                  "tl": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                8,
+                2,
+                8,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "tel": {
+    "uid": "tel",
+    "unit": "Telemon Heavy Dreadnought",
+    "faction": "custodes",
+    "models": {
+      "1": 225
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 12,
+      "sWs": [
+        [
+          8,
+          2,
+          9,
+          -1,
+          3,
+          {}
+        ],
+        [
+          6.5,
+          2,
+          5,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          5,
+          2,
+          7,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "01f8-6c1d-3f4f-63c5",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "80e0-3d7a-702a-a745",
+            "label": "Armoured feet",
+            "mWs": [
+              [
+                5,
+                2,
+                7,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "1189-dcd8-e3ed-7837",
+            "label": "Spiculus bolt launcher",
+            "sWs": [
+              [
+                6.5,
+                2,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "vlr": {
+    "uid": "vlr",
+    "unit": "Venerable Land Raider",
+    "faction": "custodes",
+    "models": {
+      "1": 220
+    },
+    "base": {
+      "sv": 2,
+      "inv": null,
+      "fnp": null,
+      "W": 16,
+      "sWs": [
+        [
+          4,
+          2,
+          12,
+          -3,
+          4.5,
+          {}
+        ],
+        [
+          3,
+          2,
+          5,
+          -1,
+          2,
+          {
+            "sustained": 1,
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": []
+    },
+    "slots": [
+      {
+        "id": "61c5-72aa-c6e7-978c",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "abaf-ea8a-f3da-2cbc",
+            "label": "Armoured tracks",
+            "mWs": [
+              [
+                6,
+                4,
+                8,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "ccdc-5040-ff10-83b8",
+            "label": "Godhammer lascannon",
+            "sWs": [
+              [
+                2,
+                2,
+                12,
+                -3,
+                4.5,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e8a1-2a4e-fc19-905c",
+            "label": "Storm bolter",
+            "sWs": [
+              [
+                4,
+                2,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "fa54-868f-d45c-ec75",
+            "label": "Twin heavy bolter",
+            "sWs": [
+              [
+                3,
+                2,
+                5,
+                -1,
+                2,
+                {
+                  "sustained": 1,
+                  "tl": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "f31f-9d97-dfba-b445",
+            "label": "Hunter-killer missile",
+            "sWs": [
+              [
+                1,
+                2,
+                14,
+                -3,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "pro": {
+    "uid": "pro",
+    "unit": "Prosecutors",
+    "faction": "custodes",
+    "models": {
+      "4": 45,
+      "10": 85
+    },
+    "base": {
+      "sv": 3,
+      "inv": null,
+      "fnp": null,
+      "W": 1,
+      "sWs": [
+        [
+          2,
+          3,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          2,
+          3,
+          3,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  },
+  "vig": {
+    "uid": "vig",
+    "unit": "Vigilators",
+    "faction": "custodes",
+    "models": {
+      "4": 50,
+      "10": 100
+    },
+    "base": {
+      "sv": 3,
+      "inv": null,
+      "fnp": null,
+      "W": 1,
+      "sWs": [],
+      "mWs": [
+        [
+          2,
+          3,
+          5,
+          -2,
+          2,
+          {
+            "dev": 1
+          }
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  },
+  "wit": {
+    "uid": "wit",
+    "unit": "Witchseekers",
+    "faction": "custodes",
+    "models": {
+      "4": 50,
+      "10": 100
+    },
+    "base": {
+      "sv": 3,
+      "inv": null,
+      "fnp": null,
+      "W": 1,
+      "sWs": [
+        [
+          4.2,
+          2,
+          4,
+          0,
+          1,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          2,
+          3,
+          3,
+          0,
+          1,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  },
+  "bc": {
+    "uid": "bc",
+    "unit": "Blade Champion",
+    "faction": "custodes",
+    "models": {
+      "1": 110
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 6,
+      "sWs": [],
+      "mWs": [
+        [
+          5,
+          2,
+          6,
+          -3,
+          3,
+          {
+            "dev": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "f610-42a4-d114-3181",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "f906-23b-58ce-a3df",
+            "label": "Vaultswords",
+            "mWs": [
+              [
+                6,
+                2,
+                7,
+                -2,
+                2,
+                {}
+              ],
+              [
+                9,
+                2,
+                5,
+                -1,
+                1,
+                {
+                  "sustained": 1
+                }
+              ],
+              [
+                5,
+                2,
+                6,
+                -3,
+                3,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "sc": {
+    "uid": "sc",
+    "unit": "Shield-Captain",
+    "faction": "custodes",
+    "models": {
+      "1": 110
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 6,
+      "sWs": [
+        [
+          2,
+          2,
+          4,
+          -1,
+          2,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          7,
+          2,
+          7,
+          -2,
+          2,
+          {
+            "let": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "d1cc-15d9-2b08-6dfb",
+        "label": "Wargear",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "53df-e02f-5f3e-6a1d",
+            "label": "Guardian Spear",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                7,
+                2,
+                7,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "540a-65ba-1752-f217",
+            "label": "Castellan Axe",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                6,
+                2,
+                9,
+                -1,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "5267-88a7-c874-ba99",
+            "label": "Sentinel Blade & Praesidium Shield",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                7,
+                2,
+                6,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "9480-c9d0-bef6-c3a4",
+            "label": "Sentinel Blade",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                7,
+                2,
+                6,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "661f-4fd-3300-5e9b",
+            "label": "Pyrithite Spear & Praesidium shield",
+            "sWs": [
+              [
+                1,
+                2,
+                9,
+                -4,
+                3.5,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                7,
+                2,
+                7,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "sca": {
+    "uid": "sca",
+    "unit": "Shield-Captain in Allarus Terminator Armour",
+    "faction": "custodes",
+    "models": {
+      "1": 130
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 7,
+      "sWs": [
+        [
+          2,
+          2,
+          4,
+          -1,
+          2,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          6,
+          2,
+          9,
+          -1,
+          3,
+          {
+            "let": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "f91f-9745-9165-ec47",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "4863-f443-2b45-e18b",
+            "label": "Balistus grenade launcher",
+            "sWs": [
+              [
+                3.5,
+                2,
+                4,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a0ad-897a-f9ca-170c",
+        "label": "equipped with",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "2f84-3498-e578-8223",
+            "label": "Guardian Spear",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                7,
+                2,
+                7,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "a576-b3a0-7198-2094",
+            "label": "Castellan Axe",
+            "sWs": [
+              [
+                2,
+                2,
+                4,
+                -1,
+                2,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                6,
+                2,
+                9,
+                -1,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "scb": {
+    "uid": "scb",
+    "unit": "Shield-Captain on Dawneagle Jetbike",
+    "faction": "custodes",
+    "models": {
+      "1": 140
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": null,
+      "W": 8,
+      "sWs": [
+        [
+          1,
+          2,
+          10,
+          -3,
+          4.5,
+          {
+            "tl": 1
+          }
+        ]
+      ],
+      "mWs": [
+        [
+          6,
+          2,
+          7,
+          -2,
+          2,
+          {
+            "let": 1
+          }
+        ]
+      ]
+    },
+    "slots": [
+      {
+        "id": "fefc-86b1-1d3d-f21c",
+        "label": "Wargear",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "a674-6426-accd-e863",
+            "label": "Interceptor lance",
+            "mWs": [
+              [
+                6,
+                2,
+                7,
+                -2,
+                2,
+                {
+                  "w1": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ab48-8c10-894a-5d46",
+        "label": "equipped with",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "58c3-4e14-bc1a-318b",
+            "label": "Vertus hurricane bolter",
+            "sWs": [
+              [
+                6,
+                2,
+                4,
+                -1,
+                2,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "1576-174e-e5d6-82ea",
+            "label": "Salvo launcher",
+            "sWs": [
+              [
+                1,
+                2,
+                10,
+                -3,
+                4.5,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "chars": [
+      "none"
+    ]
+  },
+  "tj": {
+    "uid": "tj",
+    "unit": "Trajann Valoris",
+    "faction": "custodes",
+    "models": {
+      "1": 135
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": 5,
+      "W": 7,
+      "sWs": [
+        [
+          2,
+          2,
+          5,
+          -2,
+          3,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          6,
+          2,
+          10,
+          -2,
+          3,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  },
+  "val": {
+    "uid": "val",
+    "unit": "Valerian",
+    "faction": "custodes",
+    "models": {
+      "1": 110
+    },
+    "base": {
+      "sv": 2,
+      "inv": 4,
+      "fnp": 6,
+      "W": 6,
+      "sWs": [
+        [
+          3,
+          2,
+          4,
+          -1,
+          2,
+          {}
+        ]
+      ],
+      "mWs": [
+        [
+          7,
+          2,
+          8,
+          -3,
+          2,
+          {}
+        ]
+      ]
+    },
+    "slots": [],
+    "chars": [
+      "none"
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 English
 GREY KNIGHTS
 Warhammer 40,000 Logo
-v1.1
+v1.3
 FACTIONS
 
 UNITS
@@ -39,17 +39,14 @@ LEADER
 
 PURGATION SQUAD, PURIFIER SQUAD, STRIKE SQUAD
 BROTHERHOOD TERMINATOR SQUAD
-▼
 YOUR UNIT COSTS
 4 models140 pts
 5 models175 pts
 8 models300 pts
-10 models▼ (-15) 360 pts
+10 models360 pts
 WARGEAR OPTIONS
 
 per Psycannon5 pts
-UPDATED
-REQUISITION THRESHOLDS REMOVED
 CASTELLAN CROWE
 YOUR UNIT COSTS
 1 model100 pts
@@ -72,9 +69,8 @@ WARGEAR OPTIONS
 per Sublimator15 pts
 per Heavy psycannon15 pts
 GRAND MASTER VOLDUS
-▼
 YOUR UNIT COSTS
-1 model▼ (-15) 125 pts
+1 model125 pts
 LEADER
 
 BROTHERHOOD TERMINATOR SQUAD, PALADIN SQUAD
@@ -101,10 +97,11 @@ YOUR 1ST TO 2ND UNITS COST
 YOUR 3RD + UNIT COSTS
 1 model240 pts
 LAND RAIDER REDEEMER
+▲
 YOUR 1ST TO 2ND UNITS COST
-1 model250 pts
+1 model▲ (+10) 260 pts
 YOUR 3RD + UNIT COSTS
-1 model270 pts
+1 model▲ (+10) 280 pts
 NEMESIS DREADKNIGHT
 YOUR 1ST TO 2ND UNITS COST
 1 model195 pts
@@ -114,26 +111,28 @@ WARGEAR OPTIONS
 
 per Heavy psycannon15 pts
 PALADIN SQUAD
+▲
 YOUR 1ST TO 2ND UNITS COST
 4 models170 pts
 5 models215 pts
 8 models360 pts
-10 models450 pts
+10 models▲ (+10) 460 pts
 YOUR 3RD + UNIT COSTS
-4 models185 pts
-5 models230 pts
-8 models375 pts
-10 models465 pts
+4 models▲ (+25) 210 pts
+5 models▲ (+25) 255 pts
+8 models▲ (+25) 400 pts
+10 models▲ (+35) 500 pts
 WARGEAR OPTIONS
 
 per Psycannon5 pts
 PURGATION SQUAD
+▼
 YOUR 1ST TO 2ND UNITS COST
-5 models110 pts
-10 models220 pts
+5 models▼ (-5) 105 pts
+10 models▼ (-10) 210 pts
 YOUR 3RD + UNIT COSTS
-5 models120 pts
-10 models230 pts
+5 models▼ (-5) 115 pts
+10 models▼ (-10) 220 pts
 WARGEAR OPTIONS
 
 per Psycannon5 pts
@@ -144,19 +143,16 @@ YOUR 1ST TO 2ND UNITS COST
 YOUR 3RD + UNIT COSTS
 5 models140 pts
 10 models270 pts
-WARGEAR OPTIONS
-
-per Psycannon5 pts
+UPDATED
+WARGEAR COSTS REMOVED
 RAZORBACK
-▲▼
 YOUR 1ST TO 3RD UNITS COST
-1 model▼ (-10) 75 pts
+1 model75 pts
 YOUR 4TH + UNIT COSTS
 1 model85 pts
 RHINO
-▲▼
 YOUR 1ST TO 3RD UNITS COST
-1 model▼ (-10) 70 pts
+1 model70 pts
 YOUR 4TH + UNIT COSTS
 1 model80 pts
 STORMHAWK INTERCEPTOR
@@ -171,10 +167,9 @@ STORMTALON GUNSHIP
 YOUR UNIT COSTS
 1 model170 pts
 STRIKE SQUAD
-▼
 YOUR UNIT COSTS
-5 models▼ (-5) 115 pts
-10 models▼ (-10) 230 pts
+5 models115 pts
+10 models230 pts
 VENERABLE DREADNOUGHT
 YOUR 1ST TO 2ND UNITS COST
 1 model130 pts
@@ -189,8 +184,6 @@ Psychic Celerity
 15 pts
 Vigilance of Titan
 20 pts
-UPDATED
-FORCE DISPOSITION(S) CHANGED
 AUGURIUM TASK FORCE
 2DP
 RECONNAISSANCE
@@ -255,8 +248,6 @@ Astral Overlap (Upgrade)
 10 pts
 Predestined Coordinates (Upgrade)
 10 pts
-UPDATED
-FORCE DISPOSITION(S) CHANGED
 SANCTIC SPEARHEAD
 2DP
 PRIORITY ASSETS
@@ -281,5 +272,3 @@ Phial of the Abyss
 15 pts
 Radiant Champion
 15 pts
-UPDATED
-FORCE DISPOSITION(S) CHANGED

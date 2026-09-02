@@ -1,0 +1,17 @@
+/* Reset: browsers apply a default ~8px margin to <body> - without zeroing it
+   out, the whole app sits inside a visible border of wasted space. */
+* { box-sizing: border-box; }
+html, body, #root { margin: 0; padding: 0; height: 100%; }
+body { background: #060e1c; }
+
+/* Visible scrollbars: macOS/Chrome default to thin auto-hiding overlay
+   scrollbars, which made scrollable sections (the unit picker, the config
+   panel) look like they had no more content instead of looking scrollable. */
+.scroll-visible {
+    scrollbar-width: thin;
+    scrollbar-color: #2d4266 #0a1525;
+}
+.scroll-visible::-webkit-scrollbar { width: 10px; height: 10px; }
+.scroll-visible::-webkit-scrollbar-track { background: #0a1525; }
+.scroll-visible::-webkit-scrollbar-thumb { background: #2d4266; border-radius: 5px; border: 2px solid #0a1525; }
+.scroll-visible::-webkit-scrollbar-thumb:hover { background: #475569; }

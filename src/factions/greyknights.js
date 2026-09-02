@@ -1,5 +1,5 @@
 // ─── FACTION: GREY KNIGHTS ────────────────────────────────────────────────────
-// Last updated: Faction Pack v1.1 (legal 2026-08-03); MFM 2026-07 v1.1
+// Last updated: Faction Pack v1.1 (legal 2026-08-03); MFM v1.3 (legal 2026-08-26)
 // Acronym: GMND (Grand Master Nemesis Dreadknight — K is part of Dreadknight)
 // Army rule: Gate of Infinity (deep strike redeployment) — positional, no calc effect.
 // Psychic weapons treated as standard for damage calc purposes.
@@ -99,7 +99,7 @@ export const UNITS = [
 
     // ── Paladin Squad (2+ BS/WS, Terminator) ────────────────────────────────────
     // Attuned Onslaught: +1D after charge → "charged" rows use D3.
-    // MFM v1.1 1st-2nd size breaks: 4m=170, 5m=215, 8m=360, 10m=450. 3rd+: 4m=185, 5m=230, 8m=375, 10m=465.
+    // MFM v1.3 1st-2nd size breaks: 4m=170, 5m=215, 8m=360, 10m=460 (▲+10). 3rd+: 4m=210 (▲+25), 5m=255 (▲+25), 8m=400 (▲+25), 10m=500 (▲+35).
     // +5pts per psycannon (not modeled in base rows).
     {id:"pal4",  uid:"pal", unit:"Paladin Squad", pts:170, m:4,  W:3, sv:2, inv:4, fnp:null, hidden:true,
         label:"4m storm bolter / NF weapon (base D2)",
@@ -131,12 +131,12 @@ export const UNITS = [
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[32,2,4,0,1,{}]],
         mWs:[[32,2,6,-2,3,{}]]},
-    {id:"pal10", uid:"pal", unit:"Paladin Squad", pts:450, m:10, W:3, sv:2, inv:4, fnp:null,
+    {id:"pal10", uid:"pal", unit:"Paladin Squad", pts:460, m:10, W:3, sv:2, inv:4, fnp:null, // MFM v1.3: ▲+10
         label:"10m storm bolter / NF weapon (base D2)",
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[40,2,4,0,1,{}]],
         mWs:[[40,2,6,-2,2,{}]]},
-    {id:"pal10c", uid:"pal", unit:"Paladin Squad", pts:450, m:10, W:3, sv:2, inv:4, fnp:null,
+    {id:"pal10c", uid:"pal", unit:"Paladin Squad", pts:460, m:10, W:3, sv:2, inv:4, fnp:null, // MFM v1.3: ▲+10
         label:"10m charged: Attuned Onslaught (D2→D3)",
         chars:["none","bc","chap","lib","gm","voldus"],
         sWs:[[40,2,4,0,1,{}]],
@@ -167,28 +167,28 @@ export const UNITS = [
         mWs:[[24,3,6,-2,2,{}],[6,3,4,0,1,{}]]},
 
     // ── Purgation Squad ─────────────────────────────────────────────────────────
-    // 1st-2nd: 5m=110, 10m=220. 3rd+: 5m=120, 10m=230. +5pts per psycannon (4 max = +20).
-    {id:"purg5",  uid:"purg", unit:"Purgation Squad", pts:110, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true,
+    // MFM v1.3: 1st-2nd: 5m=105 (▼-5), 10m=210 (▼-10). 3rd+: 5m=115 (▼-5), 10m=220 (▼-10). +5pts per psycannon (4 max = +20).
+    {id:"purg5",  uid:"purg", unit:"Purgation Squad", pts:105, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true,
         label:"5m storm bolter / NF weapon",
         chars:["none","champ","tech"],
         sWs:[[20,3,4,0,1,{}]],
         mWs:[[15,3,6,-2,2,{}]]},
-    {id:"purg5p", uid:"purg", unit:"Purgation Squad", pts:130, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true, // 110 + 4×5pts psycannon
+    {id:"purg5p", uid:"purg", unit:"Purgation Squad", pts:125, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true, // 105 + 4×5pts psycannon
         label:"5m 4× psycannon (S8 AP-1 D2, 3 shots each)",
         chars:["none","champ","tech"],
         sWs:[[12,3,8,-1,2,{}],[4,3,4,0,1,{}]],
         mWs:[[15,3,6,-2,2,{}]]},
-    {id:"purg5sl", uid:"purg", unit:"Purgation Squad", pts:110, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true, // free upgrade
+    {id:"purg5sl", uid:"purg", unit:"Purgation Squad", pts:105, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true, // free upgrade
         label:"5m 4× psilencer (S5 AP0 D1 SH1)",
         chars:["none","champ","tech"],
-        sWs:[[24,3,5,0,1,{sh1:1}],[4,3,4,0,1,{}]],
+        sWs:[[24,3,5,0,1,{sustained:1}],[4,3,4,0,1,{}]],
         mWs:[[15,3,6,-2,2,{}]]},
-    {id:"purg5i",  uid:"purg", unit:"Purgation Squad", pts:110, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true, // free upgrade
+    {id:"purg5i",  uid:"purg", unit:"Purgation Squad", pts:105, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true, // free upgrade
         label:"5m 4× incinerator (torrent S6 AP-1 D1, 12\")",
         chars:["none","champ","tech"],
         sWs:[[16.8,2,6,-1,1,{}],[4,3,4,0,1,{}]],                // 4×D6(3.5)×6/5 torrent correction
         mWs:[[15,3,6,-2,2,{}]]},
-    {id:"purg10", uid:"purg", unit:"Purgation Squad", pts:220, m:10, W:2, sv:2, inv:null, fnp:null, hidden:true,
+    {id:"purg10", uid:"purg", unit:"Purgation Squad", pts:210, m:10, W:2, sv:2, inv:null, fnp:null, hidden:true,
         label:"10m storm bolter / NF weapon",
         chars:["none","champ","tech"],
         sWs:[[40,3,4,0,1,{}]],
@@ -196,7 +196,7 @@ export const UNITS = [
 
     // ── Purifier Squad (Sanctity of Purpose: rrw1 on all attacks) ───────────────
     // Purifying Flame [ANTI-INFANTRY 2+, IGNORES COVER]: 1 shot/model.
-    // 1st-2nd: 5m=130, 10m=260. 3rd+: 5m=140, 10m=270. +5pts per psycannon.
+    // 1st-2nd: 5m=130, 10m=260. 3rd+: 5m=140, 10m=270. MFM v1.3: per-Psycannon wargear cost removed (was +5pts, now free) - not separately modeled here (no psycannon loadout SKU exists for this unit).
     {id:"pur5",  uid:"pur", unit:"Purifier Squad", pts:130, m:5,  W:2, sv:2, inv:null, fnp:null, hidden:true,
         label:"5m Purifying Flame + storm bolter (rrw1)",
         chars:["none","tech","crowe"],
@@ -224,22 +224,22 @@ export const UNITS = [
     {id:"ndk_pi_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:195, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=210
         label:"psl+inc+GS",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1}],[7,1,6,-1,1,{}]],
+        sWs:[[12,3,6,0,1,{sustained:1}],[7,1,6,-1,1,{}]],
         mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
     {id:"ndk_pi_gh",  uid:"ndk", unit:"Nemesis Dreadknight", pts:195, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=210
         label:"psl+inc+GH",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1}],[7,1,6,-1,1,{}]],
+        sWs:[[12,3,6,0,1,{sustained:1}],[7,1,6,-1,1,{}]],
         mWs:[[5,3,14,-3,4.5,{}]]},
     {id:"ndk_ph_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=225
         label:"psl+hpc+GS",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1}],[6,3,10,-2,3,{}]],
+        sWs:[[12,3,6,0,1,{sustained:1}],[6,3,10,-2,3,{}]],
         mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
     {id:"ndk_ph_gh",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, // 3rd+=225
         label:"psl+hpc+GH",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1}],[6,3,10,-2,3,{}]],
+        sWs:[[12,3,6,0,1,{sustained:1}],[6,3,10,-2,3,{}]],
         mWs:[[5,3,14,-3,4.5,{}]]},
     {id:"ndk_ih_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=225
         label:"inc+hpc+GS",
@@ -275,19 +275,19 @@ export const UNITS = [
     // psilencer + incinerator (200pts 1st-2nd, 215pts 3rd+) - base, no paid ranged weapon
     {id:"gmndk_pi_h",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:200, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=215
         label:"psl+inc+H", chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
+        sWs:[[12,3,6,0,1,{sustained:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
         mWs:[[5,3,14,-3,4.5,{sowf:1}]]},
     {id:"gmndk_pi_s", uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:200, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=215
         label:"psl+inc+S", chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
+        sWs:[[12,3,6,0,1,{sustained:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
         mWs:[[5,2,10,-2,3.5,{sowf:1}],[10,2,5,-1,1,{sowf:1}]]},
     {id:"gmndk_pi_m",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:200, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=215
         label:"psl+inc+M", chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
+        sWs:[[12,3,6,0,1,{sustained:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
         mWs:[[5,2,6,-3,2,{sowf:1}]]},
     {id:"gmndk_pi_f",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:200, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=215
         label:"psl+inc+F", chars:["none"],
-        sWs:[[12,3,6,0,1,{sh1:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
+        sWs:[[12,3,6,0,1,{sustained:1,sowf:1}],[7,1,6,-1,1,{sowf:1}]],
         mWs:[[10,2,5,-1,2,{sowf:1}]]},
 
     // hpc + incinerator (215pts 1st-2nd, 230pts 3rd+)
@@ -311,19 +311,19 @@ export const UNITS = [
     // hpc + psilencer (215pts 1st-2nd, 230pts 3rd+)
     {id:"gmndk_hp_h",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"hpc+psl+H", chars:["none"],
-        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,3,14,-3,4.5,{sowf:1}]]},
     {id:"gmndk_hp_s", uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"hpc+psl+S", chars:["none"],
-        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,10,-2,3.5,{sowf:1}],[10,2,5,-1,1,{sowf:1}]]},
     {id:"gmndk_hp_m",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"hpc+psl+M", chars:["none"],
-        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,6,-3,2,{sowf:1}]]},
     {id:"gmndk_hp_f",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"hpc+psl+F", chars:["none"],
-        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[6,3,10,-2,3,{sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[10,2,5,-1,2,{sowf:1}]]},
 
     // sub + incinerator, normal range (215pts 1st-2nd, 230pts 3rd+)
@@ -365,37 +365,37 @@ export const UNITS = [
     // sub + psilencer, normal range (215pts 1st-2nd, 230pts 3rd+)
     {id:"gmndk_up_h",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub+psl+H", chars:["none"],
-        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,3,14,-3,4.5,{sowf:1}]]},
     {id:"gmndk_up_s", uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub+psl+S", chars:["none"],
-        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,10,-2,3.5,{sowf:1}],[10,2,5,-1,1,{sowf:1}]]},
     {id:"gmndk_up_m",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub+psl+M", chars:["none"],
-        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,6,-3,2,{sowf:1}]]},
     {id:"gmndk_up_f",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub+psl+F", chars:["none"],
-        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,3.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[10,2,5,-1,2,{sowf:1}]]},
 
     // sub★ + psilencer, melta range (215pts 1st-2nd, 230pts 3rd+)
     {id:"gmndk_upx_h",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub★+psl+H", chars:["none"],
-        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,3,14,-3,4.5,{sowf:1}]]},
     {id:"gmndk_upx_s", uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub★+psl+S", chars:["none"],
-        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,10,-2,3.5,{sowf:1}],[10,2,5,-1,1,{sowf:1}]]},
     {id:"gmndk_upx_m",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub★+psl+M", chars:["none"],
-        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[5,2,6,-3,2,{sowf:1}]]},
     {id:"gmndk_upx_f",  uid:"gmndk", unit:"Grand Master in Nemesis Dreadknight (GMND)", pts:215, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=230
         label:"sub★+psl+F", chars:["none"],
-        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sh1:1,sowf:1}]],
+        sWs:[[2,3,9,-4,7.5,{tl:1,sowf:1}],[12,3,6,0,1,{sustained:1,sowf:1}]],
         mWs:[[10,2,5,-1,2,{sowf:1}]]},
 
     // sub + hpc, normal range (230pts 1st-2nd, 245pts 3rd+)
@@ -483,8 +483,8 @@ export const UNITS = [
 
     // ── Land Raider Redeemer (Vehicle, Transport) ─────────────────────────────────
     // Assault Ramp: unit disembarking after a normal move can still charge — not modeled.
-    // 1st: 250pts. 2nd+: 270pts. Default loadout incl. free hunter-killer/multi-melta/storm bolter options.
-    {id:"lrr", uid:"lrr", unit:"Land Raider Redeemer", pts:250, m:1, W:16, sv:2, inv:null, fnp:null,
+    // MFM v1.3: 1st ▲+10 → 260pts. 2nd+ ▲+10 → 280pts. Default loadout incl. free hunter-killer/multi-melta/storm bolter options.
+    {id:"lrr", uid:"lrr", unit:"Land Raider Redeemer", pts:260, m:1, W:16, sv:2, inv:null, fnp:null,
         label:"2× flamestorm + twin assault cannon [DEV+TL] + multi-melta + storm bolter",
         chars:["none"],
         sWs:[[13,1,6,-2,2,{}],[6,3,6,0,1,{dev:1,tl:1}],[2,3,9,-4,5.5,{}],[4,3,4,0,1,{}]],
@@ -530,6 +530,19 @@ export const DETACHMENTS = [
         desc:"Echojump: After shooting, Interceptor Squad makes D6+1\" surge move. Enhancements: Predestined Coordinates (+10pts, ingress turn 1), Astral Overlap (+10pts, Stealth).",
         affects:null},
 ];
+
+// Per-uid Toughness/Vehicle/Monster, for use as a TARGET (e.g. Fight Simulator).
+// Sourced from ref/greyknights-10th-datasheets.txt - unit rows above only ever
+// needed defensive save stats for themselves as an ATTACKER, never their own T.
+export const DEFENSE = {
+    bts:{T:5,veh:false,mon:false}, ss:{T:4,veh:false,mon:false},
+    pal:{T:5,veh:false,mon:false}, int:{T:4,veh:false,mon:false},
+    purg:{T:4,veh:false,mon:false}, pur:{T:4,veh:false,mon:false},
+    ndk:{T:8,veh:true,mon:false}, gmndk:{T:8,veh:true,mon:false},
+    vd:{T:9,veh:true,mon:false}, sr:{T:10,veh:true,mon:false},
+    rhino:{T:9,veh:true,mon:false}, razorback:{T:9,veh:true,mon:false},
+    lrr:{T:12,veh:true,mon:false},
+};
 
 export const UC = {
     bts:"#94a3b8", ss:"#60a5fa",  pal:"#fbbf24", int:"#c084fc",

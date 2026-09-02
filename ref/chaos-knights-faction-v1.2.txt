@@ -1,6 +1,6 @@
 CHAOS KNIGHTS
-FACTION PACK: VERSION 1.1
-Legal for matched play from 22nd July 2026
+FACTION PACK: VERSION 1.2
+Legal for matched play from 26th August 2026
 On the following pages you will find additional rules and clarifications that supplement your Codex, from extra detachments and
 datasheets to rules updates and FAQs. All of these changes are also updated in the Warhammer 40,000 app, along with points values
 for your units and detachments.
@@ -820,10 +820,13 @@ a unit from their army within 12” of this model with a stratagem, you
 can use this ability. If you do, increase the CP cost of that use of that
 stratagem by 1CP.'
 TRAITORIS LANCE DETACHMENT
-Storm of Darkness Stratagem, Effect Section
+Storm of Darkness Stratagem, When and Effect Sections
 Change to:
+‘WHEN: Your opponent’s Shooting phase or the Fight phase, just after an
+enemy unit has selected its targets.
+EFFECT:
 ▪ Your unit has Stealth.
-▪ Melee attacks that target your unit have ‑1 to hit rolls.
+▪ Melee attacks that target your unit have ‑1 to hit rolls.’
 Imperious Advance Stratagem, Effect Section
 Change to:
 ‘Until the end of the phase, each time a model in one of your units

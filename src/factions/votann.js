@@ -1,5 +1,8 @@
 // ─── FACTION: LEAGUES OF VOTANN ───────────────────────────────────────────────
-// Last updated: Faction Pack v1.1 (legal 2026-08-03); MFM 2026-07 v1.1; no weapon stat changes
+// Last updated: Faction Pack v1.1 (legal 2026-08-03); MFM v1.3 (legal 2026-08-26); no weapon stat changes
+// MFM v1.3 pts deltas: Hearthkyn Warriors 10m ▼-10, Cthonian Beserks 5m ▼-5/10m ▼-10,
+// Brôkhyr Thunderkyn 6m ▲+10, Steeljacks HVD 6m ▲+10, Steeljacks Melee 6m ▼-10,
+// Cthonian Earthshakers 2m ▼-10, Kapricus Defender 1-model ▲+5 (pts10 = pre-v1.3 value)
 // (shared TARGETS array lives in ../targets.js, not here - it's used by all factions)
 
 // Characters: each has pts, durability, weapons, buffs applied to unit weapons, valid uids
@@ -41,15 +44,15 @@ export const CHARS={
 // sWs/mWs are the unit's own weapons at base size.
 export const UNITS=[
     // ── Hearthkyn Warriors ──────────────────────────────────────────────────────
-    {id:"hk06",uid:"hk",unit:"Hearthkyn Warriors",pts:100,pts10:100,m:10,W:1,sv:4,inv:null,fnp:6,
+    {id:"hk06",uid:"hk",unit:"Hearthkyn Warriors",pts:90,pts10:100,m:10,W:1,sv:4,inv:null,fnp:6,
         label:"10m max: rotary+magna+ion×7+Theyn pistol",
         chars:["none","kahl","champion","grimnyr","uthar"],
-        sWs:[[6,4,6,-1,1,{sh1:1}],[1,4,12,-3,5,{dev:1}],[7,4,5,-2,1,{}],[1,4,8,-2,1,{}]],
+        sWs:[[6,4,6,-1,1,{sustained:1}],[1,4,12,-3,5,{dev:1}],[7,4,5,-2,1,{}],[1,4,8,-2,1,{}]],
         mWs:[[7,4,4,0,1,{}],[4,4,4,-2,1,{}],[2,4,5,-2,2,{}]]},
-    {id:"hk07",uid:"hk",unit:"Hearthkyn Warriors",pts:100,pts10:100,m:10,W:1,sv:4,inv:null,fnp:6,
+    {id:"hk07",uid:"hk",unit:"Hearthkyn Warriors",pts:90,pts10:100,m:10,W:1,sv:4,inv:null,fnp:6,
         label:"10m max: rotary+plasma beamer+ion×7+Theyn pistol",
         chars:["none","kahl","champion","grimnyr","uthar"],
-        sWs:[[6,4,6,-1,1,{sh1:1}],[1,4,8,-3,2,{shd3:1}],[7,4,5,-2,1,{}],[1,4,8,-2,1,{}]],
+        sWs:[[6,4,6,-1,1,{sustained:1}],[1,4,8,-3,2,{sustained:2}],[7,4,5,-2,1,{}],[1,4,8,-2,1,{}]],
         mWs:[[7,4,4,0,1,{}],[4,4,4,-2,1,{}],[2,4,5,-2,2,{}]]},
 
     // ── Einhyr Hearthguard ──────────────────────────────────────────────────────
@@ -65,44 +68,44 @@ export const UNITS=[
         mWs:[[10,3,8,-2,2,{}]]},
 
     // ── Cthonian Beserks ────────────────────────────────────────────────────────
-    {id:"bs07",uid:"bs",unit:"Cthonian Beserks",pts:200,pts10:200,m:10,W:1,sv:5,inv:null,fnp:4,
+    {id:"bs07",uid:"bs",unit:"Cthonian Beserks",pts:190,pts10:200,m:10,W:1,sv:5,inv:null,fnp:4,
         label:"10m concussion maul",
         chars:["none","berehk"],
         sWs:null,
         mWs:[[30,4,5,-2,3,{av3:1,am3:1}]]},
-    {id:"bs09",uid:"bs",unit:"Cthonian Beserks",pts:200,pts10:200,m:10,W:1,sv:5,inv:null,fnp:4,
+    {id:"bs09",uid:"bs",unit:"Cthonian Beserks",pts:190,pts10:200,m:10,W:1,sv:5,inv:null,fnp:4,
         label:"10m 8×maul + 2×twin concussion gauntlet",
         chars:["none","berehk"],
         sWs:null,
         mWs:[[24,4,5,-2,3,{av3:1,am3:1}],[8,4,9,-2,2,{tl:1}]]},
-    {id:"bs_mole",uid:"bs",unit:"Cthonian Beserks",pts:200,pts10:200,m:10,W:1,sv:5,inv:null,fnp:4,
+    {id:"bs_mole",uid:"bs",unit:"Cthonian Beserks",pts:190,pts10:200,m:10,W:1,sv:5,inv:null,fnp:4,
         label:"10m maul + mole grenades (indirect)",
         chars:["none","berehk"],
         sWs:[[7,5,5,-1,1,{dev:1}]],
         mWs:[[24,4,5,-2,3,{av3:1,am3:1}]]},
-    {id:"bs05",uid:"bs",unit:"Cthonian Beserks",pts:100,pts10:100,m:5,W:1,sv:5,inv:null,fnp:4,
+    {id:"bs05",uid:"bs",unit:"Cthonian Beserks",pts:95,pts10:100,m:5,W:1,sv:5,inv:null,fnp:4,
         label:"5m concussion maul [Sagitaur delivery]",
         chars:["none"],
         sWs:null,
         mWs:[[15,4,5,-2,3,{av3:1,am3:1}]]},
 
     // ── Brôkhyr Thunderkyn ──────────────────────────────────────────────────────
-    {id:"tk05",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:160,pts10:160,m:6,W:2,sv:3,inv:null,fnp:null,
+    {id:"tk05",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:170,pts10:160,m:6,W:2,sv:3,inv:null,fnp:null,
         label:"6m bolt cannon (SH2)",
         chars:["none","ironmaster"],
-        sWs:[[18,4,6,-1,2,{sh2:1}]],
+        sWs:[[18,4,6,-1,2,{sustained:2}]],
         mWs:[[12,4,4,0,1,{}]]},
-    {id:"tk06",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:160,pts10:160,m:6,W:2,sv:3,inv:null,fnp:null,
+    {id:"tk06",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:170,pts10:160,m:6,W:2,sv:3,inv:null,fnp:null,
         label:"6m grav blast cannon (anti-veh/mon 3+)",
         chars:["none","ironmaster"],
         sWs:[[12,4,5,-2,3,{av3:1,am3:1}]],
         mWs:[[12,4,4,0,1,{}]]},
-    {id:"tk07",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:160,pts10:160,m:6,W:2,sv:3,inv:null,fnp:null,
+    {id:"tk07",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:170,pts10:160,m:6,W:2,sv:3,inv:null,fnp:null,
         label:"6m SP conv beamer >12\" (4+ crit+lethal)",
         chars:["none","ironmaster"],
         sWs:[[12,4,7,-2,3,{conv:1}]],
         mWs:[[12,4,4,0,1,{}]]},
-    {id:"tk08",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:160,pts10:160,m:6,W:2,sv:3,inv:null,fnp:null,
+    {id:"tk08",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:170,pts10:160,m:6,W:2,sv:3,inv:null,fnp:null,
         label:"6m SP conv beamer <12\" (normal hits)",
         chars:["none","ironmaster"],
         sWs:[[12,4,7,-2,3,{con:1}]],
@@ -110,7 +113,7 @@ export const UNITS=[
     {id:"tk03b",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:80,pts10:80,m:3,W:2,sv:3,inv:null,fnp:null,
         label:"3m bolt cannon (SH2)",
         chars:["none","ironmaster"],
-        sWs:[[9,4,6,-1,2,{sh2:1}]],
+        sWs:[[9,4,6,-1,2,{sustained:2}]],
         mWs:[[6,4,4,0,1,{}]]},
     {id:"tk03g",uid:"tk",unit:"Brôkhyr Thunderkyn",pts:80,pts10:80,m:3,W:2,sv:3,inv:null,fnp:null,
         label:"3m grav blast cannon (anti-veh/mon 3+)",
@@ -124,19 +127,19 @@ export const UNITS=[
         mWs:[[6,4,4,0,1,{}]]},
 
     // ── Ironkin Steeljacks HVD ──────────────────────────────────────────────────
-    {id:"sv03",uid:"sv",unit:"Steeljacks HVD",pts:160,pts10:170,m:6,W:3,sv:2,inv:null,fnp:null,
+    {id:"sv03",uid:"sv",unit:"Steeljacks HVD",pts:170,pts10:160,m:6,W:3,sv:2,inv:null,fnp:null,
         label:"6m HVD (dev wounds) + plasma knife",
         chars:["none"],
         sWs:[[36,4,6,-1,1,{dev:1}]],
         mWs:[[12,3,6,-2,1,{}]]},
 
     // ── Ironkin Steeljacks Melee ─────────────────────────────────────────────────
-    {id:"sm06",uid:"sm",unit:"Steeljacks Melee",pts:160,pts10:170,m:6,W:3,sv:2,inv:null,fnp:null,
+    {id:"sm06",uid:"sm",unit:"Steeljacks Melee",pts:150,pts10:160,m:6,W:3,sv:2,inv:null,fnp:null,
         label:"6m plasma sword (SH1)",
         chars:["none"],
         sWs:null,
-        mWs:[[36,3,6,-2,1,{sh1:1}],[12,4,4,0,1,{}]]},
-    {id:"sm05",uid:"sm",unit:"Steeljacks Melee",pts:160,pts10:170,m:6,W:3,sv:2,inv:null,fnp:null,
+        mWs:[[36,3,6,-2,1,{sustained:1}],[12,4,4,0,1,{}]]},
+    {id:"sm05",uid:"sm",unit:"Steeljacks Melee",pts:150,pts10:160,m:6,W:3,sv:2,inv:null,fnp:null,
         label:"6m concussion gauntlet",
         chars:["none"],
         sWs:null,
@@ -158,12 +161,12 @@ export const UNITS=[
     {id:"pi_ft2",uid:"pi",unit:"Hernkyn Pioneers",pts:160,pts10:160,m:6,W:3,sv:4,inv:null,fnp:null,
         label:"6m shotgun+magna+HYLas+ion (mixed)",
         chars:["none"],
-        sWs:[[12,4,5,0,1,{}],[18,4,7,-1,2,{}],[6,4,6,-1,1,{sh1:1}],[2.5,4,8,-2,1,{}]],
+        sWs:[[12,4,5,0,1,{}],[18,4,7,-1,2,{}],[6,4,6,-1,1,{sustained:1}],[2.5,4,8,-2,1,{}]],
         mWs:[[12,4,4,-2,1,{}]]},
     {id:"pi_ft3",uid:"pi",unit:"Hernkyn Pioneers",pts:160,pts10:160,m:6,W:3,sv:4,inv:null,fnp:null,
         label:"6m shotgun+magna+2×HYLas (max rotary)",
         chars:["none"],
-        sWs:[[12,4,5,0,1,{}],[18,4,7,-1,2,{}],[12,4,6,-1,1,{sh1:1}]],
+        sWs:[[12,4,5,0,1,{}],[18,4,7,-1,2,{}],[12,4,6,-1,1,{sustained:1}]],
         mWs:[[12,4,4,-2,1,{}]]},
     {id:"pi03",uid:"pi",unit:"Hernkyn Pioneers",pts:80,pts10:80,m:3,W:3,sv:4,inv:null,fnp:null,
         label:"3m shotgun+magna (default)",
@@ -172,12 +175,12 @@ export const UNITS=[
         mWs:[[6,4,4,-2,1,{}]]},
 
     // ── Cthonian Earthshakers ────────────────────────────────────────────────────
-    {id:"es01",uid:"es",unit:"Cthonian Earthshakers",pts:110,pts10:110,m:2,W:6,sv:4,inv:null,fnp:null,
+    {id:"es01",uid:"es",unit:"Cthonian Earthshakers",pts:100,pts10:110,m:2,W:6,sv:4,inv:null,fnp:null,
         label:"2m breacher ordnance (blast+dev)",
         chars:["none"],
         sWs:[[4.5,4,10,-1,2,{dev:1}]],
         mWs:[[8,3,5,-2,1,{}]]},
-    {id:"es02",uid:"es",unit:"Cthonian Earthshakers",pts:110,pts10:110,m:2,W:6,sv:4,inv:null,fnp:null,
+    {id:"es02",uid:"es",unit:"Cthonian Earthshakers",pts:100,pts10:110,m:2,W:6,sv:4,inv:null,fnp:null,
         label:"2m tremor shells (blast)",
         chars:["none"],
         sWs:[[7.5,4,6,-1,1,{}]],
@@ -187,41 +190,41 @@ export const UNITS=[
     {id:"hf01",uid:"hf",unit:"Hekaton Land Fortress",pts:250,pts10:240,m:1,W:16,sv:2,inv:null,fnp:null,
         label:"SP conv beamer + 2×twin bolt + MATR",
         chars:["none"],
-        sWs:[[4,4,10,-2,4,{con:1,let:1}],[6,4,6,-1,2,{sh2:1,tl:1}],[6,4,7,-1,2,{sh1:1}]],
+        sWs:[[4,4,10,-2,4,{con:1,let:1}],[6,4,6,-1,2,{sustained:2,tl:1}],[6,4,7,-1,2,{sustained:1}]],
         mWs:null},
     {id:"hf02",uid:"hf",unit:"Hekaton Land Fortress",pts:250,pts10:240,m:1,W:16,sv:2,inv:null,fnp:null,
         label:"Heavy magna-rail + 2×twin bolt + MATR",
         chars:["none"],
-        sWs:[[2,3,18,-4,7,{dev:1}],[6,4,6,-1,2,{sh2:1,tl:1}],[6,4,7,-1,2,{sh1:1}]],
+        sWs:[[2,3,18,-4,7,{dev:1}],[6,4,6,-1,2,{sustained:2,tl:1}],[6,4,7,-1,2,{sustained:1}]],
         mWs:null},
 
     // ── Sagitaur ─────────────────────────────────────────────────────────────────
     {id:"sg01",uid:"sg",unit:"Sagitaur",pts:85,pts10:90,m:1,W:9,sv:3,inv:null,fnp:null,
         label:"HYLas beam cannon + twin bolt cannon",
         chars:["none"],
-        sWs:[[2,4,12,-3,4.5,{}],[3,4,6,-1,2,{sh2:1,tl:1}]],
+        sWs:[[2,4,12,-3,4.5,{}],[3,4,6,-1,2,{sustained:2,tl:1}]],
         mWs:null},
     {id:"sg02",uid:"sg",unit:"Sagitaur",pts:85,pts10:90,m:1,W:9,sv:3,inv:null,fnp:null,
         label:"L7 + Sagitaur missile + twin bolt cannon",
         chars:["none"],
-        sWs:[[3.5,4,4,0,1,{}],[1,4,9,-2,3.5,{}],[2,4,10,-3,3,{}],[3,4,6,-1,2,{sh2:1,tl:1}]],
+        sWs:[[3.5,4,4,0,1,{}],[1,4,9,-2,3.5,{}],[2,4,10,-3,3,{}],[3,4,6,-1,2,{sustained:2,tl:1}]],
         mWs:null},
     {id:"sg03",uid:"sg",unit:"Sagitaur",pts:85,pts10:90,m:1,W:9,sv:3,inv:null,fnp:null,
         label:"MATR autocannon + twin bolt cannon",
         chars:["none"],
-        sWs:[[6,4,7,-1,2,{}],[3,4,6,-1,2,{sh2:1,tl:1}]],
+        sWs:[[6,4,7,-1,2,{}],[3,4,6,-1,2,{sustained:2,tl:1}]],
         mWs:null},
 
     // ── Kapricus Defender ────────────────────────────────────────────────────────
-    {id:"kd01",uid:"kd",unit:"Kapricus Defender",pts:65,pts10:70,m:1,W:7,sv:4,inv:null,fnp:null,
+    {id:"kd01",uid:"kd",unit:"Kapricus Defender",pts:70,pts10:65,m:1,W:7,sv:4,inv:null,fnp:null,
         label:"Magna-rail cannon + twin magna-coil",
         chars:["none"],
         sWs:[[1,4,14,-4,4.5,{dev:1}],[3,4,7,-1,2,{tl:1}]],
         mWs:null},
-    {id:"kd02",uid:"kd",unit:"Kapricus Defender",pts:65,pts10:70,m:1,W:7,sv:4,inv:null,fnp:null,
+    {id:"kd02",uid:"kd",unit:"Kapricus Defender",pts:70,pts10:65,m:1,W:7,sv:4,inv:null,fnp:null,
         label:"HYLas rotary + twin magna-coil",
         chars:["none"],
-        sWs:[[6,4,6,-1,2,{sh1:1}],[3,4,7,-1,2,{tl:1}]],
+        sWs:[[6,4,6,-1,2,{sustained:1}],[3,4,7,-1,2,{tl:1}]],
         mWs:null},
 
     // ── Buri Aegnirssen ──────────────────────────────────────────────────────────
@@ -247,7 +250,7 @@ export const UNITS=[
     {id:"ak01",uid:"ak",unit:"Arkanyst Evaluator",pts:70,pts10:65,m:1,W:4,sv:3,inv:null,fnp:null,
         label:"Overcharge (AP-3 D3 · SH1)",
         chars:["none"],
-        sWs:[[3,2,8,-3,3,{sh1:1}]],
+        sWs:[[3,2,8,-3,3,{sustained:1}]],
         mWs:[[1,4,3,0,1,{}]]},
 ];
 
@@ -278,6 +281,20 @@ export const DETACHMENTS=[
         desc:"Re-roll wound 1s all weapons targeting closest/engagement. Kâhl/HG/Ûthar +1AP.",
         affects:{all:true,rrw1:true,ap1uids:["hg"],ap1chars:["kahl","uthar"]}},
 ];
+
+// Per-uid Toughness/Vehicle/Monster, for use as a TARGET (e.g. Fight Simulator).
+// Sourced from ref/votann-datasheets.txt.
+export const DEFENSE={
+    hk:{T:5,veh:false,mon:false}, hg:{T:5,veh:false,mon:false},
+    bs:{T:6,veh:false,mon:false}, tk:{T:6,veh:false,mon:false},
+    sv:{T:6,veh:false,mon:false}, sm:{T:6,veh:false,mon:false},
+    ya:{T:5,veh:false,mon:false}, pi:{T:6,veh:false,mon:false},
+    es:{T:6,veh:false,mon:false},
+    hf:{T:12,veh:true,mon:false}, sg:{T:9,veh:true,mon:false},
+    kd:{T:7,veh:true,mon:false},
+    bu:{T:6,veh:false,mon:false}, ch:{T:5,veh:false,mon:false},
+    ak:{T:5,veh:false,mon:false},
+};
 
 // Unit accent colours (keyed by uid)
 export const UC={

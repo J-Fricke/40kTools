@@ -1,5 +1,8 @@
 // ─── FACTION: ADEPTUS CUSTODES ────────────────────────────────────────────────
-// Last updated: Faction Pack v1.1 (legal 2026-08-03); weapon profiles already reflected v1.1 data
+// Last updated: Faction Pack v1.1 (legal 2026-08-03); MFM v1.3 (legal 2026-08-26); weapon profiles already reflected v1.1 data
+// MFM v1.3 pts delta: Allarus Custodians 5m ▲+5/6m ▲+10 (pts10 = pre-v1.3 value).
+// MFM v1.3 rules changes: Lions of the Emperor DP 2→3 + disposition Disruption→Take and Hold;
+// Tharanatoi Hammerblow disposition Priority Assets→Disruption.
 // Weapon note: Ka'tah (army rule) lets each unit pick Dacatarai (SH1 melee) or
 // Rendax (Lethal Hits melee) before each Fight phase. Rows labelled "Da" / "Re"
 // reflect those stances. Units without meaningful melee get a single row.
@@ -33,7 +36,7 @@ export const CHARS = {
         buffs:{}, validFor:["cg","cw","sag","cgs"]},
     blade_h:  {name:"BC: Hurricanus", pts:120,W:6, sv:2,inv:4,  fnp:null,
         sWs:null,
-        mWs:[[9,2,5,-1,1,{sh1:1}]],
+        mWs:[[9,2,5,-1,1,{sustained:1}]],
         buffs:{}, validFor:["cg","cw","sag","cgs"]},
 };
 
@@ -43,7 +46,7 @@ export const UNITS = [
         label:"4m guardian spear (Da: SH1)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
         sWs:[[8,2,4,-1,2,{rrw1:1}]],
-        mWs:[[20,2,7,-2,2,{sh1:1,rrw1:1}]]},
+        mWs:[[20,2,7,-2,2,{sustained:1,rrw1:1}]]},
     {id:"cg4re",uid:"cg",unit:"Custodian Guard",pts:170,pts10:160,m:4,W:3,sv:2,inv:4,fnp:null,
         label:"4m guardian spear (Re: lethal)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
@@ -53,7 +56,7 @@ export const UNITS = [
         label:"5m guardian spear (Da: SH1)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
         sWs:[[10,2,4,-1,2,{rrw1:1}]],
-        mWs:[[25,2,7,-2,2,{sh1:1,rrw1:1}]]},
+        mWs:[[25,2,7,-2,2,{sustained:1,rrw1:1}]]},
     {id:"cg5re",uid:"cg",unit:"Custodian Guard",pts:215,pts10:200,m:5,W:3,sv:2,inv:4,fnp:null,
         label:"5m guardian spear (Re: lethal)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
@@ -63,14 +66,14 @@ export const UNITS = [
         label:"4m sentinel blade + praesidium (W4, Da)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
         sWs:[[8,2,4,-1,2,{rrw1:1}]],
-        mWs:[[20,2,6,-2,1,{sh1:1,rrw1:1}]]},
+        mWs:[[20,2,6,-2,1,{sustained:1,rrw1:1}]]},
 
     // ── Custodian Wardens ────────────────────────────────────────────────────────
     {id:"cw4da",uid:"cw",unit:"Custodian Wardens",pts:210,pts10:210,m:4,W:3,sv:2,inv:4,fnp:null,
         label:"4m guardian spear (Da: SH1)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
         sWs:[[8,2,4,-1,2,{}]],
-        mWs:[[20,2,7,-2,2,{sh1:1}]]},
+        mWs:[[20,2,7,-2,2,{sustained:1}]]},
     {id:"cw4re",uid:"cw",unit:"Custodian Wardens",pts:210,pts10:210,m:4,W:3,sv:2,inv:4,fnp:null,
         label:"4m guardian spear (Re: lethal)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
@@ -80,7 +83,7 @@ export const UNITS = [
         label:"4m castellan axe (Da: SH1)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
         sWs:[[8,2,4,-1,2,{}]],
-        mWs:[[16,2,9,-1,3,{sh1:1}]]},
+        mWs:[[16,2,9,-1,3,{sustained:1}]]},
     {id:"cw4axr",uid:"cw",unit:"Custodian Wardens",pts:210,pts10:210,m:4,W:3,sv:2,inv:4,fnp:null,
         label:"4m castellan axe (Re: lethal)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
@@ -118,7 +121,7 @@ export const UNITS = [
         label:"5m guardian spear (Da: SH1)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
         sWs:[[10,2,4,-1,2,{}]],
-        mWs:[[25,2,7,-2,2,{sh1:1}]]},
+        mWs:[[25,2,7,-2,2,{sustained:1}]]},
     {id:"cw5re",uid:"cw",unit:"Custodian Wardens",pts:260,pts10:260,m:5,W:3,sv:2,inv:4,fnp:null,
         label:"5m guardian spear (Re: lethal)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
@@ -128,29 +131,30 @@ export const UNITS = [
         label:"5m castellan axe (Da: SH1)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
         sWs:[[10,2,4,-1,2,{}]],
-        mWs:[[20,2,9,-1,3,{sh1:1}]]},
+        mWs:[[20,2,9,-1,3,{sustained:1}]]},
     {id:"cw5axr",uid:"cw",unit:"Custodian Wardens",pts:260,pts10:260,m:5,W:3,sv:2,inv:4,fnp:null,
         label:"5m castellan axe (Re: lethal)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
         sWs:[[10,2,4,-1,2,{}]],
         mWs:[[20,2,9,-1,3,{let:1}]]},
 
-    {id:"al5g",uid:"al",unit:"Allarus Custodians",pts:275,pts10:275,m:5,W:4,sv:2,inv:4,fnp:null,
+    // MFM v1.3: 5m ▲+5 → 280, 6m ▲+10 → 340 (pts10 = pre-v1.3 value)
+    {id:"al5g",uid:"al",unit:"Allarus Custodians",pts:280,pts10:275,m:5,W:4,sv:2,inv:4,fnp:null,
         label:"5m guardian spear (Re: lethal)",
         chars:["none","sc_a"],
         sWs:[[10,2,4,-1,2,{}],[17.5,2,4,-1,1,{}]],
         mWs:[[25,2,7,-2,2,{let:1}]]},
-    {id:"al5ax",uid:"al",unit:"Allarus Custodians",pts:275,pts10:275,m:5,W:4,sv:2,inv:4,fnp:null,
+    {id:"al5ax",uid:"al",unit:"Allarus Custodians",pts:280,pts10:275,m:5,W:4,sv:2,inv:4,fnp:null,
         label:"5m castellan axe vs CHAR/MON/VEH (full rrw)",
         chars:["none","sc_a"],
         sWs:[[10,2,4,-1,2,{rrwf:1}],[17.5,2,4,-1,1,{rrwf:1}]],
         mWs:[[20,2,9,-1,3,{let:1,rrwf:1}]]},
-    {id:"al6g",uid:"al",unit:"Allarus Custodians",pts:330,pts10:330,m:6,W:4,sv:2,inv:4,fnp:null,
+    {id:"al6g",uid:"al",unit:"Allarus Custodians",pts:340,pts10:330,m:6,W:4,sv:2,inv:4,fnp:null,
         label:"6m guardian spear (Re: lethal)",
         chars:["none","sc_a"],
         sWs:[[12,2,4,-1,2,{}],[21,2,4,-1,1,{}]],
         mWs:[[30,2,7,-2,2,{let:1}]]},
-    {id:"al6ax",uid:"al",unit:"Allarus Custodians",pts:330,pts10:330,m:6,W:4,sv:2,inv:4,fnp:null,
+    {id:"al6ax",uid:"al",unit:"Allarus Custodians",pts:340,pts10:330,m:6,W:4,sv:2,inv:4,fnp:null,
         label:"6m castellan axe vs CHAR/MON/VEH (full rrw)",
         chars:["none","sc_a"],
         sWs:[[12,2,4,-1,2,{rrwf:1}],[21,2,4,-1,1,{rrwf:1}]],
@@ -160,10 +164,13 @@ export const UNITS = [
     {id:"sag5",uid:"sag",unit:"Sagittarum Custodians",pts:225,pts10:225,m:5,W:3,sv:2,inv:4,fnp:null,
         label:"5m adrastus bolt caliver (SH1)",
         chars:["none","sc","trajann","valerian","blade_v","blade_h"],
-        sWs:[[15,2,5,-1,2,{sh1:1}]],
+        sWs:[[15,2,5,-1,2,{sustained:1}]],
         mWs:[[20,2,5,-2,1,{}]]},
 
     // ── Vertus Praetors ───────────────────────────────────────────────────────────
+    // MFM v1.3 flags this entry with a ▲, but the 1st-2nd values it lists (145/215) match what's
+    // coded below already. v1.3 also lists 3rd+ as 170/240 (not tracked here) - no delta markers
+    // shown on any of these lines, so the actual source of the ▲ flag is unclear.
     {id:"vp2s",uid:"vp",unit:"Vertus Praetors",pts:145,pts10:150,m:2,W:5,sv:2,inv:4,fnp:null,
         label:"2m salvo launcher TL (anti-vehicle)",
         chars:["none","sc_b"],
@@ -190,7 +197,7 @@ export const UNITS = [
         label:"3m venatari lance (Da: SH1)",
         chars:["none"],
         sWs:[[6,2,4,-1,2,{}]],
-        mWs:[[15,2,7,-2,2,{sh1:1}]]},
+        mWs:[[15,2,7,-2,2,{sustained:1}]]},
     {id:"vn3re",uid:"vn",unit:"Venatari Custodians",pts:160,pts10:165,m:3,W:3,sv:2,inv:4,fnp:null,
         label:"3m venatari lance (Re: lethal)",
         chars:["none"],
@@ -199,8 +206,8 @@ export const UNITS = [
     {id:"vn3bk",uid:"vn",unit:"Venatari Custodians",pts:160,pts10:165,m:3,W:4,sv:2,inv:4,fnp:null,
         label:"3m tarsis buckler (W4, Da)",
         chars:["none"],
-        sWs:[[6,2,6,-1,1,{sh1:1}]],
-        mWs:[[15,2,5,-2,1,{sh1:1}]]},
+        sWs:[[6,2,6,-1,1,{sustained:1}]],
+        mWs:[[15,2,5,-2,1,{sustained:1}]]},
     {id:"vn6re",uid:"vn",unit:"Venatari Custodians",pts:320,pts10:330,m:6,W:3,sv:2,inv:4,fnp:null,
         label:"6m venatari lance (Re: lethal)",
         chars:["none"],
@@ -211,36 +218,36 @@ export const UNITS = [
     {id:"ag3l",uid:"ag",unit:"Agamatus Custodians",pts:225,pts10:225,m:3,W:4,sv:2,inv:4,fnp:null,
         label:"3m lastrum bolt cannon (SH1 shoot)",
         chars:["none","sc_b"],
-        sWs:[[9,2,6,-1,1,{sh1:1}]],
-        mWs:[[15,2,7,-2,2,{sh1:1}]]},
+        sWs:[[9,2,6,-1,1,{sustained:1}]],
+        mWs:[[15,2,7,-2,2,{sustained:1}]]},
     {id:"ag3p",uid:"ag",unit:"Agamatus Custodians",pts:225,pts10:225,m:3,W:4,sv:2,inv:4,fnp:null,
         label:"3m twin las-pulsar TL",
         chars:["none","sc_b"],
         sWs:[[6,2,9,-1,2,{tl:1}]],
-        mWs:[[15,2,7,-2,2,{sh1:1}]]},
+        mWs:[[15,2,7,-2,2,{sustained:1}]]},
     {id:"ag3a",uid:"ag",unit:"Agamatus Custodians",pts:225,pts10:225,m:3,W:4,sv:2,inv:4,fnp:null,
         label:"3m adrathic devastator",
         chars:["none","sc_b"],
         sWs:[[3,2,7,-2,3,{}]],
-        mWs:[[15,2,7,-2,2,{sh1:1}]]},
+        mWs:[[15,2,7,-2,2,{sustained:1}]]},
 
     {id:"ag6l",uid:"ag",unit:"Agamatus Custodians",pts:450,pts10:450,m:6,W:4,sv:2,inv:4,fnp:null,
         label:"6m lastrum bolt cannon (SH1 shoot)",
         chars:["none","sc_b"],
-        sWs:[[18,2,6,-1,1,{sh1:1}]],
-        mWs:[[30,2,7,-2,2,{sh1:1}]]},
+        sWs:[[18,2,6,-1,1,{sustained:1}]],
+        mWs:[[30,2,7,-2,2,{sustained:1}]]},
     {id:"ag6p",uid:"ag",unit:"Agamatus Custodians",pts:450,pts10:450,m:6,W:4,sv:2,inv:4,fnp:null,
         label:"6m twin las-pulsar TL",
         chars:["none","sc_b"],
         sWs:[[12,2,9,-1,2,{tl:1}]],
-        mWs:[[30,2,7,-2,2,{sh1:1}]]},
+        mWs:[[30,2,7,-2,2,{sustained:1}]]},
 
     // ── Aquilon Custodians — Heavy Assault Infantry: rrw1 on ranged (closest tgt)
     {id:"aq3sd",uid:"aq",unit:"Aquilon Custodians",pts:195,pts10:195,m:3,W:4,sv:2,inv:4,fnp:null,
         label:"3m storm bolter + solerite gauntlet (Da: SH1)",
         chars:["none","sc_a"],
         sWs:[[6,2,5,-1,1,{rrw1:1}]],
-        mWs:[[15,2,8,-2,2,{sh1:1}]]},
+        mWs:[[15,2,8,-2,2,{sustained:1}]]},
     {id:"aq3sr",uid:"aq",unit:"Aquilon Custodians",pts:195,pts10:195,m:3,W:4,sv:2,inv:4,fnp:null,
         label:"3m storm bolter + solerite gauntlet (Re: lethal)",
         chars:["none","sc_a"],
@@ -256,7 +263,7 @@ export const UNITS = [
         label:"6m storm bolter + solerite gauntlet (Da: SH1)",
         chars:["none","sc_a"],
         sWs:[[12,2,5,-1,1,{rrw1:1}]],
-        mWs:[[30,2,8,-2,2,{sh1:1}]]},
+        mWs:[[30,2,8,-2,2,{sustained:1}]]},
     {id:"aq6sr",uid:"aq",unit:"Aquilon Custodians",pts:390,pts10:390,m:6,W:4,sv:2,inv:4,fnp:null,
         label:"6m storm bolter + solerite gauntlet (Re: lethal)",
         chars:["none","sc_a"],
@@ -284,12 +291,12 @@ export const UNITS = [
     {id:"cal_i",uid:"cal",unit:"Caladius Grav-tank",pts:210,pts10:215,m:1,W:14,sv:2,inv:5,fnp:null,
         label:"iliastus accelerator TL (lethal vs non-M/V)",
         chars:["none"],
-        sWs:[[4,2,10,-1,3,{tl:1,let:1}],[3,2,6,-1,1,{sh1:1}]],
+        sWs:[[4,2,10,-1,3,{tl:1,let:1}],[3,2,6,-1,1,{sustained:1}]],
         mWs:null},
     {id:"cal_b",uid:"cal",unit:"Caladius Grav-tank",pts:210,pts10:215,m:1,W:14,sv:2,inv:5,fnp:null,
         label:"twin blaze cannon TL (lethal vs M/V, D6+2=5.5)",
         chars:["none"],
-        sWs:[[4,2,12,-3,5.5,{tl:1,let:1}],[3,2,6,-1,1,{sh1:1}]],
+        sWs:[[4,2,12,-3,5.5,{tl:1,let:1}],[3,2,6,-1,1,{sustained:1}]],
         mWs:null},
 
     // ── Pallas Grav-attack ────────────────────────────────────────────────────────
@@ -303,7 +310,7 @@ export const UNITS = [
     {id:"cor",uid:"cor",unit:"Coronus Grav-carrier",pts:180,pts10:200,m:1,W:16,sv:2,inv:5,fnp:null,
         label:"twin blaze cannon dev TL + lastrum SH1",
         chars:["none"],
-        sWs:[[8,2,5,-1,1,{dev:1,tl:1}],[3,2,6,-1,1,{sh1:1}]],
+        sWs:[[8,2,5,-1,1,{dev:1,tl:1}],[3,2,6,-1,1,{sustained:1}]],
         mWs:null},
 
     // ── Venerable Contemptor Dreadnought ─────────────────────────────────────────
@@ -328,7 +335,7 @@ export const UNITS = [
         label:"dreadspear lance (Da: SH1)",
         chars:["none"],
         sWs:[[4,2,5,-1,1,{}],[1,2,9,-2,3,{}]],
-        mWs:[[5,2,12,-2,4.5,{sh1:1}]]},
+        mWs:[[5,2,12,-2,4.5,{sustained:1}]]},
     {id:"ach_r",uid:"ach",unit:"Contemptor-Achillus",pts:155,pts10:155,m:1,W:10,sv:2,inv:5,fnp:null,
         label:"dreadspear lance (Re: lethal)",
         chars:["none"],
@@ -340,7 +347,7 @@ export const UNITS = [
         label:"galatus warblade (Da: SH1)",
         chars:["none"],
         sWs:[[3.5,1,6,-1,1,{}]],
-        mWs:[[8,2,8,-2,3,{sh1:1}]]},
+        mWs:[[8,2,8,-2,3,{sustained:1}]]},
     {id:"gal_r",uid:"gal",unit:"Contemptor-Galatus",pts:165,pts10:165,m:1,W:10,sv:2,inv:4,fnp:null,
         label:"galatus warblade (Re: lethal)",
         chars:["none"],
@@ -378,7 +385,7 @@ export const UNITS = [
     {id:"vlr",uid:"vlr",unit:"Venerable Land Raider",pts:220,pts10:220,m:1,W:16,sv:2,inv:null,fnp:null,
         label:"2× lascannon + twin heavy bolter SH1",
         chars:["none"],
-        sWs:[[4,2,12,-3,4.5,{}],[3,2,5,-1,2,{sh1:1,tl:1}]],
+        sWs:[[4,2,12,-3,4.5,{}],[3,2,5,-1,2,{sustained:1,tl:1}]],
         mWs:null},
 
     // ── Prosecutors (Sisters – Talons support) ───────────────────────────────────
@@ -430,7 +437,7 @@ export const UNITS = [
         label:"Hurricanus: 9A S5 AP-1 D1 SH1",
         chars:["none"],
         sWs:null,
-        mWs:[[9,2,5,-1,1,{sh1:1}]]},
+        mWs:[[9,2,5,-1,1,{sustained:1}]]},
     {id:"bc_b",uid:"bc",unit:"Blade Champion",pts:110,pts10:120,m:1,W:6,sv:2,inv:4,fnp:null,
         label:"Behemor: 6A S7 AP-2 D2 Precision",
         chars:["none"],
@@ -474,7 +481,7 @@ export const DETACHMENTS = [
             {key:"crit", label:"5+ crits",   affects:{all:true, ch5m:true}},
             {key:"ap",   label:"+1 AP melee", affects:{all:true, ap1m:true}},
         ]},
-    {id:"lions",   dp:2, name:"Lions of the Emperor", disp:"Disruption",
+    {id:"lions",   dp:3, name:"Lions of the Emperor", disp:"Take and Hold", // MFM v1.3: DP 2→3, disposition Disruption→Take and Hold
         desc:"[Unique: Lions] Against All Odds: +1 hit and +1 wound when no other friendly within 6\" (non-vehicles).",
         affects:{all:true, bhBonus:1, wBonus:1}},
     {id:"auric",   dp:2, name:"Auric Champions", disp:"Priority Assets",
@@ -492,10 +499,29 @@ export const DETACHMENTS = [
     {id:"silent",  dp:1, name:"Silent Hunters", disp:"Recon",
         desc:"Skin-Crawling Disorientation: Anathema units can advance + start actions; Ceaseless Vigilance marks enemy units.",
         affects:null},
-    {id:"tharanatoi",dp:1,name:"Tharanatoi Hammerblow",disp:"Priority Assets",
+    {id:"tharanatoi",dp:1,name:"Tharanatoi Hammerblow",disp:"Disruption", // MFM v1.3: disposition Priority Assets→Disruption
         desc:"[Unique: Lions] The Hammer Falls: Terminator units that made an ingress move can re-roll charge rolls.",
         affects:null},
 ];
+
+// Per-uid Toughness/Vehicle/Monster, for use as a TARGET (e.g. Fight Simulator).
+// Sourced from ref/custodes-datasheets.txt.
+export const DEFENSE = {
+    cg:{T:6,veh:false,mon:false}, cw:{T:6,veh:false,mon:false},
+    al:{T:7,veh:false,mon:false}, sag:{T:6,veh:false,mon:false},
+    vp:{T:7,veh:false,mon:false}, vn:{T:6,veh:false,mon:false},
+    ag:{T:6,veh:false,mon:false}, aq:{T:7,veh:false,mon:false},
+    cgs:{T:6,veh:false,mon:false},
+    cal:{T:11,veh:true,mon:false}, pal:{T:8,veh:true,mon:false},
+    cor:{T:12,veh:true,mon:false}, vcd:{T:9,veh:true,mon:false},
+    ach:{T:9,veh:true,mon:false}, gal:{T:9,veh:true,mon:false},
+    tel:{T:10,veh:true,mon:false}, vlr:{T:12,veh:true,mon:false},
+    pro:{T:3,veh:false,mon:false}, vig:{T:3,veh:false,mon:false},
+    wit:{T:3,veh:false,mon:false},
+    bc:{T:6,veh:false,mon:false}, sc:{T:6,veh:false,mon:false},
+    sca:{T:7,veh:false,mon:false}, scb:{T:7,veh:false,mon:false},
+    tj:{T:6,veh:false,mon:false}, val:{T:6,veh:false,mon:false},
+};
 
 // Unit accent colours (keyed by uid)
 export const UC = {
