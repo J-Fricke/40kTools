@@ -523,13 +523,16 @@ export const DEFENSE = {
     tj:{T:6,veh:false,mon:false}, val:{T:6,veh:false,mon:false},
 };
 
-// Unit accent colours (keyed by uid)
+// Unit accent colours (keyed by uid). vlr/wit/scb brightened 2026-09-02 -
+// failed a 4.5:1 WCAG contrast check against the app background (measured
+// via scripts/design/checkContrast.mjs, see scripts/design/COLOR_GUIDELINES.md);
+// everything else here already passed.
 export const UC = {
     cg:"#fbbf24",  cw:"#f59e0b",  al:"#d97706",  sag:"#7dd3fc",
     vp:"#fb923c",  vn:"#fde68a",  ag:"#f97316",  aq:"#94a3b8",
     cgs:"#fca5a5", cal:"#22d3ee", pal:"#67e8f9",  cor:"#0891b2",
     vcd:"#a78bfa", ach:"#c084fc", gal:"#e879f9",  tel:"#818cf8",
-    vlr:"#64748b", pro:"#d1d5db", vig:"#9ca3af",  wit:"#6b7280",
-    bc:"#f472b6",  sc:"#fb923c",  sca:"#ea580c",  scb:"#c2410c",
+    vlr:"#708198", pro:"#d1d5db", vig:"#9ca3af",  wit:"#777f8d",
+    bc:"#f472b6",  sc:"#fb923c",  sca:"#ea580c",  scb:"#e44c0e",
     tj:"#ef4444",  val:"#22c55e",
 };
