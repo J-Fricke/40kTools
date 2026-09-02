@@ -147,8 +147,45 @@ need a human read (same as always - not a vocabulary problem):
 
 `ourSizeTiers.mjs` extracts base costs from our own existing MFM-verified
 `src/factions/*.js` data (cheapest SKU per uid+model-count), NOT from
-BSData's `costs` field - deliberate, see project memory. Per-choice wargear
-cost deltas are not yet wired in at all (composableUnit.js's `ptsDelta` on
-each choice defaults to 0) - most GK Heavy Weapon-style options are
-genuinely free per the real rules, but this needs verification per-faction
-before trusting it as a blanket assumption.
+BSData's `costs` field - deliberate, see project memory.
+
+**Per-choice wargear cost deltas: fixed 2026-09-02 (issue #4)**. Traced
+every genuinely-costed wargear option directly to each faction's own
+`ref/*-mfm-v1.3.txt` "WARGEAR OPTIONS" section (a "per <weapon>: N pts"
+line), NOT the datasheet text (which never states a cost even for options
+that do cost points in the MFM) and NOT BSData's `costs` field. Wired via
+`scripts/bsdata-import/wargearPoints.mjs`'s `WARGEAR_POINTS` table, applied
+in `convertFaction.mjs` after `buildFamily`. Confirmed exceptions (almost
+everything else is genuinely free):
+
+- **Grey Knights**: Brotherhood Terminator Squad, Paladin Squad, Purgation
+  Squad - Psycannon +5pts. Nemesis Dreadknight - Heavy psycannon +15pts.
+  Grand Master in Nemesis Dreadknight - Sublimator +15pts, Heavy psycannon
+  +15pts.
+- **Custodes**: Caladius Grav-tank - Twin arachnus heavy blaze cannon
+  +15pts.
+- **Votann**: none - no "WARGEAR OPTIONS" section anywhere in
+  `votann-mfm-v1.3.txt`.
+- **Chaos Knights**: Knight Despoiler has real costed options (gatling
+  cannon +25pts, battle cannon +10pts) but NOT wired in - `desp`'s
+  extracted wargear slots are still wrong (see the coverage-warning list
+  above), wiring points onto the current incorrect choices would be
+  actively misleading. Revisit once `desp`'s extraction itself is fixed.
+
+**Genuine unresolved ambiguity, deliberately not applied**: Custodes
+Venatari Custodians. The MFM says "per Venatari lance: 5pts", but
+`ref/custodes-datasheets.txt`'s rules text says the lance is the FREE base
+weapon and the (uncosted) optional swap is TO a kinetic destroyer +
+tarsus buckler - the opposite direction from what the MFM line implies.
+Either a newer errata/dataslate flipped which weapon is free (this
+datasheet source may predate that), or the MFM means something this app's
+schema can't represent (a cost to KEEP the base weapon rather than a
+selectable choice). See `wargearPoints.mjs`'s comment. Needs a human check
+against a current datasheet before wiring anything in either direction.
+
+**A real trap avoided**: the old hand-authored data showed apparent point
+variation for a couple of units (Nemesis Dreadknight 195 vs 210pts) that
+turned out to be the MFM's unrelated "3rd+ copy of this unit in your army
+costs more" battle-size tax, not a wargear cost - don't trust apparent
+point variation in old data as evidence of a costed wargear option without
+tracing it back to an actual "WARGEAR OPTIONS" section.
