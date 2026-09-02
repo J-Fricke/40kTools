@@ -220,37 +220,51 @@ export const UNITS = [
     // Note: GH actually outdamages GS per point across every target tested
     // here despite the worse WS, even with no Surge of Wrath (NDK doesn't
     // have that ability) - both shown by default, not just GS.
-    // 1st-2nd/3rd+ pts: psl+inc 195/210, psl+hpc & inc+hpc 210/225.
+    // sWs/mWs corrected 2026-09-02 (GitHub issue #22): the real rules give
+    // NDK no fixed default loadout at all - ranged is "up to two of the
+    // following, cannot take duplicates" (Gatling psilencer/Heavy psycannon/
+    // Heavy incinerator, all optional) and dreadfists is "replaced with one
+    // of the following" (Nemesis greatsword/daemon greathammer), meaning
+    // Dreadfists ITSELF is the true default melee weapon, not a swap
+    // option. These 6 rows used to enumerate every combination as separate
+    // SKUs (kept below, still needed for per-model-count points via
+    // ourSizeTiers.mjs) but the fallback base-weapon logic was grabbing
+    // whichever combo happened to be cheapest as if it were "the" default -
+    // wrong, and (for the "GS" rows specifically) was also double-counting
+    // Nemesis Greatsword's strike AND sweep profiles simultaneously, when
+    // only one profile applies per fight. All 6 now correctly show empty
+    // sWs (fully optional via the "Ranged Weapons" slot) and Dreadfists as
+    // the sole mWs entry (A6 WS2+ S6 AP-1 D1, swappable via "Dreadfists").
     {id:"ndk_pi_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:195, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=210
-        label:"psl+inc+GS",
+        label:"Base (Dreadfists, no ranged)",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sustained:1}],[7,1,6,-1,1,{}]],
-        mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
+        sWs:[],
+        mWs:[[6,2,6,-1,1,{}]]},
     {id:"ndk_pi_gh",  uid:"ndk", unit:"Nemesis Dreadknight", pts:195, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=210
-        label:"psl+inc+GH",
+        label:"Base (Dreadfists, no ranged)",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sustained:1}],[7,1,6,-1,1,{}]],
-        mWs:[[5,3,14,-3,4.5,{}]]},
+        sWs:[],
+        mWs:[[6,2,6,-1,1,{}]]},
     {id:"ndk_ph_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=225
-        label:"psl+hpc+GS",
+        label:"Base (Dreadfists, no ranged)",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sustained:1}],[6,3,10,-2,3,{}]],
-        mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
+        sWs:[],
+        mWs:[[6,2,6,-1,1,{}]]},
     {id:"ndk_ph_gh",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, // 3rd+=225
-        label:"psl+hpc+GH",
+        label:"Base (Dreadfists, no ranged)",
         chars:["none"],
-        sWs:[[12,3,6,0,1,{sustained:1}],[6,3,10,-2,3,{}]],
-        mWs:[[5,3,14,-3,4.5,{}]]},
+        sWs:[],
+        mWs:[[6,2,6,-1,1,{}]]},
     {id:"ndk_ih_gs",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, hidden:true, // 3rd+=225
-        label:"inc+hpc+GS",
+        label:"Base (Dreadfists, no ranged)",
         chars:["none"],
-        sWs:[[7,1,6,-1,1,{}],[6,3,10,-2,3,{}]],
-        mWs:[[5,2,10,-2,3.5,{}],[10,2,5,-1,1,{}]]},
+        sWs:[],
+        mWs:[[6,2,6,-1,1,{}]]},
     {id:"ndk_ih_gh",  uid:"ndk", unit:"Nemesis Dreadknight", pts:210, m:1, W:13, sv:2, inv:4, fnp:null, // 3rd+=225
-        label:"inc+hpc+GH",
+        label:"Base (Dreadfists, no ranged)",
         chars:["none"],
-        sWs:[[7,1,6,-1,1,{}],[6,3,10,-2,3,{}]],
-        mWs:[[5,3,14,-3,4.5,{}]]},
+        sWs:[],
+        mWs:[[6,2,6,-1,1,{}]]},
 
     // ── Grand Master in Nemesis Dreadknight (GMND) ──────────────────────────────
     // Surge of Wrath vs MON/VEH: re-roll hit + wound + damage (rrwf models wound only).
