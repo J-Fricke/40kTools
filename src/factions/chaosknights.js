@@ -253,29 +253,30 @@ export const DEFENSE = {
     stalker:{T:9,veh:true,mon:false}, moirax:{T:10,veh:true,mon:false},
 };
 
-// Brightened 2026-09-02 (see GitHub issue tracking the fix): 15 of these 20
-// colors failed a 4.5:1 WCAG contrast check against the app's dark
-// background (measured, not eyeballed - abom/ruin/ach/mag/sty were already
-// fine and left unchanged). Each replacement keeps the original hue/
-// saturation, only lightness raised until it passes - same color family,
-// actually readable. moirax's hue was additionally nudged (its brightened
-// value collided almost exactly with lanc's) - same-hue-family clustering
-// between OTHER pairs (desc/ramp/aster reds, tyrant/casti/huntsman blues,
-// atra/exec teals, desp/brigand/karnivore oranges) predates this fix and is
-// a separate, unresolved distinctness concern, not something introduced here.
+// Brightened 2026-09-02, all 20 colors now verified via
+// scripts/design/checkContrast.mjs (run it after touching any of these) -
+// see scripts/design/COLOR_GUIDELINES.md. Each replacement keeps the
+// original hue/saturation, only lightness raised until it clears 4.5:1 -
+// same color family, actually readable. moirax's hue was additionally
+// nudged (its brightened value collided almost exactly with lanc's) -
+// same-hue-family clustering between OTHER groups (abom/desc/ramp/aster
+// reds, tyrant/casti/huntsman blues, atra/exec/sty teals,
+// ach/desp/brigand/karnivore oranges) predates this fix and is a separate,
+// unresolved distinctness concern (GitHub issue #16), not something
+// introduced here.
 export const UC = {
-    abom:      "#dc2626",
+    abom:      "#e24949",
     desc:      "#e34444",
     desp:      "#d35d14",
     ramp:      "#df4a4a",
-    ruin:      "#7c3aed",
+    ruin:      "#955ff0",
     tyrant:    "#5078e7",
-    ach:       "#b45309",
+    ach:       "#cc5e0a",
     atra:      "#0b906d",
     casti:     "#5a7ae3",
     lanc:      "#9665e4",
-    mag:       "#be185d",
-    sty:       "#0f766e",
+    mag:       "#e63880",
+    sty:       "#128d83",
     aster:     "#d85353",
     porf:      "#7875ce",
     brigand:   "#d35d1a",
