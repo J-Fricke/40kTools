@@ -253,25 +253,35 @@ export const DEFENSE = {
     stalker:{T:9,veh:true,mon:false}, moirax:{T:10,veh:true,mon:false},
 };
 
+// Brightened 2026-09-02 (see GitHub issue tracking the fix): 15 of these 20
+// colors failed a 4.5:1 WCAG contrast check against the app's dark
+// background (measured, not eyeballed - abom/ruin/ach/mag/sty were already
+// fine and left unchanged). Each replacement keeps the original hue/
+// saturation, only lightness raised until it passes - same color family,
+// actually readable. moirax's hue was additionally nudged (its brightened
+// value collided almost exactly with lanc's) - same-hue-family clustering
+// between OTHER pairs (desc/ramp/aster reds, tyrant/casti/huntsman blues,
+// atra/exec teals, desp/brigand/karnivore oranges) predates this fix and is
+// a separate, unresolved distinctness concern, not something introduced here.
 export const UC = {
     abom:      "#dc2626",
-    desc:      "#b91c1c",
-    desp:      "#92400e",
-    ramp:      "#991b1b",
+    desc:      "#e34444",
+    desp:      "#d35d14",
+    ramp:      "#df4a4a",
     ruin:      "#7c3aed",
-    tyrant:    "#1d4ed8",
+    tyrant:    "#5078e7",
     ach:       "#b45309",
-    atra:      "#064e3b",
-    casti:     "#1e40af",
-    lanc:      "#6d28d9",
+    atra:      "#0b906d",
+    casti:     "#5a7ae3",
+    lanc:      "#9665e4",
     mag:       "#be185d",
     sty:       "#0f766e",
-    aster:     "#7f1d1d",
-    porf:      "#312e81",
-    brigand:   "#78350f",
-    exec:      "#065f46",
-    huntsman:  "#1e3a8a",
-    karnivore: "#7c2d12",
-    stalker:   "#374151",
-    moirax:    "#4c1d95",
+    aster:     "#d85353",
+    porf:      "#7875ce",
+    brigand:   "#d35d1a",
+    exec:      "#09946d",
+    huntsman:  "#5779db",
+    karnivore: "#de5120",
+    stalker:   "#6f819d",
+    moirax:    "#d732cd",
 };

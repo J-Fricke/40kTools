@@ -2,9 +2,19 @@
 // Color palette and small building blocks used across every tool in the suite,
 // so the Faction Unit Evaluator, Fight Simulator, and future tools all look
 // like one product instead of each inventing their own theme.
+// dim/vdim brightened 2026-09-02: both measured well under a 4.5:1 WCAG
+// contrast ratio against backgrounds they're actually used on (bg/bg2/bg3
+// and the active-detachment-card ambBg) - vdim was the worse offender
+// (as low as 1.2:1 against ambBg, effectively invisible), and simply
+// brightening vdim in isolation would have made it LIGHTER than dim,
+// inverting the two-tier hierarchy (vdim is meant to read as more muted
+// than dim) - so both got raised together, keeping vdim < dim < sub while
+// every tier clears 4.5:1 on its real backgrounds. See the color-contrast
+// audit script used to compute these (WCAG relative-luminance formula, not
+// eyeballed) if this needs revisiting.
 export const C = {
     bg: "#060e1c", bg2: "#0a1525", bg3: "#0d1f35", bdr: "#1e293b", bdr2: "#2d4266",
-    tx: "#f1f5f9", sub: "#cbd5e1", dim: "#94a3b8", vdim: "#475569",
+    tx: "#f1f5f9", sub: "#cbd5e1", dim: "#c2cad6", vdim: "#adb8c7",
     amb: "#fbbf24", ambBg: "#78350f", bl: "#60a5fa", blBg: "#1e3a5f",
     grn: "#34d399", pur: "#c084fc"
 };
