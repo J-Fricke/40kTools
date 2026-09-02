@@ -48,9 +48,45 @@
 // one model's melee weapon, etc.) - the engine's calcWs() expects a unit-total
 // shots count, so resolveBuild scales each entry by how many models are still
 // on the base loadout before handing it off.
+//
+// A base entry is normally a plain weapon array `[shots,skill,S,AP,D,tags]`.
+// For a single-model unit with 2+ independent hardpoints lumped into the
+// same base.sWs/mWs array (e.g. Knight Despoiler's melee array holding
+// reaper chainsword + warpstrike claw + titanic feet all at once, for its
+// one model), an entry can instead be `{weapon: [...], hardpoint: slotId}` -
+// tagging it as belonging to a specific slot. Swapping that slot removes
+// ONLY this one entry, leaving the rest of the array untouched, instead of
+// the array-wide "scale by remaining models" treatment below wiping every
+// hardpoint at once whenever any one of them gets swapped (see GitHub issue
+// #22 for how that was found and why it's wrong for these units).
 function scaleWeapons(ws, n) {
     if (!ws || n <= 0) return [];
     return ws.map(([shots, skill, s, ap, d, tags]) => [shots * n, skill, s, ap, d, tags]);
+}
+
+// Splits a base.sWs/mWs array into untagged entries (plain weapon arrays,
+// subject to the usual model-count scaling) and hardpoint-tagged entries
+// (objects, resolved separately - see resolveHardpointEntries below).
+function splitBaseEntries(entries) {
+    const untagged = [], tagged = [];
+    for (const e of entries || []) (Array.isArray(e) ? untagged : tagged).push(e);
+    return { untagged, tagged };
+}
+
+// A hardpoint-tagged entry represents 1 model's worth of that specific
+// weapon - scaled by however many models did NOT pick a choice in the
+// entry's owning slot (same "models stepped out of the base loadout"
+// logic as the untagged case, just counted per-hardpoint instead of across
+// the whole category). For a single-model unit this collapses to "present
+// at full value, or removed entirely" (modelCount=1 minus 0-or-1 selected),
+// but the same formula scales correctly for a multi-model squad too.
+function resolveHardpointEntries(tagged, modelCount, slotSelectionCounts) {
+    const out = [];
+    for (const e of tagged) {
+        const selected = slotSelectionCounts.get(e.hardpoint) || 0;
+        out.push(...scaleWeapons([e.weapon], Math.max(0, modelCount - selected)));
+    }
+    return out;
 }
 
 // resolveBuild: given a unit family definition and a chosen configuration
@@ -80,22 +116,45 @@ function scaleWeapons(ws, n) {
 // mount (Despoiler's separate "Carapace weapon") that should never reduce
 // base at all even though its choices happen to share a category with it.
 export function resolveBuild(family, { modelCount, slotChoices }) {
+    const sWsSplit = splitBaseEntries(family.base.sWs);
+    const mWsSplit = splitBaseEntries(family.base.mWs);
+    // A slot with a hardpoint-tagged entry in a category handles that
+    // category's reduction itself (resolveHardpointEntries, precisely
+    // scoped to just that entry) - it must NOT also count toward the old
+    // blanket per-choice modelsSwapped* counters below, or an unrelated
+    // untagged entry in the same category (e.g. Hearthkyn Warriors' other
+    // sWs weapon, nothing to do with its hardpoint-tagged Autoch-pattern
+    // bolter) would get wrongly reduced too by a slot that was never
+    // meant to touch it.
+    const hardpointSlots = { sWs: new Set(), mWs: new Set() };
+    for (const e of sWsSplit.tagged) hardpointSlots.sWs.add(e.hardpoint);
+    for (const e of mWsSplit.tagged) hardpointSlots.mWs.add(e.hardpoint);
+
     let modelsSwappedRanged = 0, modelsSwappedMelee = 0;
+    const slotSelectionCounts = new Map();
     for (const slot of family.slots || []) {
-        for (const choiceId of (slotChoices?.[slot.id] || [])) {
+        const chosen = slotChoices?.[slot.id] || [];
+        if (chosen.length) slotSelectionCounts.set(slot.id, chosen.length);
+        for (const choiceId of chosen) {
             const choice = slot.choices.find(c => c.id === choiceId);
             if (!choice) continue;
             if (slot.replaces) {
-                if (slot.replaces.sWs) modelsSwappedRanged++;
-                if (slot.replaces.mWs) modelsSwappedMelee++;
+                if (slot.replaces.sWs && !hardpointSlots.sWs.has(slot.id)) modelsSwappedRanged++;
+                if (slot.replaces.mWs && !hardpointSlots.mWs.has(slot.id)) modelsSwappedMelee++;
             } else {
-                if (choice.sWs) modelsSwappedRanged++;
-                if (choice.mWs) modelsSwappedMelee++;
+                if (choice.sWs && !hardpointSlots.sWs.has(slot.id)) modelsSwappedRanged++;
+                if (choice.mWs && !hardpointSlots.mWs.has(slot.id)) modelsSwappedMelee++;
             }
         }
     }
-    let sWs = scaleWeapons(family.base.sWs, Math.max(0, modelCount - modelsSwappedRanged));
-    let mWs = scaleWeapons(family.base.mWs, Math.max(0, modelCount - modelsSwappedMelee));
+    let sWs = [
+        ...scaleWeapons(sWsSplit.untagged, Math.max(0, modelCount - modelsSwappedRanged)),
+        ...resolveHardpointEntries(sWsSplit.tagged, modelCount, slotSelectionCounts),
+    ];
+    let mWs = [
+        ...scaleWeapons(mWsSplit.untagged, Math.max(0, modelCount - modelsSwappedMelee)),
+        ...resolveHardpointEntries(mWsSplit.tagged, modelCount, slotSelectionCounts),
+    ];
     let ptsDelta = 0;
     for (const slot of family.slots || []) {
         const chosen = (slotChoices?.[slot.id] || []);

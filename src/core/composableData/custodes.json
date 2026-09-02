@@ -919,46 +919,6 @@
     },
     "slots": [
       {
-        "id": "5043-dc01-5cbc-9328",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "dca3-638e-52a2-b1b8",
-            "label": "Armoured hull",
-            "mWs": [
-              [
-                4,
-                4,
-                6,
-                0,
-                1,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "62a1-1fa7-70b7-614d",
-            "label": "Twin lastrum bolt cannon",
-            "sWs": [
-              [
-                3,
-                2,
-                6,
-                -1,
-                1,
-                {
-                  "sustained": 1
-                }
-              ]
-            ]
-          }
-        ]
-      },
-      {
         "id": "cbfe-9c88-8c0d-d293",
         "label": "Equipped with",
         "pick": {
@@ -1033,49 +993,7 @@
       ],
       "mWs": []
     },
-    "slots": [
-      {
-        "id": "445a-d0a7-f252-1702",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "5645-646-96f-9768",
-            "label": "Armoured hull",
-            "mWs": [
-              [
-                3,
-                4,
-                6,
-                0,
-                1,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "2693-63bf-611f-37fe",
-            "label": "Twin arachnus blaze cannon",
-            "sWs": [
-              [
-                8,
-                2,
-                5,
-                -1,
-                1,
-                {
-                  "dev": 1,
-                  "tl": 1
-                }
-              ]
-            ]
-          }
-        ]
-      }
-    ],
+    "slots": [],
     "chars": [
       "none"
     ]
@@ -1117,65 +1035,7 @@
       ],
       "mWs": []
     },
-    "slots": [
-      {
-        "id": "3aad-ad77-5f52-9248",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "66-f0fd-e679-7c3d",
-            "label": "Armoured hull",
-            "mWs": [
-              [
-                6,
-                4,
-                8,
-                0,
-                1,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "c515-ed5-b39e-691a",
-            "label": "Twin arachnus blaze cannon",
-            "sWs": [
-              [
-                8,
-                2,
-                5,
-                -1,
-                1,
-                {
-                  "dev": 1,
-                  "tl": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "6fdb-341f-d4a6-3946",
-            "label": "Twin lastrum bolt cannon",
-            "sWs": [
-              [
-                3,
-                2,
-                6,
-                -1,
-                1,
-                {
-                  "sustained": 1
-                }
-              ]
-            ]
-          }
-        ]
-      }
-    ],
+    "slots": [],
     "chars": [
       "none"
     ]
@@ -1216,44 +1076,6 @@
       ]
     },
     "slots": [
-      {
-        "id": "f869-c5f5-f929-8502",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "33a3-7a7b-c766-bf09",
-            "label": "Combi-bolter",
-            "sWs": [
-              [
-                4,
-                2,
-                4,
-                0,
-                1,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "355c-3441-af3d-849",
-            "label": "Contemptor combat weapon",
-            "mWs": [
-              [
-                5,
-                2,
-                12,
-                -2,
-                3,
-                {}
-              ]
-            ]
-          }
-        ]
-      },
       {
         "id": "6ee7-91e7-5929-dbdb",
         "label": "equipped with",
@@ -1557,44 +1379,6 @@
       ]
     },
     "slots": [
-      {
-        "id": "01f8-6c1d-3f4f-63c5",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "80e0-3d7a-702a-a745",
-            "label": "Armoured feet",
-            "mWs": [
-              [
-                5,
-                2,
-                7,
-                0,
-                1,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "1189-dcd8-e3ed-7837",
-            "label": "Spiculus bolt launcher",
-            "sWs": [
-              [
-                6.5,
-                2,
-                5,
-                0,
-                1,
-                {}
-              ]
-            ]
-          }
-        ]
-      },
       {
         "id": "1ad8-749e-76ed-07e6",
         "label": "Wargear Options",

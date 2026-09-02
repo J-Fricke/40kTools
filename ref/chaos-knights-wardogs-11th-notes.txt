@@ -1,0 +1,185 @@
+CHAOS KNIGHTS - WAR DOG NOTES (11th ed)
+Source: wahapedia wh40k11ed + MFM v1.3 + Faction Pack v1.2. Pulled 2026-09-02.
+
+=== DETACHMENT STACKING (key point) ===
+MFM v1.3 lists "UPDATED - UNIQUE TAG REMOVED" against BOTH Houndpack Lance
+and Hunting Warpack. The "WAR DOGS unique tag" (still printed in Faction
+Pack v1.2 text, "cannot be taken with another WAR DOGS detachment") is
+REMOVED by MFM v1.3.
+=> Houndpack Lance (2DP, Reconnaissance) + Hunting Warpack (1DP, Reconnaissance)
+   CAN now be run together = 3DP.
+Helhunt Lance (2DP, Disruption) - no tag noted either.
+
+=== DETACHMENTS (MFM v1.3) ===
+Houndpack Lance   2DP  Reconnaissance
+  Rule "Marked Prey": start of Command phase pick 1 enemy unit; War Dog
+  attacks vs it (if visible) get [SUSTAINED HITS 1] until next Command phase.
+  Army needs 3+ War Dog units; all War Dogs gain Battleline; pick 3 War Dog
+  units to gain CHARACTER (Enhancements / Warlord eligible).
+  Enh: Final Howl 20 (friendly War Dogs w/in 6" reroll 1s to wound),
+       Loping Predator 10 (bearer's ranged weapons gain [ASSAULT]),
+       Panoply of the Cursed Knights 15 (attacks vs bearer worsen AP by 1),
+       Preyslayer's Mantle 15 (text not pulled).
+  Strat (post-v1.2 errata): Animalistic Rage 1CP (opp Shooting/Fight, just
+       after a not-yet-activated War Dog is destroyed - free shoot/fight),
+       Harrying Hounds 1CP (enemy ends move w/in 8" of a War Dog -> that
+       War Dog moves 6"), Encircling Pack 1CP (end of enemy Fight phase,
+       War Dog w/in 12" of board edge -> into reserves to outflank).
+
+Hunting Warpack   1DP  Reconnaissance
+  Rule "Scenting Fear": once per battle round, Shooting phase, pick 1 visible
+  enemy unit w/in 12" of a friendly WAR DOG unit -> that unit +6" detection
+  range (easier to hit / harder to hide).
+  Enh: Soul-spoor Auspicator 15 (HUNTSMAN only, ranged attacks +6" R),
+       Snarling Rivalry 10 (EXECUTIONER only, ranged attacks [IGNORES COVER]).
+  Strat: Insensate Bloodthirst 1CP (Fight, enemy targets a War Dog -> FNP 5+),
+       Leash of the Masters 1CP (after a War Dog shoots, still eligible to
+       start an action), Stalking Focus 1CP (opp Shooting, War Dog on
+       objective -> ranged attacks vs it -1 AP until that unit has attacked).
+
+Helhunt Lance   2DP  Disruption
+  Rule "Masters of the Pack": if a Titanic Chaos Knights unit has an Aura
+  that affects friendly War Dogs, while 2+ friendly War Dog models are in
+  range of that Aura the Titanic Knight is ALSO affected by it.
+
+Iconoclast Fiefdom  1DP  Take and Hold
+  Rule "Wretched Thralls": may include up to 500pts of DAMNED units
+  (Codex: CSM); they reroll Leadership.
+
+=== WAR DOG DATASHEETS (11th ed, wahapedia) ===
+All: T9, W14, 3+/5++ (invuln vs RANGED only), OC6, Ld7+. Deadly Demise D3.
+Damaged 1-5 W: -3 OC, -1 to hit.
+Karnivore M14"; others M12".
+Harbingers of Dread (Dread abilities incl. 'Darkness' = Stealth per v1.2).
+
+Stalker  135  M12"  T9 W14 3+/5++(ranged)  -- has SCOUTS 6" + Deadly Demise D3
+  Stalker: +1 to Wound vs a target with no other enemy units within 6".
+  Default: avenger chaincannon + diabolus heavy stubber + slaughterclaw.
+  Swaps: avenger -> daemonbreath spear (18" 2A S12 AP-4 D6, MELTA 4);
+         heavy stubber -> havoc multi-launcher (48" D6 S5 AP0 D1, INDIRECT);
+         slaughterclaw -> reaper chaintalon.
+  => a MELTA Stalker = Scout 6" + "+1 wound vs isolated" + S12 melta = the
+     best-value anti-armour / character-sniper tool in the list. Into an
+     elite/tough meta, run 2+ Stalkers on the spear, keep ~2 on avenger for
+     hordes. Swap is free (same 135 pts).
+  Avenger chaincannon (12 S6 AP-1 D1) is horde-clear only; weak into T5-6
+  multi-wound 2+/4++ elites.
+
+Huntsman  135  M12"  (Houndpack Lance Character eligible)
+  Huntsman: reroll Wound rolls vs MONSTER or VEHICLE.
+  Daemonbreath spear (melta 4, 18" 2A S12 AP-4 D6), daemonbreath meltagun
+  (melta 2, 12" 1A S9 AP-4 D6), diabolus heavy stubber.
+  Melee reaper chaintalon strike 4A S10 AP-3 D3 / sweep 8A S8 AP-2 D1.
+
+Karnivore  145  M14"
+  Karnivore: reroll Advance and Charge.
+  Reaper chaintalon here is 12A S8 AP-2 D1 [SUSTAINED HITS 1];
+  Slaughterclaw 6A S12 AP-3 D6+2 [SUSTAINED HITS 1]. Stubber or havoc launcher.
+
+Brigand  135  M12"
+  Brigand: ranged attacks vs a unit within range of an objective get [IGNORES COVER].
+  Avenger chaincannon (24" 12A S6 AP-1 D1) + daemonbreath spear (melta 4).
+  Melee only armoured feet 4A S6 AP0 D1 (no big melee).
+
+Executioner  130  M12"
+  Executioner: +1 to hit vs units below half-strength; destroys a unit ->
+  enemy units within 3" take Battle-shock.
+  2x war dog autocannon (48" 4A S9 AP-1 D3) + daemonbreath meltagun.
+
+Moirax (FW)  150 / 160 (3rd+)
+
+=== CHAOS CERASTUS KNIGHT LANCER (11th ed) ===
+385 (1st, -10 in MFM v1.3) / 415 (2nd+).  M14" T11 W28 3+/4++ OC10.
+Cerastus shock lance: RANGED [ASSAULT, SUSTAINED HITS 2] 12" 6A BS3+ S6 AP0 D2;
+  MELEE strike 5A WS2+ S20 AP-3 D8 / sweep 10A WS2+ S10 AP-2 D3.
+Deadly Demise D6+2. Shock Charge (free Crushing Impact-type effect). Super-heavy Walker.
+Kit builds Lancer only (shield is passive); Castigator is a separate variant/kit.
+Other Cerastus variants: Acheron 370, Castigator 370, Atrapos 385 (anti-Titan laser).
+
+=== CK CHASSIS DEFENCE COMPARISON (Faction Pack v1.2, all verified) ===
+Every non-Acastus CK Knight is T11. Differences are save / wounds / move.
+  Lancer      T11 W28 3+  4++ ALL-ROUND   M14"   <- best invuln in the index
+  Atrapos     T11 W28 3+  5++ all-round   M12"
+  Magaera     T11 W26 3+  5++ all-round   M10"
+  Styrix      T11 W26 3+  5++ all-round   M10"
+  Castigator  T11 W28 3+  5++ RANGED ONLY M12"   (no melee invuln)
+  Acheron     T11 W28 3+  5++ RANGED ONLY M12"
+  Desecrator / Rampager / Abominant / Despoiler / Tyrant / Ruinator:
+              T11 W28 3+  5++ RANGED ONLY M12"   (no melee invuln)
+  Acastus Asterius / Porphyrion: T13 W30 2+ 5++ RANGED ONLY M8" (725-860pts)
+=> The Cerastus Lancer is the single tankiest CK chassis vs mixed/melee
+   damage: only chassis with an always-on all-round 4++. BUT all knights are
+   T11 (premium S12+ AT wounds them on 3s regardless), and a 4++/5++ does
+   nothing vs Devastating Wounds / mortal wounds (Necrons, Deathwing/Custodes
+   fists, Lion/DA). "Tankiest model" != "best passive objective holder" -
+   the Lancer is a melee piece (12" gun only) and taxes the opponent only as
+   a live charge threat.
+NOTE: earlier assumption that Magaera is the tankiest CK chassis was WRONG
+(10th-ed carryover). In 11th, Magaera is W26 / 5++, strictly worse defence
+than the Lancer's W28 / 4++.
+
+=== "SECOND BIG" CANDIDATES (if adding one, dropping ~3 Dogs) ===
+Atrapos 385  M12 T11 W28 3+/5++ all-round. Damaged 1-10. Deadly Demise D6+2.
+  Lascutter hi-int 24" D6 S14 AP-3 D4 [Sus1]; graviton singularity cannon
+  24" D3 S16 AP-4 D6+1 [BLAST] (+DEV WOUNDS/HAZARDOUS in singularity mode).
+  Macro-extinction: +1 hit vs MONSTER/VEHICLE, +1 wound too vs TITANIC/TOWERING.
+  Aura: friendly War Dogs w/in 6" reroll hits vs Titanic/Towering.
+  => dedicated enemy-knight / big-vehicle / monster DELETER at range. Weak
+     into MEQ/infantry (low shot count). Best "second big" for this list:
+     fills the ranged anti-big gap, Cerastus chassis, synergy aura.
+Magaera 375  M10 T11 W26 3+/5++ all-round. Damaged 1-9. Deadly Demise D6.
+  Repair Auto-simulacra: regain D3 lost W end of Command phase.
+  Lightning cannon 48" 12A S9 AP0 D2 [Sus2] (AP0 = weak); melee reaper
+  chainsword or swap to hekaton claw (S20 AP-3 D8).
+  => tankier ONLY via regen, and only in an attrition grind (regen ~= +2W/
+     turn, ~0 vs being focused from full in one turn). Worse guns, slower,
+     melee profile redundant with the Lancer. Different chassis (Abhorrent).
+     Pick only as a Take-and-Hold melee grind anchor, not for this list.
+Styrix 365   same hull as Magaera. Volkite chierovile 30" 12A S12 AP0 D3
+  [DEV WOUNDS] + graviton crusher [ANTI-VEHICLE 2+] + grav-pin (slow enemy
+  infantry). Better shooting Questoris than Magaera but still AP0, M10, no regen.
+Abominant 355 (1st-2nd)  M10 T11 W26 3+/5++(ranged only)  Damaged 1-9. DD D6.
+  Volkite combustor 30" 12A S12 AP0 D3 [IGNORES COVER, DEVASTATING WOUNDS].
+  Vortex Terrors (Psychic): start of Shooting, force a Battle-shock test on
+  a unit within 24".  Warp Storms (Psychic): end of Movement, D6 per enemy
+  unit within 9", 3+ = D3 mortal wounds.  Melee: electroscourge 9A S10 AP-2 D3.
+  => only CK knight with BOTH Dev Wounds and repeatable mortal-wound output;
+     the answer to invuln/FNP/reanimation-heavy metas (Custodes, Deathwing,
+     Necrons). 30" range = medium, not a true gunline piece. No War Dog aura.
+
+Knight Tyrant 400/420  M8 T12 W28 3+/5++(ranged only)  Damaged 1-10. DD D6+2.
+  Brimstone volcano lance 60" D3 S20 AP-5 D6+8 [BLAST]; 2x gheiststrike
+  missile 72" 1 S12 AP-6 D6+1 [ANTI-TITANIC 4+, DEV WOUNDS]; ectoplasma
+  decimator 36" D6+3 S8 AP-3 D2 (supercharge S9 AP-4 D3 HAZARDOUS); 2x twin
+  daemonbreath meltagun 12" MELTA 2; twin Desecrator cannon 36" D6 S6 chaff.
+  Infernal Aegis (Aura): friendly War Dog w/in 6" has Benefit of Cover (defensive).
+  Bastion of Corruption: enemy Reinforcements can't set up within 12" (anti-deep-strike).
+  => real gunline anchor + the only in-faction deep-strike denial. But M8",
+     no melee invuln, 400pts, huge target, static in a mobile Recon list.
+
+BASTIONS OF TYRANNY (1DP, Priority Assets): mono-KNIGHT TYRANT detachment.
+  Rule only buffs Knight Tyrant, and only vs battle-shocked targets. Taking
+  it forces dropping Hunting Warpack (3DP cap). NOT worth it - if you want a
+  Tyrant, run it inside Houndpack + Hunting Warpack with no dedicated detach.
+
+Verdict: Atrapos > Magaera > Styrix for a "back-field big that shoots" role.
+For an invuln/FNP-heavy meta, Abominant beats all of them. Tyrant if the
+problem is kiting gunlines + deep strike.
+Still: two knights that both must walk into a shooting meta = worst case;
+only add a second big if it's the RANGED Atrapos.
+
+AURA CAVEAT: every big knight (and the Lancer, Dark Fervour = Assault) carries
+a "friendly War Dog w/in 6\" gets X" aura, so a second big DOES force-multiply
+nearby Dogs. But: 6" bubble only (2-3 Dogs at most), it competes with the
+Lancer's own aura, and it pulls Dogs into a cluster which fights the Recon
+plan (Dogs want to spread to score). Atrapos aura (reroll hits vs Titanic/
+Towering) is best ONLY vs enemy Titanic (enemy knights, Gorkanaut/Stompa,
+big Tau) - dead vs pure infantry armies. It's a datasheet ability, not a
+detachment payoff, so the "2DP of rules only touch Dogs" point still holds.
+
+=== RECONNAISSANCE DISPOSITION (11th) ===
+Primaries reward board presence / positioning, NOT kills: score for holding
+objectives OUTSIDE your deployment zone each round, being in the outer
+board sections, doing actions in set spots, grabbing an objective round 1.
+Wants fast MSU that can fan out, do an action, and leave. Favours War Dog
+count over a second big Knight. (Kills only matter via Purge the Foe.)

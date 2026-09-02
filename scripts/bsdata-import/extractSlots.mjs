@@ -105,6 +105,25 @@ function namedVariantSlot(group, children, catalogue) {
 // reduces the base ranged/melee counts independently based on which arrays
 // a choice carries - the same mechanism that makes Custodian Guard's
 // Vexilla+Misericordia bundle work).
+// Not every group with 2+ weapon-bearing children is a real choice - if
+// the GROUP itself carries no explicit min/max (nothing overriding
+// getConstraints' default) AND every child instead has its OWN independent
+// mandatory fixed-count constraint (getVariantCap, min===max on the CHILD),
+// these are separately-required sibling items, not alternatives to pick
+// between (found on Knight Tyrant's "Wargear": "Titanic feet" min=max=1 and
+// "Twin daemonbreath meltagun" min=max=2 sit side by side, BOTH always
+// included - wrongly extracted as "pick 1 of these 2" without this guard).
+// Checked before EITHER the allWeapons or comboChoiceSlot shape gets a
+// chance to claim the group (a group whose children each directly carry a
+// weapon profile - like this one, once infoLinks resolution was added -
+// would otherwise qualify for the allWeapons shape first, never reaching
+// comboChoiceSlot's own checks at all).
+function isAlwaysIncludedSiblings(group, children) {
+    const groupHasOwnConstraint = (group.constraints || []).some(c => c.type === "min" || c.type === "max");
+    return !groupHasOwnConstraint && children.length > 1 &&
+        children.every(c => { const cap = getVariantCap(c.entry); return cap && cap.min === cap.max; });
+}
+
 function comboChoiceSlot(group, children, catalogue) {
     if (children.length < 2) return null;
     if (children.some(c => (c.entry.selectionEntryGroups || []).length > 0)) return null;
@@ -172,9 +191,10 @@ export function extractSlots(unitEntry, catalogue) {
         if (node.id) visited.add(node.id);
         for (const group of node.selectionEntryGroups || []) {
             const children = resolveChildren(group, catalogue);
-            const allWeapons = children.length > 0 && children.every(c => hasWeaponProfile(c.entry, catalogue));
-            const variantSlot = !allWeapons ? namedVariantSlot(group, children, catalogue) : null;
-            const comboSlot = !allWeapons && !variantSlot ? comboChoiceSlot(group, children, catalogue) : null;
+            const alwaysIncluded = isAlwaysIncludedSiblings(group, children);
+            const allWeapons = !alwaysIncluded && children.length > 0 && children.every(c => hasWeaponProfile(c.entry, catalogue));
+            const variantSlot = !allWeapons && !alwaysIncluded ? namedVariantSlot(group, children, catalogue) : null;
+            const comboSlot = !allWeapons && !alwaysIncluded && !variantSlot ? comboChoiceSlot(group, children, catalogue) : null;
             const matchedSlot = variantSlot || comboSlot;
             if (allWeapons) {
                 slots.push({

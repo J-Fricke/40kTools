@@ -175,46 +175,6 @@
     },
     "slots": [
       {
-        "id": "6128-b4e5-e879-21fe",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "d6a1-5530-317a-4686",
-            "label": "Desecrator laser destructor",
-            "sWs": [
-              [
-                3,
-                2,
-                18,
-                -4,
-                6.5,
-                {
-                  "devmv": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "2b80-b811-01a8-1562",
-            "label": "Diabolus heavy stubber",
-            "sWs": [
-              [
-                6,
-                2,
-                5,
-                0,
-                1,
-                {}
-              ]
-            ]
-          }
-        ]
-      },
-      {
         "id": "ffd4-3748-8ded-ef0a",
         "label": "Replace reaper chainsword",
         "pick": {
@@ -286,40 +246,52 @@
       "fnp": null,
       "W": 26,
       "sWs": [
-        [
-          1,
-          3,
-          9,
-          -4,
-          3.5,
-          {}
-        ]
+        {
+          "weapon": [
+            1,
+            3,
+            9,
+            -4,
+            3.5,
+            {}
+          ],
+          "hardpoint": "68b3-ab57-f708-140f"
+        }
       ],
       "mWs": [
-        [
-          4,
-          3,
-          20,
-          -3,
-          8,
-          {}
-        ],
-        [
-          12,
-          3,
-          9,
-          -3,
-          2,
-          {}
-        ],
-        [
-          4,
-          4,
-          8,
-          -1,
-          2,
-          {}
-        ]
+        {
+          "weapon": [
+            4,
+            3,
+            20,
+            -3,
+            8,
+            {}
+          ],
+          "hardpoint": "aede-eb93-6a3e-2f62"
+        },
+        {
+          "weapon": [
+            12,
+            3,
+            9,
+            -3,
+            2,
+            {}
+          ],
+          "hardpoint": "55df-34d3-e508-13c4"
+        },
+        {
+          "weapon": [
+            4,
+            4,
+            8,
+            -1,
+            2,
+            {}
+          ],
+          "hardpoint": "3018-3716-d944-ae36"
+        }
       ]
     },
     "slots": [
@@ -801,71 +773,7 @@
         ]
       ]
     },
-    "slots": [
-      {
-        "id": "3af4-5792-3b4b-c03f",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "b4ca-3419-c219-f429",
-            "label": "Darkflame lance",
-            "sWs": [
-              [
-                11.4,
-                2,
-                8,
-                -1,
-                2,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "f075-4ccc-9a91-5e6d",
-            "label": "Fellbore",
-            "mWs": [
-              [
-                4,
-                3,
-                14,
-                -3,
-                6,
-                {
-                  "am3": 1,
-                  "av3": 1
-                }
-              ],
-              [
-                10,
-                3,
-                9,
-                -2,
-                2,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "9e94-b7d4-ec7f-9163",
-            "label": "Terrorpulse missiles",
-            "sWs": [
-              [
-                9.5,
-                3,
-                8,
-                -2,
-                2,
-                {}
-              ]
-            ]
-          }
-        ]
-      }
-    ],
+    "slots": [],
     "chars": [
       "none"
     ]
@@ -883,32 +791,54 @@
       "fnp": null,
       "W": 28,
       "sWs": [
-        [
-          2,
-          3,
-          20,
-          -5,
-          11.5,
-          {}
-        ],
-        [
-          6.5,
-          3,
-          9,
-          -4,
-          2,
-          {}
-        ],
-        [
-          1,
-          3,
-          12,
-          -6,
-          4.5,
-          {
-            "dev": 1
-          }
-        ],
+        {
+          "weapon": [
+            2,
+            3,
+            20,
+            -5,
+            11.5,
+            {}
+          ],
+          "hardpoint": "53aa-af3d-5b81-5df6"
+        },
+        {
+          "weapon": [
+            6.5,
+            3,
+            9,
+            -4,
+            2,
+            {}
+          ],
+          "hardpoint": "53aa-af3d-5b81-5df6"
+        },
+        {
+          "weapon": [
+            2,
+            3,
+            12,
+            -6,
+            4.5,
+            {
+              "dev": 1
+            }
+          ],
+          "hardpoint": "056b-59dd-0758-29ee"
+        },
+        {
+          "weapon": [
+            3.5,
+            3,
+            6,
+            0,
+            1,
+            {
+              "tl": 1
+            }
+          ],
+          "hardpoint": "056b-59dd-0758-29ee"
+        },
         [
           2,
           3,
@@ -933,46 +863,6 @@
     },
     "slots": [
       {
-        "id": "575b-3eb5-4179-23d9",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "52fe-84a1-27cf-c9ce",
-            "label": "Titanic feet",
-            "mWs": [
-              [
-                4,
-                4,
-                8,
-                -1,
-                2,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "65a3-e04c-fa08-2a01",
-            "label": "Twin daemonbreath meltagun",
-            "sWs": [
-              [
-                1,
-                3,
-                9,
-                -4,
-                3.5,
-                {
-                  "tl": 1
-                }
-              ]
-            ]
-          }
-        ]
-      },
-      {
         "id": "056b-59dd-0758-29ee",
         "label": "Carapace weapons",
         "pick": {
@@ -989,7 +879,7 @@
             "label": "2 Gheiststrike missile launchers and 1 twin desecrator cannon",
             "sWs": [
               [
-                1,
+                2,
                 3,
                 12,
                 -6,
@@ -1025,7 +915,7 @@
                 }
               ],
               [
-                3.5,
+                7,
                 3,
                 6,
                 0,
@@ -1155,71 +1045,7 @@
         ]
       ]
     },
-    "slots": [
-      {
-        "id": "1efb-9072-5202-07ad",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "eab7-2fd-1641-4f4",
-            "label": "Acheron flame cannon",
-            "sWs": [
-              [
-                8.4,
-                2,
-                8,
-                -1,
-                2,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "b4e0-25f1-54a4-4308",
-            "label": "Reaper chainfist",
-            "mWs": [
-              [
-                4,
-                3,
-                14,
-                -4,
-                6,
-                {}
-              ],
-              [
-                12,
-                3,
-                9,
-                -3,
-                2,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "6423-b7ff-a468-7e6a",
-            "label": "Twin heavy bolter",
-            "sWs": [
-              [
-                3,
-                3,
-                5,
-                -1,
-                2,
-                {
-                  "sustained": 1,
-                  "tl": 1
-                }
-              ]
-            ]
-          }
-        ]
-      }
-    ],
+    "slots": [],
     "chars": [
       "none"
     ]
@@ -1279,90 +1105,7 @@
         ]
       ]
     },
-    "slots": [
-      {
-        "id": "68e0-c460-8491-5b75",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "f57d-be6e-77e4-bfe3",
-            "label": "Atrapos lascutter",
-            "sWs": [
-              [
-                7,
-                3,
-                7,
-                -1,
-                2,
-                {
-                  "sustained": 1
-                }
-              ],
-              [
-                3.5,
-                3,
-                14,
-                -3,
-                4,
-                {
-                  "sustained": 1
-                }
-              ]
-            ],
-            "mWs": [
-              [
-                12,
-                3,
-                7,
-                -1,
-                2,
-                {
-                  "sustained": 1
-                }
-              ],
-              [
-                6,
-                3,
-                14,
-                -3,
-                4,
-                {
-                  "sustained": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "7546-5742-581c-9e8b",
-            "label": "Graviton singularity cannon",
-            "sWs": [
-              [
-                2,
-                3,
-                16,
-                -4,
-                4.5,
-                {}
-              ],
-              [
-                2,
-                3,
-                16,
-                -4,
-                4.5,
-                {
-                  "dev": 1
-                }
-              ]
-            ]
-          }
-        ]
-      }
-    ],
+    "slots": [],
     "chars": [
       "none"
     ]
@@ -1402,56 +1145,7 @@
         ]
       ]
     },
-    "slots": [
-      {
-        "id": "d82a-7e7f-ffdf-9ebb",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "8860-55c6-5ee9-227b",
-            "label": "Castigator bolt cannon",
-            "sWs": [
-              [
-                18,
-                3,
-                6,
-                -2,
-                2,
-                {
-                  "tl": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "fb4f-9321-e4de-99da",
-            "label": "Tempest warblade",
-            "mWs": [
-              [
-                4,
-                3,
-                14,
-                -4,
-                6,
-                {}
-              ],
-              [
-                12,
-                3,
-                9,
-                -3,
-                2,
-                {}
-              ]
-            ]
-          }
-        ]
-      }
-    ],
+    "slots": [],
     "chars": [
       "none"
     ]
@@ -1599,46 +1293,6 @@
     },
     "slots": [
       {
-        "id": "6bcd-fc7d-6947-223b",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "7152-d126-5030-8aaa",
-            "label": "Lightning cannon",
-            "sWs": [
-              [
-                12,
-                3,
-                9,
-                0,
-                2,
-                {
-                  "sustained": 2
-                }
-              ]
-            ]
-          },
-          {
-            "id": "49da-529d-d89f-71e3",
-            "label": "Phased plasma-fusil",
-            "sWs": [
-              [
-                4,
-                3,
-                8,
-                -3,
-                2,
-                {}
-              ]
-            ]
-          }
-        ]
-      },
-      {
         "id": "ee33-43a7-5c5-dfe1",
         "label": "Melee weapon",
         "pick": {
@@ -1772,48 +1426,6 @@
     },
     "slots": [
       {
-        "id": "4063-8e8e-6869-ec97",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "b2f6-fda6-d756-f8e4",
-            "label": "Graviton crusher",
-            "sWs": [
-              [
-                3,
-                3,
-                6,
-                -1,
-                2,
-                {
-                  "av3": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "bb21-f914-ecd0-f2b8",
-            "label": "Volkite chierovile",
-            "sWs": [
-              [
-                12,
-                3,
-                12,
-                0,
-                3,
-                {
-                  "dev": 1
-                }
-              ]
-            ]
-          }
-        ]
-      },
-      {
         "id": "7dc7-e65c-64c-fff3",
         "label": "Melee weapon",
         "pick": {
@@ -1946,82 +1558,7 @@
         ]
       ]
     },
-    "slots": [
-      {
-        "id": "850f-b369-61dd-ddc2",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "a895-55eb-d2ea-6b87",
-            "label": "Asterius volkite culverin",
-            "sWs": [
-              [
-                6,
-                3,
-                6,
-                0,
-                2,
-                {
-                  "dev": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "506b-fe3c-9d9f-1d55",
-            "label": "Karacnos mortar battery",
-            "sWs": [
-              [
-                6.5,
-                3,
-                6,
-                -1,
-                1,
-                {
-                  "ai": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "1e7e-f373-3db1-a768",
-            "label": "Twin conversion beam cannon",
-            "sWs": [
-              [
-                3,
-                3,
-                16,
-                -2,
-                6,
-                {
-                  "conv": 1,
-                  "tl": 1,
-                  "sustained": 2
-                }
-              ]
-            ]
-          },
-          {
-            "id": "28a-8545-4104-4ffa",
-            "label": "Titanic feet",
-            "mWs": [
-              [
-                6,
-                4,
-                10,
-                -1,
-                2,
-                {}
-              ]
-            ]
-          }
-        ]
-      }
-    ],
+    "slots": [],
     "chars": [
       "none"
     ]
@@ -2094,46 +1631,6 @@
       ]
     },
     "slots": [
-      {
-        "id": "559b-9e67-c50e-0be3",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "ab22-ae06-7c8c-48c5",
-            "label": "Twin magna lascannon",
-            "sWs": [
-              [
-                3.5,
-                3,
-                18,
-                -4,
-                9.5,
-                {
-                  "tl": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "28a-8545-4104-4ffa",
-            "label": "Titanic feet",
-            "mWs": [
-              [
-                6,
-                4,
-                10,
-                -1,
-                2,
-                {}
-              ]
-            ]
-          }
-        ]
-      },
       {
         "id": "3a86-44ef-e8e8-b7a0",
         "label": "Carapace weapon",
@@ -2395,44 +1892,6 @@
     },
     "slots": [
       {
-        "id": "2d04-234d-6303-6fa1",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "7193-1dfe-7721-ecbd",
-            "label": "War Dog autocannon",
-            "sWs": [
-              [
-                4,
-                3,
-                9,
-                -1,
-                3,
-                {}
-              ]
-            ]
-          },
-          {
-            "id": "6638-278a-5331-d1ff",
-            "label": "Armoured feet",
-            "mWs": [
-              [
-                4,
-                3,
-                6,
-                0,
-                1,
-                {}
-              ]
-            ]
-          }
-        ]
-      },
-      {
         "id": "7ab5-d4cd-c28f-b481",
         "label": "Carapace weapon",
         "pick": {
@@ -2658,48 +2117,6 @@
       ]
     },
     "slots": [
-      {
-        "id": "184a-3920-781a-3fa8",
-        "label": "Wargear",
-        "pick": {
-          "min": 0,
-          "max": 1
-        },
-        "choices": [
-          {
-            "id": "efec-643e-117d-a977",
-            "label": "Reaper chaintalon",
-            "mWs": [
-              [
-                12,
-                3,
-                8,
-                -2,
-                1,
-                {
-                  "sustained": 1
-                }
-              ]
-            ]
-          },
-          {
-            "id": "2a1d-e15f-408e-7660",
-            "label": "Slaughterclaw",
-            "mWs": [
-              [
-                6,
-                3,
-                12,
-                -3,
-                5.5,
-                {
-                  "sustained": 1
-                }
-              ]
-            ]
-          }
-        ]
-      },
       {
         "id": "6c92-d9c2-33be-f547",
         "label": "Carapace weapon",
