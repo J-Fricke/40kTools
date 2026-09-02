@@ -66,6 +66,15 @@ function getVariantCap(node) {
 // of its own to compare against).
 function namedVariantSlot(group, children, catalogue) {
     if (children.length < 2 || !children.every(c => c.entry.type === "model")) return null;
+    // A variant with its OWN nested selectionEntryGroups (e.g. Paladin's
+    // "Paladin with Heavy Weapon", which links a shared Nemesis force
+    // weapon directly AND nests a real "Heavy Weapon" swap-group one level
+    // deeper) is NOT this shape - it's Paladin's original shape, where the
+    // real choice lives nested inside one specific variant, not spread
+    // across fully-resolved siblings. Bail so the normal recursive walk
+    // finds that nested group instead of this synthesizing a slot from
+    // each variant's shared/incomplete direct weapons.
+    if (children.some(c => (c.entry.selectionEntryGroups || []).length > 0)) return null;
     const resolved = children.map(c => ({ ...c, weapons: directWeaponEntries(c.entry, catalogue) }));
     if (resolved.some(c => c.weapons.length === 0)) return null;
     const base = resolved.find(c => !/ with /i.test(c.name)) || resolved[0];

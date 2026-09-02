@@ -2,19 +2,20 @@ import { useMemo, useEffect, useState } from "react";
 import { calcWs, ewCalc } from "../core/engine.js";
 import { TARGETS } from "../core/targets.js";
 import { FACTIONS, FACTION_KEYS } from "../core/registry.js";
+import { COMPOSABLE } from "../core/composableRegistry.js";
+import { resolveBuild, describeLoadout } from "../core/composableUnit.js";
 import { buildCombo } from "../core/combo.js";
 import { getDetBuff, applyBuff } from "../core/buffs.js";
 import { usePersistedState, serializeWithSets, deserializeWithSets } from "../hooks/usePersistedState.js";
 import { C, Btn, heat, CollapsibleRow } from "../components/ui.jsx";
-import FactionConfigPanel from "../components/FactionConfigPanel.jsx";
+import ComposableFactionPicker from "../components/ComposableFactionPicker.jsx";
 
 const toggleInSet = (set, item) => { const n = new Set(set); n.has(item) ? n.delete(item) : n.add(item); return n; };
+const newEntryId = () => `e${Date.now().toString(36)}${Math.random().toString(36).slice(2, 7)}`;
 
 const DEFAULT_STATE = {
-    visByFaction: {},          // faction -> Set<rawUnitId>
-    charSelByFaction: {},      // faction -> {rawUnitId: Set<charKey>}
-    activeDetsByFaction: {},   // faction -> Set<detId>
-    detOptsByFaction: {},      // faction -> {detId: optKey}
+    compareList: [],          // [{id, faction, uid, modelCount, slotChoices, charKey, activeDets, detOpts}]
+    draftByFaction: {},       // faction -> {uid: {modelCount, slotChoices, charKey, activeDets, detOpts}}
     tgrp: "meta",
     yp: true,
     inclShoot: true,
@@ -25,62 +26,43 @@ const DEFAULT_STATE = {
     sort: { k: TARGETS.find(t => t.grp === "meta")?.key || "ctan", d: 1 },
     killPctSort: true,
     doHeat: true,
-    showOldPts: true,
     showFactions: true,
     enemyAp: 0,
 };
 
 export default function FactionUnitEvaluator() {
     const [state, setState, reset] = usePersistedState(
-        "40ktools.evaluator", DEFAULT_STATE,
+        "40ktools.evaluator.v2", DEFAULT_STATE,
         { serialize: serializeWithSets, deserialize: deserializeWithSets }
     );
     const {
-        visByFaction, charSelByFaction, activeDetsByFaction, detOptsByFaction,
-        tgrp, yp, inclShoot, inclMelee, sort, killPctSort, doHeat, showOldPts, showFactions, enemyAp,
+        compareList, draftByFaction,
+        tgrp, yp, inclShoot, inclMelee, sort, killPctSort, doHeat, enemyAp,
     } = state;
+    const showFactions = state.showFactions;
 
     const update = patch => setState(prev => ({ ...prev, ...patch }));
 
     useEffect(() => { document.title = "Faction Unit Evaluator · 40kTools"; }, []);
 
-    // A faction contributes table rows once it has at least one unit picked -
-    // there's no separate "filter" concept anymore, the faction accordion
-    // below both picks units AND implicitly determines what's in the table.
-    const activeFactions = FACTION_KEYS.filter(f => (visByFaction[f] || new Set()).size > 0);
+    // A faction contributes table rows once it has at least one compare-list
+    // entry - there's no separate "filter" concept, the faction accordion
+    // below both configures units AND implicitly determines what's in the table.
+    const activeFactions = FACTION_KEYS.filter(f => compareList.some(e => e.faction === f));
 
-    // Faction accordion rows: open only if they already have a selection,
-    // same convention as the unit-group rows nested inside each one.
+    // Faction accordion rows: open only if they already have an entry, same
+    // convention the old picker used.
     const [expandedFactions, setExpandedFactions] = useState(() => new Set(activeFactions));
     const toggleFactionExpanded = f => setExpandedFactions(p => toggleInSet(p, f));
 
-    const toggleVisible = (faction, rawId) => {
-        const cur = visByFaction[faction] || new Set();
-        update({ visByFaction: { ...visByFaction, [faction]: toggleInSet(cur, rawId) } });
+    const setDraft = (faction, uid, draft) => {
+        const facDrafts = draftByFaction[faction] || {};
+        update({ draftByFaction: { ...draftByFaction, [faction]: { ...facDrafts, [uid]: draft } } });
     };
-    const toggleUidGroup = (faction, uid) => {
-        const ids = FACTIONS[faction].units.filter(u => u.uid === uid).map(u => u.id);
-        const cur = visByFaction[faction] || new Set();
-        const allV = ids.every(id => cur.has(id));
-        const n = new Set(cur);
-        ids.forEach(id => allV ? n.delete(id) : n.add(id));
-        update({ visByFaction: { ...visByFaction, [faction]: n } });
+    const addToCompareList = (faction, uid, draft) => {
+        update({ compareList: [...compareList, { id: newEntryId(), faction, uid, ...draft }] });
     };
-    const toggleChar = (faction, rawId, charKey) => {
-        const facSel = charSelByFaction[faction] || {};
-        const cur = new Set(facSel[rawId] || ["none"]);
-        cur.has(charKey) ? cur.delete(charKey) : cur.add(charKey);
-        update({ charSelByFaction: { ...charSelByFaction, [faction]: { ...facSel, [rawId]: cur } } });
-    };
-    const toggleDet = (faction, detId) => {
-        const cur = activeDetsByFaction[faction] || new Set();
-        update({ activeDetsByFaction: { ...activeDetsByFaction, [faction]: toggleInSet(cur, detId) } });
-    };
-    const clearDets = faction => update({ activeDetsByFaction: { ...activeDetsByFaction, [faction]: new Set() } });
-    const setDetOpt = (faction, detId, optKey) => {
-        const cur = detOptsByFaction[faction] || {};
-        update({ detOptsByFaction: { ...detOptsByFaction, [faction]: { ...cur, [detId]: optKey } } });
-    };
+    const removeFromCompareList = id => update({ compareList: compareList.filter(e => e.id !== id) });
 
     const toggleShoot = () => { if (inclShoot && !inclMelee) return; update({ inclShoot: !inclShoot }); };
     const toggleMelee = () => { if (inclMelee && !inclShoot) return; update({ inclMelee: !inclMelee }); };
@@ -88,64 +70,61 @@ export default function FactionUnitEvaluator() {
     const tgts = TARGETS.filter(t => t.grp === tgrp);
     const bhFor = faction => (yp && faction === "votann") ? 1 : 0;
 
-    const rows = useMemo(() => activeFactions.flatMap(faction => {
+    const rows = useMemo(() => compareList.map(entry => {
+        const { faction, uid, modelCount, slotChoices, charKey } = entry;
         const fd = FACTIONS[faction];
-        const vis = visByFaction[faction] || new Set();
-        const charSel = charSelByFaction[faction] || {};
-        const activeDets = activeDetsByFaction[faction] || new Set();
-        const detOpts = detOptsByFaction[faction] || {};
+        const family = COMPOSABLE[faction]?.[uid];
+        if (!family) return null; // stale entry (e.g. composable data changed) - skip rather than crash
+        // Detachment is per-entry, not shared per faction - this is a
+        // comparison tool, comparing the same unit under different
+        // detachments (or different units each under their own) is a real
+        // use case (see ComposableFactionPicker.jsx's header comment).
+        const activeDets = entry.activeDets || new Set();
+        const detOpts = entry.detOpts || {};
         const bh = bhFor(faction);
-        return fd.units.filter(u => vis.has(u.id)).flatMap(unit => {
-            const selectedChars = [...(charSel[unit.id] || new Set(["none"]))];
-            return selectedChars.map(charKey => {
-                const char = fd.chars[charKey];
-                const combo = buildCombo(unit, char);
-                const buff = getDetBuff(unit, charKey, { activeDets, detOpts, DETACHMENTS: fd.dets });
-                const unitBh = bh + buff.bhBonus;
-                const sWs = applyBuff(combo.sWs, buff, true);
-                const mWs = applyBuff(combo.mWs, buff, false);
-                const effectivePts = combo.pts + buff.enhancementPts;
-                const effectivePts10 = unit.pts10 ? (unit.pts10 + (charKey !== "none" ? combo.pts - unit.pts : 0) + buff.enhancementPts) : null;
-                const vals = {}, rawVals = {}, vals10 = {};
-                tgts.forEach(t => {
-                    const s = inclShoot ? calcWs(sWs, t, unitBh) : 0;
-                    const m = inclMelee ? calcWs(mWs, t, unitBh) : 0;
-                    const raw = s + m;
-                    rawVals[t.key] = raw;
-                    vals[t.key] = raw / effectivePts * 100;
-                    vals10[t.key] = effectivePts10 ? raw / effectivePts10 * 100 : null;
-                });
-                const ew2 = combo.ew2 && buff.kahlW > 0 ? { ...combo.ew2, W: combo.ew2.W + buff.kahlW } : combo.ew2;
-                const eApUnit = enemyAp + (combo.eApMod || 0);
-                const ew = ewCalc(unit.m * combo.W, combo.sv, combo.inv, combo.fnp, eApUnit)
-                    + (ew2 ? ewCalc(ew2.m * ew2.W, ew2.sv, ew2.inv, ew2.fnp, eApUnit) : 0);
-                const scoreTgts = tgts.filter(t => !t.scoreExclude);
-                const arr = scoreTgts.map(t => vals[t.key]);
-                const arr10 = scoreTgts.map(t => vals10[t.key]);
-                const ewpt = ew / effectivePts;
-                const ewpt10 = effectivePts10 ? ew / effectivePts10 : null;
-                const avgDpt = arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
-                const avgDpt10 = arr10.length && effectivePts10 ? arr10.reduce((a, b) => a + b, 0) / arr10.length : null;
-                return {
-                    ...unit,
-                    id: `${faction}::${unit.id}::${charKey}`,
-                    baseId: `${faction}::${unit.id}`,
-                    faction,
-                    uc: fd.uc[unit.uid] || C.dim,
-                    pts: effectivePts,
-                    charLabel: combo.charLabel,
-                    vals, vals10, rawVals, ew,
-                    ewpt, ewpt10, avgDpt, avgDpt10,
-                };
-            });
+
+        const built = resolveBuild(family, { modelCount, slotChoices });
+        const basePts = family.models[modelCount] ?? 0;
+        const asUnit = { pts: basePts + built.ptsDelta, W: built.W, sv: built.sv, inv: built.inv, fnp: built.fnp, sWs: built.sWs, mWs: built.mWs, m: modelCount, uid };
+        const char = fd.chars[charKey] || fd.chars.none;
+        const combo = buildCombo(asUnit, char);
+        const buff = getDetBuff(asUnit, charKey, { activeDets, detOpts, DETACHMENTS: fd.dets });
+        const unitBh = bh + buff.bhBonus;
+        const sWs = applyBuff(combo.sWs, buff, true);
+        const mWs = applyBuff(combo.mWs, buff, false);
+        const effectivePts = combo.pts + buff.enhancementPts;
+
+        const vals = {}, rawVals = {};
+        tgts.forEach(t => {
+            const s = inclShoot ? calcWs(sWs, t, unitBh) : 0;
+            const m = inclMelee ? calcWs(mWs, t, unitBh) : 0;
+            const raw = s + m;
+            rawVals[t.key] = raw;
+            vals[t.key] = raw / effectivePts * 100;
         });
-    }), [activeFactions.join(","), tgrp, yp, inclShoot, inclMelee, activeDetsByFaction, detOptsByFaction, enemyAp, charSelByFaction, visByFaction]);
+        const ew2 = combo.ew2 && buff.kahlW > 0 ? { ...combo.ew2, W: combo.ew2.W + buff.kahlW } : combo.ew2;
+        const eApUnit = enemyAp + (combo.eApMod || 0);
+        const ew = ewCalc(modelCount * combo.W, combo.sv, combo.inv, combo.fnp, eApUnit)
+            + (ew2 ? ewCalc(ew2.m * ew2.W, ew2.sv, ew2.inv, ew2.fnp, eApUnit) : 0);
+        const scoreTgts = tgts.filter(t => !t.scoreExclude);
+        const arr = scoreTgts.map(t => vals[t.key]);
+        const ewpt = ew / effectivePts;
+        const avgDpt = arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
+
+        const detLabel = [...activeDets].map(id => fd.dets.find(d => d.id === id)?.name).filter(Boolean).join(", ");
+
+        return {
+            id: entry.id, faction, uid, unit: family.unit, m: modelCount,
+            uc: fd.uc[uid] || C.dim,
+            pts: effectivePts,
+            label: describeLoadout(family, { modelCount, slotChoices }),
+            charLabel: combo.charLabel, detLabel,
+            vals, rawVals, ew, ewpt, avgDpt,
+        };
+    }).filter(Boolean), [compareList, tgrp, yp, inclShoot, inclMelee, enemyAp]);
 
     const rng = useMemo(() => {
-        const r = {
-            ewpt: [Infinity, -Infinity], avgDpt: [Infinity, -Infinity], composite: [Infinity, -Infinity],
-            ewpt10: [Infinity, -Infinity], avgDpt10: [Infinity, -Infinity], composite10: [Infinity, -Infinity]
-        };
+        const r = { ewpt: [Infinity, -Infinity], avgDpt: [Infinity, -Infinity], composite: [Infinity, -Infinity] };
         tgts.forEach(t => { r[t.key] = [Infinity, -Infinity]; });
         rows.forEach(row => {
             tgts.forEach(t => {
@@ -154,25 +133,16 @@ export default function FactionUnitEvaluator() {
             });
             r.ewpt[0] = Math.min(r.ewpt[0], row.ewpt); r.ewpt[1] = Math.max(r.ewpt[1], row.ewpt);
             r.avgDpt[0] = Math.min(r.avgDpt[0], row.avgDpt); r.avgDpt[1] = Math.max(r.avgDpt[1], row.avgDpt);
-            if (row.ewpt10 != null) { r.ewpt10[0] = Math.min(r.ewpt10[0], row.ewpt10); r.ewpt10[1] = Math.max(r.ewpt10[1], row.ewpt10); }
-            if (row.avgDpt10 != null) { r.avgDpt10[0] = Math.min(r.avgDpt10[0], row.avgDpt10); r.avgDpt10[1] = Math.max(r.avgDpt10[1], row.avgDpt10); }
         });
-        const composites = new Map(), composites10 = new Map();
+        const composites = new Map();
         rows.forEach(row => {
             const ne = r.ewpt[1] > r.ewpt[0] ? (row.ewpt - r.ewpt[0]) / (r.ewpt[1] - r.ewpt[0]) : 0;
             const nd = r.avgDpt[1] > r.avgDpt[0] ? (row.avgDpt - r.avgDpt[0]) / (r.avgDpt[1] - r.avgDpt[0]) : 0;
             const c = Math.round((nd * .65 + ne * .35) * 100);
             composites.set(row.id, c);
             r.composite[0] = Math.min(r.composite[0], c); r.composite[1] = Math.max(r.composite[1], c);
-            if (row.ewpt10 != null && row.avgDpt10 != null) {
-                const ne10 = r.ewpt10[1] > r.ewpt10[0] ? (row.ewpt10 - r.ewpt10[0]) / (r.ewpt10[1] - r.ewpt10[0]) : 0;
-                const nd10 = r.avgDpt10[1] > r.avgDpt10[0] ? (row.avgDpt10 - r.avgDpt10[0]) / (r.avgDpt10[1] - r.avgDpt10[0]) : 0;
-                const c10 = Math.round((nd10 * .65 + ne10 * .35) * 100);
-                composites10.set(row.id, c10);
-                r.composite10[0] = Math.min(r.composite10[0], c10); r.composite10[1] = Math.max(r.composite10[1], c10);
-            }
         });
-        return { ...r, composites, composites10 };
+        return { ...r, composites };
     }, [rows, tgts]);
 
     const sorted = [...rows].sort((a, b) => {
@@ -248,9 +218,6 @@ export default function FactionUnitEvaluator() {
                     <label style={{ display: "flex", alignItems: "center", gap: 4, cursor: "pointer", fontSize: 10, color: C.dim }}>
                         <input type="checkbox" checked={doHeat} onChange={e => update({ doHeat: e.target.checked })} style={{ accentColor: C.amb }} />Heat
                     </label>
-                    {votannActive && <label style={{ display: "flex", alignItems: "center", gap: 4, cursor: "pointer", fontSize: 10, color: C.dim }}>
-                        <input type="checkbox" checked={showOldPts} onChange={e => update({ showOldPts: e.target.checked })} style={{ accentColor: C.vdim }} />10th pts
-                    </label>}
                     {tgrp === "meta" && <label style={{ display: "flex", alignItems: "center", gap: 4, cursor: "pointer", fontSize: 10, color: killPctSort ? C.grn : C.dim }}>
                         <input type="checkbox" checked={killPctSort} onChange={e => update({ killPctSort: e.target.checked })} style={{ accentColor: C.grn }} />Kill%
                     </label>}
@@ -260,10 +227,11 @@ export default function FactionUnitEvaluator() {
                 </div>
             </div>
 
-            {/* ── FACTION ACCORDION: pick units by opening a faction's own row - no separate
-                filter buttons, this list both picks the faction AND its units/detachments.
-                The whole section can still be hidden entirely (not just each row collapsed)
-                via the Hide/Show Factions button above, to reclaim full table height. ── */}
+            {/* ── FACTION ACCORDION: browse units by opening a faction's own row -
+                configure each via the Unit Builder, "Add to compare list" adds a
+                row to the table below. The whole section can still be hidden
+                entirely (not just each row collapsed) via the Hide/Show Factions
+                button above, to reclaim full table height. ── */}
             {showFactions && <>
                 <div style={{ padding: "4px 14px 0", display: "flex", alignItems: "center", gap: 8, background: C.bg2, borderTop: `1px solid ${C.bdr}` }}>
                     <span style={{ fontSize: 9, color: C.vdim, textTransform: "uppercase" }}>Factions</span>
@@ -272,36 +240,25 @@ export default function FactionUnitEvaluator() {
                     <button onClick={() => setExpandedFactions(new Set())}
                         style={{ fontSize: 9, background: "none", border: `1px solid ${C.bdr2}`, color: C.dim, cursor: "pointer", padding: "1px 6px", borderRadius: 3 }}>Collapse all</button>
                 </div>
-                <div className="scroll-visible" style={{ padding: "4px 14px 8px", borderBottom: `1px solid ${C.bdr}`, background: C.bg2, maxHeight: 420, overflowY: "auto" }}>
+                <div className="scroll-visible" style={{ padding: "4px 14px 8px", borderBottom: `1px solid ${C.bdr}`, background: C.bg2, maxHeight: 460, overflowY: "auto" }}>
                     {FACTION_KEYS.map(f => {
                         const fd = FACTIONS[f];
-                        const visCount = (visByFaction[f] || new Set()).size;
-                        const fDp = [...(activeDetsByFaction[f] || [])].reduce((a, id) => {
-                            const d = fd.dets.find(d => d.id === id); return a + (d ? d.dp : 0);
-                        }, 0);
+                        const entryCount = compareList.filter(e => e.faction === f).length;
                         return (
                             <CollapsibleRow key={f} isOpen={expandedFactions.has(f)} onToggle={() => toggleFactionExpanded(f)} indent={8}
                                 header={<>
-                                    <span style={{ fontSize: 12, fontWeight: 700, color: visCount > 0 ? C.tx : C.sub }}>{fd.label}</span>
-                                    <span style={{ fontSize: 9, color: C.vdim }}>{fd.units.length} units</span>
-                                    {visCount > 0 && <span style={{ fontSize: 9, color: C.grn }}>{visCount} visible</span>}
-                                    {fDp > 0 && <span style={{ fontSize: 9, background: C.amb, color: C.bg, borderRadius: 3, padding: "0 4px" }}>{fDp}DP</span>}
+                                    <span style={{ fontSize: 12, fontWeight: 700, color: entryCount > 0 ? C.tx : C.sub }}>{fd.label}</span>
+                                    <span style={{ fontSize: 9, color: C.vdim }}>{Object.keys(COMPOSABLE[f] || {}).length} units</span>
+                                    {entryCount > 0 && <span style={{ fontSize: 9, color: C.grn }}>{entryCount} in list</span>}
                                 </>}>
-                                <FactionConfigPanel bare
+                                <ComposableFactionPicker
                                     faction={f} fd={fd}
-                                visibleIds={visByFaction[f] || new Set()}
-                                onToggleVisible={rawId => toggleVisible(f, rawId)}
-                                onToggleUidGroup={uid => toggleUidGroup(f, uid)}
-                                charSel={charSelByFaction[f] || {}}
-                                onToggleChar={(rawId, ck) => toggleChar(f, rawId, ck)}
-                                activeDets={activeDetsByFaction[f] || new Set()}
-                                onToggleDet={detId => toggleDet(f, detId)}
-                                onClearDets={() => clearDets(f)}
-                                detOpts={detOptsByFaction[f] || {}}
-                                onSetDetOpt={(detId, optKey) => setDetOpt(f, detId, optKey)}
-                            />
-                        </CollapsibleRow>
-                    );
+                                    draftByUid={draftByFaction[f] || {}}
+                                    onSetDraft={(uid, draft) => setDraft(f, uid, draft)}
+                                    onAdd={(uid, draft) => addToCompareList(f, uid, draft)}
+                                />
+                            </CollapsibleRow>
+                        );
                     })}
                 </div>
             </>}
@@ -322,48 +279,44 @@ export default function FactionUnitEvaluator() {
                     <tbody>
                         {sorted.map((row, ri) => {
                             const uc = row.uc, isC = !!row.charLabel;
-                            const showOldRow = showOldPts && !row.charLabel && row.pts10 && row.pts10 !== row.pts;
-                            const oldCol = (o, n) => o > n ? '#f87171' : '#4ade80';
                             return (
                                 <tr key={row.id} style={{ background: isC ? `${uc}0a` : (ri % 2 === 0 ? C.bg : C.bg2), borderBottom: `1px solid ${C.bdr}` }}>
                                     <td style={{ padding: "5px 8px", color: uc, fontWeight: 700, fontSize: 10, borderLeft: `2px solid ${uc}`, whiteSpace: "nowrap" }}>
+                                        <button onClick={() => removeFromCompareList(row.id)} title="Remove from compare list"
+                                            style={{ fontSize: 9, background: "none", border: "none", color: C.vdim, cursor: "pointer", marginRight: 5, padding: 0 }}>✕</button>
                                         {row.unit}{isC && <div style={{ fontSize: 8, color: C.pur }}>+{row.charLabel}</div>}
                                         <div style={{ fontSize: 8, color: C.vdim }}>{FACTIONS[row.faction].label}</div>
                                     </td>
-                                    <td style={{ padding: "5px 8px", color: C.tx, whiteSpace: "nowrap", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis" }}>{row.label}</td>
-                                    <td style={{ padding: "5px 7px", textAlign: "right", color: C.amb, fontWeight: 700 }}>
-                                        {row.pts}{showOldPts && !row.charLabel && row.pts10 != null && row.pts10 !== row.pts && <span style={{ fontSize: 9, color: C.dim, marginLeft: 3 }}>({row.pts10})</span>}
+                                    <td style={{ padding: "5px 8px", color: C.tx, whiteSpace: "nowrap", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis" }}>
+                                        {row.label}
+                                        {row.detLabel && <div style={{ fontSize: 8, color: C.amb }}>{row.detLabel}</div>}
                                     </td>
+                                    <td style={{ padding: "5px 7px", textAlign: "right", color: C.amb, fontWeight: 700 }}>{row.pts}</td>
                                     <td style={{ padding: "5px 7px", textAlign: "right", color: C.sub }}>{row.m}</td>
                                     {tgts.map(t => {
                                         const v = row.vals[t.key];
                                         const pct = t.wounds ? Math.round(row.rawVals[t.key] / t.wounds * 100) : null;
                                         const pctStr = pct === null ? null : pct > 999 ? '>999%' : `${pct}%`;
                                         const pctCol = pct === null ? null : pct >= 150 ? '#c084fc' : pct >= 75 ? '#4ade80' : pct >= 50 ? '#fb923c' : '#f87171';
-                                        const v10 = row.vals10[t.key];
                                         return <td key={t.key} style={{ padding: "5px 7px", textAlign: "right", background: doHeat ? heat(v, rng[t.key][0], rng[t.key][1]) : "transparent", color: C.tx, fontVariantNumeric: "tabular-nums" }}>
                                             <div>{fmt(v)}{pctStr && <span style={{ fontSize: 9, fontWeight: 700, color: pctCol, marginLeft: 3 }}>({pctStr})</span>}</div>
-                                            {showOldRow && v10 != null && <div style={{ fontSize: 8, color: oldCol(v10, v) }}>{fmt(v10)}</div>}
                                         </td>;
                                     })}
                                     <td style={{ padding: "5px 7px", textAlign: "right", background: doHeat ? heat(rng.composites?.get(row.id) || 0, rng.composite[0], rng.composite[1]) : "transparent", color: C.tx, fontWeight: 700, borderLeft: `1px solid ${C.bdr2}` }}>
                                         {rng.composites?.get(row.id) || 0}
-                                        {showOldRow && rng.composites10?.get(row.id) != null && <div style={{ fontSize: 8, color: oldCol(rng.composites10.get(row.id), rng.composites.get(row.id) || 0) }}>{rng.composites10.get(row.id)}</div>}
                                     </td>
                                     <td style={{ padding: "5px 7px", textAlign: "right", background: doHeat ? heat(row.ewpt, rng.ewpt[0], rng.ewpt[1]) : "transparent", color: C.tx }}>
                                         {row.ewpt.toFixed(3)}
-                                        {showOldRow && row.ewpt10 != null && <div style={{ fontSize: 8, color: oldCol(row.ewpt10, row.ewpt) }}>{row.ewpt10.toFixed(3)}</div>}
                                     </td>
                                     <td style={{ padding: "5px 7px", textAlign: "right", fontWeight: 700, background: doHeat ? heat(row.avgDpt, rng.avgDpt[0], rng.avgDpt[1]) : "rgba(251,191,36,.04)", color: C.tx }}>
                                         {fmt(row.avgDpt)}
-                                        {showOldRow && row.avgDpt10 != null && <div style={{ fontSize: 8, color: oldCol(row.avgDpt10, row.avgDpt) }}>{fmt(row.avgDpt10)}</div>}
                                     </td>
                                 </tr>
                             );
                         })}
                     </tbody>
                 </table>
-                {sorted.length === 0 && <div style={{ padding: 40, textAlign: "center", color: C.vdim }}>No units visible — open a faction above and pick one</div>}
+                {sorted.length === 0 && <div style={{ padding: 40, textAlign: "center", color: C.vdim }}>No units in the compare list — open a faction above, configure a unit, and add it</div>}
             </div>
 
             <div style={{ padding: "5px 14px 8px", fontSize: 9, color: C.vdim, flexShrink: 0, borderTop: `1px solid ${C.bdr}`, lineHeight: 1.6 }}>

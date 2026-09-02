@@ -37,50 +37,120 @@
     },
     "slots": [
       {
-        "id": "2da-fe4-d745-7dda",
-        "label": "3-9 Terminators",
+        "id": "c9a0-cf4e-fb96-6bf1",
+        "label": "Weapon Choice",
         "pick": {
           "min": 0,
-          "max": 3
+          "max": 1
         },
         "choices": [
           {
-            "id": "6215-3f01-f844-585",
-            "label": "Terminator with Ancient's Banner",
-            "mWs": [
+            "id": "17ed-2f7b-bf3a-3c94",
+            "label": "Incinerator",
+            "sWs": [
               [
-                4,
-                3,
+                4.2,
+                2,
                 6,
-                -2,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e520-9c7-d10c-897d",
+            "label": "Psycannon",
+            "sWs": [
+              [
+                3,
+                3,
+                8,
+                -1,
                 2,
                 {}
               ]
             ]
           },
           {
-            "id": "22fd-3d1b-9957-2d5f",
-            "label": "Terminator with Narthecium",
-            "mWs": [
+            "id": "d526-d040-807c-34f6",
+            "label": "Psilencer",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "be2a-878d-7003-2f51",
+            "label": "Storm bolter",
+            "sWs": [
               [
                 4,
                 3,
-                6,
-                -2,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "c1b7-ce3c-faf0-2090",
+        "label": "Heavy Weapon",
+        "pick": {
+          "min": 0,
+          "max": 1
+        },
+        "choices": [
+          {
+            "id": "17ed-2f7b-bf3a-3c94",
+            "label": "Incinerator",
+            "sWs": [
+              [
+                4.2,
                 2,
+                6,
+                -1,
+                1,
                 {}
               ]
             ]
           },
           {
-            "id": "77d3-d321-bb86-dabe",
-            "label": "Terminator with Heavy Weapon",
-            "mWs": [
+            "id": "d526-d040-807c-34f6",
+            "label": "Psilencer",
+            "sWs": [
               [
-                4,
-                3,
                 6,
-                -2,
+                3,
+                5,
+                0,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "e520-9c7-d10c-897d",
+            "label": "Psycannon",
+            "sWs": [
+              [
+                3,
+                3,
+                8,
+                -1,
                 2,
                 {}
               ]
@@ -134,24 +204,54 @@
     },
     "slots": [
       {
-        "id": "38d6-858d-42f5-c38d",
-        "label": "4-9 Grey Knights",
+        "id": "c5d2-640d-6bd-6b71",
+        "label": "Heavy Weapon",
         "pick": {
           "min": 0,
           "max": 1
         },
         "choices": [
           {
-            "id": "b953-5c1a-5d31-192f",
-            "label": "Grey Knight with Heavy Weapon",
-            "mWs": [
+            "id": "17ed-2f7b-bf3a-3c94",
+            "label": "Incinerator",
+            "sWs": [
+              [
+                4.2,
+                2,
+                6,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "e520-9c7-d10c-897d",
+            "label": "Psycannon",
+            "sWs": [
               [
                 3,
                 3,
-                4,
+                8,
+                -1,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "d526-d040-807c-34f6",
+            "label": "Psilencer",
+            "sWs": [
+              [
+                6,
+                3,
+                5,
                 0,
                 1,
-                {}
+                {
+                  "sustained": 1
+                }
               ]
             ]
           }
@@ -202,52 +302,122 @@
     },
     "slots": [
       {
-        "id": "fc49-2cb9-b72-9890",
-        "label": "3-9 Paladins",
+        "id": "f8cc-ac46-67b2-46f6",
+        "label": "Storm Bolter",
         "pick": {
           "min": 0,
-          "max": 3
+          "max": 1
         },
         "choices": [
           {
-            "id": "c782-acdd-ccd7-6cc0",
-            "label": "Paladin with Ancient's Banner",
-            "mWs": [
+            "id": "18c1-d4b5-0ff0-4808",
+            "label": "Storm bolter",
+            "sWs": [
               [
                 4,
                 2,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "17ed-2f7b-bf3a-3c94",
+            "label": "Incinerator",
+            "sWs": [
+              [
+                4.2,
+                2,
                 6,
-                -2,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "977f-fdd6-c09c-5def",
+            "label": "Psycannon",
+            "sWs": [
+              [
+                3,
+                2,
+                8,
+                -1,
                 2,
                 {}
               ]
             ]
           },
           {
-            "id": "7f57-9a5a-c5bf-851a",
-            "label": "Paladin with Heavy Weapon",
-            "mWs": [
+            "id": "56c3-92fd-4579-7d89",
+            "label": "Psilencer",
+            "sWs": [
               [
-                4,
+                6,
+                2,
+                5,
+                0,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a890-27d0-cd5-b20",
+        "label": "Heavy Weapon",
+        "pick": {
+          "min": 0,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "17ed-2f7b-bf3a-3c94",
+            "label": "Incinerator",
+            "sWs": [
+              [
+                4.2,
                 2,
                 6,
-                -2,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "977f-fdd6-c09c-5def",
+            "label": "Psycannon",
+            "sWs": [
+              [
+                3,
+                2,
+                8,
+                -1,
                 2,
                 {}
               ]
             ]
           },
           {
-            "id": "b56e-da7a-04da-5cbd",
-            "label": "Paladin with Narthecium",
-            "mWs": [
+            "id": "56c3-92fd-4579-7d89",
+            "label": "Psilencer",
+            "sWs": [
               [
-                4,
-                2,
                 6,
-                -2,
                 2,
-                {}
+                5,
+                0,
+                1,
+                {
+                  "sustained": 1
+                }
               ]
             ]
           }
