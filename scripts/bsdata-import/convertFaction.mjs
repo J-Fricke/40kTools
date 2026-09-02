@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync } from "fs";
 import { extractSlots, resolveEntry } from "./extractSlots.mjs";
 import { extractBase } from "./extractBase.mjs";
 import { buildFamily } from "./buildFamily.mjs";
+import { resolveProfiles } from "./weaponHelpers.mjs";
 import { ourSizeTiers } from "./ourSizeTiers.mjs";
 import { applyWargearPoints } from "./wargearPoints.mjs";
 import { FACTIONS } from "../../src/core/registry.js";
@@ -30,7 +31,7 @@ export function convertFaction({ factionKey, bsdataFile, nameMap, _preloaded }) 
         const refUnit = fd.units.find(u => u.uid === uid);
         const def = { sv: refUnit.sv, inv: refUnit.inv, fnp: refUnit.fnp, W: refUnit.W };
 
-        let baseProfiles = base.weapons.flatMap(w => w.profiles || []);
+        let baseProfiles = base.weapons.flatMap(w => resolveProfiles(w, cat));
         let fallbackSWs, fallbackMWs;
         if (!baseProfiles.length) {
             const cheapest = fd.units.filter(u => u.uid === uid).sort((a, b) => a.pts - b.pts)[0];
@@ -41,7 +42,7 @@ export function convertFaction({ factionKey, bsdataFile, nameMap, _preloaded }) 
             const family = buildFamily({
                 uid, unit: name, faction: factionKey,
                 sizeTiers: tiers[uid] || {}, baseProfiles, slots, ...def,
-                chars: refUnit.chars,
+                chars: refUnit.chars, catalogue: cat,
             });
             if (fallbackSWs) { family.base.sWs = fallbackSWs; family.base.mWs = fallbackMWs; }
             applyWargearPoints(factionKey, uid, family);

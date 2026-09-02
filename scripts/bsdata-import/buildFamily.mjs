@@ -1,5 +1,6 @@
 import { profileToWeapon } from "./profileToWeapon.mjs";
 import { diceAverage } from "./keywordMap.mjs";
+import { resolveProfiles } from "./weaponHelpers.mjs";
 
 // Resolves a raw BSData weapon profile into this app's [shots, skill, S, AP, D, tags]
 // array. Torrent weapons (BS/WS "N/A") always use skill:2 - not the unit's real
@@ -22,7 +23,7 @@ function resolveWeaponArray(profile) {
 // extracted by extractSlots(), produces a composableUnit.js-shaped family
 // definition. `sizeTiers` (uid -> {modelCount: pts}) comes from OUR OWN
 // MFM-verified data, not BSData - see project memory for why.
-export function buildFamily({ uid, unit, faction, sizeTiers, baseProfiles, slots, sv, inv, fnp, W, chars }) {
+export function buildFamily({ uid, unit, faction, sizeTiers, baseProfiles, slots, sv, inv, fnp, W, chars, catalogue }) {
     const base = { sv, inv, fnp, W, sWs: [], mWs: [] };
     for (const p of baseProfiles) {
         const { array, isMelee } = resolveWeaponArray(p);
@@ -30,15 +31,22 @@ export function buildFamily({ uid, unit, faction, sizeTiers, baseProfiles, slots
     }
     const resolvedSlots = slots.map(slot => ({
         id: slot.id, label: slot.label, pick: slot.pick,
+        // `replaces` (see extractSlots.mjs's comboChoiceSlot()) overrides
+        // composableUnit.js's default per-choice-category inference - only
+        // set on slots that need it, so most slots keep the default.
+        ...(slot.replaces ? { replaces: slot.replaces } : {}),
         choices: slot.choices.map(c => {
             // A real BSData swap-group choice (Paladin-shape) carries one `entry`;
             // a synthesized named-model-variant choice (Custodian Guard-shape,
             // see extractSlots.mjs's namedVariantSlot()) carries `entries`
             // (plural) since a variant can bundle more than one weapon-bearing
-            // upgrade (e.g. Vexilla + Misericordia together).
+            // upgrade (e.g. Vexilla + Misericordia together). Each entry's
+            // profile might be embedded directly OR shared via infoLinks into
+            // the catalogue's sharedProfiles (see weaponHelpers.mjs's
+            // resolveProfiles) - resolve both the same way.
             const sourceEntries = c.entries || (c.entry ? [c.entry] : []);
             const weaponProfiles = sourceEntries.flatMap(e =>
-                (e.profiles || []).filter(p => p.typeName === "Ranged Weapons" || p.typeName === "Melee Weapons"));
+                resolveProfiles(e, catalogue).filter(p => p.typeName === "Ranged Weapons" || p.typeName === "Melee Weapons"));
             const sWs = [], mWs = [];
             for (const p of weaponProfiles) {
                 const { array, isMelee } = resolveWeaponArray(p);

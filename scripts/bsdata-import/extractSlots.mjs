@@ -1,7 +1,7 @@
 // ─── WARGEAR SLOT EXTRACTION ────────────────────────────────────────────────
 // Walks a unit's full selectionEntries/selectionEntryGroups tree (including
 // entryLinks that reference the catalogue's sharedSelectionEntries) and finds
-// every group that represents a real wargear choice. Two distinct BSData
+// every group that represents a real wargear choice. Three distinct BSData
 // shapes are recognized:
 //
 //  1. A base model plus a separate "swap group" (Paladin Squad: pick 1 of
@@ -13,7 +13,12 @@
 //     Shield & Misericordia)") - there's no inner "pick 1 of N" group,
 //     because building the squad IS choosing the mix of variants. See
 //     namedVariantSlot() below.
-import { resolveEntry, hasWeaponProfile, directWeaponEntries } from "./weaponHelpers.mjs";
+//  3. Named "combo" choices for a single model - each choice bundles 2+
+//     weapon-linked sub-items with no direct profile of its own (Venerable
+//     Dreadnought: "Storm bolter and Dreadnought combat weapon" vs "Heavy
+//     flamer and Dreadnought combat weapon") - not a full model variant,
+//     just a named package of weapons. See comboChoiceSlot() below.
+import { resolveEntry, hasWeaponProfile, directWeaponEntries, resolveChoiceWeapons, resolveProfiles } from "./weaponHelpers.mjs";
 export { resolveEntry } from "./weaponHelpers.mjs";
 
 // Resolves one selectionEntries/entryLinks array into a flat list of real
@@ -75,7 +80,7 @@ function namedVariantSlot(group, children, catalogue) {
     // finds that nested group instead of this synthesizing a slot from
     // each variant's shared/incomplete direct weapons.
     if (children.some(c => (c.entry.selectionEntryGroups || []).length > 0)) return null;
-    const resolved = children.map(c => ({ ...c, weapons: directWeaponEntries(c.entry, catalogue) }));
+    const resolved = children.map(c => ({ ...c, weapons: resolveChoiceWeapons(c.entry, catalogue) }));
     if (resolved.some(c => c.weapons.length === 0)) return null;
     const base = resolved.find(c => !/ with /i.test(c.name)) || resolved[0];
     const alternates = resolved.filter(c => c !== base);
@@ -83,6 +88,68 @@ function namedVariantSlot(group, children, catalogue) {
     return {
         id: group.id, label: group.name, pick: { min: 0, max: alternates.length },
         choices: alternates.map(c => ({ id: c.entry.id, label: c.name, entries: c.weapons })),
+    };
+}
+
+// Detects shape 3: a group whose children are named "combo" choices - each
+// one a bundle of 2+ weapon-linked sub-items with no direct profile of its
+// own (e.g. Venerable Dreadnought's "Storm Bolter and Dreadnought Combat
+// Weapon" group: "Storm bolter and Dreadnought combat weapon" vs "Heavy
+// flamer and Dreadnought combat weapon", each an `upgrade` entry bundling a
+// ranged AND a melee weapon together, not a single weapon and not a full
+// model variant). Unlike namedVariantSlot(), there's no "base" choice to
+// exclude here - the group's own min/max constraint already describes the
+// real pick range (e.g. "exactly 1 of these 2 combos"), and
+// composableUnit.js's resolveBuild() already handles a combo choice
+// replacing BOTH a model's base ranged and melee weapon correctly (it
+// reduces the base ranged/melee counts independently based on which arrays
+// a choice carries - the same mechanism that makes Custodian Guard's
+// Vexilla+Misericordia bundle work).
+function comboChoiceSlot(group, children, catalogue) {
+    if (children.length < 2) return null;
+    if (children.some(c => (c.entry.selectionEntryGroups || []).length > 0)) return null;
+    const resolved = children.map(c => ({ ...c, weapons: resolveChoiceWeapons(c.entry, catalogue) }));
+    // A choice with zero weapons is a pure-ability option (e.g. Hekaton Land
+    // Fortress' "Wargear" group mixes the real "Hekaton warhead" weapon with
+    // an ability-only "Pan spectral scanner" alternative) - this app's
+    // schema can't represent an ability choice, so drop it rather than
+    // reject the whole group over one option it was never going to expose
+    // anyway. Only bail entirely when NONE of the choices have a weapon
+    // (a pure-ability group, e.g. Votann's "Crest"/"Enhancements" - out of
+    // scope, not a bug, correctly produces no slot).
+    const withWeapons = resolved.filter(c => c.weapons.length > 0);
+    if (!withWeapons.length) return null;
+    const pick = getConstraints(group);
+    // A mandatory pick (min>=1, e.g. Knight Despoiler's "Replace reaper
+    // chainsword") represents an occupied hardpoint that ALWAYS has some
+    // weapon by default - picking ANY option swaps out whatever was there,
+    // regardless of whether the CHOSEN option itself is ranged or melee
+    // (e.g. swapping the melee reaper chainsword for a ranged-only gatling
+    // combo still needs to remove 1 model's worth of base MELEE, which
+    // composableUnit.js's default per-choice-category logic can't see -
+    // it only reduces whatever category the chosen option adds). `replaces`
+    // says explicitly which base categories this hardpoint occupies (the
+    // union across all its choices, since any of them could be what's
+    // "already there"), letting resolveBuild() reduce by that instead.
+    // An optional pick (min:0, e.g. Despoiler's separate "Carapace weapon"
+    // mount) is a genuine ADD-ON, not a replacement - explicitly declaring
+    // `replaces: {sWs:false, mWs:false}` here (rather than leaving it
+    // undefined) opts these slots OUT of the default per-choice reduction
+    // too, so choosing one doesn't wrongly zero out an unrelated base
+    // weapon just because they happen to share a category.
+    const categoriesOf = entries => {
+        const types = entries.flatMap(e => resolveProfiles(e, catalogue).map(p => p.typeName));
+        return { sWs: types.includes("Ranged Weapons"), mWs: types.includes("Melee Weapons") };
+    };
+    const replaces = pick.min >= 1
+        ? withWeapons.reduce((acc, c) => {
+            const cat = categoriesOf(c.weapons);
+            return { sWs: acc.sWs || cat.sWs, mWs: acc.mWs || cat.mWs };
+        }, { sWs: false, mWs: false })
+        : { sWs: false, mWs: false };
+    return {
+        id: group.id, label: group.name, pick, replaces,
+        choices: withWeapons.map(c => ({ id: c.entry.id, label: c.name, entries: c.weapons })),
     };
 }
 
@@ -105,16 +172,18 @@ export function extractSlots(unitEntry, catalogue) {
         if (node.id) visited.add(node.id);
         for (const group of node.selectionEntryGroups || []) {
             const children = resolveChildren(group, catalogue);
-            const allWeapons = children.length > 0 && children.every(c => hasWeaponProfile(c.entry));
+            const allWeapons = children.length > 0 && children.every(c => hasWeaponProfile(c.entry, catalogue));
             const variantSlot = !allWeapons ? namedVariantSlot(group, children, catalogue) : null;
+            const comboSlot = !allWeapons && !variantSlot ? comboChoiceSlot(group, children, catalogue) : null;
+            const matchedSlot = variantSlot || comboSlot;
             if (allWeapons) {
                 slots.push({
                     id: group.id, label: group.name,
                     pick: ownCap || getConstraints(group),
                     choices: children.map(c => ({ id: c.entry.id, label: c.name, entry: c.entry })),
                 });
-            } else if (variantSlot) {
-                slots.push(variantSlot);
+            } else if (matchedSlot) {
+                slots.push(matchedSlot);
             } else {
                 // Not a wargear slot itself (e.g. a squad-size/model-variant group,
                 // or a Leader/Enhancement group) - walk into each child instead,
@@ -131,16 +200,17 @@ export function extractSlots(unitEntry, catalogue) {
             // GMND's "Wargear" group has a direct fixed Fragstorm grenade launcher
             // link AND separate "Dreadfists"/"Ranged Weapons" subgroups) - always
             // walk into nested subgroups regardless of how the group itself classified.
-            // Skipped for a matched variantSlot - each variant's own weapons are
-            // already fully captured, walking further would only produce noise.
-            // No cap carried here - a found group's own nested subgroups have their
-            // own real constraints, unrelated to any ancestor variant's cap.
-            if (!variantSlot) walk(group);
+            // Skipped for a matched variantSlot/comboSlot - each choice's own
+            // weapons are already fully captured, walking further would only
+            // produce noise. No cap carried here - a found group's own nested
+            // subgroups have their own real constraints, unrelated to any
+            // ancestor variant's cap.
+            if (!matchedSlot) walk(group);
         }
         // Also walk direct child selectionEntries/entryLinks (non-group) in case
         // a weapon slot hangs directly off a model entry without an intermediate group.
         for (const c of resolveChildren(node, catalogue)) {
-            if (!hasWeaponProfile(c.entry)) walk(c.entry, getVariantCap(c.entry));
+            if (!hasWeaponProfile(c.entry, catalogue)) walk(c.entry, getVariantCap(c.entry));
         }
     }
     walk(unitEntry);

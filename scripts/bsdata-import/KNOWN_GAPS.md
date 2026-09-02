@@ -8,11 +8,76 @@ is functional across all four factions.
 
 **Tracked as GitHub issues as of 2026-09-01** - this file stays as the
 detailed writeup, but the actionable to-do list now lives at
-https://github.com/J-Fricke/40kTools/issues (#1 named-variant slots - 12/21
-fixed same day, #2 base-weapon fallback, #3 LRR flamestorm cannons, #4
-wargear points, #6 coverage audit - now built into the pipeline itself
-rather than a separate script, see below, #7 unrecognized keywords). Check
-there for current status before assuming something below is still open.
+https://github.com/J-Fricke/40kTools/issues (#1 named-variant slots - fully
+resolved 2026-09-02, see below, #2 base-weapon fallback, #3 LRR flamestorm
+cannons, #4 wargear points, #6 coverage audit - now built into the
+pipeline itself rather than a separate script, see below, #7 unrecognized
+keywords). Check there for current status before assuming something below
+is still open.
+
+**Issue #1 fully closed 2026-09-02**: the 3 remaining units turned out to
+be two different things, not one bug. `bu` (Buri Aegnirssen) and `sv`
+(Ironkin Steeljacks with Heavy Volkanite Disintegrators) were false
+positives all along - both confirmed against their raw BSData tree to be
+genuinely fixed-loadout (for `sv` specifically, the apparent "choice" is
+already resolved by which of two separate unit names/uids you pick - `sv`
+vs `sm` - not an in-unit option at all). `bs` (Cthonian Beserks) was a
+real gap, now fixed - see the `infoLinks` finding below.
+
+**Root cause found while investigating `bs` - a fourth data-linkage
+mechanism**: a weapon's stat block can be attached to a BSData entry two
+ways - embedded directly (`entry.profiles`), or shared once in the
+catalogue's own `sharedProfiles` array and referenced via `entry.infoLinks`
+(type:"profile"). `bs`'s "Concussion maul" had zero embedded profile and
+only an infoLink - the real characteristics were sitting in
+`sharedProfiles` the whole time, and nothing in the extraction pipeline
+ever looked there. Fixed via `weaponHelpers.mjs`'s new `resolveProfiles()`,
+threaded through `hasWeaponProfile`/`directWeaponEntries`/`buildFamily.mjs`/
+`convertFaction.mjs`. This fix alone (nothing else) took the coverage-warning
+count from 21 to 18, since it applies broadly, not just to `bs`.
+
+**A third recognized BSData shape added**: `comboChoiceSlot()` in
+`extractSlots.mjs` - a group whose children are named "combo" choices (e.g.
+Venerable Dreadnought's "Storm bolter and Dreadnought combat weapon" vs
+"Heavy flamer and Dreadnought combat weapon"), each bundling 2+
+weapon-linked sub-items with no direct profile of its own - not a single
+weapon (shape 1) and not a full model variant (shape 2). Also handles a
+group mixing wrapper-combo children with plain direct-weapon children
+(Knight Despoiler's "Replace reaper chainsword": two combo entries plus two
+bare weapon entryLinks sitting alongside them) via the new
+`resolveChoiceWeapons()` helper, and a group mixing a real weapon option
+with an ability-only option it can't represent (Hekaton Land Fortress'
+"Wargear": "Hekaton warhead" weapon + "Pan spectral scanner" ability) by
+dropping the unrepresentable option rather than rejecting the whole group.
+Took the coverage-warning count from 18 to 3 - all 3 remaining are
+confirmed pure-ability groups (Votann's "Crest"/"Enhancements"), correctly
+out of scope for a weapon-focused schema, not bugs.
+
+## A deeper, pre-existing bug surfaced while fixing #1 (tracked separately)
+
+`family.base.sWs`/`mWs` (`composableUnit.js`) are flat arrays with no
+concept of which entry belongs to which hardpoint. `resolveBuild()` reduces
+the WHOLE array by "how many models stepped out of this category" when any
+slot in that category is swapped. For a single-model unit whose base
+happens to have 2+ separate entries in the same category (e.g. Knight
+Despoiler's `mWs` lumping together reaper chainsword + warpstrike claw +
+titanic feet as 3 entries for its 1 model), swapping ANY ONE of those
+hardpoints wipes the ENTIRE category array, not just the one entry that
+should have been replaced - confirmed directly: swapping Despoiler's
+reaper chainsword for a ranged combo empties `mWs` completely, losing the
+warpstrike claw and titanic feet too, which should have been untouched.
+
+This is not new - it predates today's work and already affects
+already-shipped units (Venerable Dreadnought's live "Assault Cannon" slot
+hits the same failure mode), just made more visible because today's fixes
+added real slots to more multi-hardpoint units. Found 32 affected units
+across all 4 factions (any single-model unit with 2+ entries in the same
+base category AND at least one slot in that category) - see the GitHub
+issue for the full list and the real fix (tag each base weapon entry with
+which hardpoint/slot it belongs to - a schema change, not caught here to
+avoid rushing a 32-unit change without proper verification). Until fixed,
+treat any of those 32 units' non-default wargear configurations as
+unverified - base-only (default) configurations are unaffected and correct.
 
 ## The systemic pattern: single-model "vehicle-shape" units
 
