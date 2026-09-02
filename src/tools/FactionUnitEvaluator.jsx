@@ -14,10 +14,8 @@ const toggleInSet = (set, item) => { const n = new Set(set); n.has(item) ? n.del
 const newEntryId = () => `e${Date.now().toString(36)}${Math.random().toString(36).slice(2, 7)}`;
 
 const DEFAULT_STATE = {
-    compareList: [],          // [{id, faction, uid, modelCount, slotChoices, charKey}]
-    draftByFaction: {},       // faction -> {uid: {modelCount, slotChoices, charKey}}
-    activeDetsByFaction: {},  // faction -> Set<detId> - shared across every added instance of that faction
-    detOptsByFaction: {},     // faction -> {detId: optKey}
+    compareList: [],          // [{id, faction, uid, modelCount, slotChoices, charKey, activeDets, detOpts}]
+    draftByFaction: {},       // faction -> {uid: {modelCount, slotChoices, charKey, activeDets, detOpts}}
     tgrp: "meta",
     yp: true,
     inclShoot: true,
@@ -38,7 +36,7 @@ export default function FactionUnitEvaluator() {
         { serialize: serializeWithSets, deserialize: deserializeWithSets }
     );
     const {
-        compareList, draftByFaction, activeDetsByFaction, detOptsByFaction,
+        compareList, draftByFaction,
         tgrp, yp, inclShoot, inclMelee, sort, killPctSort, doHeat, enemyAp,
     } = state;
     const showFactions = state.showFactions;
@@ -66,16 +64,6 @@ export default function FactionUnitEvaluator() {
     };
     const removeFromCompareList = id => update({ compareList: compareList.filter(e => e.id !== id) });
 
-    const toggleDet = (faction, detId) => {
-        const cur = activeDetsByFaction[faction] || new Set();
-        update({ activeDetsByFaction: { ...activeDetsByFaction, [faction]: toggleInSet(cur, detId) } });
-    };
-    const clearDets = faction => update({ activeDetsByFaction: { ...activeDetsByFaction, [faction]: new Set() } });
-    const setDetOpt = (faction, detId, optKey) => {
-        const cur = detOptsByFaction[faction] || {};
-        update({ detOptsByFaction: { ...detOptsByFaction, [faction]: { ...cur, [detId]: optKey } } });
-    };
-
     const toggleShoot = () => { if (inclShoot && !inclMelee) return; update({ inclShoot: !inclShoot }); };
     const toggleMelee = () => { if (inclMelee && !inclShoot) return; update({ inclMelee: !inclMelee }); };
 
@@ -87,8 +75,12 @@ export default function FactionUnitEvaluator() {
         const fd = FACTIONS[faction];
         const family = COMPOSABLE[faction]?.[uid];
         if (!family) return null; // stale entry (e.g. composable data changed) - skip rather than crash
-        const activeDets = activeDetsByFaction[faction] || new Set();
-        const detOpts = detOptsByFaction[faction] || {};
+        // Detachment is per-entry, not shared per faction - this is a
+        // comparison tool, comparing the same unit under different
+        // detachments (or different units each under their own) is a real
+        // use case (see ComposableFactionPicker.jsx's header comment).
+        const activeDets = entry.activeDets || new Set();
+        const detOpts = entry.detOpts || {};
         const bh = bhFor(faction);
 
         const built = resolveBuild(family, { modelCount, slotChoices });
@@ -119,15 +111,17 @@ export default function FactionUnitEvaluator() {
         const ewpt = ew / effectivePts;
         const avgDpt = arr.length ? arr.reduce((a, b) => a + b, 0) / arr.length : 0;
 
+        const detLabel = [...activeDets].map(id => fd.dets.find(d => d.id === id)?.name).filter(Boolean).join(", ");
+
         return {
             id: entry.id, faction, uid, unit: family.unit, m: modelCount,
             uc: fd.uc[uid] || C.dim,
             pts: effectivePts,
             label: describeLoadout(family, { modelCount, slotChoices }),
-            charLabel: combo.charLabel,
+            charLabel: combo.charLabel, detLabel,
             vals, rawVals, ew, ewpt, avgDpt,
         };
-    }).filter(Boolean), [compareList, tgrp, yp, inclShoot, inclMelee, activeDetsByFaction, detOptsByFaction, enemyAp]);
+    }).filter(Boolean), [compareList, tgrp, yp, inclShoot, inclMelee, enemyAp]);
 
     const rng = useMemo(() => {
         const r = { ewpt: [Infinity, -Infinity], avgDpt: [Infinity, -Infinity], composite: [Infinity, -Infinity] };
@@ -250,27 +244,18 @@ export default function FactionUnitEvaluator() {
                     {FACTION_KEYS.map(f => {
                         const fd = FACTIONS[f];
                         const entryCount = compareList.filter(e => e.faction === f).length;
-                        const fDp = [...(activeDetsByFaction[f] || [])].reduce((a, id) => {
-                            const d = fd.dets.find(d => d.id === id); return a + (d ? d.dp : 0);
-                        }, 0);
                         return (
                             <CollapsibleRow key={f} isOpen={expandedFactions.has(f)} onToggle={() => toggleFactionExpanded(f)} indent={8}
                                 header={<>
                                     <span style={{ fontSize: 12, fontWeight: 700, color: entryCount > 0 ? C.tx : C.sub }}>{fd.label}</span>
                                     <span style={{ fontSize: 9, color: C.vdim }}>{Object.keys(COMPOSABLE[f] || {}).length} units</span>
                                     {entryCount > 0 && <span style={{ fontSize: 9, color: C.grn }}>{entryCount} in list</span>}
-                                    {fDp > 0 && <span style={{ fontSize: 9, background: C.amb, color: C.bg, borderRadius: 3, padding: "0 4px" }}>{fDp}DP</span>}
                                 </>}>
                                 <ComposableFactionPicker
                                     faction={f} fd={fd}
                                     draftByUid={draftByFaction[f] || {}}
                                     onSetDraft={(uid, draft) => setDraft(f, uid, draft)}
                                     onAdd={(uid, draft) => addToCompareList(f, uid, draft)}
-                                    activeDets={activeDetsByFaction[f] || new Set()}
-                                    onToggleDet={detId => toggleDet(f, detId)}
-                                    onClearDets={() => clearDets(f)}
-                                    detOpts={detOptsByFaction[f] || {}}
-                                    onSetDetOpt={(detId, optKey) => setDetOpt(f, detId, optKey)}
                                 />
                             </CollapsibleRow>
                         );
@@ -302,7 +287,10 @@ export default function FactionUnitEvaluator() {
                                         {row.unit}{isC && <div style={{ fontSize: 8, color: C.pur }}>+{row.charLabel}</div>}
                                         <div style={{ fontSize: 8, color: C.vdim }}>{FACTIONS[row.faction].label}</div>
                                     </td>
-                                    <td style={{ padding: "5px 8px", color: C.tx, whiteSpace: "nowrap", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis" }}>{row.label}</td>
+                                    <td style={{ padding: "5px 8px", color: C.tx, whiteSpace: "nowrap", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis" }}>
+                                        {row.label}
+                                        {row.detLabel && <div style={{ fontSize: 8, color: C.amb }}>{row.detLabel}</div>}
+                                    </td>
                                     <td style={{ padding: "5px 7px", textAlign: "right", color: C.amb, fontWeight: 700 }}>{row.pts}</td>
                                     <td style={{ padding: "5px 7px", textAlign: "right", color: C.sub }}>{row.m}</td>
                                     {tgts.map(t => {
