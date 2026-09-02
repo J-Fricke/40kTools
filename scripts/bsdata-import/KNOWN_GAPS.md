@@ -99,8 +99,60 @@ structural proxy check, not all confirmed bugs - always verify numerically
 before tagging, don't assume multi-entry-base implies a real bug.
 
 **Fully fixed and verified**: `hk`, `desp` (Knight Despoiler), `tyrant`
-(Knight Tyrant). Despoiler and Tyrant both needed real per-unit work beyond
-tagging - see below.
+(Knight Tyrant), `ndk` (Nemesis Dreadknight - base correction, no tag),
+`vd` (Venerable Dreadnought), `razorback` (Razorback). Despoiler and Tyrant
+both needed real per-unit work beyond tagging - see below.
+
+**Grey Knights pass, 2026-09-02 (batch 3)** - worked the 7 GK units on the
+original 36-unit list against `ref/greyknights-10th-datasheets.txt`
+(weapon profiles are edition-stable; wargear structure cross-checked):
+
+- **`vd` (Venerable Dreadnought)** - the unit issue #22 was opened on. Real
+  fixed 3-weapon loadout (assault cannon + storm bolter + Dreadnought combat
+  weapon) on three hardpoints. Fixed: corrected the hand-authored base to
+  the datasheet default (storm bolter, not the heavy-flamer swap), then
+  hardpoint-tagged all three to their owning slots. Swapping the assault
+  cannon no longer wipes the storm bolter, and the combo slot no longer
+  wipes the assault cannon. Verified numerically across every slot choice.
+- **`razorback` (Razorback)** - base had twin lascannon + storm bolter
+  wrongly baked in. Datasheet default is just twin heavy bolter + armoured
+  tracks; twin lascannon is the free swap, storm bolter / hunter-killer are
+  add-ons. Fixed: base corrected to the twin heavy bolter, hardpoint-tagged
+  to the "Twin Heavy Bolter" slot. This surfaced a **distinct facet of the
+  same core problem**: an optional single-weapon *add-on* slot on a
+  single-model unit (min:0, "can be equipped with 1 storm bolter") also
+  wrongly reduces base, because resolveBuild's default per-choice inference
+  treats any choice carrying `sWs` as "1 model steps out of base ranged."
+  Hardpoint-tagging the base entry sidesteps it (tagged entries are immune
+  to the blanket reduction) - but the general fix is for extractSlots to
+  mark these slots `replaces:{sWs:false,mWs:false}` the way `comboChoiceSlot`
+  already does for optional combo mounts. Logged as GitHub issue #29.
+- **`pur` (Purifier Squad)** - confirmed false positive again (multi-model
+  squad, the "Heavy weapons" choice re-supplies the shared weapon, and the
+  second base entry is untouched). No action.
+- **`sr` (Stormraven Gunship)** - NOT a #22 bug. Its "Wargear" slot is
+  already `replaces:{sWs:false,mWs:false}` (pure add-on), so the 3-entry
+  base is preserved in every case. Its real gap is that the twin assault
+  cannon / typhoon launcher *swaps* aren't modeled at all - a coverage
+  warning, tracked separately.
+- **`gmndk` (Grand Master in Nemesis Dreadknight)** - same shape as `ndk`
+  (no fixed ranged weapon - "up to two of the following"; dreadfists is the
+  true default melee, "replaced with one of"). The clean fix is the same
+  base correction (`base.sWs = []`, `base.mWs = [dreadfists]`). NOT done
+  this pass: the current hand-authored base also carries `sowf` (Surge of
+  Wrath - full hit/wound/damage reroll vs MONSTER/VEHICLE, a real GMNDK
+  ability `ndk` doesn't have) as a weapon tag, and the BSData-extracted
+  slot choices have no such tag. Doing the base correction in isolation
+  silently drops Surge of Wrath from the model. Needs a joint pass with
+  ability modeling (post-process `sowf` onto gmndk's melee choices + the
+  psychic ranged ones), not a rushed base edit.
+- **`lrr` (Land Raider Redeemer)** - entangled with issue #3: BSData has no
+  twin flamestorm cannon data at all, so the hand-authored base has the
+  flamestorm + twin assault cannon (correct) plus multi-melta + storm bolter
+  (wrongly baked-in add-ons), and the "Wargear" slot offers a lone
+  "Flamestorm cannon" choice that doesn't even match the "2 flamestorm
+  cannons" base. Deferred until #3 is resolved - the base can't be made
+  consistent while the real weapon data is missing.
 
 **Two more systemic extraction bugs found and fixed investigating these**,
 likely affecting units well beyond this list:
@@ -142,10 +194,13 @@ missing from the row entirely. Found by cross-referencing
 `ref/chaos-knights-datasheets.txt`'s exact unit-composition text, not
 inferred from the numbers alone.
 
-Remaining work (both categories, not yet done): hardpoint-tagging for the
-other confirmed-affected units among the original 36, and folding the 21
-newly-found "always-included siblings" units' equipment into their base.
-Both need the same rigor used above - real datasheet cross-reference, not
+Remaining work (both categories, not yet done): Grey Knights is now worked
+through (see the batch-3 pass above). Still open - the Custodes / Votann /
+Chaos Knights units on the original 36-unit list (spot-checked this pass:
+`cal`, `cor`, `ach`, `tel`, `vlr` all show the failure mode and need the
+same per-unit datasheet cross-reference), plus folding the 21 newly-found
+"always-included siblings" units' equipment into their base. Both need the
+same rigor used above - real datasheet cross-reference, not
 numeric pattern-matching alone.
 
 ## The systemic pattern: single-model "vehicle-shape" units
