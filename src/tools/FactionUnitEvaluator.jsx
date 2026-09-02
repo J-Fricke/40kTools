@@ -292,7 +292,7 @@ export default function FactionUnitEvaluator() {
                                         const v = row.vals[t.key];
                                         const pct = t.wounds ? Math.round(row.rawVals[t.key] / t.wounds * 100) : null;
                                         const pctStr = pct === null ? null : pct > 999 ? '>999%' : `${pct}%`;
-                                        const pctCol = pct === null ? null : pct >= 150 ? '#c084fc' : pct >= 75 ? '#4ade80' : pct >= 50 ? '#fb923c' : '#f87171';
+                                        const pctCol = pct === null ? null : pct >= 150 ? '#c084fc' : pct >= 75 ? '#4ade80' : pct >= 50 ? '#fb923c' : '#fa9191'; // brightened - #f87171 only hit 3.66 against the heat map's own red overlay at max intensity
                                         return <td key={t.key} style={{ padding: "5px 7px", textAlign: "right", background: doHeat ? heat(v, rng[t.key][0], rng[t.key][1]) : "transparent", color: C.tx, fontVariantNumeric: "tabular-nums" }}>
                                             <div>{fmt(v)}{pctStr && <span style={{ fontSize: 9, fontWeight: 700, color: pctCol, marginLeft: 3 }}>({pctStr})</span>}</div>
                                         </td>;
