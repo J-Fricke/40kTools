@@ -68,14 +68,30 @@ function scaleWeapons(ws, n) {
 // model out of the base RANGED count, leaving its base melee weapon (e.g. a
 // Paladin's Nemesis force weapon) untouched - and symmetrically for a
 // melee-only choice. A choice carrying both steps the model out of both.
+//
+// A slot can override that per-choice inference with its own explicit
+// `replaces: {sWs, mWs}` (see scripts/bsdata-import/extractSlots.mjs's
+// comboChoiceSlot()) for cases the inference gets wrong: a mandatory
+// hardpoint (e.g. Knight Despoiler's "Replace reaper chainsword") that
+// ALWAYS has some weapon by default, where the replacement can change
+// category entirely (melee chainsword swapped for a ranged-only combo still
+// has to remove 1 model's worth of base melee, which the chosen choice's
+// own sWs/mWs alone can't signal) - or the opposite, an optional pure add-on
+// mount (Despoiler's separate "Carapace weapon") that should never reduce
+// base at all even though its choices happen to share a category with it.
 export function resolveBuild(family, { modelCount, slotChoices }) {
     let modelsSwappedRanged = 0, modelsSwappedMelee = 0;
     for (const slot of family.slots || []) {
         for (const choiceId of (slotChoices?.[slot.id] || [])) {
             const choice = slot.choices.find(c => c.id === choiceId);
             if (!choice) continue;
-            if (choice.sWs) modelsSwappedRanged++;
-            if (choice.mWs) modelsSwappedMelee++;
+            if (slot.replaces) {
+                if (slot.replaces.sWs) modelsSwappedRanged++;
+                if (slot.replaces.mWs) modelsSwappedMelee++;
+            } else {
+                if (choice.sWs) modelsSwappedRanged++;
+                if (choice.mWs) modelsSwappedMelee++;
+            }
         }
     }
     let sWs = scaleWeapons(family.base.sWs, Math.max(0, modelCount - modelsSwappedRanged));

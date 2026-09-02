@@ -1594,6 +1594,76 @@
             ]
           }
         ]
+      },
+      {
+        "id": "1ad8-749e-76ed-07e6",
+        "label": "Wargear Options",
+        "pick": {
+          "min": 2,
+          "max": 2
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": true
+        },
+        "choices": [
+          {
+            "id": "bf6b-9538-d9ff-4f9c",
+            "label": "Arachnus storm cannon",
+            "sWs": [
+              [
+                12,
+                2,
+                6,
+                -1,
+                1,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "896a-dae8-2bad-b241",
+            "label": "Iliastus accelerator culverin",
+            "sWs": [
+              [
+                4,
+                2,
+                9,
+                -1,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "d0d1-74ce-ec54-c122",
+            "label": "Telemon caestus and twin plasma projector",
+            "sWs": [
+              [
+                2.4,
+                2,
+                7,
+                -2,
+                1,
+                {
+                  "tl": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                5,
+                2,
+                12,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
       }
     ],
     "chars": [

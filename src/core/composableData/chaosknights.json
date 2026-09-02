@@ -402,6 +402,194 @@
         ]
       },
       {
+        "id": "55df-34d3-e508-13c4",
+        "label": "Replace reaper chainsword",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": true
+        },
+        "choices": [
+          {
+            "id": "4268-2d76-f972-d7f5",
+            "label": "Gatling cannon and flamer",
+            "sWs": [
+              [
+                18,
+                3,
+                6,
+                -2,
+                2,
+                {}
+              ],
+              [
+                4.2,
+                2,
+                5,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "eb49-0962-11ba-83c7",
+            "label": "Battle cannon and heavy stubber",
+            "sWs": [
+              [
+                6.5,
+                3,
+                10,
+                -1,
+                3,
+                {}
+              ],
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "5eca-c264-36cf-172e",
+            "label": "Reaper chainsword",
+            "mWs": [
+              [
+                4,
+                3,
+                14,
+                -4,
+                6,
+                {}
+              ],
+              [
+                12,
+                3,
+                9,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "3f43-5865-ddd8-ea87",
+            "label": "Daemonbreath thermal cannon",
+            "sWs": [
+              [
+                4,
+                3,
+                12,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aede-eb93-6a3e-2f62",
+        "label": "Replace warpstrike claw",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": true
+        },
+        "choices": [
+          {
+            "id": "48a2-a603-9607-4df8",
+            "label": "Gatling cannon and flamer",
+            "sWs": [
+              [
+                18,
+                3,
+                6,
+                -2,
+                2,
+                {}
+              ],
+              [
+                4.2,
+                2,
+                5,
+                -1,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "4379-207c-54b4-722a",
+            "label": "Battle cannon and heavy stubber",
+            "sWs": [
+              [
+                6.5,
+                3,
+                10,
+                -1,
+                3,
+                {}
+              ],
+              [
+                6,
+                3,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "5623-efa6-bed8-fa42",
+            "label": "Warpstrike claw",
+            "mWs": [
+              [
+                4,
+                3,
+                20,
+                -3,
+                8,
+                {}
+              ],
+              [
+                8,
+                3,
+                10,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "3f43-5865-ddd8-ea87",
+            "label": "Daemonbreath thermal cannon",
+            "sWs": [
+              [
+                4,
+                3,
+                12,
+                -4,
+                3.5,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
         "id": "68b3-ab57-f708-140f",
         "label": "Shoulder weapon",
         "pick": {
@@ -778,6 +966,140 @@
                 3.5,
                 {
                   "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "056b-59dd-0758-29ee",
+        "label": "Carapace weapons",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": false
+        },
+        "choices": [
+          {
+            "id": "7264-ccf1-81a4-8cbe",
+            "label": "2 Gheiststrike missile launchers and 1 twin desecrator cannon",
+            "sWs": [
+              [
+                1,
+                3,
+                12,
+                -6,
+                4.5,
+                {
+                  "dev": 1
+                }
+              ],
+              [
+                3.5,
+                3,
+                6,
+                0,
+                1,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "0122-c630-b6bb-8804",
+            "label": "2 twin desecrator cannons and 1 gheiststrike missile launcher",
+            "sWs": [
+              [
+                1,
+                3,
+                12,
+                -6,
+                4.5,
+                {
+                  "dev": 1
+                }
+              ],
+              [
+                3.5,
+                3,
+                6,
+                0,
+                1,
+                {
+                  "tl": 1
+                }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "53aa-af3d-5b81-5df6",
+        "label": "Main weapons",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": false
+        },
+        "choices": [
+          {
+            "id": "0d51-1b09-1511-86e4",
+            "label": "Brimstone volcano lance and ectoplasma decimator",
+            "sWs": [
+              [
+                2,
+                3,
+                20,
+                -5,
+                11.5,
+                {}
+              ],
+              [
+                6.5,
+                3,
+                8,
+                -3,
+                2,
+                {}
+              ],
+              [
+                6.5,
+                3,
+                9,
+                -4,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "0d33-ceef-2c1f-e440",
+            "label": "Darkflame cannon and warpshock harpoon",
+            "sWs": [
+              [
+                12.6,
+                2,
+                8,
+                -1,
+                2,
+                {}
+              ],
+              [
+                2,
+                3,
+                24,
+                -6,
+                12,
+                {
+                  "dev": 1
                 }
               ]
             ]
@@ -1315,6 +1637,77 @@
             ]
           }
         ]
+      },
+      {
+        "id": "ee33-43a7-5c5-dfe1",
+        "label": "Melee weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": true
+        },
+        "choices": [
+          {
+            "id": "c4f1-17d8-3504-d457",
+            "label": "Hekaton siege claw and twin rad cleanser",
+            "sWs": [
+              [
+                4.2,
+                2,
+                2,
+                0,
+                1,
+                {
+                  "ai": 1,
+                  "tl": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                4,
+                3,
+                20,
+                -3,
+                8,
+                {}
+              ],
+              [
+                8,
+                3,
+                10,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "5eca-c264-36cf-172e",
+            "label": "Reaper chainsword",
+            "mWs": [
+              [
+                4,
+                3,
+                14,
+                -4,
+                6,
+                {}
+              ],
+              [
+                12,
+                3,
+                9,
+                -3,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
       }
     ],
     "chars": [
@@ -1415,6 +1808,77 @@
                 {
                   "dev": 1
                 }
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7dc7-e65c-64c-fff3",
+        "label": "Melee weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": true
+        },
+        "choices": [
+          {
+            "id": "7b0f-b7a2-dde0-482b",
+            "label": "Hekaton siege claw and twin rad cleanser",
+            "sWs": [
+              [
+                4.2,
+                2,
+                2,
+                0,
+                1,
+                {
+                  "ai": 1,
+                  "tl": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                4,
+                3,
+                20,
+                -3,
+                8,
+                {}
+              ],
+              [
+                8,
+                3,
+                10,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "5eca-c264-36cf-172e",
+            "label": "Reaper chainsword",
+            "mWs": [
+              [
+                4,
+                3,
+                14,
+                -4,
+                6,
+                {}
+              ],
+              [
+                12,
+                3,
+                9,
+                -3,
+                2,
+                {}
               ]
             ]
           }
@@ -2528,6 +2992,111 @@
                 6,
                 0,
                 1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f9a1-251a-ee9f-707f",
+        "label": "Weapons",
+        "pick": {
+          "min": 2,
+          "max": 2
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": true
+        },
+        "choices": [
+          {
+            "id": "82bb-5188-3701-a846",
+            "label": "Volkite veuglaire",
+            "sWs": [
+              [
+                4,
+                3,
+                8,
+                0,
+                2,
+                {
+                  "dev": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "cf3a-bab9-317c-17d6",
+            "label": "Conversion beam cannon",
+            "sWs": [
+              [
+                1,
+                3,
+                10,
+                -2,
+                3,
+                {
+                  "conv": 1,
+                  "sustained": 2
+                }
+              ]
+            ]
+          },
+          {
+            "id": "6721-d47f-74bf-6ffc",
+            "label": "Graviton pulsar",
+            "sWs": [
+              [
+                3.5,
+                3,
+                7,
+                -1,
+                2,
+                {
+                  "av3": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "3909-f5fb-f7d7-8f",
+            "label": "Lightning lock",
+            "sWs": [
+              [
+                6,
+                3,
+                8,
+                0,
+                1,
+                {
+                  "sustained": 2
+                }
+              ]
+            ]
+          },
+          {
+            "id": "e9ea-196b-4d4d-83b1",
+            "label": "Siege claw and rad cleanser",
+            "sWs": [
+              [
+                4.2,
+                2,
+                2,
+                0,
+                1,
+                {
+                  "ai": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                4,
+                3,
+                12,
+                -3,
+                5.5,
                 {}
               ]
             ]

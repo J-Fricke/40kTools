@@ -411,7 +411,90 @@
         ]
       ]
     },
-    "slots": [],
+    "slots": [
+      {
+        "id": "34e2-9d32-58ea-3d85",
+        "label": "Squad weapon choice",
+        "pick": {
+          "min": 3,
+          "max": 10
+        },
+        "choices": [
+          {
+            "id": "e010-924b-804d-026f",
+            "label": "Concussion maul",
+            "mWs": [
+              [
+                3,
+                4,
+                5,
+                -2,
+                3,
+                {
+                  "am3": 1,
+                  "av3": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "0e8e-5168-13f2-1dba",
+            "label": "Heavy plasma axe",
+            "mWs": [
+              [
+                3,
+                4,
+                7,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2d71-3e85-019a-2556",
+        "label": "Weapon",
+        "pick": {
+          "min": 0,
+          "max": 2
+        },
+        "choices": [
+          {
+            "id": "7719-aa64-5e16-9a9d",
+            "label": "Concussion maul",
+            "mWs": [
+              [
+                3,
+                4,
+                5,
+                -2,
+                3,
+                {
+                  "am3": 1,
+                  "av3": 1
+                }
+              ]
+            ]
+          },
+          {
+            "id": "697f-710e-738d-4ee3",
+            "label": "Heavy plasma axe",
+            "mWs": [
+              [
+                3,
+                4,
+                7,
+                -2,
+                3,
+                {}
+              ]
+            ]
+          }
+        ]
+      }
+    ],
     "chars": [
       "none",
       "berehk"
@@ -555,7 +638,74 @@
         ]
       ]
     },
-    "slots": [],
+    "slots": [
+      {
+        "id": "e530-41fa-d5b5-86f5",
+        "label": "Weapons",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": true
+        },
+        "choices": [
+          {
+            "id": "4d4b-86d6-d7f8-ddaf",
+            "label": "Disintegrator and knife",
+            "sWs": [
+              [
+                6,
+                4,
+                6,
+                -1,
+                1,
+                {
+                  "dev": 1
+                }
+              ]
+            ],
+            "mWs": [
+              [
+                2,
+                3,
+                6,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "c1b1-e7ce-f6ed-892b",
+            "label": "Bolter and sword",
+            "sWs": [
+              [
+                2,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                6,
+                3,
+                6,
+                -2,
+                1,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
+      }
+    ],
     "chars": [
       "none"
     ]
@@ -780,6 +930,58 @@
                 1,
                 4,
                 4,
+                0,
+                1,
+                {}
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3045-c937-84ba-82f6",
+        "label": "Weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": true
+        },
+        "choices": [
+          {
+            "id": "5457-5087-9e8a-7c4c",
+            "label": "Bolt revolver and plasma knife",
+            "sWs": [
+              [
+                1,
+                4,
+                5,
+                0,
+                1,
+                {}
+              ]
+            ],
+            "mWs": [
+              [
+                2,
+                4,
+                4,
+                -2,
+                1,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "fafc-7d5c-f6b6-214b",
+            "label": "Bolt shotgun",
+            "sWs": [
+              [
+                2,
+                4,
+                5,
                 0,
                 1,
                 {}
@@ -1246,6 +1448,34 @@
             ]
           }
         ]
+      },
+      {
+        "id": "7eb4-5fc8-e729-ca88",
+        "label": "Wargear",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": false
+        },
+        "choices": [
+          {
+            "id": "3c12-5387-4d1a-cf2b",
+            "label": "Hekaton warhead",
+            "sWs": [
+              [
+                6.5,
+                4,
+                7,
+                -2,
+                2,
+                {}
+              ]
+            ]
+          }
+        ]
       }
     ],
     "chars": [
@@ -1328,6 +1558,80 @@
             ]
           }
         ]
+      },
+      {
+        "id": "acc4-06bc-93c2-f53b",
+        "label": "Turret weapon",
+        "pick": {
+          "min": 1,
+          "max": 1
+        },
+        "replaces": {
+          "sWs": true,
+          "mWs": false
+        },
+        "choices": [
+          {
+            "id": "091e-06fa-a39a-1d8f",
+            "label": "HYLas beam cannon",
+            "sWs": [
+              [
+                2,
+                4,
+                12,
+                -3,
+                4.5,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "deaa-766c-aaeb-4e0b",
+            "label": "L7 missile launcher and Sagitaur missile launcher",
+            "sWs": [
+              [
+                2,
+                4,
+                10,
+                -3,
+                3,
+                {}
+              ],
+              [
+                3.5,
+                4,
+                4,
+                0,
+                1,
+                {}
+              ],
+              [
+                1,
+                4,
+                9,
+                -2,
+                3.5,
+                {}
+              ]
+            ]
+          },
+          {
+            "id": "8d16-a849-dd95-997f",
+            "label": "MATR autocannon",
+            "sWs": [
+              [
+                6,
+                4,
+                7,
+                -1,
+                2,
+                {
+                  "sustained": 1
+                }
+              ]
+            ]
+          }
+        ]
       }
     ],
     "chars": [
@@ -1372,41 +1676,43 @@
     },
     "slots": [
       {
-        "id": "56bd-02fb-932d-236b",
-        "label": "Weapon",
+        "id": "f740-c9ea-75cf-d1d8",
+        "label": "Wargear",
         "pick": {
-          "min": 1,
+          "min": 0,
           "max": 1
+        },
+        "replaces": {
+          "sWs": false,
+          "mWs": false
         },
         "choices": [
           {
-            "id": "c96f-9f3d-8a0b-7bda",
-            "label": "Magna-rail cannon ",
-            "sWs": [
+            "id": "50f0-1ba3-dbdf-0dd3",
+            "label": "Armoured hull",
+            "mWs": [
               [
-                1,
+                3,
                 4,
-                14,
-                -4,
-                5,
-                {
-                  "dev": 1
-                }
+                6,
+                0,
+                1,
+                {}
               ]
             ]
           },
           {
-            "id": "0a28-6bcb-a0bc-b869",
-            "label": "HYLas rotary cannon",
+            "id": "9767-47cb-3455-140e",
+            "label": "Twin magna-coil autocannon",
             "sWs": [
               [
-                6,
+                3,
                 4,
-                6,
+                7,
                 -1,
                 2,
                 {
-                  "sustained": 1
+                  "tl": 1
                 }
               ]
             ]
