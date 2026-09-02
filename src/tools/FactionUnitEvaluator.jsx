@@ -27,6 +27,7 @@ const DEFAULT_STATE = {
     doHeat: true,
     showFactions: true,
     enemyAp: 0,
+    wideLoadout: false,       // widen + wrap the Loadout column so long builds are fully readable
 };
 
 export default function FactionUnitEvaluator() {
@@ -36,7 +37,7 @@ export default function FactionUnitEvaluator() {
     );
     const {
         compareList, draftByFaction,
-        tgrp, inclShoot, inclMelee, sort, killPctSort, doHeat, enemyAp,
+        tgrp, inclShoot, inclMelee, sort, killPctSort, doHeat, enemyAp, wideLoadout,
     } = state;
     const showFactions = state.showFactions;
 
@@ -212,6 +213,9 @@ export default function FactionUnitEvaluator() {
                     <label style={{ display: "flex", alignItems: "center", gap: 4, cursor: "pointer", fontSize: 10, color: C.dim }}>
                         <input type="checkbox" checked={doHeat} onChange={e => update({ doHeat: e.target.checked })} style={{ accentColor: C.amb }} />Heat
                     </label>
+                    <label style={{ display: "flex", alignItems: "center", gap: 4, cursor: "pointer", fontSize: 10, color: wideLoadout ? C.bl : C.dim }} title="Widen the Loadout column and wrap long text so it's fully readable">
+                        <input type="checkbox" checked={wideLoadout} onChange={e => update({ wideLoadout: e.target.checked })} style={{ accentColor: C.bl }} />Wide loadout
+                    </label>
                     {tgrp === "meta" && <label style={{ display: "flex", alignItems: "center", gap: 4, cursor: "pointer", fontSize: 10, color: killPctSort ? C.grn : C.dim }}>
                         <input type="checkbox" checked={killPctSort} onChange={e => update({ killPctSort: e.target.checked })} style={{ accentColor: C.grn }} />Kill%
                     </label>}
@@ -281,7 +285,10 @@ export default function FactionUnitEvaluator() {
                                         {row.unit}{isC && <div style={{ fontSize: 8, color: C.pur }}>+{row.charLabel}</div>}
                                         <div style={{ fontSize: 8, color: C.vdim }}>{FACTIONS[row.faction].label}</div>
                                     </td>
-                                    <td style={{ padding: "5px 8px", color: C.tx, whiteSpace: "nowrap", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis" }}>
+                                    <td title={[row.label, row.detLabel].filter(Boolean).join(" · ")}
+                                        style={wideLoadout
+                                            ? { padding: "5px 8px", color: C.tx, whiteSpace: "normal", maxWidth: 340, minWidth: 240 }
+                                            : { padding: "5px 8px", color: C.tx, whiteSpace: "nowrap", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis" }}>
                                         {row.label}
                                         {row.detLabel && <div style={{ fontSize: 8, color: C.amb }}>{row.detLabel}</div>}
                                         {row.ypActive && <div style={{ fontSize: 8, color: C.grn }}>Yield Points +1 Hit</div>}
