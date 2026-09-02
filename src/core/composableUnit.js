@@ -96,3 +96,19 @@ export function resolveBuild(family, { modelCount, slotChoices }) {
         sWs, mWs, ptsDelta,
     };
 }
+
+// describeLoadout: a short human-readable summary of a chosen configuration,
+// for table/list display (e.g. "5 models, +1 Psycannon") - lists only the
+// non-empty slot choices, since "fixed loadout" units and an all-default
+// configuration would otherwise show nothing useful.
+export function describeLoadout(family, { modelCount, slotChoices }) {
+    const parts = [`${modelCount} model${modelCount === 1 ? "" : "s"}`];
+    for (const slot of family.slots || []) {
+        const chosen = (slotChoices?.[slot.id] || []);
+        for (const choiceId of chosen) {
+            const choice = slot.choices.find(c => c.id === choiceId);
+            if (choice) parts.push(`+${choice.label}`);
+        }
+    }
+    return parts.join(", ");
+}
