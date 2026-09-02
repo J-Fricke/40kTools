@@ -16,7 +16,7 @@ import DetachmentPanel from "../components/DetachmentPanel.jsx";
 // nothing before Fight Simulator ever needed.
 const emptySide = faction => ({
     faction, uid: null, modelCount: null, slotChoices: {}, charKey: "none",
-    activeDets: new Set(), detOpts: {},
+    activeDets: new Set(), detOpts: {}, yp: true,
 });
 
 const DEFAULT_STATE = {
@@ -43,7 +43,9 @@ function resolveSide(side, { inclShoot, inclMelee }) {
     const char = fd.chars[side.charKey] || fd.chars.none;
     const combo = buildCombo(asUnit, char);
     const buff = getDetBuff(asUnit, side.charKey, { activeDets: side.activeDets, detOpts: side.detOpts, DETACHMENTS: fd.dets });
-    const bh = (side.faction === "votann") ? 1 : 0; // Votann YP assumed active, same default as the Evaluator
+    // Yield Points (Votann's army rule) is per-side, not assumed - see the
+    // YP toggle below and GitHub issue #12.
+    const bh = (side.faction === "votann" && side.yp !== false) ? 1 : 0;
     const unitBh = bh + buff.bhBonus;
     const sWs = inclShoot ? applyBuff(combo.sWs, buff, true) : null;
     const mWs = inclMelee ? applyBuff(combo.mWs, buff, false) : null;
@@ -116,6 +118,18 @@ function SidePanel({ label, side, onChange, dpCap = 3 }) {
                                     </button>
                                 );
                             })}
+                        </div>
+                    )}
+
+                    {side.faction === "votann" && (
+                        <div style={{ marginTop: 8 }}>
+                            <div style={{ fontSize: 9, color: C.vdim, marginBottom: 3, textTransform: "uppercase" }}>Yield Points</div>
+                            <div style={{ display: "flex", gap: 3 }}>
+                                <button onClick={() => setSide({ yp: true })}
+                                    style={{ fontSize: 10, padding: "3px 8px", borderRadius: 3, cursor: "pointer", border: `1px solid ${side.yp !== false ? C.grn : C.bdr2}`, background: side.yp !== false ? `${C.grn}22` : "transparent", color: side.yp !== false ? C.grn : C.dim }}>+1 Hit</button>
+                                <button onClick={() => setSide({ yp: false })}
+                                    style={{ fontSize: 10, padding: "3px 8px", borderRadius: 3, cursor: "pointer", border: `1px solid ${side.yp === false ? C.amb : C.bdr2}`, background: side.yp === false ? `${C.amb}22` : "transparent", color: side.yp === false ? C.amb : C.dim }}>No YP</button>
+                            </div>
                         </div>
                     )}
 
