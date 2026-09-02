@@ -23,7 +23,11 @@ import DetachmentPanel from "./DetachmentPanel.jsx";
 // faction - this is a theorycrafting/comparison tool, not a strict
 // one-army-one-list builder, so comparing the SAME unit under different
 // detachments (or different units each under their own) is a real, explicit
-// use case, not an edge case to collapse away.
+// use case, not an edge case to collapse away. Votann's Yield Points army
+// rule (see ref/votann-army-rule.txt) got the same treatment (GitHub issue
+// #12) - it's genuinely army-wide in the real rules, but the per-unit
+// toggle lets you compare the same unit's output with/without it active,
+// same reasoning as detachment.
 export default function ComposableFactionPicker({
     faction, fd,
     draftByUid, onSetDraft,
@@ -55,7 +59,7 @@ export default function ComposableFactionPicker({
                     const col = fd.uc[uid] || C.dim;
                     const isOpen = expanded.has(uid);
                     const sizes = Object.keys(family.models).map(Number).sort((a, b) => a - b);
-                    const draft = draftByUid[uid] || { modelCount: sizes[0], slotChoices: {}, charKey: "none", activeDets: new Set(), detOpts: {} };
+                    const draft = draftByUid[uid] || { modelCount: sizes[0], slotChoices: {}, charKey: "none", activeDets: new Set(), detOpts: {}, yp: true };
                     const activeDets = draft.activeDets || new Set();
                     const dpSpent = [...activeDets].reduce((a, id) => { const d = fd.dets.find(d => d.id === id); return a + (d ? d.dp : 0); }, 0);
 
@@ -90,6 +94,18 @@ export default function ComposableFactionPicker({
                                 </div>
                             )}
 
+                            {faction === "votann" && (
+                                <div style={{ marginTop: 8 }}>
+                                    <div style={{ fontSize: 9, color: C.vdim, marginBottom: 3, textTransform: "uppercase" }}>Yield Points</div>
+                                    <div style={{ display: "flex", gap: 3 }}>
+                                        <button onClick={() => onSetDraft(uid, { ...draft, yp: true })}
+                                            style={{ fontSize: 10, padding: "3px 8px", borderRadius: 3, cursor: "pointer", border: `1px solid ${draft.yp !== false ? C.grn : C.bdr2}`, background: draft.yp !== false ? `${C.grn}22` : "transparent", color: draft.yp !== false ? C.grn : C.dim }}>+1 Hit</button>
+                                        <button onClick={() => onSetDraft(uid, { ...draft, yp: false })}
+                                            style={{ fontSize: 10, padding: "3px 8px", borderRadius: 3, cursor: "pointer", border: `1px solid ${draft.yp === false ? C.amb : C.bdr2}`, background: draft.yp === false ? `${C.amb}22` : "transparent", color: draft.yp === false ? C.amb : C.dim }}>No YP</button>
+                                    </div>
+                                </div>
+                            )}
+
                             <div style={{ marginTop: 8 }}>
                                 <DetachmentPanel dets={fd.dets} activeDets={activeDets}
                                     onToggleDet={detId => onSetDraft(uid, { ...draft, activeDets: toggleInSet(activeDets, detId) })}
@@ -98,7 +114,7 @@ export default function ComposableFactionPicker({
                                     onSetDetOpt={(detId, optKey) => onSetDraft(uid, { ...draft, detOpts: { ...(draft.detOpts || {}), [detId]: optKey } })} />
                             </div>
 
-                            <button onClick={() => onAdd(uid, { modelCount: draft.modelCount ?? sizes[0], slotChoices: draft.slotChoices || {}, charKey: draft.charKey || "none", activeDets, detOpts: draft.detOpts || {} })}
+                            <button onClick={() => onAdd(uid, { modelCount: draft.modelCount ?? sizes[0], slotChoices: draft.slotChoices || {}, charKey: draft.charKey || "none", activeDets, detOpts: draft.detOpts || {}, yp: draft.yp !== false })}
                                 style={{ fontSize: 11, fontWeight: 700, padding: "5px 12px", borderRadius: 4, cursor: "pointer", border: `1px solid ${C.grn}`, background: `${C.grn}22`, color: C.grn, marginTop: 8 }}>
                                 + Add to compare list
                             </button>

@@ -14,10 +14,9 @@ const toggleInSet = (set, item) => { const n = new Set(set); n.has(item) ? n.del
 const newEntryId = () => `e${Date.now().toString(36)}${Math.random().toString(36).slice(2, 7)}`;
 
 const DEFAULT_STATE = {
-    compareList: [],          // [{id, faction, uid, modelCount, slotChoices, charKey, activeDets, detOpts}]
-    draftByFaction: {},       // faction -> {uid: {modelCount, slotChoices, charKey, activeDets, detOpts}}
+    compareList: [],          // [{id, faction, uid, modelCount, slotChoices, charKey, activeDets, detOpts, yp}]
+    draftByFaction: {},       // faction -> {uid: {modelCount, slotChoices, charKey, activeDets, detOpts, yp}}
     tgrp: "meta",
-    yp: true,
     inclShoot: true,
     inclMelee: true,
     // Default sort: best against the hardest-to-remove meta target (leftmost
@@ -37,7 +36,7 @@ export default function FactionUnitEvaluator() {
     );
     const {
         compareList, draftByFaction,
-        tgrp, yp, inclShoot, inclMelee, sort, killPctSort, doHeat, enemyAp,
+        tgrp, inclShoot, inclMelee, sort, killPctSort, doHeat, enemyAp,
     } = state;
     const showFactions = state.showFactions;
 
@@ -68,20 +67,20 @@ export default function FactionUnitEvaluator() {
     const toggleMelee = () => { if (inclMelee && !inclShoot) return; update({ inclMelee: !inclMelee }); };
 
     const tgts = TARGETS.filter(t => t.grp === tgrp);
-    const bhFor = faction => (yp && faction === "votann") ? 1 : 0;
 
     const rows = useMemo(() => compareList.map(entry => {
         const { faction, uid, modelCount, slotChoices, charKey } = entry;
         const fd = FACTIONS[faction];
         const family = COMPOSABLE[faction]?.[uid];
         if (!family) return null; // stale entry (e.g. composable data changed) - skip rather than crash
-        // Detachment is per-entry, not shared per faction - this is a
-        // comparison tool, comparing the same unit under different
-        // detachments (or different units each under their own) is a real
-        // use case (see ComposableFactionPicker.jsx's header comment).
+        // Detachment AND Yield Points (Votann's army rule - see
+        // ComposableFactionPicker.jsx's YP toggle) are per-entry, not
+        // shared - this is a comparison tool, comparing the same unit
+        // under different detachments/YP states (or different units each
+        // under their own) is a real use case, not an edge case.
         const activeDets = entry.activeDets || new Set();
         const detOpts = entry.detOpts || {};
-        const bh = bhFor(faction);
+        const bh = (entry.yp && faction === "votann") ? 1 : 0;
 
         const built = resolveBuild(family, { modelCount, slotChoices });
         const basePts = family.models[modelCount] ?? 0;
@@ -119,9 +118,10 @@ export default function FactionUnitEvaluator() {
             pts: effectivePts,
             label: describeLoadout(family, { modelCount, slotChoices }),
             charLabel: combo.charLabel, detLabel,
+            ypActive: faction === "votann" && !!entry.yp,
             vals, rawVals, ew, ewpt, avgDpt,
         };
-    }).filter(Boolean), [compareList, tgrp, yp, inclShoot, inclMelee, enemyAp]);
+    }).filter(Boolean), [compareList, tgrp, inclShoot, inclMelee, enemyAp]);
 
     const rng = useMemo(() => {
         const r = { ewpt: [Infinity, -Infinity], avgDpt: [Infinity, -Infinity], composite: [Infinity, -Infinity] };
@@ -181,7 +181,6 @@ export default function FactionUnitEvaluator() {
     );
 
     const phaseLabel = inclShoot && inclMelee ? "Shoot + Melee" : inclShoot ? "Shoot only" : "Melee only";
-    const votannActive = activeFactions.includes("votann");
 
     return (
         <div style={{ fontFamily: "'Courier New',monospace", background: C.bg, minHeight: "100%", color: C.tx, display: "flex", flexDirection: "column", fontSize: 12 }}>
@@ -198,11 +197,6 @@ export default function FactionUnitEvaluator() {
                         <Btn on={tgrp === "std"} click={() => update({ tgrp: "std" })}>Standard</Btn>
                         <Btn on={tgrp === "meta"} click={() => update({ tgrp: "meta" })}>Meta</Btn>
                     </div></div>
-                {votannActive && <div><div style={{ fontSize: 9, color: C.vdim, marginBottom: 3, textTransform: "uppercase" }}>Votann Yield Points</div>
-                    <div style={{ display: "flex", gap: 3 }}>
-                        <Btn on={yp} click={() => update({ yp: true })}>+1 Hit</Btn>
-                        <Btn on={!yp} click={() => update({ yp: false })}>No YP</Btn>
-                    </div></div>}
                 <div><div style={{ fontSize: 9, color: C.vdim, marginBottom: 3, textTransform: "uppercase" }}>Phase</div>
                     <div style={{ display: "flex", gap: 3 }}>
                         <Btn on={inclShoot} click={toggleShoot} col={C.bl} disabled={inclShoot && !inclMelee}>Shooting</Btn>
@@ -290,6 +284,7 @@ export default function FactionUnitEvaluator() {
                                     <td style={{ padding: "5px 8px", color: C.tx, whiteSpace: "nowrap", maxWidth: 180, overflow: "hidden", textOverflow: "ellipsis" }}>
                                         {row.label}
                                         {row.detLabel && <div style={{ fontSize: 8, color: C.amb }}>{row.detLabel}</div>}
+                                        {row.ypActive && <div style={{ fontSize: 8, color: C.grn }}>Yield Points +1 Hit</div>}
                                     </td>
                                     <td style={{ padding: "5px 7px", textAlign: "right", color: C.amb, fontWeight: 700 }}>{row.pts}</td>
                                     <td style={{ padding: "5px 7px", textAlign: "right", color: C.sub }}>{row.m}</td>
