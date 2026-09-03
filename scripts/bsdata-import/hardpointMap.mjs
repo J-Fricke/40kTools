@@ -22,6 +22,39 @@
 // `slotLabel`: looked up against the unit's own extracted slots to find the
 // real slot id (BSData GUIDs, unstable to hardcode directly).
 export const HARDPOINT_MAP = {
+    custodes: {
+        // Caladius Grav-tank: ref/custodes-datasheets.txt - "equipped with:
+        // twin iliastus accelerator cannon; twin lastrum bolt cannon;
+        // armoured hull", and only the twin iliastus "can be replaced with 1
+        // twin arachnus heavy blaze cannon". Without tagging, picking the
+        // "Equipped with" slot wiped the fixed twin lastrum bolt cannon too.
+        cal: [
+            { category: "sWs", weapon: [4, 2, 10, -1, 3, { tl: 1, let: 1 }], slotLabel: "Equipped with" },
+        ],
+        // Contemptor-Achillus Dreadnought: "equipped with: 2 lastrum storm
+        // bolters; Achillus dreadspear", and only the "2 lastrum storm
+        // bolters can be replaced with" 2 of {infernus incinerator, twin
+        // adrathic destructor, ...}. base.sWs[1] ([1,2,9,-2,3]) is the
+        // dreadspear's own lance profile (hand-authored) - a fixed melee
+        // weapon's profile, nothing to do with the storm-bolter mounts, but
+        // the untagged swap wiped it.
+        ach: [
+            { category: "sWs", weapon: [4, 2, 5, -1, 1, {}], slotLabel: "equipped with" },
+        ],
+        // Telemon Heavy Dreadnought: "equipped with: 2 iliastus accelerator
+        // culverins; spiculus bolt launcher; armoured feet", and only the "2
+        // iliastus accelerator culverins can be replaced with" 2 of the
+        // arachnus / caestus options. Tagging the culverins keeps the fixed
+        // spiculus bolt launcher (base.sWs[1]) from being wiped on a swap.
+        // NOTE: the "Wargear Options" slot also carries replaces:{mWs:true}
+        // (a caestus option adds a melee weapon), so picking a caestus option
+        // still wrongly wipes the always-on armoured feet - a separate
+        // replaces-overreach bug, tracked with issue #29, not fixable by
+        // tagging (the culvern pick-count isn't the armoured-feet swap count).
+        tel: [
+            { category: "sWs", weapon: [8, 2, 9, -1, 3, {}], slotLabel: "Wargear Options" },
+        ],
+    },
     greyknights: {
         // Venerable Dreadnought: ref/greyknights-10th-datasheets.txt confirms
         // "equipped with: assault cannon; storm bolter; Dreadnought combat

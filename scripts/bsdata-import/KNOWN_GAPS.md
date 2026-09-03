@@ -154,6 +154,50 @@ original 36-unit list against `ref/greyknights-10th-datasheets.txt`
   cannons" base. Deferred until #3 is resolved - the base can't be made
   consistent while the real weapon data is missing.
 
+**Custodes pass, 2026-09-02 (batch 4)** - the 6 Custodes units on the
+original list, against `ref/custodes-datasheets.txt`:
+
+- **`cal` (Caladius Grav-tank)** - real bug, clean fix. Datasheet: only the
+  twin iliastus accelerator cannon "can be replaced with 1 twin arachnus
+  heavy blaze cannon"; the twin lastrum bolt cannon is fixed. Hardpoint-
+  tagged the twin iliastus to the "Equipped with" slot so the twin lastrum
+  survives a swap. (Pre-existing, not touched: the slot's own "Twin iliastus
+  accelerator cannon" choice has different stats from base - 8 vs 4 shots,
+  no `let` - the hand-authored-base / BSData-slot provenance mismatch, issue
+  #2. Also base is missing the armoured hull melee weapon, issue #34.)
+- **`ach` (Contemptor-Achillus Dreadnought)** - real bug, clean fix.
+  Datasheet: "2 lastrum storm bolters can be replaced with" 2 of the
+  infernus / adrathic options; the Achillus dreadspear is fixed.
+  `base.sWs[1]` ([1,2,9,-2,3]) is the dreadspear's own hand-authored lance
+  profile - nothing to do with the storm-bolter mounts, but the untagged
+  swap wiped it. Hardpoint-tagged the storm bolters to the "equipped with"
+  slot.
+- **`tel` (Telemon Heavy Dreadnought)** - real bug, PARTIAL fix. Datasheet:
+  "2 iliastus accelerator culverins can be replaced with" 2 of the arachnus
+  / caestus options; spiculus bolt launcher + armoured feet are fixed.
+  Hardpoint-tagged the culverins so the spiculus survives a swap.
+  **Still broken**: the "Wargear Options" slot carries `replaces:{mWs:true}`
+  (a caestus option adds a melee weapon and the slot is mandatory), so
+  configuring the slot at all wipes the always-on armoured feet. That's the
+  `replaces` overreach, tracked with #29 - not fixable by tagging (the
+  culverin pick-count isn't the armoured-feet swap count). Armoured feet is
+  a marginal weapon so this is net progress, but noted.
+- **`al` (Allarus Custodians)** - confirmed false positive again (multi-model
+  squad; the named-variant choice re-supplies the shared weapons, verified
+  earlier). No action.
+- **`cor` (Coronus Grav-carrier)** - false positive. Datasheet "WARGEAR
+  OPTIONS: None" and the extraction correctly produces zero slots, so
+  nothing ever reduces its 2-entry base. (Base is missing the armoured hull
+  melee weapon - issue #34 - but that is not a #22 problem.)
+- **`vlr` (Venerable Land Raider)** - NOT fixed, and it is really issue #29,
+  not the multi-hardpoint bug. The extracted "Wargear" slot both re-lists
+  the base weapons (godhammer lascannon, twin heavy bolter, armoured tracks)
+  as pickable "choices" AND offers the real add-ons (storm bolter,
+  hunter-killer missile). Picking any add-on wipes the whole base. Needs the
+  extraction fixed (drop the base-weapon choices, mark the slot
+  `replaces:{false,false}`) - tagging can't help because the pick-count
+  isn't a swap-count for a pure add-on slot.
+
 **Two more systemic extraction bugs found and fixed investigating these**,
 likely affecting units well beyond this list:
 
@@ -194,13 +238,11 @@ missing from the row entirely. Found by cross-referencing
 `ref/chaos-knights-datasheets.txt`'s exact unit-composition text, not
 inferred from the numbers alone.
 
-Remaining work (both categories, not yet done): Grey Knights is now worked
-through (see the batch-3 pass above). Still open - the Custodes / Votann /
-Chaos Knights units on the original 36-unit list (spot-checked this pass:
-`cal`, `cor`, `ach`, `tel`, `vlr` all show the failure mode and need the
-same per-unit datasheet cross-reference), plus folding the 21 newly-found
-"always-included siblings" units' equipment into their base. Both need the
-same rigor used above - real datasheet cross-reference, not
+Remaining work (both categories, not yet done): Grey Knights (batch 3) and
+Custodes (batch 4) are now worked through. Still open - the Votann and
+Chaos Knights units on the original 36-unit list, plus folding the 21
+newly-found "always-included siblings" units' equipment into their base.
+Both need the same rigor used above - real datasheet cross-reference, not
 numeric pattern-matching alone.
 
 ## The systemic pattern: single-model "vehicle-shape" units
