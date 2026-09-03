@@ -154,6 +154,16 @@ export const HARDPOINT_MAP = {
             { category: "sWs", weapon: [2, 3, 12, -6, 4.5, { dev: 1 }], slotLabel: "Carapace weapons" },
             { category: "sWs", weapon: [3.5, 3, 6, 0, 1, { tl: 1 }], slotLabel: "Carapace weapons" },
         ],
+        // War Dog Executioner: ref/chaos-knights-datasheets.txt - "equipped
+        // with: diabolus heavy stubber; 2 War Dog autocannons; armoured feet",
+        // and only "the diabolus heavy stubber can be replaced with 1
+        // daemonbreath meltagun" ("Carapace weapon" slot). The 2 War Dog
+        // autocannons (base.sWs[0]) are fixed. base.sWs[1] is the carapace
+        // mount (hand-authored as the meltagun, this row's documented
+        // choice); tag it so the swap keeps the autocannons.
+        exec: [
+            { category: "sWs", weapon: [1, 3, 9, -4, 3.5, {}], slotLabel: "Carapace weapon" },
+        ],
     },
 };
 
