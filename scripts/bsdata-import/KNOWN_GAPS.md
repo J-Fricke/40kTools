@@ -229,6 +229,55 @@ on the original list, against `ref/votann-datasheets.txt`:
   reduced. (The real magna-rail -> HYLas rotary swap from the datasheet
   isn't extracted at all - a separate coverage gap, not #22.)
 
+**Chaos Knights pass, 2026-09-02 (batch 6, GitHub issue #33)** - all 20 CK
+units are single-model, 17 on the original #22 list. This pass found the
+per-unit hardpoint approach has largely hit its limit here: **most CK units
+are blocked on a pipeline-level extraction fix, not per-unit tagging.**
+
+Done or confirmed clean:
+
+- **`desp` / `tyrant`** - fixed in earlier passes (#24, #25).
+- **`exec` (War Dog Executioner)** - real bug, clean fix. Only "the diabolus
+  heavy stubber can be replaced with 1 daemonbreath meltagun" ("Carapace
+  weapon" slot); the 2 War Dog autocannons are fixed. Tagged the carapace
+  mount (`base.sWs[1]`) so the swap keeps the autocannons.
+- **`ruin`, `ach` (Cerastus Acheron), `atra`, `aster`** - false positives.
+  Cerastus / Acastus Asterius knights are fixed-loadout ("WARGEAR OPTIONS:
+  None"); the extraction correctly produces zero slots, so nothing reduces
+  their multi-entry base.
+- **`karnivore` (War Dog Karnivore)** - false positive. Its one ranged base
+  entry is the carapace mount (correctly swapped by the single-choice
+  slot); no slot touches its 2 melee entries.
+
+Blocked on a pipeline fix (do NOT band-aid these per-unit):
+
+- **Bogus "re-list the base weapons as choices" slots** - `abom` (Knight
+  Abominant, a fixed-loadout unit whose 4 weapons became a 4-choice
+  "Wargear" slot), `brigand`, `huntsman`, `stalker` all have a slot whose
+  children are weapons the model already has in base. Picking any of them
+  reduces base. Tagging can't help - tagging a base weapon to its own bogus
+  slot makes an unrelated pick in that slot delete it. The fix is for
+  `extractSlots` to suppress a group whose choices are all already base
+  weapons (related to #29).
+- **`replaces` overreach on melee-swap slots** - `mag` / `sty` (Questoris
+  Magaera / Styrix): "reaper chainsword can be replaced with 1 hekaton
+  siege claw and 1 twin rad cleanser". Because that one choice bundles a
+  ranged rad cleanser and the slot is mandatory, `comboChoiceSlot` sets
+  `replaces:{sWs:true}` - so swapping the *melee* weapon deletes both fixed
+  main guns (lightning cannon + phased plasma-fusil for `mag`). Same shape
+  as Telemon (#31) and `moirax` below. Needs `replaces` to distinguish an
+  additive bundled weapon from a real replacement.
+- **`moirax` (War Dog Moirax)** - the sWs behaviour is actually correct
+  (both Moirax weapons are legitimately swapped by the "Weapons" slot). The
+  only bug is the same `replaces:{mWs:true}` overreach wiping the always-on
+  armoured feet. Tracked with #29 / the `replaces` fix above.
+- **Hand-authored base bloat** - `porf` (5 base ranged entries, can't be
+  reconciled against a clean 11e datasheet here), `stalker` (base bakes in
+  BOTH sides of two different swaps). These need a base correction in
+  `src/factions/chaosknights.js` before tagging, like `ndk` / `tyrant`.
+- **`desc` (Knight Desecrator)** - entangled with #26 (its reaper chainsword
+  / warpstrike claw choices double-count strike + sweep profiles).
+
 **Two more systemic extraction bugs found and fixed investigating these**,
 likely affecting units well beyond this list:
 
@@ -269,13 +318,21 @@ missing from the row entirely. Found by cross-referencing
 `ref/chaos-knights-datasheets.txt`'s exact unit-composition text, not
 inferred from the numbers alone.
 
-Remaining work (both categories, not yet done): Grey Knights (batch 3),
-Custodes (batch 4) and Votann (batch 5) are now worked through. Still open -
-the Chaos Knights units on the original 36-unit list (GitHub issue #33;
-`desp`/`tyrant` already done), plus folding the 21 newly-found
-"always-included siblings" units' equipment into their base (#34). Both
-need the same rigor used above - real datasheet cross-reference, not
-numeric pattern-matching alone.
+Remaining work: all four factions have now had a hardpoint pass (GK batch 3,
+Custodes batch 4, Votann batch 5, Chaos Knights batch 6). What's left is no
+longer per-unit tagging - it's two pipeline-level fixes plus a base-cleanup
+pass:
+
+1. **Extraction: suppress bogus "base weapons re-listed as choices" slots**
+   and **stop `replaces` treating an additively-bundled weapon as a
+   replacement** (folded into #29). This unblocks the bulk of the remaining
+   Chaos Knights units (`abom`, `brigand`, `huntsman`, `stalker`, `mag`,
+   `sty`, `moirax`) and cleans up `vlr`, `hf`, `tel` tails.
+2. **Base corrections** for units whose hand-authored `src/factions/*.js`
+   base bakes in non-default or redundant weapons (`porf`, `stalker`, and
+   the #34 "always-included siblings" list - 21 units).
+3. **#26** (dual-profile double-count) blocks `desc` and any weapon with
+   named strike/sweep modes.
 
 ## The systemic pattern: single-model "vehicle-shape" units
 
