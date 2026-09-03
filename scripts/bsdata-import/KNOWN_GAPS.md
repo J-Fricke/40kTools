@@ -198,6 +198,37 @@ original list, against `ref/custodes-datasheets.txt`:
   `replaces:{false,false}`) - tagging can't help because the pick-count
   isn't a swap-count for a pure add-on slot.
 
+**Votann pass, 2026-09-02 (batch 5, GitHub issue #32)** - the 6 Votann units
+on the original list, against `ref/votann-datasheets.txt`:
+
+- **`hf` (Hekaton Land Fortress)** - real bug, PARTIAL fix. Datasheet:
+  "cyclic ion cannon; MATR autocannon; 2 twin bolt cannons; ...", with only
+  the cyclic ion cannon ("Main weapon" slot) and the 2 twin bolt cannons
+  ("Sponson weapons" slot) swappable. Tagged both so choosing a main gun no
+  longer wipes the sponsons + MATR autocannon. **Still broken**: the
+  extracted mandatory "Wargear"/Hekaton warhead slot carries
+  `replaces:{sWs:true}` (and is wrongly pick 1-1, not 0-1) and still wipes
+  the untagged MATR autocannon - an extraction bug tracked with #29.
+  (Also: `base.sWs[0]` is the hand-authored SP heavy conversion beamer, not
+  the datasheet-default cyclic ion cannon - provenance mismatch, #2.)
+- **`sg` (Sagitaur)** - real bug, clean fix. Only the HYLas beam cannon
+  swaps ("Turret weapon" slot); the twin bolt cannon is fixed. Tagged the
+  HYLas so a turret swap keeps the twin bolt cannon.
+- **`ch` (Einhyr Champion)** - real bug, clean fix. "mass hammer can be
+  replaced with 1 darkstar axe" ("Melee weapon" slot). `base.mWs[1]`
+  ([_,_,99,_,_,dev]) is the hand-authored stand-in for Mass Driver
+  Accelerators (a charge-triggered mortal-wound ability, always on). Tagged
+  only the mass hammer so swapping to darkstar axe keeps the ability.
+- **`hk` (Hearthkyn Warriors)** - already tagged in an earlier pass. No
+  change; re-verified the tag still works.
+- **`pi` (Hernkyn Pioneers)** - confirmed false positive again (squad; the
+  named-variant choices are non-weapon upgrades - comms array / scanner /
+  searchlight - and never touch base).
+- **`kd` (Kapricus Defenders)** - false positive. Its only slot ("Wargear")
+  is already `replaces:{sWs:false,mWs:false}`, so its 2-entry base is never
+  reduced. (The real magna-rail -> HYLas rotary swap from the datasheet
+  isn't extracted at all - a separate coverage gap, not #22.)
+
 **Two more systemic extraction bugs found and fixed investigating these**,
 likely affecting units well beyond this list:
 
@@ -238,11 +269,12 @@ missing from the row entirely. Found by cross-referencing
 `ref/chaos-knights-datasheets.txt`'s exact unit-composition text, not
 inferred from the numbers alone.
 
-Remaining work (both categories, not yet done): Grey Knights (batch 3) and
-Custodes (batch 4) are now worked through. Still open - the Votann and
-Chaos Knights units on the original 36-unit list, plus folding the 21
-newly-found "always-included siblings" units' equipment into their base.
-Both need the same rigor used above - real datasheet cross-reference, not
+Remaining work (both categories, not yet done): Grey Knights (batch 3),
+Custodes (batch 4) and Votann (batch 5) are now worked through. Still open -
+the Chaos Knights units on the original 36-unit list (GitHub issue #33;
+`desp`/`tyrant` already done), plus folding the 21 newly-found
+"always-included siblings" units' equipment into their base (#34). Both
+need the same rigor used above - real datasheet cross-reference, not
 numeric pattern-matching alone.
 
 ## The systemic pattern: single-model "vehicle-shape" units

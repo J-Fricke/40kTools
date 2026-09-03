@@ -87,6 +87,39 @@ export const HARDPOINT_MAP = {
         // blaster/Theyn's pistol, when only this one (not the other,
         // unrelated sWs[0] entry) should change.
         hk: [{ category: "sWs", weapon: [2, 4, 4, 0, 1, {}], slotLabel: "Weapon" }],
+        // Hekaton Land Fortress: ref/votann-datasheets.txt - "equipped with:
+        // cyclic ion cannon; MATR autocannon; 2 twin bolt cannons; ...". Only
+        // the cyclic ion cannon ("Main weapon" slot) and the 2 twin bolt
+        // cannons ("Sponson weapons" slot) are swappable; the MATR autocannon
+        // is fixed. Tag the two swappable mounts so choosing a main gun no
+        // longer wipes the sponsons + MATR. (base.sWs[0] is the SP heavy
+        // conversion beamer, the hand-authored default, not the datasheet's
+        // cyclic ion cannon - a provenance mismatch, issue #2.)
+        // NOTE still broken: the extracted mandatory "Wargear"/Hekaton warhead
+        // slot carries replaces:{sWs:true} and still wipes the untagged MATR
+        // autocannon - an extraction bug (that slot should be pick 0-1 and
+        // not replace anything), tracked with #29.
+        hf: [
+            { category: "sWs", weapon: [4, 4, 10, -2, 4, { con: 1, let: 1 }], slotLabel: "Main weapon" },
+            { category: "sWs", weapon: [6, 4, 6, -1, 2, { sustained: 2, tl: 1 }], slotLabel: "Sponson weapons" },
+        ],
+        // Sagitaur: "equipped with: HYLas beam cannon; twin bolt cannon;
+        // armoured wheels". Only the HYLas beam cannon swaps ("Turret weapon"
+        // slot); the twin bolt cannon is fixed. Tag the HYLas so a turret
+        // swap keeps the twin bolt cannon.
+        sg: [
+            { category: "sWs", weapon: [2, 4, 12, -3, 4.5, {}], slotLabel: "Turret weapon" },
+        ],
+        // Einhyr Champion: "equipped with: Autoch-pattern combi-bolter; mass
+        // hammer; weavefield crest", and "mass hammer can be replaced with 1
+        // darkstar axe" ("Melee weapon" slot). base.mWs[1] ([_,_,99,_,_,dev])
+        // is the hand-authored stand-in for Mass Driver Accelerators (a
+        // charge-triggered mortal-wound ability, always on regardless of the
+        // melee weapon) - tag only the mass hammer so swapping to darkstar
+        // axe keeps it.
+        ch: [
+            { category: "mWs", weapon: [3, 3, 12, -3, 4.5, {}], slotLabel: "Melee weapon" },
+        ],
     },
     chaosknights: {
         // Knight Despoiler: ref/chaos-knights-datasheets.txt confirms "This
