@@ -451,15 +451,21 @@ export const UNITS = [
     // ── Venerable Dreadnought (Vehicle, Walker, Character) ───────────────────────
     // Guidance of the Ancients: +1 hit for all GK vs chosen target — not modeled.
     // 1st-2nd: 130pts. 3rd+: 140pts.
+    // Base weapons corrected + hardpoint-tagged 2026-09-02 (issue #22): the
+    // real datasheet loadout is assault cannon + storm bolter + Dreadnought
+    // combat weapon, on three separate hardpoints. Storm bolter is the
+    // datasheet default (heavy flamer is the free swap, kept as the hidden
+    // variant row below). hardpointMap.mjs tags each base weapon to its
+    // owning slot so swapping one hardpoint no longer wipes the others.
     {id:"vd",    uid:"vd",  unit:"Venerable Dreadnought", pts:130, m:1, W:8, sv:2, inv:null, fnp:null,
-        label:"assault cannon [DEV] + heavy flamer + DCW",
-        chars:["none"],
-        sWs:[[6,3,6,0,1,{dev:1}],[3.5,1,5,-1,1,{}]],
-        mWs:[[5,3,12,-2,3,{}]]},
-    {id:"vd_sb", uid:"vd",  unit:"Venerable Dreadnought", pts:130, m:1, W:8, sv:2, inv:null, fnp:null, hidden:true,
         label:"assault cannon [DEV] + storm bolter + DCW",
         chars:["none"],
         sWs:[[6,3,6,0,1,{dev:1}],[4,3,4,0,1,{}]],
+        mWs:[[5,3,12,-2,3,{}]]},
+    {id:"vd_hf", uid:"vd",  unit:"Venerable Dreadnought", pts:130, m:1, W:8, sv:2, inv:null, fnp:null, hidden:true,
+        label:"assault cannon [DEV] + heavy flamer + DCW",
+        chars:["none"],
+        sWs:[[6,3,6,0,1,{dev:1}],[4.2,2,5,-1,1,{}]],
         mWs:[[5,3,12,-2,3,{}]]},
 
     // ── Stormraven Gunship (Vehicle, Transport, M14") ────────────────────────────
@@ -488,11 +494,17 @@ export const UNITS = [
 
     // ── Razorback (Vehicle, Transport, Dedicated Transport) ───────────────────────
     // Fire Focus: +1 AP for disembarked units shooting the same target this turn — not modeled.
-    // 1st-3rd: 75pts. 4th+: 85pts. Twin lascannon swap (shown) is a free wargear option.
+    // 1st-3rd: 75pts. 4th+: 85pts.
+    // Base corrected + hardpoint-tagged 2026-09-02 (issue #22): the real
+    // datasheet default is just twin heavy bolter + armoured tracks. Twin
+    // lascannon is the free swap (the "Twin Heavy Bolter" slot), storm bolter
+    // / hunter-killer are optional add-ons (the "Wargear" slot) — none belong
+    // in base. hardpointMap.mjs tags the twin heavy bolter to its own slot so
+    // an add-on from the Wargear slot no longer wipes the main gun.
     {id:"razorback", uid:"razorback", unit:"Razorback", pts:75, m:1, W:10, sv:3, inv:null, fnp:null, hidden:true,
-        label:"twin lascannon + storm bolter + armoured tracks",
+        label:"twin heavy bolter + armoured tracks",
         chars:["none"],
-        sWs:[[1,3,12,-3,4.5,{}],[4,3,4,0,1,{}]],
+        sWs:[[3,3,5,-1,2,{sustained:1,tl:1}]],
         mWs:[[3,4,6,0,1,{}]]},
 
     // ── Land Raider Redeemer (Vehicle, Transport) ─────────────────────────────────

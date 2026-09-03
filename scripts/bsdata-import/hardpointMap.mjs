@@ -22,6 +22,30 @@
 // `slotLabel`: looked up against the unit's own extracted slots to find the
 // real slot id (BSData GUIDs, unstable to hardcode directly).
 export const HARDPOINT_MAP = {
+    greyknights: {
+        // Venerable Dreadnought: ref/greyknights-10th-datasheets.txt confirms
+        // "equipped with: assault cannon; storm bolter; Dreadnought combat
+        // weapon" - three separate hardpoints. The assault cannon swaps via
+        // the "Assault Cannon" slot; the storm bolter + DCW swap together via
+        // the "Storm Bolter and Dreadnought Combat Weapon" combo slot. Without
+        // tagging, picking the Assault Cannon slot wiped the untouched storm
+        // bolter too (the exact failure GitHub issue #22 was opened on), and
+        // picking the combo slot wiped the untouched assault cannon.
+        vd: [
+            { category: "sWs", weapon: [6, 3, 6, 0, 1, { dev: 1 }], slotLabel: "Assault Cannon" },
+            { category: "sWs", weapon: [4, 3, 4, 0, 1, {}], slotLabel: "Storm Bolter and Dreadnought Combat Weapon" },
+            { category: "mWs", weapon: [5, 3, 12, -2, 3, {}], slotLabel: "Storm Bolter and Dreadnought Combat Weapon" },
+        ],
+        // Razorback: base is the datasheet default twin heavy bolter (see
+        // src/factions/greyknights.js). It swaps via the "Twin Heavy Bolter"
+        // slot; tagging it there keeps the optional "Wargear" add-ons (storm
+        // bolter, hunter-killer missile) from wrongly reducing the main gun -
+        // resolveBuild's blanket per-choice reduction skips hardpoint-tagged
+        // base entries entirely.
+        razorback: [
+            { category: "sWs", weapon: [3, 3, 5, -1, 2, { sustained: 1, tl: 1 }], slotLabel: "Twin Heavy Bolter" },
+        ],
+    },
     votann: {
         // Hearthkyn Warriors: base.sWs[1] ([2,4,4,0,1,{}]) is the
         // Autoch-pattern bolter, matched exactly by the "Weapon" slot's own
