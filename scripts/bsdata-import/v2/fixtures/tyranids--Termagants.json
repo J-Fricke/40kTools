@@ -1,0 +1,1874 @@
+{
+ "unit": {
+  "name": "Termagants",
+  "id": "359c-db2c-681a-8d62",
+  "collective": false,
+  "hidden": false,
+  "import": true,
+  "type": "unit",
+  "categoryLinks": [
+   {
+    "name": "Battleline",
+    "id": "6a12-8cad-2281-9de9",
+    "hidden": false,
+    "primary": true,
+    "targetId": "e338-111e-d0c6-b687"
+   },
+   {
+    "name": "Infantry",
+    "id": "c8b3-bdd1-c8ff-681e",
+    "hidden": false,
+    "primary": false,
+    "targetId": "cf47-a0d7-7207-29dc"
+   },
+   {
+    "name": "Great Devourer",
+    "id": "94b3-d835-6210-9d16",
+    "hidden": false,
+    "primary": false,
+    "targetId": "7850-cc5a-c191-b80d"
+   },
+   {
+    "name": "Faction: Tyranids",
+    "id": "ccad-ff02-6425-99f7",
+    "hidden": false,
+    "primary": false,
+    "targetId": "d1d8-6ae0-1be7-e9e"
+   },
+   {
+    "name": "Endless Multitude",
+    "id": "3db-42f0-a792-ba6a",
+    "hidden": false,
+    "primary": false,
+    "targetId": "c5eb-961b-14b1-ae50"
+   },
+   {
+    "name": "Termagants",
+    "id": "c6c8-eea9-cb1e-d32b",
+    "hidden": false,
+    "primary": false,
+    "targetId": "b054-c3e8-d71d-1a7e"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "f442-a1a3-12c6-b75e",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "2e69-82ec-e3bb-b279",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "6e8f-f659-4924-6eec",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   },
+   {
+    "id": "563f-3f23-8751-81ec",
+    "field": "selections",
+    "includeChildSelections": true,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 6
+   },
+   {
+    "id": "3641-548e-5e5e-b706",
+    "childId": "any",
+    "field": "f759-1bc4-cb3a-f0d2",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "message": "An Attached Unit can only take 1 Enhancement.",
+    "scope": "root-entry",
+    "shared": true,
+    "traverseAssociationGroup": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "5566-2ae7-620d-2be2",
+    "childId": "1556-9b56-fba6-4370",
+    "childName": "Leader",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "3ecc-962d-1217-a13a",
+    "childId": "7dcd-7f61-69a7-0294",
+    "childName": "Support",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 60
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "50a8-24c5-8fad-cb18",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "2fa5-0a8d-013e-fc12",
+    "type": "selectionEntryGroup"
+   },
+   {
+    "name": "Warlord",
+    "id": "026e-a3c1-91b4-e5b6",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 2,
+    "targetId": "ceab-62d9-31bf-7c61",
+    "type": "selectionEntry",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "or",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 1
+         },
+         {
+          "childId": "9cfd-1c32-585f-7d5c",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Synapse",
+    "id": "29d4-739b-c44c-e0b5",
+    "hidden": false,
+    "targetId": "86aa-437f-260b-5cad",
+    "type": "rule"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "f442-a1a3-12c6-b75e",
+      "type": "set",
+      "value": 6,
+      "conditions": [
+       {
+        "childId": "1511-18fe-f51e-7b9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "2e69-82ec-e3bb-b279",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "6e8f-f659-4924-6eec",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "comment": "Boarding Actions modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         },
+         {
+          "childId": "0f40-fb6c-49f7-9541",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "lessThan",
+          "value": 1
+         },
+         {
+          "childId": "cbfd-453f-6288-6157",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "lessThan",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "563f-3f23-8751-81ec",
+      "type": "set",
+      "value": 1,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         },
+         {
+          "childId": "0f40-fb6c-49f7-9541",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "563f-3f23-8751-81ec",
+      "type": "set",
+      "value": 3,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         },
+         {
+          "childId": "cbfd-453f-6288-6157",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "set",
+    "value": 110,
+    "conditions": [
+     {
+      "childId": "model",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "359c-db2c-681a-8d62",
+      "shared": true,
+      "type": "greaterThan",
+      "value": 10
+     }
+    ]
+   },
+   {
+    "field": "563f-3f23-8751-81ec",
+    "type": "set",
+    "value": 4,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "roster",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Skulking Horrors",
+    "id": "c28c-89a4-5758-10b7",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "In your opponent's Movement phase, if an enemy unit ends a move within 8\" of this unit, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move of up to D6\".",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "1d6e-2579-8e7f-1ed4",
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "instanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "10-20 Termagants",
+    "id": "c5f1-c0f9-d37a-9d75",
+    "defaultSelectionEntryId": "5c17-dcfb-6d07-1b12",
+    "hidden": false,
+    "sortIndex": 3,
+    "constraints": [
+     {
+      "id": "680f-2508-c390-ba47",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "min",
+      "value": 10
+     },
+     {
+      "id": "18fa-3a07-f023-e066",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 20
+     }
+    ],
+    "modifierGroups": [
+     {
+      "comment": "Boarding Actions modifiers",
+      "type": "and",
+      "modifiers": [
+       {
+        "field": "name",
+        "type": "set",
+        "value": "Termagants",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       },
+       {
+        "field": "18fa-3a07-f023-e066",
+        "type": "set",
+        "value": 10,
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Termagants",
+      "id": "5c17-dcfb-6d07-1b12",
+      "collective": true,
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "dbdd-f831-f096-9263",
+        "automatic": true,
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 7
+       },
+       {
+        "id": "6fcf-fa0f-69e6-9985",
+        "automatic": true,
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 20
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 0
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Chitinous claws and teeth",
+        "id": "8486-70a7-3d94-5e9a",
+        "hidden": false,
+        "import": true,
+        "targetId": "65d0-a5c5-919a-6444",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "d1b5-32df-8d8d-16de",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": false,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "4361-532-c6f4-24aa",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": false,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "caa3-3a23-b912-8dae",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Termagants",
+        "id": "d335-b05f-92bd-385b",
+        "hidden": false,
+        "targetId": "2461-bee9-2afc-8776",
+        "type": "profile"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "6fcf-fa0f-69e6-9985",
+        "type": "set",
+        "value": 10,
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "selectionEntryGroups": [
+       {
+        "name": "Weapons",
+        "id": "cf5c-57e-88b7-596d",
+        "collective": false,
+        "defaultSelectionEntryId": "d66a-eb66-bb41-acce",
+        "hidden": false,
+        "import": true,
+        "constraints": [
+         {
+          "id": "68b0-b718-2173-614b",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": true,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "10ca-c78e-479-3a2d",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": true,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "selectionEntries": [
+         {
+          "name": "Fleshborer",
+          "id": "d66a-eb66-bb41-acce",
+          "collective": true,
+          "hidden": false,
+          "import": true,
+          "type": "upgrade",
+          "constraints": [
+           {
+            "id": "10ca-c78e-479-3a2d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "7684-4cd0-4aa6-7269",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           }
+          ],
+          "infoLinks": [
+           {
+            "name": "Assault",
+            "id": "8cd4-53fd-35c3-754c",
+            "hidden": false,
+            "targetId": "fc8a-8c24-bae9-cc1c",
+            "type": "rule"
+           }
+          ],
+          "profiles": [
+           {
+            "name": "Fleshborer",
+            "id": "2266-dc23-d46-d265",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+             {
+              "name": "Range",
+              "$text": "18\"",
+              "typeId": "9896-9419-16a1-92fc"
+             },
+             {
+              "name": "A",
+              "$text": "1",
+              "typeId": "3bb-c35f-f54-fb08"
+             },
+             {
+              "name": "BS",
+              "$text": "4+",
+              "typeId": "94d-8a98-cf90-183e"
+             },
+             {
+              "name": "S",
+              "$text": "5",
+              "typeId": "2229-f494-25db-c5d3"
+             },
+             {
+              "name": "AP",
+              "$text": "0",
+              "typeId": "9ead-8a10-520-de15"
+             },
+             {
+              "name": "D",
+              "$text": "1",
+              "typeId": "a354-c1c8-a745-f9e3"
+             },
+             {
+              "name": "Keywords",
+              "$text": "Assault",
+              "typeId": "7f1b-8591-2fcf-d01c"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Termagant spinefist",
+          "id": "9c0-e0b9-9c51-3734",
+          "collective": true,
+          "hidden": false,
+          "import": true,
+          "type": "upgrade",
+          "constraints": [
+           {
+            "id": "10ca-c78e-479-3a2d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "72ae-712b-bf75-609b",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           }
+          ],
+          "infoLinks": [
+           {
+            "name": "Assault",
+            "id": "7f5-fe6e-5808-f26f",
+            "hidden": false,
+            "targetId": "fc8a-8c24-bae9-cc1c",
+            "type": "rule"
+           },
+           {
+            "name": "Pistol",
+            "id": "4bfa-d81-b5d2-b80c",
+            "hidden": false,
+            "targetId": "8bf7-8812-923d-29e4",
+            "type": "rule"
+           },
+           {
+            "name": "Twin-linked",
+            "id": "54ed-2836-fa0b-c614",
+            "hidden": false,
+            "targetId": "cf93-ad4d-2f08-a79d",
+            "type": "rule"
+           }
+          ],
+          "profiles": [
+           {
+            "name": "Termagant spinefist",
+            "id": "5706-4241-5044-27d",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+             {
+              "name": "Range",
+              "$text": "12\"",
+              "typeId": "9896-9419-16a1-92fc"
+             },
+             {
+              "name": "A",
+              "$text": "2",
+              "typeId": "3bb-c35f-f54-fb08"
+             },
+             {
+              "name": "BS",
+              "$text": "4+",
+              "typeId": "94d-8a98-cf90-183e"
+             },
+             {
+              "name": "S",
+              "$text": "3",
+              "typeId": "2229-f494-25db-c5d3"
+             },
+             {
+              "name": "AP",
+              "$text": "0",
+              "typeId": "9ead-8a10-520-de15"
+             },
+             {
+              "name": "D",
+              "$text": "1",
+              "typeId": "a354-c1c8-a745-f9e3"
+             },
+             {
+              "name": "Keywords",
+              "$text": "Assault, Pistol, Twin-linked",
+              "typeId": "7f1b-8591-2fcf-d01c"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Termagant devourer",
+          "id": "ea8c-9f0c-41e4-7481",
+          "collective": true,
+          "hidden": false,
+          "import": true,
+          "type": "upgrade",
+          "constraints": [
+           {
+            "id": "10ca-c78e-479-3a2d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "aab3-19ad-eaaf-6c56",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           }
+          ],
+          "profiles": [
+           {
+            "name": "Termagant devourer",
+            "id": "e705-8008-6ee1-4ab5",
+            "hidden": false,
+            "typeId": "f77d-b953-8fa4-b762",
+            "typeName": "Ranged Weapons",
+            "characteristics": [
+             {
+              "name": "Range",
+              "$text": "18\"",
+              "typeId": "9896-9419-16a1-92fc"
+             },
+             {
+              "name": "A",
+              "$text": "2",
+              "typeId": "3bb-c35f-f54-fb08"
+             },
+             {
+              "name": "BS",
+              "$text": "4+",
+              "typeId": "94d-8a98-cf90-183e"
+             },
+             {
+              "name": "S",
+              "$text": "4",
+              "typeId": "2229-f494-25db-c5d3"
+             },
+             {
+              "name": "AP",
+              "$text": "0",
+              "typeId": "9ead-8a10-520-de15"
+             },
+             {
+              "name": "D",
+              "$text": "1",
+              "typeId": "a354-c1c8-a745-f9e3"
+             },
+             {
+              "name": "Keywords",
+              "$text": "",
+              "typeId": "7f1b-8591-2fcf-d01c"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Termagant w/ Shardlauncher",
+      "id": "cde6-f48d-6461-14c6",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "3814-dad8-c888-9526",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Chitinous claws and teeth",
+        "id": "ea28-dbee-2ce0-5bd9",
+        "hidden": false,
+        "import": true,
+        "targetId": "65d0-a5c5-919a-6444",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "7d0f-ae78-2d86-dbef",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": false,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "3f85-ce8f-0a01-d595",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": false,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "ca6c-0f40-762a-0207",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Termagants",
+        "id": "9aa4-e582-41e8-1d43",
+        "hidden": false,
+        "targetId": "2461-bee9-2afc-8776",
+        "type": "profile"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "3814-dad8-c888-9526",
+        "type": "set",
+        "value": 1,
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Shardlauncher",
+        "id": "11b5-3ea8-4865-6e97",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+         {
+          "name": "Attacks Dx Weapon",
+          "id": "6641-9b2f-9d93-92f5",
+          "hidden": false,
+          "primary": false,
+          "targetId": "e993-e086-6de1-12af"
+         }
+        ],
+        "constraints": [
+         {
+          "id": "4556-8362-6b9d-f4a1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "b04-2f74-bbea-5e15",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "4437-691c-4d93-2195",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "unit",
+          "shared": true,
+          "type": "max",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "e8a4-9842-b149-084c",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Heavy",
+          "id": "a6be-9539-5cda-11da",
+          "hidden": false,
+          "targetId": "1202-10a8-78e9-4c67",
+          "type": "rule"
+         },
+         {
+          "name": "Blast",
+          "id": "7ecd-9af9-74ac-5184",
+          "hidden": false,
+          "targetId": "6c1f-1cf7-ff25-c99e",
+          "type": "rule"
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "4437-691c-4d93-2195",
+          "type": "increment",
+          "value": 1,
+          "repeats": [
+           {
+            "id": "4f49-796a-d6cc-2797",
+            "childId": "model",
+            "field": "selections",
+            "includeChildSelections": true,
+            "repeats": 1,
+            "roundUp": false,
+            "scope": "359c-db2c-681a-8d62",
+            "shared": true,
+            "value": 10
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Shardlauncher",
+          "id": "f1a0-f3db-d944-14a3",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "18\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "D3",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "4+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "5",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "0",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "1",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Blast, Heavy",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Termagant w/ Spike rifle",
+      "id": "49ea-f11e-4464-46eb",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "4b0a-edbb-fe5d-4040",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Chitinous claws and teeth",
+        "id": "84f6-d40b-702c-fa97",
+        "hidden": false,
+        "import": true,
+        "targetId": "65d0-a5c5-919a-6444",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "d34a-b20c-0cbc-75e4",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": false,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "f07b-9713-1351-392f",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": false,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "b831-fe6f-f625-7fc2",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Termagants",
+        "id": "ec8c-5641-f103-b705",
+        "hidden": false,
+        "targetId": "2461-bee9-2afc-8776",
+        "type": "profile"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "4b0a-edbb-fe5d-4040",
+        "type": "set",
+        "value": 1,
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Spike rifle",
+        "id": "77ab-6212-d679-6da3",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "6393-acbf-143f-f79c",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "e429-3334-7c58-225",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "ab9c-c659-1d34-ec97",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "unit",
+          "shared": true,
+          "type": "max",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "1e63-2a99-725f-f800",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Heavy",
+          "id": "9d4e-9208-f4e4-3c95",
+          "hidden": false,
+          "targetId": "1202-10a8-78e9-4c67",
+          "type": "rule"
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "ab9c-c659-1d34-ec97",
+          "type": "increment",
+          "value": 1,
+          "repeats": [
+           {
+            "id": "2e2a-f860-b0cf-301",
+            "childId": "model",
+            "field": "selections",
+            "includeChildSelections": true,
+            "repeats": 1,
+            "roundUp": false,
+            "scope": "359c-db2c-681a-8d62",
+            "shared": true,
+            "value": 10
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Spike rifle",
+          "id": "2319-5f22-f433-49c8",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "24\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "1",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "4+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "4",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-1",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "1",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Heavy",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Termagant w/ Strangleweb",
+      "id": "bda0-156b-2437-8c50",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "8ed1-3c45-55bf-12e4",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Chitinous claws and teeth",
+        "id": "18ad-807-df6c-f803",
+        "hidden": false,
+        "import": true,
+        "targetId": "65d0-a5c5-919a-6444",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "f57a-8838-4f38-25be",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": false,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "4375-d7a2-e964-959e",
+          "field": "selections",
+          "includeChildForces": false,
+          "includeChildSelections": false,
+          "percentValue": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "1de1-f449-b7c1-c552",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Termagants",
+        "id": "60f0-1a0-5897-3ad8",
+        "hidden": false,
+        "targetId": "2461-bee9-2afc-8776",
+        "type": "profile"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "8ed1-3c45-55bf-12e4",
+        "type": "set",
+        "value": 1,
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Strangleweb",
+        "id": "68b9-3559-b55a-2a67",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+         {
+          "name": "Attacks Dx Weapon",
+          "id": "657f-cdae-27f9-7088",
+          "hidden": false,
+          "primary": false,
+          "targetId": "e993-e086-6de1-12af"
+         }
+        ],
+        "constraints": [
+         {
+          "id": "ca1e-5fae-f7c1-dfc9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "d837-b51c-eb77-7a29",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "1272-ef07-ef5f-48c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "unit",
+          "shared": true,
+          "type": "max",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "fe15-ef66-4e91-0d2c",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Assault",
+          "id": "d619-f6ca-178e-c5c0",
+          "hidden": false,
+          "targetId": "fc8a-8c24-bae9-cc1c",
+          "type": "rule"
+         },
+         {
+          "name": "Devastating Wounds",
+          "id": "8584-a0f8-579e-be9d",
+          "hidden": false,
+          "targetId": "be1e-ac8e-1e2c-3528",
+          "type": "rule"
+         },
+         {
+          "name": "Torrent",
+          "id": "fb0c-e5b5-807-33b1",
+          "hidden": false,
+          "targetId": "5edf-d619-23e0-9b56",
+          "type": "rule"
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "1272-ef07-ef5f-48c9",
+          "type": "increment",
+          "value": 1,
+          "repeats": [
+           {
+            "id": "4c09-df1c-f2c-c549",
+            "childId": "model",
+            "field": "selections",
+            "includeChildSelections": true,
+            "repeats": 1,
+            "roundUp": false,
+            "scope": "359c-db2c-681a-8d62",
+            "shared": true,
+            "value": 10
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Strangleweb",
+          "id": "29fa-224d-ae2f-901c",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "18\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "D6",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "N/A",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "2",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "0",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "1",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Assault, Devastating Wounds, Torrent",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {
+   "ceab-62d9-31bf-7c61": {
+    "name": "Warlord",
+    "id": "ceab-62d9-31bf-7c61",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Warlord",
+      "id": "463c-5eaf-3d99-5917",
+      "hidden": false,
+      "primary": false,
+      "targetId": "5c0e-4c31-d51b-e470"
+     }
+    ],
+    "constraints": [
+     {
+      "id": "a9c-a415-9934-68cc",
+      "field": "selections",
+      "includeChildForces": false,
+      "includeChildSelections": false,
+      "percentValue": false,
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "b984-7317-81cc-20f",
+        "field": "selections",
+        "scope": "primary-catalogue",
+        "shared": true,
+        "type": "notInstanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   },
+   "65d0-a5c5-919a-6444": {
+    "name": "Chitinous claws and teeth",
+    "id": "65d0-a5c5-919a-6444",
+    "collective": true,
+    "comment": "A1 S3",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "profiles": [
+     {
+      "name": "Chitinous claws and teeth",
+      "id": "91e1-805d-3ff3-dfb0",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "1",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "4+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "3",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "$text": "",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "groups": {},
+  "profiles": {
+   "2461-bee9-2afc-8776": {
+    "name": "Termagants",
+    "id": "2461-bee9-2afc-8776",
+    "hidden": false,
+    "typeId": "c547-1836-d8a-ff4f",
+    "typeName": "Unit",
+    "characteristics": [
+     {
+      "name": "M",
+      "$text": "6\"",
+      "typeId": "e703-ecb6-5ce7-aec1"
+     },
+     {
+      "name": "T",
+      "$text": "3",
+      "typeId": "d29d-cf75-fc2d-34a4"
+     },
+     {
+      "name": "Sv",
+      "$text": "5+",
+      "typeId": "450-a17e-9d5e-29da"
+     },
+     {
+      "name": "W",
+      "$text": "1",
+      "typeId": "750a-a2ec-90d3-21fe"
+     },
+     {
+      "name": "LD",
+      "$text": "8+",
+      "typeId": "58d2-b879-49c7-43bc"
+     },
+     {
+      "name": "OC",
+      "$text": "2",
+      "typeId": "bef7-942a-1a23-59f8"
+     },
+     {
+      "name": "InSv",
+      "$text": "",
+      "typeId": "55a7-5b54-c60d-11dc"
+     }
+    ]
+   }
+  }
+ }
+}

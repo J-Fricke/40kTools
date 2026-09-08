@@ -1,0 +1,1465 @@
+{
+ "unit": {
+  "name": "Strike Squad",
+  "id": "d81f-c9ac-e338-ba37",
+  "hidden": false,
+  "import": true,
+  "type": "unit",
+  "categoryLinks": [
+   {
+    "name": "Strike Squad",
+    "id": "a64-53d7-6787-e0a5",
+    "primary": false,
+    "targetId": "103f-a8cd-8c1f-24df"
+   },
+   {
+    "name": "Faction: Grey Knights",
+    "id": "30b-760-3ebd-e914",
+    "primary": false,
+    "targetId": "d564-3284-bf44-b873"
+   },
+   {
+    "name": "Psyker",
+    "id": "4d6a-6393-268-94c4",
+    "primary": false,
+    "targetId": "13bf-2bee-3ae0-b414"
+   },
+   {
+    "name": "Imperium",
+    "id": "7909-7ea1-f441-9a4c",
+    "primary": false,
+    "targetId": "aff3-d6a3-2a95-9dc"
+   },
+   {
+    "name": "Grenades",
+    "id": "39cb-2fde-7425-74aa",
+    "primary": false,
+    "targetId": "5a61-81ac-eb7c-a87e"
+   },
+   {
+    "name": "Battleline",
+    "id": "8361-187b-92bb-d324",
+    "primary": true,
+    "targetId": "e338-111e-d0c6-b687"
+   },
+   {
+    "name": "Infantry",
+    "id": "baf3-3c52-b9aa-3855",
+    "primary": false,
+    "targetId": "cf47-a0d7-7207-29dc"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "6ea2-19b3-9e6b-d1b9",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "05a3-ffda-65ed-4a87",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "f551-ac3f-05ab-81e1",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   },
+   {
+    "id": "8ded-d47c-c498-a8c8",
+    "field": "selections",
+    "includeChildSelections": true,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 6
+   },
+   {
+    "id": "ef4a-e0cf-9ba1-6d9b",
+    "childId": "any",
+    "field": "f759-1bc4-cb3a-f0d2",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "message": "An Attached Unit can only take 1 Enhancement.",
+    "scope": "root-entry",
+    "shared": true,
+    "traverseAssociationGroup": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "2a33-1eaa-fbd1-351b",
+    "childId": "1556-9b56-fba6-4370",
+    "childName": "Leader",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "3b07-a14a-e435-8dec",
+    "childId": "7dcd-7f61-69a7-0294",
+    "childName": "Support",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 115
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   },
+   {
+    "name": "Purgation Points",
+    "typeId": "d579-52c1-3e77-dd11",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "a3ae-d4a8-1c2f-7192",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "1f2e-4c6b-19f2-30e0",
+    "type": "selectionEntryGroup"
+   },
+   {
+    "name": "Warlord",
+    "id": "7020-c2e2-a841-a39d",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 2,
+    "targetId": "beae-4593-3686-1672",
+    "type": "selectionEntry",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "or",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 1
+         },
+         {
+          "childId": "9cfd-1c32-585f-7d5c",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Deep Strike",
+    "id": "2f18-cd5-2ec-a1d2",
+    "hidden": false,
+    "targetId": "7cb5-dd6b-dd87-ad3b",
+    "type": "rule"
+   },
+   {
+    "name": "Scouts",
+    "id": "58af-315b-6ac8-d3ac",
+    "hidden": false,
+    "targetId": "ada6-bac1-ffe0-d6f7",
+    "type": "rule",
+    "modifiers": [
+     {
+      "field": "name",
+      "type": "append",
+      "value": "6\""
+     }
+    ]
+   },
+   {
+    "name": "Gate of Infinity",
+    "id": "9696-91d7-d817-daa2",
+    "hidden": false,
+    "targetId": "6a5e-1316-2d87-93c5",
+    "type": "rule"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "6ea2-19b3-9e6b-d1b9",
+      "type": "set",
+      "value": 6,
+      "conditions": [
+       {
+        "childId": "1511-18fe-f51e-7b9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "05a3-ffda-65ed-4a87",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "f551-ac3f-05ab-81e1",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "comment": "Boarding Actions modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "8ded-d47c-c498-a8c8",
+      "type": "set",
+      "value": 3,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         },
+         {
+          "childId": "ae8e-359f-01ff-52d1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         },
+         {
+          "childId": "ae8e-359f-01ff-52d1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "lessThan",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "set",
+    "value": 230,
+    "conditions": [
+     {
+      "childId": "model",
+      "field": "selections",
+      "scope": "d81f-c9ac-e338-ba37",
+      "shared": true,
+      "type": "atLeast",
+      "value": 6
+     }
+    ]
+   },
+   {
+    "field": "8ded-d47c-c498-a8c8",
+    "type": "set",
+    "value": 4,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "roster",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Strike Squad",
+    "id": "3d57-16ca-bf72-e43a",
+    "hidden": false,
+    "typeId": "c547-1836-d8a-ff4f",
+    "typeName": "Unit",
+    "characteristics": [
+     {
+      "name": "M",
+      "$text": "6\"",
+      "typeId": "e703-ecb6-5ce7-aec1"
+     },
+     {
+      "name": "T",
+      "$text": "4",
+      "typeId": "d29d-cf75-fc2d-34a4"
+     },
+     {
+      "name": "Sv",
+      "$text": "2+",
+      "typeId": "450-a17e-9d5e-29da"
+     },
+     {
+      "name": "W",
+      "$text": "2",
+      "typeId": "750a-a2ec-90d3-21fe"
+     },
+     {
+      "name": "LD",
+      "$text": "6+",
+      "typeId": "58d2-b879-49c7-43bc"
+     },
+     {
+      "name": "OC",
+      "$text": "2",
+      "typeId": "bef7-942a-1a23-59f8"
+     },
+     {
+      "name": "InSv",
+      "$text": "",
+      "typeId": "55a7-5b54-c60d-11dc"
+     }
+    ]
+   },
+   {
+    "name": "Sanctifying Ritual (Psychic)",
+    "id": "e301-c532-9ade-1060",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "At the end of your Command phase, if this unit is within range of an objective marker that you control, that objective marker remains under you control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "1d6e-2579-8e7f-1ed4",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "instanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "4-9 Grey Knights",
+    "id": "38d6-858d-42f5-c38d",
+    "defaultSelectionEntryId": "2e8c-d8a7-b77c-d2ad",
+    "hidden": false,
+    "sortIndex": 4,
+    "constraints": [
+     {
+      "id": "4458-9ace-aa41-4ab4",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "min",
+      "value": 4
+     },
+     {
+      "id": "832a-b37e-7fa1-9eb3",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 9
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Grey Knight",
+      "id": "2e8c-d8a7-b77c-d2ad",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "entryLinks": [
+       {
+        "name": "Nemesis force weapon",
+        "id": "65ac-027b-70db-806f",
+        "hidden": false,
+        "import": true,
+        "targetId": "8194-61a0-7d96-61e2",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "dfc2-0ae6-296e-2dd5",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "85e8-68d6-972c-ebbb",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ]
+       },
+       {
+        "name": "Storm bolter",
+        "id": "fcc4-df01-1f16-c3a2",
+        "hidden": false,
+        "import": true,
+        "targetId": "be2a-878d-7003-2f51",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "70d3-4c8e-63d2-698c",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "f042-3ff6-441d-e258",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Grey Knight with Heavy Weapon",
+      "id": "b953-5c1a-5d31-192f",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "702-d447-314b-a3f6",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Close combat weapon",
+        "id": "84ef-3b00-aafc-74f0",
+        "hidden": false,
+        "import": true,
+        "targetId": "d0e-7460-ee7b-660f",
+        "type": "selectionEntry"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "702-d447-314b-a3f6",
+        "type": "set",
+        "value": 2,
+        "conditions": [
+         {
+          "childId": "model",
+          "field": "selections",
+          "scope": "d81f-c9ac-e338-ba37",
+          "shared": true,
+          "type": "atLeast",
+          "value": 10
+         }
+        ]
+       }
+      ],
+      "selectionEntryGroups": [
+       {
+        "name": "Heavy Weapon",
+        "id": "c5d2-640d-6bd-6b71",
+        "defaultSelectionEntryId": "none",
+        "hidden": false,
+        "constraints": [
+         {
+          "id": "91fc-5d4d-70a1-955f",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "b66e-ec0f-231-9d5f",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Incinerator",
+          "id": "a258-da9f-cf7c-2bc3",
+          "hidden": false,
+          "import": true,
+          "targetId": "17ed-2f7b-bf3a-3c94",
+          "type": "selectionEntry"
+         },
+         {
+          "name": "Psycannon",
+          "id": "1b8c-5c22-51c2-9e3a",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "e520-9c7-d10c-897d",
+          "type": "selectionEntry"
+         },
+         {
+          "name": "Psilencer",
+          "id": "c2ca-9c73-541c-46e7",
+          "hidden": false,
+          "import": true,
+          "targetId": "d526-d040-807c-34f6",
+          "type": "selectionEntry"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Justicar",
+    "id": "3347-03b9-e483-c99b",
+    "hidden": false,
+    "sortIndex": 3,
+    "selectionEntries": [
+     {
+      "name": "Justicar",
+      "id": "e94e-2f1d-3d5b-dad8",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "2324-7215-e92a-4b1b",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "e341-5b62-dcfd-8b",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Nemesis force weapon",
+        "id": "8d79-de48-96cc-a494",
+        "hidden": false,
+        "import": true,
+        "targetId": "8194-61a0-7d96-61e2",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "c65f-9cc4-c174-256f",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "ae6f-7f42-110a-d2f7",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "62f6-bfc3-4c0b-8682",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       },
+       {
+        "name": "Storm bolter",
+        "id": "8491-e318-34a6-07fc",
+        "hidden": false,
+        "import": true,
+        "targetId": "be2a-878d-7003-2f51",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "1ca5-2ceb-2500-a578",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "30e3-da7f-5be7-22b2",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "e6da-b789-6070-09a3",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {
+   "beae-4593-3686-1672": {
+    "name": "Warlord",
+    "id": "beae-4593-3686-1672",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Warlord",
+      "id": "30ba-385e-aece-34ef",
+      "primary": false,
+      "targetId": "5c0e-4c31-d51b-e470"
+     }
+    ],
+    "constraints": [
+     {
+      "id": "f97-b336-21f1-ce3d",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ]
+   },
+   "8194-61a0-7d96-61e2": {
+    "name": "Nemesis force weapon",
+    "id": "8194-61a0-7d96-61e2",
+    "comment": "A3 WS3+",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Psychic Weapon",
+      "id": "c125-b7b4-bb12-31ef",
+      "hidden": false,
+      "primary": false,
+      "targetId": "4546-4a0c-b3be-e84c"
+     },
+     {
+      "name": "Melee Weapon",
+      "id": "2bc4-1991-d8d1-b2ce",
+      "hidden": false,
+      "primary": false,
+      "targetId": "ccdd-3987-11ed-90cd"
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Psychic",
+      "id": "2e3f-2d8d-02b3-9634",
+      "hidden": false,
+      "targetId": "e9c4-2bb8-12ee-cd1b",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Nemesis force weapon",
+      "id": "6d43-4f42-80da-0c3a",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "3+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "6",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "2",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Psychic",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "41a0-1301-112a-e2f2",
+        "type": "increment",
+        "value": 1,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "fd57-61c6-39a4-dee3",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "root-entry",
+            "shared": true,
+            "type": "atLeast",
+            "value": 1
+           },
+           {
+            "childId": "128d-c573-273f-47b5",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "atLeast",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "be2a-878d-7003-2f51": {
+    "name": "Storm bolter",
+    "id": "be2a-878d-7003-2f51",
+    "comment": "BS3+",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "9812-68df-91a0-b557",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Rapid Fire",
+      "id": "85e1-12f6-8f78-a7a9",
+      "hidden": false,
+      "targetId": "c5c8-8b58-b8b6-7786",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Storm bolter",
+      "id": "9756-e60b-776b-cf23",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "24\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "2",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "4",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Rapid Fire 2",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "d0e-7460-ee7b-660f": {
+    "name": "Close combat weapon",
+    "id": "d0e-7460-ee7b-660f",
+    "collective": true,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "constraints": [
+     {
+      "id": "4d04-59c0-106e-da72",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "min",
+      "value": 1
+     },
+     {
+      "id": "ecd3-6295-3b83-5c1f",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Close combat weapon",
+      "id": "d90e-6422-f76d-8bae",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "3+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "4",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "$text": "",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     }
+    ]
+   },
+   "17ed-2f7b-bf3a-3c94": {
+    "name": "Incinerator",
+    "id": "17ed-2f7b-bf3a-3c94",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "e4b8-4f2a-5549-9448",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Attacks Dx Weapon",
+      "id": "7f40-fbb3-a5ae-0beb",
+      "hidden": false,
+      "primary": false,
+      "targetId": "e993-e086-6de1-12af"
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Ignores Cover",
+      "id": "9de1-9cf8-d94e-d38c",
+      "hidden": false,
+      "targetId": "4640-43e7-30b-215a",
+      "type": "rule"
+     },
+     {
+      "name": "Torrent",
+      "id": "628c-89f4-f3c8-74e2",
+      "hidden": false,
+      "targetId": "5edf-d619-23e0-9b56",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Incinerator",
+      "id": "2128-f1c4-afbc-82af",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "12\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D6",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "N/A",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "6",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-1",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Ignores Cover, Torrent",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "e520-9c7-d10c-897d": {
+    "name": "Psycannon",
+    "id": "e520-9c7-d10c-897d",
+    "comment": "BS3+",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Psychic Weapon",
+      "id": "f497-46c0-3c1d-f3f5",
+      "hidden": false,
+      "primary": false,
+      "targetId": "4546-4a0c-b3be-e84c"
+     },
+     {
+      "name": "Ranged Weapon",
+      "id": "eff8-cc46-707a-27ec",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Psychic",
+      "id": "2783-fc97-e3e4-f76f",
+      "hidden": false,
+      "targetId": "e9c4-2bb8-12ee-cd1b",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Psycannon",
+      "id": "3701-b2f4-a180-cd80",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "24\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "8",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-1",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "2",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Psychic",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "d526-d040-807c-34f6": {
+    "name": "Psilencer",
+    "id": "d526-d040-807c-34f6",
+    "comment": "BS3+",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Psychic Weapon",
+      "id": "51f2-d31d-7118-5795",
+      "hidden": false,
+      "primary": false,
+      "targetId": "4546-4a0c-b3be-e84c"
+     },
+     {
+      "name": "Ranged Weapon",
+      "id": "dd38-7b00-3360-6d1b",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Sustained Hits",
+      "id": "b6de-2b73-7a93-b18d",
+      "hidden": false,
+      "targetId": "1897-c22c-9597-12b1",
+      "type": "rule"
+     },
+     {
+      "name": "Precision",
+      "id": "74a0-8aa1-1b80-cc8b",
+      "hidden": false,
+      "targetId": "9143-31ae-e0a6-6007",
+      "type": "rule"
+     },
+     {
+      "name": "Psychic",
+      "id": "ec9a-91e3-759b-1324",
+      "hidden": false,
+      "targetId": "e9c4-2bb8-12ee-cd1b",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Psilencer",
+      "id": "4063-edc3-baa4-6475",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "24\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "6",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "5",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Precision, Psychic, Sustained Hits 1",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "groups": {},
+  "profiles": {}
+ }
+}
