@@ -1,0 +1,1124 @@
+{
+ "unit": {
+  "name": "Necron Warriors",
+  "id": "58e9-5212-f5a6-c12d",
+  "hidden": false,
+  "import": true,
+  "type": "unit",
+  "categoryLinks": [
+   {
+    "name": "Faction: Necrons",
+    "id": "551f-274f-9a0-c9ae",
+    "primary": false,
+    "targetId": "ee0-cf31-4fb5-6b26"
+   },
+   {
+    "name": "Infantry",
+    "id": "ffa1-4d36-a806-334d",
+    "primary": false,
+    "targetId": "cf47-a0d7-7207-29dc"
+   },
+   {
+    "name": "Battleline",
+    "id": "6c7c-4905-2b58-ef98",
+    "primary": true,
+    "targetId": "e338-111e-d0c6-b687"
+   },
+   {
+    "name": "Necron Warriors",
+    "id": "22b3-2e98-939-b0bb",
+    "primary": false,
+    "targetId": "2fd7-338d-d680-5237"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "96c4-7654-cae4-e009",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "833c-7142-c1b9-69b7",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "4109-a5cd-65e7-ebef",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   },
+   {
+    "id": "30ba-e56a-18e9-9838",
+    "childId": "any",
+    "field": "f759-1bc4-cb3a-f0d2",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "message": "An Attached Unit can only take 1 Enhancement.",
+    "scope": "root-entry",
+    "shared": true,
+    "traverseAssociationGroup": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "8b75-e1f9-0f27-83da",
+    "childId": "1556-9b56-fba6-4370",
+    "childName": "Leader",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "e2cc-f7d7-d472-d1f2",
+    "childId": "7dcd-7f61-69a7-0294",
+    "childName": "Support",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 85
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "2d4e-ac6b-9a39-f610",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "34da-c1ba-b0f2-1ba6",
+    "type": "selectionEntryGroup"
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Detachment Rules",
+    "id": "3795-c62-af99-8eaf",
+    "hidden": false,
+    "targetId": "4ee-d749-4ddc-323d",
+    "type": "infoGroup"
+   },
+   {
+    "name": "Reanimation Protocols",
+    "id": "42aa-f2b7-dca2-cb15",
+    "hidden": false,
+    "targetId": "a511-d9ca-17d0-42c5",
+    "type": "rule"
+   },
+   {
+    "name": "Feel No Pain",
+    "id": "c301-35bf-c7a0-19fe",
+    "hidden": false,
+    "targetId": "9bf4-280f-bbe2-6fbb",
+    "type": "rule",
+    "modifiers": [
+     {
+      "field": "name",
+      "type": "append",
+      "value": "5+"
+     },
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "9947-f17d-e63c-45b9",
+        "childName": "Technomancer",
+        "field": "associations",
+        "scope": "self",
+        "shared": true,
+        "type": "lessThan",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Fights First",
+    "id": "fb20-2807-a2ba-ac7b",
+    "hidden": false,
+    "targetId": "24-c886-e8ba-5a89",
+    "type": "rule",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "b5c3-317e-df69-53bb",
+        "childName": "Vargard Obyron [Legends]",
+        "field": "associations",
+        "scope": "self",
+        "shared": true,
+        "type": "lessThan",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "96c4-7654-cae4-e009",
+      "type": "set",
+      "value": 6,
+      "conditions": [
+       {
+        "childId": "1511-18fe-f51e-7b9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "833c-7142-c1b9-69b7",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "4109-a5cd-65e7-ebef",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "comment": "Hand of the Dynasty mods",
+    "type": "and",
+    "conditions": [
+     {
+      "childId": "ec2e-3289-5a4a-d5a6",
+      "childName": "Hand of the Dynasty",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "force",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ],
+    "modifiers": [
+     {
+      "affects": "group",
+      "field": "add-info",
+      "type": "add",
+      "value": "fc8a-8c24-bae9-cc1c"
+     },
+     {
+      "affects": "self.entries.group.recursive.profiles.Ranged Weapons",
+      "field": "7f1b-8591-2fcf-d01c",
+      "join": ", ",
+      "skipIfPresent": "Assault",
+      "type": "append",
+      "value": "Assault"
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "set",
+    "value": 190,
+    "conditions": [
+     {
+      "id": "db70-3966-b824-3330",
+      "childId": "model",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "58e9-5212-f5a6-c12d",
+      "shared": true,
+      "type": "atLeast",
+      "value": 11
+     }
+    ]
+   },
+   {
+    "field": "8b75-e1f9-0f27-83da",
+    "type": "increment",
+    "value": 1,
+    "conditionGroups": [
+     {
+      "type": "and",
+      "conditions": [
+       {
+        "childId": "b5c3-317e-df69-53bb",
+        "childName": "Vargard Obyron [Legends]",
+        "field": "associations",
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       },
+       {
+        "childId": "8386-4191-ac3a-aa28",
+        "childName": "Nemesor Zahndrekh [Legends]",
+        "field": "associations",
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Necron Warriors",
+    "id": "b82c-b711-6d65-30b5",
+    "hidden": false,
+    "typeId": "c547-1836-d8a-ff4f",
+    "typeName": "Unit",
+    "characteristics": [
+     {
+      "name": "M",
+      "$text": "5\"",
+      "typeId": "e703-ecb6-5ce7-aec1"
+     },
+     {
+      "name": "T",
+      "$text": "4",
+      "typeId": "d29d-cf75-fc2d-34a4"
+     },
+     {
+      "name": "Sv",
+      "$text": "4+",
+      "typeId": "450-a17e-9d5e-29da"
+     },
+     {
+      "name": "W",
+      "$text": "1",
+      "typeId": "750a-a2ec-90d3-21fe"
+     },
+     {
+      "name": "LD",
+      "$text": "7+",
+      "typeId": "58d2-b879-49c7-43bc"
+     },
+     {
+      "name": "OC",
+      "$text": "2",
+      "typeId": "bef7-942a-1a23-59f8"
+     },
+     {
+      "name": "InSv",
+      "$text": "",
+      "typeId": "55a7-5b54-c60d-11dc"
+     }
+    ]
+   },
+   {
+    "name": "Their Number is Legion",
+    "id": "a7f5-b25d-40f2-e927",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Each time this unit’s Reanimation Protocols activate, you can re-roll the dice to see how many wounds are regenerated.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "10-20 Warriors",
+    "id": "ea2d-fc31-6e16-fd70",
+    "defaultSelectionEntryId": "2498-87b1-fec5-2973",
+    "hidden": false,
+    "sortIndex": 3,
+    "constraints": [
+     {
+      "id": "b93e-819a-da9e-9da8",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "min",
+      "value": 10
+     },
+     {
+      "id": "7ea5-a13f-31a6-b292",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 20
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Warrior w/ gauss flayer",
+      "id": "2498-87b1-fec5-2973",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "7ea5-a13f-31a6-b292",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 20
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Close combat weapon",
+        "id": "3918-80f8-a762-a77b",
+        "hidden": false,
+        "import": true,
+        "targetId": "69d2-ffd6-3daf-b437",
+        "type": "selectionEntry",
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "65cb-75ab-44ce-21f5",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Gauss flayer",
+        "id": "abb0-d7fe-2195-4655",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "292b-dc36-efa7-2228",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "ab0b-34c7-8bca-115",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "3360-b7a2-1a3b-31c8",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Lethal Hits",
+          "id": "6647-1277-1ea2-f79b",
+          "hidden": false,
+          "targetId": "d1d1-611e-5191-1095",
+          "type": "rule"
+         },
+         {
+          "name": "Rapid Fire",
+          "id": "1ef3-98be-135a-180d",
+          "hidden": false,
+          "targetId": "c5c8-8b58-b8b6-7786",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Gauss flayer",
+          "id": "1b73-4952-9b2a-e193",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "24\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "1",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "4+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "4",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "0",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "1",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Lethal Hits, Rapid Fire 1",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Warrior w/ gauss reaper",
+      "id": "f32c-c036-164f-390b",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "7ea5-a13f-31a6-b292",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 20
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Close combat weapon",
+        "id": "7334-92b6-6296-e17f",
+        "hidden": false,
+        "import": true,
+        "targetId": "69d2-ffd6-3daf-b437",
+        "type": "selectionEntry",
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "8d39-b69e-2d63-0b83",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Gauss reaper",
+        "id": "2fd0-e05c-ae52-2465",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "292b-dc36-efa7-2228",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "ab0b-34c7-8bca-115",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "3d1b-ca62-3618-9f56",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Lethal Hits",
+          "id": "12fe-dfbc-e2d4-57da",
+          "hidden": false,
+          "targetId": "d1d1-611e-5191-1095",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Gauss reaper",
+          "id": "6d5d-6878-1274-18cc",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "12\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "2",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "4+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "4",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-1",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "1",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Lethal Hits",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Enhancements",
+    "id": "cccf-3023-e818-d3df",
+    "hidden": false,
+    "sortIndex": 2,
+    "constraints": [
+     {
+      "id": "489b-6ca1-e3d6-5ae5",
+      "field": "selections",
+      "includeChildSelections": false,
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "id": "2a19-af46-b98a-babc",
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "lessThan",
+          "value": 1
+         },
+         {
+          "id": "248c-e35c-2996-9dcf",
+          "childId": "ec2e-3289-5a4a-d5a6",
+          "childName": "Hand of the Dynasty",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "lessThan",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Enlivened Sentinels",
+      "id": "3f7d-0bb3-4dac-e7f0",
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "8d54-3411-512f-8e09",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       },
+       {
+        "id": "75ad-a616-5876-c553",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 3
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 20
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifierGroups": [
+       {
+        "type": "and",
+        "modifiers": [
+         {
+          "field": "f759-1bc4-cb3a-f0d2",
+          "type": "divide",
+          "value": 2,
+          "conditions": [
+           {
+            "childId": "3f7d-0bb3-4dac-e7f0",
+            "childName": "Enlivened Sentinels",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 2
+           }
+          ]
+         },
+         {
+          "field": "f759-1bc4-cb3a-f0d2",
+          "type": "divide",
+          "value": 3,
+          "conditions": [
+           {
+            "childId": "3f7d-0bb3-4dac-e7f0",
+            "childName": "Enlivened Sentinels",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "greaterThan",
+            "value": 2
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "modifiers": [
+       {
+        "affects": "group",
+        "field": "add-info",
+        "scope": "parent",
+        "type": "add",
+        "value": "b4d7-ba95-ed79-bafe"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Enlivened Sentinels",
+        "id": "17dd-a718-6c1a-161d",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "This unit has Scouts 5\".",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {
+   "69d2-ffd6-3daf-b437": {
+    "name": "Close combat weapon",
+    "id": "69d2-ffd6-3daf-b437",
+    "collective": true,
+    "comment": "Warriors",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "constraints": [
+     {
+      "id": "28ab-9cd-96a6-760",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "min",
+      "value": 1
+     },
+     {
+      "id": "c328-da33-ddf5-e29f",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Close combat weapon",
+      "id": "478d-a558-3dc0-1ff",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "1",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "4+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "4",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "groups": {},
+  "profiles": {}
+ }
+}

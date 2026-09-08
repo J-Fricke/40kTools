@@ -1,0 +1,6380 @@
+{
+ "unit": {
+  "name": "Knight Despoiler",
+  "id": "0119-8c04-435e-c782",
+  "collective": false,
+  "hidden": false,
+  "import": true,
+  "type": "model",
+  "categoryLinks": [
+   {
+    "name": "Faction: Chaos Knights",
+    "id": "44c3-c530-ad6b-a543",
+    "hidden": false,
+    "primary": false,
+    "targetId": "bb67-f191-6562-acc7"
+   },
+   {
+    "name": "Vehicle",
+    "id": "2299-f898-4dd4-2ecb",
+    "hidden": false,
+    "primary": false,
+    "targetId": "dbd4-63-af05-998"
+   },
+   {
+    "name": "Walker",
+    "id": "1c2a-4e6a-802d-155c",
+    "hidden": false,
+    "primary": false,
+    "targetId": "6dda-e157-334d-e93a"
+   },
+   {
+    "name": "Titanic",
+    "id": "faf2-b60d-6262-e14c",
+    "hidden": false,
+    "primary": false,
+    "targetId": "5929-ad51-d006-e008"
+   },
+   {
+    "name": "Towering",
+    "id": "fa09-a0f9-2bf6-7c05",
+    "hidden": false,
+    "primary": false,
+    "targetId": "d666-e2c9-b6cc-5716"
+   },
+   {
+    "name": "Abhorrent",
+    "id": "1649-077c-57ff-7626",
+    "hidden": false,
+    "primary": false,
+    "targetId": "f2d9-b5e8-4183-cb0b"
+   },
+   {
+    "name": "Character",
+    "id": "ec16-d3f7-c2de-fee2",
+    "hidden": false,
+    "primary": true,
+    "targetId": "9cfd-1c32-585f-7d5c"
+   },
+   {
+    "name": "Chaos",
+    "id": "04d6-1cd5-aac8-dadc",
+    "hidden": false,
+    "primary": false,
+    "targetId": "4c00-2578-faf5-6918"
+   },
+   {
+    "name": "Knight Despoiler",
+    "id": "27c8-c872-58a5-6890",
+    "hidden": false,
+    "primary": false,
+    "targetId": "8eb7-f737-7228-1ba4"
+   },
+   {
+    "name": "Knight Character",
+    "id": "6812-2eb0-1bef-5c68",
+    "hidden": false,
+    "primary": false,
+    "targetId": "4462-be90-ddf7-c404"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "0131-278b-cb36-f2c2",
+    "field": "selections",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "percentValue": false,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "bcd7-b208-f777-d848",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 6
+   },
+   {
+    "id": "ea99-9522-20bd-349c",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "f1ed-02c9-6e23-9e0e",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 360
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Warlord",
+    "id": "2bd8-cc9e-35e4-9973",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "sortIndex": 2,
+    "targetId": "3bee-8c85-68f7-e54b",
+    "type": "selectionEntry"
+   },
+   {
+    "name": "Enhancements",
+    "id": "bcb6-035f-779e-0685",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "sortIndex": 3,
+    "targetId": "18da-1609-c0fb-cf69",
+    "type": "selectionEntryGroup"
+   },
+   {
+    "name": "Crusade",
+    "id": "0a70-37b2-7d46-7e55",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "e91b-3100-3431-e2f8",
+    "type": "selectionEntryGroup"
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Super-Heavy Walker",
+    "id": "31a0-b1e6-1ecb-3c7c",
+    "hidden": false,
+    "targetId": "5e13-1624-d280-418d",
+    "type": "rule"
+   },
+   {
+    "name": "Deadly Demise",
+    "id": "81ca-78d2-2489-0bee",
+    "hidden": false,
+    "targetId": "b68a-5ded-65ac-98c",
+    "type": "rule",
+    "modifiers": [
+     {
+      "field": "name",
+      "type": "append",
+      "value": "D6"
+     }
+    ]
+   },
+   {
+    "name": "Harbingers of Dread",
+    "id": "daaf-7ef7-c7cb-462b",
+    "hidden": false,
+    "targetId": "d71a-a59f-aafd-3723",
+    "type": "rule"
+   },
+   {
+    "name": "Damaged: 1-9 wounds remaining",
+    "id": "e4ea-9586-78bd-615b",
+    "hidden": false,
+    "targetId": "12ce-2a62-9fea-74bd",
+    "type": "profile"
+   },
+   {
+    "name": "*Invulnerable Save",
+    "id": "0b67-c7a8-b249-135d",
+    "hidden": false,
+    "targetId": "4e9b-b002-b008-6077",
+    "type": "profile"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "ea99-9522-20bd-349c",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "f1ed-02c9-6e23-9e0e",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "category",
+    "type": "set-primary",
+    "value": "8dd6-af11-abd3-55f1",
+    "conditions": [
+     {
+      "childId": "46d8-abc8-ef3a-9f85",
+      "field": "selections",
+      "scope": "primary-catalogue",
+      "shared": true,
+      "type": "notInstanceOf",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "field": "0131-278b-cb36-f2c2",
+    "type": "set",
+    "value": 2,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "force",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "increment",
+    "value": 30,
+    "conditionGroups": [
+     {
+      "type": "and",
+      "localConditionGroups": [
+       {
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "repeats": 1,
+        "scope": "parent",
+        "type": "atLeast",
+        "value": 1,
+        "conditions": [
+         {
+          "childId": "any",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "before",
+          "value": 1
+         },
+         {
+          "childId": "0119-8c04-435e-c782",
+          "childName": "Knight Despoiler",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Knight Despoiler",
+    "id": "0487-2918-c4e9-735f",
+    "hidden": false,
+    "typeId": "c547-1836-d8a-ff4f",
+    "typeName": "Unit",
+    "characteristics": [
+     {
+      "name": "M",
+      "$text": "10\"",
+      "typeId": "e703-ecb6-5ce7-aec1"
+     },
+     {
+      "name": "T",
+      "$text": "11",
+      "typeId": "d29d-cf75-fc2d-34a4"
+     },
+     {
+      "name": "Sv",
+      "$text": "3+",
+      "typeId": "450-a17e-9d5e-29da"
+     },
+     {
+      "name": "W",
+      "$text": "26",
+      "typeId": "750a-a2ec-90d3-21fe"
+     },
+     {
+      "name": "LD",
+      "$text": "6+",
+      "typeId": "58d2-b879-49c7-43bc"
+     },
+     {
+      "name": "OC",
+      "$text": "10",
+      "typeId": "bef7-942a-1a23-59f8"
+     },
+     {
+      "name": "InSv",
+      "$text": "5+*",
+      "typeId": "55a7-5b54-c60d-11dc"
+     }
+    ]
+   },
+   {
+    "name": "Dread Dominion (Aura)",
+    "id": "246f-e1c4-6335-20d1",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "While a friendly ^^**War Dog^^** model is within 9\" of this model, improve that ^^**War Dog^^** model's Leadership  and Objective Control characteristics by 1.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   },
+   {
+    "name": "Seething Hatred",
+    "id": "8d65-776a-67a4-e925",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Each time this model is selected to shoot or fight, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "Wargear",
+    "id": "3018-3716-d944-ae36",
+    "hidden": false,
+    "sortIndex": 4,
+    "selectionEntries": [
+     {
+      "name": "Titanic feet",
+      "id": "3f41-4b71-a07b-506a",
+      "collective": false,
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "categoryLinks": [
+       {
+        "name": "Melee Weapon",
+        "id": "eba3-1037-ea59-76f3",
+        "hidden": false,
+        "primary": false,
+        "targetId": "ccdd-3987-11ed-90cd"
+       }
+      ],
+      "constraints": [
+       {
+        "id": "beb9-2aaa-0d88-6d74",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "247f-b05e-9c6f-4d28",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 0
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Titanic feet",
+        "id": "c9d8-2338-850e-45c6",
+        "hidden": false,
+        "typeId": "8a40-4aaa-c780-9046",
+        "typeName": "Melee Weapons",
+        "characteristics": [
+         {
+          "name": "Range",
+          "$text": "Melee",
+          "typeId": "914c-b413-91e3-a132"
+         },
+         {
+          "name": "A",
+          "$text": "4",
+          "typeId": "2337-daa1-6682-b110"
+         },
+         {
+          "name": "WS",
+          "$text": "4+",
+          "typeId": "95d1-95f-45b4-11d6"
+         },
+         {
+          "name": "S",
+          "$text": "8",
+          "typeId": "ab33-d393-96ce-ccba"
+         },
+         {
+          "name": "AP",
+          "$text": "-1",
+          "typeId": "41a0-1301-112a-e2f2"
+         },
+         {
+          "name": "D",
+          "$text": "2",
+          "typeId": "3254-9fe6-d824-513e"
+         },
+         {
+          "name": "Keywords",
+          "typeId": "893f-9000-ccf7-648e"
+         }
+        ]
+       }
+      ],
+      "selectionEntryGroups": [
+       {
+        "name": "Weapon Upgrades",
+        "id": "a23d-ec0d-bb97-3a6a",
+        "flatten": true,
+        "hidden": false,
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "a75f-b7da-f8d1-8131",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         },
+         {
+          "name": "Crusade Relic Upgrades",
+          "id": "c1dd-59b2-2488-4c68",
+          "hidden": false,
+          "import": true,
+          "targetId": "b678-4a99-210e-931f",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "selectionEntryGroups": [
+     {
+      "name": "Carapace weapon",
+      "id": "d94e-6d0e-c5d3-30a3",
+      "collective": false,
+      "hidden": false,
+      "import": true,
+      "constraints": [
+       {
+        "id": "1e7b-2088-f0f6-c980",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Havoc missile pod",
+        "id": "4b16-d1fe-e59a-af23",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "a37b-438f-7e62-486e",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "cbd7-9c3d-d4c2-7677",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "202e-e024-9fcb-9873",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "04b7-80b0-c63d-fa78",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Ruinspear rocket pod",
+        "id": "9bee-2752-294d-c782",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "005c-b2d1-4432-415a",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "af8d-505a-d928-c659",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "2a03-edc9-c491-c9dd",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "7423-00fe-5509-a455",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Hellstorm autocannons",
+        "id": "4887-7e59-99bf-873e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "08ba-94c4-8833-a27d",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "132c-143b-0c68-ee00",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "692a-e5e3-93e8-0e64",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "1596-eb20-83c0-eac4",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Replace reaper chainsword",
+      "id": "55df-34d3-e508-13c4",
+      "collective": false,
+      "defaultSelectionEntryId": "b862-bf16-4b95-f802",
+      "hidden": false,
+      "import": true,
+      "constraints": [
+       {
+        "id": "fd89-3aac-2676-4f30",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "eec8-9064-6616-75e9",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Reaper chainsword",
+        "id": "b862-bf16-4b95-f802",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5eca-c264-36cf-172e",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "36f7-dd9e-610f-d523",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "daf2-ac68-546d-87cd",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "64ce-f13e-387f-4888",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Daemonbreath thermal cannon",
+        "id": "a983-291e-f14c-bb76",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3f43-5865-ddd8-ea87",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "70f0-51c6-35e1-4920",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "6803-a1dd-ddbd-7815",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "bdbd-2e9b-2abb-d057",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Gatling cannon and flamer",
+        "id": "4268-2d76-f972-d7f5",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Despoiler gatling cannon",
+          "id": "64f7-3eb8-ba6b-130a",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "89c4-132e-6ad6-2a08",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "53f8-fbc7-93fe-840b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "4e20-2876-bc2b-2cd8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "selectionEntryGroups": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "a78a-e418-ba13-52f3",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "3711-c728-87b2-73c2",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             },
+             {
+              "name": "Crusade Relic Upgrades",
+              "id": "0561-853d-d840-d956",
+              "hidden": false,
+              "import": true,
+              "targetId": "b678-4a99-210e-931f",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Heavy darkflamer",
+          "id": "5abc-89d7-ddc6-388e",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f4a1-7f17-ec57-6c69",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "bc70-1220-fdca-43d5",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "d8e1-515a-131d-3f72",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "selectionEntryGroups": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "b5fe-a1ba-3351-6498",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "b739-f539-8c37-1020",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             },
+             {
+              "name": "Crusade Relic Upgrades",
+              "id": "2552-2fc9-aea6-9422",
+              "hidden": false,
+              "import": true,
+              "targetId": "b678-4a99-210e-931f",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Battle cannon and heavy stubber",
+        "id": "eb49-0962-11ba-83c7",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Despoiler battle cannon",
+          "id": "b9eb-6a03-61da-eeba",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "a0e9-d24d-0927-8670",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "2b4b-c14a-1821-19e3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "ac5d-2b51-eae7-a69d",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "selectionEntryGroups": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "d825-204f-b223-64c9",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "2162-116f-ab73-cec4",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             },
+             {
+              "name": "Crusade Relic Upgrades",
+              "id": "b63a-0ba2-1bb2-e19e",
+              "hidden": false,
+              "import": true,
+              "targetId": "b678-4a99-210e-931f",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Diabolus heavy stubber",
+          "id": "0c8e-0f17-1d3a-6550",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "dfe8-cea0-8d16-db95",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "bc0e-7acd-17ca-6f0e",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "2c60-ec82-7d71-a8b8",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "selectionEntryGroups": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "31cc-85b0-6251-99f6",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "2b4a-db5e-97c3-07da",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             },
+             {
+              "name": "Crusade Relic Upgrades",
+              "id": "0ec1-6ce0-94c4-e9d0",
+              "hidden": false,
+              "import": true,
+              "targetId": "b678-4a99-210e-931f",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Replace warpstrike claw",
+      "id": "aede-eb93-6a3e-2f62",
+      "collective": false,
+      "defaultSelectionEntryId": "0943-19c0-9efa-e46c",
+      "hidden": false,
+      "import": true,
+      "constraints": [
+       {
+        "id": "5151-66e7-935f-cb74",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "69be-e32b-ea0b-3c3f",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Warpstrike claw",
+        "id": "0943-19c0-9efa-e46c",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "5623-efa6-bed8-fa42",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "f4c2-5aca-c7ce-c8ce",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "661b-6a48-c812-b735",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "613d-eab7-5d33-4dfc",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Daemonbreath thermal cannon",
+        "id": "6005-8d6b-36b5-50ff",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "3f43-5865-ddd8-ea87",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "69fd-a173-440d-e95b",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "7b6b-63b6-0dba-2afc",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "2427-dfe7-ca93-8350",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Gatling cannon and flamer",
+        "id": "48a2-a603-9607-4df8",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Despoiler gatling cannon",
+          "id": "b03e-af01-dbb1-a130",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "89c4-132e-6ad6-2a08",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "8869-2022-37f9-928a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "e50b-d4fb-7896-1c69",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "selectionEntryGroups": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "e0fd-6f9c-5be8-01b2",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "7fc4-c88f-e4c7-b5fe",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             },
+             {
+              "name": "Crusade Relic Upgrades",
+              "id": "1cca-a685-c5ee-17df",
+              "hidden": false,
+              "import": true,
+              "targetId": "b678-4a99-210e-931f",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Heavy darkflamer",
+          "id": "f200-24f5-4a35-0072",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f4a1-7f17-ec57-6c69",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "0e1e-f0ff-f7d1-3ca3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "3083-236e-5ffe-552b",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "selectionEntryGroups": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "c289-f7fd-6475-b2ae",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "0512-8c42-2e28-689f",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             },
+             {
+              "name": "Crusade Relic Upgrades",
+              "id": "ff08-e58f-94eb-cf36",
+              "hidden": false,
+              "import": true,
+              "targetId": "b678-4a99-210e-931f",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Battle cannon and heavy stubber",
+        "id": "4379-207c-54b4-722a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Despoiler battle cannon",
+          "id": "1788-725c-32ef-ac38",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "a0e9-d24d-0927-8670",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "dbbf-5426-e6b8-2d67",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "1646-ee95-50ff-63b7",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "selectionEntryGroups": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "2ae5-c77d-1b06-06f4",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "da92-a0bd-c236-1f65",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             },
+             {
+              "name": "Crusade Relic Upgrades",
+              "id": "0dd0-5083-3c9f-a235",
+              "hidden": false,
+              "import": true,
+              "targetId": "b678-4a99-210e-931f",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "name": "Diabolus heavy stubber",
+          "id": "1dfe-df87-0c72-5697",
+          "collective": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "dfe8-cea0-8d16-db95",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "4bd4-7500-7052-08ca",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "fc6a-452d-e1a7-8376",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "selectionEntryGroups": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "af26-bc26-eaa5-2dd0",
+            "flatten": true,
+            "hidden": false,
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "260a-d27b-1611-4b6e",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             },
+             {
+              "name": "Crusade Relic Upgrades",
+              "id": "4411-b1be-44fe-4e4e",
+              "hidden": false,
+              "import": true,
+              "targetId": "b678-4a99-210e-931f",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Shoulder weapon",
+      "id": "68b3-ab57-f708-140f",
+      "collective": false,
+      "defaultSelectionEntryId": "65bc-c48f-4251-43fd",
+      "hidden": false,
+      "import": true,
+      "constraints": [
+       {
+        "id": "1283-99bc-fa96-4be2",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "39bb-f599-20d6-9ed1",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Diabolus heavy stubber",
+        "id": "bef4-9f67-21db-1f47",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "dfe8-cea0-8d16-db95",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "c069-1aad-c2e7-2759",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "e103-cec8-9105-b7f7",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "5807-95a0-a8c9-c1b1",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Daemonbreath meltagun",
+        "id": "65bc-c48f-4251-43fd",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "e0dc-e414-aa41-8ebd",
+        "type": "selectionEntry",
+        "selectionEntryGroups": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "d106-76c2-b599-61f3",
+          "flatten": true,
+          "hidden": false,
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "3717-32d3-f466-0ae4",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           },
+           {
+            "name": "Crusade Relic Upgrades",
+            "id": "0df2-6091-c038-baf0",
+            "hidden": false,
+            "import": true,
+            "targetId": "b678-4a99-210e-931f",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {
+   "3bee-8c85-68f7-e54b": {
+    "name": "Warlord",
+    "id": "3bee-8c85-68f7-e54b",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Warlord",
+      "id": "0a09-0742-ebff-1586",
+      "hidden": false,
+      "primary": false,
+      "targetId": "5c0e-4c31-d51b-e470"
+     }
+    ],
+    "constraints": [
+     {
+      "id": "945a-41ec-ce3c-6880",
+      "field": "selections",
+      "includeChildForces": false,
+      "includeChildSelections": false,
+      "percentValue": false,
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "46d8-abc8-ef3a-9f85",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "primary-catalogue",
+        "shared": true,
+        "type": "notInstanceOf",
+        "value": 0
+       }
+      ]
+     },
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "9cfd-1c32-585f-7d5c",
+        "field": "selections",
+        "scope": "ancestor",
+        "shared": true,
+        "type": "notInstanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   },
+   "a37b-438f-7e62-486e": {
+    "name": "Havoc missile pod",
+    "id": "a37b-438f-7e62-486e",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "2e21-c6f8-2a72-6ace",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Blast",
+      "id": "9af4-6ce5-6328-cf88",
+      "hidden": false,
+      "targetId": "6c1f-1cf7-ff25-c99e",
+      "type": "rule"
+     },
+     {
+      "name": "Indirect Fire",
+      "id": "b123-90c7-bd42-0303",
+      "hidden": false,
+      "targetId": "4ddd-4e29-acdd-5e6d",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Havoc missile pod",
+      "id": "a15d-814c-53ed-0d82",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "48\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D6+1",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "5",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Blast, Indirect Fire",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "005c-b2d1-4432-415a": {
+    "name": "Ruinspear rocket pod",
+    "id": "005c-b2d1-4432-415a",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "308b-cd10-dbab-0837",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Damage Dx Weapon",
+      "id": "c232-9578-3848-94b2",
+      "hidden": false,
+      "primary": false,
+      "targetId": "4986-bf86-beb4-13ac"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Ruinspear rocket pod",
+      "id": "b714-5918-ba80-8a43",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "48\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "8",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "D6",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "08ba-94c4-8833-a27d": {
+    "name": "Hellstorm autocannons",
+    "id": "08ba-94c4-8833-a27d",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "100a-de02-eb4e-bae2",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Anti",
+      "id": "1d36-4ddf-948e-b5ba",
+      "hidden": false,
+      "targetId": "4111-82e3-9444-e942",
+      "type": "rule"
+     },
+     {
+      "name": "Twin-linked",
+      "id": "fd17-0902-70fc-d3d9",
+      "hidden": false,
+      "targetId": "cf93-ad4d-2f08-a79d",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Hellstorm autocannons",
+      "id": "424f-b32e-6dfc-bc4b",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "48\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "7",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-1",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "2",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Anti-FLY 2, Twin-linked",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "5eca-c264-36cf-172e": {
+    "name": "Reaper chainsword",
+    "id": "5eca-c264-36cf-172e",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Melee Weapon",
+      "id": "81e1-2b83-73ad-80d8",
+      "hidden": false,
+      "primary": false,
+      "targetId": "ccdd-3987-11ed-90cd"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "profiles": [
+     {
+      "name": "➤ Reaper chainsword - strike",
+      "id": "aad8-5fd2-d082-9bde",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "4",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "3+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "14",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "-4",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "6",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     },
+     {
+      "name": "➤ Reaper chainsword - sweep",
+      "id": "c90a-f924-3747-d0c0",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "12",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "3+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "9",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "-3",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "2",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     }
+    ]
+   },
+   "3f43-5865-ddd8-ea87": {
+    "name": "Daemonbreath thermal cannon",
+    "id": "3f43-5865-ddd8-ea87",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "e919-cea0-5df4-e329",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Damage Dx Weapon",
+      "id": "efd3-cf16-d23a-3be7",
+      "hidden": false,
+      "primary": false,
+      "targetId": "4986-bf86-beb4-13ac"
+     },
+     {
+      "name": "Attacks Dx Weapon",
+      "id": "3588-d4b8-c655-760d",
+      "hidden": false,
+      "primary": false,
+      "targetId": "e993-e086-6de1-12af"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Blast",
+      "id": "60d3-a705-b469-b063",
+      "hidden": false,
+      "targetId": "6c1f-1cf7-ff25-c99e",
+      "type": "rule"
+     },
+     {
+      "name": "Melta",
+      "id": "dab9-b553-b68b-dd60",
+      "hidden": false,
+      "targetId": "7cdb-fb99-44a9-8849",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Daemonbreath thermal cannon",
+      "id": "3520-54bf-a486-7d70",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "24\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "2D3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "12",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-4",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "D6",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Blast, Melta 6",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "89c4-132e-6ad6-2a08": {
+    "name": "Despoiler gatling cannon",
+    "id": "89c4-132e-6ad6-2a08",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "a0e0-2cca-12ca-6503",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 25
+     },
+     {
+      "name": "Crusade Points",
+      "typeId": "b03b-c239-15a5-da55",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Battle Honours",
+      "typeId": "75bb-ded1-c86d-bdf0",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Experience",
+      "typeId": "a623-fe74-1d33-cddf",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Weapon Modifications",
+      "typeId": "716d-91b7-d55a-1022",
+      "value": 0
+     },
+     {
+      "name": "Blackstone Fragments",
+      "typeId": "ac6b-ced3-9b5e-9a6e",
+      "value": 0
+     },
+     {
+      "name": "Detachment Points",
+      "typeId": "82ae-1066-5107-6ae0",
+      "value": 0
+     },
+     {
+      "name": "Enhancements",
+      "typeId": "f759-1bc4-cb3a-f0d2",
+      "value": 0
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Despoiler gatling cannon",
+      "id": "7e92-7bfc-524a-cf8d",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "36\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "18",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "6",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "2",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "f4a1-7f17-ec57-6c69": {
+    "name": "Heavy darkflamer",
+    "id": "f4a1-7f17-ec57-6c69",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "2eec-ffbb-87fa-a1bc",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Attacks Dx Weapon",
+      "id": "afc0-674b-b236-f46a",
+      "hidden": false,
+      "primary": false,
+      "targetId": "e993-e086-6de1-12af"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Torrent",
+      "id": "6247-4960-49c5-bb4b",
+      "hidden": false,
+      "targetId": "5edf-d619-23e0-9b56",
+      "type": "rule"
+     },
+     {
+      "name": "Ignores Cover",
+      "id": "2926-3d91-f5f7-aaca",
+      "hidden": false,
+      "targetId": "4640-43e7-30b-215a",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Heavy darkflamer",
+      "id": "63c0-ba8f-e510-7c15",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "12\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D6",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "N/A",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "5",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-1",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Torrent, Ignores Cover",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "a0e9-d24d-0927-8670": {
+    "name": "Despoiler battle cannon",
+    "id": "a0e9-d24d-0927-8670",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "9d56-c4be-3741-b7a6",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 10
+     },
+     {
+      "name": "Crusade Points",
+      "typeId": "b03b-c239-15a5-da55",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Battle Honours",
+      "typeId": "75bb-ded1-c86d-bdf0",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Experience",
+      "typeId": "a623-fe74-1d33-cddf",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Weapon Modifications",
+      "typeId": "716d-91b7-d55a-1022",
+      "value": 0
+     },
+     {
+      "name": "Blackstone Fragments",
+      "typeId": "ac6b-ced3-9b5e-9a6e",
+      "value": 0
+     },
+     {
+      "name": "Detachment Points",
+      "typeId": "82ae-1066-5107-6ae0",
+      "value": 0
+     },
+     {
+      "name": "Enhancements",
+      "typeId": "f759-1bc4-cb3a-f0d2",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Blast",
+      "id": "e08f-fd69-7ddd-6742",
+      "hidden": false,
+      "targetId": "6c1f-1cf7-ff25-c99e",
+      "type": "rule"
+     },
+     {
+      "name": "Rapid Fire",
+      "id": "af95-40e9-c175-ede5",
+      "hidden": false,
+      "targetId": "c5c8-8b58-b8b6-7786",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Despoiler battle cannon",
+      "id": "59ad-bdf4-6c3e-66a5",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "72\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D6+3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "10",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-1",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "3",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Blast, Rapid Fire D6+3",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "dfe8-cea0-8d16-db95": {
+    "name": "Diabolus heavy stubber",
+    "id": "dfe8-cea0-8d16-db95",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "07f8-92ca-3824-16ad",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Rapid Fire",
+      "id": "01ca-830d-6fa8-c3fb",
+      "hidden": false,
+      "targetId": "c5c8-8b58-b8b6-7786",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Diabolus heavy stubber",
+      "id": "a4fb-4101-1b27-d2db",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "36\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "5",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Rapid Fire 3",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "5623-efa6-bed8-fa42": {
+    "name": "Warpstrike claw",
+    "id": "5623-efa6-bed8-fa42",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Melee Weapon",
+      "id": "f540-575f-4871-fb8b",
+      "hidden": false,
+      "primary": false,
+      "targetId": "ccdd-3987-11ed-90cd"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "profiles": [
+     {
+      "name": "➤ Warpstrike claw - strike",
+      "id": "584c-1ff6-83a0-94d3",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "4",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "3+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "20",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "-3",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "8",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     },
+     {
+      "name": "➤ Warpstrike claw - sweep",
+      "id": "8dbe-4e7a-8b59-1524",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "8",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "3+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "10",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "3",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     }
+    ]
+   },
+   "e0dc-e414-aa41-8ebd": {
+    "name": "Daemonbreath meltagun",
+    "id": "e0dc-e414-aa41-8ebd",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "44cd-5baa-33dd-1ef5",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Damage Dx Weapon",
+      "id": "a6ba-2ec6-4003-a058",
+      "hidden": false,
+      "primary": false,
+      "targetId": "4986-bf86-beb4-13ac"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Melta",
+      "id": "efad-ac51-a0a1-048c",
+      "hidden": false,
+      "targetId": "7cdb-fb99-44a9-8849",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Daemonbreath meltagun",
+      "id": "75c0-6077-3c29-fe59",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "12\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "1",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "9",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-4",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "D6",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Melta 2",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "groups": {
+   "18da-1609-c0fb-cf69": {
+    "name": "Enhancements",
+    "id": "18da-1609-c0fb-cf69",
+    "collapsible": true,
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "constraints": [
+     {
+      "id": "1ac3-0c48-a1f5-8b56",
+      "field": "selections",
+      "includeChildForces": false,
+      "includeChildSelections": true,
+      "percentValue": false,
+      "scope": "self",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Malevolent Heraldry",
+      "id": "ffa9-e86a-6f79-c949",
+      "collective": false,
+      "comment": "Traitoris Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 25,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "c311-f705-e821-9436",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 30
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "603e-6bcd-927f-cb70",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Malevolent Heraldry",
+        "id": "ea44-505d-1519-fd1d",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "Each time you roll dice to randomly select which Dread abilities are active for your army, if the bearer is on the battlefield, you can re-roll one or both results rolled.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Veil of Medrengard",
+      "id": "d1ba-fbad-1b6b-3567",
+      "collective": false,
+      "comment": "Traitoris Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 28,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "9c66-9cbb-8593-f321",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 35
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "603e-6bcd-927f-cb70",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       },
+       {
+        "affects": "profiles.Unit",
+        "field": "55a7-5b54-c60d-11dc",
+        "scope": "parent",
+        "type": "set",
+        "value": "4+**"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "**Veil of Medrengard",
+        "id": "be11-dfc5-c59f-16d1",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "The bearer has a 4+ invulnerable save against ranged attacks, and a 5+ invulnerable save against melee attacks.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Tyrant's Shadow",
+      "id": "6e61-530c-d0b5-486c",
+      "collective": false,
+      "comment": "Traitoris Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 27,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "8113-eafd-c2f5-c4b7",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 25
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "603e-6bcd-927f-cb70",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Tyrant's Shadow",
+        "id": "b263-32e3-5af5-2643",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "At the end of your Command phase, select one objective marker the bearer is in range of and that you control. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase. In addition, until you lose control of that objective marker, it has the Deathly Terror ability as if it were a ^^**Chaos Knights^^** model from your army.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Nightmare's Master",
+      "id": "c186-769a-41a4-21d7",
+      "collective": false,
+      "comment": "Traitoris Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 26,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "9ac3-41cd-b72e-2133",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 20
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "603e-6bcd-927f-cb70",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Nightmare's Master",
+        "id": "23e6-4a34-e2f6-b081",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "At the start of the Fight phase, each enemy unit within Engagement Range of the bearer must take a Battle-shock test.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Warp-borne Stalker",
+      "id": "0691-638b-52ed-33a7",
+      "comment": "Lords of Dread",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 24,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "f07b-e2e5-5685-adfd",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 25
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Deep Strike",
+        "id": "0f65-9708-7401-d65d",
+        "hidden": false,
+        "targetId": "7cb5-dd6b-dd87-ad3b",
+        "type": "rule"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "e5ab-9622-8b2a-84d0",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Warp-borne Stalker",
+        "id": "9e0b-38ac-7e6c-22eb",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "The bearer has the Deep Strike ability. In addition, once per battle, at the end of your opponent's turn, if the bearer is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Blade of Celerity",
+      "id": "ebcd-5b08-117d-1afc",
+      "comment": "Lords of Dread",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 19,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "2bca-96d1-5a8a-625e",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 35
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "e5ab-9622-8b2a-84d0",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.profiles.Ranged Weapons",
+        "field": "7f1b-8591-2fcf-d01c",
+        "join": ", ",
+        "scope": "parent",
+        "type": "append",
+        "value": "Assault"
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Blade of Celerity",
+        "id": "f34f-8bd9-1162-9fb1",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "The bearer's ranged weapons have the [Assault] ability. In addition, once per battle, in the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, models in the bearer's unit have the Fights First ability.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Putrid Carapace",
+      "id": "3de9-689b-62a5-3cac",
+      "comment": "Lords of Dread",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 22,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "c334-7f47-5b40-64a4",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 30
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "e5ab-9622-8b2a-84d0",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.profiles.Unit",
+        "field": "450-a17e-9d5e-29da",
+        "scope": "parent",
+        "type": "set",
+        "value": "2+"
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Putrid Carapace",
+        "id": "0ca8-e1b5-921a-e99a",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "The bearer has a Save characteristic of 2+. In addition, once per battle, at the start of either player's Command phase, the bearer can use this Enhancement. If it does, the bearer regains up to D6 lost wounds.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Mirror of Fates",
+      "id": "f36a-acd9-06f2-33f4",
+      "comment": "Lords of Dread",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 21,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "1f0e-9593-5f83-eed7",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 30
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "e5ab-9622-8b2a-84d0",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Mirror of Fates",
+        "id": "8a8a-7965-4430-f43c",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "Once per turn, when your opponent targets a unit from their army within 12” of this model with a **stratagem**, you can use this ability. If you do, increase the CP cost of that use of that **stratagem** by 1CP.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Blessing of the Dark Master",
+      "id": "fe66-2b8b-6ded-dd43",
+      "comment": "Lords of Dread",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 20,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "4f56-0344-d38b-c1a4",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 20
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "e5ab-9622-8b2a-84d0",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Blessing of the Dark Master",
+        "id": "625f-a2b7-5cfc-e60d",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "The bearer has the Stealth ability. In addition, once per battle, after you make a saving throw for the bearer, you can change the Damage characteristic of that attack to 0.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Throne Mechanicum of Skulls",
+      "id": "4982-b6dd-5bd6-d402",
+      "comment": "Lords of Dread",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 23,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "3d9d-3ba4-fb8f-e48d",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 25
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "e5ab-9622-8b2a-84d0",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Throne Mechanicum of Skulls",
+        "id": "9230-8299-9b67-4ccf",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "You can re-roll Charge rolls made for the bearer's unit. In addition, once per battle, in your Charge phase, the bearer can use this Enhancement. If it does, until the end of the phase, the bearer's unit is eligible to declare a charge in a turn in which it Advanced.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Loping Predator",
+      "id": "64b1-051f-daf5-e148",
+      "comment": "Houndpack Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 8,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "b682-e702-6e3f-e7c7",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 10
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "cac3-71d1-ea4b-795d",
+              "field": "forces",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             },
+             {
+              "childId": "6cb5-45cf-c626-fa86",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 0
+             }
+            ]
+           }
+          ],
+          "conditions": [
+           {
+            "childId": "9cfd-1c32-585f-7d5c",
+            "childName": "Character",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 0
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.profiles.Ranged Weapons",
+        "field": "7f1b-8591-2fcf-d01c",
+        "join": ", ",
+        "scope": "parent",
+        "type": "append",
+        "value": "Assault"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Loping Predator",
+        "id": "6871-9f72-fab6-7543",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "The bearer's ranged weapons have the [Assault] ability.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Final Howl (Aura)",
+      "id": "42e1-e706-eb89-6cb6",
+      "comment": "Houndpack Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 7,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "3355-c192-b6a8-5b30",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 20
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 0
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "cac3-71d1-ea4b-795d",
+              "field": "forces",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             },
+             {
+              "childId": "6cb5-45cf-c626-fa86",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 0
+             }
+            ]
+           }
+          ],
+          "conditions": [
+           {
+            "childId": "9cfd-1c32-585f-7d5c",
+            "childName": "Character",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Final Howl (Aura)",
+        "id": "f1a7-7e92-ea7e-9e9a",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "While a friendly ^^**War Dog^^** model is within 6\" of the bearer, each time that model makes an attack, re-roll a Wound roll of 1.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Panoply of the Cursed Knights",
+      "id": "fb26-6d89-aa65-fb7e",
+      "comment": "Houndpack Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 9,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "dc32-9250-e9eb-12ee",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 15
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 0
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "cac3-71d1-ea4b-795d",
+              "field": "forces",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             },
+             {
+              "childId": "6cb5-45cf-c626-fa86",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 0
+             }
+            ]
+           }
+          ],
+          "conditions": [
+           {
+            "childId": "9cfd-1c32-585f-7d5c",
+            "childName": "Character",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Panoply of the Cursed Knights",
+        "id": "fa94-a50a-bf65-10c7",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "Each time an attack targets the bearer, worsen the Armour Penetration characteristic of that attack by 1.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Preyslayer's Mantle",
+      "id": "433a-6769-0b68-fef3",
+      "comment": "Houndpack Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 10,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "2ceb-e6b8-72ce-4098",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 15
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Super-Heavy Walker",
+        "id": "e695-a14c-5a20-5840",
+        "hidden": false,
+        "targetId": "5e13-1624-d280-418d",
+        "type": "rule"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 0
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "cac3-71d1-ea4b-795d",
+              "field": "forces",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             },
+             {
+              "childId": "6cb5-45cf-c626-fa86",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 0
+             }
+            ]
+           }
+          ],
+          "conditions": [
+           {
+            "childId": "9cfd-1c32-585f-7d5c",
+            "childName": "Character",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Preyslayer's Mantle",
+        "id": "549c-05a7-e58b-f155",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "The bearer has the Super-Heavy Walker ability.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Fleshmetal Fusion",
+      "id": "27b4-53af-ee1b-688a",
+      "comment": "Infernal Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 13,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "86ab-1903-9b28-25cc",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 35
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "812b-f056-ec50-2c3c",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.profiles.Unit",
+        "field": "d29d-cf75-fc2d-34a4",
+        "scope": "parent",
+        "type": "increment",
+        "value": 1
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Fleshmetal Fusion",
+        "id": "41c9-1420-19bf-0c45",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "Add 1 to the bearer's Toughness characteristic. While the bearer is using the Unnatural Fortitude ability, each time an attack with a Damage characteristic of 1 is allocated to the bearer, add 1 to any armour saving throw made against that attack.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Blasphemous Engine",
+      "id": "c799-77ce-c706-3079",
+      "comment": "Infernal Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 12,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "6dae-aa5e-f005-6452",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 35
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "812b-f056-ec50-2c3c",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.profiles.Unit",
+        "field": "750a-a2ec-90d3-21fe",
+        "scope": "parent",
+        "type": "increment",
+        "value": 2
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Blasphemous Engine",
+        "id": "70b1-cb34-0676-3c6a",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "Add 2 to the bearer's Wounds characteristic. Each time the bearer's unit makes a Malefic Surge, you can re-roll the Leadership test taken to see if it suffers any mortal wounds.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Bestial Aspect",
+      "id": "4ff3-7dce-5a52-94e9",
+      "comment": "Infernal Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 11,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "25a1-bc6d-1c55-8b7c",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 30
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Assault",
+        "id": "a4c7-be17-bcc9-0d2d",
+        "hidden": false,
+        "targetId": "fc8a-8c24-bae9-cc1c",
+        "type": "rule"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "812b-f056-ec50-2c3c",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.recursive.profiles.Ranged Weapons",
+        "field": "7f1b-8591-2fcf-d01c",
+        "join": ", ",
+        "scope": "parent",
+        "type": "append",
+        "value": "Assault"
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Bestial Aspect",
+        "id": "be96-871b-e445-b467",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "The bearer's ranged weapons have the [Assault] ability. While the bearer is using the Unholy Hunger ability, it can ignore any or all modifiers to its Move characteristic and/or to Advance rolls made for its unit.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Knight Diabolus",
+      "id": "4676-0c32-b62c-debd",
+      "comment": "Infernal Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 14,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "879f-3963-bf1f-69de",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 25
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "812b-f056-ec50-2c3c",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.profiles.Melee Weapons",
+        "field": "95d1-95f-45b4-11d6",
+        "scope": "parent",
+        "type": "decrement",
+        "value": 1
+       },
+       {
+        "affects": "self.entries.profiles.Melee Weapons",
+        "field": "95d1-95f-45b4-11d6",
+        "scope": "parent",
+        "type": "floor",
+        "value": 2
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Knight Diabolus",
+        "id": "128b-1d2f-6361-b2d3",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "Improve the Weapon Skill characteristic of the bearer's melee weapons by 1. While the bearer is using the Diabolic Power ability, its melee weapons have the [Lance] ability.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Cruel Lashmaster",
+      "id": "06cd-7848-7124-ca3c",
+      "collective": false,
+      "comment": "Iconoclast Fiefdom",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 15,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "422a-b524-4baa-e200",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 25
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "cac3-71d1-ea4b-795d",
+              "field": "forces",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             },
+             {
+              "childId": "7fe8-de91-8976-e705",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 0
+             }
+            ]
+           }
+          ],
+          "conditions": [
+           {
+            "childId": "9cfd-1c32-585f-7d5c",
+            "childName": "Character",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Cruel Lashmaster (Aura)",
+        "id": "2e5f-1c75-2b49-85f3",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "While a friendly DAMNED unit is within 6\" of this model, when that unit is selected to make a normal/advance/fall-back move that unit has +2\" M until the end of the phase.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Iconoclast Idol",
+      "id": "80fb-b674-d736-1ca7",
+      "collective": false,
+      "comment": "Iconoclast Fiefdom",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 16,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "7def-ccdf-8872-0c85",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": true,
+        "percentValue": false,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 20
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "cac3-71d1-ea4b-795d",
+              "field": "forces",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             },
+             {
+              "childId": "7fe8-de91-8976-e705",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 0
+             }
+            ]
+           }
+          ],
+          "conditions": [
+           {
+            "childId": "9cfd-1c32-585f-7d5c",
+            "childName": "Character",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Iconoclast Idol (Aura)",
+        "id": "0001-e913-205a-f146",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": " While a friendly DAMNED unit is within 6\" of this model, when you target that unit with the Heroic Intervention stratagem, that use is -1 CP.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Hunter's Helm",
+      "id": "235a-a20a-c65f-9f8e",
+      "comment": "Helhunt Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 4,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "c05e-e43d-8756-9bbd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 15
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "915c-3949-0da6-83c5",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Hunter's Helm",
+        "id": "8d92-f5d1-74fb-3a81",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "You can re‑roll Advance and Charge rolls made for the bearer’s unit.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Octagram of Conjuration",
+      "id": "36be-0c43-6c75-17b9",
+      "comment": "Helhunt Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 5,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "ca04-938b-cd72-3499",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 40
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "cac3-71d1-ea4b-795d",
+              "field": "forces",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             },
+             {
+              "childId": "915c-3949-0da6-83c5",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 0
+             }
+            ]
+           }
+          ],
+          "conditions": [
+           {
+            "childId": "9d18-ceff-963a-cc29",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Octagram of Conjuration (Aura)",
+        "id": "722d-1bb7-0cd7-7602",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "While a friendly ^^**War Dog**^^ model is within 9” of this model, after that ^^**War Dog**^^ model has shot, you can select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Throne Tyrannicus",
+      "id": "ad66-f295-a2d9-e49a",
+      "comment": "Helhunt Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 6,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "20ff-d068-21df-1a9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 25
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "cac3-71d1-ea4b-795d",
+              "field": "forces",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             },
+             {
+              "childId": "915c-3949-0da6-83c5",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 0
+             }
+            ]
+           }
+          ],
+          "conditions": [
+           {
+            "childId": "5929-ad51-d006-e008",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Throne Tyrannicus",
+        "id": "709f-4ad1-ed0c-25a1",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "In your Command phase, select one other ^^**Chaos Knights Character**^^ model within 9” of the bearer. If the bearer has one or more Aura abilities that affect friendly **^^War Dog**^^ units, until the start of your next Command phase, the selected **^^Chaos Knights Character**^^ model is affected by those Aura abilities as well.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Aspect of the Beast",
+      "id": "650c-14dc-b1b7-df8b",
+      "comment": "Helhunt Lance",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 3,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "8c99-0ea0-3349-1159",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 30
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "915c-3949-0da6-83c5",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "99dc-0f47-85e2-75da",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Aspect of the Beast",
+        "id": "9042-4baf-cea4-baaf",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "At the start of your Command phase, select one Dread ability to be active for the bearer until the start of your next Command phase, in addition to the Dread abilities active for your army.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Pterrorshade Rookery",
+      "id": "27cf-7fc3-7c18-681e",
+      "comment": "Bastions",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 2,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "c9c5-f986-bb1a-071d",
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "scope": "roster",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 20
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "8a80-e529-a86f-84b5",
+            "childName": "Bastions of Tyranny",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "552f-2667-65a7-f914",
+          "childName": "Knight Tyrant",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Pterrorshade Rookery",
+        "id": "d118-5407-f706-1d31",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": "When this unit is **selected to shoot**, select one enemy unit within 24\" of this unit. That enemy unit has +6\" **detection range** until this unit has shot.",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Hate-filled Dominion",
+      "id": "b200-0024-3e31-8f39",
+      "comment": "Bastions",
+      "hidden": false,
+      "import": true,
+      "sortIndex": 1,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "d1ee-ac0f-cada-ef2a",
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "scope": "roster",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 20
+       },
+       {
+        "name": "Crusade Points",
+        "typeId": "b03b-c239-15a5-da55",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Battle Honours",
+        "typeId": "75bb-ded1-c86d-bdf0",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Experience",
+        "typeId": "a623-fe74-1d33-cddf",
+        "value": 0
+       },
+       {
+        "name": "Crusade: Weapon Modifications",
+        "typeId": "716d-91b7-d55a-1022",
+        "value": 0
+       },
+       {
+        "name": "Blackstone Fragments",
+        "typeId": "ac6b-ced3-9b5e-9a6e",
+        "value": 0
+       },
+       {
+        "name": "Detachment Points",
+        "typeId": "82ae-1066-5107-6ae0",
+        "value": 0
+       },
+       {
+        "name": "Enhancements",
+        "typeId": "f759-1bc4-cb3a-f0d2",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "8a80-e529-a86f-84b5",
+            "childName": "Bastions of Tyranny",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "equalTo",
+            "value": 0
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "552f-2667-65a7-f914",
+          "childName": "Knight Tyrant",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "ancestor",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 0
+         }
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Hate-filled Dominion",
+        "id": "09e5-f7bd-6eaf-d694",
+        "hidden": false,
+        "typeId": "9cc3-6d83-4dd3-9b64",
+        "typeName": "Abilities",
+        "characteristics": [
+         {
+          "name": "Description",
+          "$text": " This unit can re-roll rolls to determine the **A** of a weapon.  ",
+          "typeId": "9b8f-694b-e5e-b573"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "profiles": {
+   "12ce-2a62-9fea-74bd": {
+    "name": "Damaged: 1-9 wounds remaining",
+    "id": "12ce-2a62-9fea-74bd",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "While this model has 1-9 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   },
+   "4e9b-b002-b008-6077": {
+    "name": "*Invulnerable Save",
+    "id": "4e9b-b002-b008-6077",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "This model has a 5+ invulnerable save against ranged attacks.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  }
+ }
+}
