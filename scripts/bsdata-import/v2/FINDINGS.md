@@ -47,14 +47,36 @@ from Orks (ALL-CAPS) and hand-authoring drift:
   artifact of the "Dakka/Point-Blank" mode split, **not** a rules value.
 - weapon **modes**: names prefixed `➤` (`Kustom Shoota - Aimed` /
   `- Point Blank`; `Da Rippa - Standard` / `- Supercharge`) — one weapon,
-  several profiles, pick one per activation. Same family as strike/sweep
-  (#26).
+  several profiles. **Answered (Joshua's S1 question): a weapon never uses
+  more than one mode at once.**
+
+### Multi-profile weapons — three distinct cases (checked all 34 catalogues)
+
+| case | count | meaning |
+|---|---|---|
+| **`➤` modes** (strike/sweep, Aimed/Point-Blank, supercharge, kombi-weapon profiles, witchfire variants, artillery shell/frag) | 229 + 10 strike/sweep | **pick exactly one per activation** — no BSData constraint says otherwise, and the rules never allow both. Includes #26. |
+| **ranged + melee on one weapon** (Laser Lance: 6" Assault *and* a Lance melee profile; ~dozens of Aeldari/Chaos spear/lance/force weapons) | ~40 | **both are used — in different phases.** One weapon that shoots *and* fights. Must NOT be treated as pick-one. |
+| **`(ref. only)` profiles** (Pink/Blue Horrors) | few | reference profiles for a mixed unit — different models use different ones; all apply. |
+
+**No weapon anywhere fires multiple *ranged* profiles together in one
+shooting attack.**
 
 **Plan delta:** R4's dictionary gets an explicit **normalizer** —
 lowercase, collapse `-`/space, strip trailing punctuation — then parse
-`<keyword> [N+] [: <target qualifier>]`. Weapon **modes** become a first
-class `weapon.modes[]` in R1/R2 (a weapon is "one or more profiles, choose
-one"), which also fixes #26.
+`<keyword> [N+] [: <target qualifier>]`. And R1/R2's weapon shape is:
+
+```
+weapon = {
+  name,
+  ranged?: [ mode, ... ],   // when shooting, pick ONE of these
+  melee?:  [ mode, ... ],   // when fighting, pick ONE of these
+}
+mode = { chars: {A, BS|WS, S, AP, D, range}, keywords: [...] }
+```
+
+A weapon can populate `ranged`, `melee`, or both. Within a phase's list
+you pick one mode; both phases' contributions count. This folds in #26 and
+handles Laser Lance correctly.
 
 ## 2. Constraints
 
@@ -155,9 +177,12 @@ modes, per-model-count wargear.
 
 ## Proposed Plan adjustments (for S1)
 
-1. **R1/R2** — a weapon is `{ name, kind, modes: [ {chars, keywords[]} ] }`;
-   `modes.length > 1` covers strike/sweep and Ork Aimed/Point-Blank (folds
-   #26 in here rather than as a separate fix).
+1. **R1/R2** — a weapon is `{ name, ranged?: [mode…], melee?: [mode…] }`;
+   within a phase's list you pick one mode (covers strike/sweep, Ork
+   Aimed/Point-Blank, supercharge — folds in #26), and a weapon may
+   populate both lists (Laser Lance shoots *and* fights, both counted).
+   Verified across all 34 catalogues: no weapon ever uses >1 mode at once,
+   and none fires multiple ranged profiles together.
 2. **R4** — add the keyword **normalizer** spec (§1).
 3. **P2** — ingester also parses ability text for invuln (conditional) and
    FNP (always); handles the SM chapter↔library split; per-size points via
