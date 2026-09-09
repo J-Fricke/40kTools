@@ -208,8 +208,18 @@ empty**. Plus explicit cases from Story acceptance (`"ANTI-FLY 4+"`,
 **Type:** Dependency (B1, B2) · **Blocks:** B4, B5
 **Files:** `src/core/model/engine.js`, `engine.test.mjs`
 
-- Port `wt`, the hit/crit/wound/save/FNP maths from `src/core/engine.js`
-  verbatim in structure; swap inputs:
+- **Write fresh in structure; transcribe the *formulas* faithfully.** Not
+  a fork of `src/core/engine.js` — clean named code against the new model.
+  What carries over unchanged is the trusted maths: `wt()` wound
+  thresholds, the 5/6 hit/wound ceiling, reroll compounding
+  (`1-(1-wp)²`, twin-linked `wp+(1-wp)·wp`, reroll-1 `wp·7/6`), lethal
+  carving `shots·cp` as auto-wounds, the Devastating mortal handling, the
+  `sv-ap` → `min(inv)` → FNP chain. What is written fresh: inputs, the
+  `Effect` vocab replacing `tags`, `context`, general Anti-X (vs the
+  hardcoded `av3`/`am3`), Torrent/Melta/Blast. Old tags `sowf`/`w1mv`/`fe`
+  are **not** ported — army/strat conditionals belong to Story C's
+  `context`.
+- Input conversion:
   - `shots = diceAverage(mode.A) * (mode.qty || 1)`, scaled by
     `attack.models` for per-model weapons (flag TBD — see coordination);
   - `skill = skillNumber(mode.BS ?? mode.WS)`;
