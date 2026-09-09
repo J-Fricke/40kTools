@@ -74,9 +74,12 @@ weapon = {
 mode = { chars: {A, BS|WS, S, AP, D, range}, keywords: [...] }
 ```
 
-A weapon can populate `ranged`, `melee`, or both. Within a phase's list
-you pick one mode; both phases' contributions count. This folds in #26 and
-handles Laser Lance correctly.
+A weapon can populate `ranged`, `melee`, or both. Both phases' contributions
+count. Where a phase's list has 2+ modes, the UI shows a **plain mode
+selector** on that weapon (the "assumed" mode for this comparison), default
+to the first / "Standard"-named entry — no special machinery, it's just
+another pick. The overwhelming majority of weapons have one mode per phase
+and need no selector. This folds in #26 and handles Laser Lance correctly.
 
 ## 2. Constraints
 
