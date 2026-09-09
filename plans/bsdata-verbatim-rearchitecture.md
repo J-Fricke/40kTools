@@ -2,8 +2,30 @@
 
 ## Status
 
-Draft — Ready for Execution after P1 (Discovery) is reviewed; P1's findings
-may reshape P2–P6.
+**Coordination spine.** P1 (Discovery) is **done** — see
+`scripts/bsdata-import/v2/DISCOVERY.md` + `FINDINGS.md`, reviewed at S1
+(2026-09-08/09). Per Joshua's 2026-09-08 note, the lanes after P1 are being
+executed as their **own Story + Plan pairs** (smaller, independently
+reviewable), listed below. This document keeps only the cross-cutting
+coordination: the lane graph, the shared interfaces, the sync points, and
+the risks. The detailed P2–P10 task specs further down are **superseded by
+the child plans** and kept for reference / until each child plan lands.
+
+## Child Stories / Plans
+
+| Lane | Story | Plan | Status |
+|---|---|---|---|
+| P1 Discovery | (this plan, P1) | (this plan) | **done**, S1 reviewed |
+| A — BSData ingester (was P2+P3) | `stories/bsdata-ingester.md` | `plans/bsdata-ingester.md` | **Story + Plan ready for execution** |
+| B — Keyword dictionary + combat engine (was P4+P5) | _tbd_ | _tbd_ | not started |
+| C — Ability / effect layer + detachment port (was P6+P7) | _tbd_ | _tbd_ | not started |
+| D — Evaluator wiring (was P8) | _tbd_ | _tbd_ | not started |
+| E — Parity + retire old pipeline (was P9+P10) | _tbd_ | _tbd_ | not started |
+
+Shared interfaces the child plans must agree on (frozen at **S2**):
+`UnitRecord` + wargear `node` shape (Story A), keyword-effect vocabulary
+(B), `resolveAttack` / `effectiveWounds` engine signatures (B),
+`applyAbilities` (C).
 
 ## Source Story
 
