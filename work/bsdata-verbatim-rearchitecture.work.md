@@ -19,13 +19,13 @@ note). Nothing past P1 executes without that go-ahead.
 | P1 Discovery | DONE, S1 reviewed | main session | 2026-09-08/09 |
 | **Story A — BSData ingester** | **IN PROGRESS** | main session | `plans/bsdata-ingester.md` |
 | A1 scaffold + resolution + typedef | DONE | main session | 2026-09-09, smoke-tested |
-| A2 unit meta | NOT STARTED | — | after A1 |
-| A3 weapons + normalizer | NOT STARTED | — | after A1 |
-| A4 constraint evaluator | NOT STARTED | — | after A1 |
-| A5 wargear tree | NOT STARTED | — | after A3 |
-| A6 integrate + report | NOT STARTED | — | after A2,A3,A5 |
-| A7 validation harness | NOT STARTED | — | after A4,A6 |
-| A8 clean the sync report | NOT STARTED | — | after A7; stop at S-A3 |
+| A2 unit meta | DONE | — | after A1 |
+| A3 weapons + normalizer | DONE | — | after A1 |
+| A4 constraint evaluator | DONE | — | after A1 |
+| A5 wargear tree | DONE | — | after A3 |
+| A6 integrate + report | DONE | — | after A2,A3,A5 |
+| A7 validation harness | DONE — 9/9 | — | after A4,A6 |
+| A8 clean the sync report | MOSTLY DONE — residue documented, at S-A2 | — | after A7; stop at S-A3 |
 | Stories B–E | NOT STARTED | — | B blocked on S-A3 |
 
 Branch: `impl-bsdata-ingester` (off `story-bsdata-ingester` + merged
