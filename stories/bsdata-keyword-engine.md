@@ -200,9 +200,9 @@ deliverable alongside the code.
 
 - **`A: "D6"` / `D: "D3+1"` / `S: "2D6"`** — dice average via the shared
   helper (`scripts/bsdata-import/v2/dice.mjs` is a seed). `"N/A"` A → 0.
-- **Skill `"N/A"` (Torrent)** — hit prob = 1 (auto-hit) via the
-  `{autoHit:true}` effect; keep the existing shots×6/5 nicety or replace
-  with a true auto-hit — decide in the Plan, document either way.
+- **Skill `"N/A"` (Torrent)** — hit prob = 1, no hit roll (`{autoHit}`);
+  Sustained/Lethal on the same weapon therefore contribute nothing (see
+  Resolved).
 - **`S: "User"`** on a melee weapon — needs the attacker's Strength; if
   the datasheet mode already carries a number, use it, else resolve from
   the attacker `UnitRecord` profile.
@@ -211,12 +211,10 @@ deliverable alongside the code.
   and `{anti:[{vs:"!monster",...}]}` respectively.
 - **`DEVASTATING WOUNDS: INFANTRY`** — a conditional variant; effect only
   applies vs that target type.
-- **`BLAST`** — "+1 attack per 5 models in the target unit" — depends on
-  target model count, which the meta columns have. Model it if the target
-  carries a count, else `{blast:true, noop:true}` with a note.
-- **`MELTA N`** — the Evaluator has no range; treat as "always at half
-  range" (best case) or expose a toggle — Plan decides. Consistency with
-  the old engine (which didn't model Melta) is a parity note.
+- **`BLAST`** — `+floor(targetModels/5)` attacks; `context.targetModels`
+  from the defending unit's size or a target-size input (see Resolved).
+- **`MELTA N`** — `+N` Damage when `context.halfRange`; a toggle, default
+  off (see Resolved).
 - **Unknown/bespoke keyword** (`HOOKED`, `PLASMA WARHEAD`, …) — `{noop}` +
   the census note; if any turns out calc-relevant, add an effect.
 
@@ -274,16 +272,45 @@ better); vs INFANTRY the keyword has no effect.
 **Then:** both return `{noop:true, note:"..."}` — the Evaluator can show
 "Heavy, Precision (not modelled)" rather than dropping them.
 
+## Resolved (2026-09-09)
+
+### Torrent — true auto-hit
+
+`TORRENT` → `{autoHit: true}`; the engine sets hit probability to 1 and
+**rolls no hit dice**. This is the rules-accurate model, and a
+consequence that falls out correctly: **Sustained Hits and Lethal Hits do
+nothing on a torrent weapon** (no hit roll ⇒ no Critical Hits), which is
+how the game actually works. Replaces the old engine's
+`skill 2 + shots×6/5` approximation.
+*Parity note:* torrent weapons' numbers shift slightly vs. the old app,
+and torrent + Sustained/Lethal combos drop to just the base hits.
+
+### Melta — a range toggle in `context`
+
+`MELTA N` → `{melta: N}`. The engine adds `N` to Damage **only when
+`context.halfRange` is set**. Story D exposes this as a per-comparison
+"assume melta range" toggle (default off — the conservative baseline —
+with the toggle prominent). Story B ships the effect + the `context` flag;
+default behaviour is no bonus.
+
+### Blast — a target-size input in `context`
+
+`BLAST` → `{blast: true}`. The engine adds `floor(context.targetModels / 5)`
+attacks. `context.targetModels` comes from the defending unit's real size
+(the "meta" columns are real units) or, for a custom target, a "target
+unit size" input (Story D). Absent → no bonus.
+
+### Ramifications (call-outs, not blockers)
+
+The new engine will **not** reproduce the old app's numbers for any unit
+fielding **Melta** (~280 weapons) or **Blast** (~700 weapons) — the old
+engine ignored both. Melta-heavy anti-tank units look markedly better at
+half range; Blast weapons look better into big units. This is a
+correctness gain, and Story E's parity pass quantifies the per-unit delta.
+Torrent weapons shift a little too.
+
 ## Open Questions
 
-- **Torrent** — keep the current `skill 2 + shots×6/5` approximation, or
-  switch to true auto-hit (`hp = 1`)? The latter is cleaner but shifts
-  every torrent weapon's number slightly vs. today. (Plan decides; it's a
-  parity note either way.)
-- **Melta / Blast** — model them (the Evaluator gains half-range and
-  target-model-count inputs it doesn't have today) or `{noop}` with a note?
-  Leaning: model Blast against the meta columns' model counts; treat Melta
-  as always-half-range with a note.
 - **Effect object shape** — flat (`{sustainedHits, lethal, ...}`) or a
   list of `{type, ...}` — settle in the Plan against the parity test.
 - **Where dice/skill helpers live** — `src/core/model/dice.js` shared by
