@@ -1,0 +1,4721 @@
+{
+ "unit": {
+  "name": "Venerable Dreadnought",
+  "id": "bd43-b303-66e0-4c10",
+  "hidden": false,
+  "import": true,
+  "type": "model",
+  "categoryLinks": [
+   {
+    "name": "Venerable Dreadnought",
+    "id": "f8e1-2fa-e2ea-9a72",
+    "primary": false,
+    "targetId": "33d4-b50a-18e8-16e8"
+   },
+   {
+    "name": "Faction: Grey Knights",
+    "id": "931c-efa7-3e1b-1d47",
+    "primary": false,
+    "targetId": "d564-3284-bf44-b873"
+   },
+   {
+    "name": "Walker",
+    "id": "5958-2051-3d89-60b5",
+    "primary": false,
+    "targetId": "6dda-e157-334d-e93a"
+   },
+   {
+    "name": "Vehicle",
+    "id": "a760-8dc9-c644-85ba",
+    "primary": false,
+    "targetId": "dbd4-63-af05-998"
+   },
+   {
+    "name": "Psyker",
+    "id": "7c53-87fa-8704-af57",
+    "primary": false,
+    "targetId": "13bf-2bee-3ae0-b414"
+   },
+   {
+    "name": "Smoke",
+    "id": "7b61-da3b-bf9d-37f7",
+    "primary": false,
+    "targetId": "6df-937-16bc-8c1a"
+   },
+   {
+    "name": "Imperium",
+    "id": "c871-7041-f747-162c",
+    "primary": false,
+    "targetId": "aff3-d6a3-2a95-9dc"
+   },
+   {
+    "name": "Character",
+    "id": "faab-7bf0-0313-faa7",
+    "hidden": false,
+    "primary": true,
+    "targetId": "9cfd-1c32-585f-7d5c"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "c458-be5a-a373-6cb4",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 6
+   },
+   {
+    "id": "d015-e842-a3e4-18ff",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "9692-ddc6-9aeb-4847",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   },
+   {
+    "id": "ac9d-329a-82a3-79dc",
+    "field": "selections",
+    "includeChildSelections": true,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 130
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   },
+   {
+    "name": "Purgation Points",
+    "typeId": "d579-52c1-3e77-dd11",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "8455-442b-48d6-ed72",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "1f2e-4c6b-19f2-30e0",
+    "type": "selectionEntryGroup"
+   },
+   {
+    "name": "Warlord",
+    "id": "1e04-20dd-5083-1247",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 2,
+    "targetId": "beae-4593-3686-1672",
+    "type": "selectionEntry"
+   },
+   {
+    "name": "Enhancements",
+    "id": "9efb-316d-e7de-7533",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 3,
+    "targetId": "c440-b056-f09a-c88a",
+    "type": "selectionEntryGroup"
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Deadly Demise",
+    "id": "am5d-zh55-0x3w-17cv",
+    "hidden": false,
+    "targetId": "b68a-5ded-65ac-98c",
+    "type": "rule",
+    "modifiers": [
+     {
+      "field": "name",
+      "type": "append",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "name": "Deep Strike",
+    "id": "3add-130a-8f15-edba",
+    "hidden": false,
+    "targetId": "7cb5-dd6b-dd87-ad3b",
+    "type": "rule"
+   },
+   {
+    "name": "Gate of Infinity",
+    "id": "b240-a10d-be19-28ca",
+    "hidden": false,
+    "targetId": "6a5e-1316-2d87-93c5",
+    "type": "rule"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "d015-e842-a3e4-18ff",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "9692-ddc6-9aeb-4847",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     },
+     {
+      "field": "c458-be5a-a373-6cb4",
+      "type": "increment",
+      "value": 1,
+      "conditions": [
+       {
+        "childId": "43ea-7f95-0f84-2680",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "comment": "Boarding Actions modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "1d6e-2579-8e7f-1ed4",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "instanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "increment",
+    "value": 10,
+    "conditionGroups": [
+     {
+      "type": "and",
+      "localConditionGroups": [
+       {
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "repeats": 1,
+        "scope": "parent",
+        "type": "atLeast",
+        "value": 2,
+        "conditions": [
+         {
+          "childId": "any",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "before",
+          "value": 1
+         },
+         {
+          "childId": "bd43-b303-66e0-4c10",
+          "childName": "Venerable Dreadnought",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field": "ac9d-329a-82a3-79dc",
+    "type": "set",
+    "value": 2,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "roster",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Venerable Dreadnought",
+    "id": "51d0-128-5b9c-c280",
+    "hidden": false,
+    "typeId": "c547-1836-d8a-ff4f",
+    "typeName": "Unit",
+    "characteristics": [
+     {
+      "name": "M",
+      "$text": "8\"",
+      "typeId": "e703-ecb6-5ce7-aec1"
+     },
+     {
+      "name": "T",
+      "$text": "9",
+      "typeId": "d29d-cf75-fc2d-34a4"
+     },
+     {
+      "name": "Sv",
+      "$text": "2+",
+      "typeId": "450-a17e-9d5e-29da"
+     },
+     {
+      "name": "W",
+      "$text": "8",
+      "typeId": "750a-a2ec-90d3-21fe"
+     },
+     {
+      "name": "LD",
+      "$text": "6+",
+      "typeId": "58d2-b879-49c7-43bc"
+     },
+     {
+      "name": "OC",
+      "$text": "3",
+      "typeId": "bef7-942a-1a23-59f8"
+     },
+     {
+      "name": "InSv",
+      "$text": "",
+      "typeId": "55a7-5b54-c60d-11dc"
+     }
+    ]
+   },
+   {
+    "name": "Guidance of the Ancients (Psychic)",
+    "id": "9b3c-49ee-2ca0-7bcf",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a ^^**Grey Knights^^** model from your army makes an attack which targets that unit, add 1 to the Hit roll.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "Wargear",
+    "id": "eaf9-fb96-791b-593a",
+    "defaultSelectionEntryId": "b8bb-18b4-6b7f-9796",
+    "hidden": false,
+    "sortIndex": 4,
+    "selectionEntryGroups": [
+     {
+      "name": "Assault Cannon",
+      "id": "d9d1-01e7-b30e-bcaf",
+      "defaultSelectionEntryId": "8bc6-723c-4785-d65f",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "e2f1-b3b5-98dd-ce41",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "f468-29b2-ae25-4fd2",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Assault cannon",
+        "id": "8bc6-723c-4785-d65f",
+        "hidden": false,
+        "import": true,
+        "targetId": "3b83-a8bd-c154-613d",
+        "type": "selectionEntry",
+        "entryLinks": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "4e6a-5ba5-d340-258b",
+          "hidden": false,
+          "import": true,
+          "targetId": "0d47-adec-f8da-f1be",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       },
+       {
+        "name": "Heavy plasma cannon",
+        "id": "4fa2-dc48-b6a8-448e",
+        "hidden": false,
+        "import": true,
+        "targetId": "e621-47e3-a687-eb65",
+        "type": "selectionEntry",
+        "entryLinks": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "ffdc-bcce-2baa-3898",
+          "hidden": false,
+          "import": true,
+          "targetId": "0d47-adec-f8da-f1be",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       },
+       {
+        "name": "Twin lascannon",
+        "id": "3699-c3e1-e66a-7c6f",
+        "hidden": false,
+        "import": true,
+        "targetId": "34f9-dc04-80a5-4c11",
+        "type": "selectionEntry",
+        "entryLinks": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "701b-e7e8-8adc-2d9e",
+          "hidden": false,
+          "import": true,
+          "targetId": "0d47-adec-f8da-f1be",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Storm Bolter and Dreadnought Combat Weapon",
+      "id": "620b-24e8-bfc5-5b1b",
+      "defaultSelectionEntryId": "48f5-9797-90d0-0f80",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "ac6f-d5b5-df5f-2b60",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "fd22-2c35-dd13-7dcc",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Storm bolter and Dreadnought combat weapon",
+        "id": "48f5-9797-90d0-0f80",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "entryLinks": [
+         {
+          "name": "Storm bolter",
+          "id": "6d51-d882-e533-caef",
+          "hidden": false,
+          "import": true,
+          "targetId": "be2a-878d-7003-2f51",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "5d2f-ab2f-a963-58a0",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "4c4a-7fb6-0ed3-b2f8",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "ad6b-d05a-4e69-052c",
+            "hidden": false,
+            "import": true,
+            "targetId": "0d47-adec-f8da-f1be",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         },
+         {
+          "name": "Dreadnought combat weapon",
+          "id": "4feb-f82f-403a-98b1",
+          "hidden": false,
+          "import": true,
+          "targetId": "c2c4-2c15-c5a1-160a",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "e3f1-b4f4-045c-87e2",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "71a9-8b91-013b-1976",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "0156-eee1-de89-2f3a",
+            "hidden": false,
+            "import": true,
+            "targetId": "0d47-adec-f8da-f1be",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Heavy flamer and Dreadnought combat weapon",
+        "id": "a368-4293-a6c1-6c30",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "entryLinks": [
+         {
+          "name": "Heavy flamer",
+          "id": "f410-3e09-40cc-fa24",
+          "hidden": false,
+          "import": true,
+          "targetId": "80ad-cebe-9967-4093",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "9a7c-0f51-a182-3057",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "d570-70cc-9cbd-0c9a",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "d129-79bd-2db9-98d4",
+            "hidden": false,
+            "import": true,
+            "targetId": "0d47-adec-f8da-f1be",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         },
+         {
+          "name": "Dreadnought combat weapon",
+          "id": "c018-0d2f-df30-96ed",
+          "hidden": false,
+          "import": true,
+          "targetId": "c2c4-2c15-c5a1-160a",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "2ab6-76de-6001-0a31",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "9b66-15a2-30e6-1ca2",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Weapon Upgrades",
+            "id": "be15-ee32-5d9b-6170",
+            "hidden": false,
+            "import": true,
+            "targetId": "0d47-adec-f8da-f1be",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {
+   "beae-4593-3686-1672": {
+    "name": "Warlord",
+    "id": "beae-4593-3686-1672",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Warlord",
+      "id": "30ba-385e-aece-34ef",
+      "primary": false,
+      "targetId": "5c0e-4c31-d51b-e470"
+     }
+    ],
+    "constraints": [
+     {
+      "id": "f97-b336-21f1-ce3d",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ]
+   },
+   "3b83-a8bd-c154-613d": {
+    "name": "Assault cannon",
+    "id": "3b83-a8bd-c154-613d",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "7f23-0913-e792-2cd6",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Devastating Wounds",
+      "id": "e703-dfe4-e3e5-f875",
+      "hidden": false,
+      "targetId": "be1e-ac8e-1e2c-3528",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Assault cannon",
+      "id": "efe0-8125-9e39-3187",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "24\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "6",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "6",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Devastating Wounds",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "e621-47e3-a687-eb65": {
+    "name": "Heavy plasma cannon",
+    "id": "e621-47e3-a687-eb65",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "87a6-0426-a9ee-990f",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Attacks Dx Weapon",
+      "id": "e521-b6ed-b174-2afc",
+      "hidden": false,
+      "primary": false,
+      "targetId": "e993-e086-6de1-12af"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Hazardous",
+      "id": "8056-a849-d940-753c",
+      "hidden": false,
+      "targetId": "8367-374c-f87-c627",
+      "type": "rule"
+     },
+     {
+      "name": "Blast",
+      "id": "05e9-ec95-4092-56d4",
+      "hidden": false,
+      "targetId": "6c1f-1cf7-ff25-c99e",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "➤ Heavy plasma cannon - standard",
+      "id": "b5e1-2340-39f5-f072",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "36\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "7",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "2",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Blast",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     },
+     {
+      "name": "➤ Heavy plasma cannon - supercharge",
+      "id": "1871-d4ef-8c06-775a",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "36\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "8",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-3",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "3",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Blast, Hazardous",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "34f9-dc04-80a5-4c11": {
+    "name": "Twin lascannon",
+    "id": "34f9-dc04-80a5-4c11",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "92a9-4ec0-60ca-87e1",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Twin-linked",
+      "id": "84ff-5d74-8dcc-afe4",
+      "hidden": false,
+      "targetId": "cf93-ad4d-2f08-a79d",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Twin lascannon",
+      "id": "0ad2-3842-783e-ef55",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "48\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "1",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "12",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-3",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "D6+1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Twin-linked",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "be2a-878d-7003-2f51": {
+    "name": "Storm bolter",
+    "id": "be2a-878d-7003-2f51",
+    "comment": "BS3+",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "9812-68df-91a0-b557",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Rapid Fire",
+      "id": "85e1-12f6-8f78-a7a9",
+      "hidden": false,
+      "targetId": "c5c8-8b58-b8b6-7786",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Storm bolter",
+      "id": "9756-e60b-776b-cf23",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "24\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "2",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "4",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Rapid Fire 2",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "c2c4-2c15-c5a1-160a": {
+    "name": "Dreadnought combat weapon",
+    "id": "c2c4-2c15-c5a1-160a",
+    "collective": false,
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Melee Weapon",
+      "id": "d659-9b1b-5e60-83be",
+      "hidden": false,
+      "primary": false,
+      "targetId": "ccdd-3987-11ed-90cd"
+     }
+    ],
+    "costs": [
+     {
+      "name": "pts",
+      "typeId": "51b2-306e-1021-d207",
+      "value": 0
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Dreadnought combat weapon",
+      "id": "57f5-eeba-73cf-e204",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "5",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "3+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "12",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "3",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "$text": "",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "41a0-1301-112a-e2f2",
+        "type": "increment",
+        "value": 1,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "fd57-61c6-39a4-dee3",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "root-entry",
+            "shared": true,
+            "type": "atLeast",
+            "value": 1
+           },
+           {
+            "childId": "128d-c573-273f-47b5",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "self",
+            "shared": true,
+            "type": "atLeast",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "80ad-cebe-9967-4093": {
+    "name": "Heavy flamer",
+    "id": "80ad-cebe-9967-4093",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "6960-88b8-a07b-f645",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Attacks Dx Weapon",
+      "id": "8d1c-5891-3554-dcd7",
+      "hidden": false,
+      "primary": false,
+      "targetId": "e993-e086-6de1-12af"
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Ignores Cover",
+      "id": "dc69-00e6-4f72-0703",
+      "hidden": false,
+      "targetId": "4640-43e7-30b-215a",
+      "type": "rule"
+     },
+     {
+      "name": "Torrent",
+      "id": "ea14-fe21-236b-9519",
+      "hidden": false,
+      "targetId": "5edf-d619-23e0-9b56",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Heavy flamer",
+      "id": "8b85-297f-a555-c9c1",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "12\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D6",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "N/A",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "5",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-1",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Ignores Cover, Torrent",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "groups": {
+   "c440-b056-f09a-c88a": {
+    "name": "Enhancements",
+    "id": "c440-b056-f09a-c88a",
+    "collapsible": true,
+    "flatten": false,
+    "hidden": false,
+    "constraints": [
+     {
+      "id": "614a-7467-5d1b-1fed",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "self",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "entryLinks": [
+     {
+      "name": "Boarding Actions Enhancements",
+      "id": "a4dc-2661-eb90-4964",
+      "comment": "Boarding Actions content",
+      "hidden": false,
+      "import": true,
+      "targetId": "5a79-2c0b-66e4-2122",
+      "type": "selectionEntryGroup"
+     },
+     {
+      "name": "Breaching Operation Enhancements",
+      "id": "6a17-9efb-68f4-2ab1",
+      "comment": "Boarding Actions content",
+      "hidden": false,
+      "import": true,
+      "targetId": "fc3b-5a53-47b1-4b2d",
+      "type": "selectionEntryGroup"
+     }
+    ],
+    "selectionEntryGroups": [
+     {
+      "name": "Warpbane Task Force Enhancements",
+      "id": "04f9-8033-b71e-0afa",
+      "flatten": false,
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "b383-9f52-3b51-4e60",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "ce9d-e896-d9bc-767c",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Paragon of Sanctity",
+        "id": "729d-a08a-9b1f-5180",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "f3cc-9cbf-5d1b-66e4",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Paragon of Sanctity",
+          "id": "70e3-6650-d619-84d1",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**^^Grey Knights^^** model only. Once per battle, at the start of any phase, the bearer can select one friendly **^^Grey Knights^^** unit within 18\" of and visible to it. If it does, until the end of the phase, that unit is within your army’s Hallowed Ground.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Phial of the Abyss",
+        "id": "7234-e417-5ad1-5805",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "23a9-6134-9a00-01bc",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "cf47-a0d7-7207-29dc",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         },
+         {
+          "affects": "group",
+          "field": "add-info",
+          "scope": "root-entry",
+          "type": "add",
+          "value": "bec5-4288-34a6-ccfa"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Phial of the Abyss",
+          "id": "ae37-910b-18ac-cb9a",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**^^Grey Knights Infantry^^** model only. Models in the bearer’s unit have the Stealth ability.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Mandulian Reliquary",
+        "id": "15d6-0fd2-69cf-6c36",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "7b57-fd59-f6b1-ef3b",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Mandulian Reliquary",
+          "id": "22b8-9100-e8eb-2987",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**^^Grey Knights^^** model only. While the bearer’s unit is not Battle‑shocked, add 3 to the bearer’s Objective Control characteristic.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Radiant Champion",
+        "id": "706a-2af3-d7ec-bd6f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "9667-e4a5-cb15-8b66",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "cf47-a0d7-7207-29dc",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Radiant Champion",
+          "id": "21d9-2f2a-a34c-48e4",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**^^Grey Knights Infantry^^** model only. The bearer’s melee weapons have the [^^**Precision**^^] ability, and while the bearer is wholly within your army’s Hallowed Ground, each time a melee attack made by the bearer scores a wound, the target of that attack suffers 1 mortal wound in addition to any normal damage.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Hallowed Conclave Enhancements",
+      "id": "12fb-fc06-06c1-6a23",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "909a-d2e8-ba89-9e3b",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "bcb7-c2a7-e7fb-3aae",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Eye of the Augurium",
+        "id": "5311-c819-50b2-1464",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "0773-acd7-2b9c-87eb",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 25
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Eye of the Augurium",
+          "id": "a4g6-h8l0-1x7l-0jt5",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**GREY KNIGHTS** model only. You can target this unit with the **Heroic Intervention stratagem**, regardless of any other uses of that **stratagem** this phase. If you do:\n- That use is -1 CP.\n- That use does not prevent any uses of that **stratagem** on other units this phase.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Sanctic Reaper",
+        "id": "f290-4bcc-1798-6868",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "26da-49fa-d528-a37a",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
+            "field": "annotation",
+            "join": ", ",
+            "scope": "model",
+            "type": "append",
+            "value": "Sanctic Reaper"
+           },
+           {
+            "affects": "self.entries.recursive.e993-e086-6de1-12af.profiles.Melee Weapons",
+            "arg": "+0",
+            "field": "2337-daa1-6682-b110",
+            "join": "",
+            "scope": "model",
+            "type": "append",
+            "value": "+0"
+           },
+           {
+            "affects": "self.entries.recursive.6337-b83b-0d1e-5770.profiles.Melee Weapons",
+            "arg": "+0",
+            "field": "2337-daa1-6682-b110",
+            "scope": "model",
+            "type": "replace"
+           },
+           {
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
+            "field": "2337-daa1-6682-b110",
+            "position": -1,
+            "scope": "model",
+            "type": "increment",
+            "value": 3
+           },
+           {
+            "affects": "self.entries.recursive.84c4-6d1e-e724-bd6e.profiles.Melee Weapons",
+            "field": "2337-daa1-6682-b110",
+            "position": -1,
+            "scope": "model",
+            "type": "decrement",
+            "value": 3
+           },
+           {
+            "affects": "self.entries.recursive.profiles.Melee Weapons",
+            "arg": "+0",
+            "field": "2337-daa1-6682-b110",
+            "scope": "model",
+            "type": "replace"
+           },
+           {
+            "affects": "self.entries.recursive.e993-e086-6de1-12af",
+            "arg": "+0",
+            "field": "category",
+            "scope": "model",
+            "type": "add",
+            "value": "6337-b83b-0d1e-5770"
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "740a-892c-8958-defa",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Sanctic Reaper",
+          "id": "p1x9-r402-ww99-xorm",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights Terminator^^** model only. Add 3 to the Attacks characteristic of the bearer's melee weapons.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Inescapable Judgement (Psychic)",
+        "id": "8084-85d-a3a4-87e6",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "0a74-718d-3bd1-3681",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Inescapable Judgement (Psychic)",
+          "id": "4o2d-b9qr-3b0z-8855",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only.  Each time an enemy unit within Engagement Range of the bearer's unit Falls Back, the bearer can use this Enhancement. If it does, roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds. These mortal wounds are Psychic Attacks.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Nemesis Rounds",
+        "id": "d0c9-fd98-de1b-6d43",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "27d6-2062-27c7-80bf",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "740a-892c-8958-defa",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Nemesis Rounds",
+          "id": "b262-6252-ce59-4b30",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights Terminator^^** model only.  Each time you target the bearer's unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ while resolving that Stratagem.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Sanctic Spearhead Enhancements",
+      "id": "d8b9-6b2f-6d41-c465",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "1755-148b-d74c-56e9",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "fb9d-20f7-3a78-22a3",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Sigil of Exigence",
+        "id": "a8ae-3a93-2fa9-fbce",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "0c03-1ef0-3061-3aac",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 30
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Sigil of Exigence",
+          "id": "6729-b23c-dbe3-b515",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. Once per battle, in your opponent's Shooting phase, when the bearer's unit is selected as the target of a ranged attack, you can remove the bearer's unit from the battlefield and then set it back up again anywhere on the battlefield that is more than 8\" horizontally away from all enemy units. If the bearer's unit is no longer an eligible target, your opponent can then select new targets for any attacks that had targeted the bearer's unit.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Driven by Duty",
+        "id": "3c38-009d-9e25-55f8",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "b7dc-c7f7-b6b8-a560",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "6dda-e157-334d-e93a",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Driven by Duty",
+          "id": "4b94-1761-1a28-75bf",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights Walker^^** model only. Each time the bearer's unit Piles In or Consolidates, the bearer can move up to 6\" instead of 3\".",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Quickening Foci",
+        "id": "856c-69d8-2fc8-8f80",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "dc56-9165-c154-fe60",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "cf47-a0d7-7207-29dc",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Quickening Foci",
+          "id": "9ad1-1ba9-947b-1ac3",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights Infantry^^** model only.  In your Movement phase, each time the bearer's unit disembarks from a ^^**Transport**^^, until the end of the turn, you can re-roll Charge rolls made for that unit.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Spiritus Machina",
+        "id": "fe7e-1f68-32cd-2f16",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "3f2c-d851-078c-fdbd",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 25
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "cf47-a0d7-7207-29dc",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Spiritus Machina",
+          "id": "58d8-e21c-c54c-04bb",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights Infantry^^** model only. In your Shooting phase, each time the bearer's unit is selected to shoot, if the bearer's unit disembarked from a ^^**Transport^^** this turn, until the end of the phase, each time a model in the bearer's unit makes an attack, you can re-roll the Wound roll.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Brotherhood Strike Enhancements",
+      "id": "2b2b-79a6-8af2-8dd9",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "544b-701d-b5f9-52f8",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "3f06-4e57-edb4-28e5",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Blinding Aura",
+        "id": "9264-31fe-7ae2-98a3",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "0b4c-c64b-6709-f694",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Blinding Aura",
+          "id": "65fd-ae27-3845-3ecb",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. Each time the bearer's unit is set up using the Deep Strike ability, until the end of the turn, enemy units cannot use the Fire Overwatch ability to shoot at the bearer's unit.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Tome of Forbidden Ways",
+        "id": "9e5e-7b9a-9ccb-9ec9",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "e677-bed3-f883-56cd",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 25
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Tome of Forbidden Ways",
+          "id": "fc31-b3b0-cd3e-9004",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. While the bearer is on the battlefield or in Strategic Reserves, add 1 to the number of units from your army that you can select for the Gate of Infinity rule.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Banishing Wave (Psychic)",
+        "id": "53d5-cb9a-c034-d6c9",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "be81-d929-28a8-2f86",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Banishing Wave (Psychic)",
+          "id": "2f83-3296-79fd-c6de",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only.  Each time the bearer's unit is set up using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of the bearer: on a 2-5, that unit suffers 1 mortal wound; on a 6, that unit suffers D3 mortal wounds.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Purity of Purpose",
+        "id": "981f-93de-3614-8ab7",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "fe6b-2e29-312a-b8b2",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Purity of Purpose",
+          "id": "6d82-151d-51dc-99c1",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. Each time the bearer's unit is set up using the Deep Strike ability, until the end of the turn, you can re-roll Charge rolls made for the bearer's unit.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Banishers Enhancements",
+      "id": "2fac-f1ac-1521-2196",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "fbc3-53a4-b018-de85",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "1eb7-d49c-5fd4-9906",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Pyresoul (Psychic)",
+        "id": "5a01-f1f1-db42-1453",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "e4a9-498d-582c-0fd3",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Pyresoul (Psychic)",
+          "id": "8e4d-bc3b-4c3c-7d3b",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. At the start of your Shooting phase, the bearer can use this Enhancement. If it does, select one enemy unit within 24\" of and visible to the bearer; that enemy unit suffers D3 mortal wounds.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Ephemeral Tome",
+        "id": "9af9-320a-64f0-c741",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "a74e-f16c-ba7b-89a1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "cf47-a0d7-7207-29dc",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Ephemeral Tome",
+          "id": "021b-f3c9-7fc9-9cbc",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. At the start of your Shooting phase, if the bearer's unit is not within Engagement Range of one or more enemy units, the bearer can use this Enhancement. If it does, the bearer's unit can make a Normal Move of up to D6\" and, until the end of the turn, the bearer's unit is not eligible to declare a Charge.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Sixty-sixth Seal",
+        "id": "54af-e64e-34b5-d9bd",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "3b0c-f057-2c2f-b607",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 25
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Sixty-sixth Seal",
+          "id": "b9ea-1a55-a55e-4ab5",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only.  In your Shooting phase, each time a model in the bearer's unit makes an attack, improve the Armour Penetration characteristic of that attack by 1.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Sigil of the Hunt",
+        "id": "14e8-e8fd-ac0f-6924",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "8be7-f43a-baa1-683f",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Sigil of the Hunt",
+          "id": "1af8-0854-8cbf-3bd7",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. In your Shooting phase, each time a model in the bearer's unit makes an attack, re-roll a Hit roll of 1.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Augurium Task Force Enhancements",
+      "id": "f497-18fe-f9ef-1c18",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "8a66-adc5-5176-6ddb",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "9ed8-0b64-4e6a-5733",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "One Foot in the Future",
+        "id": "c611-bc2c-1f4a-383f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "4d15-0ffd-9e05-2746",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "One Foot in the Future",
+          "id": "76e1-e04b-88aa-9bce",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**GREY KNIGHTS** model only. When this unit ends an **ingress move**, you can use this ability. If you do:\n- This unit can make a **normal move** of up to D6\".\n- Until the end of the turn, this unit is <ins>not</ins> **eligible to declare a charge**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Doomseer's Amulet",
+        "id": "160b-59d1-c37e-d3d5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "b4e9-2d8a-e0ac-bd3e",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 25
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Doomseer's Amulet",
+          "id": "888a-664a-37cb-79a1",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. Each time the bearer's unit is set up in your Reinforcements step, the bearer can use this Enhancement. If it does, select one enemy unit within 12\" of and visible to the bearer. That enemy unit must take a Battle-shock test, subtracting one from that test.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Grimoire of Conjunctions",
+        "id": "2678-0019-5c33-c623",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "9c0e-9c6f-c5dc-696a",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Grimoire of Conjunctions",
+          "id": "76bb-cf93-ffc5-a6a4",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only.  Once per battle, at the start of the Fight phase, the bearer can use this Enhancement. If it does, until the end of the phase, add 4 to the Strength characteristic of melee weapons equipped by the bearer.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Shield of Prophecy",
+        "id": "b12b-6a6b-1572-808d",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "f550-7474-8053-97fb",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Shield of Prophecy",
+          "id": "e9d7-370f-2d75-889a",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "^^**Grey Knights^^** model only. Once per battle, at the start of the battle round, the bearer can use this Enhancement. If it does, until the end of the battle round, add 2 to the Toughness characteristic of models in the bearer's unit.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Void Purge Force Enhancements",
+      "id": "9487-bcf5-1468-91d3",
+      "comment": "Boarding Actions content",
+      "hidden": false,
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditions": [
+           {
+            "childId": "1d6e-2579-8e7f-1ed4",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           },
+           {
+            "childId": "ae8e-359f-01ff-52d1",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Tactical Haruspexy",
+        "id": "4d38-f88c-e465-d577",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+         {
+          "name": "Grenades",
+          "id": "7678-eed6-d4a5-6af6",
+          "hidden": false,
+          "primary": false,
+          "targetId": "5a61-81ac-eb7c-a87e"
+         }
+        ],
+        "constraints": [
+         {
+          "id": "db95-7f89-c56f-b8f1",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Diplomatic Power",
+          "typeId": "4d7c-04b6-8a79-837f",
+          "value": 0
+         },
+         {
+          "name": "Military Power",
+          "typeId": "1cbe-d9c9-86a8-2d41",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "4d38-f88c-e465-d577",
+              "field": "selections",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             },
+             {
+              "childId": "4d38-f88c-e465-d577",
+              "field": "selections",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "parent",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Tactical Haruspexy",
+          "id": "1b81-4728-0f8c-a966",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "Once per battle, when the bearer declares a charge, it can use this Enhancement. If it does, it can select units that are not visible to it as targets of that charge, provided they are within 9\" of it.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Sigil of Warding",
+        "id": "a614-d14d-a7c0-88ee",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+         {
+          "name": "Grenades",
+          "id": "7627-cda1-8360-56a3",
+          "hidden": false,
+          "primary": false,
+          "targetId": "5a61-81ac-eb7c-a87e"
+         }
+        ],
+        "constraints": [
+         {
+          "id": "aad1-7119-18d4-5f2f",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Diplomatic Power",
+          "typeId": "4d7c-04b6-8a79-837f",
+          "value": 0
+         },
+         {
+          "name": "Military Power",
+          "typeId": "1cbe-d9c9-86a8-2d41",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "a614-d14d-a7c0-88ee",
+              "field": "selections",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             },
+             {
+              "childId": "a614-d14d-a7c0-88ee",
+              "field": "selections",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "parent",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Sigil of Warding",
+          "id": "d7fe-729f-bf93-0089",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "Once per battle, at the end of your Shooting phase, the bearer can use this Enhancement. If it does, it can make a Normal move of up to 3\" and can then attempt to operate a Hatchway. The bearer is then not eligible to declare a charge this turn.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Baneslayer Strike Enhancements",
+      "id": "6c1b-b140-6c5e-dc9a",
+      "comment": "Boarding Actions content",
+      "hidden": false,
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditions": [
+           {
+            "childId": "1d6e-2579-8e7f-1ed4",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           },
+           {
+            "childId": "29c0-f8cf-111e-a87c",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Close and Sanction",
+        "id": "1400-3944-7782-e8a0",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+         {
+          "name": "Grenades",
+          "id": "82c2-b7ed-f733-a403",
+          "hidden": false,
+          "primary": false,
+          "targetId": "5a61-81ac-eb7c-a87e"
+         }
+        ],
+        "constraints": [
+         {
+          "id": "1e40-7587-1a56-6cd8",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Diplomatic Power",
+          "typeId": "4d7c-04b6-8a79-837f",
+          "value": 0
+         },
+         {
+          "name": "Military Power",
+          "typeId": "1cbe-d9c9-86a8-2d41",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "1400-3944-7782-e8a0",
+              "field": "selections",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             },
+             {
+              "childId": "1400-3944-7782-e8a0",
+              "field": "selections",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "parent",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Close and Sanction",
+          "id": "947e-04eb-0ca3-7f64",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "In your opponent's Shooting phase, each time an enemy unit is selected to shoot, after that unit has shot, if the bearer was hit by one or more of those attacks, the bearer can make a Dash move. To do so, roll one D6: the bearer can be moved a distance in inches up to the result, but it must finish that move as close as possible to the closest visible enemy unit. When doing so, it can be moved within Engagement Range of that enemy unit. The bearer can only make one Dash move per phase.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Shield of Admonishment",
+        "id": "da9b-236f-e84a-b2ec",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "categoryLinks": [
+         {
+          "name": "Grenades",
+          "id": "4971-dc24-8b1e-3c68",
+          "hidden": false,
+          "primary": false,
+          "targetId": "5a61-81ac-eb7c-a87e"
+         }
+        ],
+        "constraints": [
+         {
+          "id": "2850-78fa-3782-f887",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Diplomatic Power",
+          "typeId": "4d7c-04b6-8a79-837f",
+          "value": 0
+         },
+         {
+          "name": "Military Power",
+          "typeId": "1cbe-d9c9-86a8-2d41",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "da9b-236f-e84a-b2ec",
+              "field": "selections",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             },
+             {
+              "childId": "da9b-236f-e84a-b2ec",
+              "field": "selections",
+              "includeChildForces": true,
+              "includeChildSelections": true,
+              "scope": "parent",
+              "shared": true,
+              "type": "lessThan",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Shield of Admonishment",
+          "id": "2b17-fd21-a7c5-d15d",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "Each time a melee attack targets the bearer, subtract 1 from the Hit roll.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Argent Assault Enhancements",
+      "id": "66bd-c915-c5b9-97a9",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "e27d-e407-3913-fe11",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "childId": "45aa-c450-8fb0-92c2",
+            "childName": "Argent Assault",
+            "field": "selections",
+            "includeChildForces": true,
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Psychic Celerity",
+        "id": "d56d-a1c0-78c2-7649",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "3ea2-fd45-fb0f-f063",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "740a-892c-8958-defa",
+            "childName": "Terminator",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Psychic Celerity",
+          "id": "3e2a-db74-1099-8ee5",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**TERMINATOR** model only. This unit has +1 to **charge rolls**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Vigilance of Titan",
+        "id": "8e65-2f4d-df16-cc4b",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "0ea3-cea5-5aa2-4f65",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         },
+         {
+          "name": "Purgation Points",
+          "typeId": "d579-52c1-3e77-dd11",
+          "value": 0
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "740a-892c-8958-defa",
+            "childName": "Terminator",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Vigilance of Titan",
+          "id": "3ad8-cd58-9daa-a001",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**TERMINATOR** model only. At the start of your Shooting phase, you can select one **visible** enemy unit within 12\" of this unit. That enemy unit has +6\" **detection range**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "profiles": {}
+ }
+}

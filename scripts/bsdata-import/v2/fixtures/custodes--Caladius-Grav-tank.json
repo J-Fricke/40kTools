@@ -1,0 +1,932 @@
+{
+ "unit": {
+  "name": "Caladius Grav-tank",
+  "id": "3ee2-62a9-af84-1a90",
+  "collective": false,
+  "hidden": false,
+  "import": true,
+  "type": "model",
+  "categoryLinks": [
+   {
+    "name": "Vehicle",
+    "id": "caf1-4ba1-dc3f-4a05",
+    "hidden": false,
+    "primary": true,
+    "targetId": "dbd4-63-af05-998"
+   },
+   {
+    "name": "Fly",
+    "id": "0ff7-f4bb-16cd-f6c6",
+    "hidden": false,
+    "primary": false,
+    "targetId": "c619-2086-bbcf-69c9"
+   },
+   {
+    "name": "Imperium",
+    "id": "be97-c0d9-d442-4925",
+    "hidden": false,
+    "primary": false,
+    "targetId": "aff3-d6a3-2a95-9dc"
+   },
+   {
+    "name": "Caladius Grav-tank",
+    "id": "4d99-188b-7886-fd82",
+    "hidden": false,
+    "primary": false,
+    "targetId": "90db-e524-617d-fcbf"
+   },
+   {
+    "name": "Faction: Adeptus Custodes",
+    "id": "c0a6-1475-3ef0-63c2",
+    "hidden": false,
+    "primary": false,
+    "targetId": "eea5-aeaf-bbf0-d5ee"
+   },
+   {
+    "name": "Frame",
+    "id": "8a7b-6cc9-6dbb-4d94",
+    "hidden": false,
+    "primary": false,
+    "targetId": "b927-8eeb-7cc3-8dec"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "4eec-c033-76c4-0a1b",
+    "field": "selections",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "percentValue": false,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "4af4-784e-412f-b53f",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "e5b5-0b98-be79-b65a",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "4dfd-654b-f779-eefb",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 210
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "3fae-20e5-81f8-1b63",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "dffe-91f2-f156-0566",
+    "type": "selectionEntryGroup"
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Martial Ka'tah",
+    "id": "afaf-6f6f-5626-dc1f",
+    "hidden": false,
+    "targetId": "e348-7090-3aff-ee2c",
+    "type": "rule"
+   },
+   {
+    "name": "Deadly Demise",
+    "id": "f6fc-4db5-18b6-ef46",
+    "hidden": false,
+    "targetId": "b68a-5ded-65ac-98c",
+    "type": "rule",
+    "modifiers": [
+     {
+      "field": "name",
+      "type": "append",
+      "value": "D3"
+     }
+    ]
+   },
+   {
+    "name": "Talons",
+    "id": "dcd7-cac-c041-2ca1",
+    "hidden": false,
+    "targetId": "1cd2-aeaf-6c00-ec0",
+    "type": "infoGroup"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "4af4-784e-412f-b53f",
+      "type": "set",
+      "value": 6,
+      "conditions": [
+       {
+        "childId": "1511-18fe-f51e-7b9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "e5b5-0b98-be79-b65a",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "4dfd-654b-f779-eefb",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "4eec-c033-76c4-0a1b",
+    "type": "set",
+    "value": 2,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "force",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "increment",
+    "value": 15,
+    "conditionGroups": [
+     {
+      "type": "and",
+      "localConditionGroups": [
+       {
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "repeats": 1,
+        "scope": "parent",
+        "type": "atLeast",
+        "value": 2,
+        "conditions": [
+         {
+          "childId": "any",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "before",
+          "value": 1
+         },
+         {
+          "childId": "3ee2-62a9-af84-1a90",
+          "childName": "Caladius Grav-tank",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Caladius Grav-tank",
+    "id": "f676-72df-2ed7-8834",
+    "hidden": false,
+    "typeId": "c547-1836-d8a-ff4f",
+    "typeName": "Unit",
+    "characteristics": [
+     {
+      "name": "M",
+      "$text": "10\"",
+      "typeId": "e703-ecb6-5ce7-aec1"
+     },
+     {
+      "name": "T",
+      "$text": "11",
+      "typeId": "d29d-cf75-fc2d-34a4"
+     },
+     {
+      "name": "Sv",
+      "$text": "2+",
+      "typeId": "450-a17e-9d5e-29da"
+     },
+     {
+      "name": "W",
+      "$text": "14",
+      "typeId": "750a-a2ec-90d3-21fe"
+     },
+     {
+      "name": "LD",
+      "$text": "6+",
+      "typeId": "58d2-b879-49c7-43bc"
+     },
+     {
+      "name": "OC",
+      "$text": "4",
+      "typeId": "bef7-942a-1a23-59f8"
+     },
+     {
+      "name": "InSv",
+      "$text": "5+",
+      "typeId": "55a7-5b54-c60d-11dc"
+     }
+    ]
+   },
+   {
+    "name": "Advanced Firepower",
+    "id": "60a4-507e-da36-683c",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Each time this model makes an attack with its Twin iliastus accelerator cannon that targets an enemy unit (excluding MONSTERS and VEHICLES), that attack has the [LETHAL HITS] ability. Each time this model makes an attack with its Twin arachnus heavy blaze cannon that targets an enemy MONSTER or VEHICLE unit, that attack has the [LETHAL HITS] ability.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   },
+   {
+    "name": "Damaged: 1-5 wounds remaining",
+    "id": "6070-91c7-6463-31cd",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "Wargear",
+    "id": "5043-dc01-5cbc-9328",
+    "hidden": false,
+    "sortIndex": 2,
+    "selectionEntries": [
+     {
+      "name": "Armoured hull",
+      "id": "dca3-638e-52a2-b1b8",
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "1a95-f711-a6d0-ecb2-min",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "1a95-f711-a6d0-ecb2-max",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Weapon Modifications",
+        "id": "8909-6dbb-80c5-dfab",
+        "flatten": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f9da-852a-d7f0-92e9",
+        "type": "selectionEntryGroup"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Armoured hull",
+        "id": "14e3-fad3-7a64-7dc8",
+        "hidden": false,
+        "typeId": "8a40-4aaa-c780-9046",
+        "typeName": "Melee Weapons",
+        "characteristics": [
+         {
+          "name": "Range",
+          "$text": "Melee",
+          "typeId": "914c-b413-91e3-a132"
+         },
+         {
+          "name": "A",
+          "$text": "4",
+          "typeId": "2337-daa1-6682-b110"
+         },
+         {
+          "name": "WS",
+          "$text": "4+",
+          "typeId": "95d1-95f-45b4-11d6"
+         },
+         {
+          "name": "S",
+          "$text": "6",
+          "typeId": "ab33-d393-96ce-ccba"
+         },
+         {
+          "name": "AP",
+          "$text": "0",
+          "typeId": "41a0-1301-112a-e2f2"
+         },
+         {
+          "name": "D",
+          "$text": "1",
+          "typeId": "3254-9fe6-d824-513e"
+         },
+         {
+          "name": "Keywords",
+          "typeId": "893f-9000-ccf7-648e"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Twin lastrum bolt cannon",
+      "id": "62a1-1fa7-70b7-614d",
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "e313-d823-1a5d-893a-min",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "e313-d823-1a5d-893a-max",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Weapon Modifications",
+        "id": "f09f-41a9-cf70-6041",
+        "flatten": false,
+        "hidden": false,
+        "import": true,
+        "targetId": "f9da-852a-d7f0-92e9",
+        "type": "selectionEntryGroup"
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Sustained Hits",
+        "id": "4541-2679-5ae0-cfaf",
+        "hidden": false,
+        "targetId": "1897-c22c-9597-12b1",
+        "type": "rule"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Twin lastrum bolt cannon",
+        "id": "9992-31de-4b34-25f9",
+        "hidden": false,
+        "typeId": "f77d-b953-8fa4-b762",
+        "typeName": "Ranged Weapons",
+        "characteristics": [
+         {
+          "name": "Range",
+          "$text": "36\"",
+          "typeId": "9896-9419-16a1-92fc"
+         },
+         {
+          "name": "A",
+          "$text": "3",
+          "typeId": "3bb-c35f-f54-fb08"
+         },
+         {
+          "name": "BS",
+          "$text": "2+",
+          "typeId": "94d-8a98-cf90-183e"
+         },
+         {
+          "name": "S",
+          "$text": "6",
+          "typeId": "2229-f494-25db-c5d3"
+         },
+         {
+          "name": "AP",
+          "$text": "-1",
+          "typeId": "9ead-8a10-520-de15"
+         },
+         {
+          "name": "D",
+          "$text": "1",
+          "typeId": "a354-c1c8-a745-f9e3"
+         },
+         {
+          "name": "Keywords",
+          "$text": "Sustained Hits 1",
+          "typeId": "7f1b-8591-2fcf-d01c"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "selectionEntryGroups": [
+     {
+      "name": "Equipped with",
+      "id": "cbfe-9c88-8c0d-d293",
+      "collective": false,
+      "defaultSelectionEntryId": "28a6-d971-1c4d-6bf6",
+      "hidden": false,
+      "import": true,
+      "constraints": [
+       {
+        "id": "af4a-20ff-095b-66bb",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "1f07-ee65-491c-284d",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Twin iliastus accelerator cannon",
+        "id": "28a6-d971-1c4d-6bf6",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "7806-8fda-f86b-94e2",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Twin-linked",
+          "id": "dd14-2fe9-315a-26e7",
+          "hidden": false,
+          "targetId": "cf93-ad4d-2f08-a79d",
+          "type": "rule"
+         },
+         {
+          "name": "Rapid Fire",
+          "id": "1645-a206-afb9-f626",
+          "hidden": false,
+          "targetId": "c5c8-8b58-b8b6-7786",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Twin iliastus accelerator cannon",
+          "id": "203c-c496-58fc-29b8",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "48\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "4",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "2+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "10",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-1",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "3",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Rapid Fire 4, Twin-linked",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Twin arachnus heavy blaze cannon",
+        "id": "65f3-bcd5-17ad-e068",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "f7ff-2698-3b0e-2f28",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Twin-linked",
+          "id": "2488-aa04-fd76-e05f",
+          "hidden": false,
+          "targetId": "cf93-ad4d-2f08-a79d",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Twin arachnus heavy blaze cannon",
+          "id": "6b79-41bc-9ce3-ba57",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "48\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "4",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "2+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "12",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-3",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "D6+2",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Twin-linked",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {},
+  "groups": {},
+  "profiles": {}
+ }
+}

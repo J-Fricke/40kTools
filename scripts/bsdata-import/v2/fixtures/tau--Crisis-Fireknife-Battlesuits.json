@@ -1,0 +1,2348 @@
+{
+ "unit": {
+  "name": "Crisis Fireknife Battlesuits",
+  "id": "9373-d0b3-94c9-e47",
+  "hidden": false,
+  "import": true,
+  "type": "unit",
+  "categoryLinks": [
+   {
+    "name": "Vehicle",
+    "id": "db2b-1da9-29de-e77e",
+    "primary": true,
+    "targetId": "dbd4-63-af05-998"
+   },
+   {
+    "name": "Walker",
+    "id": "5ed-de59-9c68-3d0c",
+    "primary": false,
+    "targetId": "6dda-e157-334d-e93a"
+   },
+   {
+    "name": "Fly",
+    "id": "4606-6b00-8d2d-b5eb",
+    "primary": false,
+    "targetId": "c619-2086-bbcf-69c9"
+   },
+   {
+    "name": "Battlesuit",
+    "id": "c2af-c390-62fe-4b5e",
+    "primary": false,
+    "targetId": "7288-48b3-c4df-66c6"
+   },
+   {
+    "name": "Crisis",
+    "id": "5ee5-4535-217e-6423",
+    "primary": false,
+    "targetId": "5409-827f-b23f-5ac"
+   },
+   {
+    "name": "Faction: T'au Empire",
+    "id": "fc8b-b78b-aaa6-ee4a",
+    "primary": false,
+    "targetId": "3d58-2655-391e-ecc"
+   },
+   {
+    "name": "Fireknife",
+    "id": "e62a-b590-b74b-3532",
+    "primary": false,
+    "targetId": "d372-6d2c-2df2-8e91"
+   },
+   {
+    "name": "Non-Kroot",
+    "id": "7d3d-f8ca-6518-92cd",
+    "hidden": false,
+    "primary": false,
+    "targetId": "4814-7b6d-aea6-4228"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "37c0-87ad-e96a-fd73",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "52f0-f224-3509-44fc",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "00df-4ade-8232-857b",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   },
+   {
+    "id": "770a-3150-2919-73f4",
+    "field": "selections",
+    "includeChildSelections": true,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "999d-75ac-497b-d557",
+    "childId": "any",
+    "field": "f759-1bc4-cb3a-f0d2",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "message": "An Attached Unit can only take 1 Enhancement.",
+    "scope": "root-entry",
+    "shared": true,
+    "traverseAssociationGroup": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "6c53-709b-7456-ebd3",
+    "childId": "1556-9b56-fba6-4370",
+    "childName": "Leader",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "9416-2c1e-608d-e925",
+    "childId": "7dcd-7f61-69a7-0294",
+    "childName": "Support",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 100
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   },
+   {
+    "name": "Diplomatic Power",
+    "typeId": "4d7c-04b6-8a79-837f",
+    "value": 0
+   },
+   {
+    "name": "Military Power",
+    "typeId": "1cbe-d9c9-86a8-2d41",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "4deb-cbd5-7141-d0a6",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "bc88-2f42-15bd-1714",
+    "type": "selectionEntryGroup"
+   },
+   {
+    "name": "Warlord",
+    "id": "0b8f-65f4-8e82-4618",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 2,
+    "targetId": "179c-d88a-d49b-48b9",
+    "type": "selectionEntry",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "or",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 1
+         },
+         {
+          "childId": "9cfd-1c32-585f-7d5c",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Deep Strike",
+    "id": "20eb-4810-f7df-86bd",
+    "hidden": false,
+    "targetId": "7cb5-dd6b-dd87-ad3b",
+    "type": "rule",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "1d6e-2579-8e7f-1ed4",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "instanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "For The Greater Good",
+    "id": "3d7f-a105-8d5-63fb",
+    "hidden": false,
+    "targetId": "eeb6-c42-48f7-cc21",
+    "type": "rule"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "37c0-87ad-e96a-fd73",
+      "type": "set",
+      "value": 6,
+      "conditions": [
+       {
+        "childId": "1511-18fe-f51e-7b9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "52f0-f224-3509-44fc",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "00df-4ade-8232-857b",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "comment": "Boarding Actions modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         },
+         {
+          "childId": "7e3b-b9cf-5be0-8bc1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "lessThan",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "770a-3150-2919-73f4",
+      "type": "set",
+      "value": 1,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         },
+         {
+          "childId": "7e3b-b9cf-5be0-8bc1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "error",
+      "type": "add",
+      "value": "Can only take 1 unit of Crisis Battlesuits in Starfire Cadre.",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         },
+         {
+          "childId": "7e3b-b9cf-5be0-8bc1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         },
+         {
+          "childId": "5409-827f-b23f-5ac",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 2
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "affects": "self.entries.recursive.profiles.Unit",
+      "field": "e703-ecb6-5ce7-aec1",
+      "type": "ceil",
+      "value": 9,
+      "conditions": [
+       {
+        "childId": "1d6e-2579-8e7f-1ed4",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "instanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "increment",
+    "value": 10,
+    "conditionGroups": [
+     {
+      "type": "and",
+      "localConditionGroups": [
+       {
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "repeats": 1,
+        "scope": "parent",
+        "type": "atLeast",
+        "value": 2,
+        "conditions": [
+         {
+          "childId": "any",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "before",
+          "value": 1
+         },
+         {
+          "childId": "9373-d0b3-94c9-e47",
+          "childName": "Crisis Fireknife Battlesuits",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field": "770a-3150-2919-73f4",
+    "type": "set",
+    "value": 2,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "roster",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Fireknife",
+    "id": "f3d6-87dc-9a02-a9eb",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   },
+   {
+    "name": "Weapon Support System",
+    "id": "69a4-3159-581f-40ff",
+    "comment": "Fireknife variant",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  ],
+  "selectionEntries": [
+   {
+    "name": "Crisis Fireknife Shas’ui",
+    "id": "db78-ea1-7fc2-2fac",
+    "collective": false,
+    "defaultAmount": "1,1",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 4,
+    "type": "model",
+    "constraints": [
+     {
+      "id": "abf0-db7-dfbb-a1b4",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "min",
+      "value": 2
+     },
+     {
+      "id": "4246-25e1-d5d1-729c",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 2
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Crisis Fireknife Shas’ui",
+      "id": "7c53-caae-a6de-aac1",
+      "hidden": false,
+      "typeId": "c547-1836-d8a-ff4f",
+      "typeName": "Unit",
+      "characteristics": [
+       {
+        "name": "M",
+        "$text": "10\"",
+        "typeId": "e703-ecb6-5ce7-aec1"
+       },
+       {
+        "name": "T",
+        "$text": "5",
+        "typeId": "d29d-cf75-fc2d-34a4"
+       },
+       {
+        "name": "Sv",
+        "$text": "3+",
+        "typeId": "450-a17e-9d5e-29da"
+       },
+       {
+        "name": "W",
+        "$text": "4",
+        "typeId": "750a-a2ec-90d3-21fe"
+       },
+       {
+        "name": "LD",
+        "$text": "7+",
+        "typeId": "58d2-b879-49c7-43bc"
+       },
+       {
+        "name": "OC",
+        "$text": "2",
+        "typeId": "bef7-942a-1a23-59f8"
+       },
+       {
+        "name": "InSv",
+        "$text": "",
+        "typeId": "55a7-5b54-c60d-11dc"
+       }
+      ]
+     }
+    ],
+    "selectionEntryGroups": [
+     {
+      "name": "Wargear",
+      "id": "26e8-3116-91aa-ea5b",
+      "hidden": false,
+      "entryLinks": [
+       {
+        "name": "Drones (0-2)",
+        "id": "3a3c-5ce9-5a05-7c6e",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "sortIndex": 3,
+        "targetId": "8af8-6f80-96ef-6cdf",
+        "type": "selectionEntryGroup"
+       },
+       {
+        "name": "Battlesuit fists",
+        "id": "e079-9c53-1b99-67fd",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "targetId": "d357-859f-3b61-42f1",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "b377-0b3c-23df-de83",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "77cc-b4ce-b526-1e1f",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "selectionEntryGroups": [
+       {
+        "name": "Weapons",
+        "id": "57b3-be86-424c-07a3",
+        "hidden": false,
+        "sortIndex": 2,
+        "constraints": [
+         {
+          "id": "afda-e975-f73b-84a3",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 2
+         },
+         {
+          "id": "5b70-1dfa-e3a0-bbc0",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 2
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Plasma rifle",
+          "id": "3b76-4791-cbc3-2534",
+          "defaultAmount": 1,
+          "hidden": false,
+          "import": true,
+          "targetId": "a9c5-8f1f-cbad-f1d3",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "95e1-3e55-ff31-d9fd",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+           }
+          ]
+         },
+         {
+          "name": "Missile pod",
+          "id": "0ea4-6323-6103-5675",
+          "defaultAmount": 1,
+          "hidden": false,
+          "import": true,
+          "targetId": "8290-c852-cce9-d50e",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "55c4-d121-849a-b484",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+           }
+          ],
+          "costs": [
+           {
+            "name": "pts",
+            "typeId": "51b2-306e-1021-d207",
+            "value": 5
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "Crisis Fireknife Shas’vre",
+    "id": "8a97-0161-5e7c-076c",
+    "hidden": false,
+    "sortIndex": 3,
+    "selectionEntries": [
+     {
+      "name": "Crisis Fireknife Shas’vre",
+      "id": "5305-e471-6851-5424",
+      "collective": false,
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "ad54-f8d7-846f-17f2",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "f119-ff8c-50a7-1ecc",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Totemic Presence upgrade",
+        "id": "2443-b2bf-e16e-747d",
+        "hidden": false,
+        "import": true,
+        "sortIndex": 1,
+        "targetId": "6220-fe17-7c2a-8268",
+        "type": "selectionEntry"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Crisis Fireknife Shas’vre",
+        "id": "a6db-e4b2-4859-a620",
+        "hidden": false,
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "characteristics": [
+         {
+          "name": "M",
+          "$text": "10\"",
+          "typeId": "e703-ecb6-5ce7-aec1"
+         },
+         {
+          "name": "T",
+          "$text": "5",
+          "typeId": "d29d-cf75-fc2d-34a4"
+         },
+         {
+          "name": "Sv",
+          "$text": "3+",
+          "typeId": "450-a17e-9d5e-29da"
+         },
+         {
+          "name": "W",
+          "$text": "4",
+          "typeId": "750a-a2ec-90d3-21fe"
+         },
+         {
+          "name": "LD",
+          "$text": "7+",
+          "typeId": "58d2-b879-49c7-43bc"
+         },
+         {
+          "name": "OC",
+          "$text": "2",
+          "typeId": "bef7-942a-1a23-59f8"
+         },
+         {
+          "name": "InSv",
+          "$text": "",
+          "typeId": "55a7-5b54-c60d-11dc"
+         }
+        ]
+       }
+      ],
+      "selectionEntryGroups": [
+       {
+        "name": "Wargear",
+        "id": "e1df-0571-2ae2-ffa7",
+        "collective": false,
+        "hidden": false,
+        "sortIndex": 2,
+        "entryLinks": [
+         {
+          "name": "Battlesuit fists",
+          "id": "8681-e850-f5b4-54a2",
+          "hidden": false,
+          "import": true,
+          "sortIndex": 2,
+          "targetId": "d357-859f-3b61-42f1",
+          "type": "selectionEntry",
+          "constraints": [
+           {
+            "id": "b4c8-66ad-b16c-409e",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+           },
+           {
+            "id": "35b2-b87c-1ed0-1cca",
+            "field": "selections",
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Weapon Modifications",
+            "id": "6b8b-dc8a-044c-2a97",
+            "hidden": false,
+            "import": true,
+            "targetId": "f9da-852a-d7f0-92e9",
+            "type": "selectionEntryGroup"
+           }
+          ]
+         },
+         {
+          "name": "Drones (0-2)",
+          "id": "fd9d-60c1-7293-c324",
+          "hidden": false,
+          "import": true,
+          "sortIndex": 3,
+          "targetId": "de95-b481-fb09-1bce",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "selectionEntryGroups": [
+         {
+          "name": "Weapons",
+          "id": "e17f-45c5-b242-a5d1",
+          "hidden": false,
+          "sortIndex": 1,
+          "constraints": [
+           {
+            "id": "d7ec-a0f9-2c96-5829",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 2
+           },
+           {
+            "id": "a627-088e-a1e4-366b",
+            "field": "selections",
+            "includeChildSelections": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 2
+           }
+          ],
+          "entryLinks": [
+           {
+            "name": "Missile pod",
+            "id": "0926-4604-2901-2eae",
+            "defaultAmount": 1,
+            "hidden": false,
+            "import": true,
+            "targetId": "8290-c852-cce9-d50e",
+            "type": "selectionEntry",
+            "constraints": [
+             {
+              "id": "9756-f36e-f01d-38a3",
+              "field": "selections",
+              "scope": "parent",
+              "shared": true,
+              "type": "max",
+              "value": 2
+             }
+            ],
+            "costs": [
+             {
+              "name": "pts",
+              "typeId": "51b2-306e-1021-d207",
+              "value": 5
+             }
+            ],
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "9b1b-b067-14c9-f907",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           },
+           {
+            "name": "Plasma rifle",
+            "id": "5442-d1a8-bd84-861b",
+            "defaultAmount": 1,
+            "hidden": false,
+            "import": true,
+            "targetId": "a9c5-8f1f-cbad-f1d3",
+            "type": "selectionEntry",
+            "constraints": [
+             {
+              "id": "0591-61a0-a8f3-06cd",
+              "field": "selections",
+              "includeChildSelections": false,
+              "scope": "parent",
+              "shared": true,
+              "type": "max",
+              "value": 2
+             }
+            ],
+            "entryLinks": [
+             {
+              "name": "Weapon Modifications",
+              "id": "11a1-2e1d-9949-24e8",
+              "hidden": false,
+              "import": true,
+              "targetId": "f9da-852a-d7f0-92e9",
+              "type": "selectionEntryGroup"
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {
+   "179c-d88a-d49b-48b9": {
+    "name": "Warlord",
+    "id": "179c-d88a-d49b-48b9",
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Warlord",
+      "id": "8e65-68-7465-a544",
+      "primary": false,
+      "targetId": "5c0e-4c31-d51b-e470"
+     }
+    ],
+    "constraints": [
+     {
+      "id": "7ca5-48b6-5801-c3ef",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "79c5-9fc4-7b97-7c3f",
+          "field": "selections",
+          "scope": "ancestor",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 1
+         },
+         {
+          "childId": "6ef3-61ac-4974-0b11",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "ebac-f783-8a80-8c4a": {
+    "name": "Marker Drone",
+    "id": "ebac-f783-8a80-8c4a",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Markerlight",
+      "id": "e017-9ab9-6b14-9c09",
+      "hidden": false,
+      "primary": false,
+      "targetId": "1685-dd28-8e90-e10d"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Marker Drone",
+      "id": "2026-4469-a453-d24e",
+      "hidden": false,
+      "typeId": "9cc3-6d83-4dd3-9b64",
+      "typeName": "Abilities",
+      "characteristics": [
+       {
+        "name": "Description",
+        "$text": "The bearer’s unit has the **^^Markerlight^^** keyword and can act as an Observer unit for another unit even if it Advanced this turn.",
+        "typeId": "9b8f-694b-e5e-b573"
+       }
+      ]
+     }
+    ]
+   },
+   "3ef0-a48a-cafc-ce23": {
+    "name": "Shield Drone",
+    "id": "3ef0-a48a-cafc-ce23",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "modifierGroups": [
+     {
+      "comment": "Shield Drones",
+      "type": "and",
+      "modifiers": [
+       {
+        "affects": "self.entries.profiles.Unit",
+        "field": "750a-a2ec-90d3-21fe",
+        "scope": "model",
+        "type": "increment",
+        "value": 1,
+        "repeats": [
+         {
+          "childId": "3ef0-a48a-cafc-ce23",
+          "field": "selections",
+          "includeChildSelections": true,
+          "repeats": 1,
+          "roundUp": false,
+          "scope": "model",
+          "shared": true,
+          "value": 1
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.profiles.Unit",
+        "field": "annotation",
+        "join": ", ",
+        "scope": "model",
+        "type": "append",
+        "value": "Shield Drone",
+        "conditions": [
+         {
+          "childId": "3ef0-a48a-cafc-ce23",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "model",
+          "shared": true,
+          "type": "equalTo",
+          "value": 1
+         }
+        ]
+       },
+       {
+        "affects": "self.entries.profiles.Unit",
+        "field": "annotation",
+        "join": ", ",
+        "scope": "model",
+        "type": "append",
+        "value": "2x Shield Drones",
+        "conditions": [
+         {
+          "childId": "3ef0-a48a-cafc-ce23",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "model",
+          "shared": true,
+          "type": "atLeast",
+          "value": 2
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "76ec-55b5-1805-5855",
+        "field": "selections",
+        "scope": "ancestor",
+        "shared": true,
+        "type": "instanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Shield Drone",
+      "id": "274d-797e-a00f-62",
+      "hidden": false,
+      "typeId": "9cc3-6d83-4dd3-9b64",
+      "typeName": "Abilities",
+      "characteristics": [
+       {
+        "name": "Description",
+        "$text": "Add 1 to the bearer’s Wounds characteristic.",
+        "typeId": "9b8f-694b-e5e-b573"
+       }
+      ]
+     }
+    ]
+   },
+   "1ad0-be27-ab4c-3459": {
+    "name": "Twin pulse carbine",
+    "id": "1ad0-be27-ab4c-3459",
+    "collective": true,
+    "comment": "BS5+ Assault",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "infoLinks": [
+     {
+      "name": "Twin-linked",
+      "id": "562f-7cfc-3414-e236",
+      "hidden": false,
+      "targetId": "cf93-ad4d-2f08-a79d",
+      "type": "rule"
+     },
+     {
+      "name": "Assault",
+      "id": "4361-25c1-5c51-96ff",
+      "hidden": false,
+      "targetId": "fc8a-8c24-bae9-cc1c",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Twin pulse carbine",
+      "id": "bca7-e744-1c90-b631",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "20\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "2",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "5+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "5",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Assault, Twin-linked",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "d357-859f-3b61-42f1": {
+    "name": "Battlesuit fists",
+    "id": "d357-859f-3b61-42f1",
+    "comment": "Crisis",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "profiles": [
+     {
+      "name": "Battlesuit fists",
+      "id": "3bb9-f1fb-50ba-17b",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "5+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "5",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "$text": "",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     }
+    ]
+   },
+   "a9c5-8f1f-cbad-f1d3": {
+    "name": "Plasma rifle",
+    "id": "a9c5-8f1f-cbad-f1d3",
+    "comment": "BS4+",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Plasma Rifle Weapon",
+      "id": "56ba-3c3e-bb33-5f0d",
+      "hidden": false,
+      "primary": false,
+      "targetId": "630e-f998-7bab-7116"
+     },
+     {
+      "name": "Ranged Weapon",
+      "id": "2118-536a-69d3-dffe",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Plasma rifle",
+      "id": "9167-b3e7-ff4a-dd38",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "18\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "1",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "4+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "8",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-3",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "3",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "8290-c852-cce9-d50e": {
+    "name": "Missile pod",
+    "id": "8290-c852-cce9-d50e",
+    "comment": "BS4+",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "profiles": [
+     {
+      "name": "Missile pod",
+      "id": "3c5c-b69d-6be7-cbca",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "30\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "2",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "4+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "7",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-1",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "2",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "1549-5b7-b34e-e156": {
+    "name": "Guardian Drone",
+    "id": "1549-5b7-b34e-e156",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "profiles": [
+     {
+      "name": "Guardian Drone",
+      "id": "7c13-8707-b827-3d35",
+      "hidden": false,
+      "typeId": "9cc3-6d83-4dd3-9b64",
+      "typeName": "Abilities",
+      "characteristics": [
+       {
+        "name": "Description",
+        "$text": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll.",
+        "typeId": "9b8f-694b-e5e-b573"
+       }
+      ]
+     }
+    ]
+   },
+   "427f-9ad8-09e6-5466": {
+    "name": "Missile Drone",
+    "id": "427f-9ad8-09e6-5466",
+    "comment": "Upgradeable variant",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "selectionEntries": [
+     {
+      "name": "Missile pod",
+      "id": "e77d-2117-f780-9f73",
+      "collective": true,
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "96b5-df43-e423-ad41",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "b004-86a6-f2dd-0e0b",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Weapon Modifications",
+        "id": "3906-9ec3-dc32-4233",
+        "hidden": false,
+        "import": true,
+        "targetId": "f9da-852a-d7f0-92e9",
+        "type": "selectionEntryGroup"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Missile pod",
+        "id": "925b-bdfa-4365-68d0",
+        "hidden": false,
+        "typeId": "f77d-b953-8fa4-b762",
+        "typeName": "Ranged Weapons",
+        "characteristics": [
+         {
+          "name": "Range",
+          "$text": "30\"",
+          "typeId": "9896-9419-16a1-92fc"
+         },
+         {
+          "name": "A",
+          "$text": "2",
+          "typeId": "3bb-c35f-f54-fb08"
+         },
+         {
+          "name": "BS",
+          "$text": "5+",
+          "typeId": "94d-8a98-cf90-183e"
+         },
+         {
+          "name": "S",
+          "$text": "7",
+          "typeId": "2229-f494-25db-c5d3"
+         },
+         {
+          "name": "AP",
+          "$text": "-1",
+          "typeId": "9ead-8a10-520-de15"
+         },
+         {
+          "name": "D",
+          "$text": "2",
+          "typeId": "a354-c1c8-a745-f9e3"
+         },
+         {
+          "name": "Keywords",
+          "$text": "",
+          "typeId": "7f1b-8591-2fcf-d01c"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "groups": {
+   "8af8-6f80-96ef-6cdf": {
+    "name": "Drones (0-2)",
+    "id": "8af8-6f80-96ef-6cdf",
+    "hidden": false,
+    "constraints": [
+     {
+      "id": "6d8b-a095-cdbb-b69f",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 2
+     }
+    ],
+    "entryLinks": [
+     {
+      "name": "Marker Drone",
+      "id": "6e7d-ce01-f36a-b91d",
+      "hidden": false,
+      "import": true,
+      "targetId": "ebac-f783-8a80-8c4a",
+      "type": "selectionEntry",
+      "constraints": [
+       {
+        "id": "23cf-eeb7-dcad-643a",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "23cf-eeb7-dcad-643a",
+        "type": "set",
+        "value": 1,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditions": [
+           {
+            "childId": "cd97-19b6-3957-4c78",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "205d-dcad-4d0-ccae",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "d372-6d2c-2df2-8e91",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Shield Drone",
+      "id": "3e61-1b73-7e00-4ef5",
+      "hidden": false,
+      "import": true,
+      "targetId": "3ef0-a48a-cafc-ce23",
+      "type": "selectionEntry",
+      "constraints": [
+       {
+        "id": "a9f4-34b8-14df-e939",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "a9f4-34b8-14df-e939",
+        "type": "set",
+        "value": 1,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditions": [
+           {
+            "childId": "cd97-19b6-3957-4c78",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "205d-dcad-4d0-ccae",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "d372-6d2c-2df2-8e91",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Gun Drone",
+      "id": "a2c-25e-bb0c-50fc",
+      "comment": "[export-as-ability]",
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "1583-85b8-3296-24e2",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Twin pulse carbine",
+        "id": "0de8-9feb-d5db-94c2",
+        "hidden": false,
+        "import": true,
+        "targetId": "1ad0-be27-ab4c-3459",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "4089-8da3-f7ef-dde6",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "bf77-c63c-521e-5ce6",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "1583-85b8-3296-24e2",
+        "type": "set",
+        "value": 1,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditions": [
+           {
+            "childId": "cd97-19b6-3957-4c78",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "205d-dcad-4d0-ccae",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "d372-6d2c-2df2-8e91",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Missile Drone",
+      "id": "87e6-9a39-44b3-c69a",
+      "comment": "[export-as-ability]",
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "1c76-db9f-f6c4-889a",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "cc7e-612b-ac7d-c162",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "ancestor",
+          "shared": false,
+          "type": "notInstanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Missile pod",
+        "id": "3535-5405-3607-1574",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "72b1-601d-3c4e-bb37",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "458b-29c5-af8f-7788",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Missile pod",
+          "id": "0f2c-e640-b41e-36a0",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "30\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "2",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "5+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "7",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-1",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "2",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "de95-b481-fb09-1bce": {
+    "name": "Drones (0-2)",
+    "id": "de95-b481-fb09-1bce",
+    "comment": "Crusade options",
+    "hidden": false,
+    "constraints": [
+     {
+      "id": "5ead-03c6-16df-85e0",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 2
+     }
+    ],
+    "entryLinks": [
+     {
+      "name": "Marker Drone",
+      "id": "40f2-977d-aec0-f31d",
+      "hidden": false,
+      "import": true,
+      "targetId": "ebac-f783-8a80-8c4a",
+      "type": "selectionEntry",
+      "constraints": [
+       {
+        "id": "5b1f-06b6-c39c-3ec3",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "5b1f-06b6-c39c-3ec3",
+        "type": "set",
+        "value": 1,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditions": [
+           {
+            "childId": "cd97-19b6-3957-4c78",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "205d-dcad-4d0-ccae",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "d372-6d2c-2df2-8e91",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "76ec-55b5-1805-5855",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Shield Drone",
+      "id": "bd61-6193-b238-6f21",
+      "hidden": false,
+      "import": true,
+      "targetId": "3ef0-a48a-cafc-ce23",
+      "type": "selectionEntry",
+      "constraints": [
+       {
+        "id": "8d7d-5038-26a2-1bb4",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "8d7d-5038-26a2-1bb4",
+        "type": "set",
+        "value": 1,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditions": [
+           {
+            "childId": "cd97-19b6-3957-4c78",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "205d-dcad-4d0-ccae",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "d372-6d2c-2df2-8e91",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Guardian Drone",
+      "id": "12f4-d656-7665-eb8c",
+      "hidden": false,
+      "import": true,
+      "targetId": "1549-5b7-b34e-e156",
+      "type": "selectionEntry",
+      "constraints": [
+       {
+        "id": "31d8-f9ed-1fbe-32b1",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "e3bc-69df-88a0-e5de",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           },
+           {
+            "childId": "8fa3-ee6b-447e-3cff",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Missile Drone",
+      "id": "a658-7737-2031-8e07",
+      "comment": "[export-as-ability]",
+      "hidden": false,
+      "import": true,
+      "targetId": "427f-9ad8-09e6-5466",
+      "type": "selectionEntry",
+      "constraints": [
+       {
+        "id": "6314-b733-dc0e-1565",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditions": [
+         {
+          "childId": "cc7e-612b-ac7d-c162",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "ancestor",
+          "shared": false,
+          "type": "notInstanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Gun Drone",
+      "id": "caf5-ab72-8da1-04a8",
+      "comment": "[export-as-ability]",
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "3eb9-4b59-3d91-adbc",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Twin pulse carbine",
+        "id": "9ddc-8c0f-6700-77c9",
+        "hidden": false,
+        "import": true,
+        "targetId": "1ad0-be27-ab4c-3459",
+        "type": "selectionEntry",
+        "categoryLinks": [
+         {
+          "name": "Ranged Weapon",
+          "id": "ed59-5dbe-ed16-fd42",
+          "hidden": false,
+          "primary": false,
+          "targetId": "eeda-8544-a2f3-3fab"
+         }
+        ],
+        "constraints": [
+         {
+          "id": "ed84-a4f0-5bf6-4669",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "1b63-ae12-5eb6-f39e",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Upgrades",
+          "id": "8574-5ca4-5497-25cc",
+          "hidden": false,
+          "import": true,
+          "targetId": "6dbd-1256-4b41-28e1",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "3eb9-4b59-3d91-adbc",
+        "type": "set",
+        "value": 1,
+        "conditionGroups": [
+         {
+          "type": "or",
+          "conditions": [
+           {
+            "childId": "cd97-19b6-3957-4c78",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "205d-dcad-4d0-ccae",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "d372-6d2c-2df2-8e91",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "76ec-55b5-1805-5855",
+            "field": "selections",
+            "scope": "ancestor",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "profiles": {}
+ }
+}

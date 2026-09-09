@@ -10,3 +10,6 @@ ref/archive/*
 !ref/archive/.gitkeep
 ref/ingest/*
 !ref/ingest/.gitkeep
+
+# BSData discovery: local catalogue cache (re-fetch with discover.mjs --fetch)
+scripts/bsdata-import/v2/.cache/

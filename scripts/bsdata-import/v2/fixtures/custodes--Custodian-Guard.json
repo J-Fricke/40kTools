@@ -1,0 +1,1200 @@
+{
+ "unit": {
+  "name": "Custodian Guard",
+  "id": "91b3-2e1c-e642-d213",
+  "collective": false,
+  "hidden": false,
+  "import": true,
+  "type": "unit",
+  "categoryLinks": [
+   {
+    "name": "Custodian Guard",
+    "id": "2ac3-bd71-9569-963e",
+    "hidden": false,
+    "primary": false,
+    "targetId": "c4f-4c5f-3507-e4bc"
+   },
+   {
+    "name": "Infantry",
+    "id": "f175-44b1-144b-4755",
+    "hidden": false,
+    "primary": false,
+    "targetId": "cf47-a0d7-7207-29dc"
+   },
+   {
+    "name": "Battleline",
+    "id": "dcb0-ca32-5099-4a7b",
+    "hidden": false,
+    "primary": true,
+    "targetId": "e338-111e-d0c6-b687"
+   },
+   {
+    "name": "Imperium",
+    "id": "226d-dfed-65e6-3bb4",
+    "hidden": false,
+    "primary": false,
+    "targetId": "aff3-d6a3-2a95-9dc"
+   },
+   {
+    "name": "Faction: Adeptus Custodes",
+    "id": "2786-903b-da5e-432d",
+    "hidden": false,
+    "primary": false,
+    "targetId": "eea5-aeaf-bbf0-d5ee"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "3a5d-9d18-e400-b945",
+    "field": "selections",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "percentValue": false,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 6
+   },
+   {
+    "id": "d845-b7cf-29ef-e935",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "2eda-1280-01bd-6e8a",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "ce94-66ec-7a0e-2a8d",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   },
+   {
+    "id": "36e3-a2ac-e3ce-0754",
+    "childId": "any",
+    "field": "f759-1bc4-cb3a-f0d2",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "message": "An Attached Unit can only take 1 Enhancement.",
+    "scope": "root-entry",
+    "shared": true,
+    "traverseAssociationGroup": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "88a5-ace5-24c1-3a98",
+    "childId": "1556-9b56-fba6-4370",
+    "childName": "Leader",
+    "field": "associations",
+    "includeChildForces": false,
+    "scope": "self",
+    "shared": true,
+    "traverseAssociationGroup": false,
+    "type": "max",
+    "value": 1
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 170
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "5658-c9ef-32e0-84f3",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "dffe-91f2-f156-0566",
+    "type": "selectionEntryGroup"
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Deep Strike",
+    "id": "7b07-a545-c54e-3b07",
+    "hidden": false,
+    "targetId": "7cb5-dd6b-dd87-ad3b",
+    "type": "rule"
+   },
+   {
+    "name": "Martial Ka'tah",
+    "id": "7e24-d751-7717-6adb",
+    "hidden": false,
+    "targetId": "e348-7090-3aff-ee2c",
+    "type": "rule"
+   },
+   {
+    "name": "Talons",
+    "id": "2fdd-974f-19d7-52e1",
+    "hidden": false,
+    "targetId": "1cd2-aeaf-6c00-ec0",
+    "type": "infoGroup"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "d845-b7cf-29ef-e935",
+      "type": "set",
+      "value": 6,
+      "conditions": [
+       {
+        "childId": "1511-18fe-f51e-7b9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "2eda-1280-01bd-6e8a",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "ce94-66ec-7a0e-2a8d",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "set",
+    "value": 215,
+    "conditions": [
+     {
+      "childId": "model",
+      "field": "selections",
+      "includeChildForces": true,
+      "includeChildSelections": true,
+      "percentValue": false,
+      "scope": "91b3-2e1c-e642-d213",
+      "shared": true,
+      "type": "atLeast",
+      "value": 5
+     }
+    ]
+   },
+   {
+    "field": "3a5d-9d18-e400-b945",
+    "type": "set",
+    "value": 4,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "force",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "increment",
+    "value": 10,
+    "conditionGroups": [
+     {
+      "type": "and",
+      "localConditionGroups": [
+       {
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "repeats": 1,
+        "scope": "parent",
+        "type": "atLeast",
+        "value": 3,
+        "conditions": [
+         {
+          "childId": "any",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "before",
+          "value": 1
+         },
+         {
+          "childId": "91b3-2e1c-e642-d213",
+          "childName": "Custodian Guard",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Stand Vigil",
+    "id": "07c7-730f-5219-ef8f",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "id": "65e8-f5-cf2-27bf",
+      "$text": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead.",
+      "hidden": false,
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   },
+   {
+    "name": "Sentinel Storm",
+    "id": "9c46-e189-463c-266e",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Once per battle, in your Shooting phase, after the unit has shot, it can shoot again.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "4-5 Custodian Guard",
+    "id": "a293-9470-77c1-c8da",
+    "collective": false,
+    "defaultSelectionEntryId": "5bbc-172f-4cb8-e6da",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 2,
+    "constraints": [
+     {
+      "id": "2678-0eb8-9438-f632",
+      "field": "selections",
+      "includeChildForces": false,
+      "includeChildSelections": true,
+      "percentValue": false,
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 5
+     },
+     {
+      "id": "acf3-068c-d098-383b",
+      "field": "selections",
+      "includeChildForces": false,
+      "includeChildSelections": true,
+      "percentValue": false,
+      "scope": "parent",
+      "shared": true,
+      "type": "min",
+      "value": 4
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Custodian Guard (Guardian Spear)",
+      "id": "5bbc-172f-4cb8-e6da",
+      "collective": false,
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 0
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Custodian Guard",
+        "id": "ffb0-e197-3a20-7515",
+        "hidden": false,
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "characteristics": [
+         {
+          "name": "M",
+          "$text": "6\"",
+          "typeId": "e703-ecb6-5ce7-aec1"
+         },
+         {
+          "name": "T",
+          "$text": "6",
+          "typeId": "d29d-cf75-fc2d-34a4"
+         },
+         {
+          "name": "Sv",
+          "$text": "2+",
+          "typeId": "450-a17e-9d5e-29da"
+         },
+         {
+          "name": "W",
+          "$text": "3",
+          "typeId": "750a-a2ec-90d3-21fe"
+         },
+         {
+          "name": "LD",
+          "$text": "6+",
+          "typeId": "58d2-b879-49c7-43bc"
+         },
+         {
+          "name": "OC",
+          "$text": "2",
+          "typeId": "bef7-942a-1a23-59f8"
+         },
+         {
+          "name": "InSv",
+          "$text": "4+",
+          "typeId": "55a7-5b54-c60d-11dc"
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Guardian Spear",
+        "id": "e823-5718-f1b6-2702",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "ac81-671f-f667-3963-min",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "ac81-671f-f667-3963-max",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "36e4-8e2b-ec2d-54c5",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Assault",
+          "id": "5bc9-d2bd-8495-ee7a",
+          "hidden": false,
+          "targetId": "fc8a-8c24-bae9-cc1c",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Guardian Spear",
+          "id": "3665-5bcf-a899-fad",
+          "hidden": false,
+          "typeId": "8a40-4aaa-c780-9046",
+          "typeName": "Melee Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "Melee",
+            "typeId": "914c-b413-91e3-a132"
+           },
+           {
+            "name": "A",
+            "$text": "5",
+            "typeId": "2337-daa1-6682-b110"
+           },
+           {
+            "name": "WS",
+            "$text": "2+",
+            "typeId": "95d1-95f-45b4-11d6"
+           },
+           {
+            "name": "S",
+            "$text": "7",
+            "typeId": "ab33-d393-96ce-ccba"
+           },
+           {
+            "name": "AP",
+            "$text": "-2",
+            "typeId": "41a0-1301-112a-e2f2"
+           },
+           {
+            "name": "D",
+            "$text": "2",
+            "typeId": "3254-9fe6-d824-513e"
+           },
+           {
+            "name": "Keywords",
+            "typeId": "893f-9000-ccf7-648e"
+           }
+          ]
+         },
+         {
+          "name": "Guardian Spear",
+          "id": "99cf-4b14-147f-8229",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "24\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "2",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "2+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "4",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-1",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "2",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Assault",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Custodian Guard (Sentinel Blade & Praesidium Shield)",
+      "id": "c5ee-8179-ecc0-cafb",
+      "collective": false,
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 0
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Praesidium Shield",
+        "id": "b25b-62a0-e201-affe",
+        "hidden": false,
+        "targetId": "2184-10e8-fe1e-9731",
+        "type": "profile"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Custodian Guard (Shield)",
+        "id": "f36e-c3a3-477c-21d4",
+        "hidden": false,
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "characteristics": [
+         {
+          "name": "M",
+          "$text": "6\"",
+          "typeId": "e703-ecb6-5ce7-aec1"
+         },
+         {
+          "name": "T",
+          "$text": "6",
+          "typeId": "d29d-cf75-fc2d-34a4"
+         },
+         {
+          "name": "Sv",
+          "$text": "2+",
+          "typeId": "450-a17e-9d5e-29da"
+         },
+         {
+          "name": "W",
+          "$text": "3",
+          "typeId": "750a-a2ec-90d3-21fe"
+         },
+         {
+          "name": "LD",
+          "$text": "6+",
+          "typeId": "58d2-b879-49c7-43bc"
+         },
+         {
+          "name": "OC",
+          "$text": "2",
+          "typeId": "bef7-942a-1a23-59f8"
+         },
+         {
+          "name": "InSv",
+          "$text": "4+",
+          "typeId": "55a7-5b54-c60d-11dc"
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "750a-a2ec-90d3-21fe",
+          "type": "set",
+          "value": "4"
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Sentinel blade",
+        "id": "c24c-78c1-8221-eae",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "f44f-a8eb-c69d-dde5-min",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "f44f-a8eb-c69d-dde5-max",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "d881-19fa-9731-e4f8",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Assault",
+          "id": "5e6b-ade2-f553-39f7",
+          "hidden": false,
+          "targetId": "fc8a-8c24-bae9-cc1c",
+          "type": "rule"
+         },
+         {
+          "name": "Pistol",
+          "id": "e0ba-82f0-c8a7-278b",
+          "hidden": false,
+          "targetId": "8bf7-8812-923d-29e4",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Sentinel Blade",
+          "id": "52f5-f956-571d-51e2",
+          "hidden": false,
+          "typeId": "8a40-4aaa-c780-9046",
+          "typeName": "Melee Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "Melee",
+            "typeId": "914c-b413-91e3-a132"
+           },
+           {
+            "name": "A",
+            "$text": "5",
+            "typeId": "2337-daa1-6682-b110"
+           },
+           {
+            "name": "WS",
+            "$text": "2+",
+            "typeId": "95d1-95f-45b4-11d6"
+           },
+           {
+            "name": "S",
+            "$text": "6",
+            "typeId": "ab33-d393-96ce-ccba"
+           },
+           {
+            "name": "AP",
+            "$text": "-2",
+            "typeId": "41a0-1301-112a-e2f2"
+           },
+           {
+            "name": "D",
+            "$text": "1",
+            "typeId": "3254-9fe6-d824-513e"
+           },
+           {
+            "name": "Keywords",
+            "typeId": "893f-9000-ccf7-648e"
+           }
+          ]
+         },
+         {
+          "name": "Sentinel Blade",
+          "id": "888d-3f8f-2d0-297",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "12\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "2",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "2+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "4",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-1",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "2",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Assault, Pistol",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Custodian Guard (Vexilla, Praesidium Shield & Misericordia)",
+      "id": "01d2-1f35-606f-1664",
+      "collective": false,
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "4772-db15-862a-7419",
+        "field": "selections",
+        "includeChildForces": false,
+        "includeChildSelections": false,
+        "percentValue": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "costs": [
+       {
+        "name": "pts",
+        "typeId": "51b2-306e-1021-d207",
+        "value": 0
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Praesidium Shield",
+        "id": "7441-cb48-8702-b4cd",
+        "hidden": false,
+        "targetId": "2184-10e8-fe1e-9731",
+        "type": "profile"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Custodian Guard (Vexilla)",
+        "id": "25f8-74d6-cba6-9806",
+        "hidden": false,
+        "typeId": "c547-1836-d8a-ff4f",
+        "typeName": "Unit",
+        "characteristics": [
+         {
+          "name": "M",
+          "$text": "6\"",
+          "typeId": "e703-ecb6-5ce7-aec1"
+         },
+         {
+          "name": "T",
+          "$text": "6",
+          "typeId": "d29d-cf75-fc2d-34a4"
+         },
+         {
+          "name": "Sv",
+          "$text": "2+",
+          "typeId": "450-a17e-9d5e-29da"
+         },
+         {
+          "name": "W",
+          "$text": "3",
+          "typeId": "750a-a2ec-90d3-21fe"
+         },
+         {
+          "name": "LD",
+          "$text": "6+",
+          "typeId": "58d2-b879-49c7-43bc"
+         },
+         {
+          "name": "OC",
+          "$text": "2",
+          "typeId": "bef7-942a-1a23-59f8"
+         },
+         {
+          "name": "InSv",
+          "$text": "4+",
+          "typeId": "55a7-5b54-c60d-11dc"
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "750a-a2ec-90d3-21fe",
+          "type": "set",
+          "value": "4"
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Vexilla",
+        "id": "c2f7-f244-8efb-42ff",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "d723-bd4e-b985-e4de-min",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "d723-bd4e-b985-e4de-max",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Vexilla",
+          "id": "9557-4837-18f1-a379",
+          "hidden": false,
+          "targetId": "ac43-e2b3-63cb-ecb2",
+          "type": "profile"
+         }
+        ],
+        "modifiers": [
+         {
+          "affects": "self.entries.group.recursive.profiles.Unit",
+          "field": "bef7-942a-1a23-59f8",
+          "scope": "unit",
+          "type": "increment",
+          "value": 1
+         }
+        ]
+       },
+       {
+        "name": "Misericordia",
+        "id": "d7ff-997-fc78-bac",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "e708-21fc-22b5-e3d4-min",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "e708-21fc-22b5-e3d4-max",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "198f-9909-b800-51ba",
+          "flatten": false,
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Misericordia",
+          "id": "f33d-a12e-44fc-42dc",
+          "hidden": false,
+          "typeId": "8a40-4aaa-c780-9046",
+          "typeName": "Melee Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "Melee",
+            "typeId": "914c-b413-91e3-a132"
+           },
+           {
+            "name": "A",
+            "$text": "5",
+            "typeId": "2337-daa1-6682-b110"
+           },
+           {
+            "name": "WS",
+            "$text": "2+",
+            "typeId": "95d1-95f-45b4-11d6"
+           },
+           {
+            "name": "S",
+            "$text": "5",
+            "typeId": "ab33-d393-96ce-ccba"
+           },
+           {
+            "name": "AP",
+            "$text": "-2",
+            "typeId": "41a0-1301-112a-e2f2"
+           },
+           {
+            "name": "D",
+            "$text": "1",
+            "typeId": "3254-9fe6-d824-513e"
+           },
+           {
+            "name": "Keywords",
+            "typeId": "893f-9000-ccf7-648e"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {},
+  "groups": {},
+  "profiles": {
+   "2184-10e8-fe1e-9731": {
+    "name": "Praesidium Shield",
+    "id": "2184-10e8-fe1e-9731",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "id": "28bc-ca42-3d02-4d96",
+      "$text": "Add 1 to the bearer's Wounds characteristic.",
+      "hidden": false,
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   },
+   "ac43-e2b3-63cb-ecb2": {
+    "name": "Vexilla",
+    "id": "ac43-e2b3-63cb-ecb2",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Add 1 to the Objective Control characteristic of models in the bearer's unit.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  }
+ }
+}

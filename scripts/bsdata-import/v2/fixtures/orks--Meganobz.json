@@ -1,0 +1,4507 @@
+{
+ "unit": {
+  "name": "Meganobz",
+  "id": "7067-34f4-5272-e05f",
+  "hidden": false,
+  "import": true,
+  "type": "unit",
+  "categoryLinks": [
+   {
+    "name": "Infantry",
+    "id": "e86f-85ce-4ef0-8208",
+    "primary": true,
+    "targetId": "cf47-a0d7-7207-29dc"
+   },
+   {
+    "name": "Meganobz",
+    "id": "33d1-1f16-e011-83e6",
+    "primary": false,
+    "targetId": "d85d-1dad-b832-cf9f"
+   },
+   {
+    "name": "Faction: Orks",
+    "id": "7761-825e-325f-2ba0",
+    "primary": false,
+    "targetId": "56cc-5f43-2403-8da0"
+   },
+   {
+    "name": "Mega Armour",
+    "id": "176d-aec6-41c7-b435",
+    "primary": false,
+    "targetId": "ebd4-277b-d164-39da"
+   },
+   {
+    "name": "Explosives",
+    "id": "acc2-8a04-5b9c-36c5",
+    "hidden": false,
+    "primary": false,
+    "targetId": "e33d-891d-33aa-e9bf"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "22ec-611e-e05c-08db",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "f988-d64d-9ec9-ed50",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   },
+   {
+    "id": "f4c1-0246-905b-e096",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "bf31-da26-b6b3-3246",
+    "field": "selections",
+    "includeChildSelections": true,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "812e-2cf3-e056-1e41",
+    "childId": "any",
+    "field": "f759-1bc4-cb3a-f0d2",
+    "includeChildForces": false,
+    "includeChildSelections": true,
+    "message": "An Attached Unit can only take 1 Enhancement.",
+    "scope": "root-entry",
+    "shared": true,
+    "traverseAssociationGroup": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "396f-37b3-4815-7baf",
+    "childId": "1556-9b56-fba6-4370",
+    "childName": "Leader",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   },
+   {
+    "id": "7744-2bb7-1465-18fe",
+    "childId": "7dcd-7f61-69a7-0294",
+    "childName": "Support",
+    "field": "associations",
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 1
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 75
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "5c82-3726-f009-067e",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "87e9-baa9-52e2-5cce",
+    "type": "selectionEntryGroup"
+   },
+   {
+    "name": "Warlord",
+    "id": "4f6e-1542-3a04-cb1d",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 2,
+    "targetId": "8b5-898c-f79b-5a9c",
+    "type": "selectionEntry",
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditionGroups": [
+       {
+        "type": "or",
+        "conditions": [
+         {
+          "childId": "1d6e-2579-8e7f-1ed4",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "notInstanceOf",
+          "value": 1
+         },
+         {
+          "childId": "9cfd-1c32-585f-7d5c",
+          "field": "selections",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Enhancements - Upgrades",
+    "id": "4a5b-29f5-eb41-5405",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 3,
+    "targetId": "ebea-74c4-f3db-183d",
+    "type": "selectionEntryGroup"
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Waaagh!",
+    "id": "9d50-5084-443d-3565",
+    "hidden": false,
+    "targetId": "37c-6ef9-277-9091",
+    "type": "rule"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "22ec-611e-e05c-08db",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "f988-d64d-9ec9-ed50",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "f4c1-0246-905b-e096",
+      "type": "set",
+      "value": 6,
+      "conditions": [
+       {
+        "childId": "1511-18fe-f51e-7b9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "comment": "Bully Boyz detachment rule",
+    "type": "and",
+    "conditions": [
+     {
+      "childId": "4b17-a73a-7a0a-a265",
+      "childName": "Bully Boyz",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "force",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ],
+    "modifiers": [
+     {
+      "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+      "field": "annotation",
+      "join": ", ",
+      "skipIfPresent": "Displays of Savagery",
+      "type": "append",
+      "value": "Displays of Savagery"
+     },
+     {
+      "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+      "field": "893f-9000-ccf7-648e",
+      "join": ", ",
+      "skipIfPresent": "SUSTAINED HITS",
+      "type": "append",
+      "value": "SUSTAINED HITS 1"
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "set",
+    "value": 110,
+    "conditions": [
+     {
+      "childId": "model",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "self",
+      "shared": true,
+      "type": "atLeast",
+      "value": 3
+     }
+    ]
+   },
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "set",
+    "value": 185,
+    "conditions": [
+     {
+      "childId": "model",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "self",
+      "shared": true,
+      "type": "atLeast",
+      "value": 4
+     }
+    ]
+   },
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "set",
+    "value": 225,
+    "conditions": [
+     {
+      "childId": "model",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "self",
+      "shared": true,
+      "type": "atLeast",
+      "value": 6
+     }
+    ]
+   },
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "increment",
+    "value": 40,
+    "conditionGroups": [
+     {
+      "type": "and",
+      "localConditionGroups": [
+       {
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "repeats": 1,
+        "scope": "parent",
+        "type": "atLeast",
+        "value": 2,
+        "conditions": [
+         {
+          "childId": "any",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "before",
+          "value": 1
+         },
+         {
+          "childId": "7067-34f4-5272-e05f",
+          "childName": "Meganobz",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field": "bf31-da26-b6b3-3246",
+    "type": "set",
+    "value": 2,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "roster",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Krumpin’ Time",
+    "id": "19eb-919d-254f-18e1",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "In the Fight phase, if this unit is **riled up**, this unit has +1 to **hit rolls**.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "1d6e-2579-8e7f-1ed4",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "force",
+        "shared": true,
+        "type": "instanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Arrogant Invulnerability",
+    "id": "f629-3bb8-3eff-0ab9",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Attacks that target this unit have -1 **AP**.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "2-6 Meganobz",
+    "id": "3b89-522e-3f86-44a2",
+    "defaultSelectionEntryId": "e924-a316-2b53-ff06",
+    "hidden": false,
+    "sortIndex": 4,
+    "constraints": [
+     {
+      "id": "aceb-8cf0-15d1-2314",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "min",
+      "value": 2
+     },
+     {
+      "id": "3112-7bdb-8445-68b0",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 6
+     }
+    ],
+    "modifierGroups": [
+     {
+      "comment": "Boarding Actions modifiers",
+      "type": "and",
+      "modifiers": [
+       {
+        "field": "name",
+        "type": "set",
+        "value": "3 Meganobz",
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "1d6e-2579-8e7f-1ed4",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "726a-fa36-dac2-0b11",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "atLeast",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "aceb-8cf0-15d1-2314",
+        "type": "set",
+        "value": 3,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "1d6e-2579-8e7f-1ed4",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "726a-fa36-dac2-0b11",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "atLeast",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "field": "3112-7bdb-8445-68b0",
+        "type": "set",
+        "value": 3,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "childId": "1d6e-2579-8e7f-1ed4",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "instanceOf",
+            "value": 1
+           },
+           {
+            "childId": "726a-fa36-dac2-0b11",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "atLeast",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "selectionEntries": [
+     {
+      "name": "Meganob w/ Kustom Shoota and Power Klaw",
+      "id": "e924-a316-2b53-ff06",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "3112-7bdb-8445-68b0",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 6
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Kustom Shoota",
+        "id": "61c1-e101-ef1b-bef7",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "targetId": "5b9c-898a-8355-5968",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "39a9-8518-11a-34fa",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "425c-7795-a74a-efe0",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "2862-d11c-7bda-a2d4",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       },
+       {
+        "name": "Power Klaw",
+        "id": "8fa-1aac-77f4-982f",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "targetId": "f65e-dc30-e7c0-7e47",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "41a3-3dd0-5c7a-edad",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "1380-c9a3-9667-2a",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "b05e-8a5e-e2ab-88c1",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Meganob",
+        "id": "79f8-1201-d173-f5a9",
+        "hidden": false,
+        "targetId": "2e0c-1fd0-4196-708f",
+        "type": "profile"
+       }
+      ],
+      "modifierGroups": [
+       {
+        "comment": "Boarding Actions modifiers",
+        "type": "and",
+        "modifiers": [
+         {
+          "field": "3112-7bdb-8445-68b0",
+          "type": "set",
+          "value": 3,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "1d6e-2579-8e7f-1ed4",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "instanceOf",
+              "value": 1
+             },
+             {
+              "childId": "726a-fa36-dac2-0b11",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Meganob w/ Kombi-weapon and Power Klaw",
+      "id": "cdad-e2e0-9db3-93fc",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "3112-7bdb-8445-68b0",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 6
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Kombi-weapon",
+        "id": "e1e6-7211-759d-5c5c",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "targetId": "ce61-585b-aea7-18fc",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "39a9-8518-11a-34fa",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "425c-7795-a74a-efe0",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "745a-019d-c4b1-cb26",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       },
+       {
+        "name": "Power Klaw",
+        "id": "8a3c-fba8-9fdc-5c7c",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "targetId": "f65e-dc30-e7c0-7e47",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "41a3-3dd0-5c7a-edad",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "1380-c9a3-9667-2a",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "4689-7430-666b-b2c4",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Meganob",
+        "id": "16d3-21b5-4ed9-c98f",
+        "hidden": false,
+        "targetId": "2e0c-1fd0-4196-708f",
+        "type": "profile"
+       }
+      ],
+      "modifierGroups": [
+       {
+        "comment": "Boarding Actions modifiers",
+        "type": "and",
+        "modifiers": [
+         {
+          "field": "3112-7bdb-8445-68b0",
+          "type": "set",
+          "value": 3,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "1d6e-2579-8e7f-1ed4",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "instanceOf",
+              "value": 1
+             },
+             {
+              "childId": "726a-fa36-dac2-0b11",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Meganob w/ Kombi-weapon and Killsaw",
+      "id": "caae-830b-ecc1-cf",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "3112-7bdb-8445-68b0",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 6
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Kombi-weapon",
+        "id": "547c-d49e-2a5c-8e2b",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "targetId": "ce61-585b-aea7-18fc",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "39a9-8518-11a-34fa",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "425c-7795-a74a-efe0",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "c645-8be3-dd22-8813",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       },
+       {
+        "name": "Killsaw",
+        "id": "e969-4a21-64a7-da78",
+        "hidden": false,
+        "import": true,
+        "targetId": "6817-10f4-2c29-4899",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "41a3-3dd0-5c7a-edad",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "1380-c9a3-9667-2a",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 5
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "14ae-caf6-3ac0-c1b0",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Meganob",
+        "id": "1a1c-316d-fdaf-0e7a",
+        "hidden": false,
+        "targetId": "2e0c-1fd0-4196-708f",
+        "type": "profile"
+       }
+      ],
+      "modifierGroups": [
+       {
+        "comment": "Boarding Actions modifiers",
+        "type": "and",
+        "modifiers": [
+         {
+          "field": "3112-7bdb-8445-68b0",
+          "type": "set",
+          "value": 3,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "1d6e-2579-8e7f-1ed4",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "instanceOf",
+              "value": 1
+             },
+             {
+              "childId": "726a-fa36-dac2-0b11",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Meganob w/ Kustom Shoota and Killsaw",
+      "id": "2565-a1d8-4dd8-7649",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "3112-7bdb-8445-68b0",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 6
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Kustom Shoota",
+        "id": "756a-fea3-6a89-787e",
+        "hidden": false,
+        "import": true,
+        "targetId": "5b9c-898a-8355-5968",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "39a9-8518-11a-34fa",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "425c-7795-a74a-efe0",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "d8c5-795e-4cc5-58f4",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       },
+       {
+        "name": "Killsaw",
+        "id": "cfe8-c103-b7d2-1bdf",
+        "hidden": false,
+        "import": true,
+        "targetId": "6817-10f4-2c29-4899",
+        "type": "selectionEntry",
+        "constraints": [
+         {
+          "id": "41a3-3dd0-5c7a-edad",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "1380-c9a3-9667-2a",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 5
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "42ef-939d-fb14-42cf",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Meganob",
+        "id": "e8eb-f20e-1e1b-9025",
+        "hidden": false,
+        "targetId": "2e0c-1fd0-4196-708f",
+        "type": "profile"
+       }
+      ],
+      "modifierGroups": [
+       {
+        "comment": "Boarding Actions modifiers",
+        "type": "and",
+        "modifiers": [
+         {
+          "field": "3112-7bdb-8445-68b0",
+          "type": "set",
+          "value": 3,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "1d6e-2579-8e7f-1ed4",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "instanceOf",
+              "value": 1
+             },
+             {
+              "childId": "726a-fa36-dac2-0b11",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Meganob w/ Twin Killsaw",
+      "id": "731f-2f2-7ca0-23ed",
+      "hidden": false,
+      "import": true,
+      "type": "model",
+      "constraints": [
+       {
+        "id": "3112-7bdb-8445-68b0",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 6
+       }
+      ],
+      "infoLinks": [
+       {
+        "name": "Meganob",
+        "id": "599b-3675-3315-8eb0",
+        "hidden": false,
+        "targetId": "2e0c-1fd0-4196-708f",
+        "type": "profile"
+       }
+      ],
+      "modifierGroups": [
+       {
+        "comment": "Boarding Actions modifiers",
+        "type": "and",
+        "modifiers": [
+         {
+          "field": "3112-7bdb-8445-68b0",
+          "type": "set",
+          "value": 3,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "1d6e-2579-8e7f-1ed4",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "instanceOf",
+              "value": 1
+             },
+             {
+              "childId": "726a-fa36-dac2-0b11",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "force",
+              "shared": true,
+              "type": "atLeast",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Twin Killsaw",
+        "id": "b46a-4885-3b28-428b",
+        "collective": true,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "b615-19ae-ee33-9cff",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "min",
+          "value": 1
+         },
+         {
+          "id": "eeb4-6a30-ab7a-271e",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 5
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "fc20-5b5b-2b0c-2a30",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Twin Killsaw",
+          "id": "8bcf-45e6-715a-e762",
+          "hidden": false,
+          "typeId": "8a40-4aaa-c780-9046",
+          "typeName": "Melee Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "Melee",
+            "typeId": "914c-b413-91e3-a132"
+           },
+           {
+            "name": "A",
+            "$text": "3",
+            "typeId": "2337-daa1-6682-b110"
+           },
+           {
+            "name": "WS",
+            "$text": "4+",
+            "typeId": "95d1-95f-45b4-11d6"
+           },
+           {
+            "name": "S",
+            "$text": "10",
+            "typeId": "ab33-d393-96ce-ccba"
+           },
+           {
+            "name": "AP",
+            "$text": "-2",
+            "typeId": "41a0-1301-112a-e2f2"
+           },
+           {
+            "name": "D",
+            "$text": "3",
+            "typeId": "3254-9fe6-d824-513e"
+           },
+           {
+            "name": "Keywords",
+            "$text": "TWIN-LINKED",
+            "typeId": "893f-9000-ccf7-648e"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {
+   "8b5-898c-f79b-5a9c": {
+    "name": "Warlord",
+    "id": "8b5-898c-f79b-5a9c",
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Warlord",
+      "id": "60d3-fcd7-dc2a-b9a1",
+      "primary": false,
+      "targetId": "5c0e-4c31-d51b-e470"
+     }
+    ],
+    "constraints": [
+     {
+      "id": "7ca5-48b6-5801-c3ef",
+      "field": "selections",
+      "scope": "parent",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "modifiers": [
+     {
+      "field": "hidden",
+      "type": "set",
+      "value": true,
+      "conditions": [
+       {
+        "childId": "9cfd-1c32-585f-7d5c",
+        "childName": "Character",
+        "field": "selections",
+        "scope": "root-entry",
+        "shared": true,
+        "type": "notInstanceOf",
+        "value": 1
+       }
+      ]
+     }
+    ]
+   },
+   "5b9c-898a-8355-5968": {
+    "name": "Kustom Shoota",
+    "id": "5b9c-898a-8355-5968",
+    "collective": false,
+    "comment": "Multi-profile BS5+",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "0fe2-44f3-85b3-6e9e",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Rapid Fire Weapon",
+      "id": "6053-1173-002c-5d26",
+      "hidden": false,
+      "primary": false,
+      "targetId": "751c-b78a-45fa-cc5f"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "➤ Kustom Shoota - Aimed",
+      "id": "4de2-deec-efe7-452a",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "18\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "4",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "5+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "4",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     },
+     {
+      "name": "➤ Kustom Shoota - Point Blank",
+      "id": "e796-eae6-e659-3239",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "6\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D3+3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "-",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "4",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "CLOSE-QUARTERS, TORRENT",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "9896-9419-16a1-92fc",
+        "type": "decrement",
+        "value": 3,
+        "conditions": [
+         {
+          "childId": "8128-b57a-74a5-c36b",
+          "childName": "Targetin' Squigs",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "root-entry",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "f65e-dc30-e7c0-7e47": {
+    "name": "Power Klaw",
+    "id": "f65e-dc30-e7c0-7e47",
+    "comment": "A3 S10",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Melee Weapon",
+      "id": "dc12-ad69-8bf1-7025",
+      "hidden": false,
+      "primary": false,
+      "targetId": "ccdd-3987-11ed-90cd"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Power Klaw",
+      "id": "99fb-70d2-e8fb-086f",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "3+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "10",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "2",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "$text": "",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     }
+    ]
+   },
+   "ce61-585b-aea7-18fc": {
+    "name": "Kombi-weapon",
+    "id": "ce61-585b-aea7-18fc",
+    "collective": false,
+    "comment": "Multi-profile",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Ranged Weapon",
+      "id": "74eb-6baf-f965-6ea4",
+      "hidden": false,
+      "primary": false,
+      "targetId": "eeda-8544-a2f3-3fab"
+     },
+     {
+      "name": "Rapid Fire Weapon",
+      "id": "149c-0f8a-e632-5e8a",
+      "hidden": false,
+      "primary": false,
+      "targetId": "751c-b78a-45fa-cc5f"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "➤ Kombi-weapon - Point Blank",
+      "id": "03b6-fee6-d542-fa8e",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "12\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "-",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "5",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "BLAST 1, TORRENT",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "9896-9419-16a1-92fc",
+        "type": "decrement",
+        "value": 3,
+        "conditions": [
+         {
+          "childId": "8128-b57a-74a5-c36b",
+          "childName": "Targetin' Squigs",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "root-entry",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "➤ Kombi-weapon - Kill Shot",
+      "id": "a1f6-a135-1f86-7149",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "24\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "1",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "4+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "10",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "3",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "\n",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     },
+     {
+      "name": "➤ Kombi-weapon - Shoota",
+      "id": "c07c-41e0-35aa-4c2d",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "18\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "2",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "4+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "4",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "0",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "1",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 1",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "6817-10f4-2c29-4899": {
+    "name": "Killsaw",
+    "id": "6817-10f4-2c29-4899",
+    "comment": "A3 S10",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Melee Weapon",
+      "id": "020e-d0ed-f141-6ffa",
+      "hidden": false,
+      "primary": false,
+      "targetId": "ccdd-3987-11ed-90cd"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Killsaw",
+      "id": "38e3-4dd5-bcfc-0d8d",
+      "hidden": false,
+      "typeId": "8a40-4aaa-c780-9046",
+      "typeName": "Melee Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "Melee",
+        "typeId": "914c-b413-91e3-a132"
+       },
+       {
+        "name": "A",
+        "$text": "3",
+        "typeId": "2337-daa1-6682-b110"
+       },
+       {
+        "name": "WS",
+        "$text": "4+",
+        "typeId": "95d1-95f-45b4-11d6"
+       },
+       {
+        "name": "S",
+        "$text": "10",
+        "typeId": "ab33-d393-96ce-ccba"
+       },
+       {
+        "name": "AP",
+        "$text": "-2",
+        "typeId": "41a0-1301-112a-e2f2"
+       },
+       {
+        "name": "D",
+        "$text": "3",
+        "typeId": "3254-9fe6-d824-513e"
+       },
+       {
+        "name": "Keywords",
+        "$text": "",
+        "typeId": "893f-9000-ccf7-648e"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "groups": {
+   "ebea-74c4-f3db-183d": {
+    "name": "Enhancements - Upgrades",
+    "id": "ebea-74c4-f3db-183d",
+    "collapsible": true,
+    "hidden": false,
+    "constraints": [
+     {
+      "id": "2ba9-320e-f814-f415",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "self",
+      "shared": true,
+      "type": "max",
+      "value": 1
+     }
+    ],
+    "selectionEntryGroups": [
+     {
+      "name": "Bully Boyz Enhancements",
+      "id": "7bc8-d71a-3d0b-4b88",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "ed5a-ec48-ef74-123f",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "10d4-31d1-92e1-3bb4",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "fbcc-82b9-12ce-f4ea",
+            "childId": "4b17-a73a-7a0a-a265",
+            "childName": "Bully Boyz",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Wimp-kickaz",
+        "id": "1831-efc5-03fd-25c1",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "d924-a96d-9cab-125b",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "6bd0-bb47-8def-5b47",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "1831-efc5-03fd-25c1",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "1831-efc5-03fd-25c1",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "8c0d-c331-6446-ae26",
+            "childName": "Nobz",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Wimp-kickaz",
+          "id": "1748-522e-aab9-21d5",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**NOBZ** unit only. When an enemy unit **engaged** with this unit is selected to make a **fall-back move**:\n- That enemy unit must select the **desperate escape** mode.\n- If this unit is **riled up**, that enemy unit has -1 to the **hazard rolls** made for that **desperate escape**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Green Tide Enhancements",
+      "id": "888a-a1f8-e3a3-2a4f",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "c783-747c-9caf-2158",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "0951-9478-2623-b346",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "d0f5-bd38-b2b5-11ea",
+            "childId": "795f-b961-9504-bd08",
+            "childName": "Green Tide",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "'Ardboyz",
+        "id": "a475-b136-890b-c69e",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "2dfe-8b66-81cc-456b",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "ce0a-e8ae-d11d-f688",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 25
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "a475-b136-890b-c69e",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "a475-b136-890b-c69e",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "affects": "self.entries.group.recursive.profiles.Unit",
+            "arg": "5+",
+            "field": "annotation",
+            "join": ", ",
+            "scope": "root-entry",
+            "skipIfPresent": "'Ardboyz",
+            "type": "append",
+            "value": "'Ardboyz"
+           },
+           {
+            "affects": "self.entries.group.recursive.profiles.Unit",
+            "arg": "5+",
+            "field": "450-a17e-9d5e-29da",
+            "scope": "root-entry",
+            "type": "replace",
+            "value": "4+"
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "1c75-96a5-5598-2cd",
+            "childName": "Boyz",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "'Ardboyz",
+          "id": "a05c-d1aa-1413-c356",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**BOYZ** unit only. This unit has 4+ **Sv**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Runt Swarm Enhancements",
+      "id": "1834-18a6-a076-cc04",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "6dea-944d-42fc-e03a",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "15d6-3f5d-428e-ebe8",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "4471-46a6-eb2f-b40a",
+            "childId": "7b06-be3a-9754-1bd4",
+            "childName": "Runt Swarm",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Minefield Detail",
+        "id": "06da-d011-874b-bf75",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "f076-40b9-aa2b-badf",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "a86c-9933-bfa0-35d5",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "06da-d011-874b-bf75",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "06da-d011-874b-bf75",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "b10e-5fe3-6f65-28ce",
+            "childName": "Gretchin",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Minefield Detail",
+          "id": "ff80-24f2-b10f-e604",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**GRETCHIN** unit only. While this unit is not embarked, this unit has Scouts 6\".",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Extra Sneaky",
+        "id": "8ba4-a299-ac96-fbc5",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "a7fb-4f50-57ad-bf96",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "77c9-f7bb-b78e-8cf1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "8ba4-a299-ac96-fbc5",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "8ba4-a299-ac96-fbc5",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "b10e-5fe3-6f65-28ce",
+            "childName": "Gretchin",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Extra Sneaky",
+          "id": "0807-06fc-03c4-986c",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**GRETCHIN** unit only. This unit has -3\" **detection range**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Taktikal Brigade Enhancements",
+      "id": "7e0d-225e-3a26-6942",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "0616-3b2e-86aa-bc64",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "7b41-e113-0520-b15b",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "ded9-46e2-82fe-64ed",
+            "childId": "fdd5-9868-a9ee-e9f1",
+            "childName": "Taktikal Brigade",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Throat-slittas",
+        "id": "3d0e-9ca8-451d-5dc2",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "b08a-6ff0-34a9-e2d9",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "1115-daa4-510e-44f3",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "3d0e-9ca8-451d-5dc2",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "3d0e-9ca8-451d-5dc2",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+            "field": "annotation",
+            "join": ", ",
+            "scope": "root-entry",
+            "skipIfPresent": "Throat-slittas",
+            "type": "append",
+            "value": "Throat-slittas"
+           },
+           {
+            "affects": "self.entries.group.recursive.profiles.Melee Weapons",
+            "field": "893f-9000-ccf7-648e",
+            "join": ", ",
+            "scope": "root-entry",
+            "skipIfPresent": "LETHAL HITS",
+            "type": "append",
+            "value": "LETHAL HITS: non-MONSTER/VEHICLE"
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditionGroups": [
+           {
+            "type": "and",
+            "conditions": [
+             {
+              "childId": "ea04-65cb-163b-60dc",
+              "childName": "Kommandos",
+              "field": "selections",
+              "scope": "root-entry",
+              "shared": true,
+              "type": "notInstanceOf",
+              "value": 1
+             },
+             {
+              "childId": "76e1-1bfc-28c8-5458",
+              "childName": "Stormboyz",
+              "field": "selections",
+              "scope": "root-entry",
+              "shared": true,
+              "type": "notInstanceOf",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Throat-slittas",
+          "id": "cafb-3855-f3e3-aa1c",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**KOMMANDOS/STORMBOYZ** unit only. This unit's melee attacks have **[LETHAL HITS: non-MONSTER/VEHICLE]**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Wreckas Enhancements",
+      "id": "d793-138a-6042-95c4",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "4ce0-c6fb-3d07-7971",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "172b-c355-6df5-8f02",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "3ee0-410e-6910-d886",
+            "childId": "f782-e3f1-c132-fe52",
+            "childName": "Wreckas",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Supa-snazz Dakka",
+        "id": "217d-4d10-bad0-1d6e",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "be54-1b44-bd41-6f83",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "e57a-d1a0-d284-f749",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "217d-4d10-bad0-1d6e",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "217d-4d10-bad0-1d6e",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "affects": "self.entries.group.recursive.f606-38ce-2ada-4fbd.profiles.Ranged Weapons",
+            "field": "annotation",
+            "join": ", ",
+            "scope": "root-entry",
+            "skipIfPresent": "Supa-snazz Dakka",
+            "type": "append",
+            "value": "Supa-snazz Dakka"
+           },
+           {
+            "affects": "self.entries.group.recursive.f606-38ce-2ada-4fbd.profiles.Ranged Weapons",
+            "field": "7f1b-8591-2fcf-d01c",
+            "join": ", ",
+            "scope": "root-entry",
+            "skipIfPresent": "RAPID FIRE",
+            "type": "append",
+            "value": "RAPID FIRE 1"
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "fe29-da32-d3db-1192",
+            "childName": "Flash Gitz",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Supa-snazz Dakka",
+          "id": "2419-98af-6ba3-70d9",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**FLASH GITZ** unit only. This unit's Snazzgun weapons have **[RAPID FIRE 1]**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Madcap Meks Enhancements",
+      "id": "7a5f-4795-ad67-c5d2",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "ceef-7fd0-d9e7-13f1",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "fe04-fd47-f03d-8271",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "a552-9587-4cb8-acf9",
+            "childId": "9ae4-56d1-1fd8-adcf",
+            "childName": "Madcap Meks",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Enhanced Runt-maw",
+        "id": "685d-9a51-d750-261c",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "42ef-5dc1-f2d3-a565",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "23fe-f402-1bb1-c497",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "685d-9a51-d750-261c",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "685d-9a51-d750-261c",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "2810-316b-919d-657e",
+            "childName": "Big Mek with Shokk Attack Gun",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Enhanced Runt-maw",
+          "id": "76c0-88f5-4dc9-a53e",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**BIG MEK WITH SHOKK ATTACK GUN** model only. When this unit has shot, select one enemy unit hit by those attacks. That unit is **infested with Snotlings** until the start of your next turn.\n- While an enemy unit is **infested with Snotlings**, that unit has -1 to **leadership rolls**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Temperamental Shokka",
+        "id": "bc26-0d3f-87e6-1e9f",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "0a0f-6f4d-f45e-2eeb",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "c89b-26fb-381d-8a7d",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "bc26-0d3f-87e6-1e9f",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "bc26-0d3f-87e6-1e9f",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "2810-316b-919d-657e",
+            "childName": "Big Mek with Shokk Attack Gun",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Temperamental Shokka",
+          "id": "c981-875a-ab73-8452",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**BIG MEK WITH SHOKK ATTACK GUN** model only. In your Shooting phase, when this unit is **selected to shoot**, you can roll one D6:\n- On a 1, this model's Shokk Attack Gun weapon has **[TORRENT]**, and when this unit has shot, this model is **destroyed**.\n- On a 2-5, this model's Shokk Attack Gun weapon has +1 **A**.\n- One a 6, this model's Shokk Attack Gun wepon has **SUSTAINED HITS 2]**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Blitz Brigade Enhancements",
+      "id": "7586-f7da-c259-9268",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "b04a-a6ba-07dc-c69d",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "8fc5-25a7-7fcc-c830",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "e71e-be85-8008-cded",
+            "childId": "63cc-721f-b263-9d4a",
+            "childName": "Blitz Brigade",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Targetin' Gizmos",
+        "id": "49a8-06a7-c692-fc7b",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "3ff4-1b38-a034-5eff",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "4b58-0343-294a-1fab",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "49a8-06a7-c692-fc7b",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "49a8-06a7-c692-fc7b",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "fdf7-a8ea-d7d8-8cb4",
+            "childName": "Wagon",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Targetin' Gizmos",
+          "id": "e6aa-9299-b9cf-d994",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**WAGON** unit only. While a **BIG MEK** model is embarked within this unit:\n- This unit's ranged attacks have **[IGNORES COVER]**.\n- If this unit is **riled up**, this unit's ranged attacks have **[SUSTAINED HITS 1]**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Boss Boomer",
+        "id": "637d-28e4-6831-aa7a",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "a370-cacd-7468-1da7",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "c889-92d2-2405-f462",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "637d-28e4-6831-aa7a",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "637d-28e4-6831-aa7a",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "fdf7-a8ea-d7d8-8cb4",
+            "childName": "Wagon",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Boss Boomer",
+          "id": "fb85-7919-3500-0920",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**WAGON** unit only. While a **WARBOSS** model is embarked within this unit, this unit has that **WARBOSS** model's **Intimidating Motivation/Keep Huntin'** ability.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Kult of Speed Enhancements",
+      "id": "cf1b-0004-c7d1-726e",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "3cf1-ea09-28a2-4e86",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "258f-f041-ce96-243c",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "7c30-c52d-2961-a3b2",
+            "childId": "b404-44f-e9b4-7fe2",
+            "childName": "Kult of Speed",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Smoky Gubbinz",
+        "id": "5ecd-f403-5178-fd54",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "ac98-918f-5f22-1c36",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "d6b2-8892-4005-24b1",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "5ecd-f403-5178-fd54",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "5ecd-f403-5178-fd54",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditionGroups": [
+           {
+            "type": "or",
+            "conditions": [
+             {
+              "childId": "fe8b-9078-9a3d-fed",
+              "childName": "Speed Freeks",
+              "field": "selections",
+              "scope": "root-entry",
+              "shared": true,
+              "type": "notInstanceOf",
+              "value": 1
+             },
+             {
+              "childId": "63f1-e6e8-f6f6-a4f0",
+              "childName": "Aircraft",
+              "field": "selections",
+              "scope": "root-entry",
+              "shared": true,
+              "type": "instanceOf",
+              "value": 1
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Smoky Gubbinz",
+          "id": "1045-5217-fc58-54d2",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**SPEED FREEKS** unit only (excluding **AIRCRAFT** units). When an attack targets a unit that is not **fully visible** to the attacking model because of a model in this unit, the target has the **benefit of cover** against that attack.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Flyboyz Enhancements",
+      "id": "7275-7d1a-92a1-3315",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "7d4b-4636-6600-cd47",
+        "field": "selections",
+        "includeChildSelections": false,
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "modifiers": [
+       {
+        "field": "hidden",
+        "type": "set",
+        "value": true,
+        "conditionGroups": [
+         {
+          "type": "and",
+          "conditions": [
+           {
+            "id": "88f6-09a5-c41a-3287",
+            "childId": "cac3-71d1-ea4b-795d",
+            "field": "forces",
+            "includeChildSelections": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           },
+           {
+            "id": "eb5a-37cf-7add-1f44",
+            "childId": "7c3c-fb9c-8689-8c7a",
+            "childName": "Flyboyz",
+            "field": "selections",
+            "includeChildSelections": true,
+            "scope": "force",
+            "shared": true,
+            "type": "lessThan",
+            "value": 1
+           }
+          ]
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Impulsive Recon",
+        "id": "aa88-0f70-fb17-5d4a",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "aab2-6109-0418-8d8b",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "db2c-5079-96ca-543b",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 15
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "aa88-0f70-fb17-5d4a",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "aa88-0f70-fb17-5d4a",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "63f1-e6e8-f6f6-a4f0",
+            "childName": "Aircraft",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Impulsive Recon",
+          "id": "d817-9012-88b2-13d7",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**ORKS AIRCRAFT** unit only. In your first Movement phase, this unit can make an **ingress move**.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Flyboss",
+        "id": "4f3f-f78f-1b26-0189",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "6fc3-b628-2d62-343e",
+          "field": "selections",
+          "includeChildSelections": false,
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 1
+         },
+         {
+          "id": "c842-f1aa-7363-fae5",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "force",
+          "shared": true,
+          "type": "max",
+          "value": 3
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 20
+         },
+         {
+          "name": "Crusade Points",
+          "typeId": "b03b-c239-15a5-da55",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Battle Honours",
+          "typeId": "75bb-ded1-c86d-bdf0",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Experience",
+          "typeId": "a623-fe74-1d33-cddf",
+          "value": 0
+         },
+         {
+          "name": "Crusade: Weapon Modifications",
+          "typeId": "716d-91b7-d55a-1022",
+          "value": 0
+         },
+         {
+          "name": "Blackstone Fragments",
+          "typeId": "ac6b-ced3-9b5e-9a6e",
+          "value": 0
+         },
+         {
+          "name": "Detachment Points",
+          "typeId": "82ae-1066-5107-6ae0",
+          "value": 0
+         },
+         {
+          "name": "Enhancements",
+          "typeId": "f759-1bc4-cb3a-f0d2",
+          "value": 1
+         }
+        ],
+        "modifierGroups": [
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 2,
+            "conditions": [
+             {
+              "childId": "4f3f-f78f-1b26-0189",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "equalTo",
+              "value": 2
+             }
+            ]
+           },
+           {
+            "field": "f759-1bc4-cb3a-f0d2",
+            "type": "divide",
+            "value": 3,
+            "conditions": [
+             {
+              "childId": "4f3f-f78f-1b26-0189",
+              "childName": "Deepening Madness",
+              "field": "selections",
+              "includeChildSelections": true,
+              "scope": "roster",
+              "shared": true,
+              "type": "greaterThan",
+              "value": 2
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "type": "and",
+          "modifiers": [
+           {
+            "field": "category",
+            "scope": "root-entry",
+            "type": "add",
+            "value": "9cfd-1c32-585f-7d5c"
+           }
+          ]
+         }
+        ],
+        "modifiers": [
+         {
+          "field": "hidden",
+          "type": "set",
+          "value": true,
+          "conditions": [
+           {
+            "childId": "63f1-e6e8-f6f6-a4f0",
+            "childName": "Aircraft",
+            "field": "selections",
+            "scope": "root-entry",
+            "shared": true,
+            "type": "notInstanceOf",
+            "value": 1
+           }
+          ]
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Flyboss",
+          "id": "3f9a-4c55-2f15-cdd0",
+          "hidden": false,
+          "typeId": "9cc3-6d83-4dd3-9b64",
+          "typeName": "Abilities",
+          "characteristics": [
+           {
+            "name": "Description",
+            "$text": "**ORKS AIRCRAFT** unit only.\n- This unit has **CHARACTER**.\n- When this unit ends an **ingress move**, each friendly **ORKS AIRCRAFT/DEFFKOPTAS** unit within 6\" of this unit is **riled up** until the start of your next turn.",
+            "typeId": "9b8f-694b-e5e-b573"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "profiles": {
+   "2e0c-1fd0-4196-708f": {
+    "name": "Meganob",
+    "id": "2e0c-1fd0-4196-708f",
+    "hidden": false,
+    "typeId": "c547-1836-d8a-ff4f",
+    "typeName": "Unit",
+    "characteristics": [
+     {
+      "name": "M",
+      "$text": "5\"",
+      "typeId": "e703-ecb6-5ce7-aec1"
+     },
+     {
+      "name": "T",
+      "$text": "6",
+      "typeId": "d29d-cf75-fc2d-34a4"
+     },
+     {
+      "name": "Sv",
+      "$text": "2+",
+      "typeId": "450-a17e-9d5e-29da"
+     },
+     {
+      "name": "W",
+      "$text": "3",
+      "typeId": "750a-a2ec-90d3-21fe"
+     },
+     {
+      "name": "LD",
+      "$text": "7+",
+      "typeId": "58d2-b879-49c7-43bc"
+     },
+     {
+      "name": "OC",
+      "$text": "1",
+      "typeId": "bef7-942a-1a23-59f8"
+     },
+     {
+      "name": "InSv",
+      "$text": "",
+      "typeId": "55a7-5b54-c60d-11dc"
+     }
+    ]
+   }
+  }
+ }
+}
