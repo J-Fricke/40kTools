@@ -84,3 +84,44 @@ export function effectiveLimits(node, state = { modelCount: 1, selections: {} })
   if (max < min) max = min;
   return { min, max: max === Infinity ? null : max };
 }
+
+// ── Distilled form (what A5 emits, what Story D evaluates) ──────────────────
+// A record node carries { min, max, conditions?: [{ target, op, value, when:
+// [ {type, childId, scope, value} ] }] }. `max: null` = unlimited.
+
+// Extract the distilled conditions from a raw BSData node (its own
+// limit-adjusting modifiers). Returns [] if none.
+export function distillConditions(node) {
+  const cons = [...(node.constraints || []), ...(node._linkConstraints || [])];
+  const byId = new Map(cons.filter(c => c.field === "selections").map(c => [c.id, c.type]));
+  const out = [];
+  for (const m of [...(node.modifiers || []), ...(node._linkModifiers || [])]) {
+    if (!["set", "increment", "decrement"].includes(m.type)) continue;
+    const target = m.field === "hidden" ? "max" : byId.get(m.field);
+    if (!target) continue;
+    const when = [...(m.conditions || []), ...(m.conditionGroups || []).flatMap(g => g.conditions || [])]
+      .map(c => ({ type: c.type, childId: c.childId, scope: c.scope || "parent", value: c.value }));
+    out.push({
+      target,
+      op: m.field === "hidden" ? "set0" : (m.type === "set" ? "set" : m.type === "increment" ? "inc" : "dec"),
+      value: m.field === "hidden" ? 0 : m.value,
+      when,
+    });
+  }
+  return out;
+}
+
+export function effectiveLimitsFromRecord(node, state = { modelCount: 1, selections: {} }) {
+  let min = node.min ?? 0;
+  let max = node.max == null ? Infinity : node.max;
+  for (const c of node.conditions || []) {
+    const pass = (c.when || []).every(w => conditionPasses(w, state));
+    if (!pass) continue;
+    const apply = (cur) => c.op === "set0" ? 0 : c.op === "set" ? c.value : c.op === "inc" ? cur + c.value : cur - c.value;
+    if (c.op === "set0") max = 0;
+    else if (c.target === "min") min = apply(min);
+    else max = apply(max);
+  }
+  if (max < min) max = min;
+  return { min, max: max === Infinity ? null : max };
+}
