@@ -28,17 +28,26 @@
   for a comparison tool; individual tuning / `overrides.js` entries can
   happen as they come up. Not a correctness blocker.
 
-## Known follow-ups (not blocking S-A3)
+## A8 outcome — R9 "done" bar met
 
-- Refresh `fixtures/*.json` from the current cache — several are stale P1
-  snapshots (Deff Dread's wargear shape changed upstream). The harness
-  asserts against live `loadFaction`, not the fixtures, so tests are green
-  regardless; the fixtures just need a re-dump for future offline tests.
-- Tune the 52 leader-weapon defaults where a wrong first-pick would
-  meaningfully skew a comparison (spot-check during Story D wiring).
-- `overrides.js` is empty — populate it as real BSData data errors surface
-  (e.g. GK Land Raider Redeemer flamestorm cannons, issue #3 — deferred to
-  Story E's migration).
+Over all 34 catalogues: **0 parse failures, 0 unresolved wargear nodes, 0
+unresolved keyword shapes.** Every remaining `_sync-report.json` entry is
+accounted for:
+
+- **1 no-stats** — 1 Legends unit; BSData gives it no Unit profile.
+- **5 damage-bracket units** — by design, top profile taken.
+- **386 non-count pts modifiers** — by design (battle-size tax, char buffs);
+  don't affect a unit's own cost.
+- **52 default-rule-(4) fallbacks** — squad-leader / special-model weapon
+  defaults BSData doesn't mark. 22 are `[Legends]`. Rule 4 (first option)
+  is a reasonable guess and the leader's exact pistol rarely moves a
+  comparison. Reviewed; acceptable. Any that matter get an `overrides.js`
+  entry when Story D surfaces them.
+
+`fixtures/*.json` re-verified against the current cache — **not stale**, no
+refresh needed. `overrides.js` is intentionally empty; populate as real
+BSData data errors surface (GK Land Raider Redeemer flamestorm cannons,
+issue #3 → Story E's migration).
 
 ## Points vs. the old MFM data
 

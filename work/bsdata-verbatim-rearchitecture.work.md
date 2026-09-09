@@ -25,7 +25,7 @@ note). Nothing past P1 executes without that go-ahead.
 | A5 wargear tree | DONE | — | after A3 |
 | A6 integrate + report | DONE | — | after A2,A3,A5 |
 | A7 validation harness | DONE — 9/9 | — | after A4,A6 |
-| A8 clean the sync report | MOSTLY DONE — residue documented, at S-A2 | — | after A7; stop at S-A3 |
+| A8 clean the sync report | DONE — R9 bar met | — | after A7; stop at S-A3 |
 | Stories B–E | NOT STARTED | — | B blocked on S-A3 |
 
 Branch: `impl-bsdata-ingester` (off `story-bsdata-ingester` + merged
@@ -100,3 +100,21 @@ Serialisation note: `max: Infinity` → `null` in JSON; consumers treat
 `null` max as unlimited.
 
 Next: A2 (meta), A3 (weapons), A4 (constraint eval) — independent.
+
+### 2026-09-09 — Story A done (S-A3)
+
+Reworked at S-A2 per Joshua: the ingester now keeps RAW BSData
+characteristics (weapon A/BS/S/AP/D/Range as strings, stats as strings,
+keywords UPPERCASE-verbatim) — dice-averaging / skill mapping / keyword
+semantics are Story B's. `scripts/bsdata-import/v2/DATA-MAPPING.md` is the
+field-by-field BSData→UnitRecord diff + what's dropped. S-A2 signed off.
+
+Final: 1342 units / 34 factions, 0 parse failures, deterministic, harness
+9/9. `src/core/data/*.json` (~10 MB, pretty-printed; build minifies) +
+`_sync-report.json` committed. Old pipeline + `npm run build` untouched.
+
+**S2 contract frozen:** `src/core/model/unitRecord.js` — no field renames
+without a coordination note.
+
+Next: Story B (keyword dictionary + combat engine). Blocked only on Joshua
+choosing whether to merge the PR stack (#38→#41) to main first.
