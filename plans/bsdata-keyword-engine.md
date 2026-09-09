@@ -101,7 +101,8 @@ Effect = {
 }
 ```
 
-**`engine.js`** — port `calcW` field-by-field, but:
+**`engine.js`** — fresh code; `calcW`'s *formulas* transcribed, not its
+shape (see B3):
 - inputs are `{ A, BS|WS, S, AP, D, keywords }` raw strings → convert with
   `dice.js`;
 - `tags` object replaced by the resolved `Effect`;
