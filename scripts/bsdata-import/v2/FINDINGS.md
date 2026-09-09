@@ -104,21 +104,34 @@ greaterThan, lessThan, equalTo, instanceOf, notInstanceOf`.
 | `increment / set: <characteristic-guid> when none` | ~600 | **evaluate** the unconditional ones (real stat/weapon values); conditional ones case-by-case |
 | `divide: <enhancement> when …/roster` | ~250 | **ignore** — enhancement point math |
 
-## 4. Conditional visibility (`hidden`) — decision needed
+## 4. Conditional visibility (`hidden`) — RESOLVED
 
-~25 000 `set: hidden when <cond>` modifiers. They fall into:
+The "~25 000" from the modifier census counted every `set:hidden` anywhere
+(shared entries, catalogue chrome, cruft). **On actual unit wargear trees
+there are only ~400**, and they break down cleanly (see
+`hidden-analysis.mjs`):
 
-- **cruft gating** — Crusade / Legends / detachment-upgrade subtrees turned
-  on/off. Covered by the static-`hidden` + name blocklist filter already.
-- **sub-faction / detachment gating of real wargear** — "this option only
-  in Detachment X", "this weapon only for Chapter Y". These are genuine
-  matched-play options, just conditionally available.
+| kind | ~count | what it is | ingester |
+|---|---|---|---|
+| Chaos Daemons "Show Khorne/Nurgle/… Daemons" toggles | 308 | BattleScribe UI convenience for the god-split | **ignore** — show all |
+| sub-faction / chapter / Legends **unit-level** gates ("hide this Deathwatch unit unless playing Deathwatch") | ~60 | unit visibility, not wargear | **ignore** — a per-unit tool shows every unit |
+| roster legality (`atLeast [cat] Gabriel Seth`, `lessThan @roster`) | ~15 | "can't take two Chapter Masters" etc. | **ignore** — not a list builder (R12) |
+| genuine **intra-unit** "hide option X if you have Y" (Desolation Squad ammo types; Death Company special-weapon caps) | ~15 | a real build constraint within one unit | **evaluate** — the same per-node constraint evaluator |
 
-**Recommendation:** the ingester filters static `hidden: true` + the cruft
-blocklist, and **keeps conditionally-hidden real wargear visible** (does
-not evaluate sub-faction / detachment gating). Rationale: we do not enforce
-list legality (R12), and the user wants to *see* options. A later refinement
-can grey-out options whose detachment isn't the selected one. **Confirm.**
+**There is no detachment-gated *wargear* in 11e** (a grep of every unit
+tree's modifier conditions for "detachment" found nothing). Unit weapons
+are the same regardless of detachment.
+
+**The detachment-specific thing is *enhancements*** — 20+ character-capable
+unit trees carry an `Enhancements` node. Enhancements are listed
+per-detachment, attach to an eligible character, and cost points. Gating
+them on the selected detachment ("only show this detachment's enhancements")
+is **R12's job**, and matches Joshua's "unlock if that detachment is
+selected" exactly — just for enhancements, not weapons.
+
+**Resolution:** regular wargear → show all (there is no gating to do);
+enhancements → detachment-gated per R12; the ~15 real intra-unit "X hides
+Y" constraints → handled by the constraint evaluator like everything else.
 
 ## 5. Default selection
 
