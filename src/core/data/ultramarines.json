@@ -1,0 +1,2480 @@
+[
+  {
+    "abilities": [
+      {
+        "name": "Lead From the Front",
+        "text": "While this model is leading a unit, models in that unit have the Scouts 6\" ability and ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+      },
+      {
+        "name": "Knight Champion of Macragge",
+        "text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Sternguard Veteran Squad\n■ Tactical Squad"
+      },
+      {
+        "name": "Invulnerable Save",
+        "text": "4+"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/captain-sicarius",
+    "keywords": [
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SICARIUS"
+    ],
+    "name": "Captain Sicarius",
+    "points": [
+      {
+        "models": 1,
+        "pts": 85
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "2ae8-40ec-ba34-dfe5"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "4",
+      "W": "5"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Artisan Plasma Pistol",
+          "srcId": "9855-a302-b6f-5d15",
+          "weaponRefs": [
+            "artisan-plasma-pistol"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Talassarian Tempest Blade",
+          "srcId": "9a28-8c88-5392-1c98",
+          "weaponRefs": [
+            "talassarian-tempest-blade"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "artisan-plasma-pistol",
+        "name": "Artisan Plasma Pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "2",
+            "S": "8",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Artisan Plasma Pistol",
+            "range": "12\""
+          }
+        ]
+      },
+      {
+        "id": "talassarian-tempest-blade",
+        "melee": [
+          {
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [
+              "LETHAL HITS"
+            ],
+            "name": "Talassarian Tempest Blade"
+          }
+        ],
+        "name": "Talassarian Tempest Blade"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Press the Attack",
+        "text": "Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability"
+      },
+      {
+        "name": "Honour of Ultramar",
+        "text": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks. If one or more enemy models are destroyed as a result of those attacks, this model regains D3 lost wounds and is not destroyed; otherwise, it is removed from play."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units: \n\n■ ASSAULT INTERCESSOR SQUAD\n■ ASSAULT SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMMAND SQUAD\n■ COMPANY HEROES\n■ HELLBLASTER SQUAD\n■ INFERNUS SQUAD\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ VANGUARD VETERAN SQUAD\n■ VICTRIX HONOUR GUARD\n■ WARDENS OF ULTRAMAR"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/captain-titus",
+    "keywords": [
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS",
+      "TITUS"
+    ],
+    "name": "Captain Titus",
+    "points": [
+      {
+        "models": 1,
+        "pts": 100
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "596f-dbdc-41e7-088a"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "3+",
+      "T": "4",
+      "W": "6"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Master-crafted Chainsword",
+          "srcId": "8776-76a3-a914-58e3",
+          "weaponRefs": [
+            "master-crafted-chainsword"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Master-crafted Bolter",
+          "srcId": "607f-73ab-4214-eb23",
+          "weaponRefs": [
+            "master-crafted-bolter"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Bolt pistol",
+          "srcId": "b273-b85e-4018-a0cd",
+          "weaponRefs": [
+            "bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "master-crafted-chainsword",
+        "melee": [
+          {
+            "A": "8",
+            "AP": "-1",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [
+              "ANTI-INFANTRY 2+"
+            ],
+            "name": "Master-crafted Chainsword"
+          }
+        ],
+        "name": "Master-crafted Chainsword"
+      },
+      {
+        "id": "master-crafted-bolter",
+        "name": "Master-crafted Bolter",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
+            "keywords": [
+              "ASSAULT",
+              "HEAVY"
+            ],
+            "name": "Master-crafted Bolter",
+            "range": "24\""
+          }
+        ]
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Bolt pistol",
+            "range": "12\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Knight Champion of Macragge",
+        "text": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model’s unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+      },
+      {
+        "name": "Honour or Death",
+        "text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, even if you have already used\nthat Stratagem on a different unit this phase."
+      },
+      {
+        "name": "Support",
+        "text": "This model can be attached to the following units: \n\n\n■ VICTRIX HONOUR GUARD\n\n\nYou can attach this model to the above unit even if a Marneus Calgar unit has already been attached\nto it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate\nunits, with their original Starting Strengths"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/cato-sicarius",
+    "keywords": [
+      "CAPTAIN",
+      "CATO",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "SICARIUS",
+      "TACTICUS"
+    ],
+    "name": "Cato Sicarius",
+    "points": [
+      {
+        "models": 1,
+        "pts": 105
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "b014-911d-271a-5b8e"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "4",
+      "W": "5"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Artisan Plasma Pistol",
+          "srcId": "fea2-6e86-5ab3-15c2",
+          "weaponRefs": [
+            "artisan-plasma-pistol"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Talassarian Tempest Blade",
+          "srcId": "2c26-cc55-1c4a-5ceb",
+          "weaponRefs": [
+            "talassarian-tempest-blade"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "artisan-plasma-pistol",
+        "name": "Artisan Plasma Pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "2",
+            "S": "8",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Artisan Plasma Pistol",
+            "range": "12\""
+          }
+        ]
+      },
+      {
+        "id": "talassarian-tempest-blade",
+        "melee": [
+          {
+            "A": "4",
+            "AP": "-3",
+            "D": "3",
+            "S": "6",
+            "WS": "2+",
+            "keywords": [
+              "DEVASTATING WOUNDS"
+            ],
+            "name": "Talassarian Tempest Blade - Strike"
+          },
+          {
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [
+              "PRECISION"
+            ],
+            "name": "Talassarian Tempest Blade - Coup de Grace"
+          },
+          {
+            "A": "9",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [
+              "SUSTAINED HITS 1"
+            ],
+            "name": "Talassarian Tempest Blade - Sweep"
+          }
+        ],
+        "name": "Talassarian Tempest Blade"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Catechism of Death",
+        "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+      },
+      {
+        "name": "Inspired Retribution",
+        "text": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ Assault Squad\n■ Command Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad\n■ Tyrannic War Veterans\n■ Vanguard Veteran Squad"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/chaplain-cassius-legends",
+    "keywords": [
+      "CHAPLAIN CASSIUS",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY"
+    ],
+    "name": "Chaplain Cassius [Legends]",
+    "points": [
+      {
+        "models": 1,
+        "pts": 80
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "b180-3cac-9124-b818"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "5+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "3+",
+      "T": "4",
+      "W": "4"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Infernus",
+          "srcId": "29d6-c305-6ff-e055",
+          "weaponRefs": [
+            "infernus"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Artificer Crozius",
+          "srcId": "fd26-e418-17b8-7c0a",
+          "weaponRefs": [
+            "artificer-crozius"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "infernus",
+        "name": "Infernus",
+        "ranged": [
+          {
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "IGNORES COVER",
+              "TORRENT"
+            ],
+            "name": "Infernus",
+            "range": "12\""
+          }
+        ]
+      },
+      {
+        "id": "artificer-crozius",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Artificer Crozius"
+          }
+        ],
+        "name": "Artificer Crozius"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Hood of Hellfire",
+        "text": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks and mortal wounds."
+      },
+      {
+        "name": "Master of Prescience (Psychic)",
+        "text": "▪ This unit has Stealth.\n▪ Melee attacks that target this unit have ‑1 to hit rolls.\n▪ (Once per battle round, per army) When you target this unit with the Counteroffensive/Fire Overwatch/Heroic Intervention stratagem, that use is ‑1 CP."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, DESOLATION SQUAD, DEVASTATOR SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/chief-librarian-tigurius",
+    "keywords": [
+      "CHARACTER",
+      "CHIEF LIBRARIAN TIGURIUS",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER"
+    ],
+    "name": "Chief Librarian Tigurius",
+    "points": [
+      {
+        "models": 1,
+        "pts": 85
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "3ef1-1647-cd7b-a40b"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": "4+",
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "3+",
+      "T": "4",
+      "W": "4"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Storm of the Emperor’s Wrath",
+          "srcId": "4aab-43dc-b23-cff",
+          "weaponRefs": [
+            "storm-of-the-emperor-s-wrath"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Rod of Tigurius",
+          "srcId": "c6ea-3c75-3e25-90aa",
+          "weaponRefs": [
+            "rod-of-tigurius"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Bolt pistol",
+          "srcId": "b273-b85e-4018-a0cd",
+          "weaponRefs": [
+            "bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "storm-of-the-emperor-s-wrath",
+        "name": "Storm of the Emperor’s Wrath",
+        "ranged": [
+          {
+            "A": "D6",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "2",
+            "S": "6",
+            "keywords": [
+              "BLAST",
+              "PSYCHIC"
+            ],
+            "name": "Storm of the Emperor’s Wrath - Witchfire",
+            "range": "18\""
+          },
+          {
+            "A": "2D6",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "2",
+            "S": "6",
+            "keywords": [
+              "BLAST",
+              "HAZARDOUS",
+              "PSYCHIC"
+            ],
+            "name": "Storm of the Emperor’s Wrath - Focused Witchfire",
+            "range": "18\""
+          }
+        ]
+      },
+      {
+        "id": "rod-of-tigurius",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-2",
+            "D": "D3",
+            "S": "7",
+            "WS": "3+",
+            "keywords": [
+              "PSYCHIC"
+            ],
+            "name": "Rod of Tigurius"
+          }
+        ],
+        "name": "Rod of Tigurius"
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Bolt pistol",
+            "range": "12\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Press the Attack",
+        "text": ": Weapons equipped by models in this model’s unit have the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Honour of the Chapter",
+        "text": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Hellblaster Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/lieutenant-titus",
+    "keywords": [
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LIEUTENANT",
+      "TACTICUS",
+      "TITUS"
+    ],
+    "name": "Lieutenant Titus",
+    "points": [
+      {
+        "models": 1,
+        "pts": 70
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "b07a-c1e9-24e5-09ee"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "3+",
+      "T": "4",
+      "W": "5"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Astartes Chainsword",
+          "srcId": "35ed-7fa0-b68f-79d7",
+          "weaponRefs": [
+            "astartes-chainsword"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Heavy Bolt Pistol",
+          "srcId": "eca4-d5d2-18a1-01a8",
+          "weaponRefs": [
+            "heavy-bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "astartes-chainsword",
+        "melee": [
+          {
+            "A": "8",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
+            "keywords": [
+              "ANTI-INFANTRY 2+"
+            ],
+            "name": "Astartes Chainsword"
+          }
+        ],
+        "name": "Astartes Chainsword"
+      },
+      {
+        "id": "heavy-bolt-pistol",
+        "name": "Heavy Bolt Pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Heavy Bolt Pistol",
+            "range": "18\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Inspiring Leader",
+        "text": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+      },
+      {
+        "name": "Master Tactician",
+        "text": "At the start of your Command phase, if this unit’s Marneus Calgar model is your WARLORD and is on the battlefield, you gain 1CP."
+      },
+      {
+        "name": "Honour Guard of Macragge",
+        "text": "While this unit contains one or more Victrix Honour Guard models, this unit’s Marneus Calgar model has the Feel No Pain 4+ ability."
+      },
+      {
+        "name": "Leader",
+        "text": "This unit can be attached to the following units:\n\n■ Aggressor Squad\n■ Assault Intercessor Squad\n■ Bladeguard Veteran Squad\n■ Company Heroes\n■ Eradicator Squad\n■ Heavy Intercessor Squad\n■ Infernus Squad\n■ Intercessor Squad\n■ Sternguard Veteran Squad\n■ Tactical Squad"
+      },
+      {
+        "name": "Invulnerable Save",
+        "text": "4+"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/marneus-calgar",
+    "keywords": [
+      "IMPERIUM",
+      "INFANTRY"
+    ],
+    "name": "Marneus Calgar",
+    "points": [
+      {
+        "models": 1,
+        "pts": 200
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "5380-5757-2c46-31cc"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": "4+",
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "6",
+      "W": "6"
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Gauntlets of Ultramar",
+              "srcId": "482e-2b4f-616-d783",
+              "weaponRefs": [
+                "gauntlets-of-ultramar"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Marneus Calgar",
+          "srcId": "9ee9-60dc-e65-b0c5"
+        },
+        {
+          "children": [
+            {
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Victrix Power Sword",
+              "srcId": "639c-f60f-581e-71d",
+              "weaponRefs": [
+                "victrix-power-sword"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 2,
+          "min": 2,
+          "name": "Victrix Honour Guard",
+          "srcId": "3719-2013-c91c-1838"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "gauntlets-of-ultramar",
+        "melee": [
+          {
+            "A": "6",
+            "AP": "-3",
+            "D": "3",
+            "S": "8",
+            "WS": "2+",
+            "keywords": [
+              "TWIN-LINKED"
+            ],
+            "name": "Gauntlets of Ultramar"
+          }
+        ],
+        "name": "Gauntlets of Ultramar",
+        "ranged": [
+          {
+            "A": "4",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
+            "keywords": [
+              "PISTOL",
+              "TWIN-LINKED"
+            ],
+            "name": "Gauntlets of Ultramar",
+            "range": "18\""
+          }
+        ]
+      },
+      {
+        "id": "victrix-power-sword",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Victrix Power Sword"
+          }
+        ],
+        "name": "Victrix Power Sword"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Inspiring Leader",
+        "text": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+      },
+      {
+        "name": "Master Tactician",
+        "text": "At the start of your Command phase, if this unit’s Marneus Calgar model is your ^^**Warlord**^^ and is on the battlefield, you gain 1CP."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units: AGGRESSOR SQUAD, ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, ERADICATOR SQUAD STERNGUARD VETERAN SQUAD TERMINATOR SQUAD, HEAVY INTERCESSOR SQUAD, INFERNUS SQUAD, INTERCESSOR SQUAD, RELIC TERMINATOR SQUAD, TACTICAL SQUAD, TERMINATOR ASSAULT SQUAD, TERMINATOR SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/marneus-calgar-in-armour-of-antilochus",
+    "keywords": [
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "MARNEUS CALGAR",
+      "TERMINATOR"
+    ],
+    "name": "Marneus Calgar in Armour of Antilochus",
+    "points": [
+      {
+        "models": 1,
+        "pts": 155
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "a136-76f7-34d1-8035"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "6",
+      "W": "6"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Gauntlets of Ultramar",
+          "srcId": "2bb4-99f4-3659-5eda",
+          "weaponRefs": [
+            "gauntlets-of-ultramar"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "gauntlets-of-ultramar",
+        "melee": [
+          {
+            "A": "6",
+            "AP": "-3",
+            "D": "3",
+            "S": "8",
+            "WS": "2+",
+            "keywords": [
+              "TWIN-LINKED"
+            ],
+            "name": "Gauntlets of Ultramar"
+          }
+        ],
+        "name": "Gauntlets of Ultramar",
+        "ranged": [
+          {
+            "A": "4",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
+            "keywords": [
+              "PISTOL",
+              "TWIN-LINKED"
+            ],
+            "name": "Gauntlets of Ultramar",
+            "range": "18\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Author of the Codex",
+        "text": "At the Start of your Command phase, select two Author of the Codex abilities (see left). Until the start of your next Command phase, this model has those abilities.’\n\nPrimarch of the XIII (Aura): While a friendly Adeptus Astartes unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and you can re-roll Battle-shock and Leadership tests taken for that unit.\n\nMaster of Battle: After you have selected an enemy unit using the Oath of Moment ability, select a second enemy unit. Until the start of your next Command phase, if your Oath of Moment target is destroyed, that second enemy unit becomes your Oath of Moment target until you select a new one.\n\nSupreme Strategist: Once per battle round, you can target one friendly ADEPTUS ASTARTES unit within 12\" of this model with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      },
+      {
+        "name": "Ultramarines Bodyguard",
+        "text": "While this model is within 3\" of one or more friendly Adeptus Astartes Infantry units, this model has the Lone Operative ability"
+      },
+      {
+        "name": "Armour of Fate",
+        "text": "The first time this model is destroyed, roll one D6 at the end of the phase: on a 3+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy models, with 6 wounds remaining."
+      },
+      {
+        "name": "Supreme Commander",
+        "text": "If this model is in your army, it must be your Warlord."
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/roboute-guilliman",
+    "keywords": [
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "MOBILE",
+      "MONSTER",
+      "PRIMARCH",
+      "ROBOUTE GUILLIMAN"
+    ],
+    "name": "Roboute Guilliman",
+    "points": [
+      {
+        "models": 1,
+        "pts": 355
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "4aea-b1cc-6c69-1c44"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "5+",
+      "M": "8\"",
+      "OC": "4",
+      "Sv": "2+",
+      "T": "9",
+      "W": "10"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Hand of Dominion",
+          "srcId": "b5b2-5c6-e593-69a7",
+          "weaponRefs": [
+            "hand-of-dominion"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "The Emperor's Sword",
+          "srcId": "4c53-6d36-742f-85ca",
+          "weaponRefs": [
+            "the-emperor-s-sword"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "hand-of-dominion",
+        "melee": [
+          {
+            "A": "7",
+            "AP": "-4",
+            "D": "4",
+            "S": "14",
+            "WS": "2+",
+            "keywords": [
+              "LETHAL HITS"
+            ],
+            "name": "Hand of Dominion"
+          }
+        ],
+        "name": "Hand of Dominion",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "2",
+            "S": "6",
+            "keywords": [
+              "RAPID FIRE 2"
+            ],
+            "name": "Hand of Dominion",
+            "range": "30\""
+          }
+        ]
+      },
+      {
+        "id": "the-emperor-s-sword",
+        "melee": [
+          {
+            "A": "14",
+            "AP": "-3",
+            "D": "2",
+            "S": "8",
+            "WS": "2+",
+            "keywords": [
+              "DEVASTATING WOUNDS"
+            ],
+            "name": "The Emperor's Sword"
+          }
+        ],
+        "name": "The Emperor's Sword"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Tank Commander",
+        "text": "While this model is commanding a Vehicle model (see reverse):\n\n■ Ranged weapons equipped by that Vehicle model have a Ballistic Skill characteristic of 2+.\n■ Each time that Vehicle model is selected to shoot, you can re-roll one Wound roll when resolving those attacks.\n\nIf your army includes one or more of the Vehicle models listed below, Sergeant Chronus must start the battle embarked within one of those models as if it were a Transport. Sergeant Chronus can only disembark from that Vehicle if it is destroyed. While embarked in this way, Sergeant Chronus is said to be commanding that Vehicle.\n\n■ Hunter\n■ Land Raider\n■ Land Raider Crusader\n■ Land Raider Redeemer\n■ Predator Annihilator\n■ Predator Destructor\n■ Stalker\n■ Vindicator\n■ Whirlwind"
+      },
+      {
+        "name": "Chronus",
+        "text": "When this model disembarks from a Vehicle model it was commanding, it has the Lone Operative ability until the end of the battle."
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/sergeant-chronus-legends",
+    "keywords": [
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SERGEANT CHRONUS"
+    ],
+    "name": "Sergeant Chronus [Legends]",
+    "points": [
+      {
+        "models": 1,
+        "pts": 75
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "2263-82ee-3db6-8be9"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "4",
+      "W": "3"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Chronus' Servo-Arm",
+          "srcId": "f94a-1524-9f9b-2229",
+          "weaponRefs": [
+            "chronus-servo-arm"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Bolt pistol",
+          "srcId": "b273-b85e-4018-a0cd",
+          "weaponRefs": [
+            "bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "chronus-servo-arm",
+        "melee": [
+          {
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "8",
+            "WS": "3+",
+            "keywords": [],
+            "name": "Chronus' Servo-Arm"
+          }
+        ],
+        "name": "Chronus' Servo-Arm"
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Bolt pistol",
+            "range": "12\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Voice of Experience",
+        "text": "While this model is leading a unit, improve the Objective Control characteristic of models in that unit by 1 and each time a model in that unit makes an attack, add 1 to the Hit roll."
+      },
+      {
+        "name": "Guiding Hand",
+        "text": "While this model is leading a unit, each time that unit is selected to shoot or fight, select one of the following abilities to apply to weapons equipped by models in that unit until the end of the phase:\n\n\n■ [LETHAL HITS]\n■ [PRECISION]\n■ [SUSTAINED HITS 1]"
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ Scout Squad\n■ Scout Sniper Squad"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/sergeant-telion-legends",
+    "keywords": [
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SERGEANT TELION"
+    ],
+    "name": "Sergeant Telion [Legends]",
+    "points": [
+      {
+        "models": 1,
+        "pts": 70
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "696a-899e-514b-4a04"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "4+",
+      "T": "4",
+      "W": "3"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Combat Knife",
+          "srcId": "9b80-b34f-cdbd-2a95",
+          "weaponRefs": [
+            "combat-knife"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Quietus",
+          "srcId": "4e39-8d0-ac97-29f3",
+          "weaponRefs": [
+            "quietus"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Bolt pistol",
+          "srcId": "b273-b85e-4018-a0cd",
+          "weaponRefs": [
+            "bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "combat-knife",
+        "melee": [
+          {
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
+            "keywords": [],
+            "name": "Combat Knife"
+          }
+        ],
+        "name": "Combat Knife"
+      },
+      {
+        "id": "quietus",
+        "name": "Quietus",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "4",
+            "keywords": [
+              "PRECISION"
+            ],
+            "name": "Quietus",
+            "range": "36\""
+          }
+        ]
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Bolt pistol",
+            "range": "12\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Tyrannic War Veterans",
+        "text": "Weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability when targeting Tyranids units."
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/tyrannic-war-veterans-legends",
+    "keywords": [
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TYRANNIC WAR VETERANS"
+    ],
+    "name": "Tyrannic War Veterans [Legends]",
+    "points": [
+      {
+        "models": 1,
+        "pts": 85
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "8770-b0eb-f430-1dda"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "Ld": null,
+      "M": null,
+      "OC": null,
+      "Sv": null,
+      "T": null,
+      "W": null
+    },
+    "wargear": {
+      "children": [],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": []
+  },
+  {
+    "abilities": [
+      {
+        "name": "Honour Guard",
+        "text": "While a Captain or Chapter Master model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+      },
+      {
+        "name": "Honour Guard of Macragge",
+        "text": "MARNEUS CALGAR can be attached to this unit. If a CAPTAIN model from your army with the Leader ability can be attached to a COMMAND SQUAD, it can be attached to this unit instead."
+      },
+      {
+        "name": "Astartes Banner",
+        "text": "While this unit contains a Company Ancient, add 1 to the Objective Control characteristic of models in this unit."
+      },
+      {
+        "name": "Honour or Death",
+        "text": "While this unit contains a Company Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic  Intervention Stratagem for 0CP, even if you have already used that Stratagem on a different unit this phase."
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/ultramarines-honour-guard-legends",
+    "keywords": [
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "HONOR GUARD",
+      "IMPERIUM",
+      "INFANTRY"
+    ],
+    "name": "Ultramarines Honour Guard [Legends]",
+    "points": [
+      {
+        "models": 1,
+        "pts": 155
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "f4a3-1616-2f8e-59a3"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "4",
+      "W": "2"
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt pistol",
+              "srcId": "18b0-8c2-173f-5",
+              "weaponRefs": [
+                "bolt-pistol"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Boltgun",
+              "srcId": "beac-9df8-7247-c8ab",
+              "weaponRefs": [
+                "boltgun"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Power weapon",
+              "srcId": "92a8-df9c-f586-b3ce",
+              "weaponRefs": [
+                "power-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Company Ancient",
+          "srcId": "e564-61b6-32d3-b64"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt pistol",
+              "srcId": "18b0-8c2-173f-5",
+              "weaponRefs": [
+                "bolt-pistol"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Boltgun",
+              "srcId": "beac-9df8-7247-c8ab",
+              "weaponRefs": [
+                "boltgun"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Power weapon",
+              "srcId": "92a8-df9c-f586-b3ce",
+              "weaponRefs": [
+                "power-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Company Champion",
+          "srcId": "7644-5e19-93bc-8df9"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt pistol",
+              "srcId": "18b0-8c2-173f-5",
+              "weaponRefs": [
+                "bolt-pistol"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Boltgun",
+              "srcId": "beac-9df8-7247-c8ab",
+              "weaponRefs": [
+                "boltgun"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Power weapon",
+              "srcId": "92a8-df9c-f586-b3ce",
+              "weaponRefs": [
+                "power-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 2,
+          "min": 2,
+          "name": "Honour Guard",
+          "srcId": "f09a-dc4e-80f4-4674"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "CLOSE-QUARTERS"
+            ],
+            "name": "Bolt pistol",
+            "range": "12\""
+          }
+        ]
+      },
+      {
+        "id": "boltgun",
+        "name": "Boltgun",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
+            "keywords": [],
+            "name": "Boltgun",
+            "range": "24\""
+          }
+        ]
+      },
+      {
+        "id": "power-weapon",
+        "melee": [
+          {
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
+            "keywords": [],
+            "name": "Power weapon"
+          }
+        ],
+        "name": "Power weapon"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Unorthodox Strategist [Aura]",
+        "text": "Each time your opponent targets a unit from their army with a  stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem)."
+      },
+      {
+        "name": "Master of the Fleet",
+        "text": "During the Declare Battle Formations step, if your army includes this model, select one Phobos, Gravis, or Tacticus Adeptus Astartes Infantry unit from your army.  That unit gains the Deep Strike ability."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD, VICTRIX HONOUR GUARD"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/uriel-ventris",
+    "keywords": [
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS",
+      "URIEL VENTRIS"
+    ],
+    "name": "Uriel Ventris",
+    "points": [
+      {
+        "models": 1,
+        "pts": 105
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "169a-7229-ea50-1c4f"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "3+",
+      "T": "4",
+      "W": "5"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Invictus",
+          "srcId": "c23e-8f46-8323-119a",
+          "weaponRefs": [
+            "invictus"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Sword of Idaeus",
+          "srcId": "18ee-7f57-3498-4e48",
+          "weaponRefs": [
+            "sword-of-idaeus"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Bolt pistol",
+          "srcId": "b273-b85e-4018-a0cd",
+          "weaponRefs": [
+            "bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "invictus",
+        "name": "Invictus",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
+            "keywords": [],
+            "name": "Invictus",
+            "range": "24\""
+          }
+        ]
+      },
+      {
+        "id": "sword-of-idaeus",
+        "melee": [
+          {
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
+            "keywords": [
+              "SUSTAINED HITS 1"
+            ],
+            "name": "Sword of Idaeus"
+          }
+        ],
+        "name": "Sword of Idaeus"
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Bolt pistol",
+            "range": "12\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Ultramarines Honour Guard",
+        "text": "While a Captain or Chapter Master model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll"
+      },
+      {
+        "name": "Glory of Ultramar",
+        "text": "In your opponent’s Shooting phase, each time an enemy unit has shot, if any models from this unit\nwere destroyed as a result of those attacks, this unit can make a Surge move. To do so, roll one D6: models in this unit move a number of inches up to the result, but this unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be\nmoved within Engagement Range of that enemy unit. This unit cannot make a Surge move while it is Battle‑shocked or within Engagement Range of one or more enemy units, and can only make one Surge move per phase."
+      },
+      {
+        "name": "Attached Unit",
+        "text": "If a Captain or Chapter Master unit from your army can be attached to a Company Heroes unit, it can\nbe attached to this unit instead."
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/victrix-honour-guard",
+    "keywords": [
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS",
+      "VICTRIX HONOUR GUARD"
+    ],
+    "name": "Victrix Honour Guard",
+    "points": [
+      {
+        "models": 1,
+        "pts": 110
+      },
+      {
+        "models": 6,
+        "pts": 230
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "9b89-f132-4fef-8e51"
+    },
+    "size": {
+      "max": 6,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "2",
+      "Sv": "2+",
+      "T": "4",
+      "W": "3"
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Master-crafted Bolt Carbine",
+                  "srcId": "d128-1d6c-d13a-aa2f",
+                  "weaponRefs": [
+                    "master-crafted-bolt-carbine"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Master-crafted power weapon",
+                  "srcId": "ebda-08ed-994a-b579",
+                  "weaponRefs": [
+                    "master-crafted-power-weapon"
+                  ]
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "model",
+              "max": 6,
+              "min": 1,
+              "name": "Victrix Honour Guard",
+              "srcId": "ad41-e903-1a8b-83a3"
+            },
+            {
+              "children": [
+                {
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Blades of Honour",
+                  "srcId": "5ba8-94c6-228f-4f7f",
+                  "weaponRefs": [
+                    "blades-of-honour"
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 1,
+              "min": 0,
+              "name": "Chapter Champion",
+              "srcId": "886e-13d0-2945-290c"
+            },
+            {
+              "children": [
+                {
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Master-crafted power weapon",
+                  "srcId": "ebda-08ed-994a-b579",
+                  "weaponRefs": [
+                    "master-crafted-power-weapon"
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 1,
+              "min": 0,
+              "name": "Chapter Ancient",
+              "srcId": "d1a6-0766-1549-28fa"
+            }
+          ],
+          "kind": "group",
+          "max": 6,
+          "min": 1,
+          "name": "Victrix Honour Guard",
+          "srcId": "85dd-78b4-efce-5768"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "master-crafted-bolt-carbine",
+        "name": "Master-crafted Bolt Carbine",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
+            "keywords": [],
+            "name": "Master-crafted Bolt Carbine",
+            "range": "24\""
+          }
+        ]
+      },
+      {
+        "id": "master-crafted-power-weapon",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Master-crafted power weapon"
+          }
+        ],
+        "name": "Master-crafted power weapon"
+      },
+      {
+        "id": "blades-of-honour",
+        "melee": [
+          {
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [
+              "PRECISION",
+              "TWIN-LINKED"
+            ],
+            "name": "Blades of Honour"
+          }
+        ],
+        "name": "Blades of Honour"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Second Company Banner",
+        "text": "While this unit contains Ancient Gadriel, add 1 to the Objective Control characteristic of models in this unit. While this unit contains Ancient Gadriel and Captain Titus, improve the Leadership characteristic of models in this unit by 1 as well."
+      },
+      {
+        "name": "Strategium Command",
+        "text": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it\nis embarked within is on the battlefield), select up to three Adeptus Astartes units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+      },
+      {
+        "name": "Support",
+        "text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, VANGUARD VETERAN SQUAD"
+      }
+    ],
+    "faction": "ultramarines",
+    "id": "ultramarines/wardens-of-ultramar",
+    "keywords": [
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SUPPORT",
+      "TACTICUS",
+      "WARDENS OF ULTRAMAR"
+    ],
+    "name": "Wardens of Ultramar",
+    "points": [
+      {
+        "models": 1,
+        "pts": 120
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Ultramarines",
+      "entryId": "b793-b77e-9e49-d397"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "3+",
+      "T": "4",
+      "W": "4"
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Close Combat Weapon",
+              "srcId": "920f-63fe-ffdf-538c",
+              "weaponRefs": [
+                "close-combat-weapon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt Rifle",
+              "srcId": "6155-c404-a228-cb72",
+              "weaponRefs": [
+                "bolt-rifle"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Ancient Gadriel",
+          "srcId": "0157-e958-1a91-3024"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Heavy Bolt Pistol",
+              "srcId": "3b8f-1cb7-3c6e-4455",
+              "weaponRefs": [
+                "heavy-bolt-pistol"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Master-crafted power weapon",
+              "srcId": "ebda-08ed-994a-b579",
+              "weaponRefs": [
+                "master-crafted-power-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Veteran Sergeant Metaurus",
+          "srcId": "4b4d-ba83-4eba-ba61"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Archeotech Laspistol",
+              "srcId": "9415-965c-37e9-d374",
+              "weaponRefs": [
+                "archeotech-laspistol"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Power Weapon",
+              "srcId": "6dc0-a9d5-a111-daf2",
+              "weaponRefs": [
+                "power-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Gaius Silva",
+          "srcId": "d8dd-5401-5ac7-5922"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Archeotech Laspistol",
+              "srcId": "9415-965c-37e9-d374",
+              "weaponRefs": [
+                "archeotech-laspistol"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Power Weapon",
+              "srcId": "6dc0-a9d5-a111-daf2",
+              "weaponRefs": [
+                "power-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Aemelia Minervas",
+          "srcId": "74ce-a593-af24-5ef7"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Astropathic Blast",
+              "srcId": "197b-3dd4-bc46-2ef7",
+              "weaponRefs": [
+                "astropathic-blast"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Force Stave",
+              "srcId": "1fbe-32e7-bd69-93b5",
+              "weaponRefs": [
+                "force-stave"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Dainal Kornelius",
+          "srcId": "cc2c-abb5-1cb7-d195"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Close Combat Weapon",
+              "srcId": "8e0c-d8f7-eeb8-ed2a",
+              "weaponRefs": [
+                "close-combat-weapon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Archeotech Laspistol",
+              "srcId": "9415-965c-37e9-d374",
+              "weaponRefs": [
+                "archeotech-laspistol"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Lucia Vestha",
+          "srcId": "6821-a4bf-a017-4487"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "close-combat-weapon",
+        "melee": [
+          {
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Close combat weapon"
+          }
+        ],
+        "name": "Close combat weapon"
+      },
+      {
+        "id": "bolt-rifle",
+        "name": "Bolt Rifle",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "ASSAULT",
+              "HEAVY"
+            ],
+            "name": "Bolt Rifle",
+            "range": "24\""
+          }
+        ]
+      },
+      {
+        "id": "heavy-bolt-pistol",
+        "name": "Heavy Bolt Pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Heavy Bolt Pistol",
+            "range": "18\""
+          }
+        ]
+      },
+      {
+        "id": "master-crafted-power-weapon",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Master-crafted power weapon"
+          }
+        ],
+        "name": "Master-crafted power weapon"
+      },
+      {
+        "id": "archeotech-laspistol",
+        "name": "Archeotech Laspistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Archeotech Laspistol",
+            "range": "12\""
+          }
+        ]
+      },
+      {
+        "id": "power-weapon",
+        "melee": [
+          {
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Power Weapon"
+          }
+        ],
+        "name": "Power Weapon"
+      },
+      {
+        "id": "astropathic-blast",
+        "name": "Astropathic Blast",
+        "ranged": [
+          {
+            "A": "D6",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "BLAST",
+              "PSYCHIC"
+            ],
+            "name": "Astropathic Blast",
+            "range": "12\""
+          }
+        ]
+      },
+      {
+        "id": "force-stave",
+        "melee": [
+          {
+            "A": "1",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [
+              "PSYCHIC"
+            ],
+            "name": "Force Stave"
+          }
+        ],
+        "name": "Force Stave"
+      }
+    ]
+  }
+]

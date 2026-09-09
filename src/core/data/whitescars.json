@@ -1,0 +1,315 @@
+[
+  {
+    "abilities": [
+      {
+        "name": "For the Khan!",
+        "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability and melee weapons equipped by models in that unit have the [LANCE] ability."
+      },
+      {
+        "name": "Trophy Taker",
+        "text": "Each time this model destroys an enemy Character model, you gain 1CP"
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units: ASSAULT INTERCESSOR SQUAD, ASSAULT SQUAD, BLADEGUARD VETERAN SQUAD, COMMAND SQUAD, COMPANY HEROES, INTERCESSOR SQUAD, STERNGUARD VETERAN SQUAD, TACTICAL SQUAD, VANGUARD VETERAN SQUAD"
+      },
+      {
+        "name": "Inspiring Commander",
+        "text": "If you include this model in your army, until the end of the battle, non-Character models in Outrider Squad units from your army have an Objective Control characteristic of 3 while they are not Battle-shocked."
+      }
+    ],
+    "faction": "whitescars",
+    "id": "whitescars/kor-sarro-khan",
+    "keywords": [
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: WHITE SCARS",
+      "IMPERIUM",
+      "INFANTRY",
+      "KOR'SARRO KHAN",
+      "LEADER",
+      "TACTICUS"
+    ],
+    "name": "Kor'sarro Khan",
+    "points": [
+      {
+        "models": 1,
+        "pts": 55
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - White Scars",
+      "entryId": "63f3-6aeb-c9ed-abfc"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "3+",
+      "T": "4",
+      "W": "5"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Moonfang",
+          "srcId": "1d9c-e037-5d69-4b67",
+          "weaponRefs": [
+            "moonfang"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Bolt pistol",
+          "srcId": "b273-b85e-4018-a0cd",
+          "weaponRefs": [
+            "bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "moonfang",
+        "melee": [
+          {
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [
+              "DEVASTATING WOUNDS",
+              "PRECISION"
+            ],
+            "name": "Moonfang"
+          }
+        ],
+        "name": "Moonfang"
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Bolt pistol",
+            "range": "12\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Spear of Chogoris",
+        "text": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead."
+      },
+      {
+        "name": "Skilled Riders",
+        "text": "Each time a model in this model’s unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units: BIKE SQUAD, COMPANY VETERANS ON BIKES, OUTRIDER SQUAD"
+      }
+    ],
+    "faction": "whitescars",
+    "id": "whitescars/suboden-khan",
+    "keywords": [
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: WHITE SCARS",
+      "GRENADES",
+      "IMPERIUM",
+      "LEADER",
+      "MOUNTED",
+      "SUBODEN KHAN"
+    ],
+    "name": "Suboden Khan",
+    "points": [
+      {
+        "models": 1,
+        "pts": 90
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - White Scars",
+      "entryId": "d72d-b930-9849-924e"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "12\"",
+      "OC": "2",
+      "Sv": "3+",
+      "T": "5",
+      "W": "8"
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Onslaught Gatling Cannon",
+              "srcId": "7faa-50ab-98d4-2fc7",
+              "weaponRefs": [
+                "onslaught-gatling-cannon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Stormtooth",
+              "srcId": "ceb9-e596-79c1-8b34",
+              "weaponRefs": [
+                "stormtooth"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Power Sword",
+              "srcId": "37d7-b142-21b0-63c5",
+              "weaponRefs": [
+                "power-sword"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Heavy Bolt Pistol",
+              "srcId": "eca4-d5d2-18a1-01a8",
+              "weaponRefs": [
+                "heavy-bolt-pistol"
+              ]
+            }
+          ],
+          "kind": "group",
+          "max": null,
+          "min": 0,
+          "name": "Wargear",
+          "srcId": "ae9b-6aa9-aa56-f220"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "onslaught-gatling-cannon",
+        "name": "Onslaught Gatling Cannon",
+        "ranged": [
+          {
+            "A": "8",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
+            "keywords": [
+              "DEVASTATING WOUNDS"
+            ],
+            "name": "Onslaught Gatling Cannon",
+            "range": "24\""
+          }
+        ]
+      },
+      {
+        "id": "stormtooth",
+        "melee": [
+          {
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
+            "keywords": [
+              "LANCE",
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
+            ],
+            "name": "Stormtooth"
+          }
+        ],
+        "name": "Stormtooth"
+      },
+      {
+        "id": "power-sword",
+        "melee": [
+          {
+            "A": "8",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Power Sword"
+          }
+        ],
+        "name": "Power Sword"
+      },
+      {
+        "id": "heavy-bolt-pistol",
+        "name": "Heavy Bolt Pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Heavy Bolt Pistol",
+            "range": "18\""
+          }
+        ]
+      }
+    ]
+  }
+]

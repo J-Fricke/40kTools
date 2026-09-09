@@ -1,0 +1,275 @@
+[
+  {
+    "abilities": [
+      {
+        "name": "Unto the Anvil",
+        "text": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll."
+      },
+      {
+        "name": "Lord of the Pyroclasts",
+        "text": "While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit"
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ INFERNUS SQUAD\n■ INTERCESSOR SQUAD\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD"
+      }
+    ],
+    "faction": "salamanders",
+    "id": "salamanders/adrax-agatone",
+    "keywords": [
+      "ADRAX AGATONE",
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SALAMANDERS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
+    ],
+    "name": "Adrax Agatone",
+    "points": [
+      {
+        "models": 1,
+        "pts": 80
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Salamanders",
+      "entryId": "98c-87ea-f51b-1475"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "4",
+      "W": "5"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Drakkis",
+          "srcId": "b529-1803-d893-87e5",
+          "weaponRefs": [
+            "drakkis"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Malleus Noctum",
+          "srcId": "d249-ea36-1254-17cb",
+          "weaponRefs": [
+            "malleus-noctum"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "drakkis",
+        "name": "Drakkis",
+        "ranged": [
+          {
+            "A": "D6+3",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
+            ],
+            "name": "Drakkis",
+            "range": "12\""
+          }
+        ]
+      },
+      {
+        "id": "malleus-noctum",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-2",
+            "D": "3",
+            "S": "10",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Malleus Noctum"
+          }
+        ],
+        "name": "Malleus Noctum"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Forgefather",
+        "text": "In your Shooting phase, select one enemy unit within 24\" of and visible to this model. Until the end of the phase, each time a friendly Adeptus Astartes model makes a ranged attack with a Torrent or Melta weapon that targets that enemy unit, you can re-roll the Wound roll"
+      },
+      {
+        "name": "Seeker of the Unfound",
+        "text": "The first time this model is set up on the battlefield, select one objective marker on the battlefield. While this model is within range of that objective marker, it has an Objective Control characteristic of 10, a Leadership characteristic of 5+ and the Feel No Pain 4+ ability."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSOR SQUAD\n■ COMPANY HEROES\n■ INFERNUS SQUAD\n■ TACTICAL SQUAD"
+      },
+      {
+        "name": "Inspiring Commander",
+        "text": "If you include this model in your army, until the end of the battle, non-Character models in Infernus Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+      }
+    ],
+    "faction": "salamanders",
+    "id": "salamanders/vulkan-he-stan",
+    "keywords": [
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SALAMANDERS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS",
+      "VULKAN HE'STAN"
+    ],
+    "name": "Vulkan He'stan",
+    "points": [
+      {
+        "models": 1,
+        "pts": 95
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Salamanders",
+      "entryId": "b351-fccc-2121-1e1e"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": "4+",
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "4",
+      "W": "5"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Gauntlet of the Forge",
+          "srcId": "76b1-5886-1825-8e3b",
+          "weaponRefs": [
+            "gauntlet-of-the-forge"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Spear of Vulkan",
+          "srcId": "ee9-93ca-662-362b",
+          "weaponRefs": [
+            "spear-of-vulkan"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Bolt pistol",
+          "srcId": "b273-b85e-4018-a0cd",
+          "weaponRefs": [
+            "bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "gauntlet-of-the-forge",
+        "name": "Gauntlet of the Forge",
+        "ranged": [
+          {
+            "A": "D6+3",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
+            "keywords": [
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
+            ],
+            "name": "Gauntlet of the Forge",
+            "range": "12\""
+          }
+        ]
+      },
+      {
+        "id": "spear-of-vulkan",
+        "melee": [
+          {
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
+            "keywords": [
+              "DEVASTATING WOUNDS"
+            ],
+            "name": "Spear of Vulkan"
+          }
+        ],
+        "name": "Spear of Vulkan"
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
+            "keywords": [
+              "PISTOL"
+            ],
+            "name": "Bolt pistol",
+            "range": "12\""
+          }
+        ]
+      }
+    ]
+  }
+]
