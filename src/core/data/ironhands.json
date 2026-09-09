@@ -46,11 +46,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 5,
-      "W": 6
+      "T": "5",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -85,22 +86,22 @@
         "id": "axiom",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Axiom - Strike",
-            "skill": 2
+            "name": "Axiom - Strike"
           },
           {
-            "A": 10,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "10",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Axiom - Sweep",
-            "skill": 2
+            "name": "Axiom - Sweep"
           }
         ],
         "name": "Axiom"
@@ -110,19 +111,16 @@
         "name": "Storm bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "rapid fire 2"
             ],
             "name": "Storm bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -182,11 +180,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": null,
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -242,19 +241,16 @@
         "name": "Gorgon's Wrath",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Gorgon's Wrath",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -262,13 +258,13 @@
         "id": "harrowhand",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Harrowhand",
-            "skill": 3
+            "name": "Harrowhand"
           }
         ],
         "name": "Harrowhand"
@@ -277,17 +273,15 @@
         "id": "medusan-manipuli",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 8,
+            "A": "2",
+            "AP": "-2",
+            "D": "3",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Medusan Manipuli",
-            "skill": 3
+            "name": "Medusan Manipuli"
           }
         ],
         "name": "Medusan Manipuli"
@@ -297,18 +291,16 @@
         "name": "Bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }

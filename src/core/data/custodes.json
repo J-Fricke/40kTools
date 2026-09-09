@@ -42,11 +42,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 4
+      "T": "6",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -165,19 +166,16 @@
         "name": "Lastrum bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
             "name": "Lastrum bolt cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -185,17 +183,15 @@
         "id": "interceptor-lance",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Interceptor Lance",
-            "skill": 2
+            "name": "Interceptor Lance"
           }
         ],
         "name": "Interceptor Lance"
@@ -205,14 +201,14 @@
         "name": "Adrathic devastator",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "7",
             "keywords": [],
             "name": "Adrathic devastator",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -221,18 +217,16 @@
         "name": "Twin las-pulsar",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 9,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Twin las-pulsar",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -291,11 +285,12 @@
     "stats": {
       "FNP": "3+",
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 3,
-      "W": 4
+      "T": "3",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -320,21 +315,16 @@
         "id": "somnus",
         "melee": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 3,
-            "S": 6,
+            "A": "4",
+            "AP": "-3",
+            "D": "3",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 5
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti psyker 5+",
+              "devastating wounds"
             ],
-            "name": "Somnus",
-            "skill": 2
+            "name": "Somnus"
           }
         ],
         "name": "Somnus"
@@ -383,11 +373,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 7,
-      "W": 4
+      "T": "7",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -505,30 +496,28 @@
         "id": "guardian-spear",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Guardian Spear",
-            "skill": 2
+            "name": "Guardian Spear"
           }
         ],
         "name": "Guardian Spear",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Guardian Spear",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -537,18 +526,16 @@
         "name": "Balistus grenade launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Balistus grenade launcher",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -556,30 +543,28 @@
         "id": "castellan-axe",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "4",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Castellan axe",
-            "skill": 2
+            "name": "Castellan axe"
           }
         ],
         "name": "Castellan axe",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Castellan axe",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -587,13 +572,13 @@
         "id": "misericordia",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Misericordia",
-            "skill": 2
+            "name": "Misericordia"
           }
         ],
         "name": "Misericordia"
@@ -650,11 +635,12 @@
     "stats": {
       "FNP": "3+",
       "InvSv": null,
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -709,19 +695,16 @@
         "name": "Storm Bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "rapid fire 2"
             ],
             "name": "Storm Bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -729,13 +712,13 @@
         "id": "armoured-tracks",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured tracks",
-            "skill": 4
+            "name": "Armoured tracks"
           }
         ],
         "name": "Armoured tracks"
@@ -745,18 +728,16 @@
         "name": "Hunter-killer missile",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 3.5,
-            "S": 14,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6",
+            "S": "14",
             "keywords": [
-              {
-                "kw": "one shot"
-              }
+              "one shot"
             ],
             "name": "Hunter-killer missile",
-            "range": "48\"",
-            "skill": 2
+            "range": "48\""
           }
         ]
       }
@@ -804,11 +785,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 7,
-      "W": 4
+      "T": "7",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -1019,13 +1001,13 @@
         "id": "solerite-power-gauntlet",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Solerite power gauntlet",
-            "skill": 2
+            "name": "Solerite power gauntlet"
           }
         ],
         "name": "Solerite power gauntlet"
@@ -1035,19 +1017,16 @@
         "name": "Lastrum storm bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "rapid fire 2"
             ],
             "name": "Lastrum storm bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -1056,18 +1035,16 @@
         "name": "Twin adrathic destructor",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 6,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Twin adrathic destructor",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -1076,21 +1053,17 @@
         "name": "Infernus firepike",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Infernus firepike",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -1098,13 +1071,13 @@
         "id": "solerite-power-talon",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "1",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Solerite power talon",
-            "skill": 2
+            "name": "Solerite power talon"
           }
         ],
         "name": "Solerite power talon"
@@ -1151,11 +1124,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "-",
-      "OC": null,
+      "OC": "-",
       "Sv": "2+",
-      "T": 12,
-      "W": 22
+      "T": "12",
+      "W": "22"
     },
     "wargear": {
       "children": [
@@ -1213,14 +1187,14 @@
         "name": "Arachnus heavy blaze cannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "4",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [],
             "name": "Arachnus heavy blaze cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -1229,14 +1203,14 @@
         "name": "Arachnus magna-blaze cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -4,
-            "D": 9.5,
-            "S": 18,
+            "A": "3",
+            "AP": "-4",
+            "BS": "2+",
+            "D": "D6+6",
+            "S": "18",
             "keywords": [],
             "name": "Arachnus magna-blaze cannon",
-            "range": "48\"",
-            "skill": 2
+            "range": "48\""
           }
         ]
       },
@@ -1244,13 +1218,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 9,
-            "AP": 0,
-            "D": 1,
-            "S": 9,
+            "A": "9",
+            "AP": "0",
+            "D": "1",
+            "S": "9",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -1300,11 +1274,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -1338,44 +1313,37 @@
         "id": "vaultswords",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Vaultswords - Behemor",
-            "skill": 2
+            "name": "Vaultswords - Behemor"
           },
           {
-            "A": 9,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "9",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Vaultswords - Hurricanis",
-            "skill": 2
+            "name": "Vaultswords - Hurricanis"
           },
           {
-            "A": 5,
-            "AP": -3,
-            "D": 3,
-            "S": 6,
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Vaultswords - Victus",
-            "skill": 2
+            "name": "Vaultswords - Victus"
           }
         ],
         "name": "Vaultswords"
@@ -1422,11 +1390,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "2+",
-      "T": 11,
-      "W": 14
+      "T": "11",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -1503,13 +1472,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -1519,19 +1488,16 @@
         "name": "Twin lastrum bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
             "name": "Twin lastrum bolt cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -1540,22 +1506,17 @@
         "name": "Twin iliastus accelerator cannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 3,
-            "S": 10,
+            "A": "4",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 4",
+              "twin linked"
             ],
             "name": "Twin iliastus accelerator cannon",
-            "range": "48\"",
-            "skill": 2
+            "range": "48\""
           }
         ]
       },
@@ -1564,18 +1525,16 @@
         "name": "Twin arachnus heavy blaze cannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 5.5,
-            "S": 12,
+            "A": "4",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+2",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Twin arachnus heavy blaze cannon",
-            "range": "48\"",
-            "skill": 2
+            "range": "48\""
           }
         ]
       }
@@ -1616,11 +1575,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -1696,30 +1656,28 @@
         "id": "achillus-dreadspear",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 4.5,
-            "S": 12,
+            "A": "5",
+            "AP": "-2",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Achillus dreadspear",
-            "skill": 2
+            "name": "Achillus dreadspear"
           }
         ],
         "name": "Achillus dreadspear",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "9",
             "keywords": [],
             "name": "Achillus dreadspear",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -1728,21 +1686,17 @@
         "name": "Infernus incinerator",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Infernus incinerator",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -1751,19 +1705,16 @@
         "name": "Lastrum storm bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "rapid fire 2"
             ],
             "name": "Lastrum storm bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -1772,18 +1723,16 @@
         "name": "Twin adrathic destructor",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 6,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Twin adrathic destructor",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       }
@@ -1824,11 +1773,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -1862,36 +1812,30 @@
         "id": "galatus-warblade",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 3,
-            "S": 8,
+            "A": "8",
+            "AP": "-2",
+            "D": "3",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Galatus warblade",
-            "skill": 2
+            "name": "Galatus warblade"
           }
         ],
         "name": "Galatus warblade",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "ignores cover",
+              "torrent",
+              "twin linked"
             ],
             "name": "Galatus warblade",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -1942,11 +1886,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 12,
-      "W": 16
+      "T": "12",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -2003,13 +1948,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 8,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "8",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -2019,21 +1964,17 @@
         "name": "Twin arachnus blaze cannon",
         "ranged": [
           {
-            "A": 8,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "devastating wounds",
+              "twin linked"
             ],
             "name": "Twin arachnus blaze cannon",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -2042,19 +1983,16 @@
         "name": "Twin lastrum bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
             "name": "Twin lastrum bolt cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       }
@@ -2102,11 +2040,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -2188,30 +2127,28 @@
         "id": "guardian-spear",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Guardian Spear",
-            "skill": 2
+            "name": "Guardian Spear"
           }
         ],
         "name": "Guardian Spear",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Guardian Spear",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -2219,33 +2156,29 @@
         "id": "sentinel-blade",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Sentinel Blade",
-            "skill": 2
+            "name": "Sentinel Blade"
           }
         ],
         "name": "Sentinel Blade",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              }
+              "assault",
+              "pistol"
             ],
             "name": "Sentinel Blade",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2253,13 +2186,13 @@
         "id": "misericordia",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Misericordia",
-            "skill": 2
+            "name": "Misericordia"
           }
         ],
         "name": "Misericordia"
@@ -2303,11 +2236,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -2370,26 +2304,26 @@
         "id": "adrasite-spear",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Adrasite spear",
-            "skill": 2
+            "name": "Adrasite spear"
           }
         ],
         "name": "Adrasite spear",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "5",
             "keywords": [],
             "name": "Adrasite spear",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -2397,31 +2331,28 @@
         "id": "pyrithite-spear",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Pyrithite spear",
-            "skill": 2
+            "name": "Pyrithite spear"
           }
         ],
         "name": "Pyrithite spear",
         "ranged": [
           {
-            "A": 1,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "1",
+            "AP": "-4",
+            "BS": "2+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              }
+              "melta 2"
             ],
             "name": "Pyrithite spear",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -2468,11 +2399,12 @@
     "stats": {
       "FNP": "4+",
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -2574,30 +2506,28 @@
         "id": "guardian-spear",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Guardian Spear",
-            "skill": 2
+            "name": "Guardian Spear"
           }
         ],
         "name": "Guardian Spear",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Guardian Spear",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -2605,30 +2535,28 @@
         "id": "castellan-axe",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "4",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Castellan axe",
-            "skill": 2
+            "name": "Castellan axe"
           }
         ],
         "name": "Castellan axe",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Castellan axe",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -2673,11 +2601,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -3382,18 +3311,16 @@
         "name": "Balistus grenade launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Balistus grenade launcher",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -3402,18 +3329,16 @@
         "name": "Guardian spear",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Guardian spear",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -3422,18 +3347,16 @@
         "name": "Castellan axe",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Castellan axe",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -3442,19 +3365,16 @@
         "name": "Master-crafted boltgun",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Master-crafted boltgun",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -3463,21 +3383,17 @@
         "name": "Witchseeker flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Witchseeker flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3486,19 +3402,16 @@
         "name": "Pyrithite spear",
         "ranged": [
           {
-            "A": 1,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "1",
+            "AP": "-4",
+            "BS": "2+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              }
+              "melta 2"
             ],
             "name": "Pyrithite spear",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3507,21 +3420,17 @@
         "name": "Sentinel blade",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              }
+              "assault",
+              "pistol"
             ],
             "name": "Sentinel blade",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3529,13 +3438,13 @@
         "id": "guardian-spear-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Guardian spear",
-            "skill": 2
+            "name": "Guardian spear"
           }
         ],
         "name": "Guardian spear"
@@ -3544,13 +3453,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "2+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 2
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -3559,21 +3468,16 @@
         "id": "executioner-greatblade",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 5
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti psyker 5+",
+              "devastating wounds"
             ],
-            "name": "Executioner greatblade",
-            "skill": 2
+            "name": "Executioner greatblade"
           }
         ],
         "name": "Executioner greatblade"
@@ -3582,13 +3486,13 @@
         "id": "castellan-axe-2",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Castellan axe",
-            "skill": 2
+            "name": "Castellan axe"
           }
         ],
         "name": "Castellan axe"
@@ -3597,17 +3501,15 @@
         "id": "interceptor-lance",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Interceptor lance",
-            "skill": 2
+            "name": "Interceptor lance"
           }
         ],
         "name": "Interceptor lance"
@@ -3616,13 +3518,13 @@
         "id": "pyrithite-spear-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Pyrithite spear",
-            "skill": 2
+            "name": "Pyrithite spear"
           }
         ],
         "name": "Pyrithite spear"
@@ -3631,17 +3533,15 @@
         "id": "misericordia",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Misericordia",
-            "skill": 2
+            "name": "Misericordia"
           }
         ],
         "name": "Misericordia"
@@ -3650,13 +3550,13 @@
         "id": "sentinel-blade-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "7",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Sentinel blade",
-            "skill": 2
+            "name": "Sentinel blade"
           }
         ],
         "name": "Sentinel blade"
@@ -3665,44 +3565,37 @@
         "id": "vaultswords",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Vaultswords - Behemor",
-            "skill": 2
+            "name": "Vaultswords - Behemor"
           },
           {
-            "A": 9,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "9",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Vaultswords - Hurricanis",
-            "skill": 2
+            "name": "Vaultswords - Hurricanis"
           },
           {
-            "A": 5,
-            "AP": -3,
-            "D": 3,
-            "S": 6,
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Vaultswords - Victus",
-            "skill": 2
+            "name": "Vaultswords - Victus"
           }
         ],
         "name": "Vaultswords"
@@ -3712,22 +3605,17 @@
         "name": "Vertus hurricane bolter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 3",
+              "twin linked"
             ],
             "name": "Vertus hurricane bolter",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -3736,18 +3624,16 @@
         "name": "Salvo launcher",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Salvo launcher",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -3794,11 +3680,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 7,
-      "W": 8
+      "T": "7",
+      "W": "8"
     },
     "wargear": {
       "children": [
@@ -4503,18 +4390,16 @@
         "name": "Balistus grenade launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Balistus grenade launcher",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -4523,18 +4408,16 @@
         "name": "Guardian spear",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Guardian spear",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -4543,18 +4426,16 @@
         "name": "Castellan axe",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Castellan axe",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -4563,19 +4444,16 @@
         "name": "Master-crafted boltgun",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Master-crafted boltgun",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -4584,21 +4462,17 @@
         "name": "Witchseeker flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Witchseeker flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -4607,19 +4481,16 @@
         "name": "Pyrithite spear",
         "ranged": [
           {
-            "A": 1,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "1",
+            "AP": "-4",
+            "BS": "2+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              }
+              "melta 2"
             ],
             "name": "Pyrithite spear",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -4628,21 +4499,17 @@
         "name": "Sentinel blade",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              }
+              "assault",
+              "pistol"
             ],
             "name": "Sentinel blade",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -4650,13 +4517,13 @@
         "id": "guardian-spear-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Guardian spear",
-            "skill": 2
+            "name": "Guardian spear"
           }
         ],
         "name": "Guardian spear"
@@ -4665,13 +4532,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "2+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 2
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -4680,21 +4547,16 @@
         "id": "executioner-greatblade",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 5
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti psyker 5+",
+              "devastating wounds"
             ],
-            "name": "Executioner greatblade",
-            "skill": 2
+            "name": "Executioner greatblade"
           }
         ],
         "name": "Executioner greatblade"
@@ -4703,13 +4565,13 @@
         "id": "castellan-axe-2",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Castellan axe",
-            "skill": 2
+            "name": "Castellan axe"
           }
         ],
         "name": "Castellan axe"
@@ -4718,17 +4580,15 @@
         "id": "interceptor-lance",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Interceptor lance",
-            "skill": 2
+            "name": "Interceptor lance"
           }
         ],
         "name": "Interceptor lance"
@@ -4737,13 +4597,13 @@
         "id": "pyrithite-spear-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Pyrithite spear",
-            "skill": 2
+            "name": "Pyrithite spear"
           }
         ],
         "name": "Pyrithite spear"
@@ -4752,17 +4612,15 @@
         "id": "misericordia",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Misericordia",
-            "skill": 2
+            "name": "Misericordia"
           }
         ],
         "name": "Misericordia"
@@ -4771,13 +4629,13 @@
         "id": "sentinel-blade-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "7",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Sentinel blade",
-            "skill": 2
+            "name": "Sentinel blade"
           }
         ],
         "name": "Sentinel blade"
@@ -4786,44 +4644,37 @@
         "id": "vaultswords",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Vaultswords - Behemor",
-            "skill": 2
+            "name": "Vaultswords - Behemor"
           },
           {
-            "A": 9,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "9",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Vaultswords - Hurricanis",
-            "skill": 2
+            "name": "Vaultswords - Hurricanis"
           },
           {
-            "A": 5,
-            "AP": -3,
-            "D": 3,
-            "S": 6,
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Vaultswords - Victus",
-            "skill": 2
+            "name": "Vaultswords - Victus"
           }
         ],
         "name": "Vaultswords"
@@ -4833,22 +4684,17 @@
         "name": "Vertus hurricane bolter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 3",
+              "twin linked"
             ],
             "name": "Vertus hurricane bolter",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -4857,18 +4703,16 @@
         "name": "Salvo launcher",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Salvo launcher",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -4926,11 +4770,12 @@
     "stats": {
       "FNP": "3+",
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 3,
-      "W": 4
+      "T": "3",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -5027,21 +4872,16 @@
         "id": "executioner-greatblade",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 5
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti psyker 5+",
+              "devastating wounds"
             ],
-            "name": "Executioner Greatblade",
-            "skill": 2
+            "name": "Executioner Greatblade"
           }
         ],
         "name": "Executioner Greatblade"
@@ -5050,13 +4890,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "2+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 2
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -5066,21 +4906,17 @@
         "name": "Witchseeker flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Witchseeker flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -5089,19 +4925,16 @@
         "name": "Master-crafted boltgun",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Master-crafted boltgun",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -5147,11 +4980,12 @@
     "stats": {
       "FNP": "3+",
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 3,
-      "W": 4
+      "T": "3",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -5856,18 +5690,16 @@
         "name": "Balistus grenade launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Balistus grenade launcher",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -5876,18 +5708,16 @@
         "name": "Guardian spear",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Guardian spear",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -5896,18 +5726,16 @@
         "name": "Castellan axe",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Castellan axe",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -5916,19 +5744,16 @@
         "name": "Master-crafted boltgun",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Master-crafted boltgun",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -5937,21 +5762,17 @@
         "name": "Witchseeker flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Witchseeker flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -5960,19 +5781,16 @@
         "name": "Pyrithite spear",
         "ranged": [
           {
-            "A": 1,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "1",
+            "AP": "-4",
+            "BS": "2+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              }
+              "melta 2"
             ],
             "name": "Pyrithite spear",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -5981,21 +5799,17 @@
         "name": "Sentinel blade",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              }
+              "assault",
+              "pistol"
             ],
             "name": "Sentinel blade",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -6003,13 +5817,13 @@
         "id": "guardian-spear-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Guardian spear",
-            "skill": 2
+            "name": "Guardian spear"
           }
         ],
         "name": "Guardian spear"
@@ -6018,13 +5832,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "2+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 2
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -6033,21 +5847,16 @@
         "id": "executioner-greatblade",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 5
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti psyker 5+",
+              "devastating wounds"
             ],
-            "name": "Executioner greatblade",
-            "skill": 2
+            "name": "Executioner greatblade"
           }
         ],
         "name": "Executioner greatblade"
@@ -6056,13 +5865,13 @@
         "id": "castellan-axe-2",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Castellan axe",
-            "skill": 2
+            "name": "Castellan axe"
           }
         ],
         "name": "Castellan axe"
@@ -6071,17 +5880,15 @@
         "id": "interceptor-lance",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Interceptor lance",
-            "skill": 2
+            "name": "Interceptor lance"
           }
         ],
         "name": "Interceptor lance"
@@ -6090,13 +5897,13 @@
         "id": "pyrithite-spear-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Pyrithite spear",
-            "skill": 2
+            "name": "Pyrithite spear"
           }
         ],
         "name": "Pyrithite spear"
@@ -6105,17 +5912,15 @@
         "id": "misericordia",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Misericordia",
-            "skill": 2
+            "name": "Misericordia"
           }
         ],
         "name": "Misericordia"
@@ -6124,13 +5929,13 @@
         "id": "sentinel-blade-2",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "7",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Sentinel blade",
-            "skill": 2
+            "name": "Sentinel blade"
           }
         ],
         "name": "Sentinel blade"
@@ -6139,44 +5944,37 @@
         "id": "vaultswords",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Vaultswords - Behemor",
-            "skill": 2
+            "name": "Vaultswords - Behemor"
           },
           {
-            "A": 9,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "9",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Vaultswords - Hurricanis",
-            "skill": 2
+            "name": "Vaultswords - Hurricanis"
           },
           {
-            "A": 5,
-            "AP": -3,
-            "D": 3,
-            "S": 6,
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Vaultswords - Victus",
-            "skill": 2
+            "name": "Vaultswords - Victus"
           }
         ],
         "name": "Vaultswords"
@@ -6186,22 +5984,17 @@
         "name": "Vertus hurricane bolter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 3",
+              "twin linked"
             ],
             "name": "Vertus hurricane bolter",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -6210,18 +6003,16 @@
         "name": "Salvo launcher",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Salvo launcher",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -6271,11 +6062,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "14\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "2+",
-      "T": 12,
-      "W": 22
+      "T": "12",
+      "W": "22"
     },
     "wargear": {
       "children": [
@@ -6344,14 +6136,14 @@
         "name": "Arachnus heavy blaze cannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "4",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [],
             "name": "Arachnus heavy blaze cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -6359,13 +6151,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 9,
-            "AP": 0,
-            "D": 1,
-            "S": 9,
+            "A": "9",
+            "AP": "0",
+            "D": "1",
+            "S": "9",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -6375,18 +6167,16 @@
         "name": "Spiculus heavy bolt launcher",
         "ranged": [
           {
-            "A": 9.5,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "D6+6",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Spiculus heavy bolt launcher",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -6395,19 +6185,16 @@
         "name": "Twin lastrum bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
             "name": "Twin lastrum bolt cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       }
@@ -6448,11 +6235,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 8,
-      "W": 9
+      "T": "8",
+      "W": "9"
     },
     "wargear": {
       "children": [
@@ -6498,13 +6286,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -6514,21 +6302,17 @@
         "name": "Twin arachnus blaze cannon",
         "ranged": [
           {
-            "A": 8,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "devastating wounds",
+              "twin linked"
             ],
             "name": "Twin arachnus blaze cannon",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -6576,11 +6360,12 @@
     "stats": {
       "FNP": "3+",
       "InvSv": null,
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 3,
-      "W": 1
+      "T": "3",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -6667,19 +6452,16 @@
         "name": "Boltgun",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Boltgun",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6687,13 +6469,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -6737,11 +6519,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -6788,19 +6571,16 @@
         "name": "Adrastus bolt caliver",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
             "name": "Adrastus bolt caliver",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -6808,13 +6588,13 @@
         "id": "misericordia",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Misericordia",
-            "skill": 2
+            "name": "Misericordia"
           }
         ],
         "name": "Misericordia"
@@ -6864,11 +6644,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -6943,30 +6724,28 @@
         "id": "guardian-spear",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Guardian Spear",
-            "skill": 2
+            "name": "Guardian Spear"
           }
         ],
         "name": "Guardian Spear",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Guardian Spear",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -6974,30 +6753,28 @@
         "id": "castellan-axe",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Castellan axe",
-            "skill": 2
+            "name": "Castellan axe"
           }
         ],
         "name": "Castellan axe",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Castellan axe",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -7005,33 +6782,29 @@
         "id": "sentinel-blade",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "7",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Sentinel Blade",
-            "skill": 2
+            "name": "Sentinel Blade"
           }
         ],
         "name": "Sentinel Blade",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              }
+              "assault",
+              "pistol"
             ],
             "name": "Sentinel Blade",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7039,31 +6812,28 @@
         "id": "pyrithite-spear",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Pyrithite Spear",
-            "skill": 2
+            "name": "Pyrithite Spear"
           }
         ],
         "name": "Pyrithite Spear",
         "ranged": [
           {
-            "A": 1,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "1",
+            "AP": "-4",
+            "BS": "2+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              }
+              "melta 2"
             ],
             "name": "Pyrithite Spear",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -7113,11 +6883,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 7,
-      "W": 7
+      "T": "7",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -7183,30 +6954,28 @@
         "id": "guardian-spear",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Guardian Spear",
-            "skill": 2
+            "name": "Guardian Spear"
           }
         ],
         "name": "Guardian Spear",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Guardian Spear",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -7214,30 +6983,28 @@
         "id": "castellan-axe",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Castellan axe",
-            "skill": 2
+            "name": "Castellan axe"
           }
         ],
         "name": "Castellan axe",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Castellan axe",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -7246,18 +7013,16 @@
         "name": "Balistus grenade launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Balistus grenade launcher",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       }
@@ -7308,11 +7073,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 7,
-      "W": 8
+      "T": "7",
+      "W": "8"
     },
     "wargear": {
       "children": [
@@ -7378,17 +7144,15 @@
         "id": "interceptor-lance",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Interceptor lance",
-            "skill": 2
+            "name": "Interceptor lance"
           }
         ],
         "name": "Interceptor lance"
@@ -7398,22 +7162,17 @@
         "name": "Vertus hurricane bolter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 3",
+              "twin linked"
             ],
             "name": "Vertus hurricane bolter",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -7422,18 +7181,16 @@
         "name": "Salvo launcher",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Salvo launcher",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -7483,11 +7240,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "8\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "2+",
-      "T": 10,
-      "W": 12
+      "T": "10",
+      "W": "12"
     },
     "wargear": {
       "children": [
@@ -7595,13 +7353,13 @@
         "id": "armoured-feet",
         "melee": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 7,
+            "A": "5",
+            "AP": "0",
+            "D": "1",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Armoured feet",
-            "skill": 2
+            "name": "Armoured feet"
           }
         ],
         "name": "Armoured feet"
@@ -7611,18 +7369,16 @@
         "name": "Spiculus bolt launcher",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6+3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Spiculus bolt launcher",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -7631,18 +7387,16 @@
         "name": "Arachnus storm cannon",
         "ranged": [
           {
-            "A": 12,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "12",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Arachnus storm cannon",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -7651,14 +7405,14 @@
         "name": "Iliastus accelerator culverin",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "4",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "3",
+            "S": "9",
             "keywords": [],
             "name": "Iliastus accelerator culverin",
-            "range": "48\"",
-            "skill": 2
+            "range": "48\""
           }
         ]
       },
@@ -7666,13 +7420,13 @@
         "id": "telemon-caestus",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 3,
-            "S": 12,
+            "A": "5",
+            "AP": "-2",
+            "D": "3",
+            "S": "12",
+            "WS": "2+",
             "keywords": [],
-            "name": "Telemon Caestus",
-            "skill": 2
+            "name": "Telemon Caestus"
           }
         ],
         "name": "Telemon Caestus"
@@ -7682,21 +7436,17 @@
         "name": "Twin plasma projector",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "N/A",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "torrent"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "torrent",
+              "twin linked"
             ],
             "name": "Twin plasma projector",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -7750,11 +7500,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": "4+",
+      "Ld": "5+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 7
+      "T": "6",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -7789,13 +7540,13 @@
         "id": "watcher-s-axe",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 10,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "10",
+            "WS": "2+",
             "keywords": [],
-            "name": "Watcher's Axe",
-            "skill": 2
+            "name": "Watcher's Axe"
           }
         ],
         "name": "Watcher's Axe"
@@ -7805,18 +7556,16 @@
         "name": "Eagle's Scream",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Eagle's Scream",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -7867,11 +7616,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -7896,30 +7646,28 @@
         "id": "gnosis",
         "melee": [
           {
-            "A": 7,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "7",
+            "AP": "-3",
+            "D": "2",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Gnosis",
-            "skill": 2
+            "name": "Gnosis"
           }
         ],
         "name": "Gnosis",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Gnosis",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -7968,11 +7716,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -8047,34 +7796,30 @@
         "id": "venatari-lance",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Venatari lance",
-            "skill": 2
+            "name": "Venatari lance"
           }
         ],
         "name": "Venatari lance",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Venatari lance",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -8083,22 +7828,17 @@
         "name": "Kinetic destroyer",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "pistol",
+              "sustained hits 1"
             ],
             "name": "Kinetic destroyer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -8106,13 +7846,13 @@
         "id": "tarsis-buckler",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Tarsis buckler",
-            "skill": 2
+            "name": "Tarsis buckler"
           }
         ],
         "name": "Tarsis buckler"
@@ -8154,11 +7894,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -8236,19 +7977,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "rapid fire 2"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -8256,13 +7994,13 @@
         "id": "contemptor-combat-weapon",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 3,
-            "S": 12,
+            "A": "5",
+            "AP": "-2",
+            "D": "3",
+            "S": "12",
+            "WS": "2+",
             "keywords": [],
-            "name": "Contemptor combat weapon",
-            "skill": 2
+            "name": "Contemptor combat weapon"
           }
         ],
         "name": "Contemptor combat weapon"
@@ -8272,19 +8010,16 @@
         "name": "Multi-melta",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "2",
+            "AP": "-4",
+            "BS": "2+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              }
+              "melta 2"
             ],
             "name": "Multi-melta",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -8293,18 +8028,16 @@
         "name": "Kheres-pattern assault cannon",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 7,
+            "A": "6",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Kheres-pattern assault cannon",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -8355,11 +8088,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 12,
-      "W": 16
+      "T": "12",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -8433,13 +8167,13 @@
         "id": "armoured-tracks",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 8,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "8",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured tracks",
-            "skill": 4
+            "name": "Armoured tracks"
           }
         ],
         "name": "Armoured tracks"
@@ -8449,14 +8183,14 @@
         "name": "Godhammer lascannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [],
             "name": "Godhammer lascannon",
-            "range": "48\"",
-            "skill": 2
+            "range": "48\""
           }
         ]
       },
@@ -8465,19 +8199,16 @@
         "name": "Storm bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "rapid fire 2"
             ],
             "name": "Storm bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -8486,22 +8217,17 @@
         "name": "Twin heavy bolter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "sustained hits 1",
+              "twin linked"
             ],
             "name": "Twin heavy bolter",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -8510,18 +8236,16 @@
         "name": "Hunter-killer missile",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 3.5,
-            "S": 14,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6",
+            "S": "14",
             "keywords": [
-              {
-                "kw": "one shot"
-              }
+              "one shot"
             ],
             "name": "Hunter-killer missile",
-            "range": "48\"",
-            "skill": 2
+            "range": "48\""
           }
         ]
       }
@@ -8569,11 +8293,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "2+",
-      "T": 7,
-      "W": 5
+      "T": "7",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -8660,17 +8385,15 @@
         "id": "interceptor-lance",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Interceptor lance",
-            "skill": 2
+            "name": "Interceptor lance"
           }
         ],
         "name": "Interceptor lance"
@@ -8680,18 +8403,16 @@
         "name": "Salvo launcher",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Salvo launcher",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -8700,22 +8421,17 @@
         "name": "Vertus hurricane bolter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 3",
+              "twin linked"
             ],
             "name": "Vertus hurricane bolter",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       }
@@ -8763,11 +8479,12 @@
     "stats": {
       "FNP": "3+",
       "InvSv": null,
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 3,
-      "W": 1
+      "T": "3",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -8829,21 +8546,16 @@
         "id": "executioner-greatblade",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 5
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti psyker 5+",
+              "devastating wounds"
             ],
-            "name": "Executioner greatblade",
-            "skill": 3
+            "name": "Executioner greatblade"
           }
         ],
         "name": "Executioner greatblade"
@@ -8892,11 +8604,12 @@
     "stats": {
       "FNP": "3+",
       "InvSv": null,
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 3,
-      "W": 1
+      "T": "3",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -8982,13 +8695,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -8998,21 +8711,17 @@
         "name": "Witchseeker flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Witchseeker flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }

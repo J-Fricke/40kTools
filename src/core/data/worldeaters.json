@@ -59,11 +59,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "5+",
       "M": "14\"",
-      "OC": 6,
+      "OC": "6",
       "Sv": "2+",
-      "T": 11,
-      "W": 16
+      "T": "11",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -88,30 +89,26 @@
         "id": "samni-arius-and-spinegrinder",
         "melee": [
           {
-            "A": 8,
-            "AP": -3,
-            "D": 5.5,
-            "S": 14,
+            "A": "8",
+            "AP": "-3",
+            "D": "D6+2",
+            "S": "14",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Samni’arius and Spinegrinder - strike",
-            "skill": 2
+            "name": "Samni’arius and Spinegrinder - strike"
           },
           {
-            "A": 16,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "16",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Samni’arius and Spinegrinder - sweep",
-            "skill": 2
+            "name": "Samni’arius and Spinegrinder - sweep"
           }
         ],
         "name": "Samni’arius and Spinegrinder"
@@ -162,11 +159,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "10\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 7,
-      "W": 4
+      "T": "7",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -243,13 +241,13 @@
         "id": "hellblade",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Hellblade",
-            "skill": 3
+            "name": "Hellblade"
           }
         ],
         "name": "Hellblade"
@@ -258,20 +256,16 @@
         "id": "bladed-horn",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "4",
+            "AP": "-1",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              },
-              {
-                "kw": "lance"
-              }
+              "extra attacks",
+              "lance"
             ],
-            "name": "Bladed horn",
-            "skill": 4
+            "name": "Bladed horn"
           }
         ],
         "name": "Bladed horn"
@@ -318,11 +312,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "7\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "6+",
-      "T": 4,
-      "W": 3
+      "T": "4",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -648,13 +643,13 @@
         "id": "accursed-weapon",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Accursed weapon",
-            "skill": 2
+            "name": "Accursed weapon"
           }
         ],
         "name": "Accursed weapon"
@@ -663,20 +658,16 @@
         "id": "axe-of-dismemberment",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "precision"
-              }
+              "devastating wounds",
+              "precision"
             ],
-            "name": "Axe of dismemberment",
-            "skill": 2
+            "name": "Axe of dismemberment"
           }
         ],
         "name": "Axe of dismemberment"
@@ -685,13 +676,13 @@
         "id": "chainblades",
         "melee": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "5",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Chainblades",
-            "skill": 3
+            "name": "Chainblades"
           }
         ],
         "name": "Chainblades"
@@ -700,18 +691,15 @@
         "id": "chainfist",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti vehicle 3+"
             ],
-            "name": "Chainfist",
-            "skill": 3
+            "name": "Chainfist"
           }
         ],
         "name": "Chainfist"
@@ -720,13 +708,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 2
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -735,17 +723,15 @@
         "id": "daemon-hammer",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Daemon hammer",
-            "skill": 3
+            "name": "Daemon hammer"
           }
         ],
         "name": "Daemon hammer"
@@ -754,13 +740,13 @@
         "id": "exalted-chainblade",
         "melee": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "7",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Exalted chainblade",
-            "skill": 2
+            "name": "Exalted chainblade"
           }
         ],
         "name": "Exalted chainblade"
@@ -769,13 +755,13 @@
         "id": "khornate-eviscerator",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Khornate eviscerator",
-            "skill": 3
+            "name": "Khornate eviscerator"
           }
         ],
         "name": "Khornate eviscerator"
@@ -784,13 +770,13 @@
         "id": "mauler-chainblade",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "4",
+            "AP": "-1",
+            "D": "2",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Mauler chainblade",
-            "skill": 4
+            "name": "Mauler chainblade"
           }
         ],
         "name": "Mauler chainblade"
@@ -799,13 +785,13 @@
         "id": "paired-manglers",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Paired manglers",
-            "skill": 3
+            "name": "Paired manglers"
           }
         ],
         "name": "Paired manglers"
@@ -814,13 +800,13 @@
         "id": "power-fist",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Power fist",
-            "skill": 2
+            "name": "Power fist"
           }
         ],
         "name": "Power fist"
@@ -829,13 +815,13 @@
         "id": "skullsmasher-and-mangler",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Skullsmasher and mangler",
-            "skill": 3
+            "name": "Skullsmasher and mangler"
           }
         ],
         "name": "Skullsmasher and mangler"
@@ -845,18 +831,16 @@
         "name": "Bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -865,18 +849,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -885,35 +867,29 @@
         "name": "Plasma pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Plasma pistol - standard",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           },
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "pistol"
-              }
+              "hazardous",
+              "pistol"
             ],
             "name": "Plasma pistol - supercharge",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -922,22 +898,17 @@
         "name": "Blood harpoon",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "d3"
-              }
+              "assault",
+              "sustained hits d3"
             ],
             "name": "Blood harpoon",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -946,19 +917,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -967,26 +935,18 @@
         "name": "Combi-weapon",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "rapid fire 1"
             ],
             "name": "Combi-weapon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -995,21 +955,17 @@
         "name": "Heavy flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Heavy flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -1018,26 +974,18 @@
         "name": "Reaper autocannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 1,
-            "S": 7,
+            "A": "4",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "devastating wounds",
+              "rapid fire 2",
+              "sustained hits 1"
             ],
             "name": "Reaper autocannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       }
@@ -1087,11 +1035,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "7+",
-      "T": 4,
-      "W": 1
+      "T": "4",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -1144,13 +1093,13 @@
         "id": "hellblade",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Hellblade",
-            "skill": 3
+            "name": "Hellblade"
           }
         ],
         "name": "Hellblade"
@@ -1204,11 +1153,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "3+",
-      "T": 11,
-      "W": 18
+      "T": "11",
+      "W": "18"
     },
     "wargear": {
       "children": [
@@ -1326,21 +1276,17 @@
         "name": "Hellfire breath",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Hellfire breath",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -1348,22 +1294,22 @@
         "id": "great-axe-of-khorne",
         "melee": [
           {
-            "A": 7,
-            "AP": -4,
-            "D": 5.5,
-            "S": 16,
+            "A": "7",
+            "AP": "-4",
+            "D": "D6+2",
+            "S": "16",
+            "WS": "2+",
             "keywords": [],
-            "name": "Great axe of Khorne - strike",
-            "skill": 2
+            "name": "Great axe of Khorne - strike"
           },
           {
-            "A": 14,
-            "AP": -2,
-            "D": 2,
-            "S": 10,
+            "A": "14",
+            "AP": "-2",
+            "D": "2",
+            "S": "10",
+            "WS": "2+",
             "keywords": [],
-            "name": "Great axe of Khorne - sweep",
-            "skill": 2
+            "name": "Great axe of Khorne - sweep"
           }
         ],
         "name": "Great axe of Khorne"
@@ -1372,22 +1318,22 @@
         "id": "axe-of-khorne",
         "melee": [
           {
-            "A": 8,
-            "AP": -4,
-            "D": 3,
-            "S": 14,
+            "A": "8",
+            "AP": "-4",
+            "D": "D3+1",
+            "S": "14",
+            "WS": "2+",
             "keywords": [],
-            "name": "Axe of Khorne - strike",
-            "skill": 2
+            "name": "Axe of Khorne - strike"
           },
           {
-            "A": 16,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "16",
+            "AP": "-2",
+            "D": "1",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Axe of Khorne - sweep",
-            "skill": 2
+            "name": "Axe of Khorne - sweep"
           }
         ],
         "name": "Axe of Khorne"
@@ -1397,18 +1343,16 @@
         "name": "Bloodflail",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 16,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "16",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Bloodflail",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -1417,14 +1361,14 @@
         "name": "Lash of Khorne",
         "ranged": [
           {
-            "A": 9,
-            "AP": -1,
-            "D": 2,
-            "S": 8,
+            "A": "9",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "8",
             "keywords": [],
             "name": "Lash of Khorne",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -1471,11 +1415,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 4,
-      "W": 5
+      "T": "4",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -1801,13 +1746,13 @@
         "id": "accursed-weapon",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Accursed weapon",
-            "skill": 2
+            "name": "Accursed weapon"
           }
         ],
         "name": "Accursed weapon"
@@ -1816,20 +1761,16 @@
         "id": "axe-of-dismemberment",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "precision"
-              }
+              "devastating wounds",
+              "precision"
             ],
-            "name": "Axe of dismemberment",
-            "skill": 2
+            "name": "Axe of dismemberment"
           }
         ],
         "name": "Axe of dismemberment"
@@ -1838,13 +1779,13 @@
         "id": "chainblades",
         "melee": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "5",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Chainblades",
-            "skill": 3
+            "name": "Chainblades"
           }
         ],
         "name": "Chainblades"
@@ -1853,18 +1794,15 @@
         "id": "chainfist",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti vehicle 3+"
             ],
-            "name": "Chainfist",
-            "skill": 3
+            "name": "Chainfist"
           }
         ],
         "name": "Chainfist"
@@ -1873,13 +1811,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 2
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -1888,17 +1826,15 @@
         "id": "daemon-hammer",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Daemon hammer",
-            "skill": 3
+            "name": "Daemon hammer"
           }
         ],
         "name": "Daemon hammer"
@@ -1907,13 +1843,13 @@
         "id": "exalted-chainblade",
         "melee": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "7",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Exalted chainblade",
-            "skill": 2
+            "name": "Exalted chainblade"
           }
         ],
         "name": "Exalted chainblade"
@@ -1922,13 +1858,13 @@
         "id": "khornate-eviscerator",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Khornate eviscerator",
-            "skill": 3
+            "name": "Khornate eviscerator"
           }
         ],
         "name": "Khornate eviscerator"
@@ -1937,13 +1873,13 @@
         "id": "mauler-chainblade",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "4",
+            "AP": "-1",
+            "D": "2",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Mauler chainblade",
-            "skill": 4
+            "name": "Mauler chainblade"
           }
         ],
         "name": "Mauler chainblade"
@@ -1952,13 +1888,13 @@
         "id": "paired-manglers",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Paired manglers",
-            "skill": 3
+            "name": "Paired manglers"
           }
         ],
         "name": "Paired manglers"
@@ -1967,13 +1903,13 @@
         "id": "power-fist",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Power fist",
-            "skill": 2
+            "name": "Power fist"
           }
         ],
         "name": "Power fist"
@@ -1982,13 +1918,13 @@
         "id": "skullsmasher-and-mangler",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Skullsmasher and mangler",
-            "skill": 3
+            "name": "Skullsmasher and mangler"
           }
         ],
         "name": "Skullsmasher and mangler"
@@ -1998,18 +1934,16 @@
         "name": "Bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2018,18 +1952,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2038,35 +1970,29 @@
         "name": "Plasma pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Plasma pistol - standard",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           },
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "pistol"
-              }
+              "hazardous",
+              "pistol"
             ],
             "name": "Plasma pistol - supercharge",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2075,22 +2001,17 @@
         "name": "Blood harpoon",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "d3"
-              }
+              "assault",
+              "sustained hits d3"
             ],
             "name": "Blood harpoon",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -2099,19 +2020,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -2120,26 +2038,18 @@
         "name": "Combi-weapon",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "rapid fire 1"
             ],
             "name": "Combi-weapon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -2148,21 +2058,17 @@
         "name": "Heavy flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Heavy flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2171,26 +2077,18 @@
         "name": "Reaper autocannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 1,
-            "S": 7,
+            "A": "4",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "devastating wounds",
+              "rapid fire 2",
+              "sustained hits 1"
             ],
             "name": "Reaper autocannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       }
@@ -2242,11 +2140,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 12,
-      "W": 16
+      "T": "12",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -2339,13 +2238,13 @@
         "id": "armoured-tracks",
         "melee": [
           {
-            "A": 9,
-            "AP": 0,
-            "D": 1,
-            "S": 8,
+            "A": "9",
+            "AP": "0",
+            "D": "1",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Armoured tracks",
-            "skill": 3
+            "name": "Armoured tracks"
           }
         ],
         "name": "Armoured tracks"
@@ -2355,19 +2254,16 @@
         "name": "Soulshatter lascannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "rapid fire 2"
             ],
             "name": "Soulshatter lascannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -2376,19 +2272,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "rapid fire 4"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2397,26 +2290,18 @@
         "name": "Combi-weapon",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "rapid fire 1"
             ],
             "name": "Combi-weapon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2425,18 +2310,16 @@
         "name": "Havoc launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Havoc launcher",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -2445,26 +2328,18 @@
         "name": "Twin heavy bolter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 2",
+              "sustained hits 1",
+              "twin linked"
             ],
             "name": "Twin heavy bolter",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       }
@@ -2506,11 +2381,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "3+",
-      "T": 10,
-      "W": 11
+      "T": "10",
+      "W": "11"
     },
     "wargear": {
       "children": [
@@ -2641,22 +2517,17 @@
         "name": "Predator twin lascannon",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 14,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "14",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 2",
+              "twin linked"
             ],
             "name": "Predator twin lascannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -2665,19 +2536,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "rapid fire 4"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2686,26 +2554,18 @@
         "name": "Combi-weapon",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "rapid fire 1"
             ],
             "name": "Combi-weapon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2715,23 +2575,18 @@
         "name": "Heavy bolter",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "rapid fire 2",
+              "sustained hits 1"
             ],
             "name": "Heavy bolter",
-            "range": "36\"",
-            "skill": 4
+            "qty": 2,
+            "range": "36\""
           }
         ]
       },
@@ -2741,14 +2596,15 @@
         "name": "Lascannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [],
             "name": "Lascannon",
-            "range": "48\"",
-            "skill": 4
+            "qty": 2,
+            "range": "48\""
           }
         ]
       },
@@ -2756,13 +2612,13 @@
         "id": "armoured-tracks",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Armoured tracks",
-            "skill": 3
+            "name": "Armoured tracks"
           }
         ],
         "name": "Armoured tracks"
@@ -2772,18 +2628,16 @@
         "name": "Havoc launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Havoc launcher",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       }
@@ -2825,11 +2679,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "3+",
-      "T": 10,
-      "W": 11
+      "T": "10",
+      "W": "11"
     },
     "wargear": {
       "children": [
@@ -2960,19 +2815,16 @@
         "name": "Predator autocannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "4",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "6"
-              }
+              "rapid fire 6"
             ],
             "name": "Predator autocannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -2981,19 +2833,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "rapid fire 4"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3002,26 +2851,18 @@
         "name": "Combi-weapon",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "rapid fire 1"
             ],
             "name": "Combi-weapon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3031,23 +2872,18 @@
         "name": "Heavy bolter",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "rapid fire 2",
+              "sustained hits 1"
             ],
             "name": "Heavy bolter",
-            "range": "36\"",
-            "skill": 4
+            "qty": 2,
+            "range": "36\""
           }
         ]
       },
@@ -3057,14 +2893,15 @@
         "name": "Lascannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [],
             "name": "Lascannon",
-            "range": "48\"",
-            "skill": 4
+            "qty": 2,
+            "range": "48\""
           }
         ]
       },
@@ -3072,13 +2909,13 @@
         "id": "armoured-tracks",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Armoured tracks",
-            "skill": 3
+            "name": "Armoured tracks"
           }
         ],
         "name": "Armoured tracks"
@@ -3088,18 +2925,16 @@
         "name": "Havoc launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Havoc launcher",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       }
@@ -3147,11 +2982,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -3235,19 +3071,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "rapid fire 4"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3256,26 +3089,18 @@
         "name": "Combi-weapon",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "rapid fire 1"
             ],
             "name": "Combi-weapon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3283,13 +3108,13 @@
         "id": "armoured-tracks",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Armoured tracks",
-            "skill": 3
+            "name": "Armoured tracks"
           }
         ],
         "name": "Armoured tracks"
@@ -3299,18 +3124,16 @@
         "name": "Havoc launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Havoc launcher",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       }
@@ -3350,11 +3173,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "10\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 4
+      "T": "5",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -3388,13 +3212,13 @@
         "id": "hideous-mutations",
         "melee": [
           {
-            "A": 7.5,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "D6+4",
+            "AP": "-1",
+            "D": "2",
+            "S": "5",
+            "WS": "4+",
             "keywords": [],
-            "name": "Hideous Mutations",
-            "skill": 4
+            "name": "Hideous Mutations"
           }
         ],
         "name": "Hideous Mutations"
@@ -3440,11 +3264,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "7\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 5,
-      "W": 3
+      "T": "5",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -3970,26 +3795,18 @@
         "name": "Combi-weapon",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "rapid fire 1"
             ],
             "name": "Combi-weapon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3997,13 +3814,13 @@
         "id": "power-fist",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Power fist",
-            "skill": 3
+            "name": "Power fist"
           }
         ],
         "name": "Power fist"
@@ -4012,13 +3829,13 @@
         "id": "accursed-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Accursed weapon",
-            "skill": 3
+            "name": "Accursed weapon"
           }
         ],
         "name": "Accursed weapon"
@@ -4027,18 +3844,15 @@
         "id": "chainfist",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "3",
+            "AP": "-3",
+            "D": "2",
+            "S": "8",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti vehicle 3+"
             ],
-            "name": "Chainfist",
-            "skill": 4
+            "name": "Chainfist"
           }
         ],
         "name": "Chainfist"
@@ -4048,19 +3862,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "rapid fire 4"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -4068,17 +3879,15 @@
         "id": "paired-accursed-weapons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Paired accursed weapons",
-            "skill": 3
+            "name": "Paired accursed weapons"
           }
         ],
         "name": "Paired accursed weapons"
@@ -4088,26 +3897,18 @@
         "name": "Reaper autocannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 1,
-            "S": 7,
+            "A": "4",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "devastating wounds",
+              "rapid fire 2",
+              "sustained hits 1"
             ],
             "name": "Reaper autocannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -4116,21 +3917,17 @@
         "name": "Heavy flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Heavy flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -4180,11 +3977,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 10,
-      "W": 10
+      "T": "10",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -4230,22 +4028,22 @@
         "id": "hellforged-weapons",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 3,
-            "S": 8,
+            "A": "8",
+            "AP": "-2",
+            "D": "3",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Hellforged weapons - strike",
-            "skill": 2
+            "name": "Hellforged weapons - strike"
           },
           {
-            "A": 16,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "16",
+            "AP": "-1",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Hellforged weapons - sweep",
-            "skill": 2
+            "name": "Hellforged weapons - sweep"
           }
         ],
         "name": "Hellforged weapons"
@@ -4255,19 +4053,16 @@
         "name": "Infernal cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Infernal cannon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       }
@@ -4314,11 +4109,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "14\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -4364,22 +4160,22 @@
         "id": "hellforged-weapons",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 3,
-            "S": 8,
+            "A": "8",
+            "AP": "-2",
+            "D": "3",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Hellforged weapons - strike",
-            "skill": 2
+            "name": "Hellforged weapons - strike"
           },
           {
-            "A": 16,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "16",
+            "AP": "-1",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Hellforged weapons - sweep",
-            "skill": 2
+            "name": "Hellforged weapons - sweep"
           }
         ],
         "name": "Hellforged weapons"
@@ -4389,19 +4185,16 @@
         "name": "Infernal cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Infernal cannon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       }
@@ -4451,11 +4244,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "14\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "3+",
-      "T": 11,
-      "W": 18
+      "T": "11",
+      "W": "18"
     },
     "wargear": {
       "children": [
@@ -4672,22 +4466,22 @@
         "id": "shearing-claws",
         "melee": [
           {
-            "A": 6,
-            "AP": -3,
-            "D": 4.5,
-            "S": 16,
+            "A": "6",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "16",
+            "WS": "3+",
             "keywords": [],
-            "name": "Shearing claws - strike",
-            "skill": 3
+            "name": "Shearing claws - strike"
           },
           {
-            "A": 12,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "12",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Shearing claws - sweep",
-            "skill": 3
+            "name": "Shearing claws - sweep"
           }
         ],
         "name": "Shearing claws"
@@ -4697,37 +4491,29 @@
         "name": "Heavy missile launcher",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "blast",
+              "rapid fire 3"
             ],
             "name": "Heavy missile launcher - frag",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           },
           {
-            "A": 2,
-            "AP": -2,
-            "D": 4.5,
-            "S": 10,
+            "A": "2",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Heavy missile launcher - krak",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -4735,21 +4521,16 @@
         "id": "electroscourge",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 12,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "12",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "extra attacks",
+              "sustained hits 2"
             ],
-            "name": "Electroscourge",
-            "skill": 3
+            "name": "Electroscourge"
           }
         ],
         "name": "Electroscourge"
@@ -4759,19 +4540,16 @@
         "name": "Hades lascannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Hades lascannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -4780,26 +4558,18 @@
         "name": "Heavy reaper autocannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "4",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "devastating wounds",
+              "rapid fire 2",
+              "sustained hits 1"
             ],
             "name": "Heavy reaper autocannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -4808,22 +4578,17 @@
         "name": "Hades battle cannon",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -1,
-            "D": 3,
-            "S": 10,
+            "A": "D6+3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "blast",
+              "rapid fire 3"
             ],
             "name": "Hades battle cannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -4832,22 +4597,17 @@
         "name": "Ectoplasma destructor",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -3,
-            "D": 3,
-            "S": 12,
+            "A": "D6",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "3",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "blast",
+              "rapid fire 2"
             ],
             "name": "Ectoplasma destructor",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -4856,21 +4616,17 @@
         "name": "Heavy baleflamer",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "N/A",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Heavy baleflamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -4879,19 +4635,16 @@
         "name": "Excruciator cannon",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "rapid fire 3"
             ],
             "name": "Excruciator cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -4900,23 +4653,17 @@
         "name": "Magma cutter",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "2",
+            "AP": "-4",
+            "BS": "4+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "melta 2",
+              "rapid fire 1"
             ],
             "name": "Magma cutter",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       }
@@ -4962,11 +4709,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 6,
-      "W": 7
+      "T": "6",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -5302,20 +5050,16 @@
         "id": "bladed-horn",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "4",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              },
-              {
-                "kw": "lance"
-              }
+              "extra attacks",
+              "lance"
             ],
-            "name": "Bladed horn",
-            "skill": 3
+            "name": "Bladed horn"
           }
         ],
         "name": "Bladed horn"
@@ -5324,13 +5068,13 @@
         "id": "accursed-weapon",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Accursed weapon",
-            "skill": 2
+            "name": "Accursed weapon"
           }
         ],
         "name": "Accursed weapon"
@@ -5339,20 +5083,16 @@
         "id": "axe-of-dismemberment",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "precision"
-              }
+              "devastating wounds",
+              "precision"
             ],
-            "name": "Axe of dismemberment",
-            "skill": 2
+            "name": "Axe of dismemberment"
           }
         ],
         "name": "Axe of dismemberment"
@@ -5361,13 +5101,13 @@
         "id": "chainblades",
         "melee": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "5",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Chainblades",
-            "skill": 3
+            "name": "Chainblades"
           }
         ],
         "name": "Chainblades"
@@ -5376,18 +5116,15 @@
         "id": "chainfist",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti vehicle 3+"
             ],
-            "name": "Chainfist",
-            "skill": 3
+            "name": "Chainfist"
           }
         ],
         "name": "Chainfist"
@@ -5396,13 +5133,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 2
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -5411,17 +5148,15 @@
         "id": "daemon-hammer",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Daemon hammer",
-            "skill": 3
+            "name": "Daemon hammer"
           }
         ],
         "name": "Daemon hammer"
@@ -5430,13 +5165,13 @@
         "id": "exalted-chainblade",
         "melee": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "7",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Exalted chainblade",
-            "skill": 2
+            "name": "Exalted chainblade"
           }
         ],
         "name": "Exalted chainblade"
@@ -5445,13 +5180,13 @@
         "id": "khornate-eviscerator",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Khornate eviscerator",
-            "skill": 3
+            "name": "Khornate eviscerator"
           }
         ],
         "name": "Khornate eviscerator"
@@ -5460,13 +5195,13 @@
         "id": "mauler-chainblade",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "4",
+            "AP": "-1",
+            "D": "2",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Mauler chainblade",
-            "skill": 4
+            "name": "Mauler chainblade"
           }
         ],
         "name": "Mauler chainblade"
@@ -5475,13 +5210,13 @@
         "id": "paired-manglers",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Paired manglers",
-            "skill": 3
+            "name": "Paired manglers"
           }
         ],
         "name": "Paired manglers"
@@ -5490,13 +5225,13 @@
         "id": "power-fist",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Power fist",
-            "skill": 2
+            "name": "Power fist"
           }
         ],
         "name": "Power fist"
@@ -5505,13 +5240,13 @@
         "id": "skullsmasher-and-mangler",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Skullsmasher and mangler",
-            "skill": 3
+            "name": "Skullsmasher and mangler"
           }
         ],
         "name": "Skullsmasher and mangler"
@@ -5521,18 +5256,16 @@
         "name": "Bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -5541,18 +5274,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -5561,35 +5292,29 @@
         "name": "Plasma pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Plasma pistol - standard",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           },
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "pistol"
-              }
+              "hazardous",
+              "pistol"
             ],
             "name": "Plasma pistol - supercharge",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -5598,22 +5323,17 @@
         "name": "Blood harpoon",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "d3"
-              }
+              "assault",
+              "sustained hits d3"
             ],
             "name": "Blood harpoon",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -5622,19 +5342,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -5643,26 +5360,18 @@
         "name": "Combi-weapon",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "rapid fire 1"
             ],
             "name": "Combi-weapon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -5671,21 +5380,17 @@
         "name": "Heavy flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Heavy flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -5694,26 +5399,18 @@
         "name": "Reaper autocannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 1,
-            "S": 7,
+            "A": "4",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "devastating wounds",
+              "rapid fire 2",
+              "sustained hits 1"
             ],
             "name": "Reaper autocannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       }
@@ -5759,11 +5456,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -5816,13 +5514,13 @@
         "id": "chainblades",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Chainblades",
-            "skill": 3
+            "name": "Chainblades"
           }
         ],
         "name": "Chainblades"
@@ -5869,11 +5567,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -5926,22 +5625,16 @@
         "id": "chainblades",
         "melee": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "4",
+            "AP": "-3",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Chainblades",
-            "skill": 3
+            "name": "Chainblades"
           }
         ],
         "name": "Chainblades"
@@ -5984,11 +5677,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "7+",
-      "T": 4,
-      "W": 2
+      "T": "4",
+      "W": "2"
     },
     "wargear": {
       "children": [
@@ -6071,13 +5765,13 @@
         "id": "gore-drenched-fangs",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Gore-drenched fangs",
-            "skill": 3
+            "name": "Gore-drenched fangs"
           }
         ],
         "name": "Gore-drenched fangs"
@@ -6087,21 +5781,17 @@
         "name": "Burning roar",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Burning roar",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -6147,11 +5837,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "3+",
-      "T": 10,
-      "W": 12
+      "T": "10",
+      "W": "12"
     },
     "wargear": {
       "children": [
@@ -6278,22 +5969,18 @@
         "name": "Ectoplasma cannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 3,
-            "S": 10,
+            "A": "D3",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "blast",
+              "rapid fire 1"
             ],
             "name": "Ectoplasma cannon",
-            "range": "36\"",
-            "skill": 4
+            "qty": 2,
+            "range": "36\""
           }
         ]
       },
@@ -6303,19 +5990,17 @@
         "name": "Hades autocannon",
         "ranged": [
           {
-            "A": 12,
-            "AP": -1,
-            "D": 2,
-            "S": 8,
+            "A": "6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "rapid fire 4"
             ],
             "name": "Hades autocannon",
-            "range": "36\"",
-            "skill": 4
+            "qty": 2,
+            "range": "36\""
           }
         ]
       },
@@ -6323,13 +6008,13 @@
         "id": "forgefiend-claws",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Forgefiend claws",
-            "skill": 3
+            "name": "Forgefiend claws"
           }
         ],
         "name": "Forgefiend claws"
@@ -6339,22 +6024,17 @@
         "name": "Ectoplasma cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 3,
-            "S": 10,
+            "A": "D3",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "blast",
+              "rapid fire 1"
             ],
             "name": "Ectoplasma cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -6362,13 +6042,13 @@
         "id": "forgefiend-jaws",
         "melee": [
           {
-            "A": 8,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "8",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Forgefiend jaws",
-            "skill": 3
+            "name": "Forgefiend jaws"
           }
         ],
         "name": "Forgefiend jaws"
@@ -6410,11 +6090,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "9\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "6+",
-      "T": 4,
-      "W": 1
+      "T": "4",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -6625,18 +6306,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -6644,17 +6323,15 @@
         "id": "chainblade",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "lance"
-              }
+              "lance"
             ],
-            "name": "Chainblade",
-            "skill": 4
+            "name": "Chainblade"
           }
         ],
         "name": "Chainblade"
@@ -6663,13 +6340,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -6679,22 +6356,17 @@
         "name": "Blood harpoon",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "1",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "d3"
-              }
+              "assault",
+              "sustained hits d3"
             ],
             "name": "Blood harpoon",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       }
@@ -6739,11 +6411,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "9\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 8
+      "T": "9",
+      "W": "8"
     },
     "wargear": {
       "children": [
@@ -7004,13 +6677,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -7019,13 +6692,13 @@
         "id": "helbrute-fist",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 12,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "12",
+            "WS": "3+",
             "keywords": [],
-            "name": "Helbrute fist",
-            "skill": 3
+            "name": "Helbrute fist"
           }
         ],
         "name": "Helbrute fist"
@@ -7035,19 +6708,16 @@
         "name": "Combi-bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "rapid fire 4"
             ],
             "name": "Combi-bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -7056,21 +6726,17 @@
         "name": "Heavy flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Heavy flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7079,37 +6745,29 @@
         "name": "Missile launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "blast",
+              "rapid fire 3"
             ],
             "name": "Missile launcher - frag",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           },
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3.5,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Missile launcher - krak",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -7117,13 +6775,13 @@
         "id": "helbrute-hammer",
         "melee": [
           {
-            "A": 6,
-            "AP": -3,
-            "D": 4.5,
-            "S": 14,
+            "A": "6",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "14",
+            "WS": "4+",
             "keywords": [],
-            "name": "Helbrute hammer",
-            "skill": 4
+            "name": "Helbrute hammer"
           }
         ],
         "name": "Helbrute hammer"
@@ -7132,13 +6790,13 @@
         "id": "power-scourge",
         "melee": [
           {
-            "A": 10,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "10",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Power scourge",
-            "skill": 3
+            "name": "Power scourge"
           }
         ],
         "name": "Power scourge"
@@ -7148,23 +6806,17 @@
         "name": "Multi-melta",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "2",
+            "AP": "-4",
+            "BS": "4+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "melta 2",
+              "rapid fire 1"
             ],
             "name": "Multi-melta",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -7173,22 +6825,17 @@
         "name": "Twin autocannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "2",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 2",
+              "twin linked"
             ],
             "name": "Twin autocannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -7197,25 +6844,18 @@
         "name": "Plasma cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "D3",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "3",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "d3"
-              }
+              "blast",
+              "hazardous",
+              "rapid fire d3"
             ],
             "name": "Plasma cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -7224,26 +6864,18 @@
         "name": "Twin heavy bolter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 2",
+              "sustained hits 1",
+              "twin linked"
             ],
             "name": "Twin heavy bolter",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -7252,22 +6884,17 @@
         "name": "Twin lascannon",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 1",
+              "twin linked"
             ],
             "name": "Twin lascannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       }
@@ -7313,11 +6940,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "3+",
-      "T": 9,
-      "W": 12
+      "T": "9",
+      "W": "12"
     },
     "wargear": {
       "children": [
@@ -7383,21 +7011,16 @@
         "id": "heldrake-claws",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti fly",
-                "on": 2
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti fly 2+",
+              "devastating wounds"
             ],
-            "name": "Heldrake claws",
-            "skill": 3
+            "name": "Heldrake claws"
           }
         ],
         "name": "Heldrake claws"
@@ -7407,21 +7030,17 @@
         "name": "Baleflamer",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "D6+3",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Baleflamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7430,19 +7049,16 @@
         "name": "Hades autocannon",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 8,
+            "A": "6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "rapid fire 4"
             ],
             "name": "Hades autocannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       }
@@ -7489,11 +7105,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "20+\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "3+",
-      "T": 9,
-      "W": 14
+      "T": "9",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -7570,13 +7187,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -7586,14 +7203,14 @@
         "name": "Autocannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "2",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "3",
+            "S": "9",
             "keywords": [],
             "name": "Autocannon",
-            "range": "48\"",
-            "skill": 3
+            "range": "48\""
           }
         ]
       },
@@ -7602,18 +7219,16 @@
         "name": "Havoc launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Havoc launcher",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -7622,22 +7237,17 @@
         "name": "Twin lascannon",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 1",
+              "twin linked"
             ],
             "name": "Twin lascannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       }
@@ -7679,11 +7289,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "20+\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "3+",
-      "T": 8,
-      "W": 10
+      "T": "8",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -7747,13 +7358,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -7764,22 +7375,18 @@
         "name": "Twin lascannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "rapid fire 1",
+              "twin linked"
             ],
             "name": "Twin lascannon",
-            "range": "48\"",
-            "skill": 4
+            "qty": 2,
+            "range": "48\""
           }
         ]
       }
@@ -7824,11 +7431,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "7\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "6+",
-      "T": 4,
-      "W": 1
+      "T": "4",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -8284,18 +7892,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -8303,13 +7909,13 @@
         "id": "chainblades",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chainblades",
-            "skill": 4
+            "name": "Chainblades"
           }
         ],
         "name": "Chainblades"
@@ -8318,13 +7924,13 @@
         "id": "mauler-chainblade",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "4",
+            "WS": "5+",
             "keywords": [],
-            "name": "Mauler chainblade",
-            "skill": 5
+            "name": "Mauler chainblade"
           }
         ],
         "name": "Mauler chainblade"
@@ -8333,13 +7939,13 @@
         "id": "skullsmasher-and-mangler",
         "melee": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 4,
+            "A": "2",
+            "AP": "-1",
+            "D": "2",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Skullsmasher and mangler",
-            "skill": 4
+            "name": "Skullsmasher and mangler"
           }
         ],
         "name": "Skullsmasher and mangler"
@@ -8348,13 +7954,13 @@
         "id": "paired-manglers",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Paired manglers",
-            "skill": 4
+            "name": "Paired manglers"
           }
         ],
         "name": "Paired manglers"
@@ -8410,11 +8016,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 4,
-      "W": 5
+      "T": "4",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -8449,13 +8056,13 @@
         "id": "gorechild",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "8",
+            "AP": "-2",
+            "D": "3",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Gorechild",
-            "skill": 2
+            "name": "Gorechild"
           }
         ],
         "name": "Gorechild"
@@ -8465,35 +8072,29 @@
         "name": "Plasma pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Plasma pistol - standard",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           },
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "1",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "pistol"
-              }
+              "hazardous",
+              "pistol"
             ],
             "name": "Plasma pistol - supercharge",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       }
@@ -8543,11 +8144,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "8\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 4,
-      "W": 2
+      "T": "4",
+      "W": "2"
     },
     "wargear": {
       "children": [
@@ -8765,35 +8367,29 @@
         "name": "Plasma pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Plasma pistol - standard",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           },
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "pistol"
-              }
+              "hazardous",
+              "pistol"
             ],
             "name": "Plasma pistol - supercharge",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -8802,18 +8398,16 @@
         "name": "Bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt pistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -8821,13 +8415,13 @@
         "id": "chainblade",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Chainblade",
-            "skill": 3
+            "name": "Chainblade"
           }
         ],
         "name": "Chainblade"
@@ -8836,13 +8430,13 @@
         "id": "khornate-eviscerator",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Khornate eviscerator",
-            "skill": 3
+            "name": "Khornate eviscerator"
           }
         ],
         "name": "Khornate eviscerator"
@@ -8896,11 +8490,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 8,
+      "OC": "8",
       "Sv": "3+",
-      "T": 13,
-      "W": 24
+      "T": "13",
+      "W": "24"
     },
     "wargear": {
       "children": [
@@ -9007,22 +8602,22 @@
         "id": "great-cleaver-of-khorne",
         "melee": [
           {
-            "A": 6,
-            "AP": -4,
-            "D": 8,
-            "S": 16,
+            "A": "6",
+            "AP": "-4",
+            "D": "8",
+            "S": "16",
+            "WS": "3+",
             "keywords": [],
-            "name": "Great cleaver of Khorne - strike",
-            "skill": 3
+            "name": "Great cleaver of Khorne - strike"
           },
           {
-            "A": 18,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "18",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Great cleaver of Khorne - sweep",
-            "skill": 3
+            "name": "Great cleaver of Khorne - sweep"
           }
         ],
         "name": "Great cleaver of Khorne"
@@ -9032,23 +8627,17 @@
         "name": "Hades gatling cannon",
         "ranged": [
           {
-            "A": 12,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "12",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "6"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "rapid fire 6",
+              "sustained hits 1"
             ],
             "name": "Hades gatling cannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -9057,19 +8646,16 @@
         "name": "Skullhurler",
         "ranged": [
           {
-            "A": 7,
-            "AP": -3,
-            "D": 3,
-            "S": 14,
+            "A": "2D6",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "3",
+            "S": "14",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "rapid fire 3"
             ],
             "name": "Skullhurler",
-            "range": "60\"",
-            "skill": 4
+            "range": "60\""
           }
         ]
       },
@@ -9078,22 +8664,17 @@
         "name": "Gorestorm cannon",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 3,
-            "S": 10,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "blast",
+              "rapid fire 3"
             ],
             "name": "Gorestorm cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -9102,22 +8683,17 @@
         "name": "Daemongore cannon",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -4,
-            "D": 5.5,
-            "S": 14,
+            "A": "D6",
+            "AP": "-4",
+            "BS": "4+",
+            "D": "D6+2",
+            "S": "14",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "blast",
+              "rapid fire 3"
             ],
             "name": "Daemongore cannon",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -9126,22 +8702,17 @@
         "name": "Ichor cannon",
         "ranged": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "2D6",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "4"
-              }
+              "blast",
+              "rapid fire 4"
             ],
             "name": "Ichor cannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       }
@@ -9191,11 +8762,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 6,
-      "W": 8
+      "T": "6",
+      "W": "8"
     },
     "wargear": {
       "children": [
@@ -9241,18 +8813,16 @@
         "name": "Bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -9260,17 +8830,15 @@
         "id": "coward-s-bane",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Coward's Bane",
-            "skill": 2
+            "name": "Coward's Bane"
           }
         ],
         "name": "Coward's Bane"
@@ -9279,20 +8847,16 @@
         "id": "bladed-horn",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "4",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              },
-              {
-                "kw": "lance"
-              }
+              "extra attacks",
+              "lance"
             ],
-            "name": "Bladed horn",
-            "skill": 3
+            "name": "Bladed horn"
           }
         ],
         "name": "Bladed horn"
@@ -9342,11 +8906,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 6,
-      "W": 7
+      "T": "6",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -9403,20 +8968,16 @@
         "id": "bladed-horn",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "4",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              },
-              {
-                "kw": "lance"
-              }
+              "extra attacks",
+              "lance"
             ],
-            "name": "Bladed horn",
-            "skill": 3
+            "name": "Bladed horn"
           }
         ],
         "name": "Bladed horn"
@@ -9425,13 +8986,13 @@
         "id": "exalted-chainblade",
         "melee": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "7",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Exalted chainblade",
-            "skill": 2
+            "name": "Exalted chainblade"
           }
         ],
         "name": "Exalted chainblade"
@@ -9441,35 +9002,29 @@
         "name": "Plasma pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Plasma pistol - standard",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           },
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "1",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "pistol"
-              }
+              "hazardous",
+              "pistol"
             ],
             "name": "Plasma pistol - supercharge",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       }
@@ -9518,11 +9073,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 4,
-      "W": 4
+      "T": "4",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -9568,20 +9124,16 @@
         "id": "axe-of-dismemberment",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "precision"
-              }
+              "devastating wounds",
+              "precision"
             ],
-            "name": "Axe of dismemberment",
-            "skill": 2
+            "name": "Axe of dismemberment"
           }
         ],
         "name": "Axe of dismemberment"
@@ -9591,18 +9143,16 @@
         "name": "Bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt pistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       }
@@ -9652,11 +9202,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "3+",
-      "T": 10,
-      "W": 12
+      "T": "10",
+      "W": "12"
     },
     "wargear": {
       "children": [
@@ -9731,13 +9282,13 @@
         "id": "maulerfiend-fists",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 4.5,
-            "S": 14,
+            "A": "8",
+            "AP": "-2",
+            "D": "D6+1",
+            "S": "14",
+            "WS": "3+",
             "keywords": [],
-            "name": "Maulerfiend fists",
-            "skill": 3
+            "name": "Maulerfiend fists"
           }
         ],
         "name": "Maulerfiend fists"
@@ -9747,23 +9298,17 @@
         "name": "Magma cutter",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 3.5,
-            "S": 9,
+            "A": "2",
+            "AP": "-4",
+            "BS": "4+",
+            "D": "D6",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "melta 2",
+              "rapid fire 1"
             ],
             "name": "Magma cutter",
-            "range": "6\"",
-            "skill": 4
+            "range": "6\""
           }
         ]
       },
@@ -9771,17 +9316,15 @@
         "id": "lasher-tendrils",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 7,
+            "A": "6",
+            "AP": "-1",
+            "D": "1",
+            "S": "7",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Lasher tendrils",
-            "skill": 3
+            "name": "Lasher tendrils"
           }
         ],
         "name": "Lasher tendrils"
@@ -9834,11 +9377,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "3+",
-      "T": 11,
-      "W": 20
+      "T": "11",
+      "W": "20"
     },
     "wargear": {
       "children": [
@@ -9874,21 +9418,17 @@
         "name": "Bellow of endless fury",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 1,
-            "S": 8,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Bellow of endless fury",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -9896,22 +9436,22 @@
         "id": "slaughter-and-carnage",
         "melee": [
           {
-            "A": 8,
-            "AP": -4,
-            "D": 6,
-            "S": 16,
+            "A": "8",
+            "AP": "-4",
+            "D": "6",
+            "S": "16",
+            "WS": "2+",
             "keywords": [],
-            "name": "Slaughter and Carnage - strike",
-            "skill": 2
+            "name": "Slaughter and Carnage - strike"
           },
           {
-            "A": 16,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "16",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Slaughter and Carnage - sweep",
-            "skill": 2
+            "name": "Slaughter and Carnage - sweep"
           }
         ],
         "name": "Slaughter and Carnage"
@@ -9967,11 +9507,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "10\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -10005,13 +9546,13 @@
         "id": "lacerator-and-daemonic-claw",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 10,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "10",
+            "WS": "2+",
             "keywords": [],
-            "name": "Lacerator and daemonic claw",
-            "skill": 2
+            "name": "Lacerator and daemonic claw"
           }
         ],
         "name": "Lacerator and daemonic claw"

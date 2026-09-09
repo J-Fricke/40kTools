@@ -50,13 +50,16 @@ function statsOf(unit, idx, abilities, report, unitLabel) {
   if (where === "none") report?.noStats.push(unitLabel);
   if (profs.length > 1) report?.damageBrackets.push(unitLabel);
   const c = profs.length ? chars(profs[0]) : {};
+  // Raw BSData characteristic strings — the engine (Story B) interprets.
+  const s = v => (v == null ? null : String(v).trim() || null);
   const invChar = (c.InvSv ?? c.InSv ?? "").toString().replace(/[^0-9+]/g, "").trim();
   const stats = {
-    M: (c.M ?? "").toString().trim() || null,
-    T: num(c.T, null),
-    Sv: (c.Sv ?? "").toString().trim() || null,
-    W: num(c.W, null),
-    OC: num(c.OC, null),
+    M: s(c.M),
+    T: s(c.T),
+    Sv: s(c.Sv),
+    W: s(c.W),
+    OC: s(c.OC),
+    Ld: s(c.LD ?? c.Ld),
     InvSv: invChar || null,
     FNP: null,
   };

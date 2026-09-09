@@ -1,61 +1,49 @@
-// ─── WEAPON KEYWORD NORMALIZER (Story A / task A3) ──────────────────────────
-// Canonicalises the string only — it does NOT know what a keyword does
-// (that's Story B's dictionary). P1 found 157 raw strings that collapse to
-// ~40 real keywords; the mess is casing / separators / Ork ALL-CAPS /
-// `: qualifier` conditionals.
+// ─── WEAPON KEYWORD CANONICALISER (Story A / task A3) ───────────────────────
+// Canonicalises the STRING ONLY — lowercase, collapse separators, trim. It
+// does NOT parse "N+" / ": qualifier" or know what a keyword does — that is
+// Story B's dictionary (`parseKeyword` below is provided for it, not used by
+// the ingester). P1 found 157 raw strings that collapse to ~40 real
+// keywords; the difference is casing / hyphen-vs-space / Ork ALL-CAPS.
 //
-// normalizeKeyword("Anti-Fly 4+")            -> { kw: "anti fly", on: 4 }
-// normalizeKeyword("SUSTAINED HITS 2")        -> { kw: "sustained hits", val: "2" }
-// normalizeKeyword("Sustained Hits D3")       -> { kw: "sustained hits", val: "d3" }
-// normalizeKeyword("Lethal Hits: non-MONSTER/VEHICLE")
-//                                             -> { kw: "lethal hits", vs: "non monster/vehicle" }
-// normalizeKeyword("Twin-linked")             -> { kw: "twin linked" }
-// normalizeKeyword("Rapid Fire 1")            -> { kw: "rapid fire", val: "1" }
+// canonicalKeyword("Twin-linked")  -> "twin linked"
+// canonicalKeyword("TWIN-LINKED")   -> "twin linked"
+// canonicalKeyword("Anti-Fly 4+")   -> "anti fly 4+"
+// canonicalKeyword("Lethal Hits: non-MONSTER/VEHICLE") -> "lethal hits: non monster/vehicle"
 
-const canonSep = s => s.toLowerCase().replace(/[‐-―\-\s]+/g, " ").trim();
-
-export function normalizeKeyword(raw) {
-  let s = String(raw ?? "").trim();
+export function canonicalKeyword(raw) {
+  const s = String(raw ?? "").trim();
   if (!s || s === "-") return null;
+  return s.toLowerCase()
+    .normalize("NFKD")
+    .replace(/[‐-―‑\-]+/g, " ")   // hyphen variants -> space
+    .replace(/\s*:\s*/g, ": ")           // normalise the qualifier separator
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-  // split the ": target qualifier" tail first
+export function canonicalKeywordList(str) {
+  return String(str ?? "")
+    .split(",")
+    .map(canonicalKeyword)
+    .filter(Boolean);
+}
+
+// ── For Story B's dictionary (NOT used by the ingester) ─────────────────────
+// parse a canonical keyword string into { kw, on?, val?, vs? }.
+export function parseKeyword(canonical) {
+  let s = canonical;
   let vs;
-  const colon = s.split(/\s*:\s*/);
-  if (colon.length > 1) { s = colon[0]; vs = canonSep(colon.slice(1).join(":")).replace(/\bnon /g, "non "); }
-
-  s = canonSep(s);
-
-  // trailing rated threshold "N+"  (Anti-X, some others)
+  const colon = s.split(/:\s*/);
+  if (colon.length > 1) { s = colon[0]; vs = colon.slice(1).join(": ").trim(); }
   let on;
-  let m = s.match(/^(.*?)\s+(\d+)\s*\+$/);
+  let m = s.match(/^(.*?)\s+(\d+)\+$/);
   if (m) { s = m[1]; on = Number(m[2]); }
-
-  // trailing magnitude: a bare integer or a dice expr (Rapid Fire N, Sustained
-  // Hits N/DN, Melta N, Blast N, Cleave N). Kept as a raw string — Story B
-  // resolves DN to an average.
   let val;
-  m = s.match(/^(.*?)\s+(\d+|d\d+(?:\s*\+\s*\d+)?)$/);
-  if (m) { s = m[1]; val = m[2].replace(/\s+/g, ""); }
-
+  m = s.match(/^(.*?)\s+(\d+|d\d+(?:\+\d+)?)$/);
+  if (m) { s = m[1]; val = m[2]; }
   const out = { kw: s.trim() };
   if (on != null) out.on = on;
   if (val != null) out.val = val;
   if (vs != null) out.vs = vs;
   return out;
-}
-
-// Split a BSData `Keywords` characteristic string into normalized keywords.
-export function normalizeKeywordString(str) {
-  return String(str ?? "")
-    .split(",")
-    .map(s => s.trim())
-    .filter(Boolean)
-    .map(normalizeKeyword)
-    .filter(Boolean);
-}
-
-// A canonical display string for a normalized keyword (for the sync report /
-// coverage checks in Story B).
-export function keywordKey(k) {
-  return k.kw + (k.val != null ? ` ${k.val}` : "") + (k.on != null ? ` ${k.on}+` : "") + (k.vs != null ? `: ${k.vs}` : "");
 }

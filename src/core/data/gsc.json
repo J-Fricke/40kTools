@@ -36,11 +36,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -111,13 +112,13 @@
         "id": "aberrant-weapons",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Aberrant weapons",
-            "skill": 3
+            "name": "Aberrant weapons"
           }
         ],
         "name": "Aberrant weapons"
@@ -171,11 +172,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 6,
-      "W": 5
+      "T": "6",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -209,13 +211,13 @@
         "id": "power-sledgehammer",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 4.5,
-            "S": 12,
+            "A": "4",
+            "AP": "-2",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "3+",
             "keywords": [],
-            "name": "Power sledgehammer",
-            "skill": 3
+            "name": "Power sledgehammer"
           }
         ],
         "name": "Power sledgehammer"
@@ -255,11 +257,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "3+",
-      "T": 7,
-      "W": 8
+      "T": "7",
+      "W": "8"
     },
     "wargear": {
       "children": [
@@ -364,13 +367,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "5",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -380,22 +383,17 @@
         "name": "Twin heavy stubber",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "twin linked"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "twin linked",
+              "rapid fire 3"
             ],
             "name": "Twin heavy stubber",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -404,14 +402,14 @@
         "name": "Achilles missile launcher",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "3",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "3",
+            "S": "9",
             "keywords": [],
             "name": "Achilles missile launcher",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -420,21 +418,17 @@
         "name": "Heavy mortar",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "D6+3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "indirect fire"
             ],
             "name": "Heavy mortar",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -443,18 +437,16 @@
         "name": "Heavy mining laser",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "D3",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Heavy mining laser",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       }
@@ -500,11 +492,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "5+",
-      "T": 4,
-      "W": 1
+      "T": "4",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -674,18 +667,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -693,13 +684,13 @@
         "id": "cult-claws-and-knife",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Cult claws and knife",
-            "skill": 3
+            "name": "Cult claws and knife"
           }
         ],
         "name": "Cult claws and knife"
@@ -708,18 +699,15 @@
         "id": "heavy-mining-tool",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "D": "3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 4
-              }
+              "anti vehicle 4+"
             ],
-            "name": "Heavy mining tool",
-            "skill": 3
+            "name": "Heavy mining tool"
           }
         ],
         "name": "Heavy mining tool"
@@ -728,13 +716,13 @@
         "id": "leader-s-bio-weapons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Leader's Bio-weapons",
-            "skill": 3
+            "name": "Leader's Bio-weapons"
           }
         ],
         "name": "Leader's Bio-weapons"
@@ -781,11 +769,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "5+",
-      "T": 4,
-      "W": 1
+      "T": "4",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -960,24 +949,18 @@
         "name": "Hand flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "pistol",
+              "torrent"
             ],
             "name": "Hand flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -985,13 +968,13 @@
         "id": "cult-claws-and-knife",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Cult claws and knife",
-            "skill": 3
+            "name": "Cult claws and knife"
           }
         ],
         "name": "Cult claws and knife"
@@ -1001,27 +984,19 @@
         "name": "Demolition charge",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D6",
+            "AP": "-2",
+            "BS": "5+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "one shot"
-              }
+              "assault",
+              "blast",
+              "hazardous",
+              "one shot"
             ],
             "name": "Demolition charge",
-            "range": "8\"",
-            "skill": 5
+            "range": "8\""
           }
         ]
       },
@@ -1029,13 +1004,13 @@
         "id": "leader-s-bio-weapons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Leader's bio-weapons",
-            "skill": 3
+            "name": "Leader's bio-weapons"
           }
         ],
         "name": "Leader's bio-weapons"
@@ -1086,11 +1061,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": null,
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 4,
-      "W": 3
+      "T": "4",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -1136,13 +1112,13 @@
         "id": "cult-claws",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Cult claws",
-            "skill": 3
+            "name": "Cult claws"
           }
         ],
         "name": "Cult claws"
@@ -1152,18 +1128,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       }
@@ -1211,11 +1185,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 4,
-      "W": 2
+      "T": "4",
+      "W": "2"
     },
     "wargear": {
       "children": [
@@ -1521,28 +1496,26 @@
         "name": "Grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Grenade launcher - frag",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           },
           {
-            "A": 1,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "D3",
+            "S": "9",
             "keywords": [],
             "name": "Grenade launcher - krak",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -1550,13 +1523,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -1566,18 +1539,16 @@
         "name": "Atalan small arms",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Atalan small arms",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -1585,13 +1556,13 @@
         "id": "atalan-power-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Atalan power weapon",
-            "skill": 4
+            "name": "Atalan power weapon"
           }
         ],
         "name": "Atalan power weapon"
@@ -1601,14 +1572,14 @@
         "name": "Mining laser",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [],
             "name": "Mining laser",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -1617,21 +1588,17 @@
         "name": "Atalan incinerator",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Atalan incinerator",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -1640,22 +1607,17 @@
         "name": "Heavy stubber",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "assault",
+              "rapid fire 3"
             ],
             "name": "Heavy stubber",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       }
@@ -1705,11 +1667,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 3
+      "T": "3",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -1756,41 +1719,31 @@
         "name": "Psionic cascade",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              }
+              "ignores cover",
+              "psychic"
             ],
             "name": "Psionic cascade - witchfire",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           },
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              }
+              "hazardous",
+              "ignores cover",
+              "psychic"
             ],
             "name": "Psionic cascade - focused witchfire",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -1798,13 +1751,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -1854,11 +1807,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 3
+      "T": "3",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -1915,18 +1869,15 @@
         "id": "injector-goad",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 2,
+            "A": "1",
+            "AP": "0",
+            "D": "D3",
+            "S": "2",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
-            "name": "Injector goad",
-            "skill": 3
+            "name": "Injector goad"
           }
         ],
         "name": "Injector goad"
@@ -1936,18 +1887,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -1956,19 +1905,16 @@
         "name": "Chemical vials",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 2,
-            "S": 1,
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "1",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
             "name": "Chemical vials",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       }
@@ -2017,11 +1963,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 3
+      "T": "3",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -2068,18 +2015,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -2087,13 +2032,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -2140,11 +2085,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 3
+      "T": "3",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -2496,24 +2442,18 @@
         "name": "Demolition charges",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "one shot"
-              }
+              "assault",
+              "blast",
+              "one shot"
             ],
             "name": "Demolition charges",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -2522,28 +2462,26 @@
         "name": "Grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Grenade launcher - frag",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           },
           {
-            "A": 1,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "9",
             "keywords": [],
             "name": "Grenade launcher - krak",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -2552,19 +2490,16 @@
         "name": "Heavy stubber",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "rapid fire 3"
             ],
             "name": "Heavy stubber",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -2573,19 +2508,16 @@
         "name": "Hybrid firearm",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Hybrid firearm",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -2594,18 +2526,16 @@
         "name": "Mining laser",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Mining laser",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2614,22 +2544,17 @@
         "name": "Seismic cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "2",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "heavy",
+              "rapid fire 2"
             ],
             "name": "Seismic cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2638,19 +2563,16 @@
         "name": "Chemical vials",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 2,
-            "S": 1,
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "1",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
             "name": "Chemical vials",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -2659,25 +2581,18 @@
         "name": "Cult sniper rifle",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 2
-              },
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "precision"
-              }
+              "anti psyker 2+",
+              "heavy",
+              "precision"
             ],
             "name": "Cult sniper rifle",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -2686,21 +2601,17 @@
         "name": "Flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2709,41 +2620,31 @@
         "name": "Psionic cascade",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              }
+              "ignores cover",
+              "psychic"
             ],
             "name": "Psionic cascade - witchfire",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           },
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              }
+              "hazardous",
+              "ignores cover",
+              "psychic"
             ],
             "name": "Psionic cascade - focused witchfire",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -2752,21 +2653,17 @@
         "name": "Webber",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 2,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "2",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "torrent"
-              }
+              "devastating wounds",
+              "torrent"
             ],
             "name": "Webber",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2775,21 +2672,17 @@
         "name": "Remote explosives",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6+3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "indirect fire"
             ],
             "name": "Remote explosives",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -2798,18 +2691,16 @@
         "name": "Anointed pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Anointed pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2818,18 +2709,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2838,21 +2727,17 @@
         "name": "Liberator autostub",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "2",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "pistol"
-              }
+              "devastating wounds",
+              "pistol"
             ],
             "name": "Liberator autostub",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2861,25 +2746,18 @@
         "name": "Scoped needle pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 1,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "D3",
+            "S": "1",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              }
+              "anti infantry 2+",
+              "ignores cover",
+              "pistol"
             ],
             "name": "Scoped needle pistol",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -2888,24 +2766,18 @@
         "name": "Hand flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "pistol",
+              "torrent"
             ],
             "name": "Hand flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2913,21 +2785,16 @@
         "id": "bio-dagger",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 3,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "3",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 3
-              },
-              {
-                "kw": "precision"
-              }
+              "anti infantry 3+",
+              "precision"
             ],
-            "name": "Bio-dagger",
-            "skill": 2
+            "name": "Bio-dagger"
           }
         ],
         "name": "Bio-dagger"
@@ -2936,13 +2803,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -2951,18 +2818,15 @@
         "id": "heavy-mining-tool",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 4
-              }
+              "anti vehicle 4+"
             ],
-            "name": "Heavy mining tool",
-            "skill": 3
+            "name": "Heavy mining tool"
           }
         ],
         "name": "Heavy mining tool"
@@ -2971,22 +2835,22 @@
         "id": "metamorph-mutations",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Metamorph mutations - strike",
-            "skill": 2
+            "name": "Metamorph mutations - strike"
           },
           {
-            "A": 5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "5",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Metamorph mutations - sweep",
-            "skill": 2
+            "name": "Metamorph mutations - sweep"
           }
         ],
         "name": "Metamorph mutations"
@@ -2995,13 +2859,13 @@
         "id": "power-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Power weapon",
-            "skill": 2
+            "name": "Power weapon"
           }
         ],
         "name": "Power weapon"
@@ -3010,13 +2874,13 @@
         "id": "cult-bonesword",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Cult bonesword",
-            "skill": 2
+            "name": "Cult bonesword"
           }
         ],
         "name": "Cult bonesword"
@@ -3025,13 +2889,13 @@
         "id": "cult-claws-and-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Cult claws and talons",
-            "skill": 2
+            "name": "Cult claws and talons"
           }
         ],
         "name": "Cult claws and talons"
@@ -3040,17 +2904,15 @@
         "id": "force-stave",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "D3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
-            "name": "Force stave",
-            "skill": 3
+            "name": "Force stave"
           }
         ],
         "name": "Force stave"
@@ -3059,18 +2921,15 @@
         "id": "injector-goad",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 2,
+            "A": "1",
+            "AP": "0",
+            "D": "D3",
+            "S": "2",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
-            "name": "Injector goad",
-            "skill": 3
+            "name": "Injector goad"
           }
         ],
         "name": "Injector goad"
@@ -3079,21 +2938,16 @@
         "id": "toxin-injector-claw",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 2,
-            "S": 2,
+            "A": "2",
+            "AP": "0",
+            "D": "D3",
+            "S": "2",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              },
-              {
-                "kw": "extra attacks"
-              }
+              "anti infantry 2+",
+              "extra attacks"
             ],
-            "name": "Toxin injector claw",
-            "skill": 2
+            "name": "Toxin injector claw"
           }
         ],
         "name": "Toxin injector claw"
@@ -3139,11 +2993,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 4
+      "T": "3",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -3495,24 +3350,18 @@
         "name": "Demolition charges",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "one shot"
-              }
+              "assault",
+              "blast",
+              "one shot"
             ],
             "name": "Demolition charges",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -3521,28 +3370,26 @@
         "name": "Grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Grenade launcher - frag",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           },
           {
-            "A": 1,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "9",
             "keywords": [],
             "name": "Grenade launcher - krak",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -3551,19 +3398,16 @@
         "name": "Heavy stubber",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "rapid fire 3"
             ],
             "name": "Heavy stubber",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -3572,19 +3416,16 @@
         "name": "Hybrid firearm",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Hybrid firearm",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -3593,18 +3434,16 @@
         "name": "Mining laser",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Mining laser",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3613,22 +3452,17 @@
         "name": "Seismic cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "2",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "heavy",
+              "rapid fire 2"
             ],
             "name": "Seismic cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3637,19 +3471,16 @@
         "name": "Chemical vials",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 2,
-            "S": 1,
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "1",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
             "name": "Chemical vials",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -3658,25 +3489,18 @@
         "name": "Cult sniper rifle",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 2
-              },
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "precision"
-              }
+              "anti psyker 2+",
+              "heavy",
+              "precision"
             ],
             "name": "Cult sniper rifle",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -3685,21 +3509,17 @@
         "name": "Flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3708,41 +3528,31 @@
         "name": "Psionic cascade",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              }
+              "ignores cover",
+              "psychic"
             ],
             "name": "Psionic cascade - witchfire",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           },
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              }
+              "hazardous",
+              "ignores cover",
+              "psychic"
             ],
             "name": "Psionic cascade - focused witchfire",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -3751,21 +3561,17 @@
         "name": "Webber",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 2,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "2",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "torrent"
-              }
+              "devastating wounds",
+              "torrent"
             ],
             "name": "Webber",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3774,21 +3580,17 @@
         "name": "Remote explosives",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6+3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "indirect fire"
             ],
             "name": "Remote explosives",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -3797,18 +3599,16 @@
         "name": "Anointed pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Anointed pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3817,18 +3617,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3837,21 +3635,17 @@
         "name": "Liberator autostub",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "2",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "pistol"
-              }
+              "devastating wounds",
+              "pistol"
             ],
             "name": "Liberator autostub",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3860,25 +3654,18 @@
         "name": "Scoped needle pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 1,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "D3",
+            "S": "1",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              }
+              "anti infantry 2+",
+              "ignores cover",
+              "pistol"
             ],
             "name": "Scoped needle pistol",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -3887,24 +3674,18 @@
         "name": "Hand flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "pistol",
+              "torrent"
             ],
             "name": "Hand flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -3912,21 +3693,16 @@
         "id": "bio-dagger",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 3,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "3",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 3
-              },
-              {
-                "kw": "precision"
-              }
+              "anti infantry 3+",
+              "precision"
             ],
-            "name": "Bio-dagger",
-            "skill": 2
+            "name": "Bio-dagger"
           }
         ],
         "name": "Bio-dagger"
@@ -3935,13 +3711,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -3950,18 +3726,15 @@
         "id": "heavy-mining-tool",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 4
-              }
+              "anti vehicle 4+"
             ],
-            "name": "Heavy mining tool",
-            "skill": 3
+            "name": "Heavy mining tool"
           }
         ],
         "name": "Heavy mining tool"
@@ -3970,22 +3743,22 @@
         "id": "metamorph-mutations",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Metamorph mutations - strike",
-            "skill": 2
+            "name": "Metamorph mutations - strike"
           },
           {
-            "A": 5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "5",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Metamorph mutations - sweep",
-            "skill": 2
+            "name": "Metamorph mutations - sweep"
           }
         ],
         "name": "Metamorph mutations"
@@ -3994,13 +3767,13 @@
         "id": "power-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Power weapon",
-            "skill": 2
+            "name": "Power weapon"
           }
         ],
         "name": "Power weapon"
@@ -4009,13 +3782,13 @@
         "id": "cult-bonesword",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Cult bonesword",
-            "skill": 2
+            "name": "Cult bonesword"
           }
         ],
         "name": "Cult bonesword"
@@ -4024,13 +3797,13 @@
         "id": "cult-claws-and-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Cult claws and talons",
-            "skill": 2
+            "name": "Cult claws and talons"
           }
         ],
         "name": "Cult claws and talons"
@@ -4039,17 +3812,15 @@
         "id": "force-stave",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "D3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
-            "name": "Force stave",
-            "skill": 3
+            "name": "Force stave"
           }
         ],
         "name": "Force stave"
@@ -4058,18 +3829,15 @@
         "id": "injector-goad",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 2,
+            "A": "1",
+            "AP": "0",
+            "D": "D3",
+            "S": "2",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
-            "name": "Injector goad",
-            "skill": 3
+            "name": "Injector goad"
           }
         ],
         "name": "Injector goad"
@@ -4078,21 +3846,16 @@
         "id": "toxin-injector-claw",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 2,
-            "S": 2,
+            "A": "2",
+            "AP": "0",
+            "D": "D3",
+            "S": "2",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              },
-              {
-                "kw": "extra attacks"
-              }
+              "anti infantry 2+",
+              "extra attacks"
             ],
-            "name": "Toxin injector claw",
-            "skill": 2
+            "name": "Toxin injector claw"
           }
         ],
         "name": "Toxin injector claw"
@@ -4143,11 +3906,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "3+",
-      "T": 10,
-      "W": 10
+      "T": "10",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -4245,13 +4009,13 @@
         "id": "drilldozer-blade",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 2,
-            "S": 10,
+            "A": "8",
+            "AP": "-2",
+            "D": "2",
+            "S": "10",
+            "WS": "3+",
             "keywords": [],
-            "name": "Drilldozer blade",
-            "skill": 3
+            "name": "Drilldozer blade"
           }
         ],
         "name": "Drilldozer blade"
@@ -4261,21 +4025,17 @@
         "name": "Clearance incinerator",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Clearance incinerator",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -4284,19 +4044,16 @@
         "name": "Heavy seismic cannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "4",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "D3",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "rapid fire 2"
             ],
             "name": "Heavy seismic cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -4305,18 +4062,16 @@
         "name": "Heavy mining laser",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "D3",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Heavy mining laser",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -4325,19 +4080,16 @@
         "name": "Heavy stubber",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "rapid fire 3"
             ],
             "name": "Heavy stubber",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -4346,24 +4098,18 @@
         "name": "Demolition charge cache",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D6",
+            "AP": "-2",
+            "BS": "5+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "hazardous"
-              }
+              "assault",
+              "blast",
+              "hazardous"
             ],
             "name": "Demolition charge cache",
-            "range": "8\"",
-            "skill": 5
+            "range": "8\""
           }
         ]
       }
@@ -4409,11 +4155,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -4482,18 +4229,16 @@
         "name": "Twin autocannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "2",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Twin autocannon",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -4501,13 +4246,13 @@
         "id": "goliath-wheels",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Goliath wheels",
-            "skill": 4
+            "name": "Goliath wheels"
           }
         ],
         "name": "Goliath wheels"
@@ -4517,24 +4262,18 @@
         "name": "Demolition charge cache",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D6",
+            "AP": "-2",
+            "BS": "5+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "hazardous"
-              }
+              "assault",
+              "blast",
+              "hazardous"
             ],
             "name": "Demolition charge cache",
-            "range": "8\"",
-            "skill": 5
+            "range": "8\""
           }
         ]
       },
@@ -4543,19 +4282,16 @@
         "name": "Heavy stubber",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "rapid fire 3"
             ],
             "name": "Heavy stubber",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       }
@@ -4599,11 +4335,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 4,
-      "W": 1
+      "T": "4",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -4778,22 +4515,22 @@
         "id": "metamorph-mutations",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Metamorph mutations - strike",
-            "skill": 3
+            "name": "Metamorph mutations - strike"
           },
           {
-            "A": 5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "5",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Metamorph mutations - sweep",
-            "skill": 3
+            "name": "Metamorph mutations - sweep"
           }
         ],
         "name": "Metamorph mutations"
@@ -4803,18 +4540,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -4823,24 +4558,18 @@
         "name": "Hand flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "pistol",
+              "torrent"
             ],
             "name": "Hand flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -4848,13 +4577,13 @@
         "id": "leader-s-bio-weapons",
         "melee": [
           {
-            "A": 5,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "5",
+            "AP": "-1",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Leader's Bio-weapons",
-            "skill": 3
+            "name": "Leader's Bio-weapons"
           }
         ],
         "name": "Leader's Bio-weapons"
@@ -4901,11 +4630,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 4,
-      "W": 4
+      "T": "4",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -4963,21 +4693,17 @@
         "name": "Cult sniper rifle",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "precision"
-              }
+              "heavy",
+              "precision"
             ],
             "name": "Cult sniper rifle",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -4986,18 +4712,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -5005,13 +4729,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -5056,11 +4780,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 3
+      "T": "3",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -5107,21 +4832,17 @@
         "name": "Liberator autostubs",
         "ranged": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "pistol"
-              }
+              "devastating wounds",
+              "pistol"
             ],
             "name": "Liberator autostubs",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -5129,13 +4850,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -5185,11 +4906,12 @@
     "stats": {
       "FNP": "4+",
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 4,
-      "W": 3
+      "T": "4",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -5223,13 +4945,13 @@
         "id": "locus-blades",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Locus blades",
-            "skill": 2
+            "name": "Locus blades"
           }
         ],
         "name": "Locus blades"
@@ -5284,11 +5006,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 4
+      "T": "3",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -5334,17 +5057,15 @@
         "id": "force-stave",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "D3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
-            "name": "Force stave",
-            "skill": 3
+            "name": "Force stave"
           }
         ],
         "name": "Force stave"
@@ -5354,18 +5075,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       }
@@ -5410,11 +5129,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "5+",
-      "T": 3,
-      "W": 1
+      "T": "3",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -5955,19 +5675,16 @@
         "name": "Hybrid firearm",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Hybrid firearm",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -5976,18 +5693,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -5995,13 +5710,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -6011,18 +5726,16 @@
         "name": "Mining laser",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "5+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Mining laser",
-            "range": "24\"",
-            "skill": 5
+            "range": "24\""
           }
         ]
       },
@@ -6031,22 +5744,17 @@
         "name": "Seismic cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "2",
+            "AP": "-1",
+            "BS": "5+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "heavy",
+              "rapid fire 2"
             ],
             "name": "Seismic cannon",
-            "range": "24\"",
-            "skill": 5
+            "range": "24\""
           }
         ]
       },
@@ -6055,19 +5763,16 @@
         "name": "Heavy stubber",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "rapid fire 3"
             ],
             "name": "Heavy stubber",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -6076,21 +5781,17 @@
         "name": "Webber",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 2,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "2",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "torrent"
-              }
+              "devastating wounds",
+              "torrent"
             ],
             "name": "Webber",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -6099,21 +5800,17 @@
         "name": "Flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -6122,28 +5819,26 @@
         "name": "Grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Grenade launcher - frag",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           },
           {
-            "A": 1,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "D3",
+            "S": "9",
             "keywords": [],
             "name": "Grenade launcher - krak",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -6151,13 +5846,13 @@
         "id": "power-weapon",
         "melee": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Power weapon",
-            "skill": 4
+            "name": "Power weapon"
           }
         ],
         "name": "Power weapon"
@@ -6167,18 +5862,16 @@
         "name": "Anointed pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Anointed pistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -6186,13 +5879,13 @@
         "id": "chainsword",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chainsword",
-            "skill": 4
+            "name": "Chainsword"
           }
         ],
         "name": "Chainsword"
@@ -6242,11 +5935,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 3
+      "T": "3",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -6293,18 +5987,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -6312,13 +6004,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -6377,11 +6069,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 6
+      "T": "5",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -6415,20 +6108,16 @@
         "id": "patriarch-s-claws",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "devastating wounds",
+              "twin linked"
             ],
-            "name": "Patriarch's claws",
-            "skill": 2
+            "name": "Patriarch's claws"
           }
         ],
         "name": "Patriarch's claws"
@@ -6478,11 +6167,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 4
+      "T": "3",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -6539,21 +6229,16 @@
         "id": "toxin-injector-claw",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 2,
-            "S": 2,
+            "A": "2",
+            "AP": "0",
+            "D": "D3",
+            "S": "2",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              },
-              {
-                "kw": "extra attacks"
-              }
+              "anti infantry 2+",
+              "extra attacks"
             ],
-            "name": "Toxin injector claw",
-            "skill": 2
+            "name": "Toxin injector claw"
           }
         ],
         "name": "Toxin injector claw"
@@ -6563,25 +6248,18 @@
         "name": "Scoped needle pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 1,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "D3",
+            "S": "1",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              }
+              "anti infantry 2+",
+              "ignores cover",
+              "pistol"
             ],
             "name": "Scoped needle pistol",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -6589,13 +6267,13 @@
         "id": "cult-bonesword",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Cult bonesword",
-            "skill": 2
+            "name": "Cult bonesword"
           }
         ],
         "name": "Cult bonesword"
@@ -6635,11 +6313,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 4,
-      "W": 2
+      "T": "4",
+      "W": "2"
     },
     "wargear": {
       "children": [
@@ -6682,13 +6361,13 @@
         "id": "cult-claws-and-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Cult claws and talons",
-            "skill": 2
+            "name": "Cult claws and talons"
           }
         ],
         "name": "Cult claws and talons"
@@ -6734,11 +6413,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 3
+      "T": "3",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -6807,24 +6487,18 @@
         "name": "Demolition charges",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "one shot"
-              }
+              "assault",
+              "blast",
+              "one shot"
             ],
             "name": "Demolition charges",
-            "range": "8\"",
-            "skill": 3
+            "range": "8\""
           }
         ]
       },
@@ -6833,18 +6507,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -6853,21 +6525,17 @@
         "name": "Remote explosives",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6+3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "indirect fire"
             ],
             "name": "Remote explosives",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6875,13 +6543,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -6930,11 +6598,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 3
+      "T": "3",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -7000,21 +6669,16 @@
         "id": "sanctus-bio-dagger",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 3,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "3",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 3
-              },
-              {
-                "kw": "precision"
-              }
+              "anti infantry 3+",
+              "precision"
             ],
-            "name": "Sanctus bio-dagger",
-            "skill": 2
+            "name": "Sanctus bio-dagger"
           }
         ],
         "name": "Sanctus bio-dagger"
@@ -7024,25 +6688,18 @@
         "name": "Cult sniper rifle",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 2
-              },
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "precision"
-              }
+              "anti psyker 2+",
+              "heavy",
+              "precision"
             ],
             "name": "Cult sniper rifle",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -7050,13 +6707,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -7109,11 +6766,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "-",
-      "OC": 0,
+      "OC": "0",
       "Sv": "3+",
-      "T": 11,
-      "W": 14
+      "T": "11",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -7138,13 +6796,13 @@
         "id": "fragdrill",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3.5,
-            "S": 12,
+            "A": "6",
+            "AP": "-2",
+            "D": "D6",
+            "S": "12",
+            "WS": "6+",
             "keywords": [],
-            "name": "Fragdrill",
-            "skill": 6
+            "name": "Fragdrill"
           }
         ],
         "name": "Fragdrill"
@@ -7191,11 +6849,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 3,
-      "W": 4
+      "T": "3",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -7547,24 +7206,18 @@
         "name": "Demolition charges",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "one shot"
-              }
+              "assault",
+              "blast",
+              "one shot"
             ],
             "name": "Demolition charges",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -7573,28 +7226,26 @@
         "name": "Grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Grenade launcher - frag",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           },
           {
-            "A": 1,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "9",
             "keywords": [],
             "name": "Grenade launcher - krak",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7603,19 +7254,16 @@
         "name": "Heavy stubber",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "rapid fire 3"
             ],
             "name": "Heavy stubber",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -7624,19 +7272,16 @@
         "name": "Hybrid firearm",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Hybrid firearm",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7645,18 +7290,16 @@
         "name": "Mining laser",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Mining laser",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -7665,22 +7308,17 @@
         "name": "Seismic cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "2",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "heavy",
+              "rapid fire 2"
             ],
             "name": "Seismic cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -7689,19 +7327,16 @@
         "name": "Chemical vials",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 2,
-            "S": 1,
+            "A": "1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "1",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
             "name": "Chemical vials",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -7710,25 +7345,18 @@
         "name": "Cult sniper rifle",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 2
-              },
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "precision"
-              }
+              "anti psyker 2+",
+              "heavy",
+              "precision"
             ],
             "name": "Cult sniper rifle",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -7737,21 +7365,17 @@
         "name": "Flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7760,41 +7384,31 @@
         "name": "Psionic cascade",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              }
+              "ignores cover",
+              "psychic"
             ],
             "name": "Psionic cascade - witchfire",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           },
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              }
+              "hazardous",
+              "ignores cover",
+              "psychic"
             ],
             "name": "Psionic cascade - focused witchfire",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -7803,21 +7417,17 @@
         "name": "Webber",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 2,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "2",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "torrent"
-              }
+              "devastating wounds",
+              "torrent"
             ],
             "name": "Webber",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7826,21 +7436,17 @@
         "name": "Remote explosives",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6+3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "indirect fire"
             ],
             "name": "Remote explosives",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7849,18 +7455,16 @@
         "name": "Anointed pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Anointed pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7869,18 +7473,16 @@
         "name": "Autopistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autopistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7889,21 +7491,17 @@
         "name": "Liberator autostub",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "2",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "pistol"
-              }
+              "devastating wounds",
+              "pistol"
             ],
             "name": "Liberator autostub",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7912,25 +7510,18 @@
         "name": "Scoped needle pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 1,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "D3",
+            "S": "1",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              }
+              "anti infantry 2+",
+              "ignores cover",
+              "pistol"
             ],
             "name": "Scoped needle pistol",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -7939,24 +7530,18 @@
         "name": "Hand flamer",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "pistol",
+              "torrent"
             ],
             "name": "Hand flamer",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7964,21 +7549,16 @@
         "id": "bio-dagger",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 3,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "3",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 3
-              },
-              {
-                "kw": "precision"
-              }
+              "anti infantry 3+",
+              "precision"
             ],
-            "name": "Bio-dagger",
-            "skill": 2
+            "name": "Bio-dagger"
           }
         ],
         "name": "Bio-dagger"
@@ -7987,13 +7567,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -8002,18 +7582,15 @@
         "id": "heavy-mining-tool",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 4
-              }
+              "anti vehicle 4+"
             ],
-            "name": "Heavy mining tool",
-            "skill": 3
+            "name": "Heavy mining tool"
           }
         ],
         "name": "Heavy mining tool"
@@ -8022,22 +7599,22 @@
         "id": "metamorph-mutations",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Metamorph mutations - strike",
-            "skill": 2
+            "name": "Metamorph mutations - strike"
           },
           {
-            "A": 5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "5",
+            "AP": "-1",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Metamorph mutations - sweep",
-            "skill": 2
+            "name": "Metamorph mutations - sweep"
           }
         ],
         "name": "Metamorph mutations"
@@ -8046,13 +7623,13 @@
         "id": "power-weapon",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Power weapon",
-            "skill": 2
+            "name": "Power weapon"
           }
         ],
         "name": "Power weapon"
@@ -8061,13 +7638,13 @@
         "id": "cult-bonesword",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Cult bonesword",
-            "skill": 2
+            "name": "Cult bonesword"
           }
         ],
         "name": "Cult bonesword"
@@ -8076,13 +7653,13 @@
         "id": "cult-claws-and-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Cult claws and talons",
-            "skill": 2
+            "name": "Cult claws and talons"
           }
         ],
         "name": "Cult claws and talons"
@@ -8091,17 +7668,15 @@
         "id": "force-stave",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "D3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
-            "name": "Force stave",
-            "skill": 3
+            "name": "Force stave"
           }
         ],
         "name": "Force stave"
@@ -8110,18 +7685,15 @@
         "id": "injector-goad",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 2,
-            "S": 2,
+            "A": "1",
+            "AP": "0",
+            "D": "D3",
+            "S": "2",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
-            "name": "Injector goad",
-            "skill": 3
+            "name": "Injector goad"
           }
         ],
         "name": "Injector goad"
@@ -8130,21 +7702,16 @@
         "id": "toxin-injector-claw",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 2,
-            "S": 2,
+            "A": "2",
+            "AP": "0",
+            "D": "D3",
+            "S": "2",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              },
-              {
-                "kw": "extra attacks"
-              }
+              "anti infantry 2+",
+              "extra attacks"
             ],
-            "name": "Toxin injector claw",
-            "skill": 2
+            "name": "Toxin injector claw"
           }
         ],
         "name": "Toxin injector claw"

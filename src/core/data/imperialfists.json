@@ -50,11 +50,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 5,
-      "W": 7
+      "T": "5",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -79,17 +80,15 @@
         "id": "fist-of-dorn",
         "melee": [
           {
-            "A": 5,
-            "AP": -3,
-            "D": 3,
-            "S": 10,
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "10",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Fist of Dorn",
-            "skill": 2
+            "name": "Fist of Dorn"
           }
         ],
         "name": "Fist of Dorn"
@@ -147,11 +146,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 4,
-      "W": 5
+      "T": "4",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -187,23 +187,17 @@
         "name": "Dorn's Arrow",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "rapid fire 2",
+              "sustained hits 1"
             ],
             "name": "Dorn's Arrow",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -211,13 +205,13 @@
         "id": "fist-of-retribution",
         "melee": [
           {
-            "A": 5,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Fist of Retribution",
-            "skill": 2
+            "name": "Fist of Retribution"
           }
         ],
         "name": "Fist of Retribution"
@@ -271,11 +265,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -311,19 +306,16 @@
         "name": "Artificer Grav Gun",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 2
-              }
+              "anti vehicle 2+"
             ],
             "name": "Artificer Grav Gun",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -331,13 +323,13 @@
         "id": "hand-of-defiance",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 12,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "12",
+            "WS": "2+",
             "keywords": [],
-            "name": "Hand of Defiance",
-            "skill": 2
+            "name": "Hand of Defiance"
           }
         ],
         "name": "Hand of Defiance"

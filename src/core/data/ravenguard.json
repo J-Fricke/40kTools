@@ -47,11 +47,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "14\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 4,
-      "W": 5
+      "T": "4",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -86,21 +87,16 @@
         "id": "claws-of-severax",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "sustained hits 2",
+              "twin linked"
             ],
-            "name": "Claws of Severax",
-            "skill": 2
+            "name": "Claws of Severax"
           }
         ],
         "name": "Claws of Severax"
@@ -110,18 +106,16 @@
         "name": "Heavy Bolt Pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Heavy Bolt Pistol",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       }
@@ -179,11 +173,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "12\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 4,
-      "W": 5
+      "T": "4",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -219,21 +214,17 @@
         "name": "Blackout",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "precision"
-              }
+              "pistol",
+              "precision"
             ],
             "name": "Blackout",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -241,20 +232,16 @@
         "id": "the-raven-s-talons",
         "melee": [
           {
-            "A": 7,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "7",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "precision",
+              "twin linked"
             ],
-            "name": "The Raven's Talons",
-            "skill": 2
+            "name": "The Raven's Talons"
           }
         ],
         "name": "The Raven's Talons"

@@ -40,11 +40,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 5,
-      "W": 4
+      "T": "5",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -91,58 +92,43 @@
         "name": "Transmatter inverter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 8,
+            "A": "3",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "Transmatter inverter - half charge",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           },
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "3",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "2"
-              }
+              "hazardous",
+              "rapid fire 2"
             ],
             "name": "Transmatter inverter - full charge",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           },
           {
-            "A": 3,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "3",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "3",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "overcharge"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "hazardous",
+              "overcharge",
+              "rapid fire 3"
             ],
             "name": "Transmatter inverter - overcharge",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -150,13 +136,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -207,11 +193,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 6,
-      "W": 5
+      "T": "6",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -246,40 +233,28 @@
         "id": "kromlo-k-s-revenge",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 4,
-            "S": 10,
+            "A": "4",
+            "AP": "-2",
+            "D": "4",
+            "S": "10",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "anti monster 3+",
+              "anti vehicle 3+",
+              "sustained hits 1"
             ],
-            "name": "Kromlôk's Revenge - graviton strikes",
-            "skill": 2
+            "name": "Kromlôk's Revenge - graviton strikes"
           },
           {
-            "A": 8,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "8",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Kromlôk's Revenge - plasma sweeps",
-            "skill": 2
+            "name": "Kromlôk's Revenge - plasma sweeps"
           }
         ],
         "name": "Kromlôk's Revenge"
@@ -288,21 +263,16 @@
         "id": "warforge-gauntlets",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "extra attacks",
+              "sustained hits 1"
             ],
-            "name": "Warforge gauntlets",
-            "skill": 2
+            "name": "Warforge gauntlets"
           }
         ],
         "name": "Warforge gauntlets"
@@ -363,11 +333,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 4
+      "T": "5",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -535,22 +506,16 @@
         "id": "graviton-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "3",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Graviton hammer",
-            "skill": 4
+            "name": "Graviton hammer"
           }
         ],
         "name": "Graviton hammer"
@@ -560,23 +525,17 @@
         "name": "Graviton rifle",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "Graviton rifle",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -585,18 +544,16 @@
         "name": "Autoch-pattern bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolt pistol",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -604,13 +561,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -619,13 +576,13 @@
         "id": "plasma-torch",
         "melee": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "1",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Plasma torch",
-            "skill": 4
+            "name": "Plasma torch"
           }
         ],
         "name": "Plasma torch"
@@ -634,13 +591,13 @@
         "id": "manipulator-arms",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Manipulator arms",
-            "skill": 4
+            "name": "Manipulator arms"
           }
         ],
         "name": "Manipulator arms"
@@ -650,14 +607,14 @@
         "name": "Las-beam cutter",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 1,
-            "S": 6,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "1",
+            "S": "6",
             "keywords": [],
             "name": "Las-beam cutter",
-            "range": "6\"",
-            "skill": 4
+            "range": "6\""
           }
         ]
       }
@@ -701,11 +658,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 2
+      "T": "6",
+      "W": "2"
     },
     "wargear": {
       "children": [
@@ -781,13 +739,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -797,19 +755,16 @@
         "name": "Bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Bolt cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -818,23 +773,17 @@
         "name": "Graviton blast cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "Graviton blast cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -843,21 +792,17 @@
         "name": "SP conversion beamer",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "2",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "conversion"
-              },
-              {
-                "kw": "lethal hits"
-              }
+              "conversion",
+              "lethal hits"
             ],
             "name": "SP conversion beamer",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       }
@@ -906,11 +851,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 5
+      "T": "6",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -946,18 +892,16 @@
         "name": "Autoch-pattern bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -965,26 +909,24 @@
         "id": "bane",
         "melee": [
           {
-            "A": 5,
-            "AP": -3,
-            "D": 3,
-            "S": 12,
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "12",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Bane - strike",
-            "skill": 2
+            "name": "Bane - strike"
           },
           {
-            "A": 10,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "10",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Bane - sweep",
-            "skill": 2
+            "name": "Bane - sweep"
           }
         ],
         "name": "Bane"
@@ -1032,11 +974,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 6,
-      "W": 1
+      "T": "6",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -1138,22 +1081,16 @@
         "id": "concussion-maul",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "5",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Concussion maul",
-            "skill": 4
+            "name": "Concussion maul"
           }
         ],
         "name": "Concussion maul"
@@ -1162,13 +1099,13 @@
         "id": "heavy-plasma-axe",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "7",
+            "WS": "4+",
             "keywords": [],
-            "name": "Heavy plasma axe",
-            "skill": 4
+            "name": "Heavy plasma axe"
           }
         ],
         "name": "Heavy plasma axe"
@@ -1177,17 +1114,15 @@
         "id": "twin-concussion-gauntlets",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "4",
+            "AP": "-2",
+            "D": "2",
+            "S": "9",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Twin concussion gauntlets",
-            "skill": 4
+            "name": "Twin concussion gauntlets"
           }
         ],
         "name": "Twin concussion gauntlets"
@@ -1197,21 +1132,17 @@
         "name": "Mole grenade launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "5+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "indirect fire"
             ],
             "name": "Mole grenade launcher",
-            "range": "18\"",
-            "skill": 5
+            "range": "18\""
           }
         ]
       }
@@ -1251,11 +1182,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "4\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "4+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -1332,13 +1264,13 @@
         "id": "plasma-picks",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Plasma picks",
-            "skill": 3
+            "name": "Plasma picks"
           }
         ],
         "name": "Plasma picks"
@@ -1348,18 +1280,16 @@
         "name": "Autoch-pattern bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolt pistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -1368,24 +1298,18 @@
         "name": "Breacher ordnance",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 2,
-            "S": 10,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "5+",
+            "D": "2",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "heavy",
+              "indirect fire"
             ],
             "name": "Breacher ordnance",
-            "range": "24\"",
-            "skill": 5
+            "range": "24\""
           }
         ]
       },
@@ -1394,24 +1318,18 @@
         "name": "Tremor shells",
         "ranged": [
           {
-            "A": 7.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6+4",
+            "AP": "-1",
+            "BS": "5+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "heavy",
+              "indirect fire"
             ],
             "name": "Tremor shells",
-            "range": "36\"",
-            "skill": 5
+            "range": "36\""
           }
         ]
       }
@@ -1464,11 +1382,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 5,
-      "W": 5
+      "T": "5",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -1534,13 +1453,13 @@
         "id": "mass-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "3",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mass hammer",
-            "skill": 3
+            "name": "Mass hammer"
           }
         ],
         "name": "Mass hammer"
@@ -1549,13 +1468,13 @@
         "id": "darkstar-axe",
         "melee": [
           {
-            "A": 6,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Darkstar axe",
-            "skill": 2
+            "name": "Darkstar axe"
           }
         ],
         "name": "Darkstar axe"
@@ -1565,14 +1484,14 @@
         "name": "Autoch-pattern combi-bolter",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern combi-bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -1619,11 +1538,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 5,
-      "W": 2
+      "T": "5",
+      "W": "2"
     },
     "wargear": {
       "children": [
@@ -1769,18 +1689,16 @@
         "name": "Exo-armour grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Exo-armour grenade launcher",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -1788,22 +1706,16 @@
         "id": "graviton-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "3",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Graviton hammer",
-            "skill": 4
+            "name": "Graviton hammer"
           }
         ],
         "name": "Graviton hammer"
@@ -1813,19 +1725,16 @@
         "name": "EtaCarn plasma gun",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 7,
+            "A": "1",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "EtaCarn plasma gun",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -1834,18 +1743,16 @@
         "name": "Volkanite disintegrator",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Volkanite disintegrator",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -1853,13 +1760,13 @@
         "id": "concussion-gauntlet",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "2",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Concussion gauntlet",
-            "skill": 3
+            "name": "Concussion gauntlet"
           }
         ],
         "name": "Concussion gauntlet"
@@ -1868,13 +1775,13 @@
         "id": "plasma-blade-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Plasma blade gauntlet",
-            "skill": 3
+            "name": "Plasma blade gauntlet"
           }
         ],
         "name": "Plasma blade gauntlet"
@@ -1930,11 +1837,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 4
+      "T": "5",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -2020,17 +1928,15 @@
         "id": "ancestral-ward-stave",
         "melee": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "2",
+            "AP": "-1",
+            "D": "D3",
+            "S": "7",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
-            "name": "Ancestral ward stave",
-            "skill": 3
+            "name": "Ancestral ward stave"
           }
         ],
         "name": "Ancestral ward stave"
@@ -2040,35 +1946,29 @@
         "name": "Ancestral Wrath",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
             "name": "Ancestral Wrath - witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           },
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "psychic"
-              }
+              "hazardous",
+              "psychic"
             ],
             "name": "Ancestral Wrath - focused witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -2077,14 +1977,14 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2092,13 +1992,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -2147,11 +2047,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "4+",
-      "T": 5,
-      "W": 1
+      "T": "5",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -2617,13 +2518,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -2632,13 +2533,13 @@
         "id": "theyn-s-melee-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "2",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "4+",
             "keywords": [],
-            "name": "Theyn's melee weapon",
-            "skill": 4
+            "name": "Theyn's melee weapon"
           }
         ],
         "name": "Theyn's melee weapon"
@@ -2648,18 +2549,16 @@
         "name": "Autoch-pattern bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolt pistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -2668,14 +2567,14 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2684,14 +2583,14 @@
         "name": "Ion blaster",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Ion blaster",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -2700,18 +2599,16 @@
         "name": "Theyn's pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Theyn's pistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -2719,13 +2616,13 @@
         "id": "plasma-knife",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Plasma knife",
-            "skill": 4
+            "name": "Plasma knife"
           }
         ],
         "name": "Plasma knife"
@@ -2735,22 +2632,17 @@
         "name": "HYLas rotary cannon",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "BS": "5+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "heavy",
+              "sustained hits 1"
             ],
             "name": "HYLas rotary cannon",
-            "range": "24\"",
-            "skill": 5
+            "range": "24\""
           }
         ]
       },
@@ -2759,22 +2651,17 @@
         "name": "HYLas auto rifle",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "rapid fire",
-                "val": "3"
-              }
+              "assault",
+              "rapid fire 3"
             ],
             "name": "HYLas auto rifle",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2783,28 +2670,26 @@
         "name": "L7 missile launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "L7 missile launcher - blast",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           },
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3.5,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "D6",
+            "S": "9",
             "keywords": [],
             "name": "L7 missile launcher - focused",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -2813,21 +2698,17 @@
         "name": "Magna-rail rifle",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "5+",
+            "D": "D3+3",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "heavy"
-              }
+              "devastating wounds",
+              "heavy"
             ],
             "name": "Magna-rail rifle",
-            "range": "18\"",
-            "skill": 5
+            "range": "18\""
           }
         ]
       },
@@ -2836,19 +2717,16 @@
         "name": "EtaCarn plasma beamer",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 8,
+            "A": "1",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "2",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "d3"
-              }
+              "sustained hits d3"
             ],
             "name": "EtaCarn plasma beamer",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       }
@@ -2905,11 +2783,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "10\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 12,
-      "W": 16
+      "T": "12",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -3047,13 +2926,13 @@
         "id": "armoured-wheels",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 8,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "8",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured wheels",
-            "skill": 4
+            "name": "Armoured wheels"
           }
         ],
         "name": "Armoured wheels"
@@ -3063,21 +2942,17 @@
         "name": "SP heavy conversion beamer",
         "ranged": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 4,
-            "S": 10,
+            "A": "4",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "4",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "conversion"
-              },
-              {
-                "kw": "lethal hits"
-              }
+              "conversion",
+              "lethal hits"
             ],
             "name": "SP heavy conversion beamer",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3086,21 +2961,17 @@
         "name": "Heavy magna-rail cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 7.5,
-            "S": 18,
+            "A": "2",
+            "AP": "-4",
+            "BS": "4+",
+            "D": "D6+4",
+            "S": "18",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "heavy"
-              }
+              "devastating wounds",
+              "heavy"
             ],
             "name": "Heavy magna-rail cannon",
-            "range": "30\"",
-            "skill": 4
+            "range": "30\""
           }
         ]
       },
@@ -3109,18 +2980,16 @@
         "name": "Cyclic ion cannon",
         "ranged": [
           {
-            "A": 5.5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "D6+2",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Cyclic ion cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3129,21 +2998,17 @@
         "name": "Twin ion beamer",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "D3+1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "blast",
+              "twin linked"
             ],
             "name": "Twin ion beamer",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -3152,22 +3017,17 @@
         "name": "Twin bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "sustained hits 2",
+              "twin linked"
             ],
             "name": "Twin bolt cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -3176,21 +3036,17 @@
         "name": "Hekaton warhead",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "one shot"
-              }
+              "blast",
+              "one shot"
             ],
             "name": "Hekaton warhead",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -3199,22 +3055,17 @@
         "name": "MATR autocannon",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "assault",
+              "sustained hits 1"
             ],
             "name": "MATR autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       }
@@ -3263,11 +3114,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "4+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -3642,18 +3494,16 @@
         "name": "Bolt revolver",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt revolver",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -3662,18 +3512,16 @@
         "name": "Bolt shotgun",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Bolt shotgun",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -3682,14 +3530,14 @@
         "name": "Magna-coil autocannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [],
             "name": "Magna-coil autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3697,13 +3545,13 @@
         "id": "plasma-knife",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Plasma knife",
-            "skill": 4
+            "name": "Plasma knife"
           }
         ],
         "name": "Plasma knife"
@@ -3713,19 +3561,16 @@
         "name": "HYLas rotary cannon",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
             "name": "HYLas rotary cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -3734,18 +3579,16 @@
         "name": "Ion beamer",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "D3+1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Ion beamer",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       }
@@ -3789,11 +3632,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 5,
-      "W": 1
+      "T": "5",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -4117,18 +3961,16 @@
         "name": "Bolt shotgun",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Bolt shotgun",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -4136,13 +3978,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -4152,23 +3994,17 @@
         "name": "APM launcher",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3.5,
-            "S": 6,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "D6",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "APM launcher",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -4177,21 +4013,17 @@
         "name": "Magna-coil rifle",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "precision"
-              }
+              "ignores cover",
+              "precision"
             ],
             "name": "Magna-coil rifle",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -4200,18 +4032,16 @@
         "name": "Bolt revolver",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt revolver",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -4219,13 +4049,13 @@
         "id": "plasma-knife",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Plasma knife",
-            "skill": 4
+            "name": "Plasma knife"
           }
         ],
         "name": "Plasma knife"
@@ -4269,11 +4099,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -4410,18 +4241,16 @@
         "name": "Heavy volkanite disintegrator",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Heavy volkanite disintegrator",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -4429,13 +4258,13 @@
         "id": "plasma-knife",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "2",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Plasma knife",
-            "skill": 3
+            "name": "Plasma knife"
           }
         ],
         "name": "Plasma knife"
@@ -4445,18 +4274,16 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -4464,18 +4291,15 @@
         "id": "plasma-sword",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Plasma sword",
-            "skill": 3
+            "name": "Plasma sword"
           }
         ],
         "name": "Plasma sword"
@@ -4523,11 +4347,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 6,
-      "W": 3
+      "T": "6",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -4665,18 +4490,15 @@
         "id": "plasma-sword",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Plasma sword",
-            "skill": 3
+            "name": "Plasma sword"
           }
         ],
         "name": "Plasma sword"
@@ -4685,17 +4507,15 @@
         "id": "concussion-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 10,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "10",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "lethal hits"
-              }
+              "lethal hits"
             ],
-            "name": "Concussion gauntlet",
-            "skill": 4
+            "name": "Concussion gauntlet"
           }
         ],
         "name": "Concussion gauntlet"
@@ -4705,18 +4525,16 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       }
@@ -4768,11 +4586,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 5,
-      "W": 4
+      "T": "5",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -4858,13 +4677,13 @@
         "id": "mass-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "3",
+            "AP": "-3",
+            "D": "3",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mass gauntlet",
-            "skill": 3
+            "name": "Mass gauntlet"
           }
         ],
         "name": "Mass gauntlet"
@@ -4873,13 +4692,13 @@
         "id": "forgewrought-plasma-axe",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "4",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Forgewrought plasma axe",
-            "skill": 2
+            "name": "Forgewrought plasma axe"
           }
         ],
         "name": "Forgewrought plasma axe"
@@ -4889,14 +4708,14 @@
         "name": "Autoch-pattern combi-bolter",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern combi-bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -4905,18 +4724,16 @@
         "name": "Volkanite disintegrator",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Volkanite disintegrator",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }
@@ -4971,11 +4788,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "4+",
-      "T": 7,
-      "W": 7
+      "T": "7",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -5033,14 +4851,14 @@
         "name": "Magna-coil autocannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [],
             "name": "Magna-coil autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -5048,13 +4866,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -5064,18 +4882,16 @@
         "name": "Twin magna-coil autocannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Twin magna-coil autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       }
@@ -5120,11 +4936,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "4+",
-      "T": 7,
-      "W": 7
+      "T": "7",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -5210,13 +5027,13 @@
         "id": "armoured-hull",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured hull",
-            "skill": 4
+            "name": "Armoured hull"
           }
         ],
         "name": "Armoured hull"
@@ -5226,21 +5043,17 @@
         "name": "Magna-rail cannon",
         "ranged": [
           {
-            "A": 1,
-            "AP": -4,
-            "D": 5,
-            "S": 14,
+            "A": "1",
+            "AP": "-4",
+            "BS": "4+",
+            "D": "D3+3",
+            "S": "14",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "heavy"
-              }
+              "devastating wounds",
+              "heavy"
             ],
             "name": "Magna-rail cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -5249,19 +5062,16 @@
         "name": "HYLas rotary cannon",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
             "name": "HYLas rotary cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -5270,18 +5080,16 @@
         "name": "Twin magna-coil autocannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
             "name": "Twin magna-coil autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       }
@@ -5326,11 +5134,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 5,
-      "W": 4
+      "T": "5",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -5981,18 +5790,16 @@
         "name": "Exo-armour grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Exo-armour grenade launcher",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -6001,14 +5808,14 @@
         "name": "Magna-coil autocannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [],
             "name": "Magna-coil autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -6017,35 +5824,29 @@
         "name": "Ancestral Wrath",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
             "name": "Ancestral Wrath - witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           },
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "psychic"
-              }
+              "hazardous",
+              "psychic"
             ],
             "name": "Ancestral Wrath - focused witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6054,14 +5855,14 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6070,14 +5871,14 @@
         "name": "Autoch-pattern combi-bolter",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern combi-bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -6086,23 +5887,17 @@
         "name": "Graviton blast cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "Graviton blast cannon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6111,18 +5906,16 @@
         "name": "Bolt shotgun",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Bolt shotgun",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -6131,19 +5924,16 @@
         "name": "EtaCarn plasma gun",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 7,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "EtaCarn plasma gun",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -6152,19 +5942,16 @@
         "name": "Bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Bolt cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -6173,23 +5960,17 @@
         "name": "Graviton rifle",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "Graviton rifle",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -6198,18 +5979,16 @@
         "name": "Heavy volkanite disintegrator",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Heavy volkanite disintegrator",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6218,14 +5997,14 @@
         "name": "Ion blaster",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Ion blaster",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -6234,21 +6013,17 @@
         "name": "SP conversion beamer",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "2",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "conversion"
-              },
-              {
-                "kw": "lethal hits"
-              }
+              "conversion",
+              "lethal hits"
             ],
             "name": "SP conversion beamer",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6257,18 +6032,16 @@
         "name": "Volkanite disintegrator",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Volkanite disintegrator",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -6277,18 +6050,16 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6297,18 +6068,16 @@
         "name": "Autoch-pattern bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -6317,18 +6086,16 @@
         "name": "Bolt revolver",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt revolver",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -6337,18 +6104,16 @@
         "name": "Theyn's pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Theyn's pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -6356,17 +6121,15 @@
         "id": "ancestral-ward-stave",
         "melee": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "2",
+            "AP": "-1",
+            "D": "D3",
+            "S": "7",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
-            "name": "Ancestral ward stave",
-            "skill": 3
+            "name": "Ancestral ward stave"
           }
         ],
         "name": "Ancestral ward stave"
@@ -6375,13 +6138,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -6390,17 +6153,15 @@
         "id": "concussion-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "lethal hits"
-              }
+              "lethal hits"
             ],
-            "name": "Concussion gauntlet",
-            "skill": 3
+            "name": "Concussion gauntlet"
           }
         ],
         "name": "Concussion gauntlet"
@@ -6409,22 +6170,16 @@
         "id": "concussion-maul",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Concussion maul",
-            "skill": 3
+            "name": "Concussion maul"
           }
         ],
         "name": "Concussion maul"
@@ -6433,13 +6188,13 @@
         "id": "darkstar-axe",
         "melee": [
           {
-            "A": 6,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Darkstar axe",
-            "skill": 2
+            "name": "Darkstar axe"
           }
         ],
         "name": "Darkstar axe"
@@ -6448,13 +6203,13 @@
         "id": "forgewrought-plasma-axe",
         "melee": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "4",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Forgewrought plasma axe",
-            "skill": 2
+            "name": "Forgewrought plasma axe"
           }
         ],
         "name": "Forgewrought plasma axe"
@@ -6463,22 +6218,16 @@
         "id": "graviton-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "3",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Graviton hammer",
-            "skill": 3
+            "name": "Graviton hammer"
           }
         ],
         "name": "Graviton hammer"
@@ -6487,13 +6236,13 @@
         "id": "heavy-plasma-axe",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Heavy plasma axe",
-            "skill": 3
+            "name": "Heavy plasma axe"
           }
         ],
         "name": "Heavy plasma axe"
@@ -6502,13 +6251,13 @@
         "id": "mass-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "3",
+            "AP": "-3",
+            "D": "3",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mass gauntlet",
-            "skill": 3
+            "name": "Mass gauntlet"
           }
         ],
         "name": "Mass gauntlet"
@@ -6517,13 +6266,13 @@
         "id": "mass-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "3",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mass hammer",
-            "skill": 3
+            "name": "Mass hammer"
           }
         ],
         "name": "Mass hammer"
@@ -6532,13 +6281,13 @@
         "id": "plasma-blade-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Plasma blade gauntlet",
-            "skill": 2
+            "name": "Plasma blade gauntlet"
           }
         ],
         "name": "Plasma blade gauntlet"
@@ -6547,13 +6296,13 @@
         "id": "plasma-knife",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Plasma knife",
-            "skill": 2
+            "name": "Plasma knife"
           }
         ],
         "name": "Plasma knife"
@@ -6562,18 +6311,15 @@
         "id": "plasma-sword",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Plasma sword",
-            "skill": 3
+            "name": "Plasma sword"
           }
         ],
         "name": "Plasma sword"
@@ -6582,13 +6328,13 @@
         "id": "theyn-s-melee-weapon",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Theyn's melee weapon",
-            "skill": 3
+            "name": "Theyn's melee weapon"
           }
         ],
         "name": "Theyn's melee weapon"
@@ -6635,11 +6381,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 4
+      "T": "5",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -7290,18 +7037,16 @@
         "name": "Exo-armour grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Exo-armour grenade launcher",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -7310,14 +7055,14 @@
         "name": "Magna-coil autocannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [],
             "name": "Magna-coil autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -7326,35 +7071,29 @@
         "name": "Ancestral Wrath",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
             "name": "Ancestral Wrath - witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           },
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "psychic"
-              }
+              "hazardous",
+              "psychic"
             ],
             "name": "Ancestral Wrath - focused witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7363,14 +7102,14 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7379,14 +7118,14 @@
         "name": "Autoch-pattern combi-bolter",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern combi-bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -7395,23 +7134,17 @@
         "name": "Graviton blast cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "Graviton blast cannon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7420,18 +7153,16 @@
         "name": "Bolt shotgun",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Bolt shotgun",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -7440,19 +7171,16 @@
         "name": "EtaCarn plasma gun",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 7,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "EtaCarn plasma gun",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -7461,19 +7189,16 @@
         "name": "Bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Bolt cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -7482,23 +7207,17 @@
         "name": "Graviton rifle",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "Graviton rifle",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -7507,18 +7226,16 @@
         "name": "Heavy volkanite disintegrator",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Heavy volkanite disintegrator",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7527,14 +7244,14 @@
         "name": "Ion blaster",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Ion blaster",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -7543,21 +7260,17 @@
         "name": "SP conversion beamer",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "2",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "conversion"
-              },
-              {
-                "kw": "lethal hits"
-              }
+              "conversion",
+              "lethal hits"
             ],
             "name": "SP conversion beamer",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7566,18 +7279,16 @@
         "name": "Volkanite disintegrator",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Volkanite disintegrator",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -7586,18 +7297,16 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7606,18 +7315,16 @@
         "name": "Autoch-pattern bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7626,18 +7333,16 @@
         "name": "Bolt revolver",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt revolver",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7646,18 +7351,16 @@
         "name": "Theyn's pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Theyn's pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7665,17 +7368,15 @@
         "id": "ancestral-ward-stave",
         "melee": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "2",
+            "AP": "-1",
+            "D": "D3",
+            "S": "7",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
-            "name": "Ancestral ward stave",
-            "skill": 3
+            "name": "Ancestral ward stave"
           }
         ],
         "name": "Ancestral ward stave"
@@ -7684,13 +7385,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -7699,17 +7400,15 @@
         "id": "concussion-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "lethal hits"
-              }
+              "lethal hits"
             ],
-            "name": "Concussion gauntlet",
-            "skill": 3
+            "name": "Concussion gauntlet"
           }
         ],
         "name": "Concussion gauntlet"
@@ -7718,22 +7417,16 @@
         "id": "concussion-maul",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Concussion maul",
-            "skill": 3
+            "name": "Concussion maul"
           }
         ],
         "name": "Concussion maul"
@@ -7742,13 +7435,13 @@
         "id": "darkstar-axe",
         "melee": [
           {
-            "A": 6,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Darkstar axe",
-            "skill": 2
+            "name": "Darkstar axe"
           }
         ],
         "name": "Darkstar axe"
@@ -7757,13 +7450,13 @@
         "id": "forgewrought-plasma-axe",
         "melee": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "4",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Forgewrought plasma axe",
-            "skill": 2
+            "name": "Forgewrought plasma axe"
           }
         ],
         "name": "Forgewrought plasma axe"
@@ -7772,22 +7465,16 @@
         "id": "graviton-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "3",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Graviton hammer",
-            "skill": 3
+            "name": "Graviton hammer"
           }
         ],
         "name": "Graviton hammer"
@@ -7796,13 +7483,13 @@
         "id": "heavy-plasma-axe",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Heavy plasma axe",
-            "skill": 3
+            "name": "Heavy plasma axe"
           }
         ],
         "name": "Heavy plasma axe"
@@ -7811,13 +7498,13 @@
         "id": "mass-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "3",
+            "AP": "-3",
+            "D": "3",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mass gauntlet",
-            "skill": 3
+            "name": "Mass gauntlet"
           }
         ],
         "name": "Mass gauntlet"
@@ -7826,13 +7513,13 @@
         "id": "mass-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "3",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mass hammer",
-            "skill": 3
+            "name": "Mass hammer"
           }
         ],
         "name": "Mass hammer"
@@ -7841,13 +7528,13 @@
         "id": "plasma-blade-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Plasma blade gauntlet",
-            "skill": 2
+            "name": "Plasma blade gauntlet"
           }
         ],
         "name": "Plasma blade gauntlet"
@@ -7856,13 +7543,13 @@
         "id": "plasma-knife",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Plasma knife",
-            "skill": 2
+            "name": "Plasma knife"
           }
         ],
         "name": "Plasma knife"
@@ -7871,18 +7558,15 @@
         "id": "plasma-sword",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Plasma sword",
-            "skill": 3
+            "name": "Plasma sword"
           }
         ],
         "name": "Plasma sword"
@@ -7891,13 +7575,13 @@
         "id": "theyn-s-melee-weapon",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Theyn's melee weapon",
-            "skill": 3
+            "name": "Theyn's melee weapon"
           }
         ],
         "name": "Theyn's melee weapon"
@@ -7950,11 +7634,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 4
+      "T": "5",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -8001,18 +7686,16 @@
         "name": "Autoch-pattern bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolt pistol",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -8020,13 +7703,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 4
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -8080,11 +7763,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 9,
-      "W": 9
+      "T": "9",
+      "W": "9"
     },
     "wargear": {
       "children": [
@@ -8192,13 +7876,13 @@
         "id": "armoured-wheels",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Armoured wheels",
-            "skill": 4
+            "name": "Armoured wheels"
           }
         ],
         "name": "Armoured wheels"
@@ -8208,14 +7892,14 @@
         "name": "HYLas beam cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [],
             "name": "HYLas beam cannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -8224,14 +7908,14 @@
         "name": "Sagitaur missile launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 3,
-            "S": 10,
+            "A": "2",
+            "AP": "-3",
+            "BS": "4+",
+            "D": "3",
+            "S": "10",
             "keywords": [],
             "name": "Sagitaur missile launcher",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -8240,28 +7924,26 @@
         "name": "L7 missile launcher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "L7 missile launcher - blast",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           },
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3.5,
-            "S": 9,
+            "A": "1",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "D6",
+            "S": "9",
             "keywords": [],
             "name": "L7 missile launcher - focused",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -8270,22 +7952,17 @@
         "name": "MATR autocannon",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "assault",
+              "sustained hits 1"
             ],
             "name": "MATR autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -8294,22 +7971,17 @@
         "name": "Twin bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "sustained hits 2",
+              "twin linked"
             ],
             "name": "Twin bolt cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       }
@@ -8355,11 +8027,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 6,
-      "W": 5
+      "T": "6",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -9010,18 +8683,16 @@
         "name": "Exo-armour grenade launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "D3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Exo-armour grenade launcher",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -9030,14 +8701,14 @@
         "name": "Magna-coil autocannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [],
             "name": "Magna-coil autocannon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -9046,35 +8717,29 @@
         "name": "Ancestral Wrath",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
             "name": "Ancestral Wrath - witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           },
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "hazardous"
-              },
-              {
-                "kw": "psychic"
-              }
+              "hazardous",
+              "psychic"
             ],
             "name": "Ancestral Wrath - focused witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -9083,14 +8748,14 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -9099,14 +8764,14 @@
         "name": "Autoch-pattern combi-bolter",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Autoch-pattern combi-bolter",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -9115,23 +8780,17 @@
         "name": "Graviton blast cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "Graviton blast cannon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -9140,18 +8799,16 @@
         "name": "Bolt shotgun",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Bolt shotgun",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -9160,19 +8817,16 @@
         "name": "EtaCarn plasma gun",
         "ranged": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 2,
-            "S": 7,
+            "A": "1",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "rapid fire",
-                "val": "1"
-              }
+              "rapid fire 1"
             ],
             "name": "EtaCarn plasma gun",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -9181,19 +8835,16 @@
         "name": "Bolt cannon",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Bolt cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -9202,23 +8853,17 @@
         "name": "Graviton rifle",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "3",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
             "name": "Graviton rifle",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -9227,18 +8872,16 @@
         "name": "Heavy volkanite disintegrator",
         "ranged": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Heavy volkanite disintegrator",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -9247,14 +8890,14 @@
         "name": "Ion blaster",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Ion blaster",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -9263,21 +8906,17 @@
         "name": "SP conversion beamer",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "2",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "conversion"
-              },
-              {
-                "kw": "lethal hits"
-              }
+              "conversion",
+              "lethal hits"
             ],
             "name": "SP conversion beamer",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -9286,18 +8925,16 @@
         "name": "Volkanite disintegrator",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Volkanite disintegrator",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       },
@@ -9306,18 +8943,16 @@
         "name": "Autoch-pattern bolter",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -9326,18 +8961,16 @@
         "name": "Autoch-pattern bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Autoch-pattern bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -9346,18 +8979,16 @@
         "name": "Bolt revolver",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt revolver",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -9366,18 +8997,16 @@
         "name": "Theyn's pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "1",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Theyn's pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -9385,17 +9014,15 @@
         "id": "ancestral-ward-stave",
         "melee": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "2",
+            "AP": "-1",
+            "D": "D3",
+            "S": "7",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "psychic"
-              }
+              "psychic"
             ],
-            "name": "Ancestral ward stave",
-            "skill": 3
+            "name": "Ancestral ward stave"
           }
         ],
         "name": "Ancestral ward stave"
@@ -9404,13 +9031,13 @@
         "id": "close-combat-weapon",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "3+",
             "keywords": [],
-            "name": "Close combat weapon",
-            "skill": 3
+            "name": "Close combat weapon"
           }
         ],
         "name": "Close combat weapon"
@@ -9419,17 +9046,15 @@
         "id": "concussion-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "lethal hits"
-              }
+              "lethal hits"
             ],
-            "name": "Concussion gauntlet",
-            "skill": 3
+            "name": "Concussion gauntlet"
           }
         ],
         "name": "Concussion gauntlet"
@@ -9438,22 +9063,16 @@
         "id": "concussion-maul",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Concussion maul",
-            "skill": 3
+            "name": "Concussion maul"
           }
         ],
         "name": "Concussion maul"
@@ -9462,13 +9081,13 @@
         "id": "darkstar-axe",
         "melee": [
           {
-            "A": 6,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Darkstar axe",
-            "skill": 2
+            "name": "Darkstar axe"
           }
         ],
         "name": "Darkstar axe"
@@ -9477,13 +9096,13 @@
         "id": "forgewrought-plasma-axe",
         "melee": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "4",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Forgewrought plasma axe",
-            "skill": 2
+            "name": "Forgewrought plasma axe"
           }
         ],
         "name": "Forgewrought plasma axe"
@@ -9492,22 +9111,16 @@
         "id": "graviton-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 3,
-            "S": 9,
+            "A": "3",
+            "AP": "-1",
+            "D": "3",
+            "S": "9",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 3
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 3
-              }
+              "anti monster 3+",
+              "anti vehicle 3+"
             ],
-            "name": "Graviton hammer",
-            "skill": 3
+            "name": "Graviton hammer"
           }
         ],
         "name": "Graviton hammer"
@@ -9516,13 +9129,13 @@
         "id": "heavy-plasma-axe",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 3,
-            "S": 7,
+            "A": "3",
+            "AP": "-2",
+            "D": "3",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Heavy plasma axe",
-            "skill": 3
+            "name": "Heavy plasma axe"
           }
         ],
         "name": "Heavy plasma axe"
@@ -9531,13 +9144,13 @@
         "id": "mass-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "3",
+            "AP": "-3",
+            "D": "3",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mass gauntlet",
-            "skill": 3
+            "name": "Mass gauntlet"
           }
         ],
         "name": "Mass gauntlet"
@@ -9546,13 +9159,13 @@
         "id": "mass-hammer",
         "melee": [
           {
-            "A": 3,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "3",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mass hammer",
-            "skill": 3
+            "name": "Mass hammer"
           }
         ],
         "name": "Mass hammer"
@@ -9561,13 +9174,13 @@
         "id": "plasma-blade-gauntlet",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Plasma blade gauntlet",
-            "skill": 2
+            "name": "Plasma blade gauntlet"
           }
         ],
         "name": "Plasma blade gauntlet"
@@ -9576,13 +9189,13 @@
         "id": "plasma-knife",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Plasma knife",
-            "skill": 2
+            "name": "Plasma knife"
           }
         ],
         "name": "Plasma knife"
@@ -9591,18 +9204,15 @@
         "id": "plasma-sword",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Plasma sword",
-            "skill": 3
+            "name": "Plasma sword"
           }
         ],
         "name": "Plasma sword"
@@ -9611,13 +9221,13 @@
         "id": "theyn-s-melee-weapon",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Theyn's melee weapon",
-            "skill": 3
+            "name": "Theyn's melee weapon"
           }
         ],
         "name": "Theyn's melee weapon"
@@ -9675,11 +9285,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 5,
-      "W": 5
+      "T": "5",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -9714,17 +9325,15 @@
         "id": "blade-of-the-ancestors",
         "melee": [
           {
-            "A": 5,
-            "AP": -3,
-            "D": 2,
-            "S": 6,
+            "A": "5",
+            "AP": "-3",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Blade of the Ancestors",
-            "skill": 2
+            "name": "Blade of the Ancestors"
           }
         ],
         "name": "Blade of the Ancestors"
@@ -9734,18 +9343,16 @@
         "name": "Volkanite disintegrator",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
             "name": "Volkanite disintegrator",
-            "range": "24\"",
-            "skill": 2
+            "range": "24\""
           }
         ]
       }

@@ -10,22 +10,21 @@
 /**
  * @typedef {Object} WeaponMode
  * A weapon fires with exactly one mode per phase (P1: verified across all 34
- * catalogues — nothing uses >1 mode at once).
+ * catalogues — nothing uses >1 mode at once). Characteristics are the RAW
+ * BSData strings — the engine (Story B) does dice-averaging, skill mapping,
+ * and keyword interpretation.
  * @property {string}   name           display name (e.g. "Kustom Shoota - Aimed", or same as the weapon)
- * @property {number}   A              Attacks (dice averaged)
- * @property {number}   skill          BS or WS as a number (2..6); torrent/N-A -> 2 by convention
- * @property {number}   S
- * @property {number}   AP
- * @property {number}   D              Damage (dice averaged)
+ * @property {string}   A              Attacks, verbatim ("3", "D6", "D3+1")
+ * @property {string}  [BS]            ballistic skill ("3+", "N/A") — ranged modes
+ * @property {string}  [WS]            weapon skill — melee modes
+ * @property {string}   S              Strength ("6", "User", "2D6")
+ * @property {string}   AP             Armour Penetration ("0", "-1")
+ * @property {string}   D              Damage, verbatim ("1", "D6+1")
  * @property {string}  [range]         e.g. "24\"" ; absent for melee
- * @property {NormKeyword[]} keywords  normalised
- */
-
-/**
- * @typedef {Object} NormKeyword
- * @property {string}  kw              canonical lowercase name ("sustained hits", "anti-infantry", "twin-linked")
- * @property {number} [on]             the "N+" of Anti-X / other rated keywords
- * @property {string} [vs]             target qualifier ("non-monster/vehicle", "infantry")
+ * @property {number}  [qty]           profile-level multiplier ("2 twin bolt cannons")
+ * @property {string[]} keywords       canonical keyword strings (lowercased,
+ *                                     separators collapsed) — NOT parsed; e.g.
+ *                                     ["sustained hits 1", "anti infantry 3+", "lethal hits: non monster/vehicle"]
  */
 
 /**
@@ -62,7 +61,8 @@
  * @property {string}   faction
  * @property {string}   name
  * @property {string[]} keywords     every categoryLink, lowercased, verbatim
- * @property {Object}   stats        { M, T, Sv, W, OC, InvSv:(string|null), FNP:(string|null) }
+ * @property {Object}   stats        raw strings: { M, T, Sv, W, OC, Ld,
+ *                                   InvSv:(string|null), FNP:(string|null) }
  * @property {Object}   size         { min, max }  (model count)
  * @property {{models:number,pts:number}[]} points  one per fielded size
  * @property {{name:string,text:string,bracket?:boolean}[]} abilities  untyped (Story C types them)

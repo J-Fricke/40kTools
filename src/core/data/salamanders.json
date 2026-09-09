@@ -45,11 +45,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 4,
-      "W": 5
+      "T": "4",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -85,24 +86,18 @@
         "name": "Drakkis",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "D6+3",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "pistol",
+              "torrent"
             ],
             "name": "Drakkis",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -110,13 +105,13 @@
         "id": "malleus-noctum",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 3,
-            "S": 10,
+            "A": "5",
+            "AP": "-2",
+            "D": "3",
+            "S": "10",
+            "WS": "2+",
             "keywords": [],
-            "name": "Malleus Noctum",
-            "skill": 2
+            "name": "Malleus Noctum"
           }
         ],
         "name": "Malleus Noctum"
@@ -174,11 +169,12 @@
     "stats": {
       "FNP": "4+",
       "InvSv": "4+",
+      "Ld": "6+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "2+",
-      "T": 4,
-      "W": 5
+      "T": "4",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -224,24 +220,18 @@
         "name": "Gauntlet of the Forge",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6+3",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "pistol",
+              "torrent"
             ],
             "name": "Gauntlet of the Forge",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -249,17 +239,15 @@
         "id": "spear-of-vulkan",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              }
+              "devastating wounds"
             ],
-            "name": "Spear of Vulkan",
-            "skill": 2
+            "name": "Spear of Vulkan"
           }
         ],
         "name": "Spear of Vulkan"
@@ -269,18 +257,16 @@
         "name": "Bolt pistol",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "BS": "2+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Bolt pistol",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }

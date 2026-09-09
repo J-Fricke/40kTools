@@ -12,6 +12,7 @@ import { collectWeapons } from "./weapons.mjs";
 import { buildWargear } from "./wargear.mjs";
 import { applyOverride } from "./overrides.js";
 import { newReport, partitionReport } from "./report.mjs";
+import { parseKeyword } from "./keywordNormalize.mjs";
 import { writeJson, slug } from "./emit.mjs";
 import { existsSync } from "fs";
 
@@ -51,16 +52,18 @@ export function ingestFaction(key, report) {
     }
   }
   records.sort((a, b) => a.id.localeCompare(b.id));
-  // keyword-shape sweep: a normalized kw that still carries a digit / "+"
-  // means the normalizer didn't fully parse it (regression guard).
+  // keyword-shape sweep (regression guard): a canonical keyword whose base,
+  // after the Story-B parse pattern, still carries a digit / "+" — an
+  // unexpected shape worth a human look.
   for (const rec of records) {
     for (const w of rec.weapons) {
       for (const mode of [...(w.ranged || []), ...(w.melee || [])]) {
-        for (const k of mode.keywords || []) {
-          if (/\d|\+/.test(k.kw)) {
-            const hit = report.unresolvedKeywordShapes.find(x => x.raw === k.kw);
+        for (const kw of mode.keywords || []) {
+          const { kw: base } = parseKeyword(kw);
+          if (/\d|\+/.test(base)) {
+            const hit = report.unresolvedKeywordShapes.find(x => x.raw === kw);
             if (hit) { if (hit.egs.length < 3) hit.egs.push(`${rec.id}/${w.name}`); }
-            else report.unresolvedKeywordShapes.push({ raw: k.kw, egs: [`${rec.id}/${w.name}`] });
+            else report.unresolvedKeywordShapes.push({ raw: kw, egs: [`${rec.id}/${w.name}`] });
           }
         }
       }

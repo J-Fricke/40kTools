@@ -38,11 +38,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 12,
-      "W": 18
+      "T": "12",
+      "W": "18"
     },
     "wargear": {
       "children": [
@@ -89,18 +90,16 @@
         "name": "Bio-cannon",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Bio-cannon",
-            "range": "48\"",
-            "skill": 3
+            "range": "48\""
           }
         ]
       },
@@ -108,13 +107,13 @@
         "id": "hierodule-scything-talons",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 5,
-            "S": 14,
+            "A": "8",
+            "AP": "-2",
+            "D": "D3+3",
+            "S": "14",
+            "WS": "3+",
             "keywords": [],
-            "name": "Hierodule scything talons",
-            "skill": 3
+            "name": "Hierodule scything talons"
           }
         ],
         "name": "Hierodule scything talons"
@@ -154,11 +153,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 4,
-      "W": 2
+      "T": "4",
+      "W": "2"
     },
     "wargear": {
       "children": [
@@ -214,21 +214,17 @@
         "name": "Barblauncher",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D6",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "heavy"
-              }
+              "blast",
+              "heavy"
             ],
             "name": "Barblauncher",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -236,13 +232,13 @@
         "id": "chitinous-claws-and-teeth",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "4",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chitinous claws and teeth",
-            "skill": 4
+            "name": "Chitinous claws and teeth"
           }
         ],
         "name": "Chitinous claws and teeth"
@@ -282,11 +278,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 5
+      "T": "6",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -342,27 +339,19 @@
         "name": "Spore mine launcher",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "D3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "blast",
+              "devastating wounds",
+              "heavy",
+              "indirect fire"
             ],
             "name": "Spore mine launcher",
-            "range": "48\"",
-            "skill": 4
+            "range": "48\""
           }
         ]
       },
@@ -370,13 +359,13 @@
         "id": "chitin-barbed-limbs",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "5",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chitin-barbed limbs",
-            "skill": 4
+            "name": "Chitin-barbed limbs"
           }
         ],
         "name": "Chitin-barbed limbs"
@@ -429,11 +418,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 6
+      "T": "5",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -467,20 +457,16 @@
         "id": "broodlord-claws-and-talons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "devastating wounds",
+              "twin linked"
             ],
-            "name": "Broodlord Claws and Talons",
-            "skill": 2
+            "name": "Broodlord Claws and Talons"
           }
         ],
         "name": "Broodlord Claws and Talons"
@@ -520,11 +506,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 8
+      "T": "9",
+      "W": "8"
     },
     "wargear": {
       "children": [
@@ -716,13 +703,13 @@
         "id": "chitinous-claws-and-teeth",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "4",
+            "AP": "0",
+            "D": "1",
+            "S": "6",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chitinous claws and teeth",
-            "skill": 4
+            "name": "Chitinous claws and teeth"
           }
         ],
         "name": "Chitinous claws and teeth"
@@ -732,21 +719,17 @@
         "name": "Bio-plasma",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              }
+              "assault",
+              "blast"
             ],
             "name": "Bio-plasma",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -755,18 +738,16 @@
         "name": "Spine banks",
         "ranged": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Spine banks",
-            "range": "6\"",
-            "skill": 4
+            "range": "6\""
           }
         ]
       },
@@ -774,13 +755,13 @@
         "id": "carnifex-scything-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "4+",
             "keywords": [],
-            "name": "Carnifex scything talons",
-            "skill": 4
+            "name": "Carnifex scything talons"
           }
         ],
         "name": "Carnifex scything talons"
@@ -790,14 +771,14 @@
         "name": "Deathspitters with slimer maggots",
         "ranged": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "1",
+            "S": "7",
             "keywords": [],
             "name": "Deathspitters with slimer maggots",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -806,14 +787,14 @@
         "name": "Devourers with brainleech worms",
         "ranged": [
           {
-            "A": 12,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "12",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "6",
             "keywords": [],
             "name": "Devourers with brainleech worms",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -821,13 +802,13 @@
         "id": "carnifex-crushing-claws",
         "melee": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "4",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "4+",
             "keywords": [],
-            "name": "Carnifex crushing claws",
-            "skill": 4
+            "name": "Carnifex crushing claws"
           }
         ],
         "name": "Carnifex crushing claws"
@@ -837,18 +818,16 @@
         "name": "Heavy venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Heavy venom cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -857,18 +836,16 @@
         "name": "Stranglethorn cannon",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Stranglethorn cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -876,17 +853,15 @@
         "id": "carnifex-extra-scything-talons",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "2",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Carnifex extra scything talons",
-            "skill": 4
+            "name": "Carnifex extra scything talons"
           }
         ],
         "name": "Carnifex extra scything talons"
@@ -937,11 +912,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 7
+      "T": "6",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -966,17 +942,15 @@
         "id": "lictor-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Lictor claws and talons",
-            "skill": 2
+            "name": "Lictor claws and talons"
           }
         ],
         "name": "Lictor claws and talons"
@@ -1022,11 +996,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "3+",
-      "T": 10,
-      "W": 16
+      "T": "10",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -1060,17 +1035,15 @@
         "id": "massive-scything-talons",
         "melee": [
           {
-            "A": 10,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "10",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Massive scything talons",
-            "skill": 3
+            "name": "Massive scything talons"
           }
         ],
         "name": "Massive scything talons"
@@ -1115,11 +1088,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "3+",
-      "T": 10,
-      "W": 14
+      "T": "10",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -1166,21 +1140,17 @@
         "name": "Bio-plasmic cannon",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -3,
-            "D": 3,
-            "S": 9,
+            "A": "D6+3",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "heavy"
-              }
+              "blast",
+              "heavy"
             ],
             "name": "Bio-plasmic cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -1188,13 +1158,13 @@
         "id": "powerful-limbs",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 2,
-            "S": 7,
+            "A": "3",
+            "AP": "0",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Powerful limbs",
-            "skill": 3
+            "name": "Powerful limbs"
           }
         ],
         "name": "Powerful limbs"
@@ -1238,11 +1208,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "12\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "6+",
-      "T": 3,
-      "W": 1
+      "T": "3",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -1297,13 +1268,13 @@
         "id": "blinding-venom",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Blinding venom",
-            "skill": 4
+            "name": "Blinding venom"
           }
         ],
         "name": "Blinding venom"
@@ -1313,18 +1284,16 @@
         "name": "Fleshborer",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Fleshborer",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       }
@@ -1364,11 +1333,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 4,
-      "W": 2
+      "T": "4",
+      "W": "2"
     },
     "wargear": {
       "children": [
@@ -1420,13 +1390,13 @@
         "id": "genestealers-claws-and-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "4",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [],
-            "name": "Genestealers claws and talons",
-            "skill": 2
+            "name": "Genestealers claws and talons"
           }
         ],
         "name": "Genestealers claws and talons"
@@ -1474,11 +1444,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "-",
-      "OC": null,
+      "OC": "-",
       "Sv": "3+",
-      "T": 9,
-      "W": 12
+      "T": "9",
+      "W": "12"
     },
     "wargear": {
       "children": [
@@ -1556,21 +1527,17 @@
         "name": "Twin stranglethorn cannon",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "blast",
+              "twin linked"
             ],
             "name": "Twin stranglethorn cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -1579,21 +1546,17 @@
         "name": "Twin heavy venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "blast",
+              "twin linked"
             ],
             "name": "Twin heavy venom cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -1602,14 +1565,14 @@
         "name": "Stinger salvoes",
         "ranged": [
           {
-            "A": 8,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Stinger salvoes",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -1617,13 +1580,13 @@
         "id": "scything-wings",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "4+",
             "keywords": [],
-            "name": "Scything wings",
-            "skill": 4
+            "name": "Scything wings"
           }
         ],
         "name": "Scything wings"
@@ -1675,11 +1638,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "14\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "3+",
-      "T": 10,
-      "W": 30
+      "T": "10",
+      "W": "30"
     },
     "wargear": {
       "children": [
@@ -1726,18 +1690,16 @@
         "name": "Dire bio-cannon",
         "ranged": [
           {
-            "A": 9.5,
-            "AP": -3,
-            "D": 3,
-            "S": 10,
+            "A": "D6+6",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Dire bio-cannon",
-            "range": "48\"",
-            "skill": 3
+            "range": "48\""
           }
         ]
       },
@@ -1745,13 +1707,13 @@
         "id": "gargantuan-scything-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3.5,
-            "S": 14,
+            "A": "6",
+            "AP": "-2",
+            "D": "D6",
+            "S": "14",
+            "WS": "3+",
             "keywords": [],
-            "name": "Gargantuan scything talons",
-            "skill": 3
+            "name": "Gargantuan scything talons"
           }
         ],
         "name": "Gargantuan scything talons"
@@ -1797,11 +1759,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "3+",
-      "T": 11,
-      "W": 14
+      "T": "11",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -1859,18 +1822,16 @@
         "name": "Grasping tongue",
         "ranged": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 4.5,
-            "S": 6,
+            "A": "1",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
             "name": "Grasping tongue",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -1878,17 +1839,15 @@
         "id": "shovelling-claws",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 4.5,
-            "S": 14,
+            "A": "4",
+            "AP": "-2",
+            "D": "D6+1",
+            "S": "14",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Shovelling claws",
-            "skill": 3
+            "name": "Shovelling claws"
           }
         ],
         "name": "Shovelling claws"
@@ -1897,13 +1856,13 @@
         "id": "ravenous-maw",
         "melee": [
           {
-            "A": 14,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "14",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Ravenous maw",
-            "skill": 3
+            "name": "Ravenous maw"
           }
         ],
         "name": "Ravenous maw"
@@ -1960,11 +1919,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "5+",
+      "Ld": "8+",
       "M": "12\"",
-      "OC": 12,
+      "OC": "12",
       "Sv": "2+",
-      "T": 14,
-      "W": 30
+      "T": "14",
+      "W": "30"
     },
     "wargear": {
       "children": [
@@ -2033,21 +1993,17 @@
         "name": "Bio-plasma torrent",
         "ranged": [
           {
-            "A": 10.5,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "3D6",
+            "AP": "-2",
+            "BS": "N/A",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "torrent"
-              }
+              "assault",
+              "torrent"
             ],
             "name": "Bio-plasma torrent",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2056,18 +2012,16 @@
         "name": "Dire bio-cannon",
         "ranged": [
           {
-            "A": 9.5,
-            "AP": -3,
-            "D": 3,
-            "S": 10,
+            "A": "D6+6",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Dire bio-cannon",
-            "range": "48\"",
-            "skill": 3
+            "range": "48\""
           }
         ]
       },
@@ -2075,17 +2029,15 @@
         "id": "lashwhip-pods",
         "melee": [
           {
-            "A": 10,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "10",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Lashwhip pods",
-            "skill": 3
+            "name": "Lashwhip pods"
           }
         ],
         "name": "Lashwhip pods"
@@ -2094,13 +2046,13 @@
         "id": "titanic-scything-talons",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 4.5,
-            "S": 20,
+            "A": "8",
+            "AP": "-2",
+            "D": "D6+1",
+            "S": "20",
+            "WS": "3+",
             "keywords": [],
-            "name": "Titanic scything talons",
-            "skill": 3
+            "name": "Titanic scything talons"
           }
         ],
         "name": "Titanic scything talons"
@@ -2148,11 +2100,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "-",
-      "OC": null,
+      "OC": "-",
       "Sv": "3+",
-      "T": 9,
-      "W": 12
+      "T": "9",
+      "W": "12"
     },
     "wargear": {
       "children": [
@@ -2232,18 +2185,16 @@
         "name": "Drool cannon",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "torrent"
-              }
+              "torrent"
             ],
             "name": "Drool cannon",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -2252,22 +2203,17 @@
         "name": "Tentaclids",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "0",
+            "BS": "3+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti vehicle 4+",
+              "devastating wounds"
             ],
             "name": "Tentaclids",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -2275,21 +2221,16 @@
         "id": "thorax-spur",
         "melee": [
           {
-            "A": 1,
-            "AP": -3,
-            "D": 3.5,
-            "S": 10,
+            "A": "1",
+            "AP": "-3",
+            "D": "D6",
+            "S": "10",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti fly",
-                "on": 2
-              },
-              {
-                "kw": "extra attacks"
-              }
+              "anti fly 2+",
+              "extra attacks"
             ],
-            "name": "Thorax spur",
-            "skill": 3
+            "name": "Thorax spur"
           }
         ],
         "name": "Thorax spur"
@@ -2298,13 +2239,13 @@
         "id": "scything-wings",
         "melee": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "4+",
             "keywords": [],
-            "name": "Scything wings",
-            "skill": 4
+            "name": "Scything wings"
           }
         ],
         "name": "Scything wings"
@@ -2314,14 +2255,14 @@
         "name": "Stinger salvoes",
         "ranged": [
           {
-            "A": 8,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Stinger salvoes",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       }
@@ -2364,11 +2305,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 7,
-      "W": 4
+      "T": "7",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -2456,19 +2398,16 @@
         "name": "Shockcannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -1,
-            "D": 3,
-            "S": 7,
+            "A": "2",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "anti vehicle",
-                "on": 2
-              }
+              "anti vehicle 2+"
             ],
             "name": "Shockcannon",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -2476,13 +2415,13 @@
         "id": "chitinous-claws-and-teeth",
         "melee": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "0",
+            "D": "1",
+            "S": "5",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chitinous claws and teeth",
-            "skill": 4
+            "name": "Chitinous claws and teeth"
           }
         ],
         "name": "Chitinous claws and teeth"
@@ -2492,21 +2431,17 @@
         "name": "Impaler cannon",
         "ranged": [
           {
-            "A": 4,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "4",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "indirect fire"
-              }
+              "heavy",
+              "indirect fire"
             ],
             "name": "Impaler cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       }
@@ -2557,11 +2492,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 10,
-      "W": 10
+      "T": "10",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -2737,17 +2673,15 @@
         "id": "monstrous-bonesword-and-lash-whip",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Monstrous bonesword and lash whip",
-            "skill": 2
+            "name": "Monstrous bonesword and lash whip"
           }
         ],
         "name": "Monstrous bonesword and lash whip"
@@ -2757,18 +2691,16 @@
         "name": "Heavy venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Heavy venom cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -2777,18 +2709,16 @@
         "name": "Stranglethorn cannon",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Stranglethorn cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -2796,17 +2726,15 @@
         "id": "monstrous-scything-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Monstrous scything talons",
-            "skill": 2
+            "name": "Monstrous scything talons"
           }
         ],
         "name": "Monstrous scything talons"
@@ -2848,11 +2776,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "10\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "5+",
-      "T": 3,
-      "W": 1
+      "T": "3",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -2910,13 +2839,13 @@
         "id": "hormagaunt-talons",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 3,
+            "A": "3",
+            "AP": "-1",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Hormagaunt talons",
-            "skill": 4
+            "name": "Hormagaunt talons"
           }
         ],
         "name": "Hormagaunt talons"
@@ -2968,11 +2897,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "10\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 6
+      "T": "5",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -3076,25 +3006,17 @@
         "id": "prime-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 5
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 5
-              },
-              {
-                "kw": "twin linked"
-              }
+              "anti monster 5+",
+              "anti vehicle 5+",
+              "twin linked"
             ],
-            "name": "Prime claws and talons",
-            "skill": 3
+            "name": "Prime claws and talons"
           }
         ],
         "name": "Prime claws and talons"
@@ -3103,25 +3025,17 @@
         "id": "ravener-heavy-claws-and-talons",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti monster",
-                "on": 5
-              },
-              {
-                "kw": "anti vehicle",
-                "on": 5
-              },
-              {
-                "kw": "twin linked"
-              }
+              "anti monster 5+",
+              "anti vehicle 5+",
+              "twin linked"
             ],
-            "name": "Ravener heavy claws and talons",
-            "skill": 3
+            "name": "Ravener heavy claws and talons"
           }
         ],
         "name": "Ravener heavy claws and talons"
@@ -3131,24 +3045,18 @@
         "name": "Venom bolt",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6+3",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "assault",
+              "ignores cover",
+              "torrent"
             ],
             "name": "Venom bolt",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -3192,11 +3100,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 6,
-      "W": 6
+      "T": "6",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -3230,17 +3139,15 @@
         "id": "lictor-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Lictor claws and talons",
-            "skill": 2
+            "name": "Lictor claws and talons"
           }
         ],
         "name": "Lictor claws and talons"
@@ -3282,11 +3189,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "3+",
-      "T": 10,
-      "W": 14
+      "T": "10",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -4216,18 +4124,16 @@
         "name": "Barbed strangler",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Barbed strangler",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -4236,21 +4142,17 @@
         "name": "Bio-plasma",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              }
+              "assault",
+              "blast"
             ],
             "name": "Bio-plasma",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -4259,21 +4161,17 @@
         "name": "Bio-plasmic cannon",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "D6+3",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "3",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "heavy"
-              }
+              "blast",
+              "heavy"
             ],
             "name": "Bio-plasmic cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -4282,14 +4180,14 @@
         "name": "Deathspitter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Deathspitter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -4298,14 +4196,14 @@
         "name": "Deathspitters with slimer maggots",
         "ranged": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [],
             "name": "Deathspitters with slimer maggots",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -4314,14 +4212,14 @@
         "name": "Devourer",
         "ranged": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "5",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Devourer",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -4330,14 +4228,14 @@
         "name": "Devourers with brainleech worms",
         "ranged": [
           {
-            "A": 12,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "12",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [],
             "name": "Devourers with brainleech worms",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -4346,18 +4244,16 @@
         "name": "Heavy venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Heavy venom cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -4366,18 +4262,16 @@
         "name": "Spine banks",
         "ranged": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Spine banks",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -4386,24 +4280,18 @@
         "name": "Spinefists",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "assault",
+              "pistol",
+              "twin linked"
             ],
             "name": "Spinefists",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -4412,18 +4300,16 @@
         "name": "Stranglethorn cannon",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Stranglethorn cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -4432,18 +4318,16 @@
         "name": "Thoracic bio-weapon",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Thoracic bio-weapon",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -4452,18 +4336,16 @@
         "name": "Venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Venom cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -4472,18 +4354,16 @@
         "name": "Rupture cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 7,
-            "S": 18,
+            "A": "2",
+            "AP": "-4",
+            "BS": "3+",
+            "D": "2D6",
+            "S": "18",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Rupture cannon",
-            "range": "48\"",
-            "skill": 3
+            "range": "48\""
           }
         ]
       },
@@ -4492,18 +4372,16 @@
         "name": "Acid spray",
         "ranged": [
           {
-            "A": 9.5,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "D6+6",
+            "AP": "-2",
+            "BS": "N/A",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "torrent"
-              }
+              "torrent"
             ],
             "name": "Acid spray",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -4512,19 +4390,16 @@
         "name": "Bio-electric pulse",
         "ranged": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Bio-electric pulse",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -4533,25 +4408,18 @@
         "name": "Fleshborer hive",
         "ranged": [
           {
-            "A": 20,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "20",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "heavy",
+              "sustained hits 1",
+              "twin linked"
             ],
             "name": "Fleshborer hive",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -4560,21 +4428,17 @@
         "name": "Psychic overload",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 3,
-            "S": 10,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "psychic"
-              }
+              "blast",
+              "psychic"
             ],
             "name": "Psychic overload",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -4583,24 +4447,18 @@
         "name": "Psychic scream",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "psychic",
+              "torrent"
             ],
             "name": "Psychic scream",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -4609,21 +4467,17 @@
         "name": "Psychoclastic torrent",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Psychoclastic torrent",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -4632,14 +4486,14 @@
         "name": "Stinger salvoes",
         "ranged": [
           {
-            "A": 8,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Stinger salvoes",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -4647,13 +4501,13 @@
         "id": "crushing-claws",
         "melee": [
           {
-            "A": 5,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "5",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "2+",
             "keywords": [],
-            "name": "Crushing claws",
-            "skill": 2
+            "name": "Crushing claws"
           }
         ],
         "name": "Crushing claws"
@@ -4662,22 +4516,22 @@
         "id": "massive-scything-talons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 3.5,
-            "S": 9,
+            "A": "5",
+            "AP": "-2",
+            "D": "D6",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - strike",
-            "skill": 3
+            "name": "Massive scything talons - strike"
           },
           {
-            "A": 10,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "10",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - sweep",
-            "skill": 3
+            "name": "Massive scything talons - sweep"
           }
         ],
         "name": "Massive scything talons"
@@ -4686,13 +4540,13 @@
         "id": "monster-beast-weapons",
         "melee": [
           {
-            "A": 12,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "12",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Monster-beast weapons",
-            "skill": 3
+            "name": "Monster-beast weapons"
           }
         ],
         "name": "Monster-beast weapons"
@@ -4701,17 +4555,15 @@
         "id": "piercing-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Piercing claws and talons",
-            "skill": 2
+            "name": "Piercing claws and talons"
           }
         ],
         "name": "Piercing claws and talons"
@@ -4720,17 +4572,15 @@
         "id": "ravener-claws-and-talons",
         "melee": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "7",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Ravener claws and talons",
-            "skill": 2
+            "name": "Ravener claws and talons"
           }
         ],
         "name": "Ravener claws and talons"
@@ -4739,13 +4589,13 @@
         "id": "scything-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Scything talons",
-            "skill": 2
+            "name": "Scything talons"
           }
         ],
         "name": "Scything talons"
@@ -4754,13 +4604,13 @@
         "id": "tyrant-beast-weapons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Tyrant-beast weapons",
-            "skill": 2
+            "name": "Tyrant-beast weapons"
           }
         ],
         "name": "Tyrant-beast weapons"
@@ -4769,13 +4619,13 @@
         "id": "warrior-beast-weapons",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Warrior-beast weapons",
-            "skill": 2
+            "name": "Warrior-beast weapons"
           }
         ],
         "name": "Warrior-beast weapons"
@@ -4784,17 +4634,15 @@
         "id": "monstrous-scything-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Monstrous scything talons",
-            "skill": 2
+            "name": "Monstrous scything talons"
           }
         ],
         "name": "Monstrous scything talons"
@@ -4803,17 +4651,15 @@
         "id": "monstrous-bonesword-and-lash-whip",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Monstrous bonesword and lash whip",
-            "skill": 2
+            "name": "Monstrous bonesword and lash whip"
           }
         ],
         "name": "Monstrous bonesword and lash whip"
@@ -4822,13 +4668,13 @@
         "id": "ravenous-maw",
         "melee": [
           {
-            "A": 14,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "14",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Ravenous maw",
-            "skill": 3
+            "name": "Ravenous maw"
           }
         ],
         "name": "Ravenous maw"
@@ -4880,11 +4726,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "4+",
-      "T": 5,
-      "W": 10
+      "T": "5",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -4918,13 +4765,13 @@
         "id": "grasping-tail",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 2,
-            "S": 5,
+            "A": "4",
+            "AP": "0",
+            "D": "2",
+            "S": "5",
+            "WS": "4",
             "keywords": [],
-            "name": "Grasping tail",
-            "skill": 4
+            "name": "Grasping tail"
           }
         ],
         "name": "Grasping tail"
@@ -4971,11 +4818,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "3+",
-      "T": 11,
-      "W": 14
+      "T": "11",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -5021,22 +4869,22 @@
         "id": "massive-scything-talons",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 4.5,
-            "S": 9,
+            "A": "3",
+            "AP": "-2",
+            "D": "D6+1",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - strike",
-            "skill": 3
+            "name": "Massive scything talons - strike"
           },
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - sweep",
-            "skill": 3
+            "name": "Massive scything talons - sweep"
           }
         ],
         "name": "Massive scything talons"
@@ -5046,21 +4894,17 @@
         "name": "Psychic overload",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 3,
-            "S": 10,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "psychic"
-              }
+              "blast",
+              "psychic"
             ],
             "name": "Psychic overload",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       }
@@ -5105,11 +4949,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "10\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "3+",
-      "T": 10,
-      "W": 14
+      "T": "10",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -5155,24 +5000,17 @@
         "id": "distendible-jaw",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 3,
-            "S": 5,
+            "A": "1",
+            "AP": "0",
+            "D": "3",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "extra attacks"
-              }
+              "anti infantry 4+",
+              "devastating wounds",
+              "extra attacks"
             ],
-            "name": "Distendible jaw",
-            "skill": 3
+            "name": "Distendible jaw"
           }
         ],
         "name": "Distendible jaw"
@@ -5181,13 +5019,13 @@
         "id": "mawloc-scything-talons",
         "melee": [
           {
-            "A": 16,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "16",
+            "AP": "-2",
+            "D": "1",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Mawloc scything talons",
-            "skill": 3
+            "name": "Mawloc scything talons"
           }
         ],
         "name": "Mawloc scything talons"
@@ -5232,11 +5070,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "4\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "7+",
-      "T": 4,
-      "W": 3
+      "T": "4",
+      "W": "3"
     },
     "wargear": {
       "children": [],
@@ -5286,11 +5125,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "4\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "7+",
-      "T": 4,
-      "W": 3
+      "T": "4",
+      "W": "3"
     },
     "wargear": {
       "children": [],
@@ -5335,11 +5175,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "6+",
-      "T": 3,
-      "W": 1
+      "T": "3",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -5425,13 +5266,13 @@
         "id": "chitinous-claws-and-teeth",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chitinous claws and teeth",
-            "skill": 4
+            "name": "Chitinous claws and teeth"
           }
         ],
         "name": "Chitinous claws and teeth"
@@ -5481,11 +5322,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 7
+      "T": "5",
+      "W": "7"
     },
     "wargear": {
       "children": [
@@ -5519,17 +5361,15 @@
         "id": "piercing-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "6",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Piercing claws and talons",
-            "skill": 2
+            "name": "Piercing claws and talons"
           }
         ],
         "name": "Piercing claws and talons"
@@ -5586,11 +5426,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "4+",
-      "T": 8,
-      "W": 9
+      "T": "8",
+      "W": "9"
     },
     "wargear": {
       "children": [
@@ -5636,13 +5477,13 @@
         "id": "neurotyrant-claws-and-lashes",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Neurotyrant claws and lashes",
-            "skill": 3
+            "name": "Neurotyrant claws and lashes"
           }
         ],
         "name": "Neurotyrant claws and lashes"
@@ -5652,24 +5493,18 @@
         "name": "Psychic scream",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "psychic",
+              "torrent"
             ],
             "name": "Psychic scream",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       }
@@ -5716,11 +5551,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 6
+      "T": "5",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -6650,18 +6486,16 @@
         "name": "Barbed strangler",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Barbed strangler",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -6670,21 +6504,17 @@
         "name": "Bio-plasma",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              }
+              "assault",
+              "blast"
             ],
             "name": "Bio-plasma",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -6693,21 +6523,17 @@
         "name": "Bio-plasmic cannon",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "D6+3",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "3",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "heavy"
-              }
+              "blast",
+              "heavy"
             ],
             "name": "Bio-plasmic cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -6716,14 +6542,14 @@
         "name": "Deathspitter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Deathspitter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6732,14 +6558,14 @@
         "name": "Deathspitters with slimer maggots",
         "ranged": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [],
             "name": "Deathspitters with slimer maggots",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6748,14 +6574,14 @@
         "name": "Devourer",
         "ranged": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "5",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Devourer",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -6764,14 +6590,14 @@
         "name": "Devourers with brainleech worms",
         "ranged": [
           {
-            "A": 12,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "12",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [],
             "name": "Devourers with brainleech worms",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -6780,18 +6606,16 @@
         "name": "Heavy venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Heavy venom cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -6800,18 +6624,16 @@
         "name": "Spine banks",
         "ranged": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Spine banks",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -6820,24 +6642,18 @@
         "name": "Spinefists",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "assault",
+              "pistol",
+              "twin linked"
             ],
             "name": "Spinefists",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -6846,18 +6662,16 @@
         "name": "Stranglethorn cannon",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Stranglethorn cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -6866,18 +6680,16 @@
         "name": "Thoracic bio-weapon",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Thoracic bio-weapon",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -6886,18 +6698,16 @@
         "name": "Venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Venom cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -6906,18 +6716,16 @@
         "name": "Rupture cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 7,
-            "S": 18,
+            "A": "2",
+            "AP": "-4",
+            "BS": "3+",
+            "D": "2D6",
+            "S": "18",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Rupture cannon",
-            "range": "48\"",
-            "skill": 3
+            "range": "48\""
           }
         ]
       },
@@ -6926,18 +6734,16 @@
         "name": "Acid spray",
         "ranged": [
           {
-            "A": 9.5,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "D6+6",
+            "AP": "-2",
+            "BS": "N/A",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "torrent"
-              }
+              "torrent"
             ],
             "name": "Acid spray",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -6946,19 +6752,16 @@
         "name": "Bio-electric pulse",
         "ranged": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Bio-electric pulse",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -6967,25 +6770,18 @@
         "name": "Fleshborer hive",
         "ranged": [
           {
-            "A": 20,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "20",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "heavy",
+              "sustained hits 1",
+              "twin linked"
             ],
             "name": "Fleshborer hive",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -6994,21 +6790,17 @@
         "name": "Psychic overload",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 3,
-            "S": 10,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "psychic"
-              }
+              "blast",
+              "psychic"
             ],
             "name": "Psychic overload",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -7017,24 +6809,18 @@
         "name": "Psychic scream",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "psychic",
+              "torrent"
             ],
             "name": "Psychic scream",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -7043,21 +6829,17 @@
         "name": "Psychoclastic torrent",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Psychoclastic torrent",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -7066,14 +6848,14 @@
         "name": "Stinger salvoes",
         "ranged": [
           {
-            "A": 8,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Stinger salvoes",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -7081,13 +6863,13 @@
         "id": "crushing-claws",
         "melee": [
           {
-            "A": 5,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "5",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "2+",
             "keywords": [],
-            "name": "Crushing claws",
-            "skill": 2
+            "name": "Crushing claws"
           }
         ],
         "name": "Crushing claws"
@@ -7096,22 +6878,22 @@
         "id": "massive-scything-talons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 3.5,
-            "S": 9,
+            "A": "5",
+            "AP": "-2",
+            "D": "D6",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - strike",
-            "skill": 3
+            "name": "Massive scything talons - strike"
           },
           {
-            "A": 10,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "10",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - sweep",
-            "skill": 3
+            "name": "Massive scything talons - sweep"
           }
         ],
         "name": "Massive scything talons"
@@ -7120,13 +6902,13 @@
         "id": "monster-beast-weapons",
         "melee": [
           {
-            "A": 12,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "12",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Monster-beast weapons",
-            "skill": 3
+            "name": "Monster-beast weapons"
           }
         ],
         "name": "Monster-beast weapons"
@@ -7135,17 +6917,15 @@
         "id": "piercing-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Piercing claws and talons",
-            "skill": 2
+            "name": "Piercing claws and talons"
           }
         ],
         "name": "Piercing claws and talons"
@@ -7154,17 +6934,15 @@
         "id": "ravener-claws-and-talons",
         "melee": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "7",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Ravener claws and talons",
-            "skill": 2
+            "name": "Ravener claws and talons"
           }
         ],
         "name": "Ravener claws and talons"
@@ -7173,13 +6951,13 @@
         "id": "scything-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Scything talons",
-            "skill": 2
+            "name": "Scything talons"
           }
         ],
         "name": "Scything talons"
@@ -7188,13 +6966,13 @@
         "id": "tyrant-beast-weapons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Tyrant-beast weapons",
-            "skill": 2
+            "name": "Tyrant-beast weapons"
           }
         ],
         "name": "Tyrant-beast weapons"
@@ -7203,13 +6981,13 @@
         "id": "warrior-beast-weapons",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Warrior-beast weapons",
-            "skill": 2
+            "name": "Warrior-beast weapons"
           }
         ],
         "name": "Warrior-beast weapons"
@@ -7218,17 +6996,15 @@
         "id": "monstrous-scything-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Monstrous scything talons",
-            "skill": 2
+            "name": "Monstrous scything talons"
           }
         ],
         "name": "Monstrous scything talons"
@@ -7237,17 +7013,15 @@
         "id": "monstrous-bonesword-and-lash-whip",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Monstrous bonesword and lash whip",
-            "skill": 2
+            "name": "Monstrous bonesword and lash whip"
           }
         ],
         "name": "Monstrous bonesword and lash whip"
@@ -7256,13 +7030,13 @@
         "id": "ravenous-maw",
         "melee": [
           {
-            "A": 14,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "14",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Ravenous maw",
-            "skill": 3
+            "name": "Ravenous maw"
           }
         ],
         "name": "Ravenous maw"
@@ -7317,11 +7091,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": null,
+      "Ld": "7+",
       "M": "10\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 11,
-      "W": 16
+      "T": "11",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -7367,13 +7142,13 @@
         "id": "monstrous-scything-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Monstrous scything talons",
-            "skill": 2
+            "name": "Monstrous scything talons"
           }
         ],
         "name": "Monstrous scything talons"
@@ -7382,34 +7157,30 @@
         "id": "toxinjecter-harpoon",
         "melee": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "4",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Toxinjecter Harpoon",
-            "skill": 2
+            "name": "Toxinjecter Harpoon"
           }
         ],
         "name": "Toxinjecter Harpoon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "harpooned"
-              }
+              "harpooned"
             ],
             "name": "Toxinjecter Harpoon",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -7459,11 +7230,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "10\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 11,
-      "W": 16
+      "T": "11",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -7520,17 +7292,15 @@
         "id": "monstrous-rending-claws",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Monstrous rending claws",
-            "skill": 2
+            "name": "Monstrous rending claws"
           }
         ],
         "name": "Monstrous rending claws"
@@ -7539,13 +7309,13 @@
         "id": "monstrous-scything-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Monstrous scything talons",
-            "skill": 2
+            "name": "Monstrous scything talons"
           }
         ],
         "name": "Monstrous scything talons"
@@ -7555,56 +7325,43 @@
         "name": "Psychic tendril",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "2",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "D3",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "precision"
-              },
-              {
-                "kw": "psychic"
-              }
+              "precision",
+              "psychic"
             ],
             "name": "Psychic tendril - neuroparasite",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           },
           {
-            "A": 2,
-            "AP": -3,
-            "D": 3.5,
-            "S": 12,
+            "A": "2",
+            "AP": "-3",
+            "BS": "2+",
+            "D": "D6",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "melta",
-                "val": "2"
-              },
-              {
-                "kw": "psychic"
-              }
+              "melta 2",
+              "psychic"
             ],
             "name": "Psychic tendril - neurolance",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           },
           {
-            "A": 7,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "2D6",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "psychic"
-              }
+              "blast",
+              "psychic"
             ],
             "name": "Psychic tendril - neuroblast",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       }
@@ -7654,11 +7411,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 9
+      "T": "9",
+      "W": "9"
     },
     "wargear": {
       "children": [
@@ -7683,22 +7441,22 @@
         "id": "old-one-eye-s-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -3,
-            "D": 4.5,
-            "S": 14,
+            "A": "6",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "14",
+            "WS": "3+",
             "keywords": [],
-            "name": "Old One Eye’s claws and talons - Strike",
-            "skill": 3
+            "name": "Old One Eye’s claws and talons - Strike"
           },
           {
-            "A": 12,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "12",
+            "AP": "-1",
+            "D": "1",
+            "S": "6",
+            "WS": "3+",
             "keywords": [],
-            "name": "Old One Eye’s claws and talons - Sweep",
-            "skill": 3
+            "name": "Old One Eye’s claws and talons - Sweep"
           }
         ],
         "name": "Old One Eye’s claws and talons"
@@ -7746,11 +7504,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "12\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 5
+      "T": "5",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -7796,21 +7555,16 @@
         "id": "barbed-ovipositor",
         "melee": [
           {
-            "A": 1,
-            "AP": -2,
-            "D": 3,
-            "S": 3,
+            "A": "1",
+            "AP": "-2",
+            "D": "3",
+            "S": "3",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 3
-              },
-              {
-                "kw": "extra attacks"
-              }
+              "anti infantry 3+",
+              "extra attacks"
             ],
-            "name": "Barbed ovipositor",
-            "skill": 2
+            "name": "Barbed ovipositor"
           }
         ],
         "name": "Barbed ovipositor"
@@ -7819,13 +7573,13 @@
         "id": "clawed-limbs",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Clawed limbs",
-            "skill": 2
+            "name": "Clawed limbs"
           }
         ],
         "name": "Clawed limbs"
@@ -7872,11 +7626,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 9
+      "T": "9",
+      "W": "9"
     },
     "wargear": {
       "children": [
@@ -8806,18 +8561,16 @@
         "name": "Barbed strangler",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Barbed strangler",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -8826,21 +8579,17 @@
         "name": "Bio-plasma",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              }
+              "assault",
+              "blast"
             ],
             "name": "Bio-plasma",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -8849,21 +8598,17 @@
         "name": "Bio-plasmic cannon",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -3,
-            "D": 3,
-            "S": 8,
+            "A": "D6+3",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "3",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "heavy"
-              }
+              "blast",
+              "heavy"
             ],
             "name": "Bio-plasmic cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -8872,14 +8617,14 @@
         "name": "Deathspitter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Deathspitter",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -8888,14 +8633,14 @@
         "name": "Deathspitters with slimer maggots",
         "ranged": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "1",
+            "S": "7",
             "keywords": [],
             "name": "Deathspitters with slimer maggots",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -8904,14 +8649,14 @@
         "name": "Devourer",
         "ranged": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "5",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Devourer",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -8920,14 +8665,14 @@
         "name": "Devourers with brainleech worms",
         "ranged": [
           {
-            "A": 12,
-            "AP": 0,
-            "D": 1,
-            "S": 6,
+            "A": "12",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "6",
             "keywords": [],
             "name": "Devourers with brainleech worms",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -8936,18 +8681,16 @@
         "name": "Heavy venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Heavy venom cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -8956,18 +8699,16 @@
         "name": "Spine banks",
         "ranged": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Spine banks",
-            "range": "6\"",
-            "skill": 3
+            "range": "6\""
           }
         ]
       },
@@ -8976,24 +8717,18 @@
         "name": "Spinefists",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "assault",
+              "pistol",
+              "twin linked"
             ],
             "name": "Spinefists",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -9002,18 +8737,16 @@
         "name": "Stranglethorn cannon",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Stranglethorn cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -9022,18 +8755,16 @@
         "name": "Thoracic bio-weapon",
         "ranged": [
           {
-            "A": 3,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "3",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Thoracic bio-weapon",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -9042,18 +8773,16 @@
         "name": "Venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Venom cannon",
-            "range": "36\"",
-            "skill": 3
+            "range": "36\""
           }
         ]
       },
@@ -9062,18 +8791,16 @@
         "name": "Rupture cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 7,
-            "S": 18,
+            "A": "2",
+            "AP": "-4",
+            "BS": "3+",
+            "D": "2D6",
+            "S": "18",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Rupture cannon",
-            "range": "48\"",
-            "skill": 3
+            "range": "48\""
           }
         ]
       },
@@ -9082,18 +8809,16 @@
         "name": "Acid spray",
         "ranged": [
           {
-            "A": 9.5,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "D6+6",
+            "AP": "-2",
+            "BS": "N/A",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "torrent"
-              }
+              "torrent"
             ],
             "name": "Acid spray",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -9102,19 +8827,16 @@
         "name": "Bio-electric pulse",
         "ranged": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Bio-electric pulse",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       },
@@ -9123,25 +8845,18 @@
         "name": "Fleshborer hive",
         "ranged": [
           {
-            "A": 20,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "20",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "heavy",
+              "sustained hits 1",
+              "twin linked"
             ],
             "name": "Fleshborer hive",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -9150,21 +8865,17 @@
         "name": "Psychic overload",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 3,
-            "S": 10,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "3",
+            "S": "10",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "psychic"
-              }
+              "blast",
+              "psychic"
             ],
             "name": "Psychic overload",
-            "range": "18\"",
-            "skill": 3
+            "range": "18\""
           }
         ]
       },
@@ -9173,24 +8884,18 @@
         "name": "Psychic scream",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "psychic"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "psychic",
+              "torrent"
             ],
             "name": "Psychic scream",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -9199,21 +8904,17 @@
         "name": "Psychoclastic torrent",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Psychoclastic torrent",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -9222,14 +8923,14 @@
         "name": "Stinger salvoes",
         "ranged": [
           {
-            "A": 8,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Stinger salvoes",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -9237,13 +8938,13 @@
         "id": "crushing-claws",
         "melee": [
           {
-            "A": 5,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "5",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "2+",
             "keywords": [],
-            "name": "Crushing claws",
-            "skill": 2
+            "name": "Crushing claws"
           }
         ],
         "name": "Crushing claws"
@@ -9252,22 +8953,22 @@
         "id": "massive-scything-talons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 3.5,
-            "S": 9,
+            "A": "5",
+            "AP": "-2",
+            "D": "D6",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - strike",
-            "skill": 3
+            "name": "Massive scything talons - strike"
           },
           {
-            "A": 10,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "10",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - sweep",
-            "skill": 3
+            "name": "Massive scything talons - sweep"
           }
         ],
         "name": "Massive scything talons"
@@ -9276,13 +8977,13 @@
         "id": "monster-beast-weapons",
         "melee": [
           {
-            "A": 12,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "12",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Monster-beast weapons",
-            "skill": 3
+            "name": "Monster-beast weapons"
           }
         ],
         "name": "Monster-beast weapons"
@@ -9291,17 +8992,15 @@
         "id": "piercing-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "precision"
-              }
+              "precision"
             ],
-            "name": "Piercing claws and talons",
-            "skill": 2
+            "name": "Piercing claws and talons"
           }
         ],
         "name": "Piercing claws and talons"
@@ -9310,17 +9009,15 @@
         "id": "ravener-claws-and-talons",
         "melee": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "7",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Ravener claws and talons",
-            "skill": 2
+            "name": "Ravener claws and talons"
           }
         ],
         "name": "Ravener claws and talons"
@@ -9329,13 +9026,13 @@
         "id": "scything-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [],
-            "name": "Scything talons",
-            "skill": 2
+            "name": "Scything talons"
           }
         ],
         "name": "Scything talons"
@@ -9344,13 +9041,13 @@
         "id": "tyrant-beast-weapons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Tyrant-beast weapons",
-            "skill": 2
+            "name": "Tyrant-beast weapons"
           }
         ],
         "name": "Tyrant-beast weapons"
@@ -9359,13 +9056,13 @@
         "id": "warrior-beast-weapons",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "2+",
             "keywords": [],
-            "name": "Warrior-beast weapons",
-            "skill": 2
+            "name": "Warrior-beast weapons"
           }
         ],
         "name": "Warrior-beast weapons"
@@ -9374,17 +9071,15 @@
         "id": "monstrous-scything-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Monstrous scything talons",
-            "skill": 2
+            "name": "Monstrous scything talons"
           }
         ],
         "name": "Monstrous scything talons"
@@ -9393,17 +9088,15 @@
         "id": "monstrous-bonesword-and-lash-whip",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Monstrous bonesword and lash whip",
-            "skill": 2
+            "name": "Monstrous bonesword and lash whip"
           }
         ],
         "name": "Monstrous bonesword and lash whip"
@@ -9412,13 +9105,13 @@
         "id": "ravenous-maw",
         "melee": [
           {
-            "A": 14,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "14",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Ravenous maw",
-            "skill": 3
+            "name": "Ravenous maw"
           }
         ],
         "name": "Ravenous maw"
@@ -9464,11 +9157,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "12\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "3+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -9514,21 +9208,16 @@
         "id": "talons-and-betentacled-maw",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti psyker",
-                "on": 4
-              },
-              {
-                "kw": "devastating wounds"
-              }
+              "anti psyker 4+",
+              "devastating wounds"
             ],
-            "name": "Talons and betentacled maw",
-            "skill": 3
+            "name": "Talons and betentacled maw"
           }
         ],
         "name": "Talons and betentacled maw"
@@ -9538,21 +9227,17 @@
         "name": "Psychoclastic torrent",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              }
+              "ignores cover",
+              "torrent"
             ],
             "name": "Psychoclastic torrent",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       }
@@ -9592,11 +9277,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 6,
-      "W": 5
+      "T": "6",
+      "W": "5"
     },
     "wargear": {
       "children": [
@@ -9652,24 +9338,18 @@
         "name": "Flamespurt",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "ignores cover"
-              },
-              {
-                "kw": "torrent"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "ignores cover",
+              "torrent",
+              "twin linked"
             ],
             "name": "Flamespurt",
-            "range": "12\"",
-            "skill": 2
+            "range": "12\""
           }
         ]
       },
@@ -9677,13 +9357,13 @@
         "id": "chitin-barbed-limbs",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "5",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chitin-barbed limbs",
-            "skill": 4
+            "name": "Chitin-barbed limbs"
           }
         ],
         "name": "Chitin-barbed limbs"
@@ -9725,11 +9405,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "10\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 3
+      "T": "5",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -9772,17 +9453,15 @@
         "id": "ravener-claws-and-talons",
         "melee": [
           {
-            "A": 3,
-            "AP": -2,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-2",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Ravener claws and talons",
-            "skill": 3
+            "name": "Ravener claws and talons"
           }
         ],
         "name": "Ravener claws and talons"
@@ -9823,11 +9502,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "6\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "6+",
-      "T": 2,
-      "W": 4
+      "T": "2",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -9882,18 +9562,16 @@
         "name": "Spinemaw",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "BS": "5+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Spinemaw",
-            "range": "6\"",
-            "skill": 5
+            "range": "6\""
           }
         ]
       },
@@ -9901,18 +9579,15 @@
         "id": "chitinous-claws-and-teeth",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 2,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "2",
+            "WS": "5+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Chitinous claws and teeth",
-            "skill": 5
+            "name": "Chitinous claws and teeth"
           }
         ],
         "name": "Chitinous claws and teeth"
@@ -9954,11 +9629,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "6\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "6+",
-      "T": 2,
-      "W": 4
+      "T": "2",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -10013,18 +9689,16 @@
         "name": "Spinemaw",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "BS": "5+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Spinemaw",
-            "range": "6\"",
-            "skill": 5
+            "range": "6\""
           }
         ]
       },
@@ -10032,18 +9706,15 @@
         "id": "chitinous-claws-and-teeth",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 2,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "2",
+            "WS": "5+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Chitinous claws and teeth",
-            "skill": 5
+            "name": "Chitinous claws and teeth"
           }
         ],
         "name": "Chitinous claws and teeth"
@@ -10083,11 +9754,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -10134,21 +9806,17 @@
         "name": "Bio-plasmic scream",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -2,
-            "D": 1,
-            "S": 8,
+            "A": "D6+3",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "1",
+            "S": "8",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "blast"
-              }
+              "assault",
+              "blast"
             ],
             "name": "Bio-plasmic scream",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -10156,13 +9824,13 @@
         "id": "screamer-killer-talons",
         "melee": [
           {
-            "A": 10,
-            "AP": -2,
-            "D": 3,
-            "S": 10,
+            "A": "10",
+            "AP": "-2",
+            "D": "3",
+            "S": "10",
+            "WS": "3+",
             "keywords": [],
-            "name": "Screamer-killer talons",
-            "skill": 3
+            "name": "Screamer-killer talons"
           }
         ],
         "name": "Screamer-killer talons"
@@ -10208,11 +9876,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "12\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 12,
-      "W": 18
+      "T": "12",
+      "W": "18"
     },
     "wargear": {
       "children": [
@@ -10259,18 +9928,16 @@
         "name": "Bio-acid spray",
         "ranged": [
           {
-            "A": 10.5,
-            "AP": -2,
-            "D": 1,
-            "S": 6,
+            "A": "3D6",
+            "AP": "-2",
+            "BS": "N/A",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "torrent"
-              }
+              "torrent"
             ],
             "name": "Bio-acid spray",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -10278,13 +9945,13 @@
         "id": "hierodule-scything-talons",
         "melee": [
           {
-            "A": 10,
-            "AP": -2,
-            "D": 5,
-            "S": 14,
+            "A": "10",
+            "AP": "-2",
+            "D": "D3+3",
+            "S": "14",
+            "WS": "3+",
             "keywords": [],
-            "name": "Hierodule scything talons",
-            "skill": 3
+            "name": "Hierodule scything talons"
           }
         ],
         "name": "Hierodule scything talons"
@@ -10325,11 +9992,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "12\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "6+",
-      "T": 2,
-      "W": 4
+      "T": "2",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -10404,18 +10072,15 @@
         "id": "claws-and-teeth",
         "melee": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 2,
+            "A": "6",
+            "AP": "0",
+            "D": "1",
+            "S": "2",
+            "WS": "5+",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              }
+              "sustained hits 1"
             ],
-            "name": "Claws and teeth",
-            "skill": 5
+            "name": "Claws and teeth"
           }
         ],
         "name": "Claws and teeth"
@@ -10425,18 +10090,16 @@
         "name": "Spinemaws",
         "ranged": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "4",
+            "AP": "0",
+            "BS": "5+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "pistol"
-              }
+              "pistol"
             ],
             "name": "Spinemaws",
-            "range": "6\"",
-            "skill": 5
+            "range": "6\""
           }
         ]
       }
@@ -10480,11 +10143,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "4\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "7+",
-      "T": 1,
-      "W": 1
+      "T": "1",
+      "W": "1"
     },
     "wargear": {
       "children": [],
@@ -10534,11 +10198,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "4\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "7+",
-      "T": 1,
-      "W": 1
+      "T": "1",
+      "W": "1"
     },
     "wargear": {
       "children": [],
@@ -10588,11 +10253,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "4\"",
-      "OC": 0,
+      "OC": "0",
       "Sv": "7+",
-      "T": 1,
-      "W": 1
+      "T": "1",
+      "W": "1"
     },
     "wargear": {
       "children": [],
@@ -10640,11 +10306,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "-",
-      "OC": 0,
+      "OC": "0",
       "Sv": "3+",
-      "T": 10,
-      "W": 10
+      "T": "10",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -10690,13 +10357,13 @@
         "id": "flensing-whips",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "4+",
             "keywords": [],
-            "name": "Flensing whips",
-            "skill": 4
+            "name": "Flensing whips"
           }
         ],
         "name": "Flensing whips"
@@ -10706,18 +10373,16 @@
         "name": "Sporocyst bio-weapon",
         "ranged": [
           {
-            "A": 10,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "10",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "hive defences"
-              }
+              "hive defences"
             ],
             "name": "Sporocyst bio-weapon",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       }
@@ -10762,11 +10427,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "5+",
-      "T": 3,
-      "W": 1
+      "T": "3",
+      "W": "1"
     },
     "wargear": {
       "children": [
@@ -11030,18 +10696,16 @@
         "name": "Fleshborer",
         "ranged": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "1",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "assault"
-              }
+              "assault"
             ],
             "name": "Fleshborer",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -11050,24 +10714,18 @@
         "name": "Termagant spinefist",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "3",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "assault",
+              "pistol",
+              "twin linked"
             ],
             "name": "Termagant spinefist",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -11076,14 +10734,14 @@
         "name": "Termagant devourer",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Termagant devourer",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -11091,13 +10749,13 @@
         "id": "chitinous-claws-and-teeth",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "1",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "4+",
             "keywords": [],
-            "name": "Chitinous claws and teeth",
-            "skill": 4
+            "name": "Chitinous claws and teeth"
           }
         ],
         "name": "Chitinous claws and teeth"
@@ -11107,21 +10765,17 @@
         "name": "Shardlauncher",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "D3",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "heavy"
-              }
+              "blast",
+              "heavy"
             ],
             "name": "Shardlauncher",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -11130,18 +10784,16 @@
         "name": "Spike rifle",
         "ranged": [
           {
-            "A": 1,
-            "AP": -1,
-            "D": 1,
-            "S": 4,
+            "A": "1",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Spike rifle",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -11150,24 +10802,18 @@
         "name": "Strangleweb",
         "ranged": [
           {
-            "A": 3.5,
-            "AP": 0,
-            "D": 1,
-            "S": 2,
+            "A": "D6",
+            "AP": "0",
+            "BS": "N/A",
+            "D": "1",
+            "S": "2",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "torrent"
-              }
+              "assault",
+              "devastating wounds",
+              "torrent"
             ],
             "name": "Strangleweb",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       }
@@ -11218,11 +10864,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 11,
-      "W": 16
+      "T": "11",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -11288,22 +10935,22 @@
         "id": "massive-scything-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 3.5,
-            "S": 9,
+            "A": "4",
+            "AP": "-2",
+            "D": "D6",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - strike",
-            "skill": 3
+            "name": "Massive scything talons - strike"
           },
           {
-            "A": 8,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "8",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "3+",
             "keywords": [],
-            "name": "Massive scything talons - sweep",
-            "skill": 3
+            "name": "Massive scything talons - sweep"
           }
         ],
         "name": "Massive scything talons"
@@ -11312,13 +10959,13 @@
         "id": "massive-crushing-claws",
         "melee": [
           {
-            "A": 4,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "4",
+            "AP": "-3",
+            "D": "D6+1",
+            "S": "12",
+            "WS": "4+",
             "keywords": [],
-            "name": "Massive crushing claws",
-            "skill": 4
+            "name": "Massive crushing claws"
           }
         ],
         "name": "Massive crushing claws"
@@ -11328,14 +10975,14 @@
         "name": "Stinger salvoes",
         "ranged": [
           {
-            "A": 8,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Stinger salvoes",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       }
@@ -11383,11 +11030,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "10\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "3+",
-      "T": 8,
-      "W": 9
+      "T": "8",
+      "W": "9"
     },
     "wargear": {
       "children": [
@@ -11433,23 +11081,17 @@
         "id": "gaping-maw",
         "melee": [
           {
-            "A": 1,
-            "AP": 0,
-            "D": 4,
-            "S": 5,
+            "A": "1",
+            "AP": "-",
+            "D": "D3+2",
+            "S": "5",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              },
-              {
-                "kw": "devastating wounds"
-              },
-              {
-                "kw": "precision"
-              }
+              "extra attacks",
+              "devastating wounds",
+              "precision"
             ],
-            "name": "Gaping maw",
-            "skill": 2
+            "name": "Gaping maw"
           }
         ],
         "name": "Gaping maw"
@@ -11458,13 +11100,13 @@
         "id": "scything-talons",
         "melee": [
           {
-            "A": 12,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "12",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Scything talons",
-            "skill": 2
+            "name": "Scything talons"
           }
         ],
         "name": "Scything talons"
@@ -11522,11 +11164,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "8\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 10,
-      "W": 10
+      "T": "10",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -11572,17 +11215,15 @@
         "id": "bone-sabres",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "8",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Bone Sabres",
-            "skill": 2
+            "name": "Bone Sabres"
           }
         ],
         "name": "Bone Sabres"
@@ -11592,21 +11233,17 @@
         "name": "Synaptic Pulse",
         "ranged": [
           {
-            "A": 6.5,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "D6+3",
+            "AP": "-1",
+            "BS": "N/A",
+            "D": "2",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "psychic"
-              },
-              {
-                "kw": "torrent"
-              }
+              "psychic",
+              "torrent"
             ],
             "name": "Synaptic Pulse",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       }
@@ -11654,11 +11291,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "3+",
-      "T": 11,
-      "W": 14
+      "T": "11",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -11692,36 +11330,30 @@
         "id": "massive-toxic-lashes",
         "melee": [
           {
-            "A": 12,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "12",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
-            "name": "Massive toxic lashes",
-            "skill": 3
+            "name": "Massive toxic lashes"
           }
         ],
         "name": "Massive toxic lashes",
         "ranged": [
           {
-            "A": 7,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "2D6",
+            "AP": "-1",
+            "BS": "3+",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
             "name": "Massive toxic lashes",
-            "range": "9\"",
-            "skill": 3
+            "range": "9\""
           }
         ]
       }
@@ -11766,11 +11398,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "10\"",
-      "OC": 4,
+      "OC": "4",
       "Sv": "3+",
-      "T": 10,
-      "W": 14
+      "T": "10",
+      "W": "14"
     },
     "wargear": {
       "children": [
@@ -11816,13 +11449,13 @@
         "id": "trygon-scything-talons",
         "melee": [
           {
-            "A": 12,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "12",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "3+",
             "keywords": [],
-            "name": "Trygon scything talons",
-            "skill": 3
+            "name": "Trygon scything talons"
           }
         ],
         "name": "Trygon scything talons"
@@ -11832,19 +11465,16 @@
         "name": "Bio-electric pulse",
         "ranged": [
           {
-            "A": 6,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "sustained hits",
-                "val": "2"
-              }
+              "sustained hits 2"
             ],
             "name": "Bio-electric pulse",
-            "range": "12\"",
-            "skill": 3
+            "range": "12\""
           }
         ]
       }
@@ -11894,11 +11524,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "10\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 5,
-      "W": 6
+      "T": "5",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -11955,13 +11586,13 @@
         "id": "rending-claw",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 3,
-            "S": 8,
+            "A": "4",
+            "AP": "-2",
+            "D": "3",
+            "S": "8",
+            "WS": "2+",
             "keywords": [],
-            "name": "Rending claw",
-            "skill": 2
+            "name": "Rending claw"
           }
         ],
         "name": "Rending claw"
@@ -11970,17 +11601,15 @@
         "id": "lash-whip",
         "melee": [
           {
-            "A": 8,
-            "AP": -2,
-            "D": 1,
-            "S": 4,
+            "A": "8",
+            "AP": "-2",
+            "D": "1",
+            "S": "4",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Lash whip",
-            "skill": 2
+            "name": "Lash whip"
           }
         ],
         "name": "Lash whip"
@@ -11989,13 +11618,13 @@
         "id": "scything-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-2",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Scything talons",
-            "skill": 2
+            "name": "Scything talons"
           }
         ],
         "name": "Scything talons"
@@ -12037,11 +11666,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "4+",
-      "T": 5,
-      "W": 3
+      "T": "5",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -12133,17 +11763,15 @@
         "id": "tyranid-warrior-claws-and-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-2",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Tyranid Warrior claws and talons",
-            "skill": 3
+            "name": "Tyranid Warrior claws and talons"
           }
         ],
         "name": "Tyranid Warrior claws and talons"
@@ -12184,11 +11812,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "6\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "4+",
-      "T": 5,
-      "W": 3
+      "T": "5",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -12465,14 +12094,14 @@
         "name": "Deathspitter",
         "ranged": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Deathspitter",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       },
@@ -12481,24 +12110,18 @@
         "name": "Spinefists",
         "ranged": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "2",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [
-              {
-                "kw": "assault"
-              },
-              {
-                "kw": "pistol"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "assault",
+              "pistol",
+              "twin linked"
             ],
             "name": "Spinefists",
-            "range": "12\"",
-            "skill": 4
+            "range": "12\""
           }
         ]
       },
@@ -12507,18 +12130,16 @@
         "name": "Venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "4+",
+            "D": "2",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Venom cannon",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -12527,18 +12148,16 @@
         "name": "Barbed strangler",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 1,
-            "S": 6,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "1",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Barbed strangler",
-            "range": "36\"",
-            "skill": 4
+            "range": "36\""
           }
         ]
       },
@@ -12547,14 +12166,14 @@
         "name": "Devourer",
         "ranged": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 4,
+            "A": "5",
+            "AP": "0",
+            "BS": "4+",
+            "D": "1",
+            "S": "4",
             "keywords": [],
             "name": "Devourer",
-            "range": "18\"",
-            "skill": 4
+            "range": "18\""
           }
         ]
       },
@@ -12562,13 +12181,13 @@
         "id": "tyranid-warrior-claws-and-talons",
         "melee": [
           {
-            "A": 5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Tyranid Warrior claws and talons",
-            "skill": 3
+            "name": "Tyranid Warrior claws and talons"
           }
         ],
         "name": "Tyranid Warrior claws and talons"
@@ -12616,11 +12235,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "8\"",
-      "OC": 2,
+      "OC": "2",
       "Sv": "3+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -12666,13 +12286,13 @@
         "id": "flensing-whips",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "6",
+            "AP": "-1",
+            "D": "2",
+            "S": "7",
+            "WS": "4+",
             "keywords": [],
-            "name": "Flensing Whips",
-            "skill": 4
+            "name": "Flensing Whips"
           }
         ],
         "name": "Flensing Whips"
@@ -12682,14 +12302,14 @@
         "name": "Tyrannocyte Bio-weapons",
         "ranged": [
           {
-            "A": 5,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "5",
+            "AP": "-1",
+            "BS": "4+",
+            "D": "2",
+            "S": "5",
             "keywords": [],
             "name": "Tyrannocyte Bio-weapons",
-            "range": "24\"",
-            "skill": 4
+            "range": "24\""
           }
         ]
       }
@@ -12733,11 +12353,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "9\"",
-      "OC": 5,
+      "OC": "5",
       "Sv": "2+",
-      "T": 12,
-      "W": 16
+      "T": "12",
+      "W": "16"
     },
     "wargear": {
       "children": [
@@ -12824,13 +12445,13 @@
         "id": "powerful-limbs",
         "melee": [
           {
-            "A": 4,
-            "AP": 0,
-            "D": 2,
-            "S": 8,
+            "A": "4",
+            "AP": "0",
+            "D": "2",
+            "S": "8",
+            "WS": "3+",
             "keywords": [],
-            "name": "Powerful limbs",
-            "skill": 3
+            "name": "Powerful limbs"
           }
         ],
         "name": "Powerful limbs"
@@ -12840,18 +12461,16 @@
         "name": "Rupture cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -4,
-            "D": 9.5,
-            "S": 18,
+            "A": "2",
+            "AP": "-4",
+            "BS": "3+",
+            "D": "D6+6",
+            "S": "18",
             "keywords": [
-              {
-                "kw": "heavy"
-              }
+              "heavy"
             ],
             "name": "Rupture cannon",
-            "range": "48\"",
-            "skill": 3
+            "range": "48\""
           }
         ]
       },
@@ -12860,25 +12479,18 @@
         "name": "Fleshborer hive",
         "ranged": [
           {
-            "A": 20,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "20",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [
-              {
-                "kw": "heavy"
-              },
-              {
-                "kw": "sustained hits",
-                "val": "1"
-              },
-              {
-                "kw": "twin linked"
-              }
+              "heavy",
+              "sustained hits 1",
+              "twin linked"
             ],
             "name": "Fleshborer hive",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       },
@@ -12887,18 +12499,16 @@
         "name": "Acid spray",
         "ranged": [
           {
-            "A": 9.5,
-            "AP": -2,
-            "D": 2,
-            "S": 6,
+            "A": "D6+6",
+            "AP": "-2",
+            "BS": "N/A",
+            "D": "2",
+            "S": "6",
             "keywords": [
-              {
-                "kw": "torrent"
-              }
+              "torrent"
             ],
             "name": "Acid spray",
-            "range": "18\"",
-            "skill": 2
+            "range": "18\""
           }
         ]
       },
@@ -12907,14 +12517,14 @@
         "name": "Stinger salvoes",
         "ranged": [
           {
-            "A": 8,
-            "AP": 0,
-            "D": 1,
-            "S": 5,
+            "A": "8",
+            "AP": "0",
+            "BS": "3+",
+            "D": "1",
+            "S": "5",
             "keywords": [],
             "name": "Stinger salvoes",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       }
@@ -12953,11 +12563,12 @@
     "stats": {
       "FNP": "5+",
       "InvSv": null,
+      "Ld": "8+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "3+",
-      "T": 8,
-      "W": 4
+      "T": "8",
+      "W": "4"
     },
     "wargear": {
       "children": [
@@ -13030,13 +12641,13 @@
         "id": "scything-talons-and-rending-claws",
         "melee": [
           {
-            "A": 5,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "5",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Scything talons and rending claws",
-            "skill": 3
+            "name": "Scything talons and rending claws"
           }
         ],
         "name": "Scything talons and rending claws"
@@ -13045,13 +12656,13 @@
         "id": "bone-cleaver-lash-whip-and-rending-claws",
         "melee": [
           {
-            "A": 3,
-            "AP": -1,
-            "D": 2,
-            "S": 5,
+            "A": "3",
+            "AP": "-1",
+            "D": "2",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Bone cleaver, lash whip and rending claws",
-            "skill": 3
+            "name": "Bone cleaver, lash whip and rending claws"
           }
         ],
         "name": "Bone cleaver, lash whip and rending claws"
@@ -13060,17 +12671,15 @@
         "id": "crushing-claws-and-rending-claws",
         "melee": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 8,
+            "A": "2",
+            "AP": "-2",
+            "D": "2",
+            "S": "8",
+            "WS": "4+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Crushing claws and rending claws",
-            "skill": 4
+            "name": "Crushing claws and rending claws"
           }
         ],
         "name": "Crushing claws and rending claws"
@@ -13111,11 +12720,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "8+",
       "M": "6\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 3
+      "T": "5",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -13158,18 +12768,15 @@
         "id": "toxic-lashes",
         "melee": [
           {
-            "A": 5,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "5",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "3+",
             "keywords": [
-              {
-                "kw": "anti infantry",
-                "on": 2
-              }
+              "anti infantry 2+"
             ],
-            "name": "Toxic lashes",
-            "skill": 3
+            "name": "Toxic lashes"
           }
         ],
         "name": "Toxic lashes"
@@ -13210,11 +12817,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "6+",
+      "Ld": "8+",
       "M": "10\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 3
+      "T": "5",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -13257,13 +12865,13 @@
         "id": "leaper-s-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 1,
-            "S": 5,
+            "A": "6",
+            "AP": "-1",
+            "D": "1",
+            "S": "5",
+            "WS": "3+",
             "keywords": [],
-            "name": "Leaper's talons",
-            "skill": 3
+            "name": "Leaper's talons"
           }
         ],
         "name": "Leaper's talons"
@@ -13313,11 +12921,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 3,
+      "OC": "3",
       "Sv": "2+",
-      "T": 9,
-      "W": 10
+      "T": "9",
+      "W": "10"
     },
     "wargear": {
       "children": [
@@ -13403,13 +13012,13 @@
         "id": "tyrant-talons",
         "melee": [
           {
-            "A": 5,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [],
-            "name": "Tyrant talons",
-            "skill": 2
+            "name": "Tyrant talons"
           }
         ],
         "name": "Tyrant talons"
@@ -13418,17 +13027,15 @@
         "id": "monstrous-scything-talons",
         "melee": [
           {
-            "A": 4,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "4",
+            "AP": "-2",
+            "D": "2",
+            "S": "7",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "extra attacks"
-              }
+              "extra attacks"
             ],
-            "name": "Monstrous scything talons",
-            "skill": 2
+            "name": "Monstrous scything talons"
           }
         ],
         "name": "Monstrous scything talons"
@@ -13438,18 +13045,16 @@
         "name": "Stranglethorn cannon",
         "ranged": [
           {
-            "A": 4.5,
-            "AP": -1,
-            "D": 2,
-            "S": 7,
+            "A": "D6+1",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Stranglethorn cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -13458,18 +13063,16 @@
         "name": "Heavy venom cannon",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "2+",
+            "D": "3",
+            "S": "9",
             "keywords": [
-              {
-                "kw": "blast"
-              }
+              "blast"
             ],
             "name": "Heavy venom cannon",
-            "range": "36\"",
-            "skill": 2
+            "range": "36\""
           }
         ]
       },
@@ -13477,17 +13080,15 @@
         "id": "monstrous-bonesword-and-lash-whip",
         "melee": [
           {
-            "A": 6,
-            "AP": -2,
-            "D": 3,
-            "S": 9,
+            "A": "6",
+            "AP": "-2",
+            "D": "3",
+            "S": "9",
+            "WS": "2+",
             "keywords": [
-              {
-                "kw": "twin linked"
-              }
+              "twin linked"
             ],
-            "name": "Monstrous bonesword and lash whip",
-            "skill": 2
+            "name": "Monstrous bonesword and lash whip"
           }
         ],
         "name": "Monstrous bonesword and lash whip"
@@ -13540,11 +13141,12 @@
     "stats": {
       "FNP": null,
       "InvSv": null,
+      "Ld": "7+",
       "M": "12\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "4+",
-      "T": 5,
-      "W": 6
+      "T": "5",
+      "W": "6"
     },
     "wargear": {
       "children": [
@@ -13578,13 +13180,13 @@
         "id": "prime-talons",
         "melee": [
           {
-            "A": 6,
-            "AP": -1,
-            "D": 2,
-            "S": 6,
+            "A": "6",
+            "AP": "-1",
+            "D": "2",
+            "S": "6",
+            "WS": "2+",
             "keywords": [],
-            "name": "Prime talons",
-            "skill": 2
+            "name": "Prime talons"
           }
         ],
         "name": "Prime talons"
@@ -13631,11 +13233,12 @@
     "stats": {
       "FNP": null,
       "InvSv": "4+",
+      "Ld": "7+",
       "M": "5\"",
-      "OC": 1,
+      "OC": "1",
       "Sv": "5+",
-      "T": 5,
-      "W": 3
+      "T": "5",
+      "W": "3"
     },
     "wargear": {
       "children": [
@@ -13730,13 +13333,13 @@
         "id": "chitinous-claws-and-teeth",
         "melee": [
           {
-            "A": 2,
-            "AP": 0,
-            "D": 1,
-            "S": 3,
+            "A": "2",
+            "AP": "0",
+            "D": "1",
+            "S": "3",
+            "WS": "5+",
             "keywords": [],
-            "name": "Chitinous claws and teeth",
-            "skill": 5
+            "name": "Chitinous claws and teeth"
           }
         ],
         "name": "Chitinous claws and teeth"
@@ -13746,38 +13349,30 @@
         "name": "Warp blast",
         "ranged": [
           {
-            "A": 2,
-            "AP": -2,
-            "D": 2,
-            "S": 7,
+            "A": "D3",
+            "AP": "-2",
+            "BS": "3+",
+            "D": "D3",
+            "S": "7",
             "keywords": [
-              {
-                "kw": "blast"
-              },
-              {
-                "kw": "psychic"
-              }
+              "blast",
+              "psychic"
             ],
             "name": "Warp blast - witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           },
           {
-            "A": 1,
-            "AP": -3,
-            "D": 4.5,
-            "S": 12,
+            "A": "1",
+            "AP": "-3",
+            "BS": "3+",
+            "D": "D6+1",
+            "S": "12",
             "keywords": [
-              {
-                "kw": "lethal hits"
-              },
-              {
-                "kw": "psychic"
-              }
+              "lethal hits",
+              "psychic"
             ],
             "name": "Warp blast - focused witchfire",
-            "range": "24\"",
-            "skill": 3
+            "range": "24\""
           }
         ]
       }
