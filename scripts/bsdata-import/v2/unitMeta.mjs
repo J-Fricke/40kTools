@@ -1,6 +1,6 @@
 // ─── UNIT META: stats, size, points, keywords, abilities (Story A / task A2) ─
 import { chars, resolveProfiles, children, walk, unitProfiles } from "./resolve.mjs";
-import { isCruft } from "./filter.mjs";
+import { isCruft, CRUFT_NAME } from "./filter.mjs";
 import { slug } from "./emit.mjs";
 
 const PTS_TYPEID = "51b2-306e-1021-d207";
@@ -15,10 +15,13 @@ const num = (v, d = 0) => {
 function findUnitProfile(unit, idx) {
   const own = unitProfiles(unit, idx);
   if (own.length) return { profs: own, where: "unit" };
-  // Otherwise the first Unit profile anywhere in the (non-cruft) subtree —
-  // squads nest models under "Unit Composition" / size groups several levels
-  // deep (AM, GSC), and the profile is often an infoLink to a sharedProfile.
-  for (const n of walk(unit, idx, isCruft)) {
+  // Otherwise the first Unit profile anywhere in the subtree — squads nest
+  // models under "Unit Composition" / size groups several levels deep (AM,
+  // GSC), the profile is often an infoLink to a sharedProfile, and some model
+  // variants are `hidden` (conditionally available) — so use a NAME-only skip
+  // here, not the full cruft filter.
+  const nameSkip = n => n && n.name && CRUFT_NAME.test(n.name);
+  for (const n of walk(unit, idx, nameSkip)) {
     if (n === unit) continue;
     const p = unitProfiles(n, idx);
     if (p.length) return { profs: p, where: "model" };

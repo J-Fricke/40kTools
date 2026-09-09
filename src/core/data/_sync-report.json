@@ -295,6 +295,11 @@
       "unit": "astramilitarum/Death Korps Grenadier Squad [Legends]"
     },
     {
+      "group": "Pistol",
+      "rule": 4,
+      "unit": "blacktemplars/Crusader Squad"
+    },
+    {
       "group": "Sternguard Veteran Sergeant",
       "rule": 4,
       "unit": "blacktemplars/Sternguard Veteran Squad"
@@ -437,8 +442,6 @@
   ],
   "generatedAt": "2026-09-09",
   "noStats": [
-    "sororitas/Crusaders [Legends]",
-    "blacktemplars/Crusader Squad",
     "ultramarines/Tyrannic War Veterans [Legends]"
   ],
   "nonCountPointsModifiers": [

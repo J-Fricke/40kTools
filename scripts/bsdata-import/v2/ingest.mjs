@@ -51,6 +51,21 @@ export function ingestFaction(key, report) {
     }
   }
   records.sort((a, b) => a.id.localeCompare(b.id));
+  // keyword-shape sweep: a normalized kw that still carries a digit / "+"
+  // means the normalizer didn't fully parse it (regression guard).
+  for (const rec of records) {
+    for (const w of rec.weapons) {
+      for (const mode of [...(w.ranged || []), ...(w.melee || [])]) {
+        for (const k of mode.keywords || []) {
+          if (/\d|\+/.test(k.kw)) {
+            const hit = report.unresolvedKeywordShapes.find(x => x.raw === k.kw);
+            if (hit) { if (hit.egs.length < 3) hit.egs.push(`${rec.id}/${w.name}`); }
+            else report.unresolvedKeywordShapes.push({ raw: k.kw, egs: [`${rec.id}/${w.name}`] });
+          }
+        }
+      }
+    }
+  }
   report.catalogues.push({ key, file: loadFaction(key).spec.file, units: records.length });
   return records;
 }

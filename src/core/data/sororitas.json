@@ -2994,21 +2994,57 @@
     },
     "stats": {
       "FNP": "4+",
-      "InvSv": null,
-      "M": null,
-      "OC": 0,
-      "Sv": null,
-      "T": 0,
-      "W": 0
+      "InvSv": "4+",
+      "M": "6\"",
+      "OC": 1,
+      "Sv": "3+",
+      "T": 3,
+      "W": 2
     },
     "wargear": {
-      "children": [],
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Power Weapon",
+              "srcId": "79f-b7c0-bde5-e473",
+              "weaponRefs": [
+                "power-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 4,
+          "min": 2,
+          "name": "Crusader",
+          "srcId": "737d-f718-6f96-8146"
+        }
+      ],
       "kind": "group",
       "max": null,
       "min": 0,
       "name": "wargear"
     },
-    "weapons": []
+    "weapons": [
+      {
+        "id": "power-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 4,
+            "keywords": [],
+            "name": "Power Weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Power Weapon"
+      }
+    ]
   },
   {
     "abilities": [

@@ -563,8 +563,12 @@
     "name": "Crusader Squad",
     "points": [
       {
-        "models": 1,
+        "models": 10,
         "pts": 150
+      },
+      {
+        "models": 20,
+        "pts": 290
       }
     ],
     "provenance": {
@@ -572,26 +576,584 @@
       "entryId": "8bbe-e7fc-44b7-ed94"
     },
     "size": {
-      "max": 1,
-      "min": 1
+      "max": 20,
+      "min": 10
     },
     "stats": {
       "FNP": null,
       "InvSv": null,
-      "M": null,
-      "OC": 0,
-      "Sv": null,
-      "T": 0,
-      "W": 0
+      "M": "6\"",
+      "OC": 2,
+      "Sv": "3+",
+      "T": 4,
+      "W": 2
     },
     "wargear": {
-      "children": [],
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Master-crafted Power Weapon",
+                  "srcId": "ba6c-20c9-3cad-fa8b",
+                  "weaponRefs": [
+                    "master-crafted-power-weapon"
+                  ]
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": null,
+                      "min": 0,
+                      "name": "Heavy Bolt Pistol",
+                      "srcId": "3b8f-1cb7-3c6e-4455",
+                      "weaponRefs": [
+                        "heavy-bolt-pistol"
+                      ]
+                    },
+                    {
+                      "kind": "option",
+                      "max": null,
+                      "min": 0,
+                      "name": "Pyre Pistol",
+                      "srcId": "bb21-4114-6b0c-634d",
+                      "weaponRefs": [
+                        "pyre-pistol"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "group",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Pistol",
+                  "srcId": "5c24-7e8d-159e-8aad"
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "model",
+              "max": 1,
+              "min": 1,
+              "name": "Sword Brother",
+              "srcId": "49a9-1a03-6520-3a64"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "6c7d-af5b-482-6fbe",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt Rifle",
+                      "srcId": "6155-c404-a228-cb72",
+                      "weaponRefs": [
+                        "bolt-rifle"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 11,
+                  "min": 0,
+                  "name": "Initiate w/Bolt Rifle",
+                  "srcId": "747-523d-b30c-f8e"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Heavy Bolt Pistol",
+                      "srcId": "83a1-feb8-d495-aa28",
+                      "weaponRefs": [
+                        "heavy-bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Astartes Chainsword",
+                      "srcId": "731a-79db-4259-2dd4",
+                      "weaponRefs": [
+                        "astartes-chainsword"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 11,
+                  "min": 0,
+                  "name": "Initiate w/Chainsword & Heavy Bolt Pistol",
+                  "srcId": "95a-584e-9cd9-b799"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Heavy Bolt Pistol",
+                      "srcId": "83a1-feb8-d495-aa28",
+                      "weaponRefs": [
+                        "heavy-bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Power fist",
+                      "srcId": "f8d8-7e77-4b71-faac",
+                      "weaponRefs": [
+                        "power-fist"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "op": "set",
+                      "target": "max",
+                      "value": 4,
+                      "when": [
+                        {
+                          "childId": "6fc8-d787-7895-ec66",
+                          "scope": "8bbe-e7fc-44b7-ed94",
+                          "type": "atLeast",
+                          "value": 20
+                        }
+                      ]
+                    },
+                    {
+                      "op": "dec",
+                      "target": "max",
+                      "value": 1,
+                      "when": []
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 2,
+                  "min": 0,
+                  "name": "Initiate w/Power Fist & Heavy Bolt Pistol",
+                  "srcId": "78e6-1e4-33f8-36c7"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "6c7d-af5b-482-6fbe",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Pyreblaster",
+                      "srcId": "2737-cb80-0c3a-3dfa",
+                      "weaponRefs": [
+                        "pyreblaster"
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "op": "set",
+                      "target": "max",
+                      "value": 4,
+                      "when": [
+                        {
+                          "childId": "6fc8-d787-7895-ec66",
+                          "scope": "8bbe-e7fc-44b7-ed94",
+                          "type": "atLeast",
+                          "value": 20
+                        }
+                      ]
+                    },
+                    {
+                      "op": "dec",
+                      "target": "max",
+                      "value": 1,
+                      "when": []
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 2,
+                  "min": 0,
+                  "name": "Initiate w/Pyreblaster",
+                  "srcId": "81cc-3eb1-a384-ca9f"
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "group",
+              "max": 11,
+              "min": 5,
+              "name": "Initiates",
+              "srcId": "fa4d-97b8-a047-ebe9"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Neophyte Firearm",
+                      "srcId": "cbdf-607e-32f5-964e",
+                      "weaponRefs": [
+                        "neophyte-firearm"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "6c7d-af5b-482-6fbe",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 8,
+                  "min": 0,
+                  "name": "Neophyte w/ Firearm",
+                  "srcId": "dd70-8ed8-309c-1bf"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Astartes Chainsword",
+                      "srcId": "731a-79db-4259-2dd4",
+                      "weaponRefs": [
+                        "astartes-chainsword"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 8,
+                  "min": 0,
+                  "name": "Neophyte w/ Astartes Chainsword",
+                  "srcId": "9455-ced-8432-d4e8"
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "group",
+              "max": 8,
+              "min": 4,
+              "name": "Neophytes",
+              "srcId": "b4c3-ef4a-77d1-e814"
+            }
+          ],
+          "kind": "group",
+          "max": 20,
+          "min": 10,
+          "name": "Crusaders",
+          "srcId": "6fc8-d787-7895-ec66"
+        }
+      ],
       "kind": "group",
       "max": null,
       "min": 0,
       "name": "wargear"
     },
-    "weapons": []
+    "weapons": [
+      {
+        "id": "master-crafted-power-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Master-crafted Power Weapon",
+            "skill": 2
+          }
+        ],
+        "name": "Master-crafted Power Weapon"
+      },
+      {
+        "id": "heavy-bolt-pistol",
+        "name": "Heavy Bolt Pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Heavy Bolt Pistol",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "pyre-pistol",
+        "name": "Pyre Pistol",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Pyre Pistol",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "close-combat-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Close combat weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Close combat weapon"
+      },
+      {
+        "id": "bolt-rifle",
+        "name": "Bolt Rifle",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Bolt Rifle",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "close quarters"
+              }
+            ],
+            "name": "Bolt pistol",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "astartes-chainsword",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "sustained hits",
+                "val": "1"
+              }
+            ],
+            "name": "Astartes Chainsword",
+            "skill": 3
+          }
+        ],
+        "name": "Astartes Chainsword"
+      },
+      {
+        "id": "power-fist",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [],
+            "name": "Power fist",
+            "skill": 3
+          }
+        ],
+        "name": "Power fist"
+      },
+      {
+        "id": "pyreblaster",
+        "name": "Pyreblaster",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": 0,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Pyreblaster",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "neophyte-firearm",
+        "name": "Neophyte Firearm",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "assault"
+              }
+            ],
+            "name": "Neophyte Firearm",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      }
+    ]
   },
   {
     "abilities": [

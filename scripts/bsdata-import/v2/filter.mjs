@@ -7,7 +7,7 @@
 // the node for constraintEval to turn into an effective max:0.
 
 export const CRUFT_NAME = new RegExp([
-  "crusade", "battle honour", "battle scar", "battle trait", "weapon modification",
+  "\\bcrusade\\b", "battle honour", "battle scar", "battle trait", "weapon modification",
   "legendary veteran", "blackstone", "bestest bossloot", "experience point",
   "gifts? of", "tyrannic war", "pariah nexus", "^show .+ (daemons|units)$",
   "battle tall(y|ies)", "relic fragments?",
