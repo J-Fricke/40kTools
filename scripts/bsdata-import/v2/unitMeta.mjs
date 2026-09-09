@@ -97,8 +97,9 @@ function abilitiesOf(unit, idx) {
 
 // ── keywords ───────────────────────────────────────────────────────────────
 function keywordsOf(unit) {
+  // verbatim categoryLink names, uppercased (GW's own style; stands out in UI)
   return [...new Set((unit.categoryLinks || [])
-    .map(c => (c.name || "").toLowerCase().trim())
+    .map(c => (c.name || "").trim().toUpperCase())
     .filter(Boolean))].sort();
 }
 

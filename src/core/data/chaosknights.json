@@ -18,15 +18,15 @@
     "faction": "chaosknights",
     "id": "chaosknights/chaos-acastus-knight-asterius",
     "keywords": [
-      "acastus",
-      "chaos",
-      "faction: chaos knights",
-      "frame",
-      "knight asterius",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ACASTUS",
+      "CHAOS",
+      "FACTION: CHAOS KNIGHTS",
+      "FRAME",
+      "KNIGHT ASTERIUS",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Chaos Acastus Knight Asterius",
     "points": [
@@ -126,7 +126,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Asterius volkite culverin",
             "range": "24\""
@@ -144,10 +144,10 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "anti infantry 2+",
-              "blast",
-              "ignores cover",
-              "indirect fire"
+              "ANTI-INFANTRY 2+",
+              "BLAST",
+              "IGNORES COVER",
+              "INDIRECT FIRE"
             ],
             "name": "Karacnos mortar battery",
             "range": "48\""
@@ -165,9 +165,9 @@
             "D": "6",
             "S": "16",
             "keywords": [
-              "conversion",
-              "twin linked",
-              "sustained hits d3"
+              "CONVERSION",
+              "TWIN-LINKED",
+              "SUSTAINED HITS D3"
             ],
             "name": "Twin conversion beam cannon",
             "range": "48\""
@@ -210,15 +210,15 @@
     "faction": "chaosknights",
     "id": "chaosknights/chaos-acastus-knight-porphyrion",
     "keywords": [
-      "acastus",
-      "chaos",
-      "faction: chaos knights",
-      "frame",
-      "knight porphyrion",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ACASTUS",
+      "CHAOS",
+      "FACTION: CHAOS KNIGHTS",
+      "FRAME",
+      "KNIGHT PORPHYRION",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Chaos Acastus Knight Porphyrion",
     "points": [
@@ -358,8 +358,8 @@
             "D": "D6+6",
             "S": "18",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Twin magna lascannon",
             "range": "72\""
@@ -377,9 +377,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "heavy",
-              "indirect fire"
+              "BLAST",
+              "HEAVY",
+              "INDIRECT FIRE"
             ],
             "name": "Acastus ironstorm missile pod",
             "range": "48\""
@@ -397,8 +397,8 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "anti fly 2+",
-              "heavy"
+              "ANTI-FLY 2+",
+              "HEAVY"
             ],
             "name": "Helios defence missiles",
             "range": "48\""
@@ -477,15 +477,15 @@
     "faction": "chaosknights",
     "id": "chaosknights/chaos-cerastus-knight-acheron",
     "keywords": [
-      "cerastus",
-      "character",
-      "faction: chaos knights",
-      "knight acheron",
-      "knight character",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "CERASTUS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT ACHERON",
+      "KNIGHT CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Chaos Cerastus Knight Acheron",
     "points": [
@@ -574,8 +574,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Acheron flame cannon",
             "range": "18\""
@@ -617,8 +617,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -646,16 +646,16 @@
     "faction": "chaosknights",
     "id": "chaosknights/chaos-cerastus-knight-atrapos",
     "keywords": [
-      "cerastus",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight atrapos",
-      "knight character",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "CERASTUS",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT ATRAPOS",
+      "KNIGHT CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Chaos Cerastus Knight Atrapos",
     "points": [
@@ -732,7 +732,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Atrapos lascutter - low intensity"
           },
@@ -743,7 +743,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Atrapos lascutter - high intensity"
           }
@@ -757,7 +757,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Atrapos lascutter - low intensity",
             "range": "36\""
@@ -769,7 +769,7 @@
             "D": "4",
             "S": "14",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Atrapos lascutter - high intensity",
             "range": "24\""
@@ -787,7 +787,7 @@
             "D": "D6+1",
             "S": "16",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Graviton singularity cannon - contained",
             "range": "24\""
@@ -799,9 +799,9 @@
             "D": "D6+1",
             "S": "16",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "hazardous"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "HAZARDOUS"
             ],
             "name": "Graviton singularity cannon - singularity",
             "range": "24\""
@@ -833,16 +833,16 @@
     "faction": "chaosknights",
     "id": "chaosknights/chaos-cerastus-knight-castigator",
     "keywords": [
-      "cerastus",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight castigator",
-      "knight character",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "CERASTUS",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT CASTIGATOR",
+      "KNIGHT CHARACTER",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Chaos Cerastus Knight Castigator",
     "points": [
@@ -920,7 +920,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Castigator bolt cannon",
             "range": "36\""
@@ -972,16 +972,16 @@
     "faction": "chaosknights",
     "id": "chaosknights/chaos-cerastus-knight-lancer",
     "keywords": [
-      "cerastus",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight character",
-      "knight lancer",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "CERASTUS",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT CHARACTER",
+      "KNIGHT LANCER",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Chaos Cerastus Knight Lancer",
     "points": [
@@ -1046,7 +1046,7 @@
             "S": "20",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Cerastus shock lance - strike"
           },
@@ -1069,8 +1069,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "sustained hits 2"
+              "ASSAULT",
+              "SUSTAINED HITS 2"
             ],
             "name": "Cerastus shock lance",
             "range": "12\""
@@ -1098,16 +1098,16 @@
     "faction": "chaosknights",
     "id": "chaosknights/chaos-questoris-knight-magaera",
     "keywords": [
-      "abhorrent",
-      "chaos",
-      "character",
-      "frame",
-      "knight character",
-      "knight magaera",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ABHORRENT",
+      "CHAOS",
+      "CHARACTER",
+      "FRAME",
+      "KNIGHT CHARACTER",
+      "KNIGHT MAGAERA",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Chaos Questoris Knight Magaera",
     "points": [
@@ -1237,7 +1237,7 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Lightning cannon",
             "range": "48\""
@@ -1255,7 +1255,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Phased plasma-fusil",
             "range": "24\""
@@ -1273,10 +1273,10 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin rad cleanser",
             "range": "12\""
@@ -1352,17 +1352,17 @@
     "faction": "chaosknights",
     "id": "chaosknights/chaos-questoris-knight-styrix",
     "keywords": [
-      "abhorrent",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "frame",
-      "knight character",
-      "knight styrix",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ABHORRENT",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "FRAME",
+      "KNIGHT CHARACTER",
+      "KNIGHT STYRIX",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Chaos Questoris Knight Styrix",
     "points": [
@@ -1492,8 +1492,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti vehicle 2+",
-              "blast"
+              "ANTI-VEHICLE 2+",
+              "BLAST"
             ],
             "name": "Graviton crusher",
             "range": "18\""
@@ -1511,7 +1511,7 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkite chierovile",
             "range": "30\""
@@ -1529,10 +1529,10 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin rad cleanser",
             "range": "12\""
@@ -1612,17 +1612,17 @@
     "faction": "chaosknights",
     "id": "chaosknights/knight-abominant",
     "keywords": [
-      "abhorrent",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight abominant",
-      "knight character",
-      "psyker",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ABHORRENT",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT ABOMINANT",
+      "KNIGHT CHARACTER",
+      "PSYKER",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Knight Abominant",
     "points": [
@@ -1721,7 +1721,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Balemace"
           }
@@ -1738,7 +1738,7 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Electroscourge"
           }
@@ -1756,8 +1756,8 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "devastating wounds",
-              "ignores cover"
+              "DEVASTATING WOUNDS",
+              "IGNORES COVER"
             ],
             "name": "Volkite combustor",
             "range": "30\""
@@ -1775,7 +1775,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -1807,16 +1807,16 @@
     "faction": "chaosknights",
     "id": "chaosknights/knight-desecrator",
     "keywords": [
-      "abhorrent",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight character",
-      "knight desecrator",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ABHORRENT",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT CHARACTER",
+      "KNIGHT DESECRATOR",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Knight Desecrator",
     "points": [
@@ -1925,7 +1925,7 @@
             "D": "D6+3",
             "S": "18",
             "keywords": [
-              "devastating wounds: monster/vehicle"
+              "DEVASTATING WOUNDS: MONSTER/VEHICLE"
             ],
             "name": "Desecrator laser destructor",
             "range": "72\""
@@ -1943,7 +1943,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -2023,16 +2023,16 @@
     "faction": "chaosknights",
     "id": "chaosknights/knight-despoiler",
     "keywords": [
-      "abhorrent",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight character",
-      "knight despoiler",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ABHORRENT",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT CHARACTER",
+      "KNIGHT DESPOILER",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Knight Despoiler",
     "points": [
@@ -2366,8 +2366,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Havoc missile pod",
             "range": "48\""
@@ -2401,8 +2401,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti fly 2",
-              "twin linked"
+              "ANTI-FLY 2",
+              "TWIN-LINKED"
             ],
             "name": "Hellstorm autocannons",
             "range": "48\""
@@ -2436,8 +2436,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "torrent",
-              "ignores cover"
+              "TORRENT",
+              "IGNORES COVER"
             ],
             "name": "Heavy darkflamer",
             "range": "12\""
@@ -2455,8 +2455,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "rapid fire d6+3"
+              "BLAST",
+              "RAPID FIRE D6+3"
             ],
             "name": "Despoiler battle cannon",
             "range": "72\""
@@ -2474,7 +2474,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -2516,8 +2516,8 @@
             "D": "D6",
             "S": "12",
             "keywords": [
-              "blast",
-              "melta 6"
+              "BLAST",
+              "MELTA 6"
             ],
             "name": "Daemonbreath thermal cannon",
             "range": "24\""
@@ -2559,7 +2559,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Daemonbreath meltagun",
             "range": "12\""
@@ -2591,16 +2591,16 @@
     "faction": "chaosknights",
     "id": "chaosknights/knight-rampager",
     "keywords": [
-      "abhorrent",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight character",
-      "knight rampager",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ABHORRENT",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT CHARACTER",
+      "KNIGHT RAMPAGER",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Knight Rampager",
     "points": [
@@ -2688,7 +2688,7 @@
             "S": "14",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper chainsword - strike"
           },
@@ -2699,7 +2699,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper chainsword - sweep"
           }
@@ -2716,7 +2716,7 @@
             "S": "20",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Warpstrike claw - strike"
           },
@@ -2727,7 +2727,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Warpstrike claw - sweep"
           }
@@ -2745,7 +2745,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -2777,16 +2777,16 @@
     "faction": "chaosknights",
     "id": "chaosknights/knight-ruinator",
     "keywords": [
-      "abhorrent",
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight character",
-      "knight ruinator",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "ABHORRENT",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT CHARACTER",
+      "KNIGHT RUINATOR",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Knight Ruinator",
     "points": [
@@ -2875,8 +2875,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Darkflame lance",
             "range": "18\""
@@ -2893,8 +2893,8 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "anti monster 2+",
-              "anti vehicle 2+"
+              "ANTI-MONSTER 2+",
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Fellbore - strike"
           },
@@ -2921,7 +2921,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Terrorpulse missiles",
             "range": "36\""
@@ -2953,15 +2953,15 @@
     "faction": "chaosknights",
     "id": "chaosknights/knight-tyrant",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: chaos knights",
-      "knight character",
-      "knight tyrant",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: CHAOS KNIGHTS",
+      "KNIGHT CHARACTER",
+      "KNIGHT TYRANT",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Knight Tyrant",
     "points": [
@@ -3200,8 +3200,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin daemonbreath meltagun",
             "range": "12\""
@@ -3220,8 +3220,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "anti titanic 4+",
-              "devastating wounds"
+              "ANTI-TITANIC 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Gheiststrike missile launcher",
             "qty": 2,
@@ -3240,8 +3240,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Twin desecrator cannon",
             "range": "36\""
@@ -3259,8 +3259,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "anti titanic 4+",
-              "devastating wounds"
+              "ANTI-TITANIC 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Gheiststrike missile launcher",
             "range": "72\""
@@ -3279,8 +3279,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Twin desecrator cannon",
             "qty": 2,
@@ -3299,7 +3299,7 @@
             "D": "D6+8",
             "S": "20",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Brimstone volcano lance",
             "range": "60\""
@@ -3317,7 +3317,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ectoplasma decimator - standard",
             "range": "36\""
@@ -3329,8 +3329,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Ectoplasma decimator - supercharge",
             "range": "36\""
@@ -3348,8 +3348,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Darkflame cannon",
             "range": "18\""
@@ -3367,8 +3367,8 @@
             "D": "12",
             "S": "24",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Warpshock harpoon",
             "range": "12\""
@@ -3396,12 +3396,12 @@
     "faction": "chaosknights",
     "id": "chaosknights/war-dog-brigand",
     "keywords": [
-      "brigand",
-      "chaos",
-      "faction: chaos knights",
-      "vehicle",
-      "walker",
-      "war dog"
+      "BRIGAND",
+      "CHAOS",
+      "FACTION: CHAOS KNIGHTS",
+      "VEHICLE",
+      "WALKER",
+      "WAR DOG"
     ],
     "name": "War Dog Brigand",
     "points": [
@@ -3521,7 +3521,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -3539,8 +3539,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Havoc multi-launcher",
             "range": "48\""
@@ -3589,7 +3589,7 @@
             "D": "D6",
             "S": "12",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Daemonbreath spear",
             "range": "18\""
@@ -3617,12 +3617,12 @@
     "faction": "chaosknights",
     "id": "chaosknights/war-dog-executioner",
     "keywords": [
-      "chaos",
-      "executioner",
-      "faction: chaos knights",
-      "vehicle",
-      "walker",
-      "war dog"
+      "CHAOS",
+      "EXECUTIONER",
+      "FACTION: CHAOS KNIGHTS",
+      "VEHICLE",
+      "WALKER",
+      "WAR DOG"
     ],
     "name": "War Dog Executioner",
     "points": [
@@ -3747,7 +3747,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -3765,7 +3765,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Daemonbreath meltagun",
             "range": "12\""
@@ -3808,12 +3808,12 @@
     "faction": "chaosknights",
     "id": "chaosknights/war-dog-huntsman",
     "keywords": [
-      "chaos",
-      "faction: chaos knights",
-      "huntsman",
-      "vehicle",
-      "walker",
-      "war dog"
+      "CHAOS",
+      "FACTION: CHAOS KNIGHTS",
+      "HUNTSMAN",
+      "VEHICLE",
+      "WALKER",
+      "WAR DOG"
     ],
     "name": "War Dog Huntsman",
     "points": [
@@ -3922,7 +3922,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -3940,7 +3940,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Daemonbreath meltagun",
             "range": "12\""
@@ -3958,7 +3958,7 @@
             "D": "D6",
             "S": "12",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Daemonbreath spear",
             "range": "18\""
@@ -4010,12 +4010,12 @@
     "faction": "chaosknights",
     "id": "chaosknights/war-dog-karnivore",
     "keywords": [
-      "chaos",
-      "faction: chaos knights",
-      "karnivore",
-      "vehicle",
-      "walker",
-      "war dog"
+      "CHAOS",
+      "FACTION: CHAOS KNIGHTS",
+      "KARNIVORE",
+      "VEHICLE",
+      "WALKER",
+      "WAR DOG"
     ],
     "name": "War Dog Karnivore",
     "points": [
@@ -4123,7 +4123,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper chaintalon"
           }
@@ -4140,7 +4140,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Slaughterclaw"
           }
@@ -4158,7 +4158,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -4176,8 +4176,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Havoc multi-launcher",
             "range": "48\""
@@ -4205,12 +4205,12 @@
     "faction": "chaosknights",
     "id": "chaosknights/war-dog-moirax",
     "keywords": [
-      "chaos",
-      "faction: chaos knights",
-      "moirax",
-      "vehicle",
-      "walker",
-      "war dog"
+      "CHAOS",
+      "FACTION: CHAOS KNIGHTS",
+      "MOIRAX",
+      "VEHICLE",
+      "WALKER",
+      "WAR DOG"
     ],
     "name": "War Dog Moirax",
     "points": [
@@ -4358,7 +4358,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkite veuglaire",
             "range": "36\""
@@ -4376,8 +4376,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "conversion",
-              "sustained hits d3"
+              "CONVERSION",
+              "SUSTAINED HITS D3"
             ],
             "name": "Conversion beam cannon",
             "range": "24\""
@@ -4395,8 +4395,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti vehicle 2+",
-              "blast"
+              "ANTI-VEHICLE 2+",
+              "BLAST"
             ],
             "name": "Graviton pulsar",
             "range": "24\""
@@ -4414,7 +4414,7 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Lightning lock",
             "range": "36\""
@@ -4432,9 +4432,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Rad cleanser",
             "range": "12\""
@@ -4492,12 +4492,12 @@
     "faction": "chaosknights",
     "id": "chaosknights/war-dog-stalker",
     "keywords": [
-      "chaos",
-      "faction: chaos knights",
-      "stalker",
-      "vehicle",
-      "walker",
-      "war dog"
+      "CHAOS",
+      "FACTION: CHAOS KNIGHTS",
+      "STALKER",
+      "VEHICLE",
+      "WALKER",
+      "WAR DOG"
     ],
     "name": "War Dog Stalker",
     "points": [
@@ -4646,7 +4646,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Diabolus heavy stubber",
             "range": "36\""
@@ -4664,8 +4664,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Havoc multi-launcher",
             "range": "48\""
@@ -4699,7 +4699,7 @@
             "D": "D6",
             "S": "12",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Daemonbreath spear",
             "range": "18\""

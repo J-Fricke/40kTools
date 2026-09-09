@@ -13,7 +13,7 @@ import { effectiveLimitsFromRecord } from "./constraintEval.mjs";
 import { newReport } from "./report.mjs";
 import { ingestFaction } from "./ingest.mjs";
 import { stableStringify } from "./emit.mjs";
-import { canonicalKeyword, parseKeyword } from "./keywordNormalize.mjs";
+import { keywordList, parseKeyword } from "./keywordNormalize.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
@@ -48,14 +48,14 @@ function resolveWeaponSet(rec, picked = new Set()) {
   return out;
 }
 
-test("keyword canonicaliser: casing / separators collapse (string only)", () => {
-  const forms = ["Twin-linked", "Twin-Linked", "TWIN-LINKED", "Twin Linked"];
-  assert.equal(new Set(forms.map(canonicalKeyword)).size, 1);
-  assert.equal(canonicalKeyword("Anti-Fly 4+"), "anti fly 4+");
-  assert.equal(canonicalKeyword("Lethal Hits: non-MONSTER/VEHICLE"), "lethal hits: non monster/vehicle");
-  // parsing is a Story-B concern, provided but not applied by the ingester
-  assert.deepEqual(parseKeyword("anti fly 4+"), { kw: "anti fly", on: 4 });
-  assert.deepEqual(parseKeyword("rapid fire 2"), { kw: "rapid fire", val: "2" });
+test("keywords: uppercased, otherwise verbatim (no separator munging)", () => {
+  assert.deepEqual(keywordList("Twin-linked, Devastating Wounds"), ["TWIN-LINKED", "DEVASTATING WOUNDS"]);
+  assert.deepEqual(keywordList("Anti-Fly 4+"), ["ANTI-FLY 4+"]);
+  // BSData's own inconsistency is preserved for Story B's dictionary to map
+  assert.deepEqual(keywordList("Twin Linked"), ["TWIN LINKED"]);   // != "TWIN-LINKED", on purpose
+  // Story-B parse helper (not applied by the ingester)
+  assert.deepEqual(parseKeyword("ANTI-FLY 4+"), { kw: "anti fly", on: 4 });
+  assert.deepEqual(parseKeyword("Rapid Fire 2"), { kw: "rapid fire", val: "2" });
 });
 
 test("GK Venerable Dreadnought: defaults + #22 (swap keeps other weapons)", () => {

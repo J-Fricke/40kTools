@@ -17,16 +17,16 @@
     "faction": "ironhands",
     "id": "ironhands/caanok-var",
     "keywords": [
-      "caanok var",
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: iron hands",
-      "imperium",
-      "infantry",
-      "leader",
-      "terminator"
+      "CAANOK VAR",
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: IRON HANDS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TERMINATOR"
     ],
     "name": "Caanok Var",
     "points": [
@@ -117,7 +117,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -152,15 +152,15 @@
     "faction": "ironhands",
     "id": "ironhands/iron-father-feirros",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: iron hands",
-      "gravis",
-      "imperium",
-      "infantry",
-      "iron father ferrios",
-      "leader"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: IRON HANDS",
+      "GRAVIS",
+      "IMPERIUM",
+      "INFANTRY",
+      "IRON FATHER FERRIOS",
+      "LEADER"
     ],
     "name": "Iron Father Feirros",
     "points": [
@@ -247,7 +247,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Gorgon's Wrath",
             "range": "36\""
@@ -279,7 +279,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Medusan Manipuli"
           }
@@ -297,7 +297,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""

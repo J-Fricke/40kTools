@@ -17,17 +17,17 @@
     "faction": "ravenguard",
     "id": "ravenguard/aethon-shaan",
     "keywords": [
-      "aethon shaan",
-      "chapter master",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: raven guard",
-      "fly",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "tacticus"
+      "AETHON SHAAN",
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: RAVEN GUARD",
+      "FLY",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "TACTICUS"
     ],
     "name": "Aethon Shaan",
     "points": [
@@ -93,8 +93,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Claws of Severax"
           }
@@ -112,7 +112,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -143,17 +143,17 @@
     "faction": "ravenguard",
     "id": "ravenguard/kayvaan-shrike",
     "keywords": [
-      "chapter master",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: raven guard",
-      "fly",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "kayvaan shrike",
-      "phobos"
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: RAVEN GUARD",
+      "FLY",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "KAYVAAN SHRIKE",
+      "PHOBOS"
     ],
     "name": "Kayvaan Shrike",
     "points": [
@@ -220,8 +220,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "pistol",
-              "precision"
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Blackout",
             "range": "18\""
@@ -238,8 +238,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "precision",
-              "twin linked"
+              "PRECISION",
+              "TWIN-LINKED"
             ],
             "name": "The Raven's Talons"
           }

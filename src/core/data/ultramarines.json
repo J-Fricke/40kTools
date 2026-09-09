@@ -21,14 +21,14 @@
     "faction": "ultramarines",
     "id": "ultramarines/captain-sicarius",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry",
-      "sicarius"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SICARIUS"
     ],
     "name": "Captain Sicarius",
     "points": [
@@ -95,7 +95,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Artisan Plasma Pistol",
             "range": "12\""
@@ -112,7 +112,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Talassarian Tempest Blade"
           }
@@ -139,17 +139,17 @@
     "faction": "ultramarines",
     "id": "ultramarines/captain-titus",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus",
-      "titus"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS",
+      "TITUS"
     ],
     "name": "Captain Titus",
     "points": [
@@ -225,7 +225,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+"
+              "ANTI-INFANTRY 2+"
             ],
             "name": "Master-crafted Chainsword"
           }
@@ -243,8 +243,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Master-crafted Bolter",
             "range": "24\""
@@ -262,7 +262,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -289,17 +289,17 @@
     "faction": "ultramarines",
     "id": "ultramarines/cato-sicarius",
     "keywords": [
-      "captain",
-      "cato",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry",
-      "leader",
-      "sicarius",
-      "tacticus"
+      "CAPTAIN",
+      "CATO",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "SICARIUS",
+      "TACTICUS"
     ],
     "name": "Cato Sicarius",
     "points": [
@@ -366,7 +366,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Artisan Plasma Pistol",
             "range": "12\""
@@ -383,7 +383,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Talassarian Tempest Blade - Strike"
           },
@@ -394,7 +394,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Talassarian Tempest Blade - Coup de Grace"
           },
@@ -405,7 +405,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Talassarian Tempest Blade - Sweep"
           }
@@ -432,13 +432,13 @@
     "faction": "ultramarines",
     "id": "ultramarines/chaplain-cassius-legends",
     "keywords": [
-      "chaplain cassius",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry"
+      "CHAPLAIN CASSIUS",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Chaplain Cassius [Legends]",
     "points": [
@@ -505,10 +505,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Infernus",
             "range": "12\""
@@ -550,15 +550,15 @@
     "faction": "ultramarines",
     "id": "ultramarines/chief-librarian-tigurius",
     "keywords": [
-      "character",
-      "chief librarian tigurius",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker"
+      "CHARACTER",
+      "CHIEF LIBRARIAN TIGURIUS",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER"
     ],
     "name": "Chief Librarian Tigurius",
     "points": [
@@ -635,8 +635,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Storm of the Emperor’s Wrath - Witchfire",
             "range": "18\""
@@ -648,9 +648,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "hazardous",
-              "psychic"
+              "BLAST",
+              "HAZARDOUS",
+              "PSYCHIC"
             ],
             "name": "Storm of the Emperor’s Wrath - Focused Witchfire",
             "range": "18\""
@@ -667,7 +667,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Rod of Tigurius"
           }
@@ -685,7 +685,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -712,16 +712,16 @@
     "faction": "ultramarines",
     "id": "ultramarines/lieutenant-titus",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "grenades",
-      "imperium",
-      "infantry",
-      "lieutenant",
-      "tacticus",
-      "titus"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LIEUTENANT",
+      "TACTICUS",
+      "TITUS"
     ],
     "name": "Lieutenant Titus",
     "points": [
@@ -787,7 +787,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+"
+              "ANTI-INFANTRY 2+"
             ],
             "name": "Astartes Chainsword"
           }
@@ -805,7 +805,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -840,8 +840,8 @@
     "faction": "ultramarines",
     "id": "ultramarines/marneus-calgar",
     "keywords": [
-      "imperium",
-      "infantry"
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Marneus Calgar",
     "points": [
@@ -925,7 +925,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Gauntlets of Ultramar"
           }
@@ -939,8 +939,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "pistol",
-              "twin linked"
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Gauntlets of Ultramar",
             "range": "18\""
@@ -982,16 +982,16 @@
     "faction": "ultramarines",
     "id": "ultramarines/marneus-calgar-in-armour-of-antilochus",
     "keywords": [
-      "chapter master",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry",
-      "leader",
-      "marneus calgar",
-      "terminator"
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "MARNEUS CALGAR",
+      "TERMINATOR"
     ],
     "name": "Marneus Calgar in Armour of Antilochus",
     "points": [
@@ -1047,7 +1047,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Gauntlets of Ultramar"
           }
@@ -1061,8 +1061,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "pistol",
-              "twin linked"
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Gauntlets of Ultramar",
             "range": "18\""
@@ -1093,15 +1093,15 @@
     "faction": "ultramarines",
     "id": "ultramarines/roboute-guilliman",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "mobile",
-      "monster",
-      "primarch",
-      "roboute guilliman"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "MOBILE",
+      "MONSTER",
+      "PRIMARCH",
+      "ROBOUTE GUILLIMAN"
     ],
     "name": "Roboute Guilliman",
     "points": [
@@ -1167,7 +1167,7 @@
             "S": "14",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hand of Dominion"
           }
@@ -1181,7 +1181,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Hand of Dominion",
             "range": "30\""
@@ -1198,7 +1198,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "The Emperor's Sword"
           }
@@ -1221,13 +1221,13 @@
     "faction": "ultramarines",
     "id": "ultramarines/sergeant-chronus-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry",
-      "sergeant chronus"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SERGEANT CHRONUS"
     ],
     "name": "Sergeant Chronus [Legends]",
     "points": [
@@ -1309,7 +1309,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1336,13 +1336,13 @@
     "faction": "ultramarines",
     "id": "ultramarines/sergeant-telion-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry",
-      "sergeant telion"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SERGEANT TELION"
     ],
     "name": "Sergeant Telion [Legends]",
     "points": [
@@ -1434,7 +1434,7 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Quietus",
             "range": "36\""
@@ -1452,7 +1452,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1471,12 +1471,12 @@
     "faction": "ultramarines",
     "id": "ultramarines/tyrannic-war-veterans-legends",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tyrannic war veterans"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TYRANNIC WAR VETERANS"
     ],
     "name": "Tyrannic War Veterans [Legends]",
     "points": [
@@ -1534,12 +1534,12 @@
     "faction": "ultramarines",
     "id": "ultramarines/ultramarines-honour-guard-legends",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "grenades",
-      "honor guard",
-      "imperium",
-      "infantry"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "HONOR GUARD",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Ultramarines Honour Guard [Legends]",
     "points": [
@@ -1712,7 +1712,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1770,16 +1770,16 @@
     "faction": "ultramarines",
     "id": "ultramarines/uriel-ventris",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus",
-      "uriel ventris"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS",
+      "URIEL VENTRIS"
     ],
     "name": "Uriel Ventris",
     "points": [
@@ -1871,7 +1871,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Sword of Idaeus"
           }
@@ -1889,7 +1889,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1916,12 +1916,12 @@
     "faction": "ultramarines",
     "id": "ultramarines/victrix-honour-guard",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "imperium",
-      "infantry",
-      "tacticus",
-      "victrix honour guard"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS",
+      "VICTRIX HONOUR GUARD"
     ],
     "name": "Victrix Honour Guard",
     "points": [
@@ -2081,8 +2081,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "precision",
-              "twin linked"
+              "PRECISION",
+              "TWIN-LINKED"
             ],
             "name": "Blades of Honour"
           }
@@ -2109,15 +2109,15 @@
     "faction": "ultramarines",
     "id": "ultramarines/wardens-of-ultramar",
     "keywords": [
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: ultramarines",
-      "grenades",
-      "imperium",
-      "infantry",
-      "support",
-      "tacticus",
-      "wardens of ultramar"
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: ULTRAMARINES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SUPPORT",
+      "TACTICUS",
+      "WARDENS OF ULTRAMAR"
     ],
     "name": "Wardens of Ultramar",
     "points": [
@@ -2365,8 +2365,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Bolt Rifle",
             "range": "24\""
@@ -2384,7 +2384,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -2417,7 +2417,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Archeotech Laspistol",
             "range": "12\""
@@ -2450,8 +2450,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Astropathic Blast",
             "range": "12\""
@@ -2468,7 +2468,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force Stave"
           }

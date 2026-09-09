@@ -30,16 +30,16 @@
     "faction": "worldeaters",
     "id": "worldeaters/angron",
     "keywords": [
-      "angron",
-      "chaos",
-      "character",
-      "daemon",
-      "epic hero",
-      "faction: world eaters",
-      "fly",
-      "khorne",
-      "monster",
-      "primarch"
+      "ANGRON",
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "EPIC HERO",
+      "FACTION: WORLD EATERS",
+      "FLY",
+      "KHORNE",
+      "MONSTER",
+      "PRIMARCH"
     ],
     "name": "Angron",
     "points": [
@@ -95,7 +95,7 @@
             "S": "14",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Samni’arius and Spinegrinder - strike"
           },
@@ -106,7 +106,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Samni’arius and Spinegrinder - sweep"
           }
@@ -133,13 +133,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/bloodcrushers",
     "keywords": [
-      "bloodcrushers",
-      "chaos",
-      "daemon",
-      "faction: blood legions",
-      "khorne",
-      "mounted",
-      "summoned"
+      "BLOODCRUSHERS",
+      "CHAOS",
+      "DAEMON",
+      "FACTION: BLOOD LEGIONS",
+      "KHORNE",
+      "MOUNTED",
+      "SUMMONED"
     ],
     "name": "Bloodcrushers",
     "points": [
@@ -262,8 +262,8 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "extra attacks",
-              "lance"
+              "EXTRA ATTACKS",
+              "LANCE"
             ],
             "name": "Bladed horn"
           }
@@ -286,13 +286,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/bloodcult-champion-crucible",
     "keywords": [
-      "bloodcult champion",
-      "character",
-      "crucible",
-      "faction: world eaters",
-      "grenades",
-      "infantry",
-      "khorne"
+      "BLOODCULT CHAMPION",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: WORLD EATERS",
+      "GRENADES",
+      "INFANTRY",
+      "KHORNE"
     ],
     "name": "Bloodcult Champion [Crucible]",
     "points": [
@@ -664,8 +664,8 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Axe of dismemberment"
           }
@@ -697,7 +697,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -729,7 +729,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Daemon hammer"
           }
@@ -837,7 +837,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -855,7 +855,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -873,7 +873,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -885,8 +885,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -904,8 +904,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits d3"
+              "ASSAULT",
+              "SUSTAINED HITS D3"
             ],
             "name": "Blood harpoon",
             "range": "18\""
@@ -923,7 +923,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -941,9 +941,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -961,8 +961,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -980,9 +980,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "rapid fire 2",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper autocannon",
             "range": "36\""
@@ -1009,13 +1009,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/bloodletters",
     "keywords": [
-      "battleline",
-      "chaos",
-      "daemon",
-      "faction: blood legions",
-      "infantry",
-      "khorne",
-      "summoned"
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "FACTION: BLOOD LEGIONS",
+      "INFANTRY",
+      "KHORNE",
+      "SUMMONED"
     ],
     "name": "Bloodletters",
     "points": [
@@ -1125,15 +1125,15 @@
     "faction": "worldeaters",
     "id": "worldeaters/bloodthirster",
     "keywords": [
-      "bloodthirster",
-      "chaos",
-      "character",
-      "daemon",
-      "faction: blood legions",
-      "fly",
-      "khorne",
-      "monster",
-      "summoned"
+      "BLOODTHIRSTER",
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "FACTION: BLOOD LEGIONS",
+      "FLY",
+      "KHORNE",
+      "MONSTER",
+      "SUMMONED"
     ],
     "name": "Bloodthirster",
     "points": [
@@ -1282,8 +1282,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Hellfire breath",
             "range": "12\""
@@ -1349,7 +1349,7 @@
             "D": "D6+1",
             "S": "16",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Bloodflail",
             "range": "12\""
@@ -1388,14 +1388,14 @@
     "faction": "worldeaters",
     "id": "worldeaters/butcherlord-crucible",
     "keywords": [
-      "butcherlord",
-      "chaos",
-      "character",
-      "crucible",
-      "faction: world eaters",
-      "grenades",
-      "infantry",
-      "khorne"
+      "BUTCHERLORD",
+      "CHAOS",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: WORLD EATERS",
+      "GRENADES",
+      "INFANTRY",
+      "KHORNE"
     ],
     "name": "Butcherlord [Crucible]",
     "points": [
@@ -1767,8 +1767,8 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Axe of dismemberment"
           }
@@ -1800,7 +1800,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -1832,7 +1832,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Daemon hammer"
           }
@@ -1940,7 +1940,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1958,7 +1958,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -1976,7 +1976,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -1988,8 +1988,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -2007,8 +2007,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits d3"
+              "ASSAULT",
+              "SUSTAINED HITS D3"
             ],
             "name": "Blood harpoon",
             "range": "18\""
@@ -2026,7 +2026,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -2044,9 +2044,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2064,8 +2064,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -2083,9 +2083,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "rapid fire 2",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper autocannon",
             "range": "36\""
@@ -2113,14 +2113,14 @@
     "faction": "worldeaters",
     "id": "worldeaters/chaos-land-raider",
     "keywords": [
-      "chaos",
-      "faction: world eaters",
-      "frame",
-      "khorne",
-      "land raider",
-      "smoke",
-      "transport",
-      "vehicle"
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "FRAME",
+      "KHORNE",
+      "LAND RAIDER",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Chaos Land Raider",
     "points": [
@@ -2260,7 +2260,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Soulshatter lascannon",
             "range": "48\""
@@ -2278,7 +2278,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -2296,9 +2296,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2316,7 +2316,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -2334,9 +2334,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 2",
-              "sustained hits 1",
-              "twin linked"
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -2355,13 +2355,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/chaos-predator-annihilator",
     "keywords": [
-      "chaos",
-      "faction: world eaters",
-      "frame",
-      "khorne",
-      "predator annihilator",
-      "smoke",
-      "vehicle"
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "FRAME",
+      "KHORNE",
+      "PREDATOR ANNIHILATOR",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Chaos Predator Annihilator",
     "points": [
@@ -2523,8 +2523,8 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "rapid fire 2",
-              "twin linked"
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Predator twin lascannon",
             "range": "48\""
@@ -2542,7 +2542,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -2560,9 +2560,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2581,8 +2581,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 2",
-              "sustained hits 1"
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "qty": 2,
@@ -2634,7 +2634,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -2653,13 +2653,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/chaos-predator-destructor",
     "keywords": [
-      "chaos",
-      "faction: world eaters",
-      "frame",
-      "khorne",
-      "predator destructor",
-      "smoke",
-      "vehicle"
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "FRAME",
+      "KHORNE",
+      "PREDATOR DESTRUCTOR",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Chaos Predator Destructor",
     "points": [
@@ -2821,7 +2821,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "rapid fire 6"
+              "RAPID FIRE 6"
             ],
             "name": "Predator autocannon",
             "range": "48\""
@@ -2839,7 +2839,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -2857,9 +2857,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2878,8 +2878,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 2",
-              "sustained hits 1"
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "qty": 2,
@@ -2931,7 +2931,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -2954,15 +2954,15 @@
     "faction": "worldeaters",
     "id": "worldeaters/chaos-rhino",
     "keywords": [
-      "chaos",
-      "dedicated transport",
-      "faction: world eaters",
-      "frame",
-      "khorne",
-      "rhino",
-      "smoke",
-      "transport",
-      "vehicle"
+      "CHAOS",
+      "DEDICATED TRANSPORT",
+      "FACTION: WORLD EATERS",
+      "FRAME",
+      "KHORNE",
+      "RHINO",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Chaos Rhino",
     "points": [
@@ -3077,7 +3077,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -3095,9 +3095,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -3130,7 +3130,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -3149,11 +3149,11 @@
     "faction": "worldeaters",
     "id": "worldeaters/chaos-spawn",
     "keywords": [
-      "beast",
-      "chaos",
-      "faction: world eaters",
-      "khorne",
-      "spawn"
+      "BEAST",
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "KHORNE",
+      "SPAWN"
     ],
     "name": "Chaos Spawn",
     "points": [
@@ -3235,12 +3235,12 @@
     "faction": "worldeaters",
     "id": "worldeaters/chaos-terminators",
     "keywords": [
-      "chaos",
-      "faction: world eaters",
-      "infantry",
-      "khorne",
-      "terminator",
-      "terminator squad"
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "INFANTRY",
+      "KHORNE",
+      "TERMINATOR",
+      "TERMINATOR SQUAD"
     ],
     "name": "Chaos Terminators",
     "points": [
@@ -3801,9 +3801,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -3850,7 +3850,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -3868,7 +3868,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -3885,7 +3885,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paired accursed weapons"
           }
@@ -3903,9 +3903,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "rapid fire 2",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper autocannon",
             "range": "36\""
@@ -3923,8 +3923,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -3951,13 +3951,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/daemon-prince-of-khorne",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "daemon prince",
-      "faction: world eaters",
-      "khorne",
-      "monster"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "DAEMON PRINCE",
+      "FACTION: WORLD EATERS",
+      "KHORNE",
+      "MONSTER"
     ],
     "name": "Daemon Prince of Khorne",
     "points": [
@@ -4059,7 +4059,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Infernal cannon",
             "range": "24\""
@@ -4082,14 +4082,14 @@
     "faction": "worldeaters",
     "id": "worldeaters/daemon-prince-of-khorne-with-wings",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "daemon prince",
-      "faction: world eaters",
-      "fly",
-      "khorne",
-      "monster"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "DAEMON PRINCE",
+      "FACTION: WORLD EATERS",
+      "FLY",
+      "KHORNE",
+      "MONSTER"
     ],
     "name": "Daemon Prince of Khorne with wings",
     "points": [
@@ -4191,7 +4191,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Infernal cannon",
             "range": "24\""
@@ -4218,13 +4218,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/defiler",
     "keywords": [
-      "chaos",
-      "daemon",
-      "defiler",
-      "faction: world eaters",
-      "khorne",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "DAEMON",
+      "DEFILER",
+      "FACTION: WORLD EATERS",
+      "KHORNE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Defiler",
     "points": [
@@ -4497,8 +4497,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "rapid fire 3"
+              "BLAST",
+              "RAPID FIRE 3"
             ],
             "name": "Heavy missile launcher - frag",
             "range": "48\""
@@ -4510,7 +4510,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Heavy missile launcher - krak",
             "range": "48\""
@@ -4527,8 +4527,8 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "sustained hits 2"
+              "EXTRA ATTACKS",
+              "SUSTAINED HITS 2"
             ],
             "name": "Electroscourge"
           }
@@ -4546,7 +4546,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Hades lascannon",
             "range": "48\""
@@ -4564,9 +4564,9 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "devastating wounds",
-              "rapid fire 2",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy reaper autocannon",
             "range": "48\""
@@ -4584,8 +4584,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "rapid fire 3"
+              "BLAST",
+              "RAPID FIRE 3"
             ],
             "name": "Hades battle cannon",
             "range": "48\""
@@ -4603,8 +4603,8 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "blast",
-              "rapid fire 2"
+              "BLAST",
+              "RAPID FIRE 2"
             ],
             "name": "Ectoplasma destructor",
             "range": "36\""
@@ -4622,8 +4622,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy baleflamer",
             "range": "12\""
@@ -4641,7 +4641,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Excruciator cannon",
             "range": "36\""
@@ -4659,8 +4659,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "rapid fire 1"
+              "MELTA 2",
+              "RAPID FIRE 1"
             ],
             "name": "Magma cutter",
             "range": "12\""
@@ -4683,13 +4683,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/eight-blessed-lord-crucible",
     "keywords": [
-      "chaos",
-      "character",
-      "crucible",
-      "eight-blessed lord",
-      "faction: world eaters",
-      "khorne",
-      "mounted"
+      "CHAOS",
+      "CHARACTER",
+      "CRUCIBLE",
+      "EIGHT-BLESSED LORD",
+      "FACTION: WORLD EATERS",
+      "KHORNE",
+      "MOUNTED"
     ],
     "name": "Eight-blessed Lord [Crucible]",
     "points": [
@@ -5056,8 +5056,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "lance"
+              "EXTRA ATTACKS",
+              "LANCE"
             ],
             "name": "Bladed horn"
           }
@@ -5089,8 +5089,8 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Axe of dismemberment"
           }
@@ -5122,7 +5122,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -5154,7 +5154,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Daemon hammer"
           }
@@ -5262,7 +5262,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -5280,7 +5280,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -5298,7 +5298,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -5310,8 +5310,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -5329,8 +5329,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits d3"
+              "ASSAULT",
+              "SUSTAINED HITS D3"
             ],
             "name": "Blood harpoon",
             "range": "18\""
@@ -5348,7 +5348,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -5366,9 +5366,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -5386,8 +5386,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -5405,9 +5405,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "rapid fire 2",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper autocannon",
             "range": "36\""
@@ -5430,13 +5430,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/eightbound",
     "keywords": [
-      "chaos",
-      "daemon",
-      "eightbound",
-      "faction: world eaters",
-      "infantry",
-      "khorne",
-      "possessed"
+      "CHAOS",
+      "DAEMON",
+      "EIGHTBOUND",
+      "FACTION: WORLD EATERS",
+      "INFANTRY",
+      "KHORNE",
+      "POSSESSED"
     ],
     "name": "Eightbound",
     "points": [
@@ -5541,13 +5541,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/exalted-eightbound",
     "keywords": [
-      "chaos",
-      "daemon",
-      "exalted eightbound",
-      "faction: world eaters",
-      "infantry",
-      "khorne",
-      "possessed"
+      "CHAOS",
+      "DAEMON",
+      "EXALTED EIGHTBOUND",
+      "FACTION: WORLD EATERS",
+      "INFANTRY",
+      "KHORNE",
+      "POSSESSED"
     ],
     "name": "Exalted Eightbound",
     "points": [
@@ -5631,8 +5631,8 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainblades"
           }
@@ -5651,13 +5651,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/flesh-hounds",
     "keywords": [
-      "beast",
-      "chaos",
-      "daemon",
-      "faction: blood legions",
-      "flesh hounds",
-      "khorne",
-      "summoned"
+      "BEAST",
+      "CHAOS",
+      "DAEMON",
+      "FACTION: BLOOD LEGIONS",
+      "FLESH HOUNDS",
+      "KHORNE",
+      "SUMMONED"
     ],
     "name": "Flesh Hounds",
     "points": [
@@ -5787,8 +5787,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Burning roar",
             "range": "12\""
@@ -5811,13 +5811,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/forgefiend",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: world eaters",
-      "forgefiend",
-      "khorne",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: WORLD EATERS",
+      "FORGEFIEND",
+      "KHORNE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Forgefiend",
     "points": [
@@ -5975,8 +5975,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "rapid fire 1"
+              "BLAST",
+              "RAPID FIRE 1"
             ],
             "name": "Ectoplasma cannon",
             "qty": 2,
@@ -5996,7 +5996,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Hades autocannon",
             "qty": 2,
@@ -6030,8 +6030,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "rapid fire 1"
+              "BLAST",
+              "RAPID FIRE 1"
             ],
             "name": "Ectoplasma cannon",
             "range": "36\""
@@ -6065,12 +6065,12 @@
     "faction": "worldeaters",
     "id": "worldeaters/goremongers",
     "keywords": [
-      "chaos",
-      "faction: world eaters",
-      "goremongers",
-      "grenades",
-      "infantry",
-      "khorne"
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "GOREMONGERS",
+      "GRENADES",
+      "INFANTRY",
+      "KHORNE"
     ],
     "name": "Goremongers",
     "points": [
@@ -6312,7 +6312,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -6329,7 +6329,7 @@
             "S": "3",
             "WS": "4+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Chainblade"
           }
@@ -6362,8 +6362,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits d3"
+              "ASSAULT",
+              "SUSTAINED HITS D3"
             ],
             "name": "Blood harpoon",
             "range": "18\""
@@ -6386,12 +6386,12 @@
     "faction": "worldeaters",
     "id": "worldeaters/helbrute",
     "keywords": [
-      "chaos",
-      "faction: world eaters",
-      "helbrute",
-      "khorne",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "HELBRUTE",
+      "KHORNE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Helbrute",
     "points": [
@@ -6714,7 +6714,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -6732,8 +6732,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -6751,8 +6751,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "rapid fire 3"
+              "BLAST",
+              "RAPID FIRE 3"
             ],
             "name": "Missile launcher - frag",
             "range": "48\""
@@ -6764,7 +6764,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Missile launcher - krak",
             "range": "48\""
@@ -6812,8 +6812,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "rapid fire 1"
+              "MELTA 2",
+              "RAPID FIRE 1"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -6831,8 +6831,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "rapid fire 2",
-              "twin linked"
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin autocannon",
             "range": "48\""
@@ -6850,9 +6850,9 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous",
-              "rapid fire d3"
+              "BLAST",
+              "HAZARDOUS",
+              "RAPID FIRE D3"
             ],
             "name": "Plasma cannon",
             "range": "36\""
@@ -6870,9 +6870,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 2",
-              "sustained hits 1",
-              "twin linked"
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -6890,8 +6890,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "rapid fire 1",
-              "twin linked"
+              "RAPID FIRE 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -6914,13 +6914,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/heldrake",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: world eaters",
-      "fly",
-      "heldrake",
-      "khorne",
-      "vehicle"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: WORLD EATERS",
+      "FLY",
+      "HELDRAKE",
+      "KHORNE",
+      "VEHICLE"
     ],
     "name": "Heldrake",
     "points": [
@@ -7017,8 +7017,8 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "anti fly 2+",
-              "devastating wounds"
+              "ANTI-FLY 2+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heldrake claws"
           }
@@ -7036,8 +7036,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Baleflamer",
             "range": "12\""
@@ -7055,7 +7055,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Hades autocannon",
             "range": "36\""
@@ -7079,13 +7079,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/hell-talon-legends",
     "keywords": [
-      "aircraft",
-      "chaos",
-      "faction: world eaters",
-      "fly",
-      "hell talon",
-      "khorne",
-      "vehicle"
+      "AIRCRAFT",
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "FLY",
+      "HELL TALON",
+      "KHORNE",
+      "VEHICLE"
     ],
     "name": "Hell Talon [Legends]",
     "points": [
@@ -7225,7 +7225,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -7243,8 +7243,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "rapid fire 1",
-              "twin linked"
+              "RAPID FIRE 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -7263,13 +7263,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/hellblade-legends",
     "keywords": [
-      "aircraft",
-      "chaos",
-      "faction: world eaters",
-      "fly",
-      "hellblade",
-      "khorne",
-      "vehicle"
+      "AIRCRAFT",
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "FLY",
+      "HELLBLADE",
+      "KHORNE",
+      "VEHICLE"
     ],
     "name": "Hellblade [Legends]",
     "points": [
@@ -7381,8 +7381,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "rapid fire 1",
-              "twin linked"
+              "RAPID FIRE 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "qty": 2,
@@ -7406,12 +7406,12 @@
     "faction": "worldeaters",
     "id": "worldeaters/jakhals",
     "keywords": [
-      "chaos",
-      "faction: world eaters",
-      "grenades",
-      "infantry",
-      "jakhals",
-      "khorne"
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "GRENADES",
+      "INFANTRY",
+      "JAKHALS",
+      "KHORNE"
     ],
     "name": "Jakhals",
     "points": [
@@ -7898,7 +7898,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -7989,14 +7989,14 @@
     "faction": "worldeaters",
     "id": "worldeaters/kha-rn-the-betrayer",
     "keywords": [
-      "chaos",
-      "character",
-      "epic hero",
-      "faction: world eaters",
-      "grenades",
-      "infantry",
-      "khorne",
-      "khârn the betrayer"
+      "CHAOS",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: WORLD EATERS",
+      "GRENADES",
+      "INFANTRY",
+      "KHORNE",
+      "KHÂRN THE BETRAYER"
     ],
     "name": "Khârn the Betrayer",
     "points": [
@@ -8078,7 +8078,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -8090,8 +8090,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -8114,13 +8114,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/khorne-berzerkers",
     "keywords": [
-      "battleline",
-      "berzerkers",
-      "chaos",
-      "faction: world eaters",
-      "grenades",
-      "infantry",
-      "khorne"
+      "BATTLELINE",
+      "BERZERKERS",
+      "CHAOS",
+      "FACTION: WORLD EATERS",
+      "GRENADES",
+      "INFANTRY",
+      "KHORNE"
     ],
     "name": "Khorne Berzerkers",
     "points": [
@@ -8373,7 +8373,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -8385,8 +8385,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -8404,7 +8404,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -8462,15 +8462,15 @@
     "faction": "worldeaters",
     "id": "worldeaters/khorne-lord-of-skulls",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: world eaters",
-      "frame",
-      "khorne",
-      "lord of skulls",
-      "titanic",
-      "towering",
-      "vehicle"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: WORLD EATERS",
+      "FRAME",
+      "KHORNE",
+      "LORD OF SKULLS",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE"
     ],
     "name": "Khorne Lord of Skulls",
     "points": [
@@ -8633,8 +8633,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "rapid fire 6",
-              "sustained hits 1"
+              "RAPID FIRE 6",
+              "SUSTAINED HITS 1"
             ],
             "name": "Hades gatling cannon",
             "range": "48\""
@@ -8652,7 +8652,7 @@
             "D": "3",
             "S": "14",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Skullhurler",
             "range": "60\""
@@ -8670,8 +8670,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "rapid fire 3"
+              "BLAST",
+              "RAPID FIRE 3"
             ],
             "name": "Gorestorm cannon",
             "range": "24\""
@@ -8689,8 +8689,8 @@
             "D": "D6+2",
             "S": "14",
             "keywords": [
-              "blast",
-              "rapid fire 3"
+              "BLAST",
+              "RAPID FIRE 3"
             ],
             "name": "Daemongore cannon",
             "range": "18\""
@@ -8708,8 +8708,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "rapid fire 4"
+              "BLAST",
+              "RAPID FIRE 4"
             ],
             "name": "Ichor cannon",
             "range": "48\""
@@ -8736,13 +8736,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/lord-invocatus",
     "keywords": [
-      "chaos",
-      "character",
-      "epic hero",
-      "faction: world eaters",
-      "khorne",
-      "lord invocatus",
-      "mounted"
+      "CHAOS",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: WORLD EATERS",
+      "KHORNE",
+      "LORD INVOCATUS",
+      "MOUNTED"
     ],
     "name": "Lord Invocatus",
     "points": [
@@ -8819,7 +8819,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -8836,7 +8836,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Coward's Bane"
           }
@@ -8853,8 +8853,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "lance"
+              "EXTRA ATTACKS",
+              "LANCE"
             ],
             "name": "Bladed horn"
           }
@@ -8881,12 +8881,12 @@
     "faction": "worldeaters",
     "id": "worldeaters/lord-on-juggernaut",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: world eaters",
-      "khorne",
-      "lord on juggernaut",
-      "mounted"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: WORLD EATERS",
+      "KHORNE",
+      "LORD ON JUGGERNAUT",
+      "MOUNTED"
     ],
     "name": "Lord on Juggernaut",
     "points": [
@@ -8974,8 +8974,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "lance"
+              "EXTRA ATTACKS",
+              "LANCE"
             ],
             "name": "Bladed horn"
           }
@@ -9008,7 +9008,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -9020,8 +9020,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -9048,12 +9048,12 @@
     "faction": "worldeaters",
     "id": "worldeaters/master-of-executions",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: world eaters",
-      "infantry",
-      "khorne",
-      "master of executions"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: WORLD EATERS",
+      "INFANTRY",
+      "KHORNE",
+      "MASTER OF EXECUTIONS"
     ],
     "name": "Master of Executions",
     "points": [
@@ -9130,8 +9130,8 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Axe of dismemberment"
           }
@@ -9149,7 +9149,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -9176,13 +9176,13 @@
     "faction": "worldeaters",
     "id": "worldeaters/maulerfiend",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: world eaters",
-      "khorne",
-      "maulerfiend",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: WORLD EATERS",
+      "KHORNE",
+      "MAULERFIEND",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Maulerfiend",
     "points": [
@@ -9304,8 +9304,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "rapid fire 1"
+              "MELTA 2",
+              "RAPID FIRE 1"
             ],
             "name": "Magma cutter",
             "range": "6\""
@@ -9322,7 +9322,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Lasher tendrils"
           }
@@ -9350,14 +9350,14 @@
     "faction": "worldeaters",
     "id": "worldeaters/skarbrand",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "epic hero",
-      "faction: blood legions",
-      "khorne",
-      "monster",
-      "skarbrand"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "EPIC HERO",
+      "FACTION: BLOOD LEGIONS",
+      "KHORNE",
+      "MONSTER",
+      "SKARBRAND"
     ],
     "name": "Skarbrand",
     "points": [
@@ -9424,8 +9424,8 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Bellow of endless fury",
             "range": "12\""
@@ -9480,14 +9480,14 @@
     "faction": "worldeaters",
     "id": "worldeaters/slaughterbound",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "faction: world eaters",
-      "infantry",
-      "khorne",
-      "possessed",
-      "slaughterbound"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "FACTION: WORLD EATERS",
+      "INFANTRY",
+      "KHORNE",
+      "POSSESSED",
+      "SLAUGHTERBOUND"
     ],
     "name": "Slaughterbound",
     "points": [

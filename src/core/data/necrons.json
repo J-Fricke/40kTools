@@ -9,11 +9,11 @@
     "faction": "necrons",
     "id": "necrons/annihilation-barge",
     "keywords": [
-      "annihilation barge",
-      "faction: necrons",
-      "fly",
-      "frame",
-      "vehicle"
+      "ANNIHILATION BARGE",
+      "FACTION: NECRONS",
+      "FLY",
+      "FRAME",
+      "VEHICLE"
     ],
     "name": "Annihilation Barge",
     "points": [
@@ -122,8 +122,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin tesla destructor",
             "range": "36\""
@@ -141,7 +141,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss cannon",
             "range": "24\""
@@ -159,7 +159,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Tesla cannon",
             "range": "24\""
@@ -201,13 +201,13 @@
     "faction": "necrons",
     "id": "necrons/anrakyr-the-traveller-legends",
     "keywords": [
-      "anrakyr the traveller",
-      "character",
-      "epic hero",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "noble"
+      "ANRAKYR THE TRAVELLER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "NOBLE"
     ],
     "name": "Anrakyr the Traveller [Legends]",
     "points": [
@@ -273,7 +273,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Warscythe"
           }
@@ -291,7 +291,7 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Tachyon arrow",
             "range": "72\""
@@ -322,12 +322,12 @@
     "faction": "necrons",
     "id": "necrons/c-tan-shard-of-the-deceiver",
     "keywords": [
-      "c'tan shard of the deceiver",
-      "character",
-      "epic hero",
-      "faction: necrons",
-      "fly",
-      "monster"
+      "C'TAN SHARD OF THE DECEIVER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "FLY",
+      "MONSTER"
     ],
     "name": "C'tan Shard of the Deceiver",
     "points": [
@@ -394,9 +394,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti character 4+",
-              "devastating wounds",
-              "precision"
+              "ANTI-CHARACTER 4+",
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Cosmic insanity",
             "range": "18\""
@@ -442,12 +442,12 @@
     "faction": "necrons",
     "id": "necrons/c-tan-shard-of-the-nightbringer",
     "keywords": [
-      "c'tan shard of the nightbringer",
-      "character",
-      "epic hero",
-      "faction: necrons",
-      "fly",
-      "monster"
+      "C'TAN SHARD OF THE NIGHTBRINGER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "FLY",
+      "MONSTER"
     ],
     "name": "C'tan Shard of the Nightbringer",
     "points": [
@@ -529,7 +529,7 @@
             "S": "14",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Scythe of the Nightbringer - strike"
           },
@@ -569,12 +569,12 @@
     "faction": "necrons",
     "id": "necrons/c-tan-shard-of-the-void-dragon",
     "keywords": [
-      "c'tan shard of the void dragon",
-      "character",
-      "epic hero",
-      "faction: necrons",
-      "fly",
-      "monster"
+      "C'TAN SHARD OF THE VOID DRAGON",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "FLY",
+      "MONSTER"
     ],
     "name": "C'tan Shard of the Void Dragon",
     "points": [
@@ -650,7 +650,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Spear of the Void Dragon - strike"
           },
@@ -673,7 +673,7 @@
             "D": "D6+2",
             "S": "8",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Spear of the Void Dragon",
             "range": "12\""
@@ -691,8 +691,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "sustained hits 2"
+              "BLAST",
+              "SUSTAINED HITS 2"
             ],
             "name": "Voltaic storm",
             "range": "18\""
@@ -709,7 +709,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Canoptek tail blades"
           }
@@ -728,11 +728,11 @@
     "faction": "necrons",
     "id": "necrons/canoptek-acanthrites-legends",
     "keywords": [
-      "acanthrites",
-      "beast",
-      "canoptek",
-      "faction: necrons",
-      "fly"
+      "ACANTHRITES",
+      "BEAST",
+      "CANOPTEK",
+      "FACTION: NECRONS",
+      "FLY"
     ],
     "name": "Canoptek Acanthrites [Legends]",
     "points": [
@@ -819,7 +819,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Cutting beam",
             "range": "12\""
@@ -858,11 +858,11 @@
     "faction": "necrons",
     "id": "necrons/canoptek-doomstalker",
     "keywords": [
-      "canoptek",
-      "doomstalker",
-      "faction: necrons",
-      "vehicle",
-      "walker"
+      "CANOPTEK",
+      "DOOMSTALKER",
+      "FACTION: NECRONS",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Canoptek Doomstalker",
     "points": [
@@ -951,8 +951,8 @@
             "D": "3",
             "S": "14",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Doomsday blaster",
             "range": "48\""
@@ -985,9 +985,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 1",
-              "twin linked"
+              "LETHAL HITS",
+              "RAPID FIRE 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin gauss flayer",
             "range": "24\""
@@ -1006,11 +1006,11 @@
     "faction": "necrons",
     "id": "necrons/canoptek-macrocytes",
     "keywords": [
-      "beast",
-      "canoptek",
-      "faction: necrons",
-      "fly",
-      "macrocytes"
+      "BEAST",
+      "CANOPTEK",
+      "FACTION: NECRONS",
+      "FLY",
+      "MACROCYTES"
     ],
     "name": "Canoptek Macrocytes",
     "points": [
@@ -1266,8 +1266,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits 1"
+              "ASSAULT",
+              "SUSTAINED HITS 1"
             ],
             "name": "Tesla caster",
             "range": "18\""
@@ -1285,7 +1285,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss scalpel",
             "range": "18\""
@@ -1304,11 +1304,11 @@
     "faction": "necrons",
     "id": "necrons/canoptek-reanimator",
     "keywords": [
-      "canoptek",
-      "faction: necrons",
-      "reanimator",
-      "vehicle",
-      "walker"
+      "CANOPTEK",
+      "FACTION: NECRONS",
+      "REANIMATOR",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Canoptek Reanimator",
     "points": [
@@ -1422,11 +1422,11 @@
     "faction": "necrons",
     "id": "necrons/canoptek-scarab-swarms",
     "keywords": [
-      "canoptek",
-      "faction: necrons",
-      "fly",
-      "scarab swarms",
-      "swarm"
+      "CANOPTEK",
+      "FACTION: NECRONS",
+      "FLY",
+      "SCARAB SWARMS",
+      "SWARM"
     ],
     "name": "Canoptek Scarab Swarms",
     "points": [
@@ -1500,7 +1500,7 @@
             "S": "2",
             "WS": "5+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Feeder mandibles"
           }
@@ -1519,11 +1519,11 @@
     "faction": "necrons",
     "id": "necrons/canoptek-spyders",
     "keywords": [
-      "canoptek",
-      "faction: necrons",
-      "fly",
-      "spyders",
-      "vehicle"
+      "CANOPTEK",
+      "FACTION: NECRONS",
+      "FLY",
+      "SPYDERS",
+      "VEHICLE"
     ],
     "name": "Canoptek Spyders",
     "points": [
@@ -1632,8 +1632,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Particle beamer",
             "range": "18\""
@@ -1656,11 +1656,11 @@
     "faction": "necrons",
     "id": "necrons/canoptek-tomb-crawlers",
     "keywords": [
-      "beast",
-      "canoptek",
-      "canoptek retinue",
-      "faction: necrons",
-      "tomb crawlers"
+      "BEAST",
+      "CANOPTEK",
+      "CANOPTEK RETINUE",
+      "FACTION: NECRONS",
+      "TOMB CRAWLERS"
     ],
     "name": "Canoptek Tomb Crawlers",
     "points": [
@@ -1800,8 +1800,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "twin linked"
+              "LETHAL HITS",
+              "TWIN-LINKED"
             ],
             "name": "Twin gauss reaper",
             "range": "12\""
@@ -1855,10 +1855,10 @@
     "faction": "necrons",
     "id": "necrons/canoptek-tomb-sentinel-legends",
     "keywords": [
-      "canoptek",
-      "faction: necrons",
-      "monster",
-      "tomb sentinel"
+      "CANOPTEK",
+      "FACTION: NECRONS",
+      "MONSTER",
+      "TOMB SENTINEL"
     ],
     "name": "Canoptek Tomb Sentinel [Legends]",
     "points": [
@@ -1936,7 +1936,7 @@
             "D": "2",
             "S": "10",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Exile cannon",
             "range": "18\""
@@ -1974,10 +1974,10 @@
     "faction": "necrons",
     "id": "necrons/canoptek-tomb-stalker-legends",
     "keywords": [
-      "canoptek",
-      "faction: necrons",
-      "monster",
-      "tomb stalker"
+      "CANOPTEK",
+      "FACTION: NECRONS",
+      "MONSTER",
+      "TOMB STALKER"
     ],
     "name": "Canoptek Tomb Stalker [Legends]",
     "points": [
@@ -2055,7 +2055,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss slicers",
             "range": "24\""
@@ -2072,7 +2072,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Tomb Stalker claws"
           }
@@ -2091,11 +2091,11 @@
     "faction": "necrons",
     "id": "necrons/canoptek-wraiths",
     "keywords": [
-      "beast",
-      "canoptek",
-      "faction: necrons",
-      "fly",
-      "wraiths"
+      "BEAST",
+      "CANOPTEK",
+      "FACTION: NECRONS",
+      "FLY",
+      "WRAITHS"
     ],
     "name": "Canoptek Wraiths",
     "points": [
@@ -2349,8 +2349,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Particle caster",
             "range": "12\""
@@ -2388,13 +2388,13 @@
     "faction": "necrons",
     "id": "necrons/catacomb-command-barge",
     "keywords": [
-      "catacomb command barge",
-      "character",
-      "faction: necrons",
-      "fly",
-      "frame",
-      "noble",
-      "vehicle"
+      "CATACOMB COMMAND BARGE",
+      "CHARACTER",
+      "FACTION: NECRONS",
+      "FLY",
+      "FRAME",
+      "NOBLE",
+      "VEHICLE"
     ],
     "name": "Catacomb Command Barge",
     "points": [
@@ -2512,7 +2512,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss cannon",
             "range": "24\""
@@ -2530,7 +2530,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Tesla cannon",
             "range": "24\""
@@ -2574,7 +2574,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Overlord's blade"
           }
@@ -2601,12 +2601,12 @@
     "faction": "necrons",
     "id": "necrons/chronomancer",
     "keywords": [
-      "character",
-      "chronomancer",
-      "cryptek",
-      "faction: necrons",
-      "infantry",
-      "support"
+      "CHARACTER",
+      "CHRONOMANCER",
+      "CRYPTEK",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "SUPPORT"
     ],
     "name": "Chronomancer",
     "points": [
@@ -2683,7 +2683,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Chronomancer's stave",
             "range": "18\""
@@ -2710,11 +2710,11 @@
     "faction": "necrons",
     "id": "necrons/convergence-of-dominion",
     "keywords": [
-      "convergence of dominion",
-      "faction: necrons",
-      "fortification",
-      "frame",
-      "vehicle"
+      "CONVERGENCE OF DOMINION",
+      "FACTION: NECRONS",
+      "FORTIFICATION",
+      "FRAME",
+      "VEHICLE"
     ],
     "name": "Convergence of Dominion",
     "points": [
@@ -2805,10 +2805,10 @@
     "faction": "necrons",
     "id": "necrons/cryptothralls",
     "keywords": [
-      "canoptek retinue",
-      "cryptothralls",
-      "faction: necrons",
-      "infantry"
+      "CANOPTEK RETINUE",
+      "CRYPTOTHRALLS",
+      "FACTION: NECRONS",
+      "INFANTRY"
     ],
     "name": "Cryptothralls",
     "points": [
@@ -2918,9 +2918,9 @@
     "faction": "necrons",
     "id": "necrons/deathmarks",
     "keywords": [
-      "deathmarks",
-      "faction: necrons",
-      "infantry"
+      "DEATHMARKS",
+      "FACTION: NECRONS",
+      "INFANTRY"
     ],
     "name": "Deathmarks",
     "points": [
@@ -3007,8 +3007,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Synaptic disintegrator",
             "range": "36\""
@@ -3047,11 +3047,11 @@
     "faction": "necrons",
     "id": "necrons/doom-scythe",
     "keywords": [
-      "aircraft",
-      "doom scythe",
-      "faction: necrons",
-      "fly",
-      "vehicle"
+      "AIRCRAFT",
+      "DOOM SCYTHE",
+      "FACTION: NECRONS",
+      "FLY",
+      "VEHICLE"
     ],
     "name": "Doom Scythe",
     "points": [
@@ -3140,7 +3140,7 @@
             "D": "D6+1",
             "S": "16",
             "keywords": [
-              "sustained hits d3"
+              "SUSTAINED HITS D3"
             ],
             "name": "Heavy death ray",
             "range": "36\""
@@ -3158,8 +3158,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin tesla destructor",
             "range": "36\""
@@ -3198,11 +3198,11 @@
     "faction": "necrons",
     "id": "necrons/doomsday-ark",
     "keywords": [
-      "doomsday ark",
-      "faction: necrons",
-      "fly",
-      "frame",
-      "vehicle"
+      "DOOMSDAY ARK",
+      "FACTION: NECRONS",
+      "FLY",
+      "FRAME",
+      "VEHICLE"
     ],
     "name": "Doomsday Ark",
     "points": [
@@ -3291,8 +3291,8 @@
             "D": "4",
             "S": "18",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Doomsday cannon",
             "range": "72\""
@@ -3310,8 +3310,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 5"
+              "LETHAL HITS",
+              "RAPID FIRE 5"
             ],
             "name": "Gauss flayer array",
             "range": "24\""
@@ -3349,12 +3349,12 @@
     "faction": "necrons",
     "id": "necrons/dynastic-conqueror-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "dynastic conqueror",
-      "faction: necrons",
-      "infantry",
-      "noble"
+      "CHARACTER",
+      "CRUCIBLE",
+      "DYNASTIC CONQUEROR",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "NOBLE"
     ],
     "name": "Dynastic Conqueror [Crucible]",
     "points": [
@@ -4049,7 +4049,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Chronomancer's stave",
             "range": "18\""
@@ -4067,7 +4067,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Enmitic annihilator",
             "range": "18\""
@@ -4085,9 +4085,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "heavy",
-              "rapid fire 6",
-              "sustained hits 1"
+              "HEAVY",
+              "RAPID FIRE 6",
+              "SUSTAINED HITS 1"
             ],
             "name": "Enmitic exterminator",
             "range": "36\""
@@ -4105,7 +4105,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss cannon",
             "range": "24\""
@@ -4123,8 +4123,8 @@
             "D": "6",
             "S": "14",
             "keywords": [
-              "heavy",
-              "lethal hits"
+              "HEAVY",
+              "LETHAL HITS"
             ],
             "name": "Gauss destructor",
             "range": "48\""
@@ -4142,8 +4142,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heat ray - dispersed",
             "range": "12\""
@@ -4155,7 +4155,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Heat ray - focused",
             "range": "18\""
@@ -4173,7 +4173,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy gauss cannon array",
             "range": "24\""
@@ -4191,8 +4191,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Particle caster",
             "range": "12\""
@@ -4210,8 +4210,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Particle shredder",
             "range": "18\""
@@ -4245,8 +4245,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Relic gauss blaster",
             "range": "24\""
@@ -4296,7 +4296,7 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Tachyon arrow",
             "range": "72\""
@@ -4358,8 +4358,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Flayer claws"
           }
@@ -4421,7 +4421,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Lord's blade"
           }
@@ -4543,7 +4543,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Warscythe"
           }
@@ -4560,7 +4560,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Voidscythe"
           }
@@ -4579,9 +4579,9 @@
     "faction": "necrons",
     "id": "necrons/flayed-ones",
     "keywords": [
-      "faction: necrons",
-      "flayed ones",
-      "infantry"
+      "FACTION: NECRONS",
+      "FLAYED ONES",
+      "INFANTRY"
     ],
     "name": "Flayed Ones",
     "points": [
@@ -4659,8 +4659,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Flayer claws"
           }
@@ -4688,12 +4688,12 @@
     "faction": "necrons",
     "id": "necrons/gauss-pylon-legends",
     "keywords": [
-      "faction: necrons",
-      "fortification",
-      "gauss pylon",
-      "titanic",
-      "towering",
-      "vehicle"
+      "FACTION: NECRONS",
+      "FORTIFICATION",
+      "GAUSS PYLON",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE"
     ],
     "name": "Gauss Pylon [Legends]",
     "points": [
@@ -4760,8 +4760,8 @@
             "D": "D6+6",
             "S": "16",
             "keywords": [
-              "anti fly 2+",
-              "lethal hits"
+              "ANTI-FLY 2+",
+              "LETHAL HITS"
             ],
             "name": "Gauss annihilator",
             "range": "120\""
@@ -4779,7 +4779,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Tesla arc",
             "range": "6\""
@@ -4810,12 +4810,12 @@
     "faction": "necrons",
     "id": "necrons/geomancer",
     "keywords": [
-      "character",
-      "cryptek",
-      "faction: necrons",
-      "geomancer",
-      "infantry",
-      "support"
+      "CHARACTER",
+      "CRYPTEK",
+      "FACTION: NECRONS",
+      "GEOMANCER",
+      "INFANTRY",
+      "SUPPORT"
     ],
     "name": "Geomancer",
     "points": [
@@ -4892,7 +4892,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Tremorglaive - reverberating beam",
             "range": "18\""
@@ -4904,8 +4904,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Tremorglaive - shock wave pulse",
             "range": "18\""
@@ -4928,13 +4928,13 @@
     "faction": "necrons",
     "id": "necrons/ghost-ark",
     "keywords": [
-      "dedicated transport",
-      "faction: necrons",
-      "fly",
-      "frame",
-      "ghost ark",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: NECRONS",
+      "FLY",
+      "FRAME",
+      "GHOST ARK",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Ghost Ark",
     "points": [
@@ -5012,8 +5012,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 5"
+              "LETHAL HITS",
+              "RAPID FIRE 5"
             ],
             "name": "Gauss flayer array",
             "range": "24\""
@@ -5051,11 +5051,11 @@
     "faction": "necrons",
     "id": "necrons/hexmark-destroyer",
     "keywords": [
-      "character",
-      "destroyer cult",
-      "faction: necrons",
-      "hexmark destroyer",
-      "infantry"
+      "CHARACTER",
+      "DESTROYER CULT",
+      "FACTION: NECRONS",
+      "HEXMARK DESTROYER",
+      "INFANTRY"
     ],
     "name": "Hexmark Destroyer",
     "points": [
@@ -5148,8 +5148,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Enmitic disintegrator pistols",
             "range": "18\""
@@ -5168,12 +5168,12 @@
     "faction": "necrons",
     "id": "necrons/hyperscientist-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "cryptek",
-      "faction: necrons",
-      "hyperscientist",
-      "infantry"
+      "CHARACTER",
+      "CRUCIBLE",
+      "CRYPTEK",
+      "FACTION: NECRONS",
+      "HYPERSCIENTIST",
+      "INFANTRY"
     ],
     "name": "Hyperscientist [Crucible]",
     "points": [
@@ -5868,7 +5868,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Chronomancer's stave",
             "range": "18\""
@@ -5886,7 +5886,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Enmitic annihilator",
             "range": "18\""
@@ -5904,9 +5904,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "heavy",
-              "rapid fire 6",
-              "sustained hits 1"
+              "HEAVY",
+              "RAPID FIRE 6",
+              "SUSTAINED HITS 1"
             ],
             "name": "Enmitic exterminator",
             "range": "36\""
@@ -5924,7 +5924,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss cannon",
             "range": "24\""
@@ -5942,8 +5942,8 @@
             "D": "6",
             "S": "14",
             "keywords": [
-              "heavy",
-              "lethal hits"
+              "HEAVY",
+              "LETHAL HITS"
             ],
             "name": "Gauss destructor",
             "range": "48\""
@@ -5961,8 +5961,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heat ray - dispersed",
             "range": "12\""
@@ -5974,7 +5974,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Heat ray - focused",
             "range": "18\""
@@ -5992,7 +5992,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy gauss cannon array",
             "range": "24\""
@@ -6010,8 +6010,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Particle caster",
             "range": "12\""
@@ -6029,8 +6029,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Particle shredder",
             "range": "18\""
@@ -6064,8 +6064,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Relic gauss blaster",
             "range": "24\""
@@ -6115,7 +6115,7 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Tachyon arrow",
             "range": "72\""
@@ -6177,8 +6177,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Flayer claws"
           }
@@ -6240,7 +6240,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Lord's blade"
           }
@@ -6362,7 +6362,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Warscythe"
           }
@@ -6379,7 +6379,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Voidscythe"
           }
@@ -6406,12 +6406,12 @@
     "faction": "necrons",
     "id": "necrons/illuminor-szeras",
     "keywords": [
-      "character",
-      "cryptek",
-      "epic hero",
-      "faction: necrons",
-      "illuminor szeras",
-      "infantry"
+      "CHARACTER",
+      "CRYPTEK",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "ILLUMINOR SZERAS",
+      "INFANTRY"
     ],
     "name": "Illuminor Szeras",
     "points": [
@@ -6504,7 +6504,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Impaling legs"
           }
@@ -6523,10 +6523,10 @@
     "faction": "necrons",
     "id": "necrons/immortals",
     "keywords": [
-      "battleline",
-      "faction: necrons",
-      "immortals",
-      "infantry"
+      "BATTLELINE",
+      "FACTION: NECRONS",
+      "IMMORTALS",
+      "INFANTRY"
     ],
     "name": "Immortals",
     "points": [
@@ -6652,7 +6652,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss blaster",
             "range": "24\""
@@ -6670,8 +6670,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits 2"
+              "ASSAULT",
+              "SUSTAINED HITS 2"
             ],
             "name": "Tesla carbine",
             "range": "24\""
@@ -6698,13 +6698,13 @@
     "faction": "necrons",
     "id": "necrons/imotekh-the-stormlord",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: necrons",
-      "imotekh the stormlord",
-      "infantry",
-      "leader",
-      "noble"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "IMOTEKH THE STORMLORD",
+      "INFANTRY",
+      "LEADER",
+      "NOBLE"
     ],
     "name": "Imotekh the Stormlord",
     "points": [
@@ -6771,8 +6771,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Gauntlet of Fire",
             "range": "12\""
@@ -6789,7 +6789,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Staff of the Destroyer"
           }
@@ -6820,11 +6820,11 @@
     "faction": "necrons",
     "id": "necrons/lokhust-destroyers",
     "keywords": [
-      "destroyer cult",
-      "faction: necrons",
-      "fly",
-      "lokhust destroyers",
-      "mounted"
+      "DESTROYER CULT",
+      "FACTION: NECRONS",
+      "FLY",
+      "LOKHUST DESTROYERS",
+      "MOUNTED"
     ],
     "name": "Lokhust Destroyers",
     "points": [
@@ -6911,7 +6911,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss cannon",
             "range": "24\""
@@ -6945,11 +6945,11 @@
     "faction": "necrons",
     "id": "necrons/lokhust-heavy-destroyers",
     "keywords": [
-      "destroyer cult",
-      "faction: necrons",
-      "fly",
-      "lokhust heavy destroyers",
-      "mounted"
+      "DESTROYER CULT",
+      "FACTION: NECRONS",
+      "FLY",
+      "LOKHUST HEAVY DESTROYERS",
+      "MOUNTED"
     ],
     "name": "Lokhust Heavy Destroyers",
     "points": [
@@ -7072,9 +7072,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "heavy",
-              "rapid fire 6",
-              "sustained hits 1"
+              "HEAVY",
+              "RAPID FIRE 6",
+              "SUSTAINED HITS 1"
             ],
             "name": "Enmitic exterminator",
             "range": "36\""
@@ -7107,8 +7107,8 @@
             "D": "6",
             "S": "14",
             "keywords": [
-              "heavy",
-              "lethal hits"
+              "HEAVY",
+              "LETHAL HITS"
             ],
             "name": "Gauss destructor",
             "range": "48\""
@@ -7135,13 +7135,13 @@
     "faction": "necrons",
     "id": "necrons/lokhust-lord",
     "keywords": [
-      "character",
-      "destroyer cult",
-      "faction: necrons",
-      "fly",
-      "leader",
-      "lokhust lord",
-      "mounted"
+      "CHARACTER",
+      "DESTROYER CULT",
+      "FACTION: NECRONS",
+      "FLY",
+      "LEADER",
+      "LOKHUST LORD",
+      "MOUNTED"
     ],
     "name": "Lokhust Lord",
     "points": [
@@ -7226,7 +7226,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Lord's blade"
           }
@@ -7276,12 +7276,12 @@
     "faction": "necrons",
     "id": "necrons/lord-legends",
     "keywords": [
-      "character",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "lord",
-      "noble"
+      "CHARACTER",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "LORD",
+      "NOBLE"
     ],
     "name": "Lord [Legends]",
     "points": [
@@ -7366,7 +7366,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Lord's blade"
           }
@@ -7412,9 +7412,9 @@
     "faction": "necrons",
     "id": "necrons/lychguard",
     "keywords": [
-      "faction: necrons",
-      "infantry",
-      "lychguard"
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LYCHGUARD"
     ],
     "name": "Lychguard",
     "points": [
@@ -7521,7 +7521,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Warscythe"
           }
@@ -7560,13 +7560,13 @@
     "faction": "necrons",
     "id": "necrons/monolith",
     "keywords": [
-      "faction: necrons",
-      "fly",
-      "frame",
-      "monolith",
-      "titanic",
-      "towering",
-      "vehicle"
+      "FACTION: NECRONS",
+      "FLY",
+      "FRAME",
+      "MONOLITH",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE"
     ],
     "name": "Monolith",
     "points": [
@@ -7693,8 +7693,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Particle whip",
             "range": "24\""
@@ -7727,7 +7727,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "sustained hits d3"
+              "SUSTAINED HITS D3"
             ],
             "name": "Death ray",
             "range": "24\""
@@ -7745,8 +7745,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "lethal hits",
-              "rapid fire 3"
+              "LETHAL HITS",
+              "RAPID FIRE 3"
             ],
             "name": "Gauss flux arc",
             "range": "24\""
@@ -7765,10 +7765,10 @@
     "faction": "necrons",
     "id": "necrons/necron-warriors",
     "keywords": [
-      "battleline",
-      "faction: necrons",
-      "infantry",
-      "necron warriors"
+      "BATTLELINE",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "NECRON WARRIORS"
     ],
     "name": "Necron Warriors",
     "points": [
@@ -7891,8 +7891,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 1"
+              "LETHAL HITS",
+              "RAPID FIRE 1"
             ],
             "name": "Gauss flayer",
             "range": "24\""
@@ -7925,7 +7925,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss reaper",
             "range": "12\""
@@ -7952,12 +7952,12 @@
     "faction": "necrons",
     "id": "necrons/nekrosor-ammentar",
     "keywords": [
-      "character",
-      "destroyer cult",
-      "epic hero",
-      "faction: necrons",
-      "infantry",
-      "nekrosor ammentar"
+      "CHARACTER",
+      "DESTROYER CULT",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "NEKROSOR AMMENTAR"
     ],
     "name": "Nekrosor Ammentar",
     "points": [
@@ -8045,7 +8045,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Blade tail and whip coils"
           }
@@ -8063,9 +8063,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "sustained hits 2"
+              "IGNORES COVER",
+              "PISTOL",
+              "SUSTAINED HITS 2"
             ],
             "name": "Enmitic disintegrators",
             "range": "18\""
@@ -8107,13 +8107,13 @@
     "faction": "necrons",
     "id": "necrons/nemesor-zahndrekh-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "nemesor zahndrekh",
-      "noble"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "NEMESOR ZAHNDREKH",
+      "NOBLE"
     ],
     "name": "Nemesor Zahndrekh [Legends]",
     "points": [
@@ -8211,11 +8211,11 @@
     "faction": "necrons",
     "id": "necrons/night-scythe",
     "keywords": [
-      "faction: necrons",
-      "fly",
-      "night scythe",
-      "transport",
-      "vehicle"
+      "FACTION: NECRONS",
+      "FLY",
+      "NIGHT SCYTHE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Night Scythe",
     "points": [
@@ -8293,8 +8293,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin tesla destructor",
             "range": "36\""
@@ -8333,11 +8333,11 @@
     "faction": "necrons",
     "id": "necrons/night-shroud-legends",
     "keywords": [
-      "aircraft",
-      "faction: necrons",
-      "fly",
-      "night shroud",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: NECRONS",
+      "FLY",
+      "NIGHT SHROUD",
+      "VEHICLE"
     ],
     "name": "Night Shroud [Legends]",
     "points": [
@@ -8415,8 +8415,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin tesla destructor",
             "range": "36\""
@@ -8455,13 +8455,13 @@
     "faction": "necrons",
     "id": "necrons/obelisk",
     "keywords": [
-      "faction: necrons",
-      "fly",
-      "frame",
-      "obelisk",
-      "titanic",
-      "towering",
-      "vehicle"
+      "FACTION: NECRONS",
+      "FLY",
+      "FRAME",
+      "OBELISK",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE"
     ],
     "name": "Obelisk",
     "points": [
@@ -8554,8 +8554,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "anti fly 4+",
-              "sustained hits 2"
+              "ANTI-FLY 4+",
+              "SUSTAINED HITS 2"
             ],
             "name": "Tesla sphere",
             "range": "24\""
@@ -8574,10 +8574,10 @@
     "faction": "necrons",
     "id": "necrons/ophydian-destroyers",
     "keywords": [
-      "destroyer cult",
-      "faction: necrons",
-      "infantry",
-      "ophydian destroyers"
+      "DESTROYER CULT",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "OPHYDIAN DESTROYERS"
     ],
     "name": "Ophydian Destroyers",
     "points": [
@@ -8685,14 +8685,14 @@
     "faction": "necrons",
     "id": "necrons/orikan-the-diviner",
     "keywords": [
-      "character",
-      "chronomancer",
-      "cryptek",
-      "epic hero",
-      "faction: necrons",
-      "infantry",
-      "orikan the diviner",
-      "support"
+      "CHARACTER",
+      "CHRONOMANCER",
+      "CRYPTEK",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "ORIKAN THE DIVINER",
+      "SUPPORT"
     ],
     "name": "Orikan the Diviner",
     "points": [
@@ -8748,7 +8748,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Staff of Tomorrow"
           }
@@ -8771,12 +8771,12 @@
     "faction": "necrons",
     "id": "necrons/overlord",
     "keywords": [
-      "character",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "noble",
-      "overlord"
+      "CHARACTER",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "NOBLE",
+      "OVERLORD"
     ],
     "name": "Overlord",
     "points": [
@@ -8892,7 +8892,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Overlord's blade"
           }
@@ -8910,7 +8910,7 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Tachyon arrow",
             "range": "72\""
@@ -8927,7 +8927,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Voidscythe"
           }
@@ -8977,13 +8977,13 @@
     "faction": "necrons",
     "id": "necrons/overlord-with-translocation-shroud",
     "keywords": [
-      "character",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "noble",
-      "overlord",
-      "overlord with translocation shroud"
+      "CHARACTER",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "NOBLE",
+      "OVERLORD",
+      "OVERLORD WITH TRANSLOCATION SHROUD"
     ],
     "name": "Overlord with Translocation Shroud",
     "points": [
@@ -9048,7 +9048,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Overlord's blade"
           }
@@ -9075,12 +9075,12 @@
     "faction": "necrons",
     "id": "necrons/plasmancer",
     "keywords": [
-      "character",
-      "cryptek",
-      "faction: necrons",
-      "infantry",
-      "plasmancer",
-      "support"
+      "CHARACTER",
+      "CRYPTEK",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "PLASMANCER",
+      "SUPPORT"
     ],
     "name": "Plasmancer",
     "points": [
@@ -9182,12 +9182,12 @@
     "faction": "necrons",
     "id": "necrons/psychomancer",
     "keywords": [
-      "character",
-      "cryptek",
-      "faction: necrons",
-      "infantry",
-      "psychomancer",
-      "support"
+      "CHARACTER",
+      "CRYPTEK",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "PSYCHOMANCER",
+      "SUPPORT"
     ],
     "name": "Psychomancer",
     "points": [
@@ -9289,11 +9289,11 @@
     "faction": "necrons",
     "id": "necrons/royal-warden",
     "keywords": [
-      "character",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "royal warden"
+      "CHARACTER",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "ROYAL WARDEN"
     ],
     "name": "Royal Warden",
     "points": [
@@ -9386,8 +9386,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Relic gauss blaster",
             "range": "24\""
@@ -9410,11 +9410,11 @@
     "faction": "necrons",
     "id": "necrons/sentry-pylon-legends",
     "keywords": [
-      "faction: necrons",
-      "fortification",
-      "frame",
-      "sentry pylon",
-      "vehicle"
+      "FACTION: NECRONS",
+      "FORTIFICATION",
+      "FRAME",
+      "SENTRY PYLON",
+      "VEHICLE"
     ],
     "name": "Sentry Pylon [Legends]",
     "points": [
@@ -9501,7 +9501,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Focused death ray",
             "range": "36\""
@@ -9519,7 +9519,7 @@
             "D": "6",
             "S": "14",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss exterminator",
             "range": "48\""
@@ -9537,7 +9537,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Heat cannon",
             "range": "36\""
@@ -9561,13 +9561,13 @@
     "faction": "necrons",
     "id": "necrons/seraptek-heavy-construct",
     "keywords": [
-      "faction: necrons",
-      "frame",
-      "seraptek heavy construct",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "FACTION: NECRONS",
+      "FRAME",
+      "SERAPTEK HEAVY CONSTRUCT",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Seraptek Heavy Construct",
     "points": [
@@ -9719,8 +9719,8 @@
             "D": "4",
             "S": "10",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Singularity generator",
             "range": "36\""
@@ -9738,7 +9738,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Synaptic obliterator",
             "range": "48\""
@@ -9773,10 +9773,10 @@
     "faction": "necrons",
     "id": "necrons/skorpekh-destroyers",
     "keywords": [
-      "destroyer cult",
-      "faction: necrons",
-      "infantry",
-      "skorpekh destroyers"
+      "DESTROYER CULT",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "SKORPEKH DESTROYERS"
     ],
     "name": "Skorpekh Destroyers",
     "points": [
@@ -9884,12 +9884,12 @@
     "faction": "necrons",
     "id": "necrons/skorpekh-lord",
     "keywords": [
-      "character",
-      "destroyer cult",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "skorpekh lord"
+      "CHARACTER",
+      "DESTROYER CULT",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "SKORPEKH LORD"
     ],
     "name": "Skorpekh Lord",
     "points": [
@@ -9978,7 +9978,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Enmitic annihilator",
             "range": "18\""
@@ -10035,13 +10035,13 @@
     "faction": "necrons",
     "id": "necrons/technomancer",
     "keywords": [
-      "character",
-      "cryptek",
-      "faction: necrons",
-      "fly",
-      "infantry",
-      "support",
-      "technomancer"
+      "CHARACTER",
+      "CRYPTEK",
+      "FACTION: NECRONS",
+      "FLY",
+      "INFANTRY",
+      "SUPPORT",
+      "TECHNOMANCER"
     ],
     "name": "Technomancer",
     "points": [
@@ -10135,10 +10135,10 @@
     "faction": "necrons",
     "id": "necrons/tesseract-ark-legends",
     "keywords": [
-      "faction: necrons",
-      "fly",
-      "tesseract ark",
-      "vehicle"
+      "FACTION: NECRONS",
+      "FLY",
+      "TESSERACT ARK",
+      "VEHICLE"
     ],
     "name": "Tesseract Ark [Legends]",
     "points": [
@@ -10284,8 +10284,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Tesseract singularity chamber - particle",
             "range": "12\""
@@ -10297,7 +10297,7 @@
             "D": "D6+1",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Tesseract singularity chamber - seismic lash",
             "range": "36\""
@@ -10315,7 +10315,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss cannon",
             "range": "24\""
@@ -10333,8 +10333,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Particle beamer",
             "range": "18\""
@@ -10352,7 +10352,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Tesla cannon",
             "range": "24\""
@@ -10391,13 +10391,13 @@
     "faction": "necrons",
     "id": "necrons/tesseract-vault",
     "keywords": [
-      "faction: necrons",
-      "fly",
-      "frame",
-      "tesseract vault",
-      "titanic",
-      "towering",
-      "vehicle"
+      "FACTION: NECRONS",
+      "FLY",
+      "FRAME",
+      "TESSERACT VAULT",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE"
     ],
     "name": "Tesseract Vault",
     "points": [
@@ -10490,7 +10490,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Tesla sphere",
             "range": "24\""
@@ -10534,10 +10534,10 @@
     "faction": "necrons",
     "id": "necrons/the-silent-king",
     "keywords": [
-      "epic hero",
-      "faction: necrons",
-      "triarch",
-      "vehicle"
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "TRIARCH",
+      "VEHICLE"
     ],
     "name": "The Silent King",
     "points": [
@@ -10657,7 +10657,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Sceptre of Eternal Glory",
             "range": "24\""
@@ -10675,7 +10675,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "indirect fire"
+              "INDIRECT FIRE"
             ],
             "name": "Staff of Stars",
             "range": "24\""
@@ -10692,7 +10692,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Weapons of the Final Triarch"
           }
@@ -10742,10 +10742,10 @@
     "faction": "necrons",
     "id": "necrons/tomb-blades",
     "keywords": [
-      "faction: necrons",
-      "fly",
-      "mounted",
-      "tomb blades"
+      "FACTION: NECRONS",
+      "FLY",
+      "MOUNTED",
+      "TOMB BLADES"
     ],
     "name": "Tomb Blades",
     "points": [
@@ -10877,8 +10877,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "twin linked"
+              "LETHAL HITS",
+              "TWIN-LINKED"
             ],
             "name": "Twin gauss blaster",
             "range": "24\""
@@ -10896,8 +10896,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Particle beamer",
             "range": "18\""
@@ -10915,9 +10915,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits 2",
-              "twin linked"
+              "ASSAULT",
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin tesla carbine",
             "range": "24\""
@@ -10945,12 +10945,12 @@
     "faction": "necrons",
     "id": "necrons/tomb-citadel-walls-legends",
     "keywords": [
-      "faction: necrons",
-      "fortification",
-      "frame",
-      "titanic",
-      "tomb citadel",
-      "vehicle"
+      "FACTION: NECRONS",
+      "FORTIFICATION",
+      "FRAME",
+      "TITANIC",
+      "TOMB CITADEL",
+      "VEHICLE"
     ],
     "name": "Tomb Citadel Walls [Legends]",
     "points": [
@@ -11026,8 +11026,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin tesla destructor",
             "range": "36\""
@@ -11045,7 +11045,7 @@
             "D": "6",
             "S": "14",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss exterminator",
             "range": "48\""
@@ -11080,11 +11080,11 @@
     "faction": "necrons",
     "id": "necrons/transcendent-c-tan",
     "keywords": [
-      "character",
-      "faction: necrons",
-      "fly",
-      "monster",
-      "transcendent c'tan"
+      "CHARACTER",
+      "FACTION: NECRONS",
+      "FLY",
+      "MONSTER",
+      "TRANSCENDENT C'TAN"
     ],
     "name": "Transcendent C'tan",
     "points": [
@@ -11161,7 +11161,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Crackling tendrils"
           }
@@ -11179,8 +11179,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "assault",
-              "sustained hits 1"
+              "ASSAULT",
+              "SUSTAINED HITS 1"
             ],
             "name": "Seismic assault",
             "range": "12\""
@@ -11207,13 +11207,13 @@
     "faction": "necrons",
     "id": "necrons/trazyn-the-infinite",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "noble",
-      "trazyn the infinite"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "NOBLE",
+      "TRAZYN THE INFINITE"
     ],
     "name": "Trazyn the Infinite",
     "points": [
@@ -11269,7 +11269,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "sustained hits d3"
+              "SUSTAINED HITS D3"
             ],
             "name": "Empathic Obliterator"
           }
@@ -11288,10 +11288,10 @@
     "faction": "necrons",
     "id": "necrons/triarch-praetorians",
     "keywords": [
-      "faction: necrons",
-      "fly",
-      "infantry",
-      "triarch praetorians"
+      "FACTION: NECRONS",
+      "FLY",
+      "INFANTRY",
+      "TRIARCH PRAETORIANS"
     ],
     "name": "Triarch Praetorians",
     "points": [
@@ -11414,8 +11414,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Particle caster",
             "range": "12\""
@@ -11449,12 +11449,12 @@
     "faction": "necrons",
     "id": "necrons/triarch-stalker",
     "keywords": [
-      "faction: necrons",
-      "frame",
-      "stalker",
-      "triarch",
-      "vehicle",
-      "walker"
+      "FACTION: NECRONS",
+      "FRAME",
+      "STALKER",
+      "TRIARCH",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Triarch Stalker",
     "points": [
@@ -11577,8 +11577,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heat ray - dispersed",
             "range": "12\""
@@ -11590,7 +11590,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Heat ray - focused",
             "range": "18\""
@@ -11608,8 +11608,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Particle shredder",
             "range": "18\""
@@ -11627,7 +11627,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy gauss cannon array",
             "range": "24\""
@@ -11646,14 +11646,14 @@
     "faction": "necrons",
     "id": "necrons/triarchal-overseer-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: necrons",
-      "stalker",
-      "triarch",
-      "triarchal overseer",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: NECRONS",
+      "STALKER",
+      "TRIARCH",
+      "TRIARCHAL OVERSEER",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Triarchal Overseer [Crucible]",
     "points": [
@@ -12348,7 +12348,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Chronomancer's stave",
             "range": "18\""
@@ -12366,7 +12366,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Enmitic annihilator",
             "range": "18\""
@@ -12384,9 +12384,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "heavy",
-              "rapid fire 6",
-              "sustained hits 1"
+              "HEAVY",
+              "RAPID FIRE 6",
+              "SUSTAINED HITS 1"
             ],
             "name": "Enmitic exterminator",
             "range": "36\""
@@ -12404,7 +12404,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gauss cannon",
             "range": "24\""
@@ -12422,8 +12422,8 @@
             "D": "6",
             "S": "14",
             "keywords": [
-              "heavy",
-              "lethal hits"
+              "HEAVY",
+              "LETHAL HITS"
             ],
             "name": "Gauss destructor",
             "range": "48\""
@@ -12441,8 +12441,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heat ray - dispersed",
             "range": "12\""
@@ -12454,7 +12454,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Heat ray - focused",
             "range": "18\""
@@ -12472,7 +12472,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy gauss cannon array",
             "range": "24\""
@@ -12490,8 +12490,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Particle caster",
             "range": "12\""
@@ -12509,8 +12509,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Particle shredder",
             "range": "18\""
@@ -12544,8 +12544,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Relic gauss blaster",
             "range": "24\""
@@ -12595,7 +12595,7 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Tachyon arrow",
             "range": "72\""
@@ -12657,8 +12657,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Flayer claws"
           }
@@ -12720,7 +12720,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Lord's blade"
           }
@@ -12842,7 +12842,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Warscythe"
           }
@@ -12859,7 +12859,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Voidscythe"
           }
@@ -12886,12 +12886,12 @@
     "faction": "necrons",
     "id": "necrons/vargard-obyron-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: necrons",
-      "infantry",
-      "leader",
-      "vargard obyron"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: NECRONS",
+      "INFANTRY",
+      "LEADER",
+      "VARGARD OBYRON"
     ],
     "name": "Vargard Obyron [Legends]",
     "points": [
@@ -12947,8 +12947,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Warscythe"
           }

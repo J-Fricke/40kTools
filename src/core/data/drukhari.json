@@ -21,13 +21,13 @@
     "faction": "drukhari",
     "id": "drukhari/archon",
     "keywords": [
-      "aeldari",
-      "archon",
-      "character",
-      "faction: drukhari",
-      "infantry",
-      "kabal",
-      "leader"
+      "AELDARI",
+      "ARCHON",
+      "CHARACTER",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "KABAL",
+      "LEADER"
     ],
     "name": "Archon",
     "points": [
@@ -155,9 +155,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter pistol",
             "range": "12\""
@@ -175,7 +175,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast pistol",
             "range": "6\""
@@ -192,7 +192,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Huskblade"
           }
@@ -209,7 +209,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Agoniser"
           }
@@ -251,13 +251,13 @@
     "faction": "drukhari",
     "id": "drukhari/archtormentor-crucible",
     "keywords": [
-      "aeldari",
-      "archtormentor",
-      "character",
-      "crucible",
-      "faction: drukhari",
-      "infantry",
-      "wych cult"
+      "AELDARI",
+      "ARCHTORMENTOR",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "WYCH CULT"
     ],
     "name": "Archtormentor [Crucible]",
     "points": [
@@ -570,7 +570,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -588,8 +588,8 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Heat Lance",
             "range": "18\""
@@ -607,8 +607,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Shardcarbine",
             "range": "18\""
@@ -626,9 +626,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Splinter Pods",
             "range": "18\""
@@ -646,8 +646,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Splinter Rifle",
             "range": "24\""
@@ -665,7 +665,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -683,9 +683,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -703,9 +703,9 @@
             "D": "D3",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "pistol",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Stinger Pistol",
             "range": "12\""
@@ -722,7 +722,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Agoniser"
           }
@@ -739,8 +739,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "PRECISION"
             ],
             "name": "Archite glaive and agoniser"
           }
@@ -757,8 +757,8 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "extra attacks",
-              "lance"
+              "EXTRA ATTACKS",
+              "LANCE"
             ],
             "name": "Bladevanes"
           }
@@ -799,8 +799,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PRECISION"
             ],
             "name": "Haemonculus tools and scissorhands"
           }
@@ -817,8 +817,8 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lance",
-              "sustained hits 1"
+              "LANCE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Hellglaive"
           }
@@ -835,7 +835,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Huskblade"
           }
@@ -867,9 +867,9 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "lance",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "LANCE",
+              "PRECISION"
             ],
             "name": "Stunclaw"
           }
@@ -892,10 +892,10 @@
     "faction": "drukhari",
     "id": "drukhari/beastmaster-legends",
     "keywords": [
-      "aeldari",
-      "beast",
-      "character",
-      "faction: drukhari"
+      "AELDARI",
+      "BEAST",
+      "CHARACTER",
+      "FACTION: DRUKHARI"
     ],
     "name": "Beastmaster [Legends]",
     "points": [
@@ -1059,7 +1059,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Agonizer"
           }
@@ -1077,9 +1077,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Splinter pods",
             "range": "18\""
@@ -1096,7 +1096,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Clawed Fiend fists"
           }
@@ -1113,7 +1113,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Khymerae talons"
           }
@@ -1130,7 +1130,7 @@
             "S": "3",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Razorwing Feathers"
           }
@@ -1149,12 +1149,12 @@
     "faction": "drukhari",
     "id": "drukhari/corsair-cloud-dancer-band-legends",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "corsair cloud dancer band",
-      "corsairs and travelling players",
-      "grenades",
-      "mounted"
+      "AELDARI",
+      "ANHRATHE",
+      "CORSAIR CLOUD DANCER BAND",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "GRENADES",
+      "MOUNTED"
     ],
     "name": "Corsair Cloud Dancer Band [Legends]",
     "points": [
@@ -1439,8 +1439,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin shuriken catapult",
             "range": "18\""
@@ -1458,7 +1458,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -1492,7 +1492,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Dissonance cannon",
             "range": "24\""
@@ -1510,8 +1510,8 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter cannon",
             "range": "36\""
@@ -1544,8 +1544,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Dissonance pistol",
             "range": "12\""
@@ -1563,8 +1563,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Brace of pistols",
             "range": "12\""
@@ -1587,12 +1587,12 @@
     "faction": "drukhari",
     "id": "drukhari/corsair-reaver-band-legends",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "corsair reaver band",
-      "corsairs and travelling players",
-      "grenades",
-      "infantry"
+      "AELDARI",
+      "ANHRATHE",
+      "CORSAIR REAVER BAND",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "GRENADES",
+      "INFANTRY"
     ],
     "name": "Corsair Reaver Band [Legends]",
     "points": [
@@ -2397,8 +2397,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "lethal hits"
+              "ASSAULT",
+              "LETHAL HITS"
             ],
             "name": "Corsair firearm",
             "range": "24\""
@@ -2431,7 +2431,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari missile launcher - sunburst",
             "range": "48\""
@@ -2459,7 +2459,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -2477,8 +2477,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -2496,8 +2496,8 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2"
+              "ASSAULT",
+              "MELTA 2"
             ],
             "name": "Fusion gun",
             "range": "12\""
@@ -2515,9 +2515,9 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter cannon",
             "range": "36\""
@@ -2535,9 +2535,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -2555,7 +2555,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Dark lance",
             "range": "48\""
@@ -2573,7 +2573,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -2606,8 +2606,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Dissonance pistol",
             "range": "12\""
@@ -2625,8 +2625,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Brace of pistols",
             "range": "12\""
@@ -2645,14 +2645,14 @@
     "faction": "drukhari",
     "id": "drukhari/corsair-skyreavers",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "corsair skyreavers",
-      "faction: asuryani",
-      "fly",
-      "grenades",
-      "infantry",
-      "jump pack"
+      "AELDARI",
+      "ANHRATHE",
+      "CORSAIR SKYREAVERS",
+      "FACTION: ASURYANI",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "JUMP PACK"
     ],
     "name": "Corsair Skyreavers",
     "points": [
@@ -3037,9 +3037,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro disruptor",
             "range": "12\""
@@ -3057,8 +3057,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken pistol",
             "range": "12\""
@@ -3076,8 +3076,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -3095,8 +3095,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -3114,7 +3114,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Corsair blaster",
             "range": "18\""
@@ -3147,9 +3147,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -3167,8 +3167,8 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2"
+              "ASSAULT",
+              "MELTA 2"
             ],
             "name": "Fusion gun",
             "range": "12\""
@@ -3186,8 +3186,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -3206,15 +3206,15 @@
     "faction": "drukhari",
     "id": "drukhari/corsair-voidreavers",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "battleline",
-      "corsair voidreavers",
-      "corsairs and travelling players",
-      "faction: asuryani",
-      "grenades",
-      "infantry",
-      "ynnari"
+      "AELDARI",
+      "ANHRATHE",
+      "BATTLELINE",
+      "CORSAIR VOIDREAVERS",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Corsair Voidreavers",
     "points": [
@@ -3572,7 +3572,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -3621,8 +3621,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "rapid fire 1"
+              "ASSAULT",
+              "RAPID FIRE 1"
             ],
             "name": "Shuriken rifle",
             "range": "24\""
@@ -3640,8 +3640,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -3674,7 +3674,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -3692,8 +3692,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Corsair shredder",
             "range": "18\""
@@ -3711,9 +3711,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro disruptor",
             "range": "12\""
@@ -3731,8 +3731,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken pistol",
             "range": "12\""
@@ -3751,14 +3751,14 @@
     "faction": "drukhari",
     "id": "drukhari/corsair-voidscarred",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "corsair voidscarred",
-      "corsairs and travelling players",
-      "faction: asuryani",
-      "grenades",
-      "infantry",
-      "ynnari"
+      "AELDARI",
+      "ANHRATHE",
+      "CORSAIR VOIDSCARRED",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Corsair Voidscarred",
     "points": [
@@ -4348,7 +4348,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paired Hekatarii blades"
           }
@@ -4381,8 +4381,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -4415,8 +4415,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Executioner",
             "range": "18\""
@@ -4433,8 +4433,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witch staff"
           }
@@ -4452,8 +4452,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "rapid fire 1"
+              "ASSAULT",
+              "RAPID FIRE 1"
             ],
             "name": "Shuriken rifle",
             "range": "24\""
@@ -4471,9 +4471,9 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2",
-              "pistol"
+              "ASSAULT",
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Fusion pistol",
             "range": "6\""
@@ -4491,7 +4491,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -4525,8 +4525,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Long rifle",
             "range": "36\""
@@ -4544,8 +4544,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Corsair shredder",
             "range": "18\""
@@ -4563,7 +4563,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Corsair blaster",
             "range": "18\""
@@ -4581,9 +4581,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro disruptor",
             "range": "12\""
@@ -4601,8 +4601,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken pistol",
             "range": "12\""
@@ -4629,11 +4629,11 @@
     "faction": "drukhari",
     "id": "drukhari/court-of-the-archon-legends",
     "keywords": [
-      "aeldari",
-      "court of the archon",
-      "faction: drukhari",
-      "infantry",
-      "kabal"
+      "AELDARI",
+      "COURT OF THE ARCHON",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "KABAL"
     ],
     "name": "Court of the Archon [Legends]",
     "points": [
@@ -4790,7 +4790,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "anti infantry 2+"
+              "ANTI-INFANTRY 2+"
             ],
             "name": "Shaimeshi Blade"
           }
@@ -4808,8 +4808,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Shardcarbine",
             "range": "18\""
@@ -4827,9 +4827,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter pistol",
             "range": "12\""
@@ -4862,8 +4862,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "pistol",
-              "torrent"
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Eyeburst",
             "range": "12\""
@@ -4895,7 +4895,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Ur-ghul Talons"
           }
@@ -4918,12 +4918,12 @@
     "faction": "drukhari",
     "id": "drukhari/cronos",
     "keywords": [
-      "aeldari",
-      "cronos",
-      "faction: drukhari",
-      "fly",
-      "haemonculus covens",
-      "monster"
+      "AELDARI",
+      "CRONOS",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "HAEMONCULUS COVENS",
+      "MONSTER"
     ],
     "name": "Cronos",
     "points": [
@@ -5021,8 +5021,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "ignores cover"
+              "BLAST",
+              "IGNORES COVER"
             ],
             "name": "Spirit Vortex",
             "range": "18\""
@@ -5040,8 +5040,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Spirit Syphon",
             "range": "12\""
@@ -5058,7 +5058,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti infantry 2+"
+              "ANTI-INFANTRY 2+"
             ],
             "name": "Spirit-leech Tentacles"
           }
@@ -5089,13 +5089,13 @@
     "faction": "drukhari",
     "id": "drukhari/death-jester",
     "keywords": [
-      "aeldari",
-      "character",
-      "corsairs and travelling players",
-      "death jester",
-      "faction: harlequins",
-      "harlequin allies",
-      "infantry"
+      "AELDARI",
+      "CHARACTER",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "DEATH JESTER",
+      "FACTION: HARLEQUINS",
+      "HARLEQUIN ALLIES",
+      "INFANTRY"
     ],
     "name": "Death Jester",
     "points": [
@@ -5217,14 +5217,14 @@
     "faction": "drukhari",
     "id": "drukhari/drazhar",
     "keywords": [
-      "aeldari",
-      "blades for hire",
-      "character",
-      "drazhar",
-      "epic hero",
-      "faction: drukhari",
-      "infantry",
-      "leader"
+      "AELDARI",
+      "BLADES FOR HIRE",
+      "CHARACTER",
+      "DRAZHAR",
+      "EPIC HERO",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Drazhar",
     "points": [
@@ -5280,7 +5280,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "The Executioner's demiklaives - Dual Blades"
           },
@@ -5291,7 +5291,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "The Executioner's demiklaives - Single Blade"
           }
@@ -5318,13 +5318,13 @@
     "faction": "drukhari",
     "id": "drukhari/flesh-crafter-crucible",
     "keywords": [
-      "aeldari",
-      "character",
-      "crucible",
-      "faction: drukhari",
-      "flesh crafter",
-      "haemonculus covens",
-      "infantry"
+      "AELDARI",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: DRUKHARI",
+      "FLESH CRAFTER",
+      "HAEMONCULUS COVENS",
+      "INFANTRY"
     ],
     "name": "Flesh Crafter [Crucible]",
     "points": [
@@ -5637,7 +5637,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -5655,8 +5655,8 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Heat Lance",
             "range": "18\""
@@ -5674,8 +5674,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Shardcarbine",
             "range": "18\""
@@ -5693,9 +5693,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Splinter Pods",
             "range": "18\""
@@ -5713,8 +5713,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Splinter Rifle",
             "range": "24\""
@@ -5732,7 +5732,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -5750,9 +5750,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -5770,9 +5770,9 @@
             "D": "D3",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "pistol",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Stinger Pistol",
             "range": "12\""
@@ -5789,7 +5789,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Agoniser"
           }
@@ -5806,8 +5806,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "PRECISION"
             ],
             "name": "Archite glaive and agoniser"
           }
@@ -5824,8 +5824,8 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "extra attacks",
-              "lance"
+              "EXTRA ATTACKS",
+              "LANCE"
             ],
             "name": "Bladevanes"
           }
@@ -5866,8 +5866,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PRECISION"
             ],
             "name": "Haemonculus tools and scissorhands"
           }
@@ -5884,8 +5884,8 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lance",
-              "sustained hits 1"
+              "LANCE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Hellglaive"
           }
@@ -5902,7 +5902,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Huskblade"
           }
@@ -5934,9 +5934,9 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "lance",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "LANCE",
+              "PRECISION"
             ],
             "name": "Stunclaw"
           }
@@ -5963,11 +5963,11 @@
     "faction": "drukhari",
     "id": "drukhari/grotesques-legends",
     "keywords": [
-      "aeldari",
-      "faction: drukhari",
-      "grotesques",
-      "haemonculus covens",
-      "infantry"
+      "AELDARI",
+      "FACTION: DRUKHARI",
+      "GROTESQUES",
+      "HAEMONCULUS COVENS",
+      "INFANTRY"
     ],
     "name": "Grotesques [Legends]",
     "points": [
@@ -6077,7 +6077,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paired monstrous Weapons"
           }
@@ -6095,8 +6095,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "torrent"
+              "ANTI-INFANTRY 3+",
+              "TORRENT"
             ],
             "name": "Liquifier Gun",
             "range": "12\""
@@ -6142,13 +6142,13 @@
     "faction": "drukhari",
     "id": "drukhari/haemonculus",
     "keywords": [
-      "aeldari",
-      "character",
-      "faction: drukhari",
-      "haemonculus",
-      "haemonculus covens",
-      "infantry",
-      "leader"
+      "AELDARI",
+      "CHARACTER",
+      "FACTION: DRUKHARI",
+      "HAEMONCULUS",
+      "HAEMONCULUS COVENS",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Haemonculus",
     "points": [
@@ -6225,8 +6225,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PRECISION"
             ],
             "name": "Haemonculus tools and scissorhands"
           }
@@ -6244,9 +6244,9 @@
             "D": "D3",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "pistol",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Stinger Pistol",
             "range": "12\""
@@ -6273,12 +6273,12 @@
     "faction": "drukhari",
     "id": "drukhari/hand-of-the-archon",
     "keywords": [
-      "aeldari",
-      "faction: drukhari",
-      "grenades",
-      "hand of the archon",
-      "infantry",
-      "kabal"
+      "AELDARI",
+      "FACTION: DRUKHARI",
+      "GRENADES",
+      "HAND OF THE ARCHON",
+      "INFANTRY",
+      "KABAL"
     ],
     "name": "Hand of the Archon",
     "points": [
@@ -6723,7 +6723,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -6741,9 +6741,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -6761,8 +6761,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Splinter Rifle",
             "range": "24\""
@@ -6794,7 +6794,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Power Weapon"
           }
@@ -6812,8 +6812,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "PISTOL"
             ],
             "name": "Stinger pistol",
             "range": "12\""
@@ -6831,7 +6831,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -6849,8 +6849,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -6868,7 +6868,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Dark Lance",
             "range": "36\""
@@ -6886,9 +6886,9 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter Cannon",
             "range": "36\""
@@ -6906,8 +6906,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Shardcarbine",
             "range": "18\""
@@ -6924,8 +6924,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "twin linked"
+              "ANTI-INFANTRY 4+",
+              "TWIN-LINKED"
             ],
             "name": "Pain sculptors"
           }
@@ -6963,12 +6963,12 @@
     "faction": "drukhari",
     "id": "drukhari/hellions",
     "keywords": [
-      "aeldari",
-      "faction: drukhari",
-      "fly",
-      "hellions",
-      "mounted",
-      "wych cult"
+      "AELDARI",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "HELLIONS",
+      "MOUNTED",
+      "WYCH CULT"
     ],
     "name": "Hellions",
     "points": [
@@ -7186,8 +7186,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lance",
-              "sustained hits 1"
+              "LANCE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Hellglaive"
           }
@@ -7205,9 +7205,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Splinter Pods",
             "range": "18\""
@@ -7224,9 +7224,9 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+",
-              "lance",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "LANCE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Power weapon"
           }
@@ -7244,9 +7244,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -7263,9 +7263,9 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "devastating wounds",
-              "lance",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "LANCE",
+              "PRECISION"
             ],
             "name": "Stunclaw"
           }
@@ -7292,11 +7292,11 @@
     "faction": "drukhari",
     "id": "drukhari/incubi",
     "keywords": [
-      "aeldari",
-      "blades for hire",
-      "faction: drukhari",
-      "incubi",
-      "infantry"
+      "AELDARI",
+      "BLADES FOR HIRE",
+      "FACTION: DRUKHARI",
+      "INCUBI",
+      "INFANTRY"
     ],
     "name": "Incubi",
     "points": [
@@ -7466,12 +7466,12 @@
     "faction": "drukhari",
     "id": "drukhari/kabalite-warriors",
     "keywords": [
-      "aeldari",
-      "battleline",
-      "faction: drukhari",
-      "infantry",
-      "kabal",
-      "kabalite warriors"
+      "AELDARI",
+      "BATTLELINE",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "KABAL",
+      "KABALITE WARRIORS"
     ],
     "name": "Kabalite Warriors",
     "points": [
@@ -7773,8 +7773,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -7807,8 +7807,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Splinter Rifle",
             "range": "24\""
@@ -7826,7 +7826,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -7844,9 +7844,9 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter Cannon",
             "range": "36\""
@@ -7864,7 +7864,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Dark Lance",
             "range": "36\""
@@ -7882,7 +7882,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -7900,9 +7900,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -7919,7 +7919,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Power Weapon"
           }
@@ -7946,15 +7946,15 @@
     "faction": "drukhari",
     "id": "drukhari/kharseth",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "infantry",
-      "kharseth",
-      "leader",
-      "psyker"
+      "AELDARI",
+      "ANHRATHE",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "KHARSETH",
+      "LEADER",
+      "PSYKER"
     ],
     "name": "Kharseth",
     "points": [
@@ -8021,11 +8021,11 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 2+",
-              "blast",
-              "hazardous",
-              "ignores cover",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "BLAST",
+              "HAZARDOUS",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Dread of the Deep Void",
             "range": "24\""
@@ -8042,8 +8042,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Waystave"
           }
@@ -8074,15 +8074,15 @@
     "faction": "drukhari",
     "id": "drukhari/lady-malys",
     "keywords": [
-      "aeldari",
-      "archon",
-      "character",
-      "epic hero",
-      "faction: drukhari",
-      "infantry",
-      "kabal",
-      "lady malys",
-      "leader"
+      "AELDARI",
+      "ARCHON",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "KABAL",
+      "LADY MALYS",
+      "LEADER"
     ],
     "name": "Lady Malys",
     "points": [
@@ -8139,8 +8139,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "hazardous"
+              "DEVASTATING WOUNDS",
+              "HAZARDOUS"
             ],
             "name": "Lady's Blade"
           }
@@ -8157,7 +8157,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Razor fan"
           }
@@ -8188,15 +8188,15 @@
     "faction": "drukhari",
     "id": "drukhari/lelith-hesperax",
     "keywords": [
-      "aeldari",
-      "character",
-      "epic hero",
-      "faction: drukhari",
-      "infantry",
-      "leader",
-      "lelith hesperax",
-      "succubus",
-      "wych cult"
+      "AELDARI",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "LEADER",
+      "LELITH HESPERAX",
+      "SUCCUBUS",
+      "WYCH CULT"
     ],
     "name": "Lelith Hesperax",
     "points": [
@@ -8252,9 +8252,9 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "precision",
-              "sustained hits 2"
+              "ANTI-INFANTRY 2+",
+              "PRECISION",
+              "SUSTAINED HITS 2"
             ],
             "name": "Lelith's blades"
           }
@@ -8277,11 +8277,11 @@
     "faction": "drukhari",
     "id": "drukhari/mandrakes",
     "keywords": [
-      "aeldari",
-      "blades for hire",
-      "faction: drukhari",
-      "infantry",
-      "mandrakes"
+      "AELDARI",
+      "BLADES FOR HIRE",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "MANDRAKES"
     ],
     "name": "Mandrakes",
     "points": [
@@ -8412,9 +8412,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "ignores cover"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "IGNORES COVER"
             ],
             "name": "Baleblast",
             "range": "18\""
@@ -8431,7 +8431,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Glimmersteel Blade"
           }
@@ -8458,14 +8458,14 @@
     "faction": "drukhari",
     "id": "drukhari/prince-yriel",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "infantry",
-      "leader",
-      "prince yriel"
+      "AELDARI",
+      "ANHRATHE",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "LEADER",
+      "PRINCE YRIEL"
     ],
     "name": "Prince Yriel",
     "points": [
@@ -8542,8 +8542,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "The Eye of Wrath",
             "range": "6\""
@@ -8560,7 +8560,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "The Spear of Twilight"
           }
@@ -8578,8 +8578,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -8622,14 +8622,14 @@
     "faction": "drukhari",
     "id": "drukhari/raider",
     "keywords": [
-      "aeldari",
-      "dedicated transport",
-      "faction: drukhari",
-      "fly",
-      "frame",
-      "raider",
-      "transport",
-      "vehicle"
+      "AELDARI",
+      "DEDICATED TRANSPORT",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "FRAME",
+      "RAIDER",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Raider",
     "points": [
@@ -8784,13 +8784,13 @@
     "faction": "drukhari",
     "id": "drukhari/ravager",
     "keywords": [
-      "aeldari",
-      "faction: drukhari",
-      "fly",
-      "frame",
-      "kabal",
-      "ravager",
-      "vehicle"
+      "AELDARI",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "FRAME",
+      "KABAL",
+      "RAVAGER",
+      "VEHICLE"
     ],
     "name": "Ravager",
     "points": [
@@ -8940,12 +8940,12 @@
     "faction": "drukhari",
     "id": "drukhari/raven-strike-fighter-legends",
     "keywords": [
-      "aeldari",
-      "aircraft",
-      "faction: drukhari",
-      "fly",
-      "raven strike fighter",
-      "vehicle"
+      "AELDARI",
+      "AIRCRAFT",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "RAVEN STRIKE FIGHTER",
+      "VEHICLE"
     ],
     "name": "Raven Strike Fighter [Legends]",
     "points": [
@@ -9065,8 +9065,8 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "sustained hits 2"
+              "ANTI-INFANTRY 3+",
+              "SUSTAINED HITS 2"
             ],
             "name": "Splinterstorm cannon",
             "range": "36\""
@@ -9089,12 +9089,12 @@
     "faction": "drukhari",
     "id": "drukhari/razorwing-jetfighter",
     "keywords": [
-      "aeldari",
-      "aircraft",
-      "faction: drukhari",
-      "fly",
-      "razorwing jetfighter",
-      "vehicle"
+      "AELDARI",
+      "AIRCRAFT",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "RAZORWING JETFIGHTER",
+      "VEHICLE"
     ],
     "name": "Razorwing Jetfighter",
     "points": [
@@ -9267,7 +9267,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Razorwing Missiles - Monoscythe Missiles",
             "range": "48\""
@@ -9279,8 +9279,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "blast"
+              "ANTI-INFANTRY 2+",
+              "BLAST"
             ],
             "name": "Razorwing Missiles - Neurotoxin Missiles",
             "range": "48\""
@@ -9292,7 +9292,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Razorwing Missiles - Shatterfield Missiles",
             "range": "48\""
@@ -9342,8 +9342,8 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter Cannon",
             "range": "36\""
@@ -9361,10 +9361,10 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "rapid fire 2",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "RAPID FIRE 2",
+              "TWIN LINKED"
             ],
             "name": "Twin Splinter Rifle",
             "range": "24\""
@@ -9392,12 +9392,12 @@
     "faction": "drukhari",
     "id": "drukhari/reaper-legends",
     "keywords": [
-      "aeldari",
-      "faction: drukhari",
-      "fly",
-      "kabal",
-      "reaper",
-      "vehicle"
+      "AELDARI",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "KABAL",
+      "REAPER",
+      "VEHICLE"
     ],
     "name": "Reaper [Legends]",
     "points": [
@@ -9500,9 +9500,9 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "extra attacks",
-              "lance",
-              "sustained hits 3"
+              "EXTRA ATTACKS",
+              "LANCE",
+              "SUSTAINED HITS 3"
             ],
             "name": "Prow blade"
           }
@@ -9530,7 +9530,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Storm vortex projector - blast",
             "range": "24\""
@@ -9553,12 +9553,12 @@
     "faction": "drukhari",
     "id": "drukhari/reavers",
     "keywords": [
-      "aeldari",
-      "faction: drukhari",
-      "fly",
-      "mounted",
-      "reavers",
-      "wych cult"
+      "AELDARI",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "MOUNTED",
+      "REAVERS",
+      "WYCH CULT"
     ],
     "name": "Reavers",
     "points": [
@@ -9889,8 +9889,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Splinter Rifle",
             "range": "24\""
@@ -9908,9 +9908,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -9927,7 +9927,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Bladevanes"
           }
@@ -9945,7 +9945,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -9963,8 +9963,8 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Heat Lance",
             "range": "18\""
@@ -9987,15 +9987,15 @@
     "faction": "drukhari",
     "id": "drukhari/scourges-with-heavy-weapons",
     "keywords": [
-      "aeldari",
-      "blades for hire",
-      "faction: drukhari",
-      "fly",
-      "grenades",
-      "infantry",
-      "jump pack",
-      "scourges",
-      "scourges with heavy weapons"
+      "AELDARI",
+      "BLADES FOR HIRE",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "JUMP PACK",
+      "SCOURGES",
+      "SCOURGES WITH HEAVY WEAPONS"
     ],
     "name": "Scourges with Heavy Weapons",
     "points": [
@@ -10265,7 +10265,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -10283,9 +10283,9 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "assault",
-              "heavy",
-              "melta 3"
+              "ASSAULT",
+              "HEAVY",
+              "MELTA 3"
             ],
             "name": "Heat Lance",
             "range": "18\""
@@ -10303,9 +10303,9 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter Cannon",
             "range": "36\""
@@ -10323,8 +10323,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -10342,7 +10342,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Dark Lance",
             "range": "36\""
@@ -10360,9 +10360,9 @@
             "D": "3",
             "S": "3",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "heavy"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Haywire Blaster",
             "range": "24\""
@@ -10380,8 +10380,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Shardcarbine",
             "range": "18\""
@@ -10399,7 +10399,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -10416,7 +10416,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Power Weapon"
           }
@@ -10434,9 +10434,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -10459,15 +10459,15 @@
     "faction": "drukhari",
     "id": "drukhari/scourges-with-shardcarbines",
     "keywords": [
-      "aeldari",
-      "blades for hire",
-      "faction: drukhari",
-      "fly",
-      "grenades",
-      "infantry",
-      "jump pack",
-      "scourges",
-      "scourges with shardcarbines"
+      "AELDARI",
+      "BLADES FOR HIRE",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "JUMP PACK",
+      "SCOURGES",
+      "SCOURGES WITH SHARDCARBINES"
     ],
     "name": "Scourges with Shardcarbines",
     "points": [
@@ -10738,7 +10738,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -10756,8 +10756,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -10775,8 +10775,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Shardcarbine",
             "range": "18\""
@@ -10794,7 +10794,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -10811,7 +10811,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Power Weapon"
           }
@@ -10829,9 +10829,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -10866,16 +10866,16 @@
     "faction": "drukhari",
     "id": "drukhari/shadowseer",
     "keywords": [
-      "aeldari",
-      "character",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "grenades",
-      "harlequin allies",
-      "infantry",
-      "leader",
-      "psyker",
-      "shadowseer"
+      "AELDARI",
+      "CHARACTER",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "GRENADES",
+      "HARLEQUIN ALLIES",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "SHADOWSEER"
     ],
     "name": "Shadowseer",
     "points": [
@@ -10972,7 +10972,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Miststave"
           }
@@ -10990,8 +10990,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -11009,9 +11009,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro Disruptor",
             "range": "12\""
@@ -11030,14 +11030,14 @@
     "faction": "drukhari",
     "id": "drukhari/skyweavers",
     "keywords": [
-      "aeldari",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "fly",
-      "harlequin allies",
-      "mounted",
-      "skyweavers",
-      "smoke"
+      "AELDARI",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "FLY",
+      "HARLEQUIN ALLIES",
+      "MOUNTED",
+      "SKYWEAVERS",
+      "SMOKE"
     ],
     "name": "Skyweavers",
     "points": [
@@ -11181,8 +11181,8 @@
             "D": "3",
             "S": "3",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Skyweaver Haywire Cannon",
             "range": "24\""
@@ -11200,7 +11200,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -11258,14 +11258,14 @@
     "faction": "drukhari",
     "id": "drukhari/solitaire",
     "keywords": [
-      "aeldari",
-      "character",
-      "corsairs and travelling players",
-      "epic hero",
-      "faction: harlequins",
-      "harlequin allies",
-      "infantry",
-      "solitaire"
+      "AELDARI",
+      "CHARACTER",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "EPIC HERO",
+      "FACTION: HARLEQUINS",
+      "HARLEQUIN ALLIES",
+      "INFANTRY",
+      "SOLITAIRE"
     ],
     "name": "Solitaire",
     "points": [
@@ -11321,7 +11321,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Solitaire Weapons"
           }
@@ -11340,15 +11340,15 @@
     "faction": "drukhari",
     "id": "drukhari/starfangs",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "faction: asuryani",
-      "fly",
-      "grenades",
-      "smoke",
-      "starfangs",
-      "vehicle",
-      "ynnari"
+      "AELDARI",
+      "ANHRATHE",
+      "FACTION: ASURYANI",
+      "FLY",
+      "GRENADES",
+      "SMOKE",
+      "STARFANGS",
+      "VEHICLE",
+      "YNNARI"
     ],
     "name": "Starfangs",
     "points": [
@@ -11461,7 +11461,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Disintegrator Cannon",
             "range": "36\""
@@ -11479,8 +11479,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Starfang Grenade Launcher",
             "range": "36\""
@@ -11503,17 +11503,17 @@
     "faction": "drukhari",
     "id": "drukhari/starweaver",
     "keywords": [
-      "aeldari",
-      "corsairs and travelling players",
-      "dedicated transport",
-      "faction: harlequins",
-      "fly",
-      "frame",
-      "harlequin allies",
-      "smoke",
-      "star weaver",
-      "transport",
-      "vehicle"
+      "AELDARI",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "DEDICATED TRANSPORT",
+      "FACTION: HARLEQUINS",
+      "FLY",
+      "FRAME",
+      "HARLEQUIN ALLIES",
+      "SMOKE",
+      "STAR WEAVER",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Starweaver",
     "points": [
@@ -11607,7 +11607,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "qty": 2,
@@ -11639,13 +11639,13 @@
     "faction": "drukhari",
     "id": "drukhari/succubus",
     "keywords": [
-      "aeldari",
-      "character",
-      "faction: drukhari",
-      "infantry",
-      "leader",
-      "succubus",
-      "wych cult"
+      "AELDARI",
+      "CHARACTER",
+      "FACTION: DRUKHARI",
+      "INFANTRY",
+      "LEADER",
+      "SUCCUBUS",
+      "WYCH CULT"
     ],
     "name": "Succubus",
     "points": [
@@ -11701,8 +11701,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "PRECISION"
             ],
             "name": "Archite glaive and agoniser"
           }
@@ -11729,12 +11729,12 @@
     "faction": "drukhari",
     "id": "drukhari/talos",
     "keywords": [
-      "aeldari",
-      "faction: drukhari",
-      "fly",
-      "haemonculus covens",
-      "monster",
-      "talos"
+      "AELDARI",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "HAEMONCULUS COVENS",
+      "MONSTER",
+      "TALOS"
     ],
     "name": "Talos",
     "points": [
@@ -11946,7 +11946,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Talos Ichor Injector"
           }
@@ -11964,9 +11964,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "torrent",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin Liquifier Gun",
             "range": "12\""
@@ -12014,9 +12014,9 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "sustained hits 1",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin Splinter Cannon",
             "range": "36\""
@@ -12034,9 +12034,9 @@
             "D": "3",
             "S": "3",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "twin linked"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin Haywire Blaster",
             "range": "24\""
@@ -12054,9 +12054,9 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "assault",
-              "melta 3",
-              "twin linked"
+              "ASSAULT",
+              "MELTA 3",
+              "TWIN-LINKED"
             ],
             "name": "Twin heat lance",
             "range": "18\""
@@ -12104,11 +12104,11 @@
     "faction": "drukhari",
     "id": "drukhari/tantalus-legends",
     "keywords": [
-      "aeldari",
-      "faction: drukhari",
-      "fly",
-      "transport",
-      "vehicle"
+      "AELDARI",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Tantalus [Legends]",
     "points": [
@@ -12185,7 +12185,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Dire scythe blades"
           }
@@ -12203,7 +12203,7 @@
             "D": "2",
             "S": "10",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Pulse disintegrators",
             "range": "36\""
@@ -12226,13 +12226,13 @@
     "faction": "drukhari",
     "id": "drukhari/troupe",
     "keywords": [
-      "aeldari",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "grenades",
-      "harlequin allies",
-      "infantry",
-      "troupe"
+      "AELDARI",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "GRENADES",
+      "HARLEQUIN ALLIES",
+      "INFANTRY",
+      "TROUPE"
     ],
     "name": "Troupe",
     "points": [
@@ -12587,8 +12587,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -12605,7 +12605,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Harlequin's Blade"
           }
@@ -12622,7 +12622,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Harlequin's Special Weapon"
           }
@@ -12640,9 +12640,9 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2",
-              "pistol"
+              "ASSAULT",
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Fusion Pistol",
             "range": "6\""
@@ -12660,9 +12660,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro Disruptor",
             "range": "12\""
@@ -12679,7 +12679,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Power sword"
           }
@@ -12714,15 +12714,15 @@
     "faction": "drukhari",
     "id": "drukhari/troupe-master",
     "keywords": [
-      "aeldari",
-      "character",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "grenades",
-      "harlequin allies",
-      "infantry",
-      "leader",
-      "troupe master"
+      "AELDARI",
+      "CHARACTER",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "GRENADES",
+      "HARLEQUIN ALLIES",
+      "INFANTRY",
+      "LEADER",
+      "TROUPE MASTER"
     ],
     "name": "Troupe Master",
     "points": [
@@ -12849,7 +12849,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Harlequin's Special Weapon"
           }
@@ -12866,7 +12866,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Troupe Master's Blade"
           }
@@ -12884,8 +12884,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -12903,9 +12903,9 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2",
-              "pistol"
+              "ASSAULT",
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Fusion Pistol",
             "range": "6\""
@@ -12923,9 +12923,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro Disruptor",
             "range": "12\""
@@ -12956,15 +12956,15 @@
     "faction": "drukhari",
     "id": "drukhari/urien-rakarth-legends",
     "keywords": [
-      "aeldari",
-      "character",
-      "epic hero",
-      "faction: drukhari",
-      "haemonculus",
-      "haemonculus covens",
-      "infantry",
-      "leader",
-      "urien rakarth"
+      "AELDARI",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: DRUKHARI",
+      "HAEMONCULUS",
+      "HAEMONCULUS COVENS",
+      "INFANTRY",
+      "LEADER",
+      "URIEN RAKARTH"
     ],
     "name": "Urien Rakarth [Legends]",
     "points": [
@@ -13030,8 +13030,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PRECISION"
             ],
             "name": "Haemonculus tools and scissorhands"
           }
@@ -13049,9 +13049,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "devastating wounds",
-              "one shot",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "ONE SHOT",
+              "TORRENT"
             ],
             "name": "Casket of Flensing",
             "range": "12\""
@@ -13078,14 +13078,14 @@
     "faction": "drukhari",
     "id": "drukhari/venom",
     "keywords": [
-      "aeldari",
-      "dedicated transport",
-      "faction: drukhari",
-      "fly",
-      "frame",
-      "transport",
-      "vehicle",
-      "venom"
+      "AELDARI",
+      "DEDICATED TRANSPORT",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "FRAME",
+      "TRANSPORT",
+      "VEHICLE",
+      "VENOM"
     ],
     "name": "Venom",
     "points": [
@@ -13209,8 +13209,8 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter Cannon",
             "range": "36\""
@@ -13228,10 +13228,10 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "rapid fire 2",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "RAPID FIRE 2",
+              "TWIN LINKED"
             ],
             "name": "Twin Splinter Rifle",
             "range": "24\""
@@ -13259,12 +13259,12 @@
     "faction": "drukhari",
     "id": "drukhari/voidraven-bomber",
     "keywords": [
-      "aeldari",
-      "aircraft",
-      "faction: drukhari",
-      "fly",
-      "vehicle",
-      "voidraven"
+      "AELDARI",
+      "AIRCRAFT",
+      "FACTION: DRUKHARI",
+      "FLY",
+      "VEHICLE",
+      "VOIDRAVEN"
     ],
     "name": "Voidraven Bomber",
     "points": [
@@ -13403,7 +13403,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Voidraven Missiles -  Implosion Missiles",
             "range": "48\""
@@ -13415,7 +13415,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Voidraven Missiles - Shatterfield Missiles",
             "range": "48\""
@@ -13466,14 +13466,14 @@
     "faction": "drukhari",
     "id": "drukhari/voidweaver",
     "keywords": [
-      "aeldari",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "fly",
-      "frame",
-      "harlequin allies",
-      "vehicle",
-      "voidweaver"
+      "AELDARI",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "FLY",
+      "FRAME",
+      "HARLEQUIN ALLIES",
+      "VEHICLE",
+      "VOIDWEAVER"
     ],
     "name": "Voidweaver",
     "points": [
@@ -13597,7 +13597,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Prismatic Cannon - dispersed pulse",
             "range": "24\""
@@ -13625,8 +13625,8 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Voidweaver Haywire Cannon",
             "range": "24\""
@@ -13645,7 +13645,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "qty": 2,
@@ -13669,12 +13669,12 @@
     "faction": "drukhari",
     "id": "drukhari/wracks",
     "keywords": [
-      "aeldari",
-      "battleline",
-      "faction: drukhari",
-      "haemonculus covens",
-      "infantry",
-      "wracks"
+      "AELDARI",
+      "BATTLELINE",
+      "FACTION: DRUKHARI",
+      "HAEMONCULUS COVENS",
+      "INFANTRY",
+      "WRACKS"
     ],
     "name": "Wracks",
     "points": [
@@ -14039,8 +14039,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "twin linked"
+              "ANTI-INFANTRY 4+",
+              "TWIN-LINKED"
             ],
             "name": "Twin Torturer's Tools"
           }
@@ -14057,7 +14057,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Torturer's tool"
           }
@@ -14075,8 +14075,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Hexrifle",
             "range": "36\""
@@ -14094,8 +14094,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "torrent"
+              "ANTI-INFANTRY 3+",
+              "TORRENT"
             ],
             "name": "Liquifier Gun",
             "range": "12\""
@@ -14113,8 +14113,8 @@
             "D": "2",
             "S": "2",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Ossefactor",
             "range": "24\""
@@ -14132,8 +14132,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "PISTOL"
             ],
             "name": "Stinger Pistol",
             "range": "12\""
@@ -14150,7 +14150,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Power weapon"
           }
@@ -14173,13 +14173,13 @@
     "faction": "drukhari",
     "id": "drukhari/wyches",
     "keywords": [
-      "aeldari",
-      "battleline",
-      "faction: drukhari",
-      "grenades",
-      "infantry",
-      "wych cult",
-      "wyches"
+      "AELDARI",
+      "BATTLELINE",
+      "FACTION: DRUKHARI",
+      "GRENADES",
+      "INFANTRY",
+      "WYCH CULT",
+      "WYCHES"
     ],
     "name": "Wyches",
     "points": [
@@ -14366,9 +14366,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -14416,7 +14416,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -14433,7 +14433,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Power weapon"
           }

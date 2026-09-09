@@ -17,16 +17,16 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/castellan",
     "keywords": [
-      "castellan",
-      "character",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "lieutenant",
-      "support",
-      "tacticus"
+      "CASTELLAN",
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LIEUTENANT",
+      "SUPPORT",
+      "TACTICUS"
     ],
     "name": "Castellan",
     "points": [
@@ -143,7 +143,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Astartes Chainsword"
           }
@@ -160,7 +160,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Master-crafted Power Weapon"
           }
@@ -178,7 +178,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -196,9 +196,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -229,13 +229,13 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/chaplain-grimaldus",
     "keywords": [
-      "chaplain",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus"
+      "CHAPLAIN",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Chaplain Grimaldus",
     "points": [
@@ -347,8 +347,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma Pistol - Supercharge",
             "range": "12\""
@@ -360,7 +360,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma Pistol - Standard",
             "range": "12\""
@@ -402,16 +402,16 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/crusade-ancient",
     "keywords": [
-      "ancient",
-      "character",
-      "crusade ancient",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "support",
-      "tacticus"
+      "ANCIENT",
+      "CHARACTER",
+      "CRUSADE ANCIENT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SUPPORT",
+      "TACTICUS"
     ],
     "name": "Crusade Ancient",
     "points": [
@@ -488,7 +488,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Master-crafted Power Weapon"
           }
@@ -506,7 +506,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -529,14 +529,14 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/crusader-squad",
     "keywords": [
-      "battleline",
-      "crusader squad",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tacticus"
+      "BATTLELINE",
+      "CRUSADER SQUAD",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
     ],
     "name": "Crusader Squad",
     "points": [
@@ -941,7 +941,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Master-crafted Power Weapon"
           }
@@ -959,7 +959,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -977,9 +977,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Pyre Pistol",
             "range": "12\""
@@ -1012,8 +1012,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Bolt Rifle",
             "range": "24\""
@@ -1031,7 +1031,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1048,7 +1048,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Astartes Chainsword"
           }
@@ -1081,8 +1081,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Pyreblaster",
             "range": "12\""
@@ -1100,7 +1100,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Neophyte Firearm",
             "range": "18\""
@@ -1123,13 +1123,13 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/crusader-squad-legends",
     "keywords": [
-      "battleline",
-      "crusader squad",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry"
+      "BATTLELINE",
+      "CRUSADER SQUAD",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Crusader Squad [Legends]",
     "points": [
@@ -1847,7 +1847,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1865,7 +1865,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Astartes Shotgun",
             "range": "18"
@@ -1944,8 +1944,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy Bolter",
             "range": "36\""
@@ -1963,8 +1963,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -1982,8 +1982,8 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "anti vehicle 2+",
-              "heavy"
+              "ANTI-VEHICLE 2+",
+              "HEAVY"
             ],
             "name": "Grav-cannon",
             "range": "24\""
@@ -2001,7 +2001,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Lascannon",
             "range": "48\""
@@ -2019,8 +2019,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Missile Launcher - Frag",
             "range": "48\""
@@ -2032,7 +2032,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Missile Launcher - Krak",
             "range": "48\""
@@ -2050,8 +2050,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -2069,8 +2069,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Plasma cannon - standard",
             "range": "36\""
@@ -2082,9 +2082,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "heavy",
-              "hazardous"
+              "BLAST",
+              "HEAVY",
+              "HAZARDOUS"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -2102,8 +2102,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -2121,7 +2121,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -2139,7 +2139,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -2151,8 +2151,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "rapid fire 1",
-              "hazardous"
+              "RAPID FIRE 1",
+              "HAZARDOUS"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -2170,7 +2170,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Grav-gun",
             "range": "18\""
@@ -2187,7 +2187,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Lightning Claws"
           }
@@ -2205,8 +2205,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti vehicle 2+",
-              "pistol"
+              "ANTI-VEHICLE 2+",
+              "PISTOL"
             ],
             "name": "Grav-pistol",
             "range": "12\""
@@ -2224,9 +2224,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -2244,8 +2244,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -2263,8 +2263,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -2276,7 +2276,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -2308,7 +2308,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -2326,9 +2326,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2346,7 +2346,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -2392,15 +2392,15 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/emperor-s-champion",
     "keywords": [
-      "character",
-      "emperor's champion",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus"
+      "CHARACTER",
+      "EMPEROR'S CHAMPION",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Emperor's Champion",
     "points": [
@@ -2477,8 +2477,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "anti character 5+",
-              "precision"
+              "ANTI-CHARACTER 5+",
+              "PRECISION"
             ],
             "name": "Black Sword - Strike"
           },
@@ -2505,7 +2505,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -2540,14 +2540,14 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/emperor-s-champion-anointed",
     "keywords": [
-      "character",
-      "emperor's champion",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tacticus"
+      "CHARACTER",
+      "EMPEROR'S CHAMPION",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
     ],
     "name": "Emperor's Champion (Anointed)",
     "points": [
@@ -2624,8 +2624,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "anti character 5+",
-              "precision"
+              "ANTI-CHARACTER 5+",
+              "PRECISION"
             ],
             "name": "Black Sword - Strike"
           },
@@ -2652,7 +2652,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -2679,16 +2679,16 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/execrator",
     "keywords": [
-      "chaplain",
-      "character",
-      "execrator",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus"
+      "CHAPLAIN",
+      "CHARACTER",
+      "EXECRATOR",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Execrator",
     "points": [
@@ -2808,8 +2808,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "extra attacks",
-              "lethal hits"
+              "EXTRA ATTACKS",
+              "LETHAL HITS"
             ],
             "name": "Master-crafted Power Weapon"
           }
@@ -2827,9 +2827,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Pyre Pistol",
             "range": "12\""
@@ -2847,7 +2847,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Absolvor bolt pistol",
             "range": "18\""
@@ -2886,13 +2886,13 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/gladiator-lancer",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "frame",
-      "gladiator lancer",
-      "imperium",
-      "smoke",
-      "vehicle"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "FRAME",
+      "GLADIATOR LANCER",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Gladiator Lancer",
     "points": [
@@ -3055,7 +3055,7 @@
             "D": "D6+3",
             "S": "14",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Lancer Laser Destroyer",
             "range": "72\""
@@ -3073,7 +3073,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Ironhail Heavy Stubber",
             "range": "36\""
@@ -3091,7 +3091,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -3110,7 +3110,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Fragstorm grenade launcher",
             "qty": 2,
@@ -3130,7 +3130,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "qty": 2,
@@ -3164,7 +3164,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Icarus Rocket Pod",
             "range": "24\""
@@ -3188,13 +3188,13 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/gladiator-reaper",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "frame",
-      "gladiator reaper",
-      "imperium",
-      "smoke",
-      "vehicle"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "FRAME",
+      "GLADIATOR REAPER",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Gladiator Reaper",
     "points": [
@@ -3319,7 +3319,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 4"
+              "RAPID FIRE 4"
             ],
             "name": "Tempest Bolter",
             "range": "24\""
@@ -3337,8 +3337,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin Heavy Onslaught Gatling Cannon",
             "range": "24\""
@@ -3356,7 +3356,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Ironhail Heavy Stubber",
             "range": "36\""
@@ -3374,7 +3374,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -3407,7 +3407,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Icarus Rocket Pod",
             "range": "24\""
@@ -3431,13 +3431,13 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/gladiator-valiant",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "frame",
-      "gladiator valiant",
-      "imperium",
-      "smoke",
-      "vehicle"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "FRAME",
+      "GLADIATOR VALIANT",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Gladiator Valiant",
     "points": [
@@ -3552,7 +3552,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Las-talon",
             "range": "36\""
@@ -3570,7 +3570,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Ironhail Heavy Stubber",
             "range": "36\""
@@ -3588,7 +3588,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -3621,7 +3621,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Icarus Rocket Pod",
             "range": "24\""
@@ -3648,17 +3648,17 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/high-marshal-helbrecht",
     "keywords": [
-      "chapter master",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "high marshal helbrecht",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus"
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "HIGH MARSHAL HELBRECHT",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "High Marshal Helbrecht",
     "points": [
@@ -3749,8 +3749,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Ferocity",
             "range": "24\""
@@ -3773,13 +3773,13 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/impulsor",
     "keywords": [
-      "dedicated transport",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "imperium",
-      "impulsor",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "IMPERIUM",
+      "IMPULSOR",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Impulsor",
     "points": [
@@ -3951,8 +3951,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti fly 4+",
-              "sustained hits 1"
+              "ANTI-FLY 4+",
+              "SUSTAINED HITS 1"
             ],
             "name": "Ironhail Skytalon Array",
             "range": "36\""
@@ -3970,7 +3970,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Bellicatus Missile Array - Frag",
             "range": "48\""
@@ -3982,7 +3982,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Bellicatus Missile Array - Icarus",
             "range": "48\""
@@ -4010,7 +4010,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Ironhail Heavy Stubber",
             "range": "36\""
@@ -4028,7 +4028,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -4047,7 +4047,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Fragstorm grenade launcher",
             "qty": 2,
@@ -4067,7 +4067,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "qty": 2,
@@ -4115,16 +4115,16 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/land-raider-crusader",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "frame",
-      "grenades",
-      "imperium",
-      "land raider",
-      "land raider crusader",
-      "smoke",
-      "transport",
-      "vehicle"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "FRAME",
+      "GRENADES",
+      "IMPERIUM",
+      "LAND RAIDER",
+      "LAND RAIDER CRUSADER",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Land Raider Crusader",
     "points": [
@@ -4255,7 +4255,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -4274,8 +4274,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 6",
-              "twin linked"
+              "RAPID FIRE 6",
+              "TWIN-LINKED"
             ],
             "name": "Hurricane Bolter",
             "qty": 2,
@@ -4294,7 +4294,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -4312,7 +4312,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -4330,8 +4330,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin assault cannon",
             "range": "24\""
@@ -4358,16 +4358,16 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/marshal",
     "keywords": [
-      "captain",
-      "character",
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "marshal",
-      "tacticus"
+      "CAPTAIN",
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "MARSHAL",
+      "TACTICUS"
     ],
     "name": "Marshal",
     "points": [
@@ -4464,7 +4464,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Master-crafted Power Weapon"
           }
@@ -4482,7 +4482,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma Pistol - Standard",
             "range": "12\""
@@ -4494,8 +4494,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma Pistol - Supercharge",
             "range": "12\""
@@ -4513,9 +4513,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -4543,14 +4543,14 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/repulsor",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "frame",
-      "imperium",
-      "repulsor",
-      "smoke",
-      "transport",
-      "vehicle"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "FRAME",
+      "IMPERIUM",
+      "REPULSOR",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Repulsor",
     "points": [
@@ -4704,8 +4704,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -4723,7 +4723,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -4757,7 +4757,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy Onslaught Gatling Cannon",
             "range": "24\""
@@ -4790,7 +4790,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -4808,8 +4808,8 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "indirect fire",
-              "one shot"
+              "INDIRECT FIRE",
+              "ONE SHOT"
             ],
             "name": "Hunter-slayer missile",
             "range": "48\""
@@ -4853,14 +4853,14 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/repulsor-executioner",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "frame",
-      "imperium",
-      "repulsor executioner",
-      "smoke",
-      "transport",
-      "vehicle"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "FRAME",
+      "IMPERIUM",
+      "REPULSOR EXECUTIONER",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Repulsor Executioner",
     "points": [
@@ -5051,7 +5051,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Ironhail Heavy Stubber",
             "range": "36\""
@@ -5069,7 +5069,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -5087,7 +5087,7 @@
             "D": "D6+4",
             "S": "16",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Heavy Laser Destroyer",
             "range": "72\""
@@ -5105,7 +5105,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Macro Plasma Incinerator - Standard",
             "range": "36\""
@@ -5117,8 +5117,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Macro Plasma Incinerator - Supercharge",
             "range": "36\""
@@ -5151,7 +5151,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy Onslaught Gatling Cannon",
             "range": "24\""
@@ -5169,7 +5169,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Icarus Rocket Pod",
             "range": "24\""
@@ -5187,8 +5187,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -5206,9 +5206,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti fly 4+",
-              "rapid fire 3",
-              "twin linked"
+              "ANTI-FLY 4+",
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
             ],
             "name": "Twin Icarus ironhail heavy stubber",
             "range": "36\""
@@ -5227,12 +5227,12 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/sternguard-veteran-squad",
     "keywords": [
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sternguard veteran squad",
-      "tacticus"
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "STERNGUARD VETERAN SQUAD",
+      "TACTICUS"
     ],
     "name": "Sternguard Veteran Squad",
     "points": [
@@ -5568,8 +5568,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Sternguard Bolt Pistol",
             "range": "12\""
@@ -5587,10 +5587,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "heavy",
-              "rapid fire 1"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "HEAVY",
+              "RAPID FIRE 1"
             ],
             "name": "Sternguard Bolt Rifle",
             "range": "24\""
@@ -5623,9 +5623,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -5688,8 +5688,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Pyrecannon",
             "range": "12\""
@@ -5707,9 +5707,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "heavy",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Sternguard Heavy Bolter",
             "range": "36\""
@@ -5732,13 +5732,13 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/sword-brethren-squad",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sword brethren squad",
-      "tacticus"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SWORD BRETHREN SQUAD",
+      "TACTICUS"
     ],
     "name": "Sword Brethren Squad",
     "points": [
@@ -6036,7 +6036,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -6054,8 +6054,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -6067,7 +6067,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -6085,9 +6085,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Pyre Pistol",
             "range": "12\""
@@ -6104,7 +6104,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -6121,7 +6121,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Master-crafted Power Weapon"
           }
@@ -6138,7 +6138,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Astartes Chainsword"
           }
@@ -6155,7 +6155,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Lightning Claws"
           }
@@ -6178,12 +6178,12 @@
     "faction": "blacktemplars",
     "id": "blacktemplars/terminator-squad",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: black templars",
-      "imperium",
-      "infantry",
-      "terminator",
-      "terminator squad"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLACK TEMPLARS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR",
+      "TERMINATOR SQUAD"
     ],
     "name": "Terminator Squad",
     "points": [
@@ -6485,7 +6485,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -6518,7 +6518,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -6536,8 +6536,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -6555,7 +6555,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault Cannon",
             "range": "24\""

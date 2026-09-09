@@ -17,15 +17,15 @@
     "faction": "salamanders",
     "id": "salamanders/adrax-agatone",
     "keywords": [
-      "adrax agatone",
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: salamanders",
-      "imperium",
-      "infantry",
-      "tacticus"
+      "ADRAX AGATONE",
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SALAMANDERS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
     ],
     "name": "Adrax Agatone",
     "points": [
@@ -92,9 +92,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Drakkis",
             "range": "12\""
@@ -140,16 +140,16 @@
     "faction": "salamanders",
     "id": "salamanders/vulkan-he-stan",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: salamanders",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tacticus",
-      "vulkan he'stan"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SALAMANDERS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS",
+      "VULKAN HE'STAN"
     ],
     "name": "Vulkan He'stan",
     "points": [
@@ -226,9 +226,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Gauntlet of the Forge",
             "range": "12\""
@@ -245,7 +245,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Spear of Vulkan"
           }
@@ -263,7 +263,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""

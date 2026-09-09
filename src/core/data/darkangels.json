@@ -17,18 +17,18 @@
     "faction": "darkangels",
     "id": "darkangels/asmodai",
     "keywords": [
-      "asmodai",
-      "chaplain",
-      "character",
-      "deathwing",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus"
+      "ASMODAI",
+      "CHAPLAIN",
+      "CHARACTER",
+      "DEATHWING",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Asmodai",
     "points": [
@@ -95,7 +95,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -150,18 +150,18 @@
     "faction": "darkangels",
     "id": "darkangels/azrael",
     "keywords": [
-      "azrael",
-      "chapter master",
-      "character",
-      "deathwing",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus"
+      "AZRAEL",
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "DEATHWING",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Azrael",
     "points": [
@@ -228,9 +228,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Lion's Wrath",
             "range": "24\""
@@ -247,7 +247,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "The Sword of Secrets"
           }
@@ -274,17 +274,17 @@
     "faction": "darkangels",
     "id": "darkangels/belial",
     "keywords": [
-      "belial",
-      "captain",
-      "character",
-      "deathwing",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "imperium",
-      "infantry",
-      "leader",
-      "terminator"
+      "BELIAL",
+      "CAPTAIN",
+      "CHARACTER",
+      "DEATHWING",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TERMINATOR"
     ],
     "name": "Belial",
     "points": [
@@ -351,8 +351,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "precision",
-              "rapid fire 2"
+              "PRECISION",
+              "RAPID FIRE 2"
             ],
             "name": "Master-crafted storm bolter",
             "range": "24\""
@@ -369,7 +369,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "The Sword of Silence"
           }
@@ -392,13 +392,13 @@
     "faction": "darkangels",
     "id": "darkangels/deathwing-command-squad-legends",
     "keywords": [
-      "deathwing",
-      "deathwing command squad",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "imperium",
-      "infantry",
-      "terminator"
+      "DEATHWING",
+      "DEATHWING COMMAND SQUAD",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR"
     ],
     "name": "Deathwing Command Squad [Legends]",
     "points": [
@@ -802,7 +802,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -819,7 +819,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -836,7 +836,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Halberd of Caliban"
           }
@@ -854,7 +854,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -872,7 +872,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -890,7 +890,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Cyclone missile launcher - frag",
             "range": "36\""
@@ -918,8 +918,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -937,7 +937,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Plasma cannon - standard",
             "range": "36\""
@@ -949,8 +949,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -982,7 +982,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -999,7 +999,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -1030,13 +1030,13 @@
     "faction": "darkangels",
     "id": "darkangels/deathwing-knights",
     "keywords": [
-      "deathwing",
-      "deathwing knights",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "imperium",
-      "infantry",
-      "terminator"
+      "DEATHWING",
+      "DEATHWING KNIGHTS",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR"
     ],
     "name": "Deathwing Knights",
     "points": [
@@ -1171,8 +1171,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Mace of absolution"
           }
@@ -1204,8 +1204,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Great Weapon of the Unforgiven"
           }
@@ -1222,7 +1222,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Relic Weapon"
           }
@@ -1253,15 +1253,15 @@
     "faction": "darkangels",
     "id": "darkangels/deathwing-strikemaster-legends",
     "keywords": [
-      "character",
-      "deathwing",
-      "deathwing strikemaster",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "imperium",
-      "infantry",
-      "lieutenant",
-      "terminator"
+      "CHARACTER",
+      "DEATHWING",
+      "DEATHWING STRIKEMASTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LIEUTENANT",
+      "TERMINATOR"
     ],
     "name": "Deathwing Strikemaster [Legends]",
     "points": [
@@ -1403,7 +1403,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -1435,7 +1435,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -1482,7 +1482,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -1499,7 +1499,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Lightning Claws"
           }
@@ -1530,13 +1530,13 @@
     "faction": "darkangels",
     "id": "darkangels/deathwing-terminator-squad",
     "keywords": [
-      "deathwing",
-      "deathwing terminator squad",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "imperium",
-      "infantry",
-      "terminator"
+      "DEATHWING",
+      "DEATHWING TERMINATOR SQUAD",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR"
     ],
     "name": "Deathwing Terminator Squad",
     "points": [
@@ -1806,7 +1806,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -1853,7 +1853,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -1871,7 +1871,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Cyclone missile launcher - frag",
             "range": "36\""
@@ -1899,7 +1899,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -1917,7 +1917,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Plasma cannon - standard",
             "range": "36\""
@@ -1929,8 +1929,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -1948,8 +1948,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -1980,18 +1980,18 @@
     "faction": "darkangels",
     "id": "darkangels/ezekiel",
     "keywords": [
-      "character",
-      "deathwing",
-      "epic hero",
-      "ezekiel",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "librarian",
-      "psyker"
+      "CHARACTER",
+      "DEATHWING",
+      "EPIC HERO",
+      "EZEKIEL",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "LIBRARIAN",
+      "PSYKER"
     ],
     "name": "Ezekiel",
     "points": [
@@ -2068,8 +2068,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "pistol",
-              "precision"
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "The Deliverer",
             "range": "12\""
@@ -2087,9 +2087,9 @@
             "D": "D6",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "precision",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Mind Wipe - witchfire",
             "range": "12\""
@@ -2101,11 +2101,11 @@
             "D": "D6",
             "S": "6",
             "keywords": [
-              "anti character 4+",
-              "devastating wounds",
-              "hazardous",
-              "precision",
-              "psychic"
+              "ANTI-CHARACTER 4+",
+              "DEVASTATING WOUNDS",
+              "HAZARDOUS",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Mind Wipe - focussed witchfire",
             "range": "12\""
@@ -2122,8 +2122,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti chaos 2+",
-              "psychic"
+              "ANTI-CHAOS 2+",
+              "PSYCHIC"
             ],
             "name": "Traitor's Bane"
           }
@@ -2150,13 +2150,13 @@
     "faction": "darkangels",
     "id": "darkangels/inner-circle-companions",
     "keywords": [
-      "deathwing",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "imperium",
-      "infantry",
-      "inner circle companions",
-      "tacticus"
+      "DEATHWING",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "IMPERIUM",
+      "INFANTRY",
+      "INNER CIRCLE COMPANIONS",
+      "TACTICUS"
     ],
     "name": "Inner Circle Companions",
     "points": [
@@ -2243,7 +2243,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -2260,7 +2260,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Calibanite Greatsword - Strike"
           },
@@ -2271,7 +2271,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Calibanite Greatsword - Sweep"
           }
@@ -2290,14 +2290,14 @@
     "faction": "darkangels",
     "id": "darkangels/land-speeder-vengeance",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "fly",
-      "frame",
-      "imperium",
-      "land speeder vengeance",
-      "ravenwing",
-      "vehicle"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "FLY",
+      "FRAME",
+      "IMPERIUM",
+      "LAND SPEEDER VENGEANCE",
+      "RAVENWING",
+      "VEHICLE"
     ],
     "name": "Land Speeder Vengeance",
     "points": [
@@ -2421,8 +2421,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Plasma storm battery - standard",
             "range": "36\""
@@ -2434,9 +2434,9 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast",
-              "hazardous",
-              "twin linked"
+              "BLAST",
+              "HAZARDOUS",
+              "TWIN-LINKED"
             ],
             "name": "Plasma storm battery - supercharge",
             "range": "36\""
@@ -2454,7 +2454,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -2472,7 +2472,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -2499,18 +2499,18 @@
     "faction": "darkangels",
     "id": "darkangels/lazarus",
     "keywords": [
-      "captain",
-      "character",
-      "deathwing",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "lazarus",
-      "leader",
-      "tacticus"
+      "CAPTAIN",
+      "CHARACTER",
+      "DEATHWING",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LAZARUS",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Lazarus",
     "points": [
@@ -2577,7 +2577,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -2594,7 +2594,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti psyker 2+"
+              "ANTI-PSYKER 2+"
             ],
             "name": "Enmity’s Edge"
           }
@@ -2633,15 +2633,15 @@
     "faction": "darkangels",
     "id": "darkangels/lion-el-jonson",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "imperium",
-      "lion el'jonson",
-      "mobile",
-      "monster",
-      "primarch"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "IMPERIUM",
+      "LION EL'JONSON",
+      "MOBILE",
+      "MONSTER",
+      "PRIMARCH"
     ],
     "name": "Lion El'Jonson",
     "points": [
@@ -2708,7 +2708,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Arma Luminis - bolt",
             "range": "12\""
@@ -2720,7 +2720,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Arma Luminis - plasma",
             "range": "12\""
@@ -2737,7 +2737,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Fealty - strike"
           },
@@ -2748,7 +2748,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Fealty - sweep"
           }
@@ -2776,14 +2776,14 @@
     "faction": "darkangels",
     "id": "darkangels/nephilim-jetfighter",
     "keywords": [
-      "aircraft",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "fly",
-      "imperium",
-      "nephilim jetfighter",
-      "ravenwing",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "FLY",
+      "IMPERIUM",
+      "NEPHILIM JETFIGHTER",
+      "RAVENWING",
+      "VEHICLE"
     ],
     "name": "Nephilim Jetfighter",
     "points": [
@@ -2918,7 +2918,7 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Blacksword missiles",
             "range": "36\""
@@ -2936,8 +2936,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -2955,7 +2955,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Avenger mega bolter",
             "range": "36\""
@@ -2994,13 +2994,13 @@
     "faction": "darkangels",
     "id": "darkangels/ravenwing-black-knights",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "grenades",
-      "imperium",
-      "mounted",
-      "ravenwing",
-      "ravenwing black knights"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "MOUNTED",
+      "RAVENWING",
+      "RAVENWING BLACK KNIGHTS"
     ],
     "name": "Ravenwing Black Knights",
     "points": [
@@ -3237,7 +3237,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt Pistol",
             "range": "12\""
@@ -3265,7 +3265,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Astartes grenade launcher - frag",
             "range": "24\""
@@ -3283,7 +3283,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma talon - Standard",
             "range": "18\""
@@ -3295,8 +3295,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma talon - Supercharged",
             "range": "18\""
@@ -3313,7 +3313,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Black Knight combat weapon"
           }
@@ -3344,15 +3344,15 @@
     "faction": "darkangels",
     "id": "darkangels/ravenwing-command-squad",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "grenades",
-      "imperium",
-      "mounted",
-      "ravenwing",
-      "ravenwing command squad",
-      "support"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "MOUNTED",
+      "RAVENWING",
+      "RAVENWING COMMAND SQUAD",
+      "SUPPORT"
     ],
     "name": "Ravenwing Command Squad",
     "points": [
@@ -3594,7 +3594,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt Pistol",
             "range": "12\""
@@ -3622,7 +3622,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Astartes grenade launcher - frag",
             "range": "24\""
@@ -3640,7 +3640,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma talon - Standard",
             "range": "18\""
@@ -3652,8 +3652,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma talon - Supercharged",
             "range": "18\""
@@ -3670,7 +3670,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Black Knight combat weapon"
           }
@@ -3709,14 +3709,14 @@
     "faction": "darkangels",
     "id": "darkangels/ravenwing-dark-talon",
     "keywords": [
-      "aircraft",
-      "dark talon",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "fly",
-      "imperium",
-      "ravenwing",
-      "vehicle"
+      "AIRCRAFT",
+      "DARK TALON",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "FLY",
+      "IMPERIUM",
+      "RAVENWING",
+      "VEHICLE"
     ],
     "name": "Ravenwing Dark Talon",
     "points": [
@@ -3820,8 +3820,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 6",
-              "twin linked"
+              "RAPID FIRE 6",
+              "TWIN-LINKED"
             ],
             "name": "Hurricane bolter",
             "range": "24\""
@@ -3839,8 +3839,8 @@
             "D": "3",
             "S": "16",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Rift cannon",
             "range": "18\""
@@ -3863,14 +3863,14 @@
     "faction": "darkangels",
     "id": "darkangels/ravenwing-darkshroud",
     "keywords": [
-      "darkshroud",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "fly",
-      "frame",
-      "imperium",
-      "ravenwing",
-      "vehicle"
+      "DARKSHROUD",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "FLY",
+      "FRAME",
+      "IMPERIUM",
+      "RAVENWING",
+      "VEHICLE"
     ],
     "name": "Ravenwing Darkshroud",
     "points": [
@@ -3983,7 +3983,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -4001,7 +4001,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -4032,14 +4032,14 @@
     "faction": "darkangels",
     "id": "darkangels/ravenwing-talonmaster-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "fly",
-      "imperium",
-      "ravenwing",
-      "ravenwing talonmaster",
-      "vehicle"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "FLY",
+      "IMPERIUM",
+      "RAVENWING",
+      "RAVENWING TALONMASTER",
+      "VEHICLE"
     ],
     "name": "Ravenwing Talonmaster [Legends]",
     "points": [
@@ -4128,8 +4128,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin Heavy Bolter",
             "range": "36\""
@@ -4162,8 +4162,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin Assault Cannon",
             "range": "24\""
@@ -4194,19 +4194,19 @@
     "faction": "darkangels",
     "id": "darkangels/sammael",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: dark angels",
-      "fly",
-      "frame",
-      "grenades",
-      "imperium",
-      "leader",
-      "mounted",
-      "ravenwing",
-      "sammael"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: DARK ANGELS",
+      "FLY",
+      "FRAME",
+      "GRENADES",
+      "IMPERIUM",
+      "LEADER",
+      "MOUNTED",
+      "RAVENWING",
+      "SAMMAEL"
     ],
     "name": "Sammael",
     "points": [
@@ -4293,7 +4293,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt Pistol",
             "range": "12\""
@@ -4311,7 +4311,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Master-crafted plasma cannon",
             "range": "36\""
@@ -4329,8 +4329,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2",
-              "twin linked"
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin storm bolter",
             "range": "24\""
@@ -4347,7 +4347,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "The Raven Sword"
           }

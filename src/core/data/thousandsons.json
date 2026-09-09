@@ -21,17 +21,17 @@
     "faction": "thousandsons",
     "id": "thousandsons/ahriman",
     "keywords": [
-      "ahriman",
-      "chaos",
-      "character",
-      "epic hero",
-      "faction: thousand sons",
-      "fly",
-      "infantry",
-      "leader",
-      "mounted",
-      "psyker",
-      "tzeentch"
+      "AHRIMAN",
+      "CHAOS",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "INFANTRY",
+      "LEADER",
+      "MOUNTED",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Ahriman",
     "points": [
@@ -108,8 +108,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Transmogrifying Blast",
             "range": "18\""
@@ -126,7 +126,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Black Staff of Ahriman"
           }
@@ -144,7 +144,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -175,14 +175,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/blue-horrors",
     "keywords": [
-      "battleline",
-      "chaos",
-      "daemon",
-      "faction: scintillating legions",
-      "horrors",
-      "infantry",
-      "summoned",
-      "tzeentch"
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "FACTION: SCINTILLATING LEGIONS",
+      "HORRORS",
+      "INFANTRY",
+      "SUMMONED",
+      "TZEENTCH"
     ],
     "name": "Blue Horrors",
     "points": [
@@ -260,8 +260,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "pistol",
-              "psychic"
+              "PISTOL",
+              "PSYCHIC"
             ],
             "name": "Coruscating Yellow flames (ref. only)",
             "range": "18\""
@@ -296,8 +296,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol",
-              "psychic"
+              "PISTOL",
+              "PSYCHIC"
             ],
             "name": "Coruscating Blue flames",
             "range": "18\""
@@ -335,13 +335,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/brayherd-chieftain-crucible",
     "keywords": [
-      "brayherd chieftain",
-      "chaos",
-      "character",
-      "faction: thousand sons",
-      "infantry",
-      "mutant",
-      "tzeentch"
+      "BRAYHERD CHIEFTAIN",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: THOUSAND SONS",
+      "INFANTRY",
+      "MUTANT",
+      "TZEENTCH"
     ],
     "name": "Brayherd Chieftain [Crucible]",
     "points": [
@@ -849,9 +849,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Arcane Fire",
             "range": "18\""
@@ -869,9 +869,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Astral Blast",
             "range": "18\""
@@ -889,9 +889,9 @@
             "D": "1",
             "S": "9",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Baleful Devolution",
             "range": "18\""
@@ -909,9 +909,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "lethal hits",
-              "precision"
+              "IGNORES COVER",
+              "LETHAL HITS",
+              "PRECISION"
             ],
             "name": "Fatecaster greatbow",
             "range": "30\""
@@ -929,8 +929,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Fires of the Abyss - witchfire",
             "range": "18\""
@@ -942,9 +942,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Fires of the Abyss - focused witchfire",
             "range": "18\""
@@ -962,10 +962,10 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "devastating wounds",
-              "psychic"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Gaze of Hate",
             "range": "18\""
@@ -983,8 +983,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy warpflamer",
             "range": "12\""
@@ -1034,7 +1034,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -1052,9 +1052,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 3+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -1072,8 +1072,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "sustained hits 3"
+              "PSYCHIC",
+              "SUSTAINED HITS 3"
             ],
             "name": "Pandaemonic Delusion",
             "range": "24\""
@@ -1091,7 +1091,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Soulreaper cannon",
             "range": "24\""
@@ -1109,8 +1109,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Warpflamer",
             "range": "12\""
@@ -1128,7 +1128,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -1146,7 +1146,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -1164,9 +1164,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Warpflame pistol",
             "range": "12\""
@@ -1183,7 +1183,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Chainsword"
           }
@@ -1215,8 +1215,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "lance",
-              "precision"
+              "LANCE",
+              "PRECISION"
             ],
             "name": "Divining spear"
           }
@@ -1233,7 +1233,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -1290,14 +1290,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/brayherd-shaman-crucible",
     "keywords": [
-      "brayherd shaman",
-      "chaos",
-      "character",
-      "faction: thousand sons",
-      "infantry",
-      "mutant",
-      "psyker",
-      "tzeentch"
+      "BRAYHERD SHAMAN",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: THOUSAND SONS",
+      "INFANTRY",
+      "MUTANT",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Brayherd Shaman [Crucible]",
     "points": [
@@ -1805,9 +1805,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Arcane Fire",
             "range": "18\""
@@ -1825,9 +1825,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Astral Blast",
             "range": "18\""
@@ -1845,9 +1845,9 @@
             "D": "1",
             "S": "9",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Baleful Devolution",
             "range": "18\""
@@ -1865,9 +1865,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "lethal hits",
-              "precision"
+              "IGNORES COVER",
+              "LETHAL HITS",
+              "PRECISION"
             ],
             "name": "Fatecaster greatbow",
             "range": "30\""
@@ -1885,8 +1885,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Fires of the Abyss - witchfire",
             "range": "18\""
@@ -1898,9 +1898,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Fires of the Abyss - focused witchfire",
             "range": "18\""
@@ -1918,10 +1918,10 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "devastating wounds",
-              "psychic"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Gaze of Hate",
             "range": "18\""
@@ -1939,8 +1939,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy warpflamer",
             "range": "12\""
@@ -1990,7 +1990,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -2008,9 +2008,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 3+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -2028,8 +2028,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "sustained hits 3"
+              "PSYCHIC",
+              "SUSTAINED HITS 3"
             ],
             "name": "Pandaemonic Delusion",
             "range": "24\""
@@ -2047,7 +2047,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Soulreaper cannon",
             "range": "24\""
@@ -2065,8 +2065,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Warpflamer",
             "range": "12\""
@@ -2084,7 +2084,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -2102,7 +2102,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -2120,9 +2120,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Warpflame pistol",
             "range": "12\""
@@ -2139,7 +2139,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Chainsword"
           }
@@ -2171,8 +2171,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "lance",
-              "precision"
+              "LANCE",
+              "PRECISION"
             ],
             "name": "Divining spear"
           }
@@ -2189,7 +2189,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -2251,14 +2251,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/chaos-land-raider",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "frame",
-      "land raider",
-      "smoke",
-      "transport",
-      "tzeentch",
-      "vehicle"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FRAME",
+      "LAND RAIDER",
+      "SMOKE",
+      "TRANSPORT",
+      "TZEENTCH",
+      "VEHICLE"
     ],
     "name": "Chaos Land Raider",
     "points": [
@@ -2414,7 +2414,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -2432,9 +2432,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -2452,7 +2452,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -2470,8 +2470,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin inferno heavy bolter",
             "range": "36\""
@@ -2502,13 +2502,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/chaos-lord-on-disc-of-tzeentch-legends",
     "keywords": [
-      "chaos",
-      "chaos lord",
-      "character",
-      "disc of tzeentch",
-      "grenades",
-      "infantry",
-      "tzeentch"
+      "CHAOS",
+      "CHAOS LORD",
+      "CHARACTER",
+      "DISC OF TZEENTCH",
+      "GRENADES",
+      "INFANTRY",
+      "TZEENTCH"
     ],
     "name": "Chaos Lord on Disc of Tzeentch [Legends]",
     "points": [
@@ -2804,7 +2804,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paired accursed weapons"
           }
@@ -2822,7 +2822,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -2840,7 +2840,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -2852,8 +2852,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -2871,7 +2871,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -2889,9 +2889,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2914,13 +2914,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/chaos-predator-annihilator",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "frame",
-      "predator annihilator",
-      "smoke",
-      "tzeentch",
-      "vehicle"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FRAME",
+      "PREDATOR ANNIHILATOR",
+      "SMOKE",
+      "TZEENTCH",
+      "VEHICLE"
     ],
     "name": "Chaos Predator Annihilator",
     "points": [
@@ -3082,7 +3082,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Predator twin lascannon",
             "range": "48\""
@@ -3100,7 +3100,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -3118,9 +3118,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -3139,7 +3139,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Inferno heavy bolter",
             "qty": 2,
@@ -3191,7 +3191,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -3214,13 +3214,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/chaos-predator-destructor",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "frame",
-      "predator destructor",
-      "smoke",
-      "tzeentch",
-      "vehicle"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FRAME",
+      "PREDATOR DESTRUCTOR",
+      "SMOKE",
+      "TZEENTCH",
+      "VEHICLE"
     ],
     "name": "Chaos Predator Destructor",
     "points": [
@@ -3382,7 +3382,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Predator autocannon",
             "range": "48\""
@@ -3400,7 +3400,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -3418,9 +3418,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -3439,7 +3439,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Inferno heavy bolter",
             "qty": 2,
@@ -3491,7 +3491,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -3518,15 +3518,15 @@
     "faction": "thousandsons",
     "id": "thousandsons/chaos-rhino",
     "keywords": [
-      "chaos",
-      "dedicated transport",
-      "faction: thousand sons",
-      "frame",
-      "rhino",
-      "smoke",
-      "transport",
-      "tzeentch",
-      "vehicle"
+      "CHAOS",
+      "DEDICATED TRANSPORT",
+      "FACTION: THOUSAND SONS",
+      "FRAME",
+      "RHINO",
+      "SMOKE",
+      "TRANSPORT",
+      "TZEENTCH",
+      "VEHICLE"
     ],
     "name": "Chaos Rhino",
     "points": [
@@ -3656,7 +3656,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -3674,9 +3674,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -3709,7 +3709,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -3732,12 +3732,12 @@
     "faction": "thousandsons",
     "id": "thousandsons/chaos-spawn",
     "keywords": [
-      "beast",
-      "chaos",
-      "faction: thousand sons",
-      "mutant",
-      "spawn",
-      "tzeentch"
+      "BEAST",
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "MUTANT",
+      "SPAWN",
+      "TZEENTCH"
     ],
     "name": "Chaos Spawn",
     "points": [
@@ -3823,12 +3823,12 @@
     "faction": "thousandsons",
     "id": "thousandsons/chaos-spawn-flesh-change",
     "keywords": [
-      "beast",
-      "chaos",
-      "faction: thousand sons",
-      "mutant",
-      "spawn",
-      "tzeentch"
+      "BEAST",
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "MUTANT",
+      "SPAWN",
+      "TZEENTCH"
     ],
     "name": "Chaos Spawn (Flesh Change)",
     "points": [
@@ -3914,13 +3914,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/chaos-vindicator",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "frame",
-      "smoke",
-      "tzeentch",
-      "vehicle",
-      "vindicator"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FRAME",
+      "SMOKE",
+      "TZEENTCH",
+      "VEHICLE",
+      "VINDICATOR"
     ],
     "name": "Chaos Vindicator",
     "points": [
@@ -4035,7 +4035,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Demolisher cannon",
             "range": "24\""
@@ -4053,7 +4053,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -4071,9 +4071,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -4106,7 +4106,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -4137,14 +4137,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/daemon-prince-of-tzeentch",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "daemon prince",
-      "faction: thousand sons",
-      "monster",
-      "psyker",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "DAEMON PRINCE",
+      "FACTION: THOUSAND SONS",
+      "MONSTER",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Daemon Prince of Tzeentch",
     "points": [
@@ -4233,9 +4233,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "sustained hits 1"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Dark Blessing",
             "range": "24\""
@@ -4252,8 +4252,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Hellforged weapons - strike"
           },
@@ -4264,8 +4264,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Hellforged weapons - sweep"
           }
@@ -4308,15 +4308,15 @@
     "faction": "thousandsons",
     "id": "thousandsons/daemon-prince-of-tzeentch-with-wings",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "daemon prince",
-      "faction: thousand sons",
-      "fly",
-      "monster",
-      "psyker",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "DAEMON PRINCE",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "MONSTER",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Daemon Prince of Tzeentch with wings",
     "points": [
@@ -4405,9 +4405,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "sustained hits 1"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Dark Blessing",
             "range": "24\""
@@ -4424,8 +4424,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Hellforged weapons - strike"
           },
@@ -4436,8 +4436,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Hellforged weapons - sweep"
           }
@@ -4476,13 +4476,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/defiler",
     "keywords": [
-      "chaos",
-      "daemon",
-      "defiler",
-      "faction: thousand sons",
-      "tzeentch",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "DAEMON",
+      "DEFILER",
+      "FACTION: THOUSAND SONS",
+      "TZEENTCH",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Defiler",
     "points": [
@@ -4755,7 +4755,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy missile launcher - frag",
             "range": "48\""
@@ -4782,8 +4782,8 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "sustained hits 2"
+              "EXTRA ATTACKS",
+              "SUSTAINED HITS 2"
             ],
             "name": "Electroscourge"
           }
@@ -4817,8 +4817,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "devastating wounds",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy reaper autocannon",
             "range": "48\""
@@ -4836,7 +4836,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Hades battle cannon",
             "range": "48\""
@@ -4854,7 +4854,7 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ectoplasma destructor",
             "range": "36\""
@@ -4872,8 +4872,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy baleflamer",
             "range": "12\""
@@ -4907,7 +4907,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Pyraflux magma cutter",
             "range": "12\""
@@ -4938,15 +4938,15 @@
     "faction": "thousandsons",
     "id": "thousandsons/exalted-sorcerer",
     "keywords": [
-      "chaos",
-      "character",
-      "exalted sorcerer",
-      "faction: thousand sons",
-      "grenades",
-      "infantry",
-      "leader",
-      "psyker",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "EXALTED SORCERER",
+      "FACTION: THOUSAND SONS",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Exalted Sorcerer",
     "points": [
@@ -5042,9 +5042,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Astral Blast",
             "range": "18\""
@@ -5076,7 +5076,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -5094,7 +5094,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -5125,17 +5125,17 @@
     "faction": "thousandsons",
     "id": "thousandsons/exalted-sorcerer-on-disc-of-tzeentch",
     "keywords": [
-      "chaos",
-      "character",
-      "exalted sorcerer",
-      "faction: thousand sons",
-      "fly",
-      "grenades",
-      "infantry",
-      "leader",
-      "mounted",
-      "psyker",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "EXALTED SORCERER",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "MOUNTED",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Exalted Sorcerer on Disc of Tzeentch",
     "points": [
@@ -5231,9 +5231,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Arcane Fire",
             "range": "18\""
@@ -5265,7 +5265,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -5283,7 +5283,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -5306,14 +5306,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/flamers",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: scintillating legions",
-      "flamers",
-      "fly",
-      "infantry",
-      "summoned",
-      "tzeentch"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: SCINTILLATING LEGIONS",
+      "FLAMERS",
+      "FLY",
+      "INFANTRY",
+      "SUMMONED",
+      "TZEENTCH"
     ],
     "name": "Flamers",
     "points": [
@@ -5437,9 +5437,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Flickering flames",
             "range": "12\""
@@ -5462,13 +5462,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/forgefiend",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: thousand sons",
-      "forgefiend",
-      "tzeentch",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: THOUSAND SONS",
+      "FORGEFIEND",
+      "TZEENTCH",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Forgefiend",
     "points": [
@@ -5626,7 +5626,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ectoplasma cannon",
             "qty": 2,
@@ -5678,7 +5678,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ectoplasma cannon",
             "range": "36\""
@@ -5720,12 +5720,12 @@
     "faction": "thousandsons",
     "id": "thousandsons/helbrute",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "helbrute",
-      "tzeentch",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "HELBRUTE",
+      "TZEENTCH",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Helbrute",
     "points": [
@@ -6048,7 +6048,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -6066,8 +6066,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -6085,7 +6085,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile launcher - frag",
             "range": "48\""
@@ -6143,7 +6143,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -6161,7 +6161,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin autocannon",
             "range": "48\""
@@ -6179,8 +6179,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Helbrute plasma cannon",
             "range": "36\""
@@ -6198,8 +6198,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin inferno heavy bolter",
             "range": "36\""
@@ -6217,7 +6217,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -6240,12 +6240,12 @@
     "faction": "thousandsons",
     "id": "thousandsons/heldrake",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "fly",
-      "heldrake",
-      "tzeentch",
-      "vehicle"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "HELDRAKE",
+      "TZEENTCH",
+      "VEHICLE"
     ],
     "name": "Heldrake",
     "points": [
@@ -6342,8 +6342,8 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "anti fly 2+",
-              "devastating wounds"
+              "ANTI-FLY 2+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heldrake claws"
           }
@@ -6361,8 +6361,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Baleflamer",
             "range": "12\""
@@ -6406,13 +6406,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/hell-talon-legends",
     "keywords": [
-      "aircraft",
-      "chaos",
-      "faction: thousand sons",
-      "fly",
-      "hell talon",
-      "tzeentch",
-      "vehicle"
+      "AIRCRAFT",
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "HELL TALON",
+      "TZEENTCH",
+      "VEHICLE"
     ],
     "name": "Hell Talon [Legends]",
     "points": [
@@ -6552,7 +6552,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -6570,7 +6570,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -6593,13 +6593,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/hellblade-legends",
     "keywords": [
-      "aircraft",
-      "chaos",
-      "faction: thousand sons",
-      "fly",
-      "hellblade",
-      "tzeentch",
-      "vehicle"
+      "AIRCRAFT",
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "HELLBLADE",
+      "TZEENTCH",
+      "VEHICLE"
     ],
     "name": "Hellblade [Legends]",
     "points": [
@@ -6711,7 +6711,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "qty": 2,
@@ -6743,15 +6743,15 @@
     "faction": "thousandsons",
     "id": "thousandsons/infernal-master",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: thousand sons",
-      "grenades",
-      "infantry",
-      "infernal master",
-      "leader",
-      "psyker",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: THOUSAND SONS",
+      "GRENADES",
+      "INFANTRY",
+      "INFERNAL MASTER",
+      "LEADER",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Infernal Master",
     "points": [
@@ -6840,8 +6840,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Fires of the Abyss - witchfire",
             "range": "18\""
@@ -6853,9 +6853,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Fires of the Abyss - focused witchfire",
             "range": "18\""
@@ -6872,7 +6872,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -6890,7 +6890,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -6922,17 +6922,17 @@
     "faction": "thousandsons",
     "id": "thousandsons/kairos-fateweaver",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "epic hero",
-      "faction: scintillating legions",
-      "fly",
-      "kairos fateweaver",
-      "monster",
-      "psyker",
-      "summoned",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "EPIC HERO",
+      "FACTION: SCINTILLATING LEGIONS",
+      "FLY",
+      "KAIROS FATEWEAVER",
+      "MONSTER",
+      "PSYKER",
+      "SUMMONED",
+      "TZEENTCH"
     ],
     "name": "Kairos Fateweaver",
     "points": [
@@ -6999,9 +6999,9 @@
             "D": "D3",
             "S": "9",
             "keywords": [
-              "blast",
-              "indirect fire",
-              "psychic"
+              "BLAST",
+              "INDIRECT FIRE",
+              "PSYCHIC"
             ],
             "name": "Infernal Gateway - witchfire",
             "range": "24\""
@@ -7013,10 +7013,10 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast",
-              "hazardous",
-              "indirect fire",
-              "psychic"
+              "BLAST",
+              "HAZARDOUS",
+              "INDIRECT FIRE",
+              "PSYCHIC"
             ],
             "name": "Infernal Gateway - focused witchfire",
             "range": "24\""
@@ -7033,7 +7033,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Staff of Tomorrow"
           }
@@ -7065,16 +7065,16 @@
     "faction": "thousandsons",
     "id": "thousandsons/lord-of-change",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "faction: scintillating legions",
-      "fly",
-      "lord of change",
-      "monster",
-      "psyker",
-      "summoned",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "FACTION: SCINTILLATING LEGIONS",
+      "FLY",
+      "LORD OF CHANGE",
+      "MONSTER",
+      "PSYKER",
+      "SUMMONED",
+      "TZEENTCH"
     ],
     "name": "Lord of Change",
     "points": [
@@ -7170,7 +7170,7 @@
             "D": "1",
             "S": "9",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Bolt of Change - witchfire",
             "range": "18\""
@@ -7182,8 +7182,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous",
-              "psychic"
+              "HAZARDOUS",
+              "PSYCHIC"
             ],
             "name": "Bolt of Change - focused witchfire",
             "range": "18\""
@@ -7200,7 +7200,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Staff of Tzeentch"
           }
@@ -7218,7 +7218,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Rod of sorcery",
             "range": "18\""
@@ -7235,7 +7235,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Baleful sword"
           }
@@ -7262,14 +7262,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/magister-crucible",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: thousand sons",
-      "grenades",
-      "infantry",
-      "magister",
-      "psyker",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: THOUSAND SONS",
+      "GRENADES",
+      "INFANTRY",
+      "MAGISTER",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Magister [Crucible]",
     "points": [
@@ -7777,9 +7777,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Arcane Fire",
             "range": "18\""
@@ -7797,9 +7797,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Astral Blast",
             "range": "18\""
@@ -7817,9 +7817,9 @@
             "D": "1",
             "S": "9",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Baleful Devolution",
             "range": "18\""
@@ -7837,9 +7837,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "lethal hits",
-              "precision"
+              "IGNORES COVER",
+              "LETHAL HITS",
+              "PRECISION"
             ],
             "name": "Fatecaster greatbow",
             "range": "30\""
@@ -7857,8 +7857,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Fires of the Abyss - witchfire",
             "range": "18\""
@@ -7870,9 +7870,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Fires of the Abyss - focused witchfire",
             "range": "18\""
@@ -7890,10 +7890,10 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "devastating wounds",
-              "psychic"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Gaze of Hate",
             "range": "18\""
@@ -7911,8 +7911,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy warpflamer",
             "range": "12\""
@@ -7962,7 +7962,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -7980,9 +7980,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 3+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -8000,8 +8000,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "sustained hits 3"
+              "PSYCHIC",
+              "SUSTAINED HITS 3"
             ],
             "name": "Pandaemonic Delusion",
             "range": "24\""
@@ -8019,7 +8019,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Soulreaper cannon",
             "range": "24\""
@@ -8037,8 +8037,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Warpflamer",
             "range": "12\""
@@ -8056,7 +8056,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -8074,7 +8074,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -8092,9 +8092,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Warpflame pistol",
             "range": "12\""
@@ -8111,7 +8111,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Chainsword"
           }
@@ -8143,8 +8143,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "lance",
-              "precision"
+              "LANCE",
+              "PRECISION"
             ],
             "name": "Divining spear"
           }
@@ -8161,7 +8161,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -8235,17 +8235,17 @@
     "faction": "thousandsons",
     "id": "thousandsons/magnus-the-red",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "epic hero",
-      "faction: thousand sons",
-      "fly",
-      "magnus the red",
-      "monster",
-      "primarch",
-      "psyker",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "EPIC HERO",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "MAGNUS THE RED",
+      "MONSTER",
+      "PRIMARCH",
+      "PSYKER",
+      "TZEENTCH"
     ],
     "name": "Magnus the Red",
     "points": [
@@ -8322,8 +8322,8 @@
             "D": "3",
             "S": "11",
             "keywords": [
-              "devastating wounds",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Gaze of Magnus",
             "range": "24\""
@@ -8340,8 +8340,8 @@
             "S": "16",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Blade of Magnus - strike"
           },
@@ -8352,7 +8352,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Blade of Magnus - sweep"
           }
@@ -8370,9 +8370,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "ignores cover",
-              "psychic"
+              "BLAST",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Tzeentch's Firestorm",
             "range": "24\""
@@ -8395,13 +8395,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/maulerfiend",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: thousand sons",
-      "maulerfiend",
-      "tzeentch",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: THOUSAND SONS",
+      "MAULERFIEND",
+      "TZEENTCH",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Maulerfiend",
     "points": [
@@ -8523,7 +8523,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Magma cutter",
             "range": "6\""
@@ -8540,7 +8540,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Lasher tendrils"
           }
@@ -8567,12 +8567,12 @@
     "faction": "thousandsons",
     "id": "thousandsons/mutalith-vortex-beast",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "monster",
-      "mutalith vortex beast",
-      "mutant",
-      "tzeentch"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "MONSTER",
+      "MUTALITH VORTEX BEAST",
+      "MUTANT",
+      "TZEENTCH"
     ],
     "name": "Mutalith Vortex Beast",
     "points": [
@@ -8691,7 +8691,7 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Warp vortex - blast",
             "range": "24\""
@@ -8703,7 +8703,7 @@
             "D": "D6+6",
             "S": "18",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Warp vortex - beam",
             "range": "36\""
@@ -8715,8 +8715,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Warp vortex - torrent",
             "range": "18\""
@@ -8751,14 +8751,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/pink-horrors",
     "keywords": [
-      "battleline",
-      "chaos",
-      "daemon",
-      "faction: scintillating legions",
-      "horrors",
-      "infantry",
-      "summoned",
-      "tzeentch"
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "FACTION: SCINTILLATING LEGIONS",
+      "HORRORS",
+      "INFANTRY",
+      "SUMMONED",
+      "TZEENTCH"
     ],
     "name": "Pink Horrors",
     "points": [
@@ -8852,8 +8852,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol",
-              "psychic"
+              "PISTOL",
+              "PSYCHIC"
             ],
             "name": "Coruscating blue flames (ref. only)",
             "range": "18\""
@@ -8872,8 +8872,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "pistol",
-              "psychic"
+              "PISTOL",
+              "PSYCHIC"
             ],
             "name": "Coruscating yellow flames (ref. only)",
             "range": "18\""
@@ -8908,8 +8908,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "psychic"
+              "PISTOL",
+              "PSYCHIC"
             ],
             "name": "Coruscating pink flames",
             "range": "18\""
@@ -8951,13 +8951,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/rubric-marines",
     "keywords": [
-      "battleline",
-      "chaos",
-      "faction: thousand sons",
-      "infantry",
-      "rubric marines",
-      "rubricae",
-      "tzeentch"
+      "BATTLELINE",
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "INFANTRY",
+      "RUBRIC MARINES",
+      "RUBRICAE",
+      "TZEENTCH"
     ],
     "name": "Rubric Marines",
     "points": [
@@ -9172,7 +9172,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -9190,9 +9190,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "psychic"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Malefic Curse",
             "range": "24\""
@@ -9210,7 +9210,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -9228,9 +9228,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Warpflame pistol",
             "range": "12\""
@@ -9279,8 +9279,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Warpflamer",
             "range": "12\""
@@ -9298,7 +9298,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Soulreaper cannon",
             "range": "24\""
@@ -9321,13 +9321,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/scarab-occult-terminators",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "infantry",
-      "rubricae",
-      "scarab occult",
-      "terminator",
-      "tzeentch"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "INFANTRY",
+      "RUBRICAE",
+      "SCARAB OCCULT",
+      "TERMINATOR",
+      "TZEENTCH"
     ],
     "name": "Scarab Occult Terminators",
     "points": [
@@ -9569,7 +9569,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -9587,9 +9587,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "psychic"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Malefic Curse",
             "range": "24\""
@@ -9622,7 +9622,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -9656,8 +9656,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy warpflamer",
             "range": "12\""
@@ -9675,7 +9675,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Soulreaper cannon",
             "range": "24\""
@@ -9698,14 +9698,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/screamers",
     "keywords": [
-      "beast",
-      "chaos",
-      "daemon",
-      "faction: scintillating legions",
-      "fly",
-      "screamers",
-      "summoned",
-      "tzeentch"
+      "BEAST",
+      "CHAOS",
+      "DAEMON",
+      "FACTION: SCINTILLATING LEGIONS",
+      "FLY",
+      "SCREAMERS",
+      "SUMMONED",
+      "TZEENTCH"
     ],
     "name": "Screamers",
     "points": [
@@ -9770,8 +9770,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Lamprey bite"
           }
@@ -9794,12 +9794,12 @@
     "faction": "thousandsons",
     "id": "thousandsons/sekhetar-robots",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "sekhetar robots",
-      "tzeentch",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "SEKHETAR ROBOTS",
+      "TZEENTCH",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Sekhetar Robots",
     "points": [
@@ -9995,7 +9995,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Pyreflux meltagun",
             "range": "12\""
@@ -10028,8 +10028,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy warpflamer",
             "range": "12\""
@@ -10078,8 +10078,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Warpflame projector",
             "range": "12\""
@@ -10110,14 +10110,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/sorcerer",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: thousand sons",
-      "grenades",
-      "infantry",
-      "psyker",
-      "sorcerer",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: THOUSAND SONS",
+      "GRENADES",
+      "INFANTRY",
+      "PSYKER",
+      "SORCERER",
+      "TZEENTCH"
     ],
     "name": "Sorcerer",
     "points": [
@@ -10213,8 +10213,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "sustained hits 3"
+              "PSYCHIC",
+              "SUSTAINED HITS 3"
             ],
             "name": "Pandaemonic Delusion",
             "range": "24\""
@@ -10246,7 +10246,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -10264,7 +10264,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Inferno bolt pistol",
             "range": "12\""
@@ -10295,14 +10295,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/sorcerer-in-terminator-armour",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: thousand sons",
-      "infantry",
-      "psyker",
-      "sorcerer",
-      "terminator",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: THOUSAND SONS",
+      "INFANTRY",
+      "PSYKER",
+      "SORCERER",
+      "TERMINATOR",
+      "TZEENTCH"
     ],
     "name": "Sorcerer in Terminator Armour",
     "points": [
@@ -10411,10 +10411,10 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "devastating wounds",
-              "psychic"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Gaze of Hate",
             "range": "18\""
@@ -10432,7 +10432,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Inferno combi-bolter",
             "range": "24\""
@@ -10450,9 +10450,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Inferno combi-weapon",
             "range": "24\""
@@ -10469,7 +10469,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -10492,13 +10492,13 @@
     "faction": "thousandsons",
     "id": "thousandsons/tzaangor-enlightened",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "fly",
-      "mounted",
-      "mutant",
-      "tzaangor enlightened",
-      "tzeentch"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "MOUNTED",
+      "MUTANT",
+      "TZAANGOR ENLIGHTENED",
+      "TZEENTCH"
     ],
     "name": "Tzaangor Enlightened",
     "points": [
@@ -10669,7 +10669,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -10686,7 +10686,7 @@
             "S": "4",
             "WS": "4+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Chainsword"
           }
@@ -10703,8 +10703,8 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "lance",
-              "precision"
+              "LANCE",
+              "PRECISION"
             ],
             "name": "Divining spear"
           }
@@ -10727,14 +10727,14 @@
     "faction": "thousandsons",
     "id": "thousandsons/tzaangor-enlightened-with-fatecaster-greatbows",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "fly",
-      "mounted",
-      "mutant",
-      "tzaangor enlightened",
-      "tzaangor enlightened with fatecaster greatbows",
-      "tzeentch"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "MOUNTED",
+      "MUTANT",
+      "TZAANGOR ENLIGHTENED",
+      "TZAANGOR ENLIGHTENED WITH FATECASTER GREATBOWS",
+      "TZEENTCH"
     ],
     "name": "Tzaangor Enlightened with Fatecaster greatbows",
     "points": [
@@ -10843,9 +10843,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "lethal hits",
-              "precision"
+              "IGNORES COVER",
+              "LETHAL HITS",
+              "PRECISION"
             ],
             "name": "Fatecaster greatbow",
             "range": "30\""
@@ -10891,16 +10891,16 @@
     "faction": "thousandsons",
     "id": "thousandsons/tzaangor-shaman",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: thousand sons",
-      "fly",
-      "infantry",
-      "mounted",
-      "mutant",
-      "psyker",
-      "tzaangor shaman",
-      "tzeentch"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: THOUSAND SONS",
+      "FLY",
+      "INFANTRY",
+      "MOUNTED",
+      "MUTANT",
+      "PSYKER",
+      "TZAANGOR SHAMAN",
+      "TZEENTCH"
     ],
     "name": "Tzaangor Shaman",
     "points": [
@@ -10978,9 +10978,9 @@
             "D": "1",
             "S": "9",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Baleful Devolution",
             "range": "18\""
@@ -10997,7 +10997,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force stave"
           }
@@ -11020,12 +11020,12 @@
     "faction": "thousandsons",
     "id": "thousandsons/tzaangors",
     "keywords": [
-      "chaos",
-      "faction: thousand sons",
-      "infantry",
-      "mutant",
-      "tzaangors",
-      "tzeentch"
+      "CHAOS",
+      "FACTION: THOUSAND SONS",
+      "INFANTRY",
+      "MUTANT",
+      "TZAANGORS",
+      "TZEENTCH"
     ],
     "name": "Tzaangors",
     "points": [
@@ -11211,7 +11211,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""

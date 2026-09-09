@@ -13,15 +13,15 @@
     "faction": "agents",
     "id": "agents/aquila-kill-team",
     "keywords": [
-      "aquila kill team",
-      "battleline",
-      "deathwatch",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "ordo xenos",
-      "retinue"
+      "AQUILA KILL TEAM",
+      "BATTLELINE",
+      "DEATHWATCH",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "ORDO XENOS",
+      "RETINUE"
     ],
     "name": "Aquila Kill Team",
     "points": [
@@ -754,7 +754,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - Standard",
             "range": "12\""
@@ -766,8 +766,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - Supercharge",
             "range": "12\""
@@ -784,7 +784,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Power weapon"
           }
@@ -802,9 +802,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "lethal hits",
-              "precision"
+              "HEAVY",
+              "LETHAL HITS",
+              "PRECISION"
             ],
             "name": "Stalker bolt rifle",
             "range": "30\""
@@ -822,8 +822,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Plasma incinerator - Standard",
             "range": "24\""
@@ -835,9 +835,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "assault",
-              "hazardous",
-              "heavy"
+              "ASSAULT",
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Plasma incinerator - Supercharge",
             "range": "24\""
@@ -855,8 +855,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "lethal hits"
+              "PISTOL",
+              "LETHAL HITS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -888,7 +888,7 @@
             "S": "10",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy thunder hammer"
           }
@@ -906,8 +906,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "lethal hits"
+              "HEAVY",
+              "LETHAL HITS"
             ],
             "name": "Deathwatch marksman bolt carbine",
             "range": "24\""
@@ -924,7 +924,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Combat knife"
           }
@@ -942,9 +942,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "precision",
-              "lethal hits"
+              "PISTOL",
+              "PRECISION",
+              "LETHAL HITS"
             ],
             "name": "Special-issue bolt pistol",
             "range": "18\""
@@ -962,10 +962,10 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy",
-              "lethal hits",
-              "rapid fire d3"
+              "BLAST",
+              "HEAVY",
+              "LETHAL HITS",
+              "RAPID FIRE D3"
             ],
             "name": "Frag cannon",
             "range": "18\""
@@ -983,9 +983,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "heavy",
-              "lethal hits"
+              "ASSAULT",
+              "HEAVY",
+              "LETHAL HITS"
             ],
             "name": "Hellstorm bolt rifle",
             "range": "30\""
@@ -1003,7 +1003,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Astartes grenade launcher - frag",
             "range": "24\""
@@ -1031,7 +1031,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Infernus heavy bolter - heavy bolter",
             "range": "36\""
@@ -1043,8 +1043,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Infernus heavy bolter - heavy flamer",
             "range": "12\""
@@ -1061,7 +1061,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Xenophase blade"
           }
@@ -1088,13 +1088,13 @@
     "faction": "agents",
     "id": "agents/callidus-assassin",
     "keywords": [
-      "callidus assassin",
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "imperium",
-      "infantry",
-      "officio assassinorum"
+      "CALLIDUS ASSASSIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INFANTRY",
+      "OFFICIO ASSASSINORUM"
     ],
     "name": "Callidus Assassin",
     "points": [
@@ -1161,9 +1161,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "precision",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "PRECISION",
+              "TORRENT"
             ],
             "name": "Neural shredder",
             "range": "12\""
@@ -1180,8 +1180,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits",
-              "precision"
+              "LETHAL HITS",
+              "PRECISION"
             ],
             "name": "Phase sword and poison blades"
           }
@@ -1209,16 +1209,16 @@
     "faction": "agents",
     "id": "agents/corvus-blackstar",
     "keywords": [
-      "corvus blackstar",
-      "deathwatch",
-      "faction: agents of the imperium",
-      "fly",
-      "frame",
-      "imperium",
-      "ordo xenos",
-      "retinue",
-      "transport",
-      "vehicle"
+      "CORVUS BLACKSTAR",
+      "DEATHWATCH",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "FLY",
+      "FRAME",
+      "IMPERIUM",
+      "ORDO XENOS",
+      "RETINUE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Corvus Blackstar",
     "points": [
@@ -1385,8 +1385,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 6",
-              "twin linked"
+              "RAPID FIRE 6",
+              "TWIN-LINKED"
             ],
             "name": "Hurricane bolter",
             "range": "24\""
@@ -1404,8 +1404,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin assault cannon",
             "range": "24\""
@@ -1423,7 +1423,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -1441,7 +1441,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Blackstar rocket launcher",
             "range": "30\""
@@ -1488,14 +1488,14 @@
     "faction": "agents",
     "id": "agents/culexus-assassin",
     "keywords": [
-      "character",
-      "culexus assassin",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "officio assassinorum"
+      "CHARACTER",
+      "CULEXUS ASSASSIN",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "OFFICIO ASSASSINORUM"
     ],
     "name": "Culexus Assassin",
     "points": [
@@ -1561,9 +1561,9 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Life-draining touch"
           }
@@ -1581,10 +1581,10 @@
             "D": "D3",
             "S": "5",
             "keywords": [
-              "anti psyker 2+",
-              "assault",
-              "precision",
-              "psychic assassin"
+              "ANTI-PSYKER 2+",
+              "ASSAULT",
+              "PRECISION",
+              "PSYCHIC ASSASSIN"
             ],
             "name": "Animus speculum",
             "range": "24\""
@@ -1611,13 +1611,13 @@
     "faction": "agents",
     "id": "agents/daemonhost-legends",
     "keywords": [
-      "daemon",
-      "daemonhost",
-      "faction: agents of the imperium",
-      "imperium",
-      "infantry",
-      "psyker",
-      "retinue"
+      "DAEMON",
+      "DAEMONHOST",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INFANTRY",
+      "PSYKER",
+      "RETINUE"
     ],
     "name": "Daemonhost [Legends]",
     "points": [
@@ -1695,7 +1695,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Unholy gaze",
             "range": "18\""
@@ -1712,8 +1712,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Warp grasp"
           }
@@ -1732,12 +1732,12 @@
     "faction": "agents",
     "id": "agents/damned-legionnaires-legends",
     "keywords": [
-      "damned legionaires",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "retinue"
+      "DAMNED LEGIONAIRES",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "RETINUE"
     ],
     "name": "Damned Legionnaires [Legends]",
     "points": [
@@ -2112,8 +2112,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -2146,7 +2146,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -2158,8 +2158,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -2192,8 +2192,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -2205,7 +2205,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -2223,7 +2223,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -2256,8 +2256,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -2275,8 +2275,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -2294,7 +2294,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -2306,8 +2306,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -2325,8 +2325,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -2344,7 +2344,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -2371,15 +2371,15 @@
     "faction": "agents",
     "id": "agents/deathwatch-agent-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "deathwatch",
-      "deathwatch agent",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "ordo xenos"
+      "CHARACTER",
+      "CRUCIBLE",
+      "DEATHWATCH",
+      "DEATHWATCH AGENT",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "ORDO XENOS"
     ],
     "name": "Deathwatch Agent [Crucible]",
     "points": [
@@ -3272,7 +3272,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Arbites combat shotgun",
             "range": "18\""
@@ -3290,7 +3290,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Arbites grenade launcher - frag",
             "range": "24\""
@@ -3318,7 +3318,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -3336,7 +3336,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Artificer shotgun",
             "range": "12\""
@@ -3354,7 +3354,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -3372,9 +3372,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -3392,10 +3392,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -3413,8 +3413,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "precision"
+              "IGNORES COVER",
+              "PRECISION"
             ],
             "name": "Executioner shotgun",
             "range": "24\""
@@ -3432,8 +3432,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -3451,8 +3451,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Master-crafted bolt sniper rifle",
             "range": "36\""
@@ -3470,7 +3470,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Lasgun",
             "range": "24\""
@@ -3488,7 +3488,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -3506,8 +3506,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -3525,8 +3525,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -3544,8 +3544,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 4"
+              "HEAVY",
+              "MELTA 4"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -3563,7 +3563,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -3575,8 +3575,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -3594,9 +3594,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "devastating wounds",
-              "psychic",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic Shock Wave",
             "range": "18\""
@@ -3614,7 +3614,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Unholy Gaze",
             "range": "18\""
@@ -3648,9 +3648,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "torrent"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Webber",
             "range": "12\""
@@ -3668,7 +3668,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Agent firearm",
             "range": "12\""
@@ -3686,7 +3686,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy bolt pistol",
             "range": "12\""
@@ -3704,7 +3704,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Holy pistol",
             "range": "12\""
@@ -3722,8 +3722,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Household pistol",
             "range": "12\""
@@ -3741,8 +3741,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -3760,9 +3760,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -3780,7 +3780,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -3792,8 +3792,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -3811,8 +3811,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "sustained hits 2"
+              "PISTOL",
+              "SUSTAINED HITS 2"
             ],
             "name": "Voltaic pistol",
             "range": "12\""
@@ -3829,7 +3829,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -3876,7 +3876,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Deathwatch weapon"
           }
@@ -3893,7 +3893,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Eviscerator"
           }
@@ -3925,7 +3925,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -3957,8 +3957,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Warp grasp"
           }
@@ -3985,11 +3985,11 @@
     "faction": "agents",
     "id": "agents/deathwatch-terminator-squad-legends",
     "keywords": [
-      "deathwatch",
-      "deathwatch terminator squad",
-      "imperium",
-      "infantry",
-      "terminator"
+      "DEATHWATCH",
+      "DEATHWATCH TERMINATOR SQUAD",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR"
     ],
     "name": "Deathwatch Terminator Squad [Legends]",
     "points": [
@@ -4755,7 +4755,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -4802,7 +4802,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -4819,7 +4819,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder hammer"
           }
@@ -4836,7 +4836,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -4854,7 +4854,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -4872,8 +4872,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -4891,8 +4891,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Plasma cannon - standard",
             "range": "36\""
@@ -4904,9 +4904,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous",
-              "heavy"
+              "BLAST",
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -4924,7 +4924,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Cyclone missile launcher - frag",
             "range": "36\""
@@ -4972,14 +4972,14 @@
     "faction": "agents",
     "id": "agents/enthroned-agent-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "enthroned agent",
-      "faction: agents of the imperium",
-      "imperium",
-      "leader",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "CRUCIBLE",
+      "ENTHRONED AGENT",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "LEADER",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Enthroned Agent [Crucible]",
     "points": [
@@ -5872,7 +5872,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Arbites combat shotgun",
             "range": "18\""
@@ -5890,7 +5890,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Arbites grenade launcher - frag",
             "range": "24\""
@@ -5918,7 +5918,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -5936,7 +5936,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Artificer shotgun",
             "range": "12\""
@@ -5954,7 +5954,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -5972,9 +5972,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -5992,10 +5992,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -6013,8 +6013,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "precision"
+              "IGNORES COVER",
+              "PRECISION"
             ],
             "name": "Executioner shotgun",
             "range": "24\""
@@ -6032,8 +6032,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -6051,8 +6051,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Master-crafted bolt sniper rifle",
             "range": "36\""
@@ -6070,7 +6070,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Lasgun",
             "range": "24\""
@@ -6088,7 +6088,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -6106,8 +6106,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -6125,8 +6125,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -6144,8 +6144,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 4"
+              "HEAVY",
+              "MELTA 4"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -6163,7 +6163,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -6175,8 +6175,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -6194,9 +6194,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "devastating wounds",
-              "psychic",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic Shock Wave",
             "range": "18\""
@@ -6214,7 +6214,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Unholy Gaze",
             "range": "18\""
@@ -6248,9 +6248,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "torrent"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Webber",
             "range": "12\""
@@ -6268,7 +6268,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Agent firearm",
             "range": "12\""
@@ -6286,7 +6286,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy bolt pistol",
             "range": "12\""
@@ -6304,7 +6304,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Holy pistol",
             "range": "12\""
@@ -6322,8 +6322,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Household pistol",
             "range": "12\""
@@ -6341,8 +6341,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -6360,9 +6360,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -6380,7 +6380,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -6392,8 +6392,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -6411,8 +6411,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "sustained hits 2"
+              "PISTOL",
+              "SUSTAINED HITS 2"
             ],
             "name": "Voltaic pistol",
             "range": "12\""
@@ -6429,7 +6429,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -6476,7 +6476,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Deathwatch weapon"
           }
@@ -6493,7 +6493,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Eviscerator"
           }
@@ -6525,7 +6525,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -6557,8 +6557,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Warp grasp"
           }
@@ -6585,14 +6585,14 @@
     "faction": "agents",
     "id": "agents/eversor-assassin",
     "keywords": [
-      "character",
-      "epic hero",
-      "eversor assassin",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "officio assassinorum"
+      "CHARACTER",
+      "EPIC HERO",
+      "EVERSOR ASSASSIN",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "OFFICIO ASSASSINORUM"
     ],
     "name": "Eversor Assassin",
     "points": [
@@ -6659,10 +6659,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "pistol",
-              "precision",
-              "sustained hits 3"
+              "ANTI-INFANTRY 3+",
+              "PISTOL",
+              "PRECISION",
+              "SUSTAINED HITS 3"
             ],
             "name": "Executioner pistol",
             "range": "12\""
@@ -6679,9 +6679,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+",
-              "precision",
-              "sustained hits 3"
+              "ANTI-INFANTRY 3+",
+              "PRECISION",
+              "SUSTAINED HITS 3"
             ],
             "name": "Power sword and neuro gauntlet"
           }
@@ -6700,13 +6700,13 @@
     "faction": "agents",
     "id": "agents/exaction-squad",
     "keywords": [
-      "adeptus arbites",
-      "exaction squad",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "retinue"
+      "ADEPTUS ARBITES",
+      "EXACTION SQUAD",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "RETINUE"
     ],
     "name": "Exaction Squad",
     "points": [
@@ -7195,7 +7195,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Arbites combat shotgun",
             "range": "18\""
@@ -7213,7 +7213,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Arbites shotpistol",
             "range": "12\""
@@ -7246,7 +7246,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Arbites grenade launcher - frag",
             "range": "24\""
@@ -7274,8 +7274,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "precision"
+              "IGNORES COVER",
+              "PRECISION"
             ],
             "name": "Executioner shotgun",
             "range": "24\""
@@ -7293,7 +7293,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Heavy stubber",
             "range": "36\""
@@ -7311,9 +7311,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "torrent"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Webber",
             "range": "12\""
@@ -7355,11 +7355,11 @@
     "faction": "agents",
     "id": "agents/fortis-kill-team-legends",
     "keywords": [
-      "deathwatch",
-      "fortis kill team",
-      "grenades",
-      "imperium",
-      "infantry"
+      "DEATHWATCH",
+      "FORTIS KILL TEAM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Fortis Kill Team [Legends]",
     "points": [
@@ -7847,8 +7847,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Bolt Rifle",
             "range": "24\""
@@ -7866,7 +7866,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -7899,9 +7899,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand Flamer",
             "range": "12\""
@@ -7919,7 +7919,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - Standard",
             "range": "12\""
@@ -7931,8 +7931,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - Supercharge",
             "range": "12\""
@@ -7980,9 +7980,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Long Vigil ranged weapon",
             "range": "24\""
@@ -8000,7 +8000,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy bolt pistol",
             "range": "12\""
@@ -8018,7 +8018,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Bolt Rifle",
             "range": "24\""
@@ -8036,8 +8036,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Plasma incinerator - Standard",
             "range": "24\""
@@ -8049,9 +8049,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "assault",
-              "hazardous",
-              "heavy"
+              "ASSAULT",
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Plasma incinerator - Supercharge",
             "range": "24\""
@@ -8074,15 +8074,15 @@
     "faction": "agents",
     "id": "agents/grey-knights-terminator-squad",
     "keywords": [
-      "faction: agents of the imperium",
-      "grenades",
-      "grey knights terminator squad",
-      "imperium",
-      "infantry",
-      "ordo malleus",
-      "psyker",
-      "requisitioned",
-      "terminator"
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "GREY KNIGHTS TERMINATOR SQUAD",
+      "IMPERIUM",
+      "INFANTRY",
+      "ORDO MALLEUS",
+      "PSYKER",
+      "REQUISITIONED",
+      "TERMINATOR"
     ],
     "name": "Grey Knights Terminator Squad",
     "points": [
@@ -8319,7 +8319,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -8336,7 +8336,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -8354,8 +8354,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -8373,8 +8373,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "sustained hits 1"
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -8392,7 +8392,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -8419,15 +8419,15 @@
     "faction": "agents",
     "id": "agents/imperial-navy-breachers",
     "keywords": [
-      "battleline",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperial navy breachers",
-      "imperium",
-      "infantry",
-      "retinue",
-      "smoke",
-      "voidfarers"
+      "BATTLELINE",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIAL NAVY BREACHERS",
+      "IMPERIUM",
+      "INFANTRY",
+      "RETINUE",
+      "SMOKE",
+      "VOIDFARERS"
     ],
     "name": "Imperial Navy Breachers",
     "points": [
@@ -8804,7 +8804,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Navis shotgun",
             "range": "12\""
@@ -8837,7 +8837,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -8855,7 +8855,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -8903,10 +8903,10 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "assault",
-              "blast",
-              "hazardous",
-              "one shot"
+              "ASSAULT",
+              "BLAST",
+              "HAZARDOUS",
+              "ONE SHOT"
             ],
             "name": "Demolition charge",
             "range": "6\""
@@ -8924,7 +8924,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Navis heavy shotgun",
             "range": "12\""
@@ -8958,7 +8958,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -8970,8 +8970,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -8989,7 +8989,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -9006,7 +9006,7 @@
             "S": "6",
             "WS": "5+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -9029,14 +9029,14 @@
     "faction": "agents",
     "id": "agents/imperial-rhino",
     "keywords": [
-      "dedicated transport",
-      "faction: agents of the imperium",
-      "frame",
-      "imperial rhino",
-      "imperium",
-      "smoke",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "FRAME",
+      "IMPERIAL RHINO",
+      "IMPERIUM",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Imperial Rhino",
     "points": [
@@ -9122,7 +9122,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -9155,7 +9155,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -9182,11 +9182,11 @@
     "faction": "agents",
     "id": "agents/indomitor-kill-team-legends",
     "keywords": [
-      "deathwatch",
-      "grenades",
-      "imperium",
-      "indomitor kill team",
-      "infantry"
+      "DEATHWATCH",
+      "GRENADES",
+      "IMPERIUM",
+      "INDOMITOR KILL TEAM",
+      "INFANTRY"
     ],
     "name": "Indomitor Kill Team [Legends]",
     "points": [
@@ -9595,8 +9595,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Heavy bolt rifle",
             "range": "30\""
@@ -9614,7 +9614,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -9647,9 +9647,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "heavy",
-              "sustained hits 1"
+              "ASSAULT",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy Bolter",
             "range": "36\""
@@ -9667,9 +9667,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Flamestorm gauntlets",
             "range": "12\""
@@ -9686,7 +9686,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Power fists"
           }
@@ -9704,7 +9704,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Auto boltstorm gauntlets",
             "range": "18\""
@@ -9722,7 +9722,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Fragstorm grenade launcher",
             "range": "18\""
@@ -9740,8 +9740,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Melta rifle",
             "range": "18\""
@@ -9759,8 +9759,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -9778,10 +9778,10 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "pistol",
-              "sustained hits 2",
-              "twin linked"
+              "ASSAULT",
+              "PISTOL",
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Assault bolters",
             "range": "18\""
@@ -9799,9 +9799,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "assault",
-              "pistol",
-              "twin linked"
+              "ASSAULT",
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Plasma exterminators - Standard",
             "range": "18\""
@@ -9813,10 +9813,10 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "assault",
-              "hazardous",
-              "pistol",
-              "twin linked"
+              "ASSAULT",
+              "HAZARDOUS",
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Plasma exterminators - Supercharge",
             "range": "18\""
@@ -9843,13 +9843,13 @@
     "faction": "agents",
     "id": "agents/inquisitor",
     "keywords": [
-      "character",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "inquisitor",
-      "leader"
+      "CHARACTER",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "INQUISITOR",
+      "LEADER"
     ],
     "name": "Inquisitor",
     "points": [
@@ -10016,7 +10016,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -10034,7 +10034,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -10052,9 +10052,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -10072,9 +10072,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "devastating wounds",
-              "psychic",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic Shock Wave",
             "range": "18\""
@@ -10109,16 +10109,16 @@
     "faction": "agents",
     "id": "agents/inquisitor-coteaz",
     "keywords": [
-      "character",
-      "coteaz",
-      "epic hero",
-      "faction: agents of the imperium",
-      "imperium",
-      "infantry",
-      "inquisitor",
-      "leader",
-      "ordo malleus",
-      "psyker"
+      "CHARACTER",
+      "COTEAZ",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INFANTRY",
+      "INQUISITOR",
+      "LEADER",
+      "ORDO MALLEUS",
+      "PSYKER"
     ],
     "name": "Inquisitor Coteaz",
     "points": [
@@ -10195,7 +10195,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -10213,10 +10213,10 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti daemon 4+",
-              "anti infantry 5+",
-              "devastating wounds",
-              "psychic"
+              "ANTI-DAEMON 4+",
+              "ANTI-INFANTRY 5+",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Psychic Blast",
             "range": "18\""
@@ -10233,7 +10233,7 @@
             "S": "9",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis daemon hammer"
           }
@@ -10264,17 +10264,17 @@
     "faction": "agents",
     "id": "agents/inquisitor-draxus",
     "keywords": [
-      "character",
-      "draxus",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "inquisitor",
-      "leader",
-      "ordo xenos",
-      "psyker"
+      "CHARACTER",
+      "DRAXUS",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "INQUISITOR",
+      "LEADER",
+      "ORDO XENOS",
+      "PSYKER"
     ],
     "name": "Inquisitor Draxus",
     "points": [
@@ -10351,9 +10351,9 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "assault",
-              "devastating wounds"
+              "ANTI-INFANTRY 4+",
+              "ASSAULT",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Dirgesinger",
             "range": "18\""
@@ -10371,8 +10371,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "psychic",
-              "sustained hits 2"
+              "PSYCHIC",
+              "SUSTAINED HITS 2"
             ],
             "name": "Psychic Tempest",
             "range": "18\""
@@ -10418,17 +10418,17 @@
     "faction": "agents",
     "id": "agents/inquisitor-eisenhorn-legends",
     "keywords": [
-      "character",
-      "eisenhorn",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "inquisitor",
-      "leader",
-      "ordo xenos",
-      "psyker"
+      "CHARACTER",
+      "EISENHORN",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "INQUISITOR",
+      "LEADER",
+      "ORDO XENOS",
+      "PSYKER"
     ],
     "name": "Inquisitor Eisenhorn [Legends]",
     "points": [
@@ -10521,10 +10521,10 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Mind Assault",
             "range": "18\""
@@ -10541,7 +10541,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Runestaff and Barbarisater"
           }
@@ -10572,17 +10572,17 @@
     "faction": "agents",
     "id": "agents/inquisitor-greyfax",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "greyfax",
-      "imperium",
-      "infantry",
-      "inquisitor",
-      "leader",
-      "ordo hereticus",
-      "psyker"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "GREYFAX",
+      "IMPERIUM",
+      "INFANTRY",
+      "INQUISITOR",
+      "LEADER",
+      "ORDO HERETICUS",
+      "PSYKER"
     ],
     "name": "Inquisitor Greyfax",
     "points": [
@@ -10659,10 +10659,10 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "anti character 4+",
-              "devastating wounds",
-              "precision",
-              "psychic"
+              "ANTI-CHARACTER 4+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Castigation",
             "range": "18\""
@@ -10680,10 +10680,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor stake",
             "range": "24\""
@@ -10725,14 +10725,14 @@
     "faction": "agents",
     "id": "agents/inquisitor-in-terminator-armour-legends",
     "keywords": [
-      "character",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "inquisitor",
-      "leader",
-      "terminator"
+      "CHARACTER",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "INQUISITOR",
+      "LEADER",
+      "TERMINATOR"
     ],
     "name": "Inquisitor in Terminator Armour [Legends]",
     "points": [
@@ -10913,9 +10913,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "devastating wounds",
-              "psychic",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic shock wave",
             "range": "18\""
@@ -10947,7 +10947,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -10965,7 +10965,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -10983,9 +10983,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -11003,7 +11003,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -11026,15 +11026,15 @@
     "faction": "agents",
     "id": "agents/inquisitor-karamazov-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "imperium",
-      "inquisitor",
-      "karamazov",
-      "ordo hereticus",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INQUISITOR",
+      "KARAMAZOV",
+      "ORDO HERETICUS",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Inquisitor Karamazov [Legends]",
     "points": [
@@ -11101,7 +11101,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "melta 3"
+              "MELTA 3"
             ],
             "name": "Master-crafted multi-melta",
             "range": "18\""
@@ -11139,16 +11139,16 @@
     "faction": "agents",
     "id": "agents/inquisitor-kroyle",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "inquisitor",
-      "kroyle",
-      "leader",
-      "mounted",
-      "ordo xenos"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INQUISITOR",
+      "KROYLE",
+      "LEADER",
+      "MOUNTED",
+      "ORDO XENOS"
     ],
     "name": "Inquisitor Kroyle",
     "points": [
@@ -11248,9 +11248,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti monster 2+",
-              "heavy",
-              "precision"
+              "ANTI-MONSTER 2+",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Jindarii tox-cycler",
             "range": "36\""
@@ -11268,7 +11268,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Stubcarbine",
             "range": "12\""
@@ -11300,7 +11300,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Garralisk's claws and teeth"
           }
@@ -11331,15 +11331,15 @@
     "faction": "agents",
     "id": "agents/inquisitor-ostromandeus-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "inquisitor",
-      "leader",
-      "ostromandeus"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "INQUISITOR",
+      "LEADER",
+      "OSTROMANDEUS"
     ],
     "name": "Inquisitor Ostromandeus [Legends]",
     "points": [
@@ -11436,8 +11436,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -11490,12 +11490,12 @@
     "faction": "agents",
     "id": "agents/inquisitorial-agents",
     "keywords": [
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "inquisitorial agents",
-      "retinue"
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "INQUISITORIAL AGENTS",
+      "RETINUE"
     ],
     "name": "Inquisitorial Agents",
     "points": [
@@ -11831,7 +11831,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Agent firearm",
             "range": "12\""
@@ -11849,7 +11849,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -11861,8 +11861,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -11879,7 +11879,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Eviscerator"
           }
@@ -11896,8 +11896,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "psychic"
+              "ANTI-INFANTRY 4+",
+              "PSYCHIC"
             ],
             "name": "Mystic stave"
           }
@@ -11915,8 +11915,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -11934,8 +11934,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -11953,8 +11953,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Plasma cannon - standard",
             "range": "36\""
@@ -11966,9 +11966,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous",
-              "heavy"
+              "BLAST",
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -11991,14 +11991,14 @@
     "faction": "agents",
     "id": "agents/inquisitorial-chimera",
     "keywords": [
-      "dedicated transport",
-      "faction: agents of the imperium",
-      "frame",
-      "imperium",
-      "inquisitorial chimera",
-      "smoke",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "FRAME",
+      "IMPERIUM",
+      "INQUISITORIAL CHIMERA",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Inquisitorial Chimera",
     "points": [
@@ -12183,7 +12183,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 6"
+              "RAPID FIRE 6"
             ],
             "name": "Lasgun array",
             "range": "24\""
@@ -12201,7 +12201,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -12219,8 +12219,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -12238,7 +12238,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -12256,7 +12256,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Heavy stubber",
             "range": "36\""
@@ -12305,7 +12305,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -12332,16 +12332,16 @@
     "faction": "agents",
     "id": "agents/janus-draik-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "janus draik",
-      "leader",
-      "voidfarer character",
-      "voidfarers"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JANUS DRAIK",
+      "LEADER",
+      "VOIDFARER CHARACTER",
+      "VOIDFARERS"
     ],
     "name": "Janus Draik [Legends]",
     "points": [
@@ -12408,8 +12408,8 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "pistol"
+              "ANTI-INFANTRY 4+",
+              "PISTOL"
             ],
             "name": "Heirloom pistol",
             "range": "12\""
@@ -12426,7 +12426,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Monomolecular rapier"
           }
@@ -12457,12 +12457,12 @@
     "faction": "agents",
     "id": "agents/jokaero-weaponsmith-legends",
     "keywords": [
-      "character",
-      "faction: agents of the imperium",
-      "imperium",
-      "infantry",
-      "jokaero weaponsmith",
-      "leader"
+      "CHARACTER",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INFANTRY",
+      "JOKAERO WEAPONSMITH",
+      "LEADER"
     ],
     "name": "Jokaero Weaponsmith [Legends]",
     "points": [
@@ -12565,7 +12565,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Jokaero weapons - scattered",
             "range": "12\""
@@ -12596,14 +12596,14 @@
     "faction": "agents",
     "id": "agents/kill-team-cassius-legends",
     "keywords": [
-      "deathwatch",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "kill team",
-      "kill team cassius",
-      "ordo xenos"
+      "DEATHWATCH",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "KILL TEAM",
+      "KILL TEAM CASSIUS",
+      "ORDO XENOS"
     ],
     "name": "Kill Team Cassius [Legends]",
     "points": [
@@ -13038,7 +13038,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -13087,9 +13087,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Long Vigil ranged weapon",
             "range": "24\""
@@ -13122,9 +13122,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy",
-              "rapid fire d3"
+              "BLAST",
+              "HEAVY",
+              "RAPID FIRE D3"
             ],
             "name": "Frag cannon",
             "range": "18\""
@@ -13141,7 +13141,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -13159,7 +13159,7 @@
             "D": "D3",
             "S": "5",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psychic Cleanse",
             "range": "24\""
@@ -13176,7 +13176,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -13209,8 +13209,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -13249,14 +13249,14 @@
     "faction": "agents",
     "id": "agents/martial-agent-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "martial agent"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "MARTIAL AGENT"
     ],
     "name": "Martial Agent [Crucible]",
     "points": [
@@ -14149,7 +14149,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Arbites combat shotgun",
             "range": "18\""
@@ -14167,7 +14167,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Arbites grenade launcher - frag",
             "range": "24\""
@@ -14195,7 +14195,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -14213,7 +14213,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Artificer shotgun",
             "range": "12\""
@@ -14231,7 +14231,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -14249,9 +14249,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -14269,10 +14269,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -14290,8 +14290,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "precision"
+              "IGNORES COVER",
+              "PRECISION"
             ],
             "name": "Executioner shotgun",
             "range": "24\""
@@ -14309,8 +14309,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -14328,8 +14328,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Master-crafted bolt sniper rifle",
             "range": "36\""
@@ -14347,7 +14347,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Lasgun",
             "range": "24\""
@@ -14365,7 +14365,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -14383,8 +14383,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -14402,8 +14402,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -14421,8 +14421,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 4"
+              "HEAVY",
+              "MELTA 4"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -14440,7 +14440,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -14452,8 +14452,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -14471,9 +14471,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "devastating wounds",
-              "psychic",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic Shock Wave",
             "range": "18\""
@@ -14491,7 +14491,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Unholy Gaze",
             "range": "18\""
@@ -14525,9 +14525,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "torrent"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Webber",
             "range": "12\""
@@ -14545,7 +14545,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Agent firearm",
             "range": "12\""
@@ -14563,7 +14563,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy bolt pistol",
             "range": "12\""
@@ -14581,7 +14581,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Holy pistol",
             "range": "12\""
@@ -14599,8 +14599,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Household pistol",
             "range": "12\""
@@ -14618,8 +14618,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -14637,9 +14637,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -14657,7 +14657,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -14669,8 +14669,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -14688,8 +14688,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "sustained hits 2"
+              "PISTOL",
+              "SUSTAINED HITS 2"
             ],
             "name": "Voltaic pistol",
             "range": "12\""
@@ -14706,7 +14706,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -14753,7 +14753,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Deathwatch weapon"
           }
@@ -14770,7 +14770,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Eviscerator"
           }
@@ -14802,7 +14802,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -14834,8 +14834,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Warp grasp"
           }
@@ -14862,13 +14862,13 @@
     "faction": "agents",
     "id": "agents/ministorum-priest",
     "keywords": [
-      "character",
-      "faction: agents of the imperium",
-      "imperium",
-      "infantry",
-      "ministorum priest",
-      "ordo hereticus",
-      "support"
+      "CHARACTER",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INFANTRY",
+      "MINISTORUM PRIEST",
+      "ORDO HERETICUS",
+      "SUPPORT"
     ],
     "name": "Ministorum Priest",
     "points": [
@@ -14966,7 +14966,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Holy Pistol",
             "range": "12\""
@@ -15010,8 +15010,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Zealot's vindictor",
             "range": "12\""
@@ -15038,15 +15038,15 @@
     "faction": "agents",
     "id": "agents/navigator",
     "keywords": [
-      "character",
-      "faction: agents of the imperium",
-      "imperium",
-      "infantry",
-      "leader",
-      "navigator",
-      "psyker",
-      "voidfarer character",
-      "voidfarers"
+      "CHARACTER",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "NAVIGATOR",
+      "PSYKER",
+      "VOIDFARER CHARACTER",
+      "VOIDFARERS"
     ],
     "name": "Navigator",
     "points": [
@@ -15123,7 +15123,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force-orb cane"
           }
@@ -15141,7 +15141,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Laspistol",
             "range": "12\""
@@ -15168,16 +15168,16 @@
     "faction": "agents",
     "id": "agents/neyam-shai-murad-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "neyam shai murad",
-      "voidfarer character",
-      "voidfarers"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "NEYAM SHAI MURAD",
+      "VOIDFARER CHARACTER",
+      "VOIDFARERS"
     ],
     "name": "Neyam Shai Murad [Legends]",
     "points": [
@@ -15244,7 +15244,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Negotiator pistols",
             "range": "12\""
@@ -15282,12 +15282,12 @@
     "faction": "agents",
     "id": "agents/proteus-kill-team-legends",
     "keywords": [
-      "deathwatch",
-      "grenades",
-      "imperium",
-      "infantry",
-      "kill team",
-      "proteus kill team"
+      "DEATHWATCH",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "KILL TEAM",
+      "PROTEUS KILL TEAM"
     ],
     "name": "Proteus Kill Team [Legends]",
     "points": [
@@ -16288,7 +16288,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -16336,7 +16336,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin boltgun",
             "range": "24\""
@@ -16354,7 +16354,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -16401,7 +16401,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -16418,7 +16418,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder hammer"
           }
@@ -16435,7 +16435,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -16453,7 +16453,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -16471,8 +16471,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -16490,8 +16490,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Plasma cannon - standard",
             "range": "36\""
@@ -16503,9 +16503,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous",
-              "heavy"
+              "BLAST",
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -16523,7 +16523,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Cyclone missile launcher - frag",
             "range": "36\""
@@ -16582,9 +16582,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Long Vigil ranged weapon",
             "range": "24\""
@@ -16601,7 +16601,7 @@
             "S": "10",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Deathwatch thunder hammer"
           }
@@ -16619,9 +16619,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy",
-              "rapid fire d3"
+              "BLAST",
+              "HEAVY",
+              "RAPID FIRE D3"
             ],
             "name": "Frag Cannon",
             "range": "18\""
@@ -16639,8 +16639,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Infernus heavy bolter - heavy bolter",
             "range": "36\""
@@ -16652,8 +16652,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Infernus heavy bolter - heavy flamer",
             "range": "12\""
@@ -16680,15 +16680,15 @@
     "faction": "agents",
     "id": "agents/rogue-trader-entourage",
     "keywords": [
-      "character",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "rogue trader entourage",
-      "voidfarer character",
-      "voidfarers"
+      "CHARACTER",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "ROGUE TRADER ENTOURAGE",
+      "VOIDFARER CHARACTER",
+      "VOIDFARERS"
     ],
     "name": "Rogue Trader Entourage",
     "points": [
@@ -16883,8 +16883,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "pistol",
-              "devastating wounds"
+              "PISTOL",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Household pistol",
             "range": "12\""
@@ -16902,9 +16902,9 @@
             "D": "D3",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "pistol",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Dartmask",
             "range": "12\""
@@ -16921,7 +16921,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Death Cult power blade"
           }
@@ -16939,8 +16939,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "sustained hits 2"
+              "PISTOL",
+              "SUSTAINED HITS 2"
             ],
             "name": "Voltaic pistol",
             "range": "12\""
@@ -16973,7 +16973,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Laspistol",
             "range": "12\""
@@ -17000,12 +17000,12 @@
     "faction": "agents",
     "id": "agents/sanctifiers",
     "keywords": [
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "retinue",
-      "sanctifiers"
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "RETINUE",
+      "SANCTIFIERS"
     ],
     "name": "Sanctifiers",
     "points": [
@@ -17334,9 +17334,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "one shot",
-              "torrent"
+              "IGNORES COVER",
+              "ONE SHOT",
+              "TORRENT"
             ],
             "name": "Holy fire",
             "range": "12\""
@@ -17353,7 +17353,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Burning hands"
           }
@@ -17385,7 +17385,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Death Cult blades"
           }
@@ -17403,7 +17403,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -17415,8 +17415,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -17434,7 +17434,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -17467,8 +17467,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -17486,9 +17486,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -17507,9 +17507,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "qty": 2,
@@ -17533,15 +17533,15 @@
     "faction": "agents",
     "id": "agents/sisters-of-battle-immolator",
     "keywords": [
-      "dedicated transport",
-      "faction: agents of the imperium",
-      "frame",
-      "imperium",
-      "ordo hereticus",
-      "sisters of battle immolator",
-      "smoke",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "FRAME",
+      "IMPERIUM",
+      "ORDO HERETICUS",
+      "SISTERS OF BATTLE IMMOLATOR",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Sisters of Battle Immolator",
     "points": [
@@ -17666,8 +17666,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Immolation flamers",
             "range": "18\""
@@ -17685,8 +17685,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -17704,8 +17704,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin multi-melta",
             "range": "18\""
@@ -17738,7 +17738,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -17756,7 +17756,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -17779,13 +17779,13 @@
     "faction": "agents",
     "id": "agents/sisters-of-battle-squad",
     "keywords": [
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "ordo hereticus",
-      "requisitioned",
-      "sisters of battle squad"
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "ORDO HERETICUS",
+      "REQUISITIONED",
+      "SISTERS OF BATTLE SQUAD"
     ],
     "name": "Sisters of Battle Squad",
     "points": [
@@ -18268,10 +18268,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -18289,9 +18289,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -18309,9 +18309,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -18329,8 +18329,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -18348,8 +18348,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -18361,7 +18361,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -18379,7 +18379,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -18397,7 +18397,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -18430,8 +18430,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -18449,8 +18449,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -18468,7 +18468,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -18486,7 +18486,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -18504,8 +18504,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -18523,8 +18523,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -18551,13 +18551,13 @@
     "faction": "agents",
     "id": "agents/spectrus-kill-team-legends",
     "keywords": [
-      "deathwatch",
-      "grenades",
-      "imperium",
-      "infantry",
-      "kill team",
-      "smoke",
-      "spectrus kill team"
+      "DEATHWATCH",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "KILL TEAM",
+      "SMOKE",
+      "SPECTRUS KILL TEAM"
     ],
     "name": "Spectrus Kill Team [Legends]",
     "points": [
@@ -18888,7 +18888,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Marksman bolt carbine",
             "range": "24\""
@@ -18906,7 +18906,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -18939,7 +18939,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Accelerator autocannon",
             "range": "48\""
@@ -18957,8 +18957,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "ignores cover"
+              "ASSAULT",
+              "IGNORES COVER"
             ],
             "name": "Occulus bolt carbine",
             "range": "24\""
@@ -18975,7 +18975,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Paired combat blades"
           }
@@ -18993,8 +18993,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "precision"
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Special-issue bolt pistol",
             "range": "12\""
@@ -19011,7 +19011,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Combat knife"
           }
@@ -19029,7 +19029,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Bolt carbine",
             "range": "24\""
@@ -19047,8 +19047,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Bolt sniper rifle",
             "range": "36\""
@@ -19066,7 +19066,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Las fusil",
             "range": "36\""
@@ -19085,13 +19085,13 @@
     "faction": "agents",
     "id": "agents/subductor-squad",
     "keywords": [
-      "adeptus arbites",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "retinue",
-      "subductor squad"
+      "ADEPTUS ARBITES",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "RETINUE",
+      "SUBDUCTOR SQUAD"
     ],
     "name": "Subductor Squad",
     "points": [
@@ -19219,7 +19219,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Arbites shotpistol",
             "range": "12\""
@@ -19272,12 +19272,12 @@
     "faction": "agents",
     "id": "agents/ur-025-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "imperium",
-      "infantry",
-      "ur-025"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INFANTRY",
+      "UR-025"
     ],
     "name": "UR-025 [Legends]",
     "points": [
@@ -19344,7 +19344,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Mk 1 assault weapon",
             "range": "24\""
@@ -19378,11 +19378,11 @@
     "faction": "agents",
     "id": "agents/veteran-bike-squad-legends",
     "keywords": [
-      "deathwatch",
-      "grenades",
-      "imperium",
-      "mounted",
-      "veteran bike squad"
+      "DEATHWATCH",
+      "GRENADES",
+      "IMPERIUM",
+      "MOUNTED",
+      "VETERAN BIKE SQUAD"
     ],
     "name": "Veteran Bike Squad [Legends]",
     "points": [
@@ -19557,7 +19557,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Xenophase blade"
           }
@@ -19575,9 +19575,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Long Vigil ranged weapon",
             "range": "24\""
@@ -19610,7 +19610,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin boltgun",
             "range": "24\""
@@ -19628,7 +19628,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -19662,14 +19662,14 @@
     "faction": "agents",
     "id": "agents/vigilant-squad",
     "keywords": [
-      "adeptus arbites",
-      "battleline",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "retinue",
-      "vigilant squad"
+      "ADEPTUS ARBITES",
+      "BATTLELINE",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "RETINUE",
+      "VIGILANT SQUAD"
     ],
     "name": "Vigilant Squad",
     "points": [
@@ -20021,7 +20021,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Arbites combat shotgun",
             "range": "18\""
@@ -20039,7 +20039,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Arbites shotpistol",
             "range": "12\""
@@ -20057,7 +20057,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Arbites grenade launcher - frag",
             "range": "24\""
@@ -20085,8 +20085,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "precision"
+              "IGNORES COVER",
+              "PRECISION"
             ],
             "name": "Executioner shotgun",
             "range": "24\""
@@ -20104,7 +20104,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Heavy stubber",
             "range": "36\""
@@ -20122,9 +20122,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "torrent"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Webber",
             "range": "12\""
@@ -20166,14 +20166,14 @@
     "faction": "agents",
     "id": "agents/vindicare-assassin",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: agents of the imperium",
-      "imperium",
-      "infantry",
-      "officio assassinorum",
-      "smoke",
-      "vindicare assassin"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "IMPERIUM",
+      "INFANTRY",
+      "OFFICIO ASSASSINORUM",
+      "SMOKE",
+      "VINDICARE ASSASSIN"
     ],
     "name": "Vindicare Assassin",
     "points": [
@@ -20250,10 +20250,10 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "ignores cover",
-              "pistol",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "IGNORES COVER",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Exitus pistol",
             "range": "12\""
@@ -20271,10 +20271,10 @@
             "D": "D3+3",
             "S": "8",
             "keywords": [
-              "devastating wounds",
-              "heavy",
-              "ignores cover",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "HEAVY",
+              "IGNORES COVER",
+              "PRECISION"
             ],
             "name": "Exitus rifle",
             "range": "48\""
@@ -20312,13 +20312,13 @@
     "faction": "agents",
     "id": "agents/voidsmen-at-arms",
     "keywords": [
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "retinue",
-      "voidfarers",
-      "voidsmen-at-arms"
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "RETINUE",
+      "VOIDFARERS",
+      "VOIDSMEN-AT-ARMS"
     ],
     "name": "Voidsmen-at-Arms",
     "points": [
@@ -20510,7 +20510,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Artificer shotgun",
             "range": "12\""
@@ -20528,7 +20528,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Laspistol",
             "range": "12\""
@@ -20576,7 +20576,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Lasgun",
             "range": "24\""
@@ -20594,8 +20594,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Voidsman rotor cannon",
             "range": "24\""
@@ -20622,16 +20622,16 @@
     "faction": "agents",
     "id": "agents/watch-captain-artemis",
     "keywords": [
-      "character",
-      "deathwatch",
-      "epic hero",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "ordo xenos",
-      "watch captain artemis"
+      "CHARACTER",
+      "DEATHWATCH",
+      "EPIC HERO",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "ORDO XENOS",
+      "WATCH CAPTAIN ARTEMIS"
     ],
     "name": "Watch Captain Artemis",
     "points": [
@@ -20698,10 +20698,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Hellfire Extremis",
             "range": "12\""
@@ -20743,16 +20743,16 @@
     "faction": "agents",
     "id": "agents/watch-master",
     "keywords": [
-      "captain",
-      "character",
-      "deathwatch",
-      "faction: agents of the imperium",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "ordo xenos",
-      "watch master"
+      "CAPTAIN",
+      "CHARACTER",
+      "DEATHWATCH",
+      "FACTION: AGENTS OF THE IMPERIUM",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "ORDO XENOS",
+      "WATCH MASTER"
     ],
     "name": "Watch Master",
     "points": [
@@ -20817,7 +20817,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Vigil spear"
           }

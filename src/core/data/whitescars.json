@@ -21,16 +21,16 @@
     "faction": "whitescars",
     "id": "whitescars/kor-sarro-khan",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: white scars",
-      "imperium",
-      "infantry",
-      "kor'sarro khan",
-      "leader",
-      "tacticus"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: WHITE SCARS",
+      "IMPERIUM",
+      "INFANTRY",
+      "KOR'SARRO KHAN",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Kor'sarro Khan",
     "points": [
@@ -96,8 +96,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Moonfang"
           }
@@ -115,7 +115,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -142,16 +142,16 @@
     "faction": "whitescars",
     "id": "whitescars/suboden-khan",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: white scars",
-      "grenades",
-      "imperium",
-      "leader",
-      "mounted",
-      "suboden khan"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: WHITE SCARS",
+      "GRENADES",
+      "IMPERIUM",
+      "LEADER",
+      "MOUNTED",
+      "SUBODEN KHAN"
     ],
     "name": "Suboden Khan",
     "points": [
@@ -251,7 +251,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Onslaught Gatling Cannon",
             "range": "24\""
@@ -268,9 +268,9 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lance",
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "LANCE",
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Stormtooth"
           }
@@ -303,7 +303,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""

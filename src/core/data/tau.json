@@ -17,14 +17,14 @@
     "faction": "tau",
     "id": "tau/aun-shi-legends",
     "keywords": [
-      "aun'shi",
-      "character",
-      "epic hero",
-      "ethereal",
-      "faction: t'au empire",
-      "infantry",
-      "leader",
-      "non-kroot"
+      "AUN'SHI",
+      "CHARACTER",
+      "EPIC HERO",
+      "ETHEREAL",
+      "FACTION: T'AU EMPIRE",
+      "INFANTRY",
+      "LEADER",
+      "NON-KROOT"
     ],
     "name": "Aun'shi [Legends]",
     "points": [
@@ -80,7 +80,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Fidelity"
           }
@@ -107,9 +107,9 @@
     "faction": "tau",
     "id": "tau/aun-va-legends",
     "keywords": [
-      "epic hero",
-      "faction: t'au empire",
-      "non-kroot"
+      "EPIC HERO",
+      "FACTION: T'AU EMPIRE",
+      "NON-KROOT"
     ],
     "name": "Aun'va [Legends]",
     "points": [
@@ -230,12 +230,12 @@
     "faction": "tau",
     "id": "tau/ax-1-0-tiger-shark",
     "keywords": [
-      "aircraft",
-      "ax-1-0 tiger shark",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "vehicle"
+      "AIRCRAFT",
+      "AX-1-0 TIGER SHARK",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "VEHICLE"
     ],
     "name": "AX-1-0 Tiger Shark",
     "points": [
@@ -388,8 +388,8 @@
             "D": "12",
             "S": "26",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy rail cannon",
             "range": "120\""
@@ -437,7 +437,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Cyclic ion blaster - overcharge",
             "qty": 2,
@@ -456,7 +456,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -513,12 +513,12 @@
     "faction": "tau",
     "id": "tau/barracuda-legends",
     "keywords": [
-      "aircraft",
-      "barracuda",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "vehicle"
+      "AIRCRAFT",
+      "BARRACUDA",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "VEHICLE"
     ],
     "name": "Barracuda [Legends]",
     "points": [
@@ -717,7 +717,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ion cannon - standard",
             "range": "60\""
@@ -729,8 +729,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Ion cannon - overcharge",
             "range": "60\""
@@ -748,7 +748,7 @@
             "D": "D6+6",
             "S": "20",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Swiftstrike railgun",
             "range": "72\""
@@ -794,7 +794,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Cyclic ion blaster - overcharge",
             "qty": 2,
@@ -813,7 +813,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -869,14 +869,14 @@
     "faction": "tau",
     "id": "tau/battlesuit-veteran-crucible",
     "keywords": [
-      "battlesuit",
-      "battlesuit veteran",
-      "character",
-      "crucible",
-      "faction: t'au empire",
-      "fly",
-      "infantry",
-      "leader"
+      "BATTLESUIT",
+      "BATTLESUIT VETERAN",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Battlesuit Veteran [Crucible]",
     "points": [
@@ -1847,7 +1847,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Kalamandra's bite"
           }
@@ -1864,8 +1864,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "sustained hits 1"
+              "EXTRA ATTACKS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Rampager fists"
           }
@@ -1883,8 +1883,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Heavy rail rifle",
             "range": "60\""
@@ -1902,7 +1902,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "High-yield missile pods",
             "range": "30\""
@@ -1920,7 +1920,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Ion rifle - standard",
             "range": "30\""
@@ -1932,8 +1932,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "heavy"
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Ion rifle - overcharge",
             "range": "30\""
@@ -1967,8 +1967,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Rail rifle",
             "range": "30\""
@@ -1986,7 +1986,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -2004,8 +2004,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Semi-automatic grenade launcher - EMP",
             "range": "18\""
@@ -2033,7 +2033,7 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin plasma rifle",
             "range": "18\""
@@ -2051,8 +2051,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire",
-              "twin linked"
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Twin smart missile system",
             "range": "30\""
@@ -2070,7 +2070,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Tanglebomb launcher",
             "range": "24\""
@@ -2088,7 +2088,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Fireblade pulse rifle",
             "range": "30\""
@@ -2106,7 +2106,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Kroot rifle",
             "range": "24\""
@@ -2124,8 +2124,8 @@
             "D": "2",
             "S": "10",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Blast javelin",
             "range": "18\""
@@ -2143,7 +2143,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "range": "12\""
@@ -2193,8 +2193,8 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Kroot long gun",
             "range": "36\""
@@ -2212,9 +2212,9 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "heavy"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Dart-bow and tri-blade",
             "range": "24\""
@@ -2232,7 +2232,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Kroot scattergun",
             "range": "12\""
@@ -2250,9 +2250,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "heavy"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Londaxi tribalest",
             "range": "18\""
@@ -2270,7 +2270,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Pulse blaster",
             "range": "10\""
@@ -2288,8 +2288,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Dvorgite skinner",
             "range": "12\""
@@ -2307,7 +2307,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -2325,8 +2325,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Kroot pistol and hunting javelins",
             "range": "12\""
@@ -2344,7 +2344,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Kroot pistol",
             "range": "12\""
@@ -2376,7 +2376,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bladestave and prey-hook"
           }
@@ -2408,7 +2408,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Hunting blades"
           }
@@ -2440,7 +2440,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin ritualistic blades"
           }
@@ -2463,14 +2463,14 @@
     "faction": "tau",
     "id": "tau/breacher-team",
     "keywords": [
-      "battleline",
-      "breacher team",
-      "faction: t'au empire",
-      "fire warrior",
-      "grenades",
-      "infantry",
-      "markerlight",
-      "non-kroot"
+      "BATTLELINE",
+      "BREACHER TEAM",
+      "FACTION: T'AU EMPIRE",
+      "FIRE WARRIOR",
+      "GRENADES",
+      "INFANTRY",
+      "MARKERLIGHT",
+      "NON-KROOT"
     ],
     "name": "Breacher Team",
     "points": [
@@ -2721,7 +2721,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -2754,7 +2754,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Pulse blaster",
             "range": "10\""
@@ -2772,8 +2772,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire",
-              "twin linked"
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Support turret",
             "range": "30\""
@@ -2791,8 +2791,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -2827,12 +2827,12 @@
     "faction": "tau",
     "id": "tau/broadside-battlesuits",
     "keywords": [
-      "battlesuit",
-      "broadside",
-      "faction: t'au empire",
-      "non-kroot",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "BROADSIDE",
+      "FACTION: T'AU EMPIRE",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Broadside Battlesuits",
     "points": [
@@ -3284,8 +3284,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "heavy",
-              "devastating wounds"
+              "HEAVY",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy rail rifle",
             "range": "60\""
@@ -3303,7 +3303,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "High-yield missile pods",
             "range": "30\""
@@ -3321,7 +3321,7 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin plasma rifle",
             "range": "18\""
@@ -3339,8 +3339,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire",
-              "twin linked"
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Twin smart missile system",
             "range": "30\""
@@ -3358,7 +3358,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -3376,8 +3376,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -3435,13 +3435,13 @@
     "faction": "tau",
     "id": "tau/cadre-fireblade",
     "keywords": [
-      "cadre fireblade",
-      "character",
-      "faction: t'au empire",
-      "grenades",
-      "infantry",
-      "leader",
-      "non-kroot"
+      "CADRE FIREBLADE",
+      "CHARACTER",
+      "FACTION: T'AU EMPIRE",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "NON-KROOT"
     ],
     "name": "Cadre Fireblade",
     "points": [
@@ -3612,7 +3612,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Fireblade pulse rifle",
             "range": "30\""
@@ -3645,8 +3645,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -3689,16 +3689,16 @@
     "faction": "tau",
     "id": "tau/commander-farsight",
     "keywords": [
-      "battlesuit",
-      "character",
-      "commander farsight",
-      "epic hero",
-      "faction: t'au empire",
-      "fly",
-      "leader",
-      "non-kroot",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CHARACTER",
+      "COMMANDER FARSIGHT",
+      "EPIC HERO",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "LEADER",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Commander Farsight",
     "points": [
@@ -3810,15 +3810,15 @@
     "faction": "tau",
     "id": "tau/commander-in-coldstar-battlesuit",
     "keywords": [
-      "battlesuit",
-      "character",
-      "commander in coldstar battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "leader",
-      "non-kroot",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CHARACTER",
+      "COMMANDER IN COLDSTAR BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "LEADER",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Commander in Coldstar Battlesuit",
     "points": [
@@ -4162,8 +4162,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Airbursting fragmentation projector",
             "range": "24\""
@@ -4191,7 +4191,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Cyclic ion blaster - overcharge",
             "range": "18\""
@@ -4209,8 +4209,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "T'au flamer",
             "range": "12\""
@@ -4228,7 +4228,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "range": "12\""
@@ -4277,8 +4277,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -4317,15 +4317,15 @@
     "faction": "tau",
     "id": "tau/commander-in-crisis-battlesuit-legends",
     "keywords": [
-      "battlesuit",
-      "character",
-      "commander in crisis battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "leader",
-      "non-kroot",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CHARACTER",
+      "COMMANDER IN CRISIS BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "LEADER",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Commander in Crisis Battlesuit [Legends]",
     "points": [
@@ -4643,8 +4643,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Airbursting fragmentation projector",
             "range": "24\""
@@ -4672,7 +4672,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Cyclic ion blaster - overcharge",
             "range": "18\""
@@ -4690,8 +4690,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "T'au flamer",
             "range": "12\""
@@ -4709,7 +4709,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "range": "12\""
@@ -4758,8 +4758,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -4798,15 +4798,15 @@
     "faction": "tau",
     "id": "tau/commander-in-enforcer-battlesuit",
     "keywords": [
-      "battlesuit",
-      "character",
-      "commander in enforcer battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "leader",
-      "non-kroot",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CHARACTER",
+      "COMMANDER IN ENFORCER BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "LEADER",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Commander in Enforcer Battlesuit",
     "points": [
@@ -5124,8 +5124,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Airbursting fragmentation projector",
             "range": "24\""
@@ -5153,7 +5153,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Cyclic ion blaster - overcharge",
             "range": "18\""
@@ -5171,8 +5171,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "T'au flamer",
             "range": "12\""
@@ -5190,7 +5190,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "range": "12\""
@@ -5239,8 +5239,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -5291,14 +5291,14 @@
     "faction": "tau",
     "id": "tau/commander-shadowsun",
     "keywords": [
-      "battlesuit",
-      "character",
-      "commander shadowsun",
-      "epic hero",
-      "faction: t'au empire",
-      "fly",
-      "infantry",
-      "non-kroot"
+      "BATTLESUIT",
+      "CHARACTER",
+      "COMMANDER SHADOWSUN",
+      "EPIC HERO",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "INFANTRY",
+      "NON-KROOT"
     ],
     "name": "Commander Shadowsun",
     "points": [
@@ -5411,7 +5411,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "High-energy fusion blaster",
             "range": "18\""
@@ -5460,7 +5460,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -5483,13 +5483,13 @@
     "faction": "tau",
     "id": "tau/crisis-battlesuits-legends",
     "keywords": [
-      "battlesuit",
-      "crisis",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CRISIS",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Crisis Battlesuits [Legends]",
     "points": [
@@ -5999,8 +5999,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "T'au flamer",
             "range": "12\""
@@ -6066,8 +6066,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Airbursting fragmentation projector",
             "range": "24\""
@@ -6095,7 +6095,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Cyclic ion blaster - overcharge",
             "range": "18\""
@@ -6113,7 +6113,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "range": "12\""
@@ -6131,8 +6131,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -6186,14 +6186,14 @@
     "faction": "tau",
     "id": "tau/crisis-fireknife-battlesuits",
     "keywords": [
-      "battlesuit",
-      "crisis",
-      "faction: t'au empire",
-      "fireknife",
-      "fly",
-      "non-kroot",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CRISIS",
+      "FACTION: T'AU EMPIRE",
+      "FIREKNIFE",
+      "FLY",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Crisis Fireknife Battlesuits",
     "points": [
@@ -6579,8 +6579,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -6634,14 +6634,14 @@
     "faction": "tau",
     "id": "tau/crisis-starscythe-battlesuits",
     "keywords": [
-      "battlesuit",
-      "crisis",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "starscythe",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CRISIS",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "STARSCYTHE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Crisis Starscythe Battlesuits",
     "points": [
@@ -7029,8 +7029,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "T'au flamer",
             "range": "12\""
@@ -7048,8 +7048,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -7099,14 +7099,14 @@
     "faction": "tau",
     "id": "tau/crisis-sunforge-battlesuits",
     "keywords": [
-      "battlesuit",
-      "crisis",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "sunforge",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CRISIS",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "SUNFORGE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Crisis Sunforge Battlesuits",
     "points": [
@@ -7422,8 +7422,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -7473,7 +7473,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "qty": 2,
@@ -7501,14 +7501,14 @@
     "faction": "tau",
     "id": "tau/darkstrider",
     "keywords": [
-      "character",
-      "darkstrider",
-      "epic hero",
-      "faction: t'au empire",
-      "infantry",
-      "leader",
-      "markerlight",
-      "non-kroot"
+      "CHARACTER",
+      "DARKSTRIDER",
+      "EPIC HERO",
+      "FACTION: T'AU EMPIRE",
+      "INFANTRY",
+      "LEADER",
+      "MARKERLIGHT",
+      "NON-KROOT"
     ],
     "name": "Darkstrider",
     "points": [
@@ -7575,7 +7575,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shade",
             "range": "18\""
@@ -7613,14 +7613,14 @@
     "faction": "tau",
     "id": "tau/devilfish",
     "keywords": [
-      "dedicated transport",
-      "devilfish",
-      "faction: t'au empire",
-      "fly",
-      "frame",
-      "non-kroot",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "DEVILFISH",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "FRAME",
+      "NON-KROOT",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Devilfish",
     "points": [
@@ -7764,8 +7764,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked",
-              "assault"
+              "TWIN-LINKED",
+              "ASSAULT"
             ],
             "name": "Twin pulse carbine",
             "qty": 2,
@@ -7785,7 +7785,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire"
+              "INDIRECT FIRE"
             ],
             "name": "Smart missile system",
             "qty": 2,
@@ -7804,7 +7804,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -7858,12 +7858,12 @@
     "faction": "tau",
     "id": "tau/drone-sentry-turret-legends",
     "keywords": [
-      "drone sentry turret",
-      "faction: t'au empire",
-      "fortification",
-      "frame",
-      "non-kroot",
-      "vehicle"
+      "DRONE SENTRY TURRET",
+      "FACTION: T'AU EMPIRE",
+      "FORTIFICATION",
+      "FRAME",
+      "NON-KROOT",
+      "VEHICLE"
     ],
     "name": "Drone Sentry Turret [Legends]",
     "points": [
@@ -7960,7 +7960,7 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin plasma rifle",
             "range": "24\""
@@ -7978,8 +7978,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin fusion blaster",
             "range": "12\""
@@ -7997,7 +7997,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin missile pod",
             "range": "30\""
@@ -8015,7 +8015,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin burst cannon",
             "range": "18\""
@@ -8042,12 +8042,12 @@
     "faction": "tau",
     "id": "tau/ethereal",
     "keywords": [
-      "character",
-      "ethereal",
-      "faction: t'au empire",
-      "infantry",
-      "leader",
-      "non-kroot"
+      "CHARACTER",
+      "ETHEREAL",
+      "FACTION: T'AU EMPIRE",
+      "INFANTRY",
+      "LEADER",
+      "NON-KROOT"
     ],
     "name": "Ethereal",
     "points": [
@@ -8223,8 +8223,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -8259,12 +8259,12 @@
     "faction": "tau",
     "id": "tau/firesight-team",
     "keywords": [
-      "character",
-      "faction: t'au empire",
-      "firesight team",
-      "infantry",
-      "markerlight",
-      "non-kroot"
+      "CHARACTER",
+      "FACTION: T'AU EMPIRE",
+      "FIRESIGHT TEAM",
+      "INFANTRY",
+      "MARKERLIGHT",
+      "NON-KROOT"
     ],
     "name": "Firesight Team",
     "points": [
@@ -8368,8 +8368,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Longshot pulse rifles",
             "range": "36\""
@@ -8387,7 +8387,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -8415,14 +8415,14 @@
     "faction": "tau",
     "id": "tau/ghostkeel-battlesuit",
     "keywords": [
-      "battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "ghostkeel",
-      "non-kroot",
-      "smoke",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "GHOSTKEEL",
+      "NON-KROOT",
+      "SMOKE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Ghostkeel Battlesuit",
     "points": [
@@ -8576,7 +8576,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin burst cannon",
             "range": "18\""
@@ -8594,9 +8594,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin T'au flamer",
             "range": "12\""
@@ -8614,8 +8614,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin fusion blaster",
             "range": "12\""
@@ -8633,7 +8633,7 @@
             "D": "D6",
             "S": "12",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion collider",
             "range": "18\""
@@ -8661,7 +8661,7 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Cyclic ion raker - overcharge",
             "range": "36\""
@@ -8684,11 +8684,11 @@
     "faction": "tau",
     "id": "tau/great-knarloc-legends",
     "keywords": [
-      "faction: t'au empire",
-      "frame",
-      "great knarloc",
-      "kroot",
-      "monster"
+      "FACTION: T'AU EMPIRE",
+      "FRAME",
+      "GREAT KNARLOC",
+      "KROOT",
+      "MONSTER"
     ],
     "name": "Great Knarloc [Legends]",
     "points": [
@@ -8784,7 +8784,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Great Knarloc beak and talons"
           }
@@ -8802,7 +8802,7 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "hooked"
+              "HOOKED"
             ],
             "name": "Kroot bolt thrower",
             "range": "12\""
@@ -8820,7 +8820,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Kroot rifle (Ranged)",
             "range": "24\""
@@ -8853,7 +8853,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Kroot gun",
             "range": "36\""
@@ -8881,12 +8881,12 @@
     "faction": "tau",
     "id": "tau/hammerhead-gunship",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "frame",
-      "hammerhead gunship",
-      "non-kroot",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "FRAME",
+      "HAMMERHEAD GUNSHIP",
+      "NON-KROOT",
+      "VEHICLE"
     ],
     "name": "Hammerhead Gunship",
     "points": [
@@ -9068,8 +9068,8 @@
             "D": "D6+6",
             "S": "20",
             "keywords": [
-              "heavy",
-              "devastating wounds"
+              "HEAVY",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Railgun",
             "range": "72\""
@@ -9087,7 +9087,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ion cannon - standard",
             "range": "60\""
@@ -9099,8 +9099,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Ion cannon - overcharge",
             "range": "60\""
@@ -9118,7 +9118,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -9154,7 +9154,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -9173,7 +9173,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire"
+              "INDIRECT FIRE"
             ],
             "name": "Smart missile system",
             "qty": 2,
@@ -9208,11 +9208,11 @@
     "faction": "tau",
     "id": "tau/heavy-gun-drones-legends",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "heavy gun drones",
-      "non-kroot",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "HEAVY GUN DRONES",
+      "NON-KROOT",
+      "VEHICLE"
     ],
     "name": "Heavy Gun Drones [Legends]",
     "points": [
@@ -9380,7 +9380,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin burst cannon",
             "range": "18\""
@@ -9407,13 +9407,13 @@
     "faction": "tau",
     "id": "tau/kinband-champion-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: t'au empire",
-      "infantry",
-      "kinband champion",
-      "kroot",
-      "leader"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: T'AU EMPIRE",
+      "INFANTRY",
+      "KINBAND CHAMPION",
+      "KROOT",
+      "LEADER"
     ],
     "name": "Kinband Champion [Crucible]",
     "points": [
@@ -10384,7 +10384,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Kalamandra's bite"
           }
@@ -10401,8 +10401,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "sustained hits 1"
+              "EXTRA ATTACKS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Rampager fists"
           }
@@ -10420,8 +10420,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Heavy rail rifle",
             "range": "60\""
@@ -10439,7 +10439,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "High-yield missile pods",
             "range": "30\""
@@ -10457,7 +10457,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Ion rifle - standard",
             "range": "30\""
@@ -10469,8 +10469,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "heavy"
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Ion rifle - overcharge",
             "range": "30\""
@@ -10504,8 +10504,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Rail rifle",
             "range": "30\""
@@ -10523,7 +10523,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -10541,8 +10541,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Semi-automatic grenade launcher - EMP",
             "range": "18\""
@@ -10570,7 +10570,7 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin plasma rifle",
             "range": "18\""
@@ -10588,8 +10588,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire",
-              "twin linked"
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Twin smart missile system",
             "range": "30\""
@@ -10607,7 +10607,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Tanglebomb launcher",
             "range": "24\""
@@ -10625,7 +10625,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Fireblade pulse rifle",
             "range": "30\""
@@ -10643,7 +10643,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Kroot rifle",
             "range": "24\""
@@ -10661,8 +10661,8 @@
             "D": "2",
             "S": "10",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Blast javelin",
             "range": "18\""
@@ -10680,7 +10680,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "range": "12\""
@@ -10730,8 +10730,8 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Kroot long gun",
             "range": "36\""
@@ -10749,9 +10749,9 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "heavy"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Dart-bow and tri-blade",
             "range": "24\""
@@ -10769,7 +10769,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Kroot scattergun",
             "range": "12\""
@@ -10787,9 +10787,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "heavy"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Londaxi tribalest",
             "range": "18\""
@@ -10807,7 +10807,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Pulse blaster",
             "range": "10\""
@@ -10825,8 +10825,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Dvorgite skinner",
             "range": "12\""
@@ -10844,7 +10844,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -10862,8 +10862,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Kroot pistol and hunting javelins",
             "range": "12\""
@@ -10881,7 +10881,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Kroot pistol",
             "range": "12\""
@@ -10913,7 +10913,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bladestave and prey-hook"
           }
@@ -10945,7 +10945,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Hunting blades"
           }
@@ -10977,7 +10977,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin ritualistic blades"
           }
@@ -10996,10 +10996,10 @@
     "faction": "tau",
     "id": "tau/knarloc-riders-legends",
     "keywords": [
-      "faction: t'au empire",
-      "knarloc riders",
-      "kroot",
-      "mounted"
+      "FACTION: T'AU EMPIRE",
+      "KNARLOC RIDERS",
+      "KROOT",
+      "MOUNTED"
     ],
     "name": "Knarloc Riders [Legends]",
     "points": [
@@ -11077,7 +11077,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Knarloc beak and talons"
           }
@@ -11095,7 +11095,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Kroot rifle (Ranged)",
             "range": "24\""
@@ -11137,11 +11137,11 @@
     "faction": "tau",
     "id": "tau/kroot-carnivores",
     "keywords": [
-      "carnivores",
-      "faction: t'au empire",
-      "grenades",
-      "infantry",
-      "kroot"
+      "CARNIVORES",
+      "FACTION: T'AU EMPIRE",
+      "GRENADES",
+      "INFANTRY",
+      "KROOT"
     ],
     "name": "Kroot Carnivores",
     "points": [
@@ -11389,7 +11389,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Kroot rifle",
             "range": "24\""
@@ -11407,7 +11407,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Tanglebomb launcher",
             "range": "24\""
@@ -11441,7 +11441,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Kroot pistol",
             "range": "12\""
@@ -11460,11 +11460,11 @@
     "faction": "tau",
     "id": "tau/kroot-farstalkers",
     "keywords": [
-      "faction: t'au empire",
-      "farstalkers",
-      "grenades",
-      "infantry",
-      "kroot"
+      "FACTION: T'AU EMPIRE",
+      "FARSTALKERS",
+      "GRENADES",
+      "INFANTRY",
+      "KROOT"
     ],
     "name": "Kroot Farstalkers",
     "points": [
@@ -11854,7 +11854,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Farstalker firearm",
             "range": "24\""
@@ -11872,7 +11872,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Kroot pistol",
             "range": "12\""
@@ -11905,8 +11905,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Dvorgite skinner",
             "range": "12\""
@@ -11924,9 +11924,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "heavy"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Londaxi tribalest",
             "range": "18\""
@@ -11959,7 +11959,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "T'au tech rifle",
             "range": "30\""
@@ -11990,13 +11990,13 @@
     "faction": "tau",
     "id": "tau/kroot-flesh-shaper",
     "keywords": [
-      "character",
-      "faction: t'au empire",
-      "flesh shaper",
-      "infantry",
-      "kroot",
-      "leader",
-      "shaper"
+      "CHARACTER",
+      "FACTION: T'AU EMPIRE",
+      "FLESH SHAPER",
+      "INFANTRY",
+      "KROOT",
+      "LEADER",
+      "SHAPER"
     ],
     "name": "Kroot Flesh Shaper",
     "points": [
@@ -12073,7 +12073,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin ritualistic blades"
           }
@@ -12091,7 +12091,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Kroot scattergun",
             "range": "12\""
@@ -12118,10 +12118,10 @@
     "faction": "tau",
     "id": "tau/kroot-hounds",
     "keywords": [
-      "beast",
-      "faction: t'au empire",
-      "hounds",
-      "kroot"
+      "BEAST",
+      "FACTION: T'AU EMPIRE",
+      "HOUNDS",
+      "KROOT"
     ],
     "name": "Kroot Hounds",
     "points": [
@@ -12235,11 +12235,11 @@
     "faction": "tau",
     "id": "tau/kroot-lone-spear",
     "keywords": [
-      "character",
-      "faction: t'au empire",
-      "kroot",
-      "lone-spear",
-      "mounted"
+      "CHARACTER",
+      "FACTION: T'AU EMPIRE",
+      "KROOT",
+      "LONE-SPEAR",
+      "MOUNTED"
     ],
     "name": "Kroot Lone-spear",
     "points": [
@@ -12383,7 +12383,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Hunting javelin"
           }
@@ -12401,8 +12401,8 @@
             "D": "2",
             "S": "10",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Blast javelin",
             "range": "18\""
@@ -12420,8 +12420,8 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Kroot long gun",
             "range": "36\""
@@ -12438,7 +12438,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Kalamandra's bite"
           }
@@ -12469,13 +12469,13 @@
     "faction": "tau",
     "id": "tau/kroot-trail-shaper",
     "keywords": [
-      "character",
-      "faction: t'au empire",
-      "infantry",
-      "kroot",
-      "leader",
-      "shaper",
-      "trail shaper"
+      "CHARACTER",
+      "FACTION: T'AU EMPIRE",
+      "INFANTRY",
+      "KROOT",
+      "LEADER",
+      "SHAPER",
+      "TRAIL SHAPER"
     ],
     "name": "Kroot Trail Shaper",
     "points": [
@@ -12553,7 +12553,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Kroot rifle",
             "range": "24\""
@@ -12599,13 +12599,13 @@
     "faction": "tau",
     "id": "tau/kroot-war-shaper",
     "keywords": [
-      "character",
-      "faction: t'au empire",
-      "infantry",
-      "kroot",
-      "leader",
-      "shaper",
-      "war shaper"
+      "CHARACTER",
+      "FACTION: T'AU EMPIRE",
+      "INFANTRY",
+      "KROOT",
+      "LEADER",
+      "SHAPER",
+      "WAR SHAPER"
     ],
     "name": "Kroot War Shaper",
     "points": [
@@ -12713,7 +12713,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bladestave and prey-hook"
           }
@@ -12731,9 +12731,9 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "heavy"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Dart-bow and tri-blade",
             "range": "24\""
@@ -12766,7 +12766,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Kroot pistol",
             "range": "12\""
@@ -12789,11 +12789,11 @@
     "faction": "tau",
     "id": "tau/krootox-rampagers",
     "keywords": [
-      "faction: t'au empire",
-      "grenades",
-      "kroot",
-      "krootox rampagers",
-      "mounted"
+      "FACTION: T'AU EMPIRE",
+      "GRENADES",
+      "KROOT",
+      "KROOTOX RAMPAGERS",
+      "MOUNTED"
     ],
     "name": "Krootox Rampagers",
     "points": [
@@ -12894,7 +12894,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Hunting blades"
           }
@@ -12912,8 +12912,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Kroot pistol and hunting javelins",
             "range": "12\""
@@ -12930,8 +12930,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "sustained hits 1"
+              "EXTRA ATTACKS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Rampager fists"
           }
@@ -12954,11 +12954,11 @@
     "faction": "tau",
     "id": "tau/krootox-riders",
     "keywords": [
-      "faction: t'au empire",
-      "grenades",
-      "kroot",
-      "krootox riders",
-      "mounted"
+      "FACTION: T'AU EMPIRE",
+      "GRENADES",
+      "KROOT",
+      "KROOTOX RIDERS",
+      "MOUNTED"
     ],
     "name": "Krootox Riders",
     "points": [
@@ -13147,7 +13147,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Krootox fists"
           }
@@ -13165,7 +13165,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Repeater cannon",
             "range": "36\""
@@ -13198,8 +13198,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Tanglecannon",
             "range": "36\""
@@ -13227,13 +13227,13 @@
     "faction": "tau",
     "id": "tau/longstrike-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: t'au empire",
-      "fly",
-      "longstrike",
-      "non-kroot",
-      "vehicle"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "LONGSTRIKE",
+      "NON-KROOT",
+      "VEHICLE"
     ],
     "name": "Longstrike [Legends]",
     "points": [
@@ -13406,7 +13406,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -13424,8 +13424,8 @@
             "D": "D6+6",
             "S": "20",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Railgun",
             "range": "72\""
@@ -13443,7 +13443,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ion cannon - standard",
             "range": "60\""
@@ -13455,8 +13455,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Ion cannon - overcharge",
             "range": "60\""
@@ -13493,8 +13493,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked",
-              "assault"
+              "TWIN-LINKED",
+              "ASSAULT"
             ],
             "name": "Twin pulse carbine",
             "qty": 2,
@@ -13514,7 +13514,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire"
+              "INDIRECT FIRE"
             ],
             "name": "Smart missile system",
             "qty": 2,
@@ -13562,16 +13562,16 @@
     "faction": "tau",
     "id": "tau/manta",
     "keywords": [
-      "aircraft",
-      "faction: t'au empire",
-      "fly",
-      "frame",
-      "manta",
-      "markerlight",
-      "non-kroot",
-      "titanic",
-      "transport",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "FRAME",
+      "MANTA",
+      "MARKERLIGHT",
+      "NON-KROOT",
+      "TITANIC",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Manta",
     "points": [
@@ -13708,7 +13708,7 @@
             "D": "12",
             "S": "26",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy rail cannon",
             "range": "120\""
@@ -13742,7 +13742,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ion cannon - standard",
             "range": "60\""
@@ -13754,8 +13754,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Ion cannon - overcharge",
             "range": "60\""
@@ -13774,7 +13774,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "qty": 10,
@@ -13821,14 +13821,14 @@
     "faction": "tau",
     "id": "tau/orca-dropship-legends",
     "keywords": [
-      "aircraft",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "orca dropship",
-      "titanic",
-      "transport",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "ORCA DROPSHIP",
+      "TITANIC",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Orca Dropship [Legends]",
     "points": [
@@ -13965,12 +13965,12 @@
     "faction": "tau",
     "id": "tau/pathfinder-team",
     "keywords": [
-      "faction: t'au empire",
-      "grenades",
-      "infantry",
-      "markerlight",
-      "non-kroot",
-      "pathfinder team"
+      "FACTION: T'AU EMPIRE",
+      "GRENADES",
+      "INFANTRY",
+      "MARKERLIGHT",
+      "NON-KROOT",
+      "PATHFINDER TEAM"
     ],
     "name": "Pathfinder Team",
     "points": [
@@ -14426,7 +14426,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -14475,8 +14475,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Semi-automatic grenade launcher - EMP",
             "range": "18\""
@@ -14504,7 +14504,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Ion rifle - standard",
             "range": "30\""
@@ -14516,8 +14516,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "heavy"
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Ion rifle - overcharge",
             "range": "30\""
@@ -14535,8 +14535,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Rail rifle",
             "range": "30\""
@@ -14570,8 +14570,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -14606,12 +14606,12 @@
     "faction": "tau",
     "id": "tau/piranhas",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "frame",
-      "non-kroot",
-      "piranha",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "FRAME",
+      "NON-KROOT",
+      "PIRANHA",
+      "VEHICLE"
     ],
     "name": "Piranhas",
     "points": [
@@ -14761,7 +14761,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Piranha fusion blaster",
             "range": "12\""
@@ -14779,7 +14779,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -14813,8 +14813,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked",
-              "assault"
+              "TWIN-LINKED",
+              "ASSAULT"
             ],
             "name": "Twin pulse carbine",
             "qty": 2,
@@ -14847,13 +14847,13 @@
     "faction": "tau",
     "id": "tau/r-varna-battlesuit-legends",
     "keywords": [
-      "battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "r'varna",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "R'VARNA",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "R'varna Battlesuit [Legends]",
     "points": [
@@ -14957,7 +14957,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Pulse submunitions cannon",
             "range": "60\""
@@ -15012,12 +15012,12 @@
     "faction": "tau",
     "id": "tau/razorshark-strike-fighter",
     "keywords": [
-      "aircraft",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "razorshark strike fighter",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "RAZORSHARK STRIKE FIGHTER",
+      "VEHICLE"
     ],
     "name": "Razorshark Strike Fighter",
     "points": [
@@ -15137,7 +15137,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Quad ion turret - standard",
             "range": "30\""
@@ -15149,8 +15149,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "twin linked"
+              "HAZARDOUS",
+              "TWIN-LINKED"
             ],
             "name": "Quad ion turret - overcharge",
             "range": "30\""
@@ -15201,7 +15201,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "qty": 2,
@@ -15236,12 +15236,12 @@
     "faction": "tau",
     "id": "tau/remora-stealth-drones-legends",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "markerlight",
-      "non-kroot",
-      "remora stealth drones",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "MARKERLIGHT",
+      "NON-KROOT",
+      "REMORA STEALTH DRONES",
+      "VEHICLE"
     ],
     "name": "Remora Stealth Drones [Legends]",
     "points": [
@@ -15354,7 +15354,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Remora seeker missile",
             "range": "48\""
@@ -15372,7 +15372,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin long-barrelled burst cannon",
             "range": "24\""
@@ -15395,11 +15395,11 @@
     "faction": "tau",
     "id": "tau/remote-sensor-tower-legends",
     "keywords": [
-      "faction: t'au empire",
-      "fortification",
-      "frame",
-      "non-kroot",
-      "remote sensor tower"
+      "FACTION: T'AU EMPIRE",
+      "FORTIFICATION",
+      "FRAME",
+      "NON-KROOT",
+      "REMOTE SENSOR TOWER"
     ],
     "name": "Remote Sensor Tower [Legends]",
     "points": [
@@ -15458,13 +15458,13 @@
     "faction": "tau",
     "id": "tau/riptide-battlesuit",
     "keywords": [
-      "battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "riptide",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "RIPTIDE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Riptide Battlesuit",
     "points": [
@@ -15669,7 +15669,7 @@
             "D": "4",
             "S": "10",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Ion accelerator - overcharge",
             "range": "72\""
@@ -15703,8 +15703,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire",
-              "twin linked"
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Twin smart missile system",
             "range": "30\""
@@ -15722,8 +15722,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin fusion blaster",
             "range": "12\""
@@ -15741,7 +15741,7 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin plasma rifle",
             "range": "18\""
@@ -15764,13 +15764,13 @@
     "faction": "tau",
     "id": "tau/shas-nel-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: t'au empire",
-      "grenades",
-      "infantry",
-      "leader",
-      "shas'nel"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: T'AU EMPIRE",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "SHAS'NEL"
     ],
     "name": "Shas'nel [Crucible]",
     "points": [
@@ -16741,7 +16741,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Kalamandra's bite"
           }
@@ -16758,8 +16758,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "sustained hits 1"
+              "EXTRA ATTACKS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Rampager fists"
           }
@@ -16777,8 +16777,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Heavy rail rifle",
             "range": "60\""
@@ -16796,7 +16796,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "High-yield missile pods",
             "range": "30\""
@@ -16814,7 +16814,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Ion rifle - standard",
             "range": "30\""
@@ -16826,8 +16826,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "heavy"
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Ion rifle - overcharge",
             "range": "30\""
@@ -16861,8 +16861,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Rail rifle",
             "range": "30\""
@@ -16880,7 +16880,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -16898,8 +16898,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Semi-automatic grenade launcher - EMP",
             "range": "18\""
@@ -16927,7 +16927,7 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin plasma rifle",
             "range": "18\""
@@ -16945,8 +16945,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire",
-              "twin linked"
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Twin smart missile system",
             "range": "30\""
@@ -16964,7 +16964,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Tanglebomb launcher",
             "range": "24\""
@@ -16982,7 +16982,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Fireblade pulse rifle",
             "range": "30\""
@@ -17000,7 +17000,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Kroot rifle",
             "range": "24\""
@@ -17018,8 +17018,8 @@
             "D": "2",
             "S": "10",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Blast javelin",
             "range": "18\""
@@ -17037,7 +17037,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "range": "12\""
@@ -17087,8 +17087,8 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Kroot long gun",
             "range": "36\""
@@ -17106,9 +17106,9 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "heavy"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Dart-bow and tri-blade",
             "range": "24\""
@@ -17126,7 +17126,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Kroot scattergun",
             "range": "12\""
@@ -17144,9 +17144,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "heavy"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Londaxi tribalest",
             "range": "18\""
@@ -17164,7 +17164,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Pulse blaster",
             "range": "10\""
@@ -17182,8 +17182,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Dvorgite skinner",
             "range": "12\""
@@ -17201,7 +17201,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -17219,8 +17219,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Kroot pistol and hunting javelins",
             "range": "12\""
@@ -17238,7 +17238,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Kroot pistol",
             "range": "12\""
@@ -17270,7 +17270,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bladestave and prey-hook"
           }
@@ -17302,7 +17302,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Hunting blades"
           }
@@ -17334,7 +17334,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin ritualistic blades"
           }
@@ -17365,17 +17365,17 @@
     "faction": "tau",
     "id": "tau/shas-o-r-alai-legends",
     "keywords": [
-      "battlesuit",
-      "character",
-      "epic hero",
-      "faction: t'au empire",
-      "fly",
-      "leader",
-      "markerlight",
-      "non-kroot",
-      "shas'o r'alai",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "LEADER",
+      "MARKERLIGHT",
+      "NON-KROOT",
+      "SHAS'O R'ALAI",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Shas'o R'alai [Legends]",
     "points": [
@@ -17457,8 +17457,8 @@
             "D": "3",
             "S": "1",
             "keywords": [
-              "anti vehicle 3+",
-              "devastating wounds"
+              "ANTI-VEHICLE 3+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Experimental pulse submunitions rifle - EMP",
             "range": "24\""
@@ -17470,7 +17470,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Experimental pulse submunitions rifle - ionic cluster-beam shell",
             "range": "24\""
@@ -17498,13 +17498,13 @@
     "faction": "tau",
     "id": "tau/sky-ray-gunship",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "frame",
-      "markerlight",
-      "non-kroot",
-      "sky ray gunship",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "FRAME",
+      "MARKERLIGHT",
+      "NON-KROOT",
+      "SKY RAY GUNSHIP",
+      "VEHICLE"
     ],
     "name": "Sky Ray Gunship",
     "points": [
@@ -17650,7 +17650,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Seeker missile rack",
             "range": "48\""
@@ -17687,8 +17687,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked",
-              "assault"
+              "TWIN-LINKED",
+              "ASSAULT"
             ],
             "name": "Twin pulse carbine",
             "qty": 2,
@@ -17708,7 +17708,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire"
+              "INDIRECT FIRE"
             ],
             "name": "Smart missile system",
             "qty": 2,
@@ -17747,14 +17747,14 @@
     "faction": "tau",
     "id": "tau/stealth-battlesuits",
     "keywords": [
-      "battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "grenades",
-      "infantry",
-      "markerlight",
-      "non-kroot",
-      "stealth"
+      "BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "MARKERLIGHT",
+      "NON-KROOT",
+      "STEALTH"
     ],
     "name": "Stealth Battlesuits",
     "points": [
@@ -18076,7 +18076,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "range": "12\""
@@ -18094,8 +18094,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -18129,7 +18129,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -18161,13 +18161,13 @@
     "faction": "tau",
     "id": "tau/stormsurge",
     "keywords": [
-      "faction: t'au empire",
-      "non-kroot",
-      "stormsurge",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "FACTION: T'AU EMPIRE",
+      "NON-KROOT",
+      "STORMSURGE",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Stormsurge",
     "points": [
@@ -18339,8 +18339,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Cluster rocket system",
             "range": "48\""
@@ -18358,7 +18358,7 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Destroyer missiles",
             "range": "72\""
@@ -18391,9 +18391,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "indirect fire",
-              "twin linked"
+              "HEAVY",
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Twin smart missile system",
             "range": "30\""
@@ -18411,8 +18411,8 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Pulse Driver Cannon",
             "range": "72\""
@@ -18430,7 +18430,7 @@
             "D": "12",
             "S": "24",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Pulse blast cannon - focused",
             "range": "24\""
@@ -18442,7 +18442,7 @@
             "D": "4",
             "S": "10",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Pulse blast cannon - dispersed",
             "range": "48\""
@@ -18460,10 +18460,10 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast",
-              "heavy",
-              "indirect fire",
-              "twin linked"
+              "BLAST",
+              "HEAVY",
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Twin airbursting fragmentation projector",
             "range": "24\""
@@ -18481,8 +18481,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "twin linked"
+              "HEAVY",
+              "TWIN-LINKED"
             ],
             "name": "Twin burst cannon",
             "range": "18\""
@@ -18500,9 +18500,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin T'au flamer",
             "range": "12\""
@@ -18525,14 +18525,14 @@
     "faction": "tau",
     "id": "tau/strike-team",
     "keywords": [
-      "battleline",
-      "faction: t'au empire",
-      "fire warrior",
-      "grenades",
-      "infantry",
-      "markerlight",
-      "non-kroot",
-      "strike team"
+      "BATTLELINE",
+      "FACTION: T'AU EMPIRE",
+      "FIRE WARRIOR",
+      "GRENADES",
+      "INFANTRY",
+      "MARKERLIGHT",
+      "NON-KROOT",
+      "STRIKE TEAM"
     ],
     "name": "Strike Team",
     "points": [
@@ -18851,7 +18851,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Pulse pistol",
             "range": "12\""
@@ -18884,7 +18884,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Pulse rifle",
             "range": "30\""
@@ -18902,8 +18902,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire",
-              "twin linked"
+              "INDIRECT FIRE",
+              "TWIN-LINKED"
             ],
             "name": "Support turret",
             "range": "30\""
@@ -18921,8 +18921,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -18962,12 +18962,12 @@
     "faction": "tau",
     "id": "tau/sun-shark-bomber",
     "keywords": [
-      "aircraft",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "sun shark bomber",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "SUN SHARK BOMBER",
+      "VEHICLE"
     ],
     "name": "Sun Shark Bomber",
     "points": [
@@ -19087,7 +19087,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin ion rifle - standard",
             "range": "30\""
@@ -19099,8 +19099,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "twin linked"
+              "HAZARDOUS",
+              "TWIN-LINKED"
             ],
             "name": "Twin ion rifle - overcharged",
             "range": "30\""
@@ -19118,7 +19118,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin missile pod",
             "range": "30\""
@@ -19153,7 +19153,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "qty": 2,
@@ -19193,14 +19193,14 @@
     "faction": "tau",
     "id": "tau/ta-unar-supremacy-armour",
     "keywords": [
-      "faction: t'au empire",
-      "frame",
-      "non-kroot",
-      "ta'unar supremacy armour",
-      "titanic",
-      "towering",
-      "vehicle",
-      "walker"
+      "FACTION: T'AU EMPIRE",
+      "FRAME",
+      "NON-KROOT",
+      "TA'UNAR SUPREMACY ARMOUR",
+      "TITANIC",
+      "TOWERING",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Ta'unar Supremacy Armour",
     "points": [
@@ -19414,7 +19414,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Tri-axis ion cannon - standard",
             "range": "36\""
@@ -19426,8 +19426,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Tri-axis ion cannon - supercharge",
             "range": "36\""
@@ -19445,7 +19445,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "melta 3"
+              "MELTA 3"
             ],
             "name": "Fusion eradicator",
             "range": "24\""
@@ -19463,7 +19463,7 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti infantry 2+"
+              "ANTI-INFANTRY 2+"
             ],
             "name": "Pulse ordnance driver",
             "range": "60\""
@@ -19497,8 +19497,8 @@
             "D": "16",
             "S": "26",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Heavy rail cannon array",
             "range": "120\""
@@ -19516,7 +19516,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Fragmentation cluster shell launcher",
             "range": "24\""
@@ -19553,7 +19553,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "indirect fire"
+              "INDIRECT FIRE"
             ],
             "name": "Smart missile system",
             "qty": 4,
@@ -19568,11 +19568,11 @@
     "faction": "tau",
     "id": "tau/tactical-drones-legends",
     "keywords": [
-      "drone",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "tactical drones"
+      "DRONE",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "TACTICAL DRONES"
     ],
     "name": "Tactical Drones [Legends]",
     "points": [
@@ -19665,8 +19665,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -19685,12 +19685,12 @@
     "faction": "tau",
     "id": "tau/tetras-legends",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "markerlight",
-      "non-kroot",
-      "tetras",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "MARKERLIGHT",
+      "NON-KROOT",
+      "TETRAS",
+      "VEHICLE"
     ],
     "name": "Tetras [Legends]",
     "points": [
@@ -19806,7 +19806,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Pulse rifle",
             "qty": 2,
@@ -19834,15 +19834,15 @@
     "faction": "tau",
     "id": "tau/the-twin-lance",
     "keywords": [
-      "battlesuit",
-      "character",
-      "epic hero",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "the twin lance",
-      "vehicle",
-      "walker"
+      "BATTLESUIT",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "THE TWIN LANCE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "The Twin Lance",
     "points": [
@@ -20012,7 +20012,7 @@
             "S": "10",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Fusion eliminator"
           }
@@ -20026,7 +20026,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion eliminator",
             "range": "18\""
@@ -20044,7 +20044,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Shardstorm burst system",
             "range": "18\""
@@ -20062,8 +20062,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse blaster",
             "range": "10\""
@@ -20092,7 +20092,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "XV pulse pistol",
             "range": "12\""
@@ -20109,7 +20109,7 @@
             "S": "7",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Ion scattercannon"
           }
@@ -20123,8 +20123,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 2"
+              "HAZARDOUS",
+              "RAPID FIRE 2"
             ],
             "name": "Ion scattercannon - overcharge",
             "range": "18\""
@@ -20136,7 +20136,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Ion scattercannon - standard",
             "range": "18\""
@@ -20163,14 +20163,14 @@
     "faction": "tau",
     "id": "tau/tidewall-droneport",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "fortification",
-      "frame",
-      "non-kroot",
-      "tidewall droneport",
-      "transport",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "FORTIFICATION",
+      "FRAME",
+      "NON-KROOT",
+      "TIDEWALL DRONEPORT",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Tidewall Droneport",
     "points": [
@@ -20227,8 +20227,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Drone defenders",
             "range": "20\""
@@ -20251,14 +20251,14 @@
     "faction": "tau",
     "id": "tau/tidewall-gunrig",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "fortification",
-      "frame",
-      "non-kroot",
-      "tidewall gunrig",
-      "transport",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "FORTIFICATION",
+      "FRAME",
+      "NON-KROOT",
+      "TIDEWALL GUNRIG",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Tidewall Gunrig",
     "points": [
@@ -20315,8 +20315,8 @@
             "D": "D6+6",
             "S": "20",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Supremacy railgun",
             "range": "72\""
@@ -20339,13 +20339,13 @@
     "faction": "tau",
     "id": "tau/tidewall-shieldline",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "fortification",
-      "non-kroot",
-      "tidewall shieldline",
-      "transport",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "FORTIFICATION",
+      "NON-KROOT",
+      "TIDEWALL SHIELDLINE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Tidewall Shieldline",
     "points": [
@@ -20396,12 +20396,12 @@
     "faction": "tau",
     "id": "tau/tiger-shark",
     "keywords": [
-      "aircraft",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "tiger shark",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "TIGER SHARK",
+      "VEHICLE"
     ],
     "name": "Tiger Shark",
     "points": [
@@ -20651,7 +20651,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Cyclic ion blaster - overcharge",
             "qty": 2,
@@ -20688,7 +20688,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ion cannon - standard",
             "range": "60\""
@@ -20700,8 +20700,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Ion cannon - overcharge",
             "range": "60\""
@@ -20736,7 +20736,7 @@
             "D": "D6+6",
             "S": "20",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Swiftstrike railgun",
             "qty": 2,
@@ -20755,7 +20755,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Seeker missile",
             "range": "48\""
@@ -20773,8 +20773,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "anti fly 3+",
-              "blast"
+              "ANTI-FLY 3+",
+              "BLAST"
             ],
             "name": "Skyspear missile rack",
             "range": "72\""
@@ -20826,11 +20826,11 @@
     "faction": "tau",
     "id": "tau/tx42-piranha-legends",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "tx42 piranha",
-      "vehicle"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "TX42 PIRANHA",
+      "VEHICLE"
     ],
     "name": "TX42 Piranha [Legends]",
     "points": [
@@ -21003,7 +21003,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Fusion blaster",
             "qty": 2,
@@ -21040,7 +21040,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Rail rifle",
             "range": "30\""
@@ -21074,11 +21074,11 @@
     "faction": "tau",
     "id": "tau/vespid-stingwings",
     "keywords": [
-      "faction: t'au empire",
-      "fly",
-      "infantry",
-      "non-kroot",
-      "vespid stingwings"
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "INFANTRY",
+      "NON-KROOT",
+      "VESPID STINGWINGS"
     ],
     "name": "Vespid Stingwings",
     "points": [
@@ -21441,7 +21441,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Neutron blaster",
             "range": "18\""
@@ -21459,8 +21459,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "T'au flamer",
             "range": "12\""
@@ -21478,8 +21478,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti infantry 3+",
-              "blast"
+              "ANTI-INFANTRY 3+",
+              "BLAST"
             ],
             "name": "Neutron grenade launcher",
             "range": "18\""
@@ -21497,7 +21497,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Neutron rail rifle",
             "range": "30\""
@@ -21516,13 +21516,13 @@
     "faction": "tau",
     "id": "tau/xv9-hazard-battlesuits-legends",
     "keywords": [
-      "battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "vehicle",
-      "walker",
-      "xv9 hazard"
+      "BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER",
+      "XV9 HAZARD"
     ],
     "name": "XV9 Hazard Battlesuits [Legends]",
     "points": [
@@ -21735,7 +21735,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4"
+              "MELTA 4"
             ],
             "name": "Fusion cascade",
             "range": "12\""
@@ -21769,7 +21769,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin hazard burst cannon",
             "range": "24\""
@@ -21802,8 +21802,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin pulse carbine",
             "range": "20\""
@@ -21851,13 +21851,13 @@
     "faction": "tau",
     "id": "tau/y-vahra-battlesuit-legends",
     "keywords": [
-      "battlesuit",
-      "faction: t'au empire",
-      "fly",
-      "non-kroot",
-      "vehicle",
-      "walker",
-      "y'vahra"
+      "BATTLESUIT",
+      "FACTION: T'AU EMPIRE",
+      "FLY",
+      "NON-KROOT",
+      "VEHICLE",
+      "WALKER",
+      "Y'VAHRA"
     ],
     "name": "Y'vahra Battlesuit [Legends]",
     "points": [
@@ -21997,7 +21997,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ionic discharge cannon - standard",
             "range": "18\""
@@ -22009,8 +22009,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Ionic discharge cannon - overcharge",
             "range": "18\""
@@ -22028,8 +22028,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Phased plasma-flamer",
             "range": "12\""

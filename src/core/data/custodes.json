@@ -13,12 +13,12 @@
     "faction": "custodes",
     "id": "custodes/agamatus-custodians",
     "keywords": [
-      "agamatus custodians",
-      "faction: adeptus custodes",
-      "fly",
-      "frame",
-      "imperium",
-      "mounted"
+      "AGAMATUS CUSTODIANS",
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "FRAME",
+      "IMPERIUM",
+      "MOUNTED"
     ],
     "name": "Agamatus Custodians",
     "points": [
@@ -172,7 +172,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Lastrum bolt cannon",
             "range": "36\""
@@ -189,7 +189,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Interceptor Lance"
           }
@@ -223,7 +223,7 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin las-pulsar",
             "range": "24\""
@@ -258,14 +258,14 @@
     "faction": "custodes",
     "id": "custodes/aleya",
     "keywords": [
-      "aleya",
-      "anathema psykana",
-      "character",
-      "epic hero",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "leader"
+      "ALEYA",
+      "ANATHEMA PSYKANA",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Aleya",
     "points": [
@@ -321,8 +321,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti psyker 5+",
-              "devastating wounds"
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Somnus"
           }
@@ -345,11 +345,11 @@
     "faction": "custodes",
     "id": "custodes/allarus-custodians",
     "keywords": [
-      "allarus custodians",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "terminator"
+      "ALLARUS CUSTODIANS",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR"
     ],
     "name": "Allarus Custodians",
     "points": [
@@ -514,7 +514,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Guardian Spear",
             "range": "24\""
@@ -532,7 +532,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Balistus grenade launcher",
             "range": "18\""
@@ -561,7 +561,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Castellan axe",
             "range": "24\""
@@ -607,15 +607,15 @@
     "faction": "custodes",
     "id": "custodes/anathema-psykana-rhino",
     "keywords": [
-      "anathema psykana",
-      "dedicated transport",
-      "faction: adeptus custodes",
-      "frame",
-      "imperium",
-      "rhino",
-      "smoke",
-      "transport",
-      "vehicle"
+      "ANATHEMA PSYKANA",
+      "DEDICATED TRANSPORT",
+      "FACTION: ADEPTUS CUSTODES",
+      "FRAME",
+      "IMPERIUM",
+      "RHINO",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Anathema Psykana Rhino",
     "points": [
@@ -701,7 +701,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -734,7 +734,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -757,11 +757,11 @@
     "faction": "custodes",
     "id": "custodes/aquilon-custodians",
     "keywords": [
-      "aquilon custodians",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "terminator"
+      "AQUILON CUSTODIANS",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR"
     ],
     "name": "Aquilon Custodians",
     "points": [
@@ -1023,7 +1023,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Lastrum storm bolter",
             "range": "24\""
@@ -1041,7 +1041,7 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin adrathic destructor",
             "range": "18\""
@@ -1059,8 +1059,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Infernus firepike",
             "range": "12\""
@@ -1099,12 +1099,12 @@
     "faction": "custodes",
     "id": "custodes/ares-gunship",
     "keywords": [
-      "aircraft",
-      "ares gunship",
-      "faction: adeptus custodes",
-      "fly",
-      "imperium",
-      "vehicle"
+      "AIRCRAFT",
+      "ARES GUNSHIP",
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "IMPERIUM",
+      "VEHICLE"
     ],
     "name": "Ares Gunship",
     "points": [
@@ -1249,12 +1249,12 @@
     "faction": "custodes",
     "id": "custodes/blade-champion",
     "keywords": [
-      "blade champion",
-      "character",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "leader"
+      "BLADE CHAMPION",
+      "CHARACTER",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Blade Champion",
     "points": [
@@ -1319,7 +1319,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Vaultswords - Behemor"
           },
@@ -1330,7 +1330,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Vaultswords - Hurricanis"
           },
@@ -1341,7 +1341,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Vaultswords - Victus"
           }
@@ -1365,12 +1365,12 @@
     "faction": "custodes",
     "id": "custodes/caladius-grav-tank",
     "keywords": [
-      "caladius grav-tank",
-      "faction: adeptus custodes",
-      "fly",
-      "frame",
-      "imperium",
-      "vehicle"
+      "CALADIUS GRAV-TANK",
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "FRAME",
+      "IMPERIUM",
+      "VEHICLE"
     ],
     "name": "Caladius Grav-tank",
     "points": [
@@ -1494,7 +1494,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin lastrum bolt cannon",
             "range": "36\""
@@ -1512,8 +1512,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "rapid fire 4",
-              "twin linked"
+              "RAPID FIRE 4",
+              "TWIN-LINKED"
             ],
             "name": "Twin iliastus accelerator cannon",
             "range": "48\""
@@ -1531,7 +1531,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin arachnus heavy blaze cannon",
             "range": "48\""
@@ -1550,12 +1550,12 @@
     "faction": "custodes",
     "id": "custodes/contemptor-achillus-dreadnought",
     "keywords": [
-      "ac walker",
-      "contemptor-achillus dreadnought",
-      "faction: adeptus custodes",
-      "imperium",
-      "vehicle",
-      "walker"
+      "AC WALKER",
+      "CONTEMPTOR-ACHILLUS DREADNOUGHT",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Contemptor-Achillus Dreadnought",
     "points": [
@@ -1662,7 +1662,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Achillus dreadspear"
           }
@@ -1692,8 +1692,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Infernus incinerator",
             "range": "12\""
@@ -1711,7 +1711,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Lastrum storm bolter",
             "range": "24\""
@@ -1729,7 +1729,7 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin adrathic destructor",
             "range": "18\""
@@ -1748,12 +1748,12 @@
     "faction": "custodes",
     "id": "custodes/contemptor-galatus-dreadnought",
     "keywords": [
-      "ac walker",
-      "contemptor-galatus dreadnought",
-      "faction: adeptus custodes",
-      "imperium",
-      "vehicle",
-      "walker"
+      "AC WALKER",
+      "CONTEMPTOR-GALATUS DREADNOUGHT",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Contemptor-Galatus Dreadnought",
     "points": [
@@ -1830,9 +1830,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Galatus warblade",
             "range": "12\""
@@ -1860,13 +1860,13 @@
     "faction": "custodes",
     "id": "custodes/coronus-grav-carrier",
     "keywords": [
-      "coronus grav-carrier",
-      "faction: adeptus custodes",
-      "fly",
-      "frame",
-      "imperium",
-      "transport",
-      "vehicle"
+      "CORONUS GRAV-CARRIER",
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "FRAME",
+      "IMPERIUM",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Coronus Grav-carrier",
     "points": [
@@ -1970,8 +1970,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin arachnus blaze cannon",
             "range": "24\""
@@ -1989,7 +1989,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin lastrum bolt cannon",
             "range": "36\""
@@ -2012,11 +2012,11 @@
     "faction": "custodes",
     "id": "custodes/custodian-guard",
     "keywords": [
-      "battleline",
-      "custodian guard",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry"
+      "BATTLELINE",
+      "CUSTODIAN GUARD",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Custodian Guard",
     "points": [
@@ -2145,7 +2145,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Guardian Spear",
             "range": "24\""
@@ -2174,8 +2174,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Sentinel Blade",
             "range": "12\""
@@ -2213,10 +2213,10 @@
     "faction": "custodes",
     "id": "custodes/custodian-guard-with-adrasite-and-pyrithite-spears",
     "keywords": [
-      "custodian guard",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry"
+      "CUSTODIAN GUARD",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Custodian Guard with Adrasite and Pyrithite spears",
     "points": [
@@ -2349,7 +2349,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Pyrithite spear",
             "range": "12\""
@@ -2372,10 +2372,10 @@
     "faction": "custodes",
     "id": "custodes/custodian-wardens",
     "keywords": [
-      "custodian wardens",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry"
+      "CUSTODIAN WARDENS",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Custodian Wardens",
     "points": [
@@ -2524,7 +2524,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Guardian Spear",
             "range": "24\""
@@ -2553,7 +2553,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Castellan axe",
             "range": "24\""
@@ -2576,12 +2576,12 @@
     "faction": "custodes",
     "id": "custodes/guardian-of-the-throne-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: adeptus custodes",
-      "guardian of the throne",
-      "imperium",
-      "infantry"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ADEPTUS CUSTODES",
+      "GUARDIAN OF THE THRONE",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Guardian of the Throne [Crucible]",
     "points": [
@@ -3317,7 +3317,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Balistus grenade launcher",
             "range": "18\""
@@ -3335,7 +3335,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Guardian spear",
             "range": "24\""
@@ -3353,7 +3353,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Castellan axe",
             "range": "24\""
@@ -3371,7 +3371,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Master-crafted boltgun",
             "range": "24\""
@@ -3389,8 +3389,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Witchseeker flamer",
             "range": "12\""
@@ -3408,7 +3408,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Pyrithite spear",
             "range": "12\""
@@ -3426,8 +3426,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Sentinel blade",
             "range": "12\""
@@ -3474,8 +3474,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti psyker 5+",
-              "devastating wounds"
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Executioner greatblade"
           }
@@ -3507,7 +3507,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Interceptor lance"
           }
@@ -3539,7 +3539,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Misericordia"
           }
@@ -3571,7 +3571,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Vaultswords - Behemor"
           },
@@ -3582,7 +3582,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Vaultswords - Hurricanis"
           },
@@ -3593,7 +3593,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Vaultswords - Victus"
           }
@@ -3611,8 +3611,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 3",
-              "twin linked"
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
             ],
             "name": "Vertus hurricane bolter",
             "range": "18\""
@@ -3630,7 +3630,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Salvo launcher",
             "range": "24\""
@@ -3653,14 +3653,14 @@
     "faction": "custodes",
     "id": "custodes/kataphraktoi-exemplar-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "dawneagle jetbike",
-      "faction: adeptus custodes",
-      "fly",
-      "imperium",
-      "kataphraktoi exemplar",
-      "mounted"
+      "CHARACTER",
+      "CRUCIBLE",
+      "DAWNEAGLE JETBIKE",
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "IMPERIUM",
+      "KATAPHRAKTOI EXEMPLAR",
+      "MOUNTED"
     ],
     "name": "Kataphraktoi Exemplar [Crucible]",
     "points": [
@@ -4396,7 +4396,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Balistus grenade launcher",
             "range": "18\""
@@ -4414,7 +4414,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Guardian spear",
             "range": "24\""
@@ -4432,7 +4432,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Castellan axe",
             "range": "24\""
@@ -4450,7 +4450,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Master-crafted boltgun",
             "range": "24\""
@@ -4468,8 +4468,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Witchseeker flamer",
             "range": "12\""
@@ -4487,7 +4487,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Pyrithite spear",
             "range": "12\""
@@ -4505,8 +4505,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Sentinel blade",
             "range": "12\""
@@ -4553,8 +4553,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti psyker 5+",
-              "devastating wounds"
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Executioner greatblade"
           }
@@ -4586,7 +4586,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Interceptor lance"
           }
@@ -4618,7 +4618,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Misericordia"
           }
@@ -4650,7 +4650,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Vaultswords - Behemor"
           },
@@ -4661,7 +4661,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Vaultswords - Hurricanis"
           },
@@ -4672,7 +4672,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Vaultswords - Victus"
           }
@@ -4690,8 +4690,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 3",
-              "twin linked"
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
             ],
             "name": "Vertus hurricane bolter",
             "range": "18\""
@@ -4709,7 +4709,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Salvo launcher",
             "range": "24\""
@@ -4744,13 +4744,13 @@
     "faction": "custodes",
     "id": "custodes/knight-centura",
     "keywords": [
-      "anathema psykana",
-      "character",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "knight-centura",
-      "leader"
+      "ANATHEMA PSYKANA",
+      "CHARACTER",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "KNIGHT-CENTURA",
+      "LEADER"
     ],
     "name": "Knight-Centura",
     "points": [
@@ -4878,8 +4878,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti psyker 5+",
-              "devastating wounds"
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Executioner Greatblade"
           }
@@ -4912,8 +4912,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Witchseeker flamer",
             "range": "12\""
@@ -4931,7 +4931,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Master-crafted boltgun",
             "range": "24\""
@@ -4954,13 +4954,13 @@
     "faction": "custodes",
     "id": "custodes/null-maiden-crucible",
     "keywords": [
-      "anathema psykana",
-      "character",
-      "crucible",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "null maiden"
+      "ANATHEMA PSYKANA",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "NULL MAIDEN"
     ],
     "name": "Null Maiden [Crucible]",
     "points": [
@@ -5696,7 +5696,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Balistus grenade launcher",
             "range": "18\""
@@ -5714,7 +5714,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Guardian spear",
             "range": "24\""
@@ -5732,7 +5732,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Castellan axe",
             "range": "24\""
@@ -5750,7 +5750,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Master-crafted boltgun",
             "range": "24\""
@@ -5768,8 +5768,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Witchseeker flamer",
             "range": "12\""
@@ -5787,7 +5787,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Pyrithite spear",
             "range": "12\""
@@ -5805,8 +5805,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Sentinel blade",
             "range": "12\""
@@ -5853,8 +5853,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti psyker 5+",
-              "devastating wounds"
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Executioner greatblade"
           }
@@ -5886,7 +5886,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Interceptor lance"
           }
@@ -5918,7 +5918,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Misericordia"
           }
@@ -5950,7 +5950,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Vaultswords - Behemor"
           },
@@ -5961,7 +5961,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Vaultswords - Hurricanis"
           },
@@ -5972,7 +5972,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Vaultswords - Victus"
           }
@@ -5990,8 +5990,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 3",
-              "twin linked"
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
             ],
             "name": "Vertus hurricane bolter",
             "range": "18\""
@@ -6009,7 +6009,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Salvo launcher",
             "range": "24\""
@@ -6037,12 +6037,12 @@
     "faction": "custodes",
     "id": "custodes/orion-assault-dropship",
     "keywords": [
-      "faction: adeptus custodes",
-      "fly",
-      "imperium",
-      "orion assault dropship",
-      "transport",
-      "vehicle"
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "IMPERIUM",
+      "ORION ASSAULT DROPSHIP",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Orion Assault Dropship",
     "points": [
@@ -6173,7 +6173,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Spiculus heavy bolt launcher",
             "range": "36\""
@@ -6191,7 +6191,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin lastrum bolt cannon",
             "range": "36\""
@@ -6210,12 +6210,12 @@
     "faction": "custodes",
     "id": "custodes/pallas-grav-attack",
     "keywords": [
-      "faction: adeptus custodes",
-      "fly",
-      "frame",
-      "imperium",
-      "pallas grav-attack",
-      "vehicle"
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "FRAME",
+      "IMPERIUM",
+      "PALLAS GRAV-ATTACK",
+      "VEHICLE"
     ],
     "name": "Pallas Grav-attack",
     "points": [
@@ -6308,8 +6308,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin arachnus blaze cannon",
             "range": "24\""
@@ -6336,11 +6336,11 @@
     "faction": "custodes",
     "id": "custodes/prosecutors",
     "keywords": [
-      "anathema psykana",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "prosecutors"
+      "ANATHEMA PSYKANA",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PROSECUTORS"
     ],
     "name": "Prosecutors",
     "points": [
@@ -6458,7 +6458,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -6496,10 +6496,10 @@
     "faction": "custodes",
     "id": "custodes/sagittarum-custodians",
     "keywords": [
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "sagittarum custodians"
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SAGITTARUM CUSTODIANS"
     ],
     "name": "Sagittarum Custodians",
     "points": [
@@ -6577,7 +6577,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Adrastus bolt caliver",
             "range": "36\""
@@ -6619,12 +6619,12 @@
     "faction": "custodes",
     "id": "custodes/shield-captain",
     "keywords": [
-      "character",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "leader",
-      "shield-captain"
+      "CHARACTER",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "SHIELD-CAPTAIN"
     ],
     "name": "Shield-Captain",
     "points": [
@@ -6742,7 +6742,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Guardian Spear",
             "range": "24\""
@@ -6771,7 +6771,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Castellan axe",
             "range": "24\""
@@ -6800,8 +6800,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Sentinel Blade",
             "range": "12\""
@@ -6830,7 +6830,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Pyrithite Spear",
             "range": "12\""
@@ -6857,13 +6857,13 @@
     "faction": "custodes",
     "id": "custodes/shield-captain-in-allarus-terminator-armour",
     "keywords": [
-      "character",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "leader",
-      "shield-captain",
-      "terminator"
+      "CHARACTER",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "SHIELD-CAPTAIN",
+      "TERMINATOR"
     ],
     "name": "Shield-Captain in Allarus Terminator Armour",
     "points": [
@@ -6972,7 +6972,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Guardian Spear",
             "range": "24\""
@@ -7001,7 +7001,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Castellan axe",
             "range": "24\""
@@ -7019,7 +7019,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Balistus grenade launcher",
             "range": "18\""
@@ -7046,14 +7046,14 @@
     "faction": "custodes",
     "id": "custodes/shield-captain-on-dawneagle-jetbike",
     "keywords": [
-      "character",
-      "dawneagle jetbike",
-      "faction: adeptus custodes",
-      "fly",
-      "imperium",
-      "leader",
-      "mounted",
-      "shield-captain"
+      "CHARACTER",
+      "DAWNEAGLE JETBIKE",
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "IMPERIUM",
+      "LEADER",
+      "MOUNTED",
+      "SHIELD-CAPTAIN"
     ],
     "name": "Shield-Captain on Dawneagle Jetbike",
     "points": [
@@ -7150,7 +7150,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Interceptor lance"
           }
@@ -7168,8 +7168,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 3",
-              "twin linked"
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
             ],
             "name": "Vertus hurricane bolter",
             "range": "18\""
@@ -7187,7 +7187,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Salvo launcher",
             "range": "24\""
@@ -7215,12 +7215,12 @@
     "faction": "custodes",
     "id": "custodes/telemon-heavy-dreadnought",
     "keywords": [
-      "ac walker",
-      "faction: adeptus custodes",
-      "imperium",
-      "telemon heavy dreadnought",
-      "vehicle",
-      "walker"
+      "AC WALKER",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "TELEMON HEAVY DREADNOUGHT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Telemon Heavy Dreadnought",
     "points": [
@@ -7375,7 +7375,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Spiculus bolt launcher",
             "range": "36\""
@@ -7393,7 +7393,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Arachnus storm cannon",
             "range": "24\""
@@ -7442,8 +7442,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "torrent",
-              "twin linked"
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin plasma projector",
             "range": "12\""
@@ -7474,13 +7474,13 @@
     "faction": "custodes",
     "id": "custodes/trajann-valoris",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "leader",
-      "trajann valoris"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TRAJANN VALORIS"
     ],
     "name": "Trajann Valoris",
     "points": [
@@ -7562,7 +7562,7 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Eagle's Scream",
             "range": "24\""
@@ -7589,14 +7589,14 @@
     "faction": "custodes",
     "id": "custodes/valerian",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "leader",
-      "shield-captain",
-      "valerian"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "SHIELD-CAPTAIN",
+      "VALERIAN"
     ],
     "name": "Valerian",
     "points": [
@@ -7664,7 +7664,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Gnosis",
             "range": "24\""
@@ -7687,12 +7687,12 @@
     "faction": "custodes",
     "id": "custodes/venatari-custodians",
     "keywords": [
-      "faction: adeptus custodes",
-      "fly",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "venatari custodians"
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "VENATARI CUSTODIANS"
     ],
     "name": "Venatari Custodians",
     "points": [
@@ -7802,7 +7802,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Venatari lance"
           }
@@ -7816,7 +7816,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Venatari lance",
             "range": "24\""
@@ -7834,8 +7834,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "pistol",
-              "sustained hits 1"
+              "PISTOL",
+              "SUSTAINED HITS 1"
             ],
             "name": "Kinetic destroyer",
             "range": "12\""
@@ -7869,12 +7869,12 @@
     "faction": "custodes",
     "id": "custodes/venerable-contemptor-dreadnought",
     "keywords": [
-      "ac walker",
-      "faction: adeptus custodes",
-      "imperium",
-      "vehicle",
-      "venerable contemptor dreadnought",
-      "walker"
+      "AC WALKER",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "VEHICLE",
+      "VENERABLE CONTEMPTOR DREADNOUGHT",
+      "WALKER"
     ],
     "name": "Venerable Contemptor Dreadnought",
     "points": [
@@ -7983,7 +7983,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -8016,7 +8016,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -8034,7 +8034,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Kheres-pattern assault cannon",
             "range": "24\""
@@ -8062,13 +8062,13 @@
     "faction": "custodes",
     "id": "custodes/venerable-land-raider",
     "keywords": [
-      "faction: adeptus custodes",
-      "frame",
-      "imperium",
-      "smoke",
-      "transport",
-      "vehicle",
-      "venerable land raider"
+      "FACTION: ADEPTUS CUSTODES",
+      "FRAME",
+      "IMPERIUM",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE",
+      "VENERABLE LAND RAIDER"
     ],
     "name": "Venerable Land Raider",
     "points": [
@@ -8205,7 +8205,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -8223,8 +8223,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -8242,7 +8242,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -8265,11 +8265,11 @@
     "faction": "custodes",
     "id": "custodes/vertus-praetors",
     "keywords": [
-      "faction: adeptus custodes",
-      "fly",
-      "imperium",
-      "mounted",
-      "vertus praetors"
+      "FACTION: ADEPTUS CUSTODES",
+      "FLY",
+      "IMPERIUM",
+      "MOUNTED",
+      "VERTUS PRAETORS"
     ],
     "name": "Vertus Praetors",
     "points": [
@@ -8391,7 +8391,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Interceptor lance"
           }
@@ -8409,7 +8409,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Salvo launcher",
             "range": "24\""
@@ -8427,8 +8427,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 3",
-              "twin linked"
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
             ],
             "name": "Vertus hurricane bolter",
             "range": "18\""
@@ -8455,11 +8455,11 @@
     "faction": "custodes",
     "id": "custodes/vigilators",
     "keywords": [
-      "anathema psykana",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "vigilators"
+      "ANATHEMA PSYKANA",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "VIGILATORS"
     ],
     "name": "Vigilators",
     "points": [
@@ -8552,8 +8552,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti psyker 5+",
-              "devastating wounds"
+              "ANTI-PSYKER 5+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Executioner greatblade"
           }
@@ -8580,11 +8580,11 @@
     "faction": "custodes",
     "id": "custodes/witchseekers",
     "keywords": [
-      "anathema psykana",
-      "faction: adeptus custodes",
-      "imperium",
-      "infantry",
-      "witchseekers"
+      "ANATHEMA PSYKANA",
+      "FACTION: ADEPTUS CUSTODES",
+      "IMPERIUM",
+      "INFANTRY",
+      "WITCHSEEKERS"
     ],
     "name": "Witchseekers",
     "points": [
@@ -8717,8 +8717,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Witchseeker flamer",
             "range": "12\""

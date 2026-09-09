@@ -6,11 +6,11 @@
 // Characteristics are kept as RAW BSData strings ("D6", "3+", "-1", "24\"").
 // No dice-averaging, no skill-to-number, no keyword parsing — the engine
 // (Story B) interprets. The ingester only does structure: grouping profiles
-// into a weapon, splitting modes, resolving links, canonicalising keyword
-// strings.
+// into a weapon, splitting modes, resolving links, and uppercasing the
+// (otherwise verbatim) keyword strings.
 import { walk, weaponProfiles, chars } from "./resolve.mjs";
 import { isCruft } from "./filter.mjs";
-import { canonicalKeywordList } from "./keywordNormalize.mjs";
+import { keywordList } from "./keywordNormalize.mjs";
 import { slug, uniqueId } from "./emit.mjs";
 
 // A weapon-profile display name may be "➤ Weapon - Mode" / "Weapon - Mode" /
@@ -30,7 +30,7 @@ function profileToMode(p) {
     S: str(c.S),
     AP: str(c.AP),
     D: str(c.D),
-    keywords: canonicalKeywordList(c.Keywords ?? c.keywords ?? ""),
+    keywords: keywordList(c.Keywords ?? c.keywords ?? ""),
   };
   if (isMelee) mode.WS = str(c.WS);
   else {

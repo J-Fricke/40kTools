@@ -9,13 +9,13 @@
     "faction": "admech",
     "id": "admech/archaeopter-fusilave",
     "keywords": [
-      "aircraft",
-      "archaeopter fusilave",
-      "faction: adeptus mechanicus",
-      "fly",
-      "imperium",
-      "skitarii",
-      "vehicle"
+      "AIRCRAFT",
+      "ARCHAEOPTER FUSILAVE",
+      "FACTION: ADEPTUS MECHANICUS",
+      "FLY",
+      "IMPERIUM",
+      "SKITARII",
+      "VEHICLE"
     ],
     "name": "Archaeopter Fusilave",
     "points": [
@@ -108,9 +108,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 9",
-              "sustained hits 1",
-              "twin linked"
+              "RAPID FIRE 9",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Cognis heavy stubber array",
             "range": "36\""
@@ -129,13 +129,13 @@
     "faction": "admech",
     "id": "admech/archaeopter-stratoraptor",
     "keywords": [
-      "aircraft",
-      "archaeopter stratoraptor",
-      "faction: adeptus mechanicus",
-      "fly",
-      "imperium",
-      "skitarii",
-      "vehicle"
+      "AIRCRAFT",
+      "ARCHAEOPTER STRATORAPTOR",
+      "FACTION: ADEPTUS MECHANICUS",
+      "FLY",
+      "IMPERIUM",
+      "SKITARII",
+      "VEHICLE"
     ],
     "name": "Archaeopter Stratoraptor",
     "points": [
@@ -235,8 +235,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3",
-              "sustained hits 1"
+              "RAPID FIRE 3",
+              "SUSTAINED HITS 1"
             ],
             "name": "Cognis heavy stubber",
             "range": "36\""
@@ -254,7 +254,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Heavy phosphor blaster",
             "range": "36\""
@@ -272,8 +272,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin cognis lascannon",
             "range": "48\""
@@ -311,13 +311,13 @@
     "faction": "admech",
     "id": "admech/archaeopter-transvector",
     "keywords": [
-      "archaeopter transvector",
-      "faction: adeptus mechanicus",
-      "fly",
-      "imperium",
-      "skitarii",
-      "transport",
-      "vehicle"
+      "ARCHAEOPTER TRANSVECTOR",
+      "FACTION: ADEPTUS MECHANICUS",
+      "FLY",
+      "IMPERIUM",
+      "SKITARII",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Archaeopter Transvector",
     "points": [
@@ -410,9 +410,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 9",
-              "sustained hits 1",
-              "twin linked"
+              "RAPID FIRE 9",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Cognis heavy stubber array",
             "range": "36\""
@@ -447,15 +447,15 @@
     "faction": "admech",
     "id": "admech/belisarius-cawl",
     "keywords": [
-      "belisarius cawl",
-      "character",
-      "cult mechanicus",
-      "epic hero",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "mobile",
-      "monster",
-      "tech-priest"
+      "BELISARIUS CAWL",
+      "CHARACTER",
+      "CULT MECHANICUS",
+      "EPIC HERO",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "MOBILE",
+      "MONSTER",
+      "TECH-PRIEST"
     ],
     "name": "Belisarius Cawl",
     "points": [
@@ -541,9 +541,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "extra attacks"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "EXTRA ATTACKS"
             ],
             "name": "Arc Scourge"
           }
@@ -575,7 +575,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Mechadendrite hive"
           }
@@ -593,7 +593,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "melta 3"
+              "MELTA 3"
             ],
             "name": "Solar atomiser",
             "range": "18\""
@@ -616,14 +616,14 @@
     "faction": "admech",
     "id": "admech/cohort-commander-crucible",
     "keywords": [
-      "character",
-      "cohort commander",
-      "crucible",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "marshal",
-      "skitarii"
+      "CHARACTER",
+      "COHORT COMMANDER",
+      "CRUCIBLE",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "MARSHAL",
+      "SKITARII"
     ],
     "name": "Cohort Commander [Crucible]",
     "points": [
@@ -1096,9 +1096,9 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Arc rifle",
             "range": "30\""
@@ -1158,7 +1158,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Galvanic carbine",
             "range": "18\""
@@ -1192,7 +1192,7 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Magnarail lance",
             "range": "36\""
@@ -1210,8 +1210,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "ignores cover"
+              "BLAST",
+              "IGNORES COVER"
             ],
             "name": "Phosphor blast carbine",
             "range": "18\""
@@ -1229,8 +1229,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Phosphor torch",
             "range": "12\""
@@ -1248,7 +1248,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Plasma caliver -  supercharge",
             "range": "30\""
@@ -1276,7 +1276,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Radium carbine",
             "range": "18\""
@@ -1294,9 +1294,9 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Radium jezzail",
             "range": "36\""
@@ -1314,8 +1314,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "devastating wounds",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Transonic cannon",
             "range": "12\""
@@ -1333,10 +1333,10 @@
             "D": "D3",
             "S": "7",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "heavy",
-              "precision"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Transuranic arquebus",
             "range": "36\""
@@ -1354,7 +1354,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin cognis autocannon",
             "range": "48\""
@@ -1372,7 +1372,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin cognis lascannon",
             "range": "48\""
@@ -1390,7 +1390,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkite blaster",
             "range": "24\""
@@ -1408,7 +1408,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Macrostubber",
             "range": "12\""
@@ -1426,8 +1426,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -1445,7 +1445,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Flechette blaster",
             "range": "12\""
@@ -1463,8 +1463,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Phosphor serpenta",
             "range": "18\""
@@ -1482,7 +1482,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Stubcarbine",
             "range": "12\""
@@ -1499,8 +1499,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Arc maul"
           }
@@ -1607,8 +1607,8 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Servo-arc claw"
           }
@@ -1625,7 +1625,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo-arm"
           }
@@ -1642,7 +1642,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser goad"
           }
@@ -1659,9 +1659,9 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "anti walker 2+",
-              "lance",
-              "sustained hits 2"
+              "ANTI-WALKER 2+",
+              "LANCE",
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser lance"
           }
@@ -1678,8 +1678,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Transonic blades"
           }
@@ -1698,12 +1698,12 @@
     "faction": "admech",
     "id": "admech/corpuscarii-electro-priests",
     "keywords": [
-      "corpuscarii",
-      "cult mechanicus",
-      "electro-priests",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry"
+      "CORPUSCARII",
+      "CULT MECHANICUS",
+      "ELECTRO-PRIESTS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Corpuscarii Electro-Priests",
     "points": [
@@ -1768,7 +1768,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Electrostatic gauntlets"
           }
@@ -1782,8 +1782,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol",
-              "sustained hits 2"
+              "PISTOL",
+              "SUSTAINED HITS 2"
             ],
             "name": "Electrostatic gauntlets",
             "range": "12\""
@@ -1814,13 +1814,13 @@
     "faction": "admech",
     "id": "admech/cybernetica-datasmith",
     "keywords": [
-      "character",
-      "cybernetica datasmith",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "legio cybernetica",
-      "tech-priest",
-      "vehicle"
+      "CHARACTER",
+      "CYBERNETICA DATASMITH",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "LEGIO CYBERNETICA",
+      "TECH-PRIEST",
+      "VEHICLE"
     ],
     "name": "Cybernetica Datasmith",
     "points": [
@@ -1913,8 +1913,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -1933,12 +1933,12 @@
     "faction": "admech",
     "id": "admech/fulgurite-electro-priests",
     "keywords": [
-      "cult mechanicus",
-      "electro-priests",
-      "faction: adeptus mechanicus",
-      "fulgurite",
-      "imperium",
-      "infantry"
+      "CULT MECHANICUS",
+      "ELECTRO-PRIESTS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "FULGURITE",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Fulgurite Electro-Priests",
     "points": [
@@ -2003,7 +2003,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Electroleech stave"
           }
@@ -2026,12 +2026,12 @@
     "faction": "admech",
     "id": "admech/hastarii-exterminators",
     "keywords": [
-      "exterminators",
-      "faction: adeptus mechanicus",
-      "hastarii",
-      "imperium",
-      "infantry",
-      "skitarii"
+      "EXTERMINATORS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "HASTARII",
+      "IMPERIUM",
+      "INFANTRY",
+      "SKITARII"
     ],
     "name": "Hastarii Exterminators",
     "points": [
@@ -2186,8 +2186,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Hastarii arc blaster",
             "range": "18\""
@@ -2205,7 +2205,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Eradication caster - focused",
             "range": "15\""
@@ -2217,7 +2217,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Eradication caster - dissipated",
             "range": "30\""
@@ -2255,12 +2255,12 @@
     "faction": "admech",
     "id": "admech/hastarii-fusiliers",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "fusiliers",
-      "hastarii",
-      "imperium",
-      "infantry",
-      "skitarii"
+      "FACTION: ADEPTUS MECHANICUS",
+      "FUSILIERS",
+      "HASTARII",
+      "IMPERIUM",
+      "INFANTRY",
+      "SKITARII"
     ],
     "name": "Hastarii Fusiliers",
     "points": [
@@ -2400,7 +2400,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Hastarii phosphor blaster",
             "range": "18\""
@@ -2469,15 +2469,15 @@
     "faction": "admech",
     "id": "admech/ironstrider-alpha-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "ironstrider alpha",
-      "skitarii",
-      "smoke",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "IRONSTRIDER ALPHA",
+      "SKITARII",
+      "SMOKE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Ironstrider Alpha [Crucible]",
     "points": [
@@ -2950,9 +2950,9 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Arc rifle",
             "range": "30\""
@@ -3012,7 +3012,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Galvanic carbine",
             "range": "18\""
@@ -3046,7 +3046,7 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Magnarail lance",
             "range": "36\""
@@ -3064,8 +3064,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "ignores cover"
+              "BLAST",
+              "IGNORES COVER"
             ],
             "name": "Phosphor blast carbine",
             "range": "18\""
@@ -3083,8 +3083,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Phosphor torch",
             "range": "12\""
@@ -3102,7 +3102,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Plasma caliver -  supercharge",
             "range": "30\""
@@ -3130,7 +3130,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Radium carbine",
             "range": "18\""
@@ -3148,9 +3148,9 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Radium jezzail",
             "range": "36\""
@@ -3168,8 +3168,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "devastating wounds",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Transonic cannon",
             "range": "12\""
@@ -3187,10 +3187,10 @@
             "D": "D3",
             "S": "7",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "heavy",
-              "precision"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Transuranic arquebus",
             "range": "36\""
@@ -3208,7 +3208,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin cognis autocannon",
             "range": "48\""
@@ -3226,7 +3226,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin cognis lascannon",
             "range": "48\""
@@ -3244,7 +3244,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkite blaster",
             "range": "24\""
@@ -3262,7 +3262,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Macrostubber",
             "range": "12\""
@@ -3280,8 +3280,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -3299,7 +3299,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Flechette blaster",
             "range": "12\""
@@ -3317,8 +3317,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Phosphor serpenta",
             "range": "18\""
@@ -3336,7 +3336,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Stubcarbine",
             "range": "12\""
@@ -3353,8 +3353,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Arc maul"
           }
@@ -3461,8 +3461,8 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Servo-arc claw"
           }
@@ -3479,7 +3479,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo-arm"
           }
@@ -3496,7 +3496,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser goad"
           }
@@ -3513,9 +3513,9 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "anti walker 2+",
-              "lance",
-              "sustained hits 2"
+              "ANTI-WALKER 2+",
+              "LANCE",
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser lance"
           }
@@ -3532,8 +3532,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Transonic blades"
           }
@@ -3556,13 +3556,13 @@
     "faction": "admech",
     "id": "admech/ironstrider-ballistarii",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "ironstrider ballistarii",
-      "skitarii",
-      "smoke",
-      "vehicle",
-      "walker"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "IRONSTRIDER BALLISTARII",
+      "SKITARII",
+      "SMOKE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Ironstrider Ballistarii",
     "points": [
@@ -3703,8 +3703,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin cognis autocannon",
             "range": "48\""
@@ -3737,8 +3737,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin cognis lascannon",
             "range": "48\""
@@ -3761,12 +3761,12 @@
     "faction": "admech",
     "id": "admech/kastelan-robots",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "kastelan robots",
-      "legio cybernetica",
-      "vehicle",
-      "walker"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "KASTELAN ROBOTS",
+      "LEGIO CYBERNETICA",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Kastelan Robots",
     "points": [
@@ -3960,8 +3960,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "twin linked"
+              "IGNORES COVER",
+              "TWIN-LINKED"
             ],
             "name": "Twin Kastelan phosphor blaster",
             "range": "24\""
@@ -3978,7 +3978,7 @@
             "S": "12",
             "WS": "4+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Kastelan fist"
           }
@@ -4011,7 +4011,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Kastelan phosphor blaster",
             "range": "24\""
@@ -4029,8 +4029,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incendine combustor",
             "range": "12\""
@@ -4048,7 +4048,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Heavy phosphor blaster",
             "range": "36\""
@@ -4067,12 +4067,12 @@
     "faction": "admech",
     "id": "admech/kataphron-breachers",
     "keywords": [
-      "breachers",
-      "cult mechanicus",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "kataphron"
+      "BREACHERS",
+      "CULT MECHANICUS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "KATAPHRON"
     ],
     "name": "Kataphron Breachers",
     "points": [
@@ -4256,7 +4256,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 4+"
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Arc claw"
           }
@@ -4274,8 +4274,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "anti vehicle 4+",
-              "rapid fire 2"
+              "ANTI-VEHICLE 4+",
+              "RAPID FIRE 2"
             ],
             "name": "Heavy arc rifle",
             "range": "30\""
@@ -4308,8 +4308,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti infantry 2+",
-              "blast"
+              "ANTI-INFANTRY 2+",
+              "BLAST"
             ],
             "name": "Torsion cannon",
             "range": "36\""
@@ -4328,12 +4328,12 @@
     "faction": "admech",
     "id": "admech/kataphron-destroyers",
     "keywords": [
-      "cult mechanicus",
-      "destroyers",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "kataphron"
+      "CULT MECHANICUS",
+      "DESTROYERS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "KATAPHRON"
     ],
     "name": "Kataphron Destroyers",
     "points": [
@@ -4562,7 +4562,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Heavy grav-cannon",
             "range": "30\""
@@ -4580,8 +4580,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Cognis flamer",
             "range": "12\""
@@ -4614,8 +4614,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "rapid fire 1"
+              "IGNORES COVER",
+              "RAPID FIRE 1"
             ],
             "name": "Phosphor blaster",
             "range": "24\""
@@ -4643,7 +4643,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kataphron plasma culverin - supercharge",
             "range": "36\""
@@ -4670,14 +4670,14 @@
     "faction": "admech",
     "id": "admech/magos-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "cult mechanicus",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "magos",
-      "tech-priest"
+      "CHARACTER",
+      "CRUCIBLE",
+      "CULT MECHANICUS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "MAGOS",
+      "TECH-PRIEST"
     ],
     "name": "Magos [Crucible]",
     "points": [
@@ -5150,9 +5150,9 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Arc rifle",
             "range": "30\""
@@ -5212,7 +5212,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Galvanic carbine",
             "range": "18\""
@@ -5246,7 +5246,7 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Magnarail lance",
             "range": "36\""
@@ -5264,8 +5264,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "ignores cover"
+              "BLAST",
+              "IGNORES COVER"
             ],
             "name": "Phosphor blast carbine",
             "range": "18\""
@@ -5283,8 +5283,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Phosphor torch",
             "range": "12\""
@@ -5302,7 +5302,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Plasma caliver -  supercharge",
             "range": "30\""
@@ -5330,7 +5330,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Radium carbine",
             "range": "18\""
@@ -5348,9 +5348,9 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Radium jezzail",
             "range": "36\""
@@ -5368,8 +5368,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "devastating wounds",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Transonic cannon",
             "range": "12\""
@@ -5387,10 +5387,10 @@
             "D": "D3",
             "S": "7",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "heavy",
-              "precision"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Transuranic arquebus",
             "range": "36\""
@@ -5408,7 +5408,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin cognis autocannon",
             "range": "48\""
@@ -5426,7 +5426,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Twin cognis lascannon",
             "range": "48\""
@@ -5444,7 +5444,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkite blaster",
             "range": "24\""
@@ -5462,7 +5462,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Macrostubber",
             "range": "12\""
@@ -5480,8 +5480,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -5499,7 +5499,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Flechette blaster",
             "range": "12\""
@@ -5517,8 +5517,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Phosphor serpenta",
             "range": "18\""
@@ -5536,7 +5536,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Stubcarbine",
             "range": "12\""
@@ -5553,8 +5553,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Arc maul"
           }
@@ -5661,8 +5661,8 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Servo-arc claw"
           }
@@ -5679,7 +5679,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo-arm"
           }
@@ -5696,7 +5696,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser goad"
           }
@@ -5713,9 +5713,9 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "anti walker 2+",
-              "lance",
-              "sustained hits 2"
+              "ANTI-WALKER 2+",
+              "LANCE",
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser lance"
           }
@@ -5732,8 +5732,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Transonic blades"
           }
@@ -5761,13 +5761,13 @@
     "faction": "admech",
     "id": "admech/onager-dunecrawler",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "onager dunecrawler",
-      "skitarii",
-      "smoke",
-      "vehicle",
-      "walker"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "ONAGER DUNECRAWLER",
+      "SKITARII",
+      "SMOKE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Onager Dunecrawler",
     "points": [
@@ -5935,8 +5935,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3",
-              "sustained hits 1"
+              "RAPID FIRE 3",
+              "SUSTAINED HITS 1"
             ],
             "name": "Cognis heavy stubber",
             "range": "36\""
@@ -5969,8 +5969,8 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "blast",
-              "sustained hits 1"
+              "BLAST",
+              "SUSTAINED HITS 1"
             ],
             "name": "Eradication beamer - dissipated",
             "range": "36\""
@@ -5982,8 +5982,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "sustained hits 1"
+              "BLAST",
+              "SUSTAINED HITS 1"
             ],
             "name": "Eradication beamer - focused",
             "range": "18\""
@@ -6001,7 +6001,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Daedalus missile launcher",
             "range": "48\""
@@ -6019,8 +6019,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "anti fly 4+",
-              "twin linked"
+              "ANTI-FLY 4+",
+              "TWIN-LINKED"
             ],
             "name": "Icarus array",
             "range": "48\""
@@ -6038,7 +6038,7 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Neutron laser",
             "range": "48\""
@@ -6056,8 +6056,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "twin linked"
+              "IGNORES COVER",
+              "TWIN-LINKED"
             ],
             "name": "Twin Onager heavy phosphor blaster",
             "range": "36\""
@@ -6076,16 +6076,16 @@
     "faction": "admech",
     "id": "admech/pteraxii-skystalkers",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "pteraxii",
-      "recon augury",
-      "skitarii",
-      "skystalkers"
+      "FACTION: ADEPTUS MECHANICUS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "PTERAXII",
+      "RECON AUGURY",
+      "SKITARII",
+      "SKYSTALKERS"
     ],
     "name": "Pteraxii Skystalkers",
     "points": [
@@ -6194,7 +6194,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Flechette blaster",
             "range": "12\""
@@ -6211,7 +6211,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser goad"
           }
@@ -6261,15 +6261,15 @@
     "faction": "admech",
     "id": "admech/pteraxii-sterylizors",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "fly",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "pteraxii",
-      "recon augury",
-      "skitarii",
-      "sterylizors"
+      "FACTION: ADEPTUS MECHANICUS",
+      "FLY",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "PTERAXII",
+      "RECON AUGURY",
+      "SKITARII",
+      "STERYLIZORS"
     ],
     "name": "Pteraxii Sterylizors",
     "points": [
@@ -6389,7 +6389,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Flechette blaster",
             "range": "12\""
@@ -6406,7 +6406,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser goad"
           }
@@ -6439,8 +6439,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Phosphor torch",
             "range": "12\""
@@ -6463,11 +6463,11 @@
     "faction": "admech",
     "id": "admech/secutarii-hoplites-legends",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "secutarii hoplites",
-      "skitarii"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "SECUTARII HOPLITES",
+      "SKITARII"
     ],
     "name": "Secutarii Hoplites [Legends]",
     "points": [
@@ -6649,9 +6649,9 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "lance"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "LANCE"
             ],
             "name": "Arc lance"
           }
@@ -6665,8 +6665,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Arc lance",
             "range": "12\""
@@ -6684,8 +6684,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Archeotech pistol",
             "range": "12\""
@@ -6708,11 +6708,11 @@
     "faction": "admech",
     "id": "admech/secutarii-peltasts-legends",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "secutarii peltasts",
-      "skitarii"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "SECUTARII PELTASTS",
+      "SKITARII"
     ],
     "name": "Secutarii Peltasts [Legends]",
     "points": [
@@ -6956,7 +6956,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Galvanic caster - flechette",
             "range": "18\""
@@ -6968,7 +6968,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Galvanic caster - hammershot",
             "range": "24\""
@@ -6986,8 +6986,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Archeotech pistol",
             "range": "12\""
@@ -7006,12 +7006,12 @@
     "faction": "admech",
     "id": "admech/serberys-raiders",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "mounted",
-      "recon augury",
-      "serberys raiders",
-      "skitarii"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "MOUNTED",
+      "RECON AUGURY",
+      "SERBERYS RAIDERS",
+      "SKITARII"
     ],
     "name": "Serberys Raiders",
     "points": [
@@ -7176,7 +7176,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Galvanic carbine",
             "range": "18\""
@@ -7209,8 +7209,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -7229,12 +7229,12 @@
     "faction": "admech",
     "id": "admech/serberys-sulphurhounds",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "mounted",
-      "recon augury",
-      "serberys sulphurhounds",
-      "skitarii"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "MOUNTED",
+      "RECON AUGURY",
+      "SERBERYS SULPHURHOUNDS",
+      "SKITARII"
     ],
     "name": "Serberys Sulphurhounds",
     "points": [
@@ -7457,9 +7457,9 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "extra attacks"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "EXTRA ATTACKS"
             ],
             "name": "Cavalry arc maul"
           }
@@ -7492,8 +7492,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -7511,9 +7511,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Sulphur breath",
             "range": "9\""
@@ -7531,8 +7531,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Phosphor pistol",
             "range": "12\""
@@ -7550,8 +7550,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "ignores cover"
+              "BLAST",
+              "IGNORES COVER"
             ],
             "name": "Phosphor blast carbine",
             "range": "18\""
@@ -7574,11 +7574,11 @@
     "faction": "admech",
     "id": "admech/servitor-battleclade",
     "keywords": [
-      "cult mechanicus",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "servitor battleclade"
+      "CULT MECHANICUS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "SERVITOR BATTLECLADE"
     ],
     "name": "Servitor Battleclade",
     "points": [
@@ -7821,8 +7821,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -7855,8 +7855,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "anti vehicle 4+",
-              "rapid fire 1"
+              "ANTI-VEHICLE 4+",
+              "RAPID FIRE 1"
             ],
             "name": "Heavy arc rifle",
             "range": "30\""
@@ -7889,8 +7889,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -7908,8 +7908,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incendine igniter",
             "range": "12\""
@@ -7927,7 +7927,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -7945,8 +7945,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "rapid fire 1"
+              "IGNORES COVER",
+              "RAPID FIRE 1"
             ],
             "name": "Phosphor blaster",
             "range": "24\""
@@ -7969,11 +7969,11 @@
     "faction": "admech",
     "id": "admech/servitors-legends",
     "keywords": [
-      "cult mechanicus",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "servitors"
+      "CULT MECHANICUS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "SERVITORS"
     ],
     "name": "Servitors [Legends]",
     "points": [
@@ -8166,8 +8166,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -8200,8 +8200,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -8219,8 +8219,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "heavy",
-              "blast"
+              "HEAVY",
+              "BLAST"
             ],
             "name": "Plasma cannon - Standard",
             "range": "36\""
@@ -8232,9 +8232,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "heavy",
-              "blast"
+              "HAZARDOUS",
+              "HEAVY",
+              "BLAST"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -8253,13 +8253,13 @@
     "faction": "admech",
     "id": "admech/sicarian-infiltrators",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "infiltrators",
-      "recon augury",
-      "sicarian",
-      "skitarii"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "INFILTRATORS",
+      "RECON AUGURY",
+      "SICARIAN",
+      "SKITARII"
     ],
     "name": "Sicarian Infiltrators",
     "points": [
@@ -8469,7 +8469,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Stubcarbine",
             "range": "12\""
@@ -8487,7 +8487,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Flechette blaster",
             "range": "12\""
@@ -8504,7 +8504,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser goad"
           }
@@ -8523,12 +8523,12 @@
     "faction": "admech",
     "id": "admech/sicarian-ruststalkers",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "ruststalkers",
-      "sicarian",
-      "skitarii"
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "RUSTSTALKERS",
+      "SICARIAN",
+      "SKITARII"
     ],
     "name": "Sicarian Ruststalkers",
     "points": [
@@ -8674,8 +8674,8 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "anti infantry 3+",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "PRECISION"
             ],
             "name": "Transonic razor & chordclaw"
           }
@@ -8692,8 +8692,8 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Transonic blades"
           }
@@ -8710,9 +8710,9 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "anti infantry 3+",
-              "devastating wounds",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Transonic blades & chordclaw"
           }
@@ -8739,12 +8739,12 @@
     "faction": "admech",
     "id": "admech/skitarii-marshal",
     "keywords": [
-      "character",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "marshal",
-      "skitarii"
+      "CHARACTER",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "MARSHAL",
+      "SKITARII"
     ],
     "name": "Skitarii Marshal",
     "points": [
@@ -8837,8 +8837,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -8857,13 +8857,13 @@
     "faction": "admech",
     "id": "admech/skitarii-rangers",
     "keywords": [
-      "battleline",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "rangers",
-      "recon augury",
-      "skitarii"
+      "BATTLELINE",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "RANGERS",
+      "RECON AUGURY",
+      "SKITARII"
     ],
     "name": "Skitarii Rangers",
     "points": [
@@ -9219,8 +9219,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -9253,8 +9253,8 @@
             "D": "D3",
             "S": "7",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Transuranic arquebus",
             "range": "36\""
@@ -9272,9 +9272,9 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Arc rifle",
             "range": "30\""
@@ -9292,7 +9292,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Plasma caliver -  supercharge",
             "range": "30\""
@@ -9321,12 +9321,12 @@
     "faction": "admech",
     "id": "admech/skitarii-vanguard",
     "keywords": [
-      "battleline",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "skitarii",
-      "vanguard"
+      "BATTLELINE",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "SKITARII",
+      "VANGUARD"
     ],
     "name": "Skitarii Vanguard",
     "points": [
@@ -9652,7 +9652,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Radium carbine",
             "range": "18\""
@@ -9670,8 +9670,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -9704,8 +9704,8 @@
             "D": "D3",
             "S": "7",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Transuranic arquebus",
             "range": "36\""
@@ -9723,9 +9723,9 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Arc rifle",
             "range": "30\""
@@ -9743,7 +9743,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Plasma caliver -  supercharge",
             "range": "30\""
@@ -9781,13 +9781,13 @@
     "faction": "admech",
     "id": "admech/skorpius-disintegrator",
     "keywords": [
-      "faction: adeptus mechanicus",
-      "frame",
-      "imperium",
-      "skitarii",
-      "skorpius disintegrator",
-      "smoke",
-      "vehicle"
+      "FACTION: ADEPTUS MECHANICUS",
+      "FRAME",
+      "IMPERIUM",
+      "SKITARII",
+      "SKORPIUS DISINTEGRATOR",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Skorpius Disintegrator",
     "points": [
@@ -9907,8 +9907,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3",
-              "sustained hits 1"
+              "RAPID FIRE 3",
+              "SUSTAINED HITS 1"
             ],
             "name": "Cognis heavy stubber",
             "range": "36\""
@@ -9926,7 +9926,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Disruptor missile launcher",
             "range": "36\""
@@ -9944,8 +9944,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Belleros energy cannon",
             "range": "36\""
@@ -10003,15 +10003,15 @@
     "faction": "admech",
     "id": "admech/skorpius-dunerider",
     "keywords": [
-      "dedicated transport",
-      "faction: adeptus mechanicus",
-      "frame",
-      "imperium",
-      "skitarii",
-      "skorpius dunerider",
-      "smoke",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: ADEPTUS MECHANICUS",
+      "FRAME",
+      "IMPERIUM",
+      "SKITARII",
+      "SKORPIUS DUNERIDER",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Skorpius Dunerider",
     "points": [
@@ -10104,9 +10104,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 9",
-              "sustained hits 1",
-              "twin linked"
+              "RAPID FIRE 9",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Cognis heavy stubber array",
             "range": "36\""
@@ -10129,14 +10129,14 @@
     "faction": "admech",
     "id": "admech/sydonian-dragoons-with-radium-jezzails",
     "keywords": [
-      "dragoons with radium jezzails",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "skitarii",
-      "smoke",
-      "sydonian",
-      "vehicle",
-      "walker"
+      "DRAGOONS WITH RADIUM JEZZAILS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "SKITARII",
+      "SMOKE",
+      "SYDONIAN",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Sydonian Dragoons with radium jezzails",
     "points": [
@@ -10247,8 +10247,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Phosphor serpenta",
             "range": "18\""
@@ -10266,9 +10266,9 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "precision"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Radium jezzail",
             "range": "36\""
@@ -10306,14 +10306,14 @@
     "faction": "admech",
     "id": "admech/sydonian-dragoons-with-taser-lances",
     "keywords": [
-      "dragoons with taser lances",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "skitarii",
-      "smoke",
-      "sydonian",
-      "vehicle",
-      "walker"
+      "DRAGOONS WITH TASER LANCES",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "SKITARII",
+      "SMOKE",
+      "SYDONIAN",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Sydonian Dragoons with taser lances",
     "points": [
@@ -10413,8 +10413,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Phosphor serpenta",
             "range": "18\""
@@ -10431,9 +10431,9 @@
             "S": "7",
             "WS": "4+",
             "keywords": [
-              "anti walker 2+",
-              "lance",
-              "sustained hits 2"
+              "ANTI-WALKER 2+",
+              "LANCE",
+              "SUSTAINED HITS 2"
             ],
             "name": "Taser lance"
           }
@@ -10456,13 +10456,13 @@
     "faction": "admech",
     "id": "admech/sydonian-skatros",
     "keywords": [
-      "character",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "skatros",
-      "skitarii",
-      "sydonian"
+      "CHARACTER",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "SKATROS",
+      "SKITARII",
+      "SYDONIAN"
     ],
     "name": "Sydonian Skatros",
     "points": [
@@ -10586,9 +10586,9 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "heavy",
-              "precision",
-              "anti infantry 3+"
+              "HEAVY",
+              "PRECISION",
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Radium Jezzail",
             "range": "36\""
@@ -10606,10 +10606,10 @@
             "D": "D3",
             "S": "7",
             "keywords": [
-              "heavy",
-              "precision",
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "HEAVY",
+              "PRECISION",
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Skatros transuranic arquebus",
             "range": "36\""
@@ -10627,8 +10627,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -10659,13 +10659,13 @@
     "faction": "admech",
     "id": "admech/tech-priest-dominus",
     "keywords": [
-      "character",
-      "cult mechanicus",
-      "dominus",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "tech-priest"
+      "CHARACTER",
+      "CULT MECHANICUS",
+      "DOMINUS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TECH-PRIEST"
     ],
     "name": "Tech-Priest Dominus",
     "points": [
@@ -10809,7 +10809,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Macrostubber",
             "range": "12\""
@@ -10827,8 +10827,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "pistol"
+              "IGNORES COVER",
+              "PISTOL"
             ],
             "name": "Phosphor serpenta",
             "range": "18\""
@@ -10872,7 +10872,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkite blaster",
             "range": "24\""
@@ -10907,13 +10907,13 @@
     "faction": "admech",
     "id": "admech/tech-priest-enginseer",
     "keywords": [
-      "character",
-      "cult mechanicus",
-      "enginseer",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "tech-priest"
+      "CHARACTER",
+      "CULT MECHANICUS",
+      "ENGINSEER",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TECH-PRIEST"
     ],
     "name": "Tech-Priest Enginseer",
     "points": [
@@ -11001,7 +11001,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo arm"
           }
@@ -11034,8 +11034,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -11066,13 +11066,13 @@
     "faction": "admech",
     "id": "admech/tech-priest-manipulus",
     "keywords": [
-      "character",
-      "cult mechanicus",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "manipulus",
-      "tech-priest"
+      "CHARACTER",
+      "CULT MECHANICUS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "MANIPULUS",
+      "TECH-PRIEST"
     ],
     "name": "Tech-Priest Manipulus",
     "points": [
@@ -11185,7 +11185,7 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Magnarail lance",
             "range": "36\""
@@ -11203,8 +11203,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "devastating wounds",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Transonic cannon",
             "range": "12\""
@@ -11235,13 +11235,13 @@
     "faction": "admech",
     "id": "admech/technoarcheologist",
     "keywords": [
-      "character",
-      "cult mechanicus",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "infantry",
-      "tech-priest",
-      "technoarcheologist"
+      "CHARACTER",
+      "CULT MECHANICUS",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TECH-PRIEST",
+      "TECHNOARCHEOLOGIST"
     ],
     "name": "Technoarcheologist",
     "points": [
@@ -11318,8 +11318,8 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Servo-arc claw"
           }
@@ -11337,8 +11337,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Mechanicus pistol",
             "range": "12\""
@@ -11370,11 +11370,11 @@
     "faction": "admech",
     "id": "admech/terrax-pattern-termite-legends",
     "keywords": [
-      "dedicated transport",
-      "imperium",
-      "terrax-pattern termite",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "IMPERIUM",
+      "TERRAX-PATTERN TERMITE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Terrax-Pattern Termite [Legends]",
     "points": [
@@ -11519,7 +11519,7 @@
             "S": "14",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Termite drill"
           }
@@ -11537,7 +11537,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Terrax melta cutter",
             "range": "12\""
@@ -11555,7 +11555,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Combi bolter",
             "range": "24\""
@@ -11573,8 +11573,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -11592,8 +11592,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin volkite charger",
             "range": "18\""
@@ -11632,15 +11632,15 @@
     "faction": "admech",
     "id": "admech/thulia-ghuld",
     "keywords": [
-      "character",
-      "cult mechanicus",
-      "epic hero",
-      "faction: adeptus mechanicus",
-      "imperium",
-      "mobile",
-      "monster",
-      "tech-priest",
-      "thulia ghuld"
+      "CHARACTER",
+      "CULT MECHANICUS",
+      "EPIC HERO",
+      "FACTION: ADEPTUS MECHANICUS",
+      "IMPERIUM",
+      "MOBILE",
+      "MONSTER",
+      "TECH-PRIEST",
+      "THULIA GHULD"
     ],
     "name": "Thulia Ghuld",
     "points": [
@@ -11731,8 +11731,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "sustained hits 1"
+              "BLAST",
+              "SUSTAINED HITS 1"
             ],
             "name": "Jericho-class conversion resonator - shockwave",
             "range": "24\""
@@ -11744,7 +11744,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Jericho-class conversion resonator - titanic impact",
             "range": "24\""

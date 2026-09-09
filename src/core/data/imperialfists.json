@@ -21,16 +21,16 @@
     "faction": "imperialfists",
     "id": "imperialfists/darnath-lysander",
     "keywords": [
-      "captain",
-      "character",
-      "darnath lysander",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: imperial fists",
-      "imperium",
-      "infantry",
-      "leader",
-      "terminator"
+      "CAPTAIN",
+      "CHARACTER",
+      "DARNATH LYSANDER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: IMPERIAL FISTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TERMINATOR"
     ],
     "name": "Darnath Lysander",
     "points": [
@@ -86,7 +86,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Fist of Dorn"
           }
@@ -117,16 +117,16 @@
     "faction": "imperialfists",
     "id": "imperialfists/pedro-kantor",
     "keywords": [
-      "chapter master",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: imperial fists",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "pedro kantor"
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: IMPERIAL FISTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PEDRO KANTOR"
     ],
     "name": "Pedro Kantor",
     "points": [
@@ -193,8 +193,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "rapid fire 2",
-              "sustained hits 1"
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
             ],
             "name": "Dorn's Arrow",
             "range": "24\""
@@ -236,16 +236,16 @@
     "faction": "imperialfists",
     "id": "imperialfists/tor-garadon",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: imperial fists",
-      "gravis",
-      "imperium",
-      "infantry",
-      "leader",
-      "tor garadon"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: IMPERIAL FISTS",
+      "GRAVIS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TOR GARADON"
     ],
     "name": "Tor Garadon",
     "points": [
@@ -312,7 +312,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Artificer Grav Gun",
             "range": "18\""

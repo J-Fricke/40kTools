@@ -13,13 +13,13 @@
     "faction": "aeldari",
     "id": "aeldari/amallyn-shadowguide-legends",
     "keywords": [
-      "aeldari",
-      "amallyn shadowguide",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "grenades",
-      "infantry"
+      "AELDARI",
+      "AMALLYN SHADOWGUIDE",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "INFANTRY"
     ],
     "name": "Amallyn Shadowguide [Legends]",
     "points": [
@@ -101,8 +101,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Ranger long rifle",
             "range": "36\""
@@ -129,16 +129,16 @@
     "faction": "aeldari",
     "id": "aeldari/asurmen",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "asurmen",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "grenades",
-      "infantry",
-      "leader",
-      "phoenix lord"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "ASURMEN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "PHOENIX LORD"
     ],
     "name": "Asurmen",
     "points": [
@@ -205,8 +205,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "The Bloody Twins",
             "range": "24\""
@@ -223,7 +223,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "The Sword of Asur"
           }
@@ -254,14 +254,14 @@
     "faction": "aeldari",
     "id": "aeldari/autarch",
     "keywords": [
-      "aeldari",
-      "autarch",
-      "character",
-      "faction: asuryani",
-      "grenades",
-      "infantry",
-      "leader",
-      "ynnari"
+      "AELDARI",
+      "AUTARCH",
+      "CHARACTER",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "YNNARI"
     ],
     "name": "Autarch",
     "points": [
@@ -418,7 +418,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scorpion Chainsword"
           }
@@ -435,7 +435,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Banshee Blade"
           }
@@ -468,8 +468,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -487,8 +487,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starshot",
             "range": "48\""
@@ -500,8 +500,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starswarm",
             "range": "48\""
@@ -519,8 +519,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Death Spinner",
             "range": "12\""
@@ -538,8 +538,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Dragon Fusion Gun",
             "range": "12\""
@@ -557,9 +557,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3",
-              "pistol"
+              "ASSAULT",
+              "MELTA 3",
+              "PISTOL"
             ],
             "name": "Dragon Fusion Pistol",
             "range": "6\""
@@ -586,14 +586,14 @@
     "faction": "aeldari",
     "id": "aeldari/autarch-skyrunner-legends",
     "keywords": [
-      "aeldari",
-      "autarch",
-      "autarch skyrunner",
-      "character",
-      "faction: asuryani",
-      "fly",
-      "leader",
-      "mounted"
+      "AELDARI",
+      "AUTARCH",
+      "AUTARCH SKYRUNNER",
+      "CHARACTER",
+      "FACTION: ASURYANI",
+      "FLY",
+      "LEADER",
+      "MOUNTED"
     ],
     "name": "Autarch Skyrunner [Legends]",
     "points": [
@@ -727,8 +727,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -745,7 +745,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Laser Lance"
           }
@@ -759,7 +759,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Laser Lance",
             "range": "6\""
@@ -777,8 +777,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Dragon Fusion Gun",
             "range": "12\""
@@ -820,16 +820,16 @@
     "faction": "aeldari",
     "id": "aeldari/autarch-wayleaper",
     "keywords": [
-      "aeldari",
-      "autarch wayleaper",
-      "character",
-      "faction: asuryani",
-      "fly",
-      "grenades",
-      "infantry",
-      "jump pack",
-      "leader",
-      "ynnari"
+      "AELDARI",
+      "AUTARCH WAYLEAPER",
+      "CHARACTER",
+      "FACTION: ASURYANI",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER",
+      "YNNARI"
     ],
     "name": "Autarch Wayleaper",
     "points": [
@@ -986,7 +986,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scorpion Chainsword"
           }
@@ -1003,7 +1003,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Banshee Blade"
           }
@@ -1036,8 +1036,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -1055,8 +1055,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starshot",
             "range": "48\""
@@ -1068,8 +1068,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starswarm",
             "range": "48\""
@@ -1087,8 +1087,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Death Spinner",
             "range": "12\""
@@ -1106,8 +1106,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Dragon Fusion Gun",
             "range": "12\""
@@ -1125,9 +1125,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3",
-              "pistol"
+              "ASSAULT",
+              "MELTA 3",
+              "PISTOL"
             ],
             "name": "Dragon Fusion Pistol",
             "range": "6\""
@@ -1155,13 +1155,13 @@
     "faction": "aeldari",
     "id": "aeldari/avatar-of-khaine",
     "keywords": [
-      "aeldari",
-      "avatar of khaine",
-      "character",
-      "daemon",
-      "epic hero",
-      "faction: asuryani",
-      "monster"
+      "AELDARI",
+      "AVATAR OF KHAINE",
+      "CHARACTER",
+      "DAEMON",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "MONSTER"
     ],
     "name": "Avatar of Khaine",
     "points": [
@@ -1238,7 +1238,7 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "sustained hits d3"
+              "SUSTAINED HITS D3"
             ],
             "name": "The Wailing Doom",
             "range": "12\""
@@ -1265,18 +1265,18 @@
     "faction": "aeldari",
     "id": "aeldari/baharroth",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "baharroth",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "fly",
-      "grenades",
-      "infantry",
-      "jump pack",
-      "leader",
-      "phoenix lord"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "BAHARROTH",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER",
+      "PHOENIX LORD"
     ],
     "name": "Baharroth",
     "points": [
@@ -1343,8 +1343,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "lethal hits"
+              "ASSAULT",
+              "LETHAL HITS"
             ],
             "name": "Fury of the Tempest",
             "range": "24\""
@@ -1361,7 +1361,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "The Shining Blade"
           }
@@ -1388,13 +1388,13 @@
     "faction": "aeldari",
     "id": "aeldari/bonesinger-legends",
     "keywords": [
-      "aeldari",
-      "bonesinger",
-      "character",
-      "faction: asuryani",
-      "infantry",
-      "leader",
-      "psyker"
+      "AELDARI",
+      "BONESINGER",
+      "CHARACTER",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER"
     ],
     "name": "Bonesinger [Legends]",
     "points": [
@@ -1459,7 +1459,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psytronome Shaper"
           }
@@ -1486,15 +1486,15 @@
     "faction": "aeldari",
     "id": "aeldari/clanblade",
     "keywords": [
-      "aeldari",
-      "character",
-      "clanblade",
-      "exodite",
-      "faction: asuryani",
-      "leader",
-      "mobile",
-      "mounted",
-      "ynnari"
+      "AELDARI",
+      "CHARACTER",
+      "CLANBLADE",
+      "EXODITE",
+      "FACTION: ASURYANI",
+      "LEADER",
+      "MOBILE",
+      "MOUNTED",
+      "YNNARI"
     ],
     "name": "Clanblade",
     "points": [
@@ -1582,8 +1582,8 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lethal hits",
-              "twin linked"
+              "LETHAL HITS",
+              "TWIN-LINKED"
             ],
             "name": "Moonblades"
           }
@@ -1600,7 +1600,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Drakesteed Fangs and Talons"
           }
@@ -1618,7 +1618,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Solar Carbine",
             "range": "18\""
@@ -1642,12 +1642,12 @@
     "faction": "aeldari",
     "id": "aeldari/cobra-legends",
     "keywords": [
-      "aeldari",
-      "cobra",
-      "faction: asuryani",
-      "fly",
-      "titanic",
-      "vehicle"
+      "AELDARI",
+      "COBRA",
+      "FACTION: ASURYANI",
+      "FLY",
+      "TITANIC",
+      "VEHICLE"
     ],
     "name": "Cobra [Legends]",
     "points": [
@@ -1814,8 +1814,8 @@
             "D": "4",
             "S": "16",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "D-Impaler",
             "range": "36\""
@@ -1858,7 +1858,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari missile launcher - sunburst",
             "range": "48\""
@@ -1924,7 +1924,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -1943,12 +1943,12 @@
     "faction": "aeldari",
     "id": "aeldari/corsair-cloud-dancer-band-legends",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "corsair cloud dancer band",
-      "corsairs and travelling players",
-      "grenades",
-      "mounted"
+      "AELDARI",
+      "ANHRATHE",
+      "CORSAIR CLOUD DANCER BAND",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "GRENADES",
+      "MOUNTED"
     ],
     "name": "Corsair Cloud Dancer Band [Legends]",
     "points": [
@@ -2233,8 +2233,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin shuriken catapult",
             "range": "18\""
@@ -2252,7 +2252,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -2286,7 +2286,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Dissonance cannon",
             "range": "24\""
@@ -2304,8 +2304,8 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter cannon",
             "range": "36\""
@@ -2338,8 +2338,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Dissonance pistol",
             "range": "12\""
@@ -2357,8 +2357,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Brace of pistols",
             "range": "12\""
@@ -2381,12 +2381,12 @@
     "faction": "aeldari",
     "id": "aeldari/corsair-reaver-band-legends",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "corsair reaver band",
-      "corsairs and travelling players",
-      "grenades",
-      "infantry"
+      "AELDARI",
+      "ANHRATHE",
+      "CORSAIR REAVER BAND",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "GRENADES",
+      "INFANTRY"
     ],
     "name": "Corsair Reaver Band [Legends]",
     "points": [
@@ -3191,8 +3191,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "lethal hits"
+              "ASSAULT",
+              "LETHAL HITS"
             ],
             "name": "Corsair firearm",
             "range": "24\""
@@ -3225,7 +3225,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari missile launcher - sunburst",
             "range": "48\""
@@ -3253,7 +3253,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -3271,8 +3271,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -3290,8 +3290,8 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2"
+              "ASSAULT",
+              "MELTA 2"
             ],
             "name": "Fusion gun",
             "range": "12\""
@@ -3309,9 +3309,9 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter cannon",
             "range": "36\""
@@ -3329,9 +3329,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -3349,7 +3349,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Dark lance",
             "range": "48\""
@@ -3367,7 +3367,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -3400,8 +3400,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "pistol"
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Dissonance pistol",
             "range": "12\""
@@ -3419,8 +3419,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Brace of pistols",
             "range": "12\""
@@ -3439,14 +3439,14 @@
     "faction": "aeldari",
     "id": "aeldari/corsair-skyreavers",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "corsair skyreavers",
-      "faction: asuryani",
-      "fly",
-      "grenades",
-      "infantry",
-      "jump pack"
+      "AELDARI",
+      "ANHRATHE",
+      "CORSAIR SKYREAVERS",
+      "FACTION: ASURYANI",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "JUMP PACK"
     ],
     "name": "Corsair Skyreavers",
     "points": [
@@ -3831,9 +3831,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro disruptor",
             "range": "12\""
@@ -3851,8 +3851,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken pistol",
             "range": "12\""
@@ -3870,8 +3870,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -3889,8 +3889,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -3908,7 +3908,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Corsair blaster",
             "range": "18\""
@@ -3941,9 +3941,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -3961,8 +3961,8 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2"
+              "ASSAULT",
+              "MELTA 2"
             ],
             "name": "Fusion gun",
             "range": "12\""
@@ -3980,8 +3980,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -4000,15 +4000,15 @@
     "faction": "aeldari",
     "id": "aeldari/corsair-voidreavers",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "battleline",
-      "corsair voidreavers",
-      "corsairs and travelling players",
-      "faction: asuryani",
-      "grenades",
-      "infantry",
-      "ynnari"
+      "AELDARI",
+      "ANHRATHE",
+      "BATTLELINE",
+      "CORSAIR VOIDREAVERS",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Corsair Voidreavers",
     "points": [
@@ -4366,7 +4366,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -4415,8 +4415,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "rapid fire 1"
+              "ASSAULT",
+              "RAPID FIRE 1"
             ],
             "name": "Shuriken rifle",
             "range": "24\""
@@ -4434,8 +4434,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -4468,7 +4468,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -4486,8 +4486,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Corsair shredder",
             "range": "18\""
@@ -4505,9 +4505,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro disruptor",
             "range": "12\""
@@ -4525,8 +4525,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken pistol",
             "range": "12\""
@@ -4545,14 +4545,14 @@
     "faction": "aeldari",
     "id": "aeldari/corsair-voidscarred",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "corsair voidscarred",
-      "corsairs and travelling players",
-      "faction: asuryani",
-      "grenades",
-      "infantry",
-      "ynnari"
+      "AELDARI",
+      "ANHRATHE",
+      "CORSAIR VOIDSCARRED",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Corsair Voidscarred",
     "points": [
@@ -5142,7 +5142,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paired Hekatarii blades"
           }
@@ -5175,8 +5175,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -5209,8 +5209,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Executioner",
             "range": "18\""
@@ -5227,8 +5227,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witch staff"
           }
@@ -5246,8 +5246,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "rapid fire 1"
+              "ASSAULT",
+              "RAPID FIRE 1"
             ],
             "name": "Shuriken rifle",
             "range": "24\""
@@ -5265,9 +5265,9 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2",
-              "pistol"
+              "ASSAULT",
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Fusion pistol",
             "range": "6\""
@@ -5285,7 +5285,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -5319,8 +5319,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Long rifle",
             "range": "36\""
@@ -5338,8 +5338,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Corsair shredder",
             "range": "18\""
@@ -5357,7 +5357,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Corsair blaster",
             "range": "18\""
@@ -5375,9 +5375,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro disruptor",
             "range": "12\""
@@ -5395,8 +5395,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken pistol",
             "range": "12\""
@@ -5419,12 +5419,12 @@
     "faction": "aeldari",
     "id": "aeldari/craftworld-warleader-crucible",
     "keywords": [
-      "aeldari",
-      "character",
-      "craftworld warleader",
-      "crucible",
-      "faction: asuryani",
-      "infantry"
+      "AELDARI",
+      "CHARACTER",
+      "CRAFTWORLD WARLEADER",
+      "CRUCIBLE",
+      "FACTION: ASURYANI",
+      "INFANTRY"
     ],
     "name": "Craftworld Warleader [Crucible]",
     "points": [
@@ -6038,9 +6038,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3",
-              "pistol"
+              "ASSAULT",
+              "MELTA 3",
+              "PISTOL"
             ],
             "name": "Dragon Fusion Pistol",
             "range": "6\""
@@ -6058,8 +6058,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -6076,7 +6076,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Banshee Blade"
           }
@@ -6147,7 +6147,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scorpion Chainsword"
           }
@@ -6179,7 +6179,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Singing Spear"
           }
@@ -6211,9 +6211,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+",
-              "lance"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+",
+              "LANCE"
             ],
             "name": "Star Lance"
           }
@@ -6230,8 +6230,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witch Staff"
           }
@@ -6248,8 +6248,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witchblade"
           }
@@ -6267,8 +6267,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Destructor",
             "range": "12\""
@@ -6286,8 +6286,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Death Spinner",
             "range": "12\""
@@ -6305,8 +6305,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Dragon Fusion Gun",
             "range": "12\""
@@ -6324,8 +6324,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Eldritch Storm",
             "range": "24\""
@@ -6343,8 +6343,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Long Rifle",
             "range": "36\""
@@ -6372,7 +6372,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile Launcher - Sunburst",
             "range": "48\""
@@ -6390,8 +6390,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starshot",
             "range": "48\""
@@ -6403,8 +6403,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starswarm",
             "range": "48\""
@@ -6422,8 +6422,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits 1"
+              "ASSAULT",
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -6441,8 +6441,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "lethal hits"
+              "ASSAULT",
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -6460,8 +6460,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault",
-              "psychic"
+              "ASSAULT",
+              "PSYCHIC"
             ],
             "name": "Singing Spear",
             "range": "12\""
@@ -6479,7 +6479,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Star Lance",
             "range": "6\""
@@ -6497,8 +6497,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -6532,8 +6532,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -6551,7 +6551,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shuriken Catapult",
             "range": "18\""
@@ -6591,14 +6591,14 @@
     "faction": "aeldari",
     "id": "aeldari/crimson-hunter",
     "keywords": [
-      "aeldari",
-      "aircraft",
-      "aspect warrior",
-      "crimson hunter",
-      "faction: asuryani",
-      "fly",
-      "vehicle",
-      "ynnari"
+      "AELDARI",
+      "AIRCRAFT",
+      "ASPECT WARRIOR",
+      "CRIMSON HUNTER",
+      "FACTION: ASURYANI",
+      "FLY",
+      "VEHICLE",
+      "YNNARI"
     ],
     "name": "Crimson Hunter",
     "points": [
@@ -6797,13 +6797,13 @@
     "faction": "aeldari",
     "id": "aeldari/d-cannon-platform",
     "keywords": [
-      "aeldari",
-      "d-cannon platform",
-      "faction: asuryani",
-      "frame",
-      "infantry",
-      "support weapon",
-      "ynnari"
+      "AELDARI",
+      "D-CANNON PLATFORM",
+      "FACTION: ASURYANI",
+      "FRAME",
+      "INFANTRY",
+      "SUPPORT WEAPON",
+      "YNNARI"
     ],
     "name": "D-Cannon Platform",
     "points": [
@@ -6892,9 +6892,9 @@
             "D": "D6+2",
             "S": "16",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "indirect fire"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "INDIRECT FIRE"
             ],
             "name": "D-cannon",
             "range": "24\""
@@ -6927,7 +6927,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shuriken Catapult",
             "range": "18\""
@@ -6950,12 +6950,12 @@
     "faction": "aeldari",
     "id": "aeldari/dark-reapers",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "dark reapers",
-      "faction: asuryani",
-      "infantry",
-      "ynnari"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "DARK REAPERS",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Dark Reapers",
     "points": [
@@ -7126,7 +7126,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starshot",
             "range": "48\""
@@ -7138,7 +7138,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starswarm",
             "range": "48\""
@@ -7171,8 +7171,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "lethal hits"
+              "IGNORES COVER",
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -7190,8 +7190,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Tempest Launcher",
             "range": "36\""
@@ -7209,7 +7209,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Missile Launcher - Starshot",
             "range": "48\""
@@ -7221,8 +7221,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "ignores cover"
+              "BLAST",
+              "IGNORES COVER"
             ],
             "name": "Missile Launcher - Sunburst",
             "range": "48\""
@@ -7253,13 +7253,13 @@
     "faction": "aeldari",
     "id": "aeldari/death-jester",
     "keywords": [
-      "aeldari",
-      "character",
-      "corsairs and travelling players",
-      "death jester",
-      "faction: harlequins",
-      "harlequin allies",
-      "infantry"
+      "AELDARI",
+      "CHARACTER",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "DEATH JESTER",
+      "FACTION: HARLEQUINS",
+      "HARLEQUIN ALLIES",
+      "INFANTRY"
     ],
     "name": "Death Jester",
     "points": [
@@ -7373,13 +7373,13 @@
     "faction": "aeldari",
     "id": "aeldari/dire-avengers",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "dire avengers",
-      "faction: asuryani",
-      "grenades",
-      "infantry",
-      "ynnari"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "DIRE AVENGERS",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Dire Avengers",
     "points": [
@@ -7654,7 +7654,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Avenger shuriken catapult",
             "range": "18\""
@@ -7672,8 +7672,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -7722,7 +7722,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Avenger shuriken catapult",
             "qty": 2,
@@ -7746,13 +7746,13 @@
     "faction": "aeldari",
     "id": "aeldari/dragon-knights",
     "keywords": [
-      "aeldari",
-      "dragon knights",
-      "exodite",
-      "faction: asuryani",
-      "mobile",
-      "mounted",
-      "ynnari"
+      "AELDARI",
+      "DRAGON KNIGHTS",
+      "EXODITE",
+      "FACTION: ASURYANI",
+      "MOBILE",
+      "MOUNTED",
+      "YNNARI"
     ],
     "name": "Dragon Knights",
     "points": [
@@ -7904,7 +7904,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Drakesteed Fangs and Talons"
           }
@@ -7921,7 +7921,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Laser Lance"
           }
@@ -7935,7 +7935,7 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Laser Lance",
             "range": "6\""
@@ -7953,7 +7953,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Solar Carbine",
             "range": "18\""
@@ -7980,15 +7980,15 @@
     "faction": "aeldari",
     "id": "aeldari/eldrad-ulthran",
     "keywords": [
-      "aeldari",
-      "character",
-      "eldrad ultran",
-      "epic hero",
-      "faction: asuryani",
-      "farseer",
-      "infantry",
-      "leader",
-      "psyker"
+      "AELDARI",
+      "CHARACTER",
+      "ELDRAD ULTRAN",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "FARSEER",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER"
     ],
     "name": "Eldrad Ulthran",
     "points": [
@@ -8065,8 +8065,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -8083,8 +8083,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Staff of Ulthamar and witchblade"
           }
@@ -8102,9 +8102,9 @@
             "D": "D6",
             "S": "5",
             "keywords": [
-              "anti character 4+",
-              "precision",
-              "psychic"
+              "ANTI-CHARACTER 4+",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Mind War",
             "range": "18\""
@@ -8132,14 +8132,14 @@
     "faction": "aeldari",
     "id": "aeldari/falcon",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "falcon",
-      "fly",
-      "frame",
-      "transport",
-      "vehicle",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FALCON",
+      "FLY",
+      "FRAME",
+      "TRANSPORT",
+      "VEHICLE",
+      "YNNARI"
     ],
     "name": "Falcon",
     "points": [
@@ -8340,8 +8340,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -8359,7 +8359,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -8387,7 +8387,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile Launcher - Sunburst",
             "range": "48\""
@@ -8421,7 +8421,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -8464,14 +8464,14 @@
     "faction": "aeldari",
     "id": "aeldari/farseer",
     "keywords": [
-      "aeldari",
-      "character",
-      "faction: asuryani",
-      "farseer",
-      "infantry",
-      "leader",
-      "psyker",
-      "ynnari"
+      "AELDARI",
+      "CHARACTER",
+      "FACTION: ASURYANI",
+      "FARSEER",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "YNNARI"
     ],
     "name": "Farseer",
     "points": [
@@ -8580,8 +8580,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Eldritch Storm",
             "range": "24\""
@@ -8599,8 +8599,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -8617,8 +8617,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witchblade"
           }
@@ -8635,7 +8635,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Singing Spear"
           }
@@ -8649,8 +8649,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault",
-              "psychic"
+              "ASSAULT",
+              "PSYCHIC"
             ],
             "name": "Singing Spear",
             "range": "12\""
@@ -8677,16 +8677,16 @@
     "faction": "aeldari",
     "id": "aeldari/farseer-skyrunner",
     "keywords": [
-      "aeldari",
-      "character",
-      "faction: asuryani",
-      "farseer",
-      "farseer skyrunner",
-      "fly",
-      "leader",
-      "mounted",
-      "psyker",
-      "ynnari"
+      "AELDARI",
+      "CHARACTER",
+      "FACTION: ASURYANI",
+      "FARSEER",
+      "FARSEER SKYRUNNER",
+      "FLY",
+      "LEADER",
+      "MOUNTED",
+      "PSYKER",
+      "YNNARI"
     ],
     "name": "Farseer Skyrunner",
     "points": [
@@ -8806,8 +8806,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Eldritch Storm",
             "range": "24\""
@@ -8825,8 +8825,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -8844,8 +8844,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -8862,8 +8862,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witchblade"
           }
@@ -8880,7 +8880,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Singing Spear"
           }
@@ -8894,8 +8894,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault",
-              "psychic"
+              "ASSAULT",
+              "PSYCHIC"
             ],
             "name": "Singing Spear",
             "range": "12\""
@@ -8918,13 +8918,13 @@
     "faction": "aeldari",
     "id": "aeldari/fire-dragons",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "faction: asuryani",
-      "fire dragons",
-      "grenades",
-      "infantry",
-      "ynnari"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "FACTION: ASURYANI",
+      "FIRE DRAGONS",
+      "GRENADES",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Fire Dragons",
     "points": [
@@ -9116,8 +9116,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Dragon Fusion Gun",
             "range": "12\""
@@ -9150,8 +9150,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 6"
+              "ASSAULT",
+              "MELTA 6"
             ],
             "name": "Exarch's Dragon Fusion Gun",
             "range": "12\""
@@ -9169,9 +9169,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Dragon's Breath Flamer",
             "range": "12\""
@@ -9189,8 +9189,8 @@
             "D": "D6",
             "S": "12",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Firepike",
             "range": "18\""
@@ -9223,9 +9223,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3",
-              "pistol"
+              "ASSAULT",
+              "MELTA 3",
+              "PISTOL"
             ],
             "name": "Dragon Fusion Pistol",
             "range": "6\""
@@ -9249,13 +9249,13 @@
     "faction": "aeldari",
     "id": "aeldari/fire-prism",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fire prism",
-      "fly",
-      "frame",
-      "vehicle",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FIRE PRISM",
+      "FLY",
+      "FRAME",
+      "VEHICLE",
+      "YNNARI"
     ],
     "name": "Fire Prism",
     "points": [
@@ -9364,7 +9364,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Prism Cannon - dispersed pulse",
             "range": "60\""
@@ -9376,7 +9376,7 @@
             "D": "6",
             "S": "18",
             "keywords": [
-              "linked fire"
+              "LINKED FIRE"
             ],
             "name": "Prism Cannon - focused lances",
             "range": "60\""
@@ -9409,8 +9409,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -9428,7 +9428,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -9456,11 +9456,11 @@
     "faction": "aeldari",
     "id": "aeldari/firestorm-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "firestorm",
-      "fly",
-      "vehicle"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FIRESTORM",
+      "FLY",
+      "VEHICLE"
     ],
     "name": "Firestorm [Legends]",
     "points": [
@@ -9568,7 +9568,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Firestorm Scatter Laser",
             "range": "36\""
@@ -9601,8 +9601,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -9620,7 +9620,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -9647,16 +9647,16 @@
     "faction": "aeldari",
     "id": "aeldari/fuegan",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "fuegan",
-      "grenades",
-      "infantry",
-      "leader",
-      "phoenix lord"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "FUEGAN",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "PHOENIX LORD"
     ],
     "name": "Fuegan",
     "points": [
@@ -9723,9 +9723,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 1",
-              "sustained hits 2"
+              "ASSAULT",
+              "MELTA 1",
+              "SUSTAINED HITS 2"
             ],
             "name": "Searsong - Beam",
             "range": "12\""
@@ -9737,8 +9737,8 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "assault",
-              "melta 6"
+              "ASSAULT",
+              "MELTA 6"
             ],
             "name": "Searsong - Lance",
             "range": "18\""
@@ -9772,14 +9772,14 @@
     "faction": "aeldari",
     "id": "aeldari/ghost-warrior-crucible",
     "keywords": [
-      "aeldari",
-      "character",
-      "crucible",
-      "faction: asuryani",
-      "ghost warrior",
-      "monster",
-      "walker",
-      "wraith construct"
+      "AELDARI",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ASURYANI",
+      "GHOST WARRIOR",
+      "MONSTER",
+      "WALKER",
+      "WRAITH CONSTRUCT"
     ],
     "name": "Ghost Warrior [Crucible]",
     "points": [
@@ -10393,9 +10393,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3",
-              "pistol"
+              "ASSAULT",
+              "MELTA 3",
+              "PISTOL"
             ],
             "name": "Dragon Fusion Pistol",
             "range": "6\""
@@ -10413,8 +10413,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -10431,7 +10431,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Banshee Blade"
           }
@@ -10502,7 +10502,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scorpion Chainsword"
           }
@@ -10534,7 +10534,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Singing Spear"
           }
@@ -10566,9 +10566,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+",
-              "lance"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+",
+              "LANCE"
             ],
             "name": "Star Lance"
           }
@@ -10585,8 +10585,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witch Staff"
           }
@@ -10603,8 +10603,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witchblade"
           }
@@ -10622,8 +10622,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Destructor",
             "range": "12\""
@@ -10641,8 +10641,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Death Spinner",
             "range": "12\""
@@ -10660,8 +10660,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Dragon Fusion Gun",
             "range": "12\""
@@ -10679,8 +10679,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Eldritch Storm",
             "range": "24\""
@@ -10698,8 +10698,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Long Rifle",
             "range": "36\""
@@ -10727,7 +10727,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile Launcher - Sunburst",
             "range": "48\""
@@ -10745,8 +10745,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starshot",
             "range": "48\""
@@ -10758,8 +10758,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starswarm",
             "range": "48\""
@@ -10777,8 +10777,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits 1"
+              "ASSAULT",
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -10796,8 +10796,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "lethal hits"
+              "ASSAULT",
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -10815,8 +10815,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault",
-              "psychic"
+              "ASSAULT",
+              "PSYCHIC"
             ],
             "name": "Singing Spear",
             "range": "12\""
@@ -10834,7 +10834,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Star Lance",
             "range": "6\""
@@ -10852,8 +10852,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -10887,8 +10887,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -10906,7 +10906,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shuriken Catapult",
             "range": "18\""
@@ -10945,14 +10945,14 @@
     "faction": "aeldari",
     "id": "aeldari/guardian-defenders",
     "keywords": [
-      "aeldari",
-      "battleline",
-      "faction: asuryani",
-      "grenades",
-      "guardian defenders",
-      "guardians",
-      "infantry",
-      "ynnari"
+      "AELDARI",
+      "BATTLELINE",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "GUARDIAN DEFENDERS",
+      "GUARDIANS",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Guardian Defenders",
     "points": [
@@ -11126,7 +11126,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shuriken Catapult",
             "range": "18\""
@@ -11154,7 +11154,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile Launcher - Sunburst",
             "range": "48\""
@@ -11188,7 +11188,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -11222,7 +11222,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -11246,15 +11246,15 @@
     "faction": "aeldari",
     "id": "aeldari/hemlock-wraithfighter",
     "keywords": [
-      "aeldari",
-      "aircraft",
-      "faction: asuryani",
-      "fly",
-      "hemlock wraithfighter",
-      "psyker",
-      "vehicle",
-      "wraith construct",
-      "ynnari"
+      "AELDARI",
+      "AIRCRAFT",
+      "FACTION: ASURYANI",
+      "FLY",
+      "HEMLOCK WRAITHFIGHTER",
+      "PSYKER",
+      "VEHICLE",
+      "WRAITH CONSTRUCT",
+      "YNNARI"
     ],
     "name": "Hemlock Wraithfighter",
     "points": [
@@ -11335,7 +11335,7 @@
             "D": "2",
             "S": "12",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy D-Scythe",
             "range": "18\""
@@ -11354,11 +11354,11 @@
     "faction": "aeldari",
     "id": "aeldari/hornet-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "hornet",
-      "vehicle"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "HORNET",
+      "VEHICLE"
     ],
     "name": "Hornet [Legends]",
     "points": [
@@ -11500,7 +11500,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari Missile Launcher - Sunburst",
             "range": "48\""
@@ -11550,7 +11550,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -11605,11 +11605,11 @@
     "faction": "aeldari",
     "id": "aeldari/howling-banshees",
     "keywords": [
-      "aspect warrior",
-      "faction: asuryani",
-      "howling banshees",
-      "infantry",
-      "ynnari"
+      "ASPECT WARRIOR",
+      "FACTION: ASURYANI",
+      "HOWLING BANSHEES",
+      "INFANTRY",
+      "YNNARI"
     ],
     "name": "Howling Banshees",
     "points": [
@@ -11830,7 +11830,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Banshee Blade"
           }
@@ -11848,8 +11848,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -11866,7 +11866,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Executioner"
           }
@@ -11883,7 +11883,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Triskele"
           }
@@ -11897,8 +11897,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault",
-              "anti infantry 3+"
+              "ASSAULT",
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Triskele",
             "range": "12\""
@@ -11915,7 +11915,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Mirrorswords"
           }
@@ -11942,13 +11942,13 @@
     "faction": "aeldari",
     "id": "aeldari/illic-nightspear-legends",
     "keywords": [
-      "aeldari",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "illic nightspear",
-      "infantry",
-      "leader"
+      "AELDARI",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "ILLIC NIGHTSPEAR",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Illic Nightspear [Legends]",
     "points": [
@@ -12025,8 +12025,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -12044,9 +12044,9 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "heavy",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Voidbringer",
             "range": "48\""
@@ -12088,16 +12088,16 @@
     "faction": "aeldari",
     "id": "aeldari/irillyth-legends",
     "keywords": [
-      "aeldari",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "fly",
-      "infantry",
-      "irillyth",
-      "jump pack",
-      "leader",
-      "phoenix lord"
+      "AELDARI",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "FLY",
+      "INFANTRY",
+      "IRILLYTH",
+      "JUMP PACK",
+      "LEADER",
+      "PHOENIX LORD"
     ],
     "name": "Irillyth [Legends]",
     "points": [
@@ -12190,15 +12190,15 @@
     "faction": "aeldari",
     "id": "aeldari/jain-zar",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "infantry",
-      "jain zar",
-      "leader",
-      "phoenix lord"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "JAIN ZAR",
+      "LEADER",
+      "PHOENIX LORD"
     ],
     "name": "Jain Zar",
     "points": [
@@ -12265,7 +12265,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Silent Death",
             "range": "12\""
@@ -12282,7 +12282,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Blade of Destruction"
           }
@@ -12313,14 +12313,14 @@
     "faction": "aeldari",
     "id": "aeldari/karandras-legends",
     "keywords": [
-      "aeldari",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "infantry",
-      "karandras",
-      "leader",
-      "phoenix lord"
+      "AELDARI",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "KARANDRAS",
+      "LEADER",
+      "PHOENIX LORD"
     ],
     "name": "Karandras [Legends]",
     "points": [
@@ -12386,7 +12386,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Arhra's Bane"
           }
@@ -12400,8 +12400,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Arhra's Bane",
             "range": "12\""
@@ -12418,7 +12418,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Isirmathil"
           }
@@ -12445,15 +12445,15 @@
     "faction": "aeldari",
     "id": "aeldari/kharseth",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "infantry",
-      "kharseth",
-      "leader",
-      "psyker"
+      "AELDARI",
+      "ANHRATHE",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "KHARSETH",
+      "LEADER",
+      "PSYKER"
     ],
     "name": "Kharseth",
     "points": [
@@ -12520,11 +12520,11 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 2+",
-              "blast",
-              "hazardous",
-              "ignores cover",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "BLAST",
+              "HAZARDOUS",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Dread of the Deep Void",
             "range": "24\""
@@ -12541,8 +12541,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Waystave"
           }
@@ -12561,14 +12561,14 @@
     "faction": "aeldari",
     "id": "aeldari/leystalker",
     "keywords": [
-      "aeldari",
-      "character",
-      "exodite",
-      "faction: asuryani",
-      "leystalker",
-      "mobile",
-      "mounted",
-      "ynnari"
+      "AELDARI",
+      "CHARACTER",
+      "EXODITE",
+      "FACTION: ASURYANI",
+      "LEYSTALKER",
+      "MOBILE",
+      "MOUNTED",
+      "YNNARI"
     ],
     "name": "Leystalker",
     "points": [
@@ -12672,8 +12672,8 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "devastating wounds: non monster/vehicle",
-              "precision"
+              "DEVASTATING WOUNDS: NON-MONSTER/VEHICLE",
+              "PRECISION"
             ],
             "name": "Long Rifle",
             "range": "36\""
@@ -12690,7 +12690,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Drakesteed Fangs and Talons"
           }
@@ -12717,17 +12717,17 @@
     "faction": "aeldari",
     "id": "aeldari/lhykhis",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "fly",
-      "infantry",
-      "jump pack",
-      "leader",
-      "lhykhis",
-      "phoenix lord"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "FLY",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER",
+      "LHYKHIS",
+      "PHOENIX LORD"
     ],
     "name": "Lhykhis",
     "points": [
@@ -12804,9 +12804,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Brood Twain",
             "range": "12\""
@@ -12823,8 +12823,8 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "extra attacks",
-              "lethal hits"
+              "EXTRA ATTACKS",
+              "LETHAL HITS"
             ],
             "name": "Spider's Fangs"
           }
@@ -12841,7 +12841,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Weaverender"
           }
@@ -12865,11 +12865,11 @@
     "faction": "aeldari",
     "id": "aeldari/lynx-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "lynx",
-      "vehicle"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "LYNX",
+      "VEHICLE"
     ],
     "name": "Lynx [Legends]",
     "points": [
@@ -13036,7 +13036,7 @@
             "D": "D6",
             "S": "16",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Lynx Pulsar",
             "range": "48\""
@@ -13079,7 +13079,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari missile launcher - sunburst",
             "range": "48\""
@@ -13145,7 +13145,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -13172,15 +13172,15 @@
     "faction": "aeldari",
     "id": "aeldari/maugan-ra",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "infantry",
-      "leader",
-      "maugan ra",
-      "phoenix lord"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "LEADER",
+      "MAUGAN RA",
+      "PHOENIX LORD"
     ],
     "name": "Maugan Ra",
     "points": [
@@ -13248,8 +13248,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "ignores cover"
+              "DEVASTATING WOUNDS",
+              "IGNORES COVER"
             ],
             "name": "Maugetar",
             "range": "36\""
@@ -13273,12 +13273,12 @@
     "faction": "aeldari",
     "id": "aeldari/night-spinner",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "frame",
-      "night spinner",
-      "vehicle"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "FRAME",
+      "NIGHT SPINNER",
+      "VEHICLE"
     ],
     "name": "Night Spinner",
     "points": [
@@ -13387,9 +13387,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "indirect fire",
-              "twin linked"
+              "BLAST",
+              "INDIRECT FIRE",
+              "TWIN LINKED"
             ],
             "name": "Doomweaver",
             "range": "48\""
@@ -13422,8 +13422,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -13441,7 +13441,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -13465,12 +13465,12 @@
     "faction": "aeldari",
     "id": "aeldari/nightwing-legends",
     "keywords": [
-      "aeldari",
-      "aircraft",
-      "faction: asuryani",
-      "fly",
-      "nightwing",
-      "vehicle"
+      "AELDARI",
+      "AIRCRAFT",
+      "FACTION: ASURYANI",
+      "FLY",
+      "NIGHTWING",
+      "VEHICLE"
     ],
     "name": "Nightwing [Legends]",
     "points": [
@@ -13559,7 +13559,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Bright Lance",
             "range": "36\""
@@ -13577,8 +13577,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin Shuriken Cannon",
             "range": "24\""
@@ -13625,15 +13625,15 @@
     "faction": "aeldari",
     "id": "aeldari/phantom-titan",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "frame",
-      "monster",
-      "phantom titan",
-      "titanic",
-      "towering",
-      "walker",
-      "wraith construct"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FRAME",
+      "MONSTER",
+      "PHANTOM TITAN",
+      "TITANIC",
+      "TOWERING",
+      "WALKER",
+      "WRAITH CONSTRUCT"
     ],
     "name": "Phantom Titan",
     "points": [
@@ -14043,8 +14043,8 @@
             "D": "2D6",
             "S": "20",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "D-bombard",
             "range": "72\""
@@ -14176,12 +14176,12 @@
     "faction": "aeldari",
     "id": "aeldari/phoenix-legends",
     "keywords": [
-      "aeldari",
-      "aircraft",
-      "faction: asuryani",
-      "fly",
-      "phoenix",
-      "vehicle"
+      "AELDARI",
+      "AIRCRAFT",
+      "FACTION: ASURYANI",
+      "FLY",
+      "PHOENIX",
+      "VEHICLE"
     ],
     "name": "Phoenix [Legends]",
     "points": [
@@ -14281,7 +14281,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Phoenix missile array",
             "range": "48\""
@@ -14315,8 +14315,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin shuriken cannon",
             "range": "24\""
@@ -14358,14 +14358,14 @@
     "faction": "aeldari",
     "id": "aeldari/prince-yriel",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "character",
-      "epic hero",
-      "faction: asuryani",
-      "infantry",
-      "leader",
-      "prince yriel"
+      "AELDARI",
+      "ANHRATHE",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "LEADER",
+      "PRINCE YRIEL"
     ],
     "name": "Prince Yriel",
     "points": [
@@ -14442,8 +14442,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "The Eye of Wrath",
             "range": "6\""
@@ -14460,7 +14460,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "The Spear of Twilight"
           }
@@ -14478,8 +14478,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -14498,11 +14498,11 @@
     "faction": "aeldari",
     "id": "aeldari/rangers",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "infantry",
-      "rangers",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "RANGERS",
+      "YNNARI"
     ],
     "name": "Rangers",
     "points": [
@@ -14591,8 +14591,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Long rifle",
             "range": "36\""
@@ -14625,8 +14625,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -14658,16 +14658,16 @@
     "faction": "aeldari",
     "id": "aeldari/revenant-titan",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "frame",
-      "monster",
-      "revenant titan",
-      "titanic",
-      "towering",
-      "walker",
-      "wraith construct"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "FRAME",
+      "MONSTER",
+      "REVENANT TITAN",
+      "TITANIC",
+      "TOWERING",
+      "WALKER",
+      "WRAITH CONSTRUCT"
     ],
     "name": "Revenant Titan",
     "points": [
@@ -14807,7 +14807,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Cloudburst missile launcher",
             "range": "36\""
@@ -14840,10 +14840,10 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "assault",
-              "torrent"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Sonic Lance",
             "range": "18\""
@@ -14861,7 +14861,7 @@
             "D": "4",
             "S": "14",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Revenant Pulsar",
             "range": "60\""
@@ -14885,12 +14885,12 @@
     "faction": "aeldari",
     "id": "aeldari/scorpion-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "scorpion",
-      "titanic",
-      "vehicle"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "SCORPION",
+      "TITANIC",
+      "VEHICLE"
     ],
     "name": "Scorpion [Legends]",
     "points": [
@@ -15057,7 +15057,7 @@
             "D": "5",
             "S": "18",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Scorpion Pulsar",
             "range": "60\""
@@ -15100,7 +15100,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari missile launcher - sunburst",
             "range": "48\""
@@ -15166,7 +15166,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -15185,12 +15185,12 @@
     "faction": "aeldari",
     "id": "aeldari/shadow-spectres-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "infantry",
-      "jump pack",
-      "shadow spectres"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "INFANTRY",
+      "JUMP PACK",
+      "SHADOW SPECTRES"
     ],
     "name": "Shadow Spectres [Legends]",
     "points": [
@@ -15312,7 +15312,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Prism Rifle - dispersed",
             "range": "18\""
@@ -15364,13 +15364,13 @@
     "faction": "aeldari",
     "id": "aeldari/shadow-weaver-platform",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "frame",
-      "infantry",
-      "shadow weaver platform",
-      "support weapon",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FRAME",
+      "INFANTRY",
+      "SHADOW WEAVER PLATFORM",
+      "SUPPORT WEAPON",
+      "YNNARI"
     ],
     "name": "Shadow Weaver Platform",
     "points": [
@@ -15459,8 +15459,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Shadow weaver",
             "range": "48\""
@@ -15493,7 +15493,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shuriken Catapult",
             "range": "18\""
@@ -15528,16 +15528,16 @@
     "faction": "aeldari",
     "id": "aeldari/shadowseer",
     "keywords": [
-      "aeldari",
-      "character",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "grenades",
-      "harlequin allies",
-      "infantry",
-      "leader",
-      "psyker",
-      "shadowseer"
+      "AELDARI",
+      "CHARACTER",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "GRENADES",
+      "HARLEQUIN ALLIES",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "SHADOWSEER"
     ],
     "name": "Shadowseer",
     "points": [
@@ -15634,7 +15634,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Miststave"
           }
@@ -15652,8 +15652,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -15671,9 +15671,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro Disruptor",
             "range": "12\""
@@ -15692,13 +15692,13 @@
     "faction": "aeldari",
     "id": "aeldari/shining-spears",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "faction: asuryani",
-      "fly",
-      "mounted",
-      "shining spears",
-      "ynnari"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "FACTION: ASURYANI",
+      "FLY",
+      "MOUNTED",
+      "SHINING SPEARS",
+      "YNNARI"
     ],
     "name": "Shining Spears",
     "points": [
@@ -15879,8 +15879,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -15897,9 +15897,9 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+",
-              "lance"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+",
+              "LANCE"
             ],
             "name": "Laser Lance"
           }
@@ -15913,7 +15913,7 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Laser Lance",
             "range": "6\""
@@ -15945,9 +15945,9 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+",
-              "lance"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+",
+              "LANCE"
             ],
             "name": "Star Lance"
           }
@@ -15961,7 +15961,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Star Lance",
             "range": "6\""
@@ -15979,7 +15979,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -15998,12 +15998,12 @@
     "faction": "aeldari",
     "id": "aeldari/shroud-runners",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "mounted",
-      "shroud runners",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "MOUNTED",
+      "SHROUD RUNNERS",
+      "YNNARI"
     ],
     "name": "Shroud Runners",
     "points": [
@@ -16103,7 +16103,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Long rifle",
             "range": "36\""
@@ -16121,7 +16121,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -16154,8 +16154,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -16183,14 +16183,14 @@
     "faction": "aeldari",
     "id": "aeldari/skathach-wraithknight-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "monster",
-      "skathach wraithknight",
-      "titanic",
-      "towering",
-      "walker",
-      "wraith construct"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "MONSTER",
+      "SKATHACH WRAITHKNIGHT",
+      "TITANIC",
+      "TOWERING",
+      "WALKER",
+      "WRAITH CONSTRUCT"
     ],
     "name": "Skathach Wraithknight [Legends]",
     "points": [
@@ -16370,8 +16370,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Deathshroud Cannon - Dispersed",
             "range": "12\""
@@ -16383,8 +16383,8 @@
             "D": "2",
             "S": "10",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Deathshroud Cannon - Focused",
             "range": "48\""
@@ -16402,7 +16402,7 @@
             "D": "D6",
             "S": "12",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Inferno Lance",
             "range": "24\""
@@ -16436,7 +16436,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -16475,13 +16475,13 @@
     "faction": "aeldari",
     "id": "aeldari/skyrunner-crucible",
     "keywords": [
-      "aeldari",
-      "character",
-      "crucible",
-      "faction: asuryani",
-      "fly",
-      "mounted",
-      "skyrunner"
+      "AELDARI",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ASURYANI",
+      "FLY",
+      "MOUNTED",
+      "SKYRUNNER"
     ],
     "name": "Skyrunner [Crucible]",
     "points": [
@@ -17095,9 +17095,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3",
-              "pistol"
+              "ASSAULT",
+              "MELTA 3",
+              "PISTOL"
             ],
             "name": "Dragon Fusion Pistol",
             "range": "6\""
@@ -17115,8 +17115,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -17133,7 +17133,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Banshee Blade"
           }
@@ -17204,7 +17204,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scorpion Chainsword"
           }
@@ -17236,7 +17236,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Singing Spear"
           }
@@ -17268,9 +17268,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+",
-              "lance"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+",
+              "LANCE"
             ],
             "name": "Star Lance"
           }
@@ -17287,8 +17287,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witch Staff"
           }
@@ -17305,8 +17305,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witchblade"
           }
@@ -17324,8 +17324,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Destructor",
             "range": "12\""
@@ -17343,8 +17343,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Death Spinner",
             "range": "12\""
@@ -17362,8 +17362,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Dragon Fusion Gun",
             "range": "12\""
@@ -17381,8 +17381,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Eldritch Storm",
             "range": "24\""
@@ -17400,8 +17400,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "heavy",
-              "precision"
+              "HEAVY",
+              "PRECISION"
             ],
             "name": "Long Rifle",
             "range": "36\""
@@ -17429,7 +17429,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile Launcher - Sunburst",
             "range": "48\""
@@ -17447,8 +17447,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starshot",
             "range": "48\""
@@ -17460,8 +17460,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "heavy",
-              "ignores cover"
+              "HEAVY",
+              "IGNORES COVER"
             ],
             "name": "Reaper Launcher - Starswarm",
             "range": "48\""
@@ -17479,8 +17479,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits 1"
+              "ASSAULT",
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -17498,8 +17498,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "lethal hits"
+              "ASSAULT",
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -17517,8 +17517,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault",
-              "psychic"
+              "ASSAULT",
+              "PSYCHIC"
             ],
             "name": "Singing Spear",
             "range": "12\""
@@ -17536,7 +17536,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Star Lance",
             "range": "6\""
@@ -17554,8 +17554,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -17589,8 +17589,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -17608,7 +17608,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shuriken Catapult",
             "range": "18\""
@@ -17643,14 +17643,14 @@
     "faction": "aeldari",
     "id": "aeldari/skyweavers",
     "keywords": [
-      "aeldari",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "fly",
-      "harlequin allies",
-      "mounted",
-      "skyweavers",
-      "smoke"
+      "AELDARI",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "FLY",
+      "HARLEQUIN ALLIES",
+      "MOUNTED",
+      "SKYWEAVERS",
+      "SMOKE"
     ],
     "name": "Skyweavers",
     "points": [
@@ -17794,8 +17794,8 @@
             "D": "3",
             "S": "3",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Skyweaver Haywire Cannon",
             "range": "24\""
@@ -17813,7 +17813,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -17871,14 +17871,14 @@
     "faction": "aeldari",
     "id": "aeldari/solitaire",
     "keywords": [
-      "aeldari",
-      "character",
-      "corsairs and travelling players",
-      "epic hero",
-      "faction: harlequins",
-      "harlequin allies",
-      "infantry",
-      "solitaire"
+      "AELDARI",
+      "CHARACTER",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "EPIC HERO",
+      "FACTION: HARLEQUINS",
+      "HARLEQUIN ALLIES",
+      "INFANTRY",
+      "SOLITAIRE"
     ],
     "name": "Solitaire",
     "points": [
@@ -17934,7 +17934,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Solitaire Weapons"
           }
@@ -17961,13 +17961,13 @@
     "faction": "aeldari",
     "id": "aeldari/spiritseer",
     "keywords": [
-      "aeldari",
-      "character",
-      "faction: asuryani",
-      "infantry",
-      "psyker",
-      "spiritseer",
-      "ynnari"
+      "AELDARI",
+      "CHARACTER",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "PSYKER",
+      "SPIRITSEER",
+      "YNNARI"
     ],
     "name": "Spiritseer",
     "points": [
@@ -18044,8 +18044,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witch Staff"
           }
@@ -18063,8 +18063,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -18083,15 +18083,15 @@
     "faction": "aeldari",
     "id": "aeldari/starfangs",
     "keywords": [
-      "aeldari",
-      "anhrathe",
-      "faction: asuryani",
-      "fly",
-      "grenades",
-      "smoke",
-      "starfangs",
-      "vehicle",
-      "ynnari"
+      "AELDARI",
+      "ANHRATHE",
+      "FACTION: ASURYANI",
+      "FLY",
+      "GRENADES",
+      "SMOKE",
+      "STARFANGS",
+      "VEHICLE",
+      "YNNARI"
     ],
     "name": "Starfangs",
     "points": [
@@ -18204,7 +18204,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Disintegrator Cannon",
             "range": "36\""
@@ -18222,8 +18222,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Starfang Grenade Launcher",
             "range": "36\""
@@ -18246,17 +18246,17 @@
     "faction": "aeldari",
     "id": "aeldari/starweaver",
     "keywords": [
-      "aeldari",
-      "corsairs and travelling players",
-      "dedicated transport",
-      "faction: harlequins",
-      "fly",
-      "frame",
-      "harlequin allies",
-      "smoke",
-      "star weaver",
-      "transport",
-      "vehicle"
+      "AELDARI",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "DEDICATED TRANSPORT",
+      "FACTION: HARLEQUINS",
+      "FLY",
+      "FRAME",
+      "HARLEQUIN ALLIES",
+      "SMOKE",
+      "STAR WEAVER",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Starweaver",
     "points": [
@@ -18350,7 +18350,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "qty": 2,
@@ -18374,16 +18374,16 @@
     "faction": "aeldari",
     "id": "aeldari/stonesinger",
     "keywords": [
-      "aeldari",
-      "character",
-      "exodite",
-      "faction: asuryani",
-      "mobile",
-      "mounted",
-      "psyker",
-      "stonesinger",
-      "support",
-      "ynnari"
+      "AELDARI",
+      "CHARACTER",
+      "EXODITE",
+      "FACTION: ASURYANI",
+      "MOBILE",
+      "MOUNTED",
+      "PSYKER",
+      "STONESINGER",
+      "SUPPORT",
+      "YNNARI"
     ],
     "name": "Stonesinger",
     "points": [
@@ -18494,8 +18494,8 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "anti monster/vehicle 3+",
-              "psychic"
+              "ANTI-MONSTER/VEHICLE 3+",
+              "PSYCHIC"
             ],
             "name": "Song of Waning",
             "range": "24\""
@@ -18512,8 +18512,8 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti non monster/vehicle 2+",
-              "psychic"
+              "ANTI-NON‑MONSTER/VEHICLE 2+",
+              "PSYCHIC"
             ],
             "name": "Stone Stave"
           }
@@ -18531,9 +18531,9 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti non monster/vehicle 3+",
-              "blast 1",
-              "torrent"
+              "ANTI-NON-MONSTER/VEHICLE 3+",
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Venomcrest Spit",
             "range": "12\""
@@ -18550,7 +18550,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Drakesteed Fangs and Talons"
           }
@@ -18568,7 +18568,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Solar Carbine",
             "range": "18\""
@@ -18591,14 +18591,14 @@
     "faction": "aeldari",
     "id": "aeldari/storm-guardians",
     "keywords": [
-      "aeldari",
-      "battleline",
-      "faction: asuryani",
-      "grenades",
-      "guardians",
-      "infantry",
-      "storm guardians",
-      "ynnari"
+      "AELDARI",
+      "BATTLELINE",
+      "FACTION: ASURYANI",
+      "GRENADES",
+      "GUARDIANS",
+      "INFANTRY",
+      "STORM GUARDIANS",
+      "YNNARI"
     ],
     "name": "Storm Guardians",
     "points": [
@@ -18875,8 +18875,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -18894,9 +18894,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -18914,8 +18914,8 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2"
+              "ASSAULT",
+              "MELTA 2"
             ],
             "name": "Fusion gun",
             "range": "12\""
@@ -18953,12 +18953,12 @@
     "faction": "aeldari",
     "id": "aeldari/striking-scorpions",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "faction: asuryani",
-      "infantry",
-      "striking scorpions",
-      "ynnari"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "STRIKING SCORPIONS",
+      "YNNARI"
     ],
     "name": "Striking Scorpions",
     "points": [
@@ -19159,7 +19159,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scorpion chainsword"
           }
@@ -19177,8 +19177,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken pistol",
             "range": "12\""
@@ -19195,8 +19195,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Chainsabres"
           }
@@ -19210,9 +19210,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol",
-              "twin linked"
+              "ASSAULT",
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Chainsabres",
             "range": "12\""
@@ -19244,7 +19244,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Biting blade"
           }
@@ -19267,15 +19267,15 @@
     "faction": "aeldari",
     "id": "aeldari/swooping-hawks",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "faction: asuryani",
-      "fly",
-      "grenades",
-      "infantry",
-      "jump pack",
-      "swooping hawks",
-      "ynnari"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "FACTION: ASURYANI",
+      "FLY",
+      "GRENADES",
+      "INFANTRY",
+      "JUMP PACK",
+      "SWOOPING HAWKS",
+      "YNNARI"
     ],
     "name": "Swooping Hawks",
     "points": [
@@ -19467,8 +19467,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "lethal hits"
+              "ASSAULT",
+              "LETHAL HITS"
             ],
             "name": "Lasblaster",
             "range": "24\""
@@ -19501,8 +19501,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "lethal hits"
+              "ASSAULT",
+              "LETHAL HITS"
             ],
             "name": "Exarch's Lasblaster",
             "range": "24\""
@@ -19520,7 +19520,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hawk's Talon",
             "range": "24\""
@@ -19538,7 +19538,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -19571,9 +19571,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "lethal hits",
-              "pistol"
+              "ASSAULT",
+              "LETHAL HITS",
+              "PISTOL"
             ],
             "name": "Sunpistol",
             "range": "12\""
@@ -19604,13 +19604,13 @@
     "faction": "aeldari",
     "id": "aeldari/the-visarch",
     "keywords": [
-      "aeldari",
-      "character",
-      "epic hero",
-      "faction: ynnari",
-      "infantry",
-      "support",
-      "the visarch"
+      "AELDARI",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: YNNARI",
+      "INFANTRY",
+      "SUPPORT",
+      "THE VISARCH"
     ],
     "name": "The Visarch",
     "points": [
@@ -19666,7 +19666,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Asu-var - quicksilver stance"
           },
@@ -19677,8 +19677,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Asu-var - duellist stance"
           },
@@ -19689,8 +19689,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti epic hero 2+",
-              "precision"
+              "ANTI-EPIC HERO 2+",
+              "PRECISION"
             ],
             "name": "Asu-var - mythic stance"
           }
@@ -19717,15 +19717,15 @@
     "faction": "aeldari",
     "id": "aeldari/the-yncarne",
     "keywords": [
-      "aeldari",
-      "character",
-      "daemon",
-      "epic hero",
-      "faction: ynnari",
-      "fly",
-      "monster",
-      "psyker",
-      "the yncarne"
+      "AELDARI",
+      "CHARACTER",
+      "DAEMON",
+      "EPIC HERO",
+      "FACTION: YNNARI",
+      "FLY",
+      "MONSTER",
+      "PSYKER",
+      "THE YNCARNE"
     ],
     "name": "The Yncarne",
     "points": [
@@ -19816,9 +19816,9 @@
             "D": "D3",
             "S": "7",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Swirling soul energy",
             "range": "12\""
@@ -19841,13 +19841,13 @@
     "faction": "aeldari",
     "id": "aeldari/troupe",
     "keywords": [
-      "aeldari",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "grenades",
-      "harlequin allies",
-      "infantry",
-      "troupe"
+      "AELDARI",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "GRENADES",
+      "HARLEQUIN ALLIES",
+      "INFANTRY",
+      "TROUPE"
     ],
     "name": "Troupe",
     "points": [
@@ -20202,8 +20202,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -20220,7 +20220,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Harlequin's Blade"
           }
@@ -20237,7 +20237,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Harlequin's Special Weapon"
           }
@@ -20255,9 +20255,9 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2",
-              "pistol"
+              "ASSAULT",
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Fusion Pistol",
             "range": "6\""
@@ -20275,9 +20275,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro Disruptor",
             "range": "12\""
@@ -20294,7 +20294,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Power sword"
           }
@@ -20329,15 +20329,15 @@
     "faction": "aeldari",
     "id": "aeldari/troupe-master",
     "keywords": [
-      "aeldari",
-      "character",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "grenades",
-      "harlequin allies",
-      "infantry",
-      "leader",
-      "troupe master"
+      "AELDARI",
+      "CHARACTER",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "GRENADES",
+      "HARLEQUIN ALLIES",
+      "INFANTRY",
+      "LEADER",
+      "TROUPE MASTER"
     ],
     "name": "Troupe Master",
     "points": [
@@ -20464,7 +20464,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Harlequin's Special Weapon"
           }
@@ -20481,7 +20481,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Troupe Master's Blade"
           }
@@ -20499,8 +20499,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -20518,9 +20518,9 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "assault",
-              "melta 2",
-              "pistol"
+              "ASSAULT",
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Fusion Pistol",
             "range": "6\""
@@ -20538,9 +20538,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 2+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Neuro Disruptor",
             "range": "12\""
@@ -20564,13 +20564,13 @@
     "faction": "aeldari",
     "id": "aeldari/vampire-hunter-legends",
     "keywords": [
-      "aeldari",
-      "aircraft",
-      "faction: asuryani",
-      "fly",
-      "titanic",
-      "vampire hunter",
-      "vehicle"
+      "AELDARI",
+      "AIRCRAFT",
+      "FACTION: ASURYANI",
+      "FLY",
+      "TITANIC",
+      "VAMPIRE HUNTER",
+      "VEHICLE"
     ],
     "name": "Vampire Hunter [Legends]",
     "points": [
@@ -20686,7 +20686,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Pulse Laser",
             "range": "48\""
@@ -20704,7 +20704,7 @@
             "D": "4",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Vampire Pulsar",
             "range": "60\""
@@ -20747,13 +20747,13 @@
     "faction": "aeldari",
     "id": "aeldari/vampire-raider-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "titanic",
-      "transport",
-      "vampire raider",
-      "vehicle"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "TITANIC",
+      "TRANSPORT",
+      "VAMPIRE RAIDER",
+      "VEHICLE"
     ],
     "name": "Vampire Raider [Legends]",
     "points": [
@@ -20858,7 +20858,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Pulse Laser",
             "range": "48\""
@@ -20900,13 +20900,13 @@
     "faction": "aeldari",
     "id": "aeldari/vibro-cannon-platform",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "frame",
-      "infantry",
-      "support weapon",
-      "vibro cannon platform",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FRAME",
+      "INFANTRY",
+      "SUPPORT WEAPON",
+      "VIBRO CANNON PLATFORM",
+      "YNNARI"
     ],
     "name": "Vibro Cannon Platform",
     "points": [
@@ -21026,7 +21026,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shuriken Catapult",
             "range": "18\""
@@ -21045,14 +21045,14 @@
     "faction": "aeldari",
     "id": "aeldari/voidweaver",
     "keywords": [
-      "aeldari",
-      "corsairs and travelling players",
-      "faction: harlequins",
-      "fly",
-      "frame",
-      "harlequin allies",
-      "vehicle",
-      "voidweaver"
+      "AELDARI",
+      "CORSAIRS AND TRAVELLING PLAYERS",
+      "FACTION: HARLEQUINS",
+      "FLY",
+      "FRAME",
+      "HARLEQUIN ALLIES",
+      "VEHICLE",
+      "VOIDWEAVER"
     ],
     "name": "Voidweaver",
     "points": [
@@ -21176,7 +21176,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Prismatic Cannon - dispersed pulse",
             "range": "24\""
@@ -21204,8 +21204,8 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Voidweaver Haywire Cannon",
             "range": "24\""
@@ -21224,7 +21224,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "qty": 2,
@@ -21244,12 +21244,12 @@
     "faction": "aeldari",
     "id": "aeldari/vypers",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "vehicle",
-      "vypers",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "VEHICLE",
+      "VYPERS",
+      "YNNARI"
     ],
     "name": "Vypers",
     "points": [
@@ -21428,7 +21428,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -21462,7 +21462,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -21490,7 +21490,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile Launcher - Sunburst",
             "range": "48\""
@@ -21509,12 +21509,12 @@
     "faction": "aeldari",
     "id": "aeldari/war-walkers",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "vehicle",
-      "walker",
-      "war walkers",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "VEHICLE",
+      "WALKER",
+      "WAR WALKERS",
+      "YNNARI"
     ],
     "name": "War Walkers",
     "points": [
@@ -21690,7 +21690,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile Launcher - Sunburst",
             "range": "48\""
@@ -21724,7 +21724,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -21758,7 +21758,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -21785,14 +21785,14 @@
     "faction": "aeldari",
     "id": "aeldari/warlock",
     "keywords": [
-      "aeldari",
-      "character",
-      "faction: asuryani",
-      "infantry",
-      "psyker",
-      "support",
-      "warlock",
-      "ynnari"
+      "AELDARI",
+      "CHARACTER",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "PSYKER",
+      "SUPPORT",
+      "WARLOCK",
+      "YNNARI"
     ],
     "name": "Warlock",
     "points": [
@@ -21900,8 +21900,8 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witchblade"
           }
@@ -21918,7 +21918,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Singing Spear"
           }
@@ -21932,8 +21932,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault",
-              "psychic"
+              "ASSAULT",
+              "PSYCHIC"
             ],
             "name": "Singing Spear",
             "range": "12\""
@@ -21951,8 +21951,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Destructor",
             "range": "12\""
@@ -21970,8 +21970,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -21998,14 +21998,14 @@
     "faction": "aeldari",
     "id": "aeldari/warlock-conclave",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "infantry",
-      "psyker",
-      "support",
-      "warlock",
-      "warlock conclave",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "PSYKER",
+      "SUPPORT",
+      "WARLOCK",
+      "WARLOCK CONCLAVE",
+      "YNNARI"
     ],
     "name": "Warlock Conclave",
     "points": [
@@ -22149,8 +22149,8 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witchblade"
           }
@@ -22168,8 +22168,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -22187,8 +22187,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Destructor",
             "range": "12\""
@@ -22205,7 +22205,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Singing Spear"
           }
@@ -22219,8 +22219,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault",
-              "psychic"
+              "ASSAULT",
+              "PSYCHIC"
             ],
             "name": "Singing Spear",
             "range": "12\""
@@ -22247,15 +22247,15 @@
     "faction": "aeldari",
     "id": "aeldari/warlock-skyrunners",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "mounted",
-      "psyker",
-      "support",
-      "warlock",
-      "warlock skyrunners",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "MOUNTED",
+      "PSYKER",
+      "SUPPORT",
+      "WARLOCK",
+      "WARLOCK SKYRUNNERS",
+      "YNNARI"
     ],
     "name": "Warlock Skyrunners",
     "points": [
@@ -22452,8 +22452,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -22470,8 +22470,8 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Witchblade"
           }
@@ -22489,8 +22489,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol"
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Shuriken Pistol",
             "range": "12\""
@@ -22508,8 +22508,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Destructor",
             "range": "12\""
@@ -22526,7 +22526,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Singing Spear"
           }
@@ -22540,8 +22540,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "assault",
-              "psychic"
+              "ASSAULT",
+              "PSYCHIC"
             ],
             "name": "Singing Spear",
             "range": "12\""
@@ -22565,11 +22565,11 @@
     "faction": "aeldari",
     "id": "aeldari/warp-hunter-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "vehicle",
-      "warp hunter"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "VEHICLE",
+      "WARP HUNTER"
     ],
     "name": "Warp Hunter [Legends]",
     "points": [
@@ -22678,8 +22678,8 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "blast",
-              "devastating wounds"
+              "BLAST",
+              "DEVASTATING WOUNDS"
             ],
             "name": "D-Flail - blast",
             "range": "24\""
@@ -22691,8 +22691,8 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "devastating wounds",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "D-Flail - rift",
             "range": "12\""
@@ -22725,8 +22725,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -22744,7 +22744,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -22767,14 +22767,14 @@
     "faction": "aeldari",
     "id": "aeldari/warp-spiders",
     "keywords": [
-      "aeldari",
-      "aspect warrior",
-      "faction: asuryani",
-      "fly",
-      "infantry",
-      "jump pack",
-      "warp spiders",
-      "ynnari"
+      "AELDARI",
+      "ASPECT WARRIOR",
+      "FACTION: ASURYANI",
+      "FLY",
+      "INFANTRY",
+      "JUMP PACK",
+      "WARP SPIDERS",
+      "YNNARI"
     ],
     "name": "Warp Spiders",
     "points": [
@@ -22987,8 +22987,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Death spinner",
             "range": "12\""
@@ -23021,8 +23021,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Exarch's Deathspinner",
             "range": "12\""
@@ -23040,9 +23040,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Death Weavers",
             "range": "6\""
@@ -23060,8 +23060,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Spinneret Rifle",
             "range": "18\""
@@ -23078,8 +23078,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "twin linked"
+              "LETHAL HITS",
+              "TWIN-LINKED"
             ],
             "name": "Powerblades"
           }
@@ -23096,8 +23096,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "twin linked"
+              "LETHAL HITS",
+              "TWIN-LINKED"
             ],
             "name": "Powerblade Array"
           }
@@ -23116,12 +23116,12 @@
     "faction": "aeldari",
     "id": "aeldari/wasp-assault-walker-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "vehicle",
-      "walker",
-      "wasp assault walker"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "VEHICLE",
+      "WALKER",
+      "WASP ASSAULT WALKER"
     ],
     "name": "Wasp Assault Walker [Legends]",
     "points": [
@@ -23302,7 +23302,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari missile launcher - sunburst",
             "range": "48\""
@@ -23368,7 +23368,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -23396,15 +23396,15 @@
     "faction": "aeldari",
     "id": "aeldari/wave-serpent",
     "keywords": [
-      "aeldari",
-      "dedicated transport",
-      "faction: asuryani",
-      "fly",
-      "frame",
-      "transport",
-      "vehicle",
-      "wave serpent",
-      "ynnari"
+      "AELDARI",
+      "DEDICATED TRANSPORT",
+      "FACTION: ASURYANI",
+      "FLY",
+      "FRAME",
+      "TRANSPORT",
+      "VEHICLE",
+      "WAVE SERPENT",
+      "YNNARI"
     ],
     "name": "Wave Serpent",
     "points": [
@@ -23578,8 +23578,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN LINKED"
             ],
             "name": "Twin Shuriken Catapult",
             "range": "18\""
@@ -23597,7 +23597,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -23615,7 +23615,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Aeldari Missile Launcher - Starshot",
             "range": "48\""
@@ -23627,8 +23627,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Twin Aeldari Missile Launcher - Sunburst",
             "range": "48\""
@@ -23646,7 +23646,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Bright Lance",
             "range": "36\""
@@ -23664,8 +23664,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin Scatter Laser",
             "range": "36\""
@@ -23683,8 +23683,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits",
-              "twin linked"
+              "LETHAL HITS",
+              "TWIN-LINKED"
             ],
             "name": "Twin Shuriken Cannon",
             "range": "24\""
@@ -23702,7 +23702,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Starcannon",
             "range": "36\""
@@ -23729,11 +23729,11 @@
     "faction": "aeldari",
     "id": "aeldari/webway-gate-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fortification",
-      "frame",
-      "webway gate"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FORTIFICATION",
+      "FRAME",
+      "WEBWAY GATE"
     ],
     "name": "Webway Gate [Legends]",
     "points": [
@@ -23779,12 +23779,12 @@
     "faction": "aeldari",
     "id": "aeldari/windriders",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "fly",
-      "mounted",
-      "windriders",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "FLY",
+      "MOUNTED",
+      "WINDRIDERS",
+      "YNNARI"
     ],
     "name": "Windriders",
     "points": [
@@ -23938,8 +23938,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "twin linked"
+              "ASSAULT",
+              "TWIN-LINKED"
             ],
             "name": "Twin shuriken catapult",
             "range": "18\""
@@ -23972,7 +23972,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter laser",
             "range": "36\""
@@ -23990,7 +23990,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken cannon",
             "range": "24\""
@@ -24013,12 +24013,12 @@
     "faction": "aeldari",
     "id": "aeldari/wraithblades",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "infantry",
-      "wraith construct",
-      "wraithblades",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "WRAITH CONSTRUCT",
+      "WRAITHBLADES",
+      "YNNARI"
     ],
     "name": "Wraithblades",
     "points": [
@@ -24148,12 +24148,12 @@
     "faction": "aeldari",
     "id": "aeldari/wraithguard",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "infantry",
-      "wraith construct",
-      "wraithguard",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "INFANTRY",
+      "WRAITH CONSTRUCT",
+      "WRAITHGUARD",
+      "YNNARI"
     ],
     "name": "Wraithguard",
     "points": [
@@ -24282,7 +24282,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "D-Scythe",
             "range": "12\""
@@ -24310,15 +24310,15 @@
     "faction": "aeldari",
     "id": "aeldari/wraithknight",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "monster",
-      "titanic",
-      "towering",
-      "walker",
-      "wraith construct",
-      "wraithknight",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "MONSTER",
+      "TITANIC",
+      "TOWERING",
+      "WALKER",
+      "WRAITH CONSTRUCT",
+      "WRAITHKNIGHT",
+      "YNNARI"
     ],
     "name": "Wraithknight",
     "points": [
@@ -24487,7 +24487,7 @@
             "D": "2D6",
             "S": "20",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy Wraithcannon",
             "range": "36\""
@@ -24505,7 +24505,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Suncannon",
             "range": "48\""
@@ -24523,7 +24523,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -24541,7 +24541,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -24581,15 +24581,15 @@
     "faction": "aeldari",
     "id": "aeldari/wraithknight-with-ghostglaive",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "monster",
-      "titanic",
-      "towering",
-      "walker",
-      "wraith construct",
-      "wraithknight with ghostglaive",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "MONSTER",
+      "TITANIC",
+      "TOWERING",
+      "WALKER",
+      "WRAITH CONSTRUCT",
+      "WRAITHKNIGHT WITH GHOSTGLAIVE",
+      "YNNARI"
     ],
     "name": "Wraithknight with Ghostglaive",
     "points": [
@@ -24737,7 +24737,7 @@
             "D": "2D6",
             "S": "20",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy Wraithcannon",
             "range": "36\""
@@ -24755,7 +24755,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -24773,7 +24773,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -24812,13 +24812,13 @@
     "faction": "aeldari",
     "id": "aeldari/wraithlord",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "monster",
-      "walker",
-      "wraith construct",
-      "wraithlord",
-      "ynnari"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "MONSTER",
+      "WALKER",
+      "WRAITH CONSTRUCT",
+      "WRAITHLORD",
+      "YNNARI"
     ],
     "name": "Wraithlord",
     "points": [
@@ -25022,7 +25022,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Shuriken Catapult",
             "range": "18\""
@@ -25040,9 +25040,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -25070,7 +25070,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari Missile Launcher - Sunburst",
             "range": "48\""
@@ -25104,7 +25104,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Scatter Laser",
             "range": "36\""
@@ -25122,7 +25122,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -25157,13 +25157,13 @@
     "faction": "aeldari",
     "id": "aeldari/wraithseer-legends",
     "keywords": [
-      "aeldari",
-      "faction: asuryani",
-      "monster",
-      "psyker",
-      "walker",
-      "wraith construct",
-      "wraithseer"
+      "AELDARI",
+      "FACTION: ASURYANI",
+      "MONSTER",
+      "PSYKER",
+      "WALKER",
+      "WRAITH CONSTRUCT",
+      "WRAITHSEER"
     ],
     "name": "Wraithseer [Legends]",
     "points": [
@@ -25312,8 +25312,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Destructor",
             "range": "12\""
@@ -25330,9 +25330,9 @@
             "S": "10",
             "WS": "4+",
             "keywords": [
-              "anti infantry 2+",
-              "precision",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Ghostspear - Strike"
           },
@@ -25343,8 +25343,8 @@
             "S": "7",
             "WS": "4+",
             "keywords": [
-              "anti infantry 2+",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "PSYCHIC"
             ],
             "name": "Ghostspear - Sweep"
           }
@@ -25372,7 +25372,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Aeldari Missile Launcher - Sunburst",
             "range": "48\""
@@ -25422,7 +25422,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Shuriken Cannon",
             "range": "24\""
@@ -25456,7 +25456,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Wraithseer D-Cannon",
             "range": "24\""
@@ -25483,11 +25483,11 @@
     "faction": "aeldari",
     "id": "aeldari/ynnari-archon",
     "keywords": [
-      "aeldari",
-      "archon",
-      "character",
-      "faction: ynnari",
-      "infantry"
+      "AELDARI",
+      "ARCHON",
+      "CHARACTER",
+      "FACTION: YNNARI",
+      "INFANTRY"
     ],
     "name": "Ynnari Archon",
     "points": [
@@ -25584,7 +25584,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Huskblade"
           }
@@ -25602,9 +25602,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -25622,7 +25622,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -25641,10 +25641,10 @@
     "faction": "aeldari",
     "id": "aeldari/ynnari-incubi",
     "keywords": [
-      "aeldari",
-      "faction: ynnari",
-      "incubi",
-      "infantry"
+      "AELDARI",
+      "FACTION: YNNARI",
+      "INCUBI",
+      "INFANTRY"
     ],
     "name": "Ynnari Incubi",
     "points": [
@@ -25785,7 +25785,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Demiklaives - Dual Blades"
           },
@@ -25813,11 +25813,11 @@
     "faction": "aeldari",
     "id": "aeldari/ynnari-kabalite-warriors",
     "keywords": [
-      "aeldari",
-      "battleline",
-      "faction: ynnari",
-      "infantry",
-      "kabalite warriors"
+      "AELDARI",
+      "BATTLELINE",
+      "FACTION: YNNARI",
+      "INFANTRY",
+      "KABALITE WARRIORS"
     ],
     "name": "Ynnari Kabalite Warriors",
     "points": [
@@ -26119,8 +26119,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Shredder",
             "range": "18\""
@@ -26153,8 +26153,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Splinter Rifle",
             "range": "24\""
@@ -26172,7 +26172,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -26190,9 +26190,9 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "heavy",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter Cannon",
             "range": "36\""
@@ -26210,7 +26210,7 @@
             "D": "D6+2",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Dark Lance",
             "range": "36\""
@@ -26228,7 +26228,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -26246,9 +26246,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -26265,7 +26265,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Sybarite Weapon"
           }
@@ -26288,14 +26288,14 @@
     "faction": "aeldari",
     "id": "aeldari/ynnari-raider",
     "keywords": [
-      "aeldari",
-      "dedicated transport",
-      "faction: ynnari",
-      "fly",
-      "frame",
-      "raider",
-      "transport",
-      "vehicle"
+      "AELDARI",
+      "DEDICATED TRANSPORT",
+      "FACTION: YNNARI",
+      "FLY",
+      "FRAME",
+      "RAIDER",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Ynnari Raider",
     "points": [
@@ -26441,11 +26441,11 @@
     "faction": "aeldari",
     "id": "aeldari/ynnari-reavers",
     "keywords": [
-      "aeldari",
-      "faction: ynnari",
-      "fly",
-      "mounted",
-      "reavers"
+      "AELDARI",
+      "FACTION: YNNARI",
+      "FLY",
+      "MOUNTED",
+      "REAVERS"
     ],
     "name": "Ynnari Reavers",
     "points": [
@@ -26783,8 +26783,8 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT"
             ],
             "name": "Splinter Rifle",
             "range": "24\""
@@ -26802,9 +26802,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -26837,7 +26837,7 @@
             "D": "D6+1",
             "S": "8",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Blaster",
             "range": "18\""
@@ -26855,8 +26855,8 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "assault",
-              "melta 3"
+              "ASSAULT",
+              "MELTA 3"
             ],
             "name": "Heat Lance",
             "range": "18\""
@@ -26873,7 +26873,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Agonizer"
           }
@@ -26900,12 +26900,12 @@
     "faction": "aeldari",
     "id": "aeldari/ynnari-succubus",
     "keywords": [
-      "aeldari",
-      "character",
-      "faction: ynnari",
-      "infantry",
-      "leader",
-      "succubus"
+      "AELDARI",
+      "CHARACTER",
+      "FACTION: YNNARI",
+      "INFANTRY",
+      "LEADER",
+      "SUCCUBUS"
     ],
     "name": "Ynnari Succubus",
     "points": [
@@ -27000,7 +27000,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+"
+              "ANTI-INFANTRY 3+"
             ],
             "name": "Succubus Weapons"
           }
@@ -27018,9 +27018,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -27038,7 +27038,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -27061,14 +27061,14 @@
     "faction": "aeldari",
     "id": "aeldari/ynnari-venom",
     "keywords": [
-      "aeldari",
-      "dedicated transport",
-      "faction: ynnari",
-      "fly",
-      "frame",
-      "transport",
-      "vehicle",
-      "venom"
+      "AELDARI",
+      "DEDICATED TRANSPORT",
+      "FACTION: YNNARI",
+      "FLY",
+      "FRAME",
+      "TRANSPORT",
+      "VEHICLE",
+      "VENOM"
     ],
     "name": "Ynnari Venom",
     "points": [
@@ -27192,8 +27192,8 @@
             "D": "2",
             "S": "3",
             "keywords": [
-              "anti infantry 3+",
-              "sustained hits 1"
+              "ANTI-INFANTRY 3+",
+              "SUSTAINED HITS 1"
             ],
             "name": "Splinter Cannon",
             "range": "36\""
@@ -27211,10 +27211,10 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "rapid fire 1",
-              "twin linked"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "RAPID FIRE 1",
+              "TWIN LINKED"
             ],
             "name": "Twin Splinter Rifle",
             "range": "24\""
@@ -27233,12 +27233,12 @@
     "faction": "aeldari",
     "id": "aeldari/ynnari-wyches",
     "keywords": [
-      "aeldari",
-      "battleline",
-      "faction: ynnari",
-      "grenades",
-      "infantry",
-      "wyches"
+      "AELDARI",
+      "BATTLELINE",
+      "FACTION: YNNARI",
+      "GRENADES",
+      "INFANTRY",
+      "WYCHES"
     ],
     "name": "Ynnari Wyches",
     "points": [
@@ -27382,9 +27382,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 3+",
-              "assault",
-              "pistol"
+              "ANTI-INFANTRY 3+",
+              "ASSAULT",
+              "PISTOL"
             ],
             "name": "Splinter Pistol",
             "range": "12\""
@@ -27417,7 +27417,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Blast Pistol",
             "range": "6\""
@@ -27448,14 +27448,14 @@
     "faction": "aeldari",
     "id": "aeldari/yvraine",
     "keywords": [
-      "aeldari",
-      "character",
-      "epic hero",
-      "faction: ynnari",
-      "infantry",
-      "leader",
-      "psyker",
-      "yvraine"
+      "AELDARI",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: YNNARI",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "YVRAINE"
     ],
     "name": "Yvraine",
     "points": [
@@ -27521,7 +27521,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Kha-vir"
           }
@@ -27539,9 +27539,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "anti infantry 2+",
-              "devastating wounds",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Storm of Whispers",
             "range": "12\""

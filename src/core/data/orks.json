@@ -13,11 +13,11 @@
     "faction": "orks",
     "id": "orks/bannernob",
     "keywords": [
-      "bannernob",
-      "character",
-      "faction: orks",
-      "infantry",
-      "support"
+      "BANNERNOB",
+      "CHARACTER",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "SUPPORT"
     ],
     "name": "Bannernob",
     "points": [
@@ -110,8 +110,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Shoota",
             "range": "18\""
@@ -134,12 +134,12 @@
     "faction": "orks",
     "id": "orks/battlewagon",
     "keywords": [
-      "battlewagon",
-      "faction: orks",
-      "frame",
-      "transport",
-      "vehicle",
-      "wagon"
+      "BATTLEWAGON",
+      "FACTION: ORKS",
+      "FRAME",
+      "TRANSPORT",
+      "VEHICLE",
+      "WAGON"
     ],
     "name": "Battlewagon",
     "points": [
@@ -234,7 +234,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "cleave 1"
+              "CLEAVE 1"
             ],
             "name": "Crushin' Bulk"
           }
@@ -251,7 +251,7 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Grabbin' Klaw"
           }
@@ -268,8 +268,8 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "cleave 2",
-              "extra attacks"
+              "CLEAVE 2",
+              "EXTRA ATTACKS"
             ],
             "name": "Wreckin' Ball"
           }
@@ -287,8 +287,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -307,12 +307,12 @@
     "faction": "orks",
     "id": "orks/beast-snagga-boyz",
     "keywords": [
-      "battleline",
-      "beast snagga",
-      "beast snagga boyz",
-      "faction: orks",
-      "infantry",
-      "mob"
+      "BATTLELINE",
+      "BEAST SNAGGA",
+      "BEAST SNAGGA BOYZ",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "MOB"
     ],
     "name": "Beast Snagga Boyz",
     "points": [
@@ -486,7 +486,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Thump Gun",
             "range": "18\""
@@ -528,8 +528,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -546,7 +546,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Power Snappa"
           }
@@ -573,13 +573,13 @@
     "faction": "orks",
     "id": "orks/beastboss",
     "keywords": [
-      "beast snagga",
-      "beastboss",
-      "character",
-      "faction: orks",
-      "infantry",
-      "leader",
-      "warboss"
+      "BEAST SNAGGA",
+      "BEASTBOSS",
+      "CHARACTER",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER",
+      "WARBOSS"
     ],
     "name": "Beastboss",
     "points": [
@@ -656,7 +656,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "sustained hits 2: monster/vehicle"
+              "SUSTAINED HITS 2: MONSTER/VEHICLE"
             ],
             "name": "Beast Snagga Klaw and Beastchoppa"
           }
@@ -674,8 +674,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Shoota",
             "range": "18\""
@@ -702,12 +702,12 @@
     "faction": "orks",
     "id": "orks/beastboss-on-squigosaur",
     "keywords": [
-      "beast snagga",
-      "beastboss on squigosaur",
-      "character",
-      "faction: orks",
-      "monster",
-      "warboss"
+      "BEAST SNAGGA",
+      "BEASTBOSS ON SQUIGOSAUR",
+      "CHARACTER",
+      "FACTION: ORKS",
+      "MONSTER",
+      "WARBOSS"
     ],
     "name": "Beastboss on Squigosaur",
     "points": [
@@ -802,8 +802,8 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 3+",
-              "extra attacks"
+              "ANTI-MONSTER/VEHICLE 3+",
+              "EXTRA ATTACKS"
             ],
             "name": "Squigosaur’s jaws"
           }
@@ -829,7 +829,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "cleave 1"
+              "CLEAVE 1"
             ],
             "name": "Beastchoppa - Standard"
           }
@@ -847,8 +847,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -866,7 +866,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Thump Gun",
             "range": "18\""
@@ -897,12 +897,12 @@
     "faction": "orks",
     "id": "orks/big-ed-bossbunka",
     "keywords": [
-      "big'ed bossbunka",
-      "faction: orks",
-      "fortification",
-      "frame",
-      "transport",
-      "vehicle"
+      "BIG'ED BOSSBUNKA",
+      "FACTION: ORKS",
+      "FORTIFICATION",
+      "FRAME",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Big'ed Bossbunka",
     "points": [
@@ -969,7 +969,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1"
+              "BLAST 1"
             ],
             "name": "Gaze of Gork - Glare",
             "range": "24\""
@@ -997,8 +997,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -1025,12 +1025,12 @@
     "faction": "orks",
     "id": "orks/big-mek",
     "keywords": [
-      "big mek",
-      "character",
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "leader"
+      "BIG MEK",
+      "CHARACTER",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Big Mek",
     "points": [
@@ -1176,7 +1176,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom mega-blasta",
             "range": "24\""
@@ -1194,7 +1194,7 @@
             "D": "D3+3",
             "S": "6",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Traktor Blasta",
             "range": "24\""
@@ -1217,12 +1217,12 @@
     "faction": "orks",
     "id": "orks/big-mek-dakkarig",
     "keywords": [
-      "big mek",
-      "big mek dakkarig",
-      "character",
-      "faction: orks",
-      "vehicle",
-      "walker"
+      "BIG MEK",
+      "BIG MEK DAKKARIG",
+      "CHARACTER",
+      "FACTION: ORKS",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Big Mek Dakkarig",
     "points": [
@@ -1326,8 +1326,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "ignores cover",
-              "lethal hits: non monster/vehicle"
+              "IGNORES COVER",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Blitzkannon",
             "range": "24\""
@@ -1345,8 +1345,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "ignores cover",
-              "lethal hits"
+              "IGNORES COVER",
+              "LETHAL HITS"
             ],
             "name": "Multi-busta Launcha",
             "range": "24\""
@@ -1373,14 +1373,14 @@
     "faction": "orks",
     "id": "orks/big-mek-in-mega-armour",
     "keywords": [
-      "big mek",
-      "big mek in mega armour",
-      "character",
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "leader",
-      "mega armour"
+      "BIG MEK",
+      "BIG MEK IN MEGA ARMOUR",
+      "CHARACTER",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER",
+      "MEGA ARMOUR"
     ],
     "name": "Big Mek in Mega Armour",
     "points": [
@@ -1497,8 +1497,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota - Aimed",
             "range": "18\""
@@ -1510,8 +1510,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "torrent"
+              "CLOSE-QUARTERS",
+              "TORRENT"
             ],
             "name": "Kustom Shoota - Point Blank",
             "range": "6\""
@@ -1529,7 +1529,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom Mega-blasta",
             "range": "24\""
@@ -1547,8 +1547,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Kombi-weapon - Point Blank",
             "range": "12\""
@@ -1570,8 +1570,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-weapon - Shoota",
             "range": "18\""
@@ -1628,13 +1628,13 @@
     "faction": "orks",
     "id": "orks/big-mek-with-shokk-attack-gun",
     "keywords": [
-      "big mek",
-      "big mek with shokk attack gun",
-      "character",
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "leader"
+      "BIG MEK",
+      "BIG MEK WITH SHOKK ATTACK GUN",
+      "CHARACTER",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Big Mek with Shokk Attack Gun",
     "points": [
@@ -1712,8 +1712,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "blast 1",
-              "heavy"
+              "BLAST 1",
+              "HEAVY"
             ],
             "name": "Shokk Attack Gun",
             "range": "60\""
@@ -1751,11 +1751,11 @@
     "faction": "orks",
     "id": "orks/big-trakk-legends",
     "keywords": [
-      "big trakk",
-      "faction: orks",
-      "frame",
-      "transport",
-      "vehicle"
+      "BIG TRAKK",
+      "FACTION: ORKS",
+      "FRAME",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Big Trakk [Legends]",
     "points": [
@@ -1870,7 +1870,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Supa-kannon - Frag",
             "range": "36\""
@@ -1898,7 +1898,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1"
+              "BLAST 1"
             ],
             "name": "Kannon - Frag",
             "range": "36\""
@@ -1917,8 +1917,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "qty": 2,
@@ -1957,11 +1957,11 @@
     "faction": "orks",
     "id": "orks/bigboss",
     "keywords": [
-      "bigboss",
-      "character",
-      "faction: orks",
-      "infantry",
-      "support"
+      "BIGBOSS",
+      "CHARACTER",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "SUPPORT"
     ],
     "name": "Bigboss",
     "points": [
@@ -2038,7 +2038,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Big Choppa"
           }
@@ -2056,8 +2056,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -2076,12 +2076,12 @@
     "faction": "orks",
     "id": "orks/blitza-bommer",
     "keywords": [
-      "aircraft",
-      "blitza-bommer",
-      "faction: orks",
-      "fly",
-      "speed freeks",
-      "vehicle"
+      "AIRCRAFT",
+      "BLITZA-BOMMER",
+      "FACTION: ORKS",
+      "FLY",
+      "SPEED FREEKS",
+      "VEHICLE"
     ],
     "name": "Blitza-bommer",
     "points": [
@@ -2185,8 +2185,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -2204,8 +2204,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4"
             ],
             "name": "Dual Supa-shoota",
             "range": "36\""
@@ -2232,14 +2232,14 @@
     "faction": "orks",
     "id": "orks/boss-snikrot",
     "keywords": [
-      "boss snikrot",
-      "character",
-      "epic hero",
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "leader",
-      "smoke"
+      "BOSS SNIKROT",
+      "CHARACTER",
+      "EPIC HERO",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER",
+      "SMOKE"
     ],
     "name": "Boss Snikrot",
     "points": [
@@ -2305,8 +2305,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti infantry 2+",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PRECISION"
             ],
             "name": "Mork’s Teef"
           }
@@ -2324,9 +2324,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle",
-              "precision"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "PRECISION"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -2353,14 +2353,14 @@
     "faction": "orks",
     "id": "orks/boss-zagstruk-legends",
     "keywords": [
-      "boss zagstruk",
-      "character",
-      "epic hero",
-      "faction: orks",
-      "fly",
-      "infantry",
-      "jump pack",
-      "leader"
+      "BOSS ZAGSTRUK",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "FLY",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER"
     ],
     "name": "Boss Zagstruk [Legends]",
     "points": [
@@ -2442,8 +2442,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -2470,12 +2470,12 @@
     "faction": "orks",
     "id": "orks/boyz",
     "keywords": [
-      "battleline",
-      "boyz",
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "mob"
+      "BATTLELINE",
+      "BOYZ",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "MOB"
     ],
     "name": "Boyz",
     "points": [
@@ -2907,8 +2907,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -2926,8 +2926,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Shoota",
             "range": "18\""
@@ -2945,8 +2945,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -2974,7 +2974,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -2992,8 +2992,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Burna",
             "range": "12\""
@@ -3041,8 +3041,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota",
             "range": "18\""
@@ -3060,8 +3060,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Kombi-skorcha - Skorcha",
             "range": "12\""
@@ -3073,8 +3073,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-skorcha - Shoota",
             "range": "18\""
@@ -3102,8 +3102,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-rokkit - Shoota",
             "range": "18\""
@@ -3120,7 +3120,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Big Choppa"
           }
@@ -3143,10 +3143,10 @@
     "faction": "orks",
     "id": "orks/breaka-boyz",
     "keywords": [
-      "breaka boyz",
-      "explosives",
-      "faction: orks",
-      "infantry"
+      "BREAKA BOYZ",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY"
     ],
     "name": "Breaka Boyz",
     "points": [
@@ -3343,8 +3343,8 @@
             "S": "12",
             "WS": "4+",
             "keywords": [
-              "devastating wounds",
-              "hazardous"
+              "DEVASTATING WOUNDS",
+              "HAZARDOUS"
             ],
             "name": "Tankhammer"
           }
@@ -3361,7 +3361,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Knucklebustas"
           }
@@ -3379,7 +3379,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Rokkit pistol",
             "range": "12\""
@@ -3413,12 +3413,12 @@
     "faction": "orks",
     "id": "orks/burna-bommer",
     "keywords": [
-      "aircraft",
-      "burna-bommer",
-      "faction: orks",
-      "fly",
-      "speed freeks",
-      "vehicle"
+      "AIRCRAFT",
+      "BURNA-BOMMER",
+      "FACTION: ORKS",
+      "FLY",
+      "SPEED FREEKS",
+      "VEHICLE"
     ],
     "name": "Burna-bommer",
     "points": [
@@ -3514,9 +3514,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4",
-              "sustained hits 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4",
+              "SUSTAINED HITS 1"
             ],
             "name": "Dual Supa-shoota",
             "range": "36\""
@@ -3534,8 +3534,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 2",
-              "ignores cover"
+              "BLAST 2",
+              "IGNORES COVER"
             ],
             "name": "Skorcha Missile Rack",
             "range": "36\""
@@ -3553,8 +3553,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4"
             ],
             "name": "Dual Big Shoota",
             "range": "36\""
@@ -3588,9 +3588,9 @@
     "faction": "orks",
     "id": "orks/burna-boyz-legends",
     "keywords": [
-      "burna boyz",
-      "faction: orks",
-      "infantry"
+      "BURNA BOYZ",
+      "FACTION: ORKS",
+      "INFANTRY"
     ],
     "name": "Burna Boyz [Legends]",
     "points": [
@@ -3866,8 +3866,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Burna",
             "range": "12\""
@@ -3885,8 +3885,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -3904,7 +3904,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom mega-blasta",
             "range": "24\""
@@ -3932,7 +3932,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -3970,11 +3970,11 @@
     "faction": "orks",
     "id": "orks/da-red-gobbo-s-a-bomb-inable-snowman-legends",
     "keywords": [
-      "character",
-      "da red gobbo a-bomb-inable snowman",
-      "epic hero",
-      "faction: orks",
-      "infantry"
+      "CHARACTER",
+      "DA RED GOBBO A-BOMB-INABLE SNOWMAN",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "INFANTRY"
     ],
     "name": "Da Red Gobbo's A-bomb-inable Snowman [Legends]",
     "points": [
@@ -4041,7 +4041,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Kustom grot blasta",
             "range": "12\""
@@ -4075,13 +4075,13 @@
     "faction": "orks",
     "id": "orks/da-red-gobbo-s-tinboy-legends",
     "keywords": [
-      "character",
-      "da red gobbo",
-      "epic hero",
-      "faction: orks",
-      "grots",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "DA RED GOBBO",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "GROTS",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Da Red Gobbo's Tinboy [Legends]",
     "points": [
@@ -4180,12 +4180,12 @@
     "faction": "orks",
     "id": "orks/dakkajet",
     "keywords": [
-      "aircraft",
-      "dakkajet",
-      "faction: orks",
-      "fly",
-      "speed freeks",
-      "vehicle"
+      "AIRCRAFT",
+      "DAKKAJET",
+      "FACTION: ORKS",
+      "FLY",
+      "SPEED FREEKS",
+      "VEHICLE"
     ],
     "name": "Dakkajet",
     "points": [
@@ -4278,8 +4278,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4"
             ],
             "name": "Dual Supa-shoota",
             "range": "36\""
@@ -4298,10 +4298,10 @@
     "faction": "orks",
     "id": "orks/deff-dread",
     "keywords": [
-      "deff dread",
-      "faction: orks",
-      "vehicle",
-      "walker"
+      "DEFF DREAD",
+      "FACTION: ORKS",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Deff Dread",
     "points": [
@@ -4479,7 +4479,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "cleave 1"
+              "CLEAVE 1"
             ],
             "name": "Dread Klaws"
           }
@@ -4496,7 +4496,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Extra Klaw"
           }
@@ -4514,8 +4514,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -4533,7 +4533,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom Mega-blasta",
             "range": "24\""
@@ -4561,7 +4561,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -4579,8 +4579,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Skorcha",
             "range": "12\""
@@ -4607,13 +4607,13 @@
     "faction": "orks",
     "id": "orks/deffkilla-wartrike",
     "keywords": [
-      "character",
-      "deffkilla wartrike",
-      "faction: orks",
-      "leader",
-      "mounted",
-      "speed freeks",
-      "warboss"
+      "CHARACTER",
+      "DEFFKILLA WARTRIKE",
+      "FACTION: ORKS",
+      "LEADER",
+      "MOUNTED",
+      "SPEED FREEKS",
+      "WARBOSS"
     ],
     "name": "Deffkilla Wartrike",
     "points": [
@@ -4702,8 +4702,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "lethal hits: non monster/vehicle"
+              "ASSAULT",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Boomstikks",
             "range": "12\""
@@ -4720,8 +4720,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "cleave 1",
-              "extra attacks"
+              "CLEAVE 1",
+              "EXTRA ATTACKS"
             ],
             "name": "Killa Jet - Burna"
           },
@@ -4732,7 +4732,7 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Killa Jet - Cutta"
           }
@@ -4749,7 +4749,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Snagga Klaw"
           }
@@ -4763,8 +4763,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "assault",
-              "precision"
+              "ASSAULT",
+              "PRECISION"
             ],
             "name": "Snagga Klaw",
             "range": "12\""
@@ -4787,12 +4787,12 @@
     "faction": "orks",
     "id": "orks/deffkoptas",
     "keywords": [
-      "deffkoptas",
-      "explosives",
-      "faction: orks",
-      "fly",
-      "mounted",
-      "speed freeks"
+      "DEFFKOPTAS",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "FLY",
+      "MOUNTED",
+      "SPEED FREEKS"
     ],
     "name": "Deffkoptas",
     "points": [
@@ -4993,7 +4993,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Rokkit Launcha- Busta",
             "range": "24\""
@@ -5011,7 +5011,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -5029,8 +5029,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -5047,8 +5047,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "cleave 1",
-              "hazardous"
+              "CLEAVE 1",
+              "HAZARDOUS"
             ],
             "name": "Spinnin’ Blades"
           }
@@ -5081,8 +5081,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous",
-              "lethal hits"
+              "HAZARDOUS",
+              "LETHAL HITS"
             ],
             "name": "Kustom Mega-blasta",
             "range": "24\""
@@ -5101,10 +5101,10 @@
     "faction": "orks",
     "id": "orks/flash-gitz",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "flash gitz",
-      "infantry"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "FLASH GITZ",
+      "INFANTRY"
     ],
     "name": "Flash Gitz",
     "points": [
@@ -5250,8 +5250,8 @@
             "D": "D3+2",
             "S": "9",
             "keywords": [
-              "hazardous",
-              "melta 2"
+              "HAZARDOUS",
+              "MELTA 2"
             ],
             "name": "Snazzgun - Cutta",
             "range": "12\""
@@ -5263,8 +5263,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "sustained hits 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Snazzgun - Dakka",
             "range": "24\""
@@ -5276,7 +5276,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Snazzgun - Kill Shot",
             "range": "36\""
@@ -5308,13 +5308,13 @@
     "faction": "orks",
     "id": "orks/gargantuan-squiggoth",
     "keywords": [
-      "faction: orks",
-      "frame",
-      "gargantuan squiggoth",
-      "monster",
-      "titanic",
-      "towering",
-      "transport"
+      "FACTION: ORKS",
+      "FRAME",
+      "GARGANTUAN SQUIGGOTH",
+      "MONSTER",
+      "TITANIC",
+      "TOWERING",
+      "TRANSPORT"
     ],
     "name": "Gargantuan Squiggoth",
     "points": [
@@ -5408,7 +5408,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Huge tusks - strike"
           },
@@ -5435,7 +5435,7 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Supa-kannon",
             "range": "60\""
@@ -5463,7 +5463,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Kannon - frag",
             "range": "36\""
@@ -5494,13 +5494,13 @@
     "faction": "orks",
     "id": "orks/ghazghkull-thraka",
     "keywords": [
-      "character",
-      "epic hero",
-      "explosives",
-      "faction: orks",
-      "ghazghkull thraka",
-      "infantry",
-      "warboss"
+      "CHARACTER",
+      "EPIC HERO",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "GHAZGHKULL THRAKA",
+      "INFANTRY",
+      "WARBOSS"
     ],
     "name": "Ghazghkull Thraka",
     "points": [
@@ -5576,9 +5576,9 @@
             "S": "14",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "extra attacks",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "EXTRA ATTACKS",
+              "PRECISION"
             ],
             "name": "Adamantine 'Eadbutt"
           }
@@ -5596,8 +5596,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "close quarters",
-              "torrent"
+              "CLOSE-QUARTERS",
+              "TORRENT"
             ],
             "name": "Mork’s Roar - Point Blank",
             "range": "9\""
@@ -5609,8 +5609,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4"
             ],
             "name": "Mork’s Roar - Aimed",
             "range": "36\""
@@ -5627,8 +5627,8 @@
             "S": "14",
             "WS": "2+",
             "keywords": [
-              "cleave 2",
-              "devastating wounds"
+              "CLEAVE 2",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Gork’s Klaw"
           }
@@ -5655,13 +5655,13 @@
     "faction": "orks",
     "id": "orks/gorkanaut",
     "keywords": [
-      "faction: orks",
-      "gorkanaut",
-      "titanic",
-      "towering",
-      "transport",
-      "vehicle",
-      "walker"
+      "FACTION: ORKS",
+      "GORKANAUT",
+      "TITANIC",
+      "TOWERING",
+      "TRANSPORT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Gorkanaut",
     "points": [
@@ -5772,7 +5772,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Deffstorm Mega-shoota - Point Blank",
             "range": "12\""
@@ -5784,7 +5784,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "lethal hits: non monster/vehicle"
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Deffstorm Mega-shoota - Aimed",
             "range": "36\""
@@ -5801,7 +5801,7 @@
             "S": "18",
             "WS": "3+",
             "keywords": [
-              "cleave 3"
+              "CLEAVE 3"
             ],
             "name": "Klaw of Gork"
           }
@@ -5831,7 +5831,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "qty": 2,
@@ -5850,8 +5850,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Skorcha",
             "range": "12\""
@@ -5870,8 +5870,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4"
             ],
             "name": "Dual Big Shoota",
             "qty": 2,
@@ -5895,10 +5895,10 @@
     "faction": "orks",
     "id": "orks/gretchin",
     "keywords": [
-      "faction: orks",
-      "gretchin",
-      "grots",
-      "infantry"
+      "FACTION: ORKS",
+      "GRETCHIN",
+      "GROTS",
+      "INFANTRY"
     ],
     "name": "Gretchin",
     "points": [
@@ -6004,7 +6004,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Grot Blasta",
             "range": "12\""
@@ -6023,11 +6023,11 @@
     "faction": "orks",
     "id": "orks/grot-mega-tank-legends",
     "keywords": [
-      "faction: orks",
-      "frame",
-      "grot mega-tank",
-      "grots",
-      "vehicle"
+      "FACTION: ORKS",
+      "FRAME",
+      "GROT MEGA-TANK",
+      "GROTS",
+      "VEHICLE"
     ],
     "name": "Grot Mega-Tank [Legends]",
     "points": [
@@ -6181,7 +6181,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 10"
+              "RAPID FIRE 10"
             ],
             "name": "Mega-tank Weapons",
             "range": "18\""
@@ -6199,7 +6199,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non"
+              "LETHAL HITS: NON-"
             ],
             "name": "Dual Big Shoota",
             "range": "36\""
@@ -6217,9 +6217,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast 1",
-              "ignores cover",
-              "twin linked"
+              "BLAST 1",
+              "IGNORES COVER",
+              "TWIN-LINKED"
             ],
             "name": "Dual Grotzooka",
             "range": "18\""
@@ -6237,8 +6237,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous",
-              "twin linked"
+              "HAZARDOUS",
+              "TWIN-LINKED"
             ],
             "name": "Dual Kustom Mega-blasta",
             "range": "24\""
@@ -6256,7 +6256,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Dual Rokkit Launcha - Busta",
             "range": "24\""
@@ -6268,8 +6268,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2",
-              "twin linked"
+              "BLAST 2",
+              "TWIN-LINKED"
             ],
             "name": "Dual Rokkit Launcha - Blasta",
             "range": "24\""
@@ -6287,9 +6287,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent",
-              "twin linked"
+              "BLAST 1",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Dual Skorcha",
             "range": "12\""
@@ -6308,11 +6308,11 @@
     "faction": "orks",
     "id": "orks/grot-tanks-legends",
     "keywords": [
-      "faction: orks",
-      "frame",
-      "grot tanks",
-      "grots",
-      "vehicle"
+      "FACTION: ORKS",
+      "FRAME",
+      "GROT TANKS",
+      "GROTS",
+      "VEHICLE"
     ],
     "name": "Grot Tanks [Legends]",
     "points": [
@@ -6728,8 +6728,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds",
-              "rapid fire 2"
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 2"
             ],
             "name": "Grot Tank Shoota",
             "range": "36\""
@@ -6762,8 +6762,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast 1",
-              "ignores cover"
+              "BLAST 1",
+              "IGNORES COVER"
             ],
             "name": "Grotzooka",
             "range": "18\""
@@ -6781,7 +6781,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom Mega-blasta",
             "range": "24\""
@@ -6799,7 +6799,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -6827,8 +6827,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Skorcha",
             "range": "12\""
@@ -6851,13 +6851,13 @@
     "faction": "orks",
     "id": "orks/grotmas-gitz-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: orks",
-      "fly",
-      "gretchin",
-      "grotmas gitz",
-      "mounted"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "FLY",
+      "GRETCHIN",
+      "GROTMAS GITZ",
+      "MOUNTED"
     ],
     "name": "Grotmas Gitz [Legends]",
     "points": [
@@ -6938,7 +6938,7 @@
             "S": "4",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Massive gift-filled gob"
           }
@@ -6961,12 +6961,12 @@
     "faction": "orks",
     "id": "orks/gunwagon",
     "keywords": [
-      "faction: orks",
-      "frame",
-      "gunwagon",
-      "transport",
-      "vehicle",
-      "wagon"
+      "FACTION: ORKS",
+      "FRAME",
+      "GUNWAGON",
+      "TRANSPORT",
+      "VEHICLE",
+      "WAGON"
     ],
     "name": "Gunwagon",
     "points": [
@@ -7112,8 +7112,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 3",
-              "indirect fire"
+              "BLAST 3",
+              "INDIRECT FIRE"
             ],
             "name": "Lobba",
             "range": "48\""
@@ -7131,7 +7131,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Kannon - Shell",
             "range": "36\""
@@ -7143,8 +7143,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 3",
-              "rapid fire 4"
+              "BLAST 3",
+              "RAPID FIRE 4"
             ],
             "name": "Kannon - Frag",
             "range": "36\""
@@ -7162,9 +7162,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti infantry 3+",
-              "blast 1",
-              "rapid fire 4"
+              "ANTI-INFANTRY 3+",
+              "BLAST 1",
+              "RAPID FIRE 4"
             ],
             "name": "Killkannon",
             "range": "24\""
@@ -7182,10 +7182,10 @@
             "D": "4",
             "S": "8",
             "keywords": [
-              "anti monster/vehicle 4+",
-              "devastating wounds: monster/vehicle",
-              "rapid fire 2",
-              "sustained hits 2"
+              "ANTI-MONSTER/VEHICLE 4+",
+              "DEVASTATING WOUNDS: MONSTER/VEHICLE",
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 2"
             ],
             "name": "Zzap Gun",
             "range": "36\""
@@ -7202,7 +7202,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Crushin' Bulk"
           }
@@ -7220,8 +7220,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -7238,7 +7238,7 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Grabbin' Klaw"
           }
@@ -7255,8 +7255,8 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "cleave 2",
-              "extra attacks"
+              "CLEAVE 2",
+              "EXTRA ATTACKS"
             ],
             "name": "Wreckin' Ball"
           }
@@ -7279,12 +7279,12 @@
     "faction": "orks",
     "id": "orks/hordeboss-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: orks",
-      "grenades",
-      "hordeboss",
-      "infantry"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ORKS",
+      "GRENADES",
+      "HORDEBOSS",
+      "INFANTRY"
     ],
     "name": "Hordeboss [Crucible]",
     "points": [
@@ -8117,9 +8117,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "rapid fire 2",
-              "twin linked"
+              "ASSAULT",
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin dakkagun",
             "range": "18\""
@@ -8136,7 +8136,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Squig jaws"
           }
@@ -8154,8 +8154,8 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "anti fly 3+",
-              "devastating wounds"
+              "ANTI-FLY 3+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Traktor blasta",
             "range": "36\""
@@ -8173,8 +8173,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "precision",
-              "psychic"
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "’Eadbanger",
             "range": "24\""
@@ -8192,7 +8192,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Shoota",
             "range": "18\""
@@ -8210,8 +8210,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Snazzgun",
             "range": "24\""
@@ -8229,7 +8229,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Saddlegit weapons",
             "range": "9\""
@@ -8247,8 +8247,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Burna",
             "range": "12\""
@@ -8266,7 +8266,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Big shoota",
             "range": "36\""
@@ -8284,7 +8284,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Rokkit launcha",
             "range": "24\""
@@ -8302,7 +8302,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Eyez of Mork",
             "range": "18\""
@@ -8320,9 +8320,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-weapon",
             "range": "24\""
@@ -8340,7 +8340,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom mega-blasta",
             "range": "24\""
@@ -8358,8 +8358,8 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Kustom mega-slugga",
             "range": "12\""
@@ -8377,8 +8377,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota",
             "range": "18\""
@@ -8396,8 +8396,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Shokk attack gun",
             "range": "60\""
@@ -8415,7 +8415,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Rokkit pistol",
             "range": "12\""
@@ -8433,7 +8433,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -8451,7 +8451,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Grot Blasta",
             "range": "12\""
@@ -8468,8 +8468,8 @@
             "S": "9",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Beast Snagga klaw"
           }
@@ -8561,9 +8561,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "twin linked"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "TWIN-LINKED"
             ],
             "name": "Knucklebustas"
           }
@@ -8595,8 +8595,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Smash hammer"
           }
@@ -8613,10 +8613,10 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "devastating wounds",
-              "hazardous"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "HAZARDOUS"
             ],
             "name": "Tankhammer"
           }
@@ -8663,8 +8663,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Beastchoppa"
           }
@@ -8681,7 +8681,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Weirdboy staff"
           }
@@ -8713,7 +8713,7 @@
             "S": "4",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Attack Squig"
           }
@@ -8730,10 +8730,10 @@
             "S": "2",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds: infantry",
-              "extra attacks",
-              "precision"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS: INFANTRY",
+              "EXTRA ATTACKS",
+              "PRECISION"
             ],
             "name": "’Urty syringe"
           }
@@ -8760,12 +8760,12 @@
     "faction": "orks",
     "id": "orks/hunta-rig",
     "keywords": [
-      "beast snagga",
-      "faction: orks",
-      "hunta rig",
-      "monster",
-      "transport",
-      "wagon"
+      "BEAST SNAGGA",
+      "FACTION: ORKS",
+      "HUNTA RIG",
+      "MONSTER",
+      "TRANSPORT",
+      "WAGON"
     ],
     "name": "Hunta Rig",
     "points": [
@@ -8876,8 +8876,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast 2",
-              "indirect fire"
+              "BLAST 2",
+              "INDIRECT FIRE"
             ],
             "name": "’Eavy Lobba",
             "range": "48\""
@@ -8894,7 +8894,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Butcha Boyz"
           }
@@ -8911,8 +8911,8 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "extra attacks",
-              "lance"
+              "EXTRA ATTACKS",
+              "LANCE"
             ],
             "name": "Savage Horns and Hooves"
           }
@@ -8929,8 +8929,8 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "cleave 1",
-              "extra attacks"
+              "CLEAVE 1",
+              "EXTRA ATTACKS"
             ],
             "name": "Saw Blades"
           }
@@ -8948,7 +8948,7 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "anti monster/vehicle 2+"
+              "ANTI-MONSTER/VEHICLE 2+"
             ],
             "name": "Stikka Kannon",
             "range": "12\""
@@ -8975,12 +8975,12 @@
     "faction": "orks",
     "id": "orks/kaptin-badrukk-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: orks",
-      "infantry",
-      "kaptin badrukk",
-      "leader"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "KAPTIN BADRUKK",
+      "LEADER"
     ],
     "name": "Kaptin Badrukk [Legends]",
     "points": [
@@ -9057,8 +9057,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Da Rippa - Standard",
             "range": "24\""
@@ -9070,9 +9070,9 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "heavy",
-              "sustained hits 1"
+              "HAZARDOUS",
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Da Rippa - Supercharge",
             "range": "24\""
@@ -9090,8 +9090,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -9137,13 +9137,13 @@
     "faction": "orks",
     "id": "orks/kill-rig",
     "keywords": [
-      "beast snagga",
-      "faction: orks",
-      "kill rig",
-      "monster",
-      "psyker",
-      "transport",
-      "wagon"
+      "BEAST SNAGGA",
+      "FACTION: ORKS",
+      "KILL RIG",
+      "MONSTER",
+      "PSYKER",
+      "TRANSPORT",
+      "WAGON"
     ],
     "name": "Kill Rig",
     "points": [
@@ -9265,9 +9265,9 @@
             "D": "6",
             "S": "12",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Wurrtower",
             "range": "24\""
@@ -9285,8 +9285,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast 2",
-              "indirect fire"
+              "BLAST 2",
+              "INDIRECT FIRE"
             ],
             "name": "’Eavy Lobba",
             "range": "48\""
@@ -9303,7 +9303,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Butcha Boyz"
           }
@@ -9320,8 +9320,8 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "extra attacks",
-              "lance"
+              "EXTRA ATTACKS",
+              "LANCE"
             ],
             "name": "Savage Horns and Hooves"
           }
@@ -9338,8 +9338,8 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "cleave 1",
-              "extra attacks"
+              "CLEAVE 1",
+              "EXTRA ATTACKS"
             ],
             "name": "Saw Blades"
           }
@@ -9357,7 +9357,7 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "anti monster/vehicle 2+"
+              "ANTI-MONSTER/VEHICLE 2+"
             ],
             "name": "Stikka Kannon",
             "range": "12\""
@@ -9384,12 +9384,12 @@
     "faction": "orks",
     "id": "orks/kill-tank-legends",
     "keywords": [
-      "faction: orks",
-      "frame",
-      "kill tank",
-      "transport",
-      "vehicle",
-      "wagon"
+      "FACTION: ORKS",
+      "FRAME",
+      "KILL TANK",
+      "TRANSPORT",
+      "VEHICLE",
+      "WAGON"
     ],
     "name": "Kill Tank [Legends]",
     "points": [
@@ -9634,8 +9634,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "qty": 2,
@@ -9666,7 +9666,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "qty": 2,
@@ -9686,8 +9686,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Skorcha",
             "qty": 2,
@@ -9706,8 +9706,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -9725,7 +9725,7 @@
             "D": "D6+6",
             "S": "16",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Tank Kannon - Tankhamma",
             "range": "48\""
@@ -9737,7 +9737,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Tank Kannon - Blasta",
             "range": "48\""
@@ -9754,7 +9754,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Crushin' Bulk"
           }
@@ -9787,8 +9787,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 3",
-              "indirect fire"
+              "BLAST 3",
+              "INDIRECT FIRE"
             ],
             "name": "Lobba",
             "range": "48\""
@@ -9806,7 +9806,7 @@
             "D": "D3+3",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Kannon - Shell",
             "range": "48\""
@@ -9818,7 +9818,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Kannon - Frag",
             "range": "48\""
@@ -9836,10 +9836,10 @@
             "D": "4",
             "S": "8",
             "keywords": [
-              "anti monster/vehicle 4+",
-              "devastating wounds: monster/vehicle",
-              "rapid fire 2",
-              "sustained hits 2"
+              "ANTI-MONSTER/VEHICLE 4+",
+              "DEVASTATING WOUNDS: MONSTER/VEHICLE",
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 2"
             ],
             "name": "Zzap Gun",
             "range": "36\""
@@ -9858,11 +9858,11 @@
     "faction": "orks",
     "id": "orks/killa-kans",
     "keywords": [
-      "faction: orks",
-      "grots",
-      "killa kans",
-      "vehicle",
-      "walker"
+      "FACTION: ORKS",
+      "GROTS",
+      "KILLA KANS",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Killa Kans",
     "points": [
@@ -9987,8 +9987,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 2",
-              "torrent"
+              "BLAST 2",
+              "TORRENT"
             ],
             "name": "Kan Blasta - Point Blank",
             "range": "12\""
@@ -10000,9 +10000,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast 1",
-              "ignores cover",
-              "sustained hits 1"
+              "BLAST 1",
+              "IGNORES COVER",
+              "SUSTAINED HITS 1"
             ],
             "name": "Kan Blasta - Dakka",
             "range": "24\""
@@ -10033,11 +10033,11 @@
     "faction": "orks",
     "id": "orks/kommandos",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "kommandos",
-      "smoke"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "KOMMANDOS",
+      "SMOKE"
     ],
     "name": "Kommandos",
     "points": [
@@ -10352,8 +10352,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -10386,8 +10386,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota",
             "range": "18\""
@@ -10420,8 +10420,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Burna",
             "range": "12\""
@@ -10449,7 +10449,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -10481,7 +10481,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Big Choppa"
           }
@@ -10500,11 +10500,11 @@
     "faction": "orks",
     "id": "orks/lifta-wagon-legends",
     "keywords": [
-      "faction: orks",
-      "frame",
-      "lifta wagon",
-      "vehicle",
-      "wagon"
+      "FACTION: ORKS",
+      "FRAME",
+      "LIFTA WAGON",
+      "VEHICLE",
+      "WAGON"
     ],
     "name": "Lifta Wagon [Legends]",
     "points": [
@@ -10677,7 +10677,7 @@
             "D": "D6+1",
             "S": "6",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Lifta-droppa",
             "range": "36\""
@@ -10694,7 +10694,7 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Grabbin' Klaw"
           }
@@ -10711,8 +10711,8 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "cleave 2",
-              "extra attacks"
+              "CLEAVE 2",
+              "EXTRA ATTACKS"
             ],
             "name": "Wreckin' ball"
           }
@@ -10731,8 +10731,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "qty": 2,
@@ -10763,7 +10763,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "qty": 2,
@@ -10782,8 +10782,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -10811,7 +10811,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -10830,9 +10830,9 @@
     "faction": "orks",
     "id": "orks/lootas-legends",
     "keywords": [
-      "faction: orks",
-      "infantry",
-      "lootas"
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LOOTAS"
     ],
     "name": "Lootas [Legends]",
     "points": [
@@ -11095,8 +11095,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -11114,7 +11114,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom Mega-blasta",
             "range": "24\""
@@ -11142,7 +11142,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -11175,8 +11175,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "heavy",
-              "rapid fire 1"
+              "HEAVY",
+              "RAPID FIRE 1"
             ],
             "name": "Deffgun",
             "range": "48\""
@@ -11203,13 +11203,13 @@
     "faction": "orks",
     "id": "orks/mad-dok-grotsnik-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: orks",
-      "infantry",
-      "leader",
-      "mad dok grotsnik",
-      "painboy"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER",
+      "MAD DOK GROTSNIK",
+      "PAINBOY"
     ],
     "name": "Mad Dok Grotsnik [Legends]",
     "points": [
@@ -11286,8 +11286,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -11304,10 +11304,10 @@
             "S": "2",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds: infantry",
-              "extra attacks",
-              "precision"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS: INFANTRY",
+              "EXTRA ATTACKS",
+              "PRECISION"
             ],
             "name": "’Urty syringe"
           }
@@ -11345,11 +11345,11 @@
     "faction": "orks",
     "id": "orks/meganobz",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "mega armour",
-      "meganobz"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "MEGA ARMOUR",
+      "MEGANOBZ"
     ],
     "name": "Meganobz",
     "points": [
@@ -11553,8 +11553,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota - Aimed",
             "range": "18\""
@@ -11566,8 +11566,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "torrent"
+              "CLOSE-QUARTERS",
+              "TORRENT"
             ],
             "name": "Kustom Shoota - Point Blank",
             "range": "6\""
@@ -11600,8 +11600,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Kombi-weapon - Point Blank",
             "range": "12\""
@@ -11623,8 +11623,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-weapon - Shoota",
             "range": "18\""
@@ -11656,7 +11656,7 @@
             "S": "10",
             "WS": "4+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Killsaw"
           }
@@ -11683,12 +11683,12 @@
     "faction": "orks",
     "id": "orks/mek",
     "keywords": [
-      "character",
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "mek",
-      "support"
+      "CHARACTER",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "MEK",
+      "SUPPORT"
     ],
     "name": "Mek",
     "points": [
@@ -11766,8 +11766,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "close quarters",
-              "hazardous"
+              "CLOSE-QUARTERS",
+              "HAZARDOUS"
             ],
             "name": "Kustom Mega-slugga",
             "range": "12\""
@@ -11801,11 +11801,11 @@
     "faction": "orks",
     "id": "orks/mek-gunz",
     "keywords": [
-      "faction: orks",
-      "frame",
-      "grots",
-      "mek gunz",
-      "vehicle"
+      "FACTION: ORKS",
+      "FRAME",
+      "GROTS",
+      "MEK GUNZ",
+      "VEHICLE"
     ],
     "name": "Mek Gunz",
     "points": [
@@ -12026,7 +12026,7 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "blast 1"
+              "BLAST 1"
             ],
             "name": "Smasha Gun",
             "range": "48\""
@@ -12059,8 +12059,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast 3",
-              "lethal hits"
+              "BLAST 3",
+              "LETHAL HITS"
             ],
             "name": "Bubblechukka",
             "range": "48\""
@@ -12078,8 +12078,8 @@
             "D": "4",
             "S": "12",
             "keywords": [
-              "blast 1",
-              "hazardous"
+              "BLAST 1",
+              "HAZARDOUS"
             ],
             "name": "Kustom Mega-kannon",
             "range": "36\""
@@ -12097,7 +12097,7 @@
             "D": "D3+3",
             "S": "6",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Traktor Kannon",
             "range": "48\""
@@ -12124,10 +12124,10 @@
     "faction": "orks",
     "id": "orks/mekboy-workshop-legends",
     "keywords": [
-      "faction: orks",
-      "fortification",
-      "mekboy workshop",
-      "vehicle"
+      "FACTION: ORKS",
+      "FORTIFICATION",
+      "MEKBOY WORKSHOP",
+      "VEHICLE"
     ],
     "name": "Mekboy Workshop [Legends]",
     "points": [
@@ -12181,13 +12181,13 @@
     "faction": "orks",
     "id": "orks/morkanaut",
     "keywords": [
-      "faction: orks",
-      "morkanaut",
-      "titanic",
-      "towering",
-      "transport",
-      "vehicle",
-      "walker"
+      "FACTION: ORKS",
+      "MORKANAUT",
+      "TITANIC",
+      "TOWERING",
+      "TRANSPORT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Morkanaut",
     "points": [
@@ -12297,7 +12297,7 @@
             "S": "18",
             "WS": "3+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Klaw of Mork"
           }
@@ -12315,8 +12315,8 @@
             "D": "4",
             "S": "12",
             "keywords": [
-              "blast 1",
-              "hazardous"
+              "BLAST 1",
+              "HAZARDOUS"
             ],
             "name": "Kustom Mega-zappa",
             "range": "36\""
@@ -12334,7 +12334,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom Mega-blasta",
             "range": "24\""
@@ -12353,8 +12353,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4"
             ],
             "name": "Dual Big Shoota",
             "qty": 2,
@@ -12385,7 +12385,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "qty": 2,
@@ -12413,12 +12413,12 @@
     "faction": "orks",
     "id": "orks/mozrog-skragbad",
     "keywords": [
-      "beast snagga",
-      "character",
-      "epic hero",
-      "faction: orks",
-      "monster",
-      "mozrog skragbad"
+      "BEAST SNAGGA",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "MONSTER",
+      "MOZROG SKRAGBAD"
     ],
     "name": "Mozrog Skragbad",
     "points": [
@@ -12494,8 +12494,8 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 3+",
-              "extra attacks"
+              "ANTI-MONSTER/VEHICLE 3+",
+              "EXTRA ATTACKS"
             ],
             "name": "Big Chompa’s Jaws"
           }
@@ -12512,7 +12512,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gutrippa - Hunter (Hunter: MONSTER/VEHICLE)"
           },
@@ -12523,7 +12523,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "cleave 1"
+              "CLEAVE 1"
             ],
             "name": "Gutrippa - Standard"
           }
@@ -12541,7 +12541,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Thump Gun",
             "range": "18\""
@@ -12568,14 +12568,14 @@
     "faction": "orks",
     "id": "orks/nazdreg",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: orks",
-      "infantry",
-      "leader",
-      "mega armour",
-      "nazdreg",
-      "warboss"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER",
+      "MEGA ARMOUR",
+      "NAZDREG",
+      "WARBOSS"
     ],
     "name": "Nazdreg",
     "points": [
@@ -12641,8 +12641,8 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "cleave 1",
-              "twin linked"
+              "CLEAVE 1",
+              "TWIN-LINKED"
             ],
             "name": "Moonchewa"
           }
@@ -12659,8 +12659,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "cleave 1",
-              "extra attacks"
+              "CLEAVE 1",
+              "EXTRA ATTACKS"
             ],
             "name": "Kustom Blasta X"
           }
@@ -12674,8 +12674,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Kustom Blasta X - Skorcha",
             "range": "12\""
@@ -12687,7 +12687,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom Blasta X - Gatler",
             "range": "24\""
@@ -12699,8 +12699,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Blasta X - Shoota",
             "range": "18\""
@@ -12723,10 +12723,10 @@
     "faction": "orks",
     "id": "orks/nobz",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "nobz"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "NOBZ"
     ],
     "name": "Nobz",
     "points": [
@@ -13018,8 +13018,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota",
             "range": "18\""
@@ -13047,8 +13047,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-rokkit - Shoota",
             "range": "18\""
@@ -13065,7 +13065,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Big Choppa"
           }
@@ -13083,8 +13083,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 2",
-              "torrent"
+              "BLAST 2",
+              "TORRENT"
             ],
             "name": "Big Skorcha",
             "range": "18\""
@@ -13117,7 +13117,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle"
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Kustom Big Shoota",
             "range": "18\""
@@ -13148,12 +13148,12 @@
     "faction": "orks",
     "id": "orks/painboss",
     "keywords": [
-      "beast snagga",
-      "character",
-      "faction: orks",
-      "infantry",
-      "painboss",
-      "support"
+      "BEAST SNAGGA",
+      "CHARACTER",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "PAINBOSS",
+      "SUPPORT"
     ],
     "name": "Painboss",
     "points": [
@@ -13218,7 +13218,7 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Beast Snagga Klaw"
           }
@@ -13245,11 +13245,11 @@
     "faction": "orks",
     "id": "orks/painboy",
     "keywords": [
-      "character",
-      "faction: orks",
-      "infantry",
-      "painboy",
-      "support"
+      "CHARACTER",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "PAINBOY",
+      "SUPPORT"
     ],
     "name": "Painboy",
     "points": [
@@ -13341,9 +13341,9 @@
             "S": "2",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds: infantry",
-              "extra attacks"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS: INFANTRY",
+              "EXTRA ATTACKS"
             ],
             "name": "’Urty syringe"
           }
@@ -13362,11 +13362,11 @@
     "faction": "orks",
     "id": "orks/rukkatrukk-squigbuggies",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "rukkatrukk squigbuggy",
-      "speed freeks",
-      "vehicle"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "RUKKATRUKK SQUIGBUGGY",
+      "SPEED FREEKS",
+      "VEHICLE"
     ],
     "name": "Rukkatrukk Squigbuggies",
     "points": [
@@ -13473,8 +13473,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "lethal hits: non monster/vehicle"
+              "ASSAULT",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Sawn-off Shotgun",
             "range": "12\""
@@ -13492,7 +13492,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Squig Launchas",
             "range": "24\""
@@ -13509,7 +13509,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "cleave 1"
+              "CLEAVE 1"
             ],
             "name": "Saw Blades"
           }
@@ -13532,11 +13532,11 @@
     "faction": "orks",
     "id": "orks/runtherd",
     "keywords": [
-      "character",
-      "faction: orks",
-      "infantry",
-      "runtherd",
-      "support"
+      "CHARACTER",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "RUNTHERD",
+      "SUPPORT"
     ],
     "name": "Runtherd",
     "points": [
@@ -13629,8 +13629,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -13653,12 +13653,12 @@
     "faction": "orks",
     "id": "orks/squighog-boyz",
     "keywords": [
-      "beast snagga",
-      "explosives",
-      "faction: orks",
-      "mobile",
-      "mounted",
-      "squighog boyz"
+      "BEAST SNAGGA",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "MOBILE",
+      "MOUNTED",
+      "SQUIGHOG BOYZ"
     ],
     "name": "Squighog Boyz",
     "points": [
@@ -13807,8 +13807,8 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 4+",
-              "cleave 2+"
+              "ANTI-MONSTER/VEHICLE 4+",
+              "CLEAVE 2+"
             ],
             "name": "Big Choppa"
           }
@@ -13825,7 +13825,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Squig Jaws"
           }
@@ -13843,8 +13843,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -13861,7 +13861,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster/vehicle 4+"
+              "ANTI-MONSTER/VEHICLE 4+"
             ],
             "name": "Stikka (melee)"
           }
@@ -13879,8 +13879,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti monster/vehicle 4+",
-              "assault"
+              "ANTI-MONSTER/VEHICLE 4+",
+              "ASSAULT"
             ],
             "name": "Stikka (ranged)",
             "range": "9\""
@@ -13898,7 +13898,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Saddlegit's Shiv",
             "range": "9\""
@@ -13925,14 +13925,14 @@
     "faction": "orks",
     "id": "orks/stompa",
     "keywords": [
-      "faction: orks",
-      "frame",
-      "stompa",
-      "titanic",
-      "towering",
-      "transport",
-      "vehicle",
-      "walker"
+      "FACTION: ORKS",
+      "FRAME",
+      "STOMPA",
+      "TITANIC",
+      "TOWERING",
+      "TRANSPORT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Stompa",
     "points": [
@@ -14054,7 +14054,7 @@
             "D": "D6+2",
             "S": "14",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Deffkannon and Supa-rokkits",
             "range": "72\""
@@ -14071,7 +14071,7 @@
             "S": "24",
             "WS": "3+",
             "keywords": [
-              "cleave 4"
+              "CLEAVE 4"
             ],
             "name": "Mega-choppa"
           }
@@ -14089,7 +14089,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Supa-gatler - Point Blank",
             "range": "12\""
@@ -14101,8 +14101,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "sustained hits 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Supa-gatler - Aimed",
             "range": "24\""
@@ -14120,8 +14120,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 2",
-              "torrent"
+              "BLAST 2",
+              "TORRENT"
             ],
             "name": "Skorcha",
             "range": "12\""
@@ -14140,8 +14140,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "qty": 5,
@@ -14160,8 +14160,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 2",
-              "twin linked"
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin big shoota",
             "range": "36\""
@@ -14180,12 +14180,12 @@
     "faction": "orks",
     "id": "orks/stormboyz",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "fly",
-      "infantry",
-      "jump pack",
-      "stormboyz"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "FLY",
+      "INFANTRY",
+      "JUMP PACK",
+      "STORMBOYZ"
     ],
     "name": "Stormboyz",
     "points": [
@@ -14336,8 +14336,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters",
-              "lethal hits: non monster/vehicle"
+              "CLOSE-QUARTERS",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -14400,7 +14400,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -14423,10 +14423,10 @@
     "faction": "orks",
     "id": "orks/tankbustas",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "infantry",
-      "tankbustas"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "TANKBUSTAS"
     ],
     "name": "Tankbustas",
     "points": [
@@ -14660,7 +14660,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Rokkit pistol",
             "range": "12\""
@@ -14768,13 +14768,13 @@
     "faction": "orks",
     "id": "orks/trukk",
     "keywords": [
-      "dedicated transport",
-      "faction: orks",
-      "frame",
-      "speed freeks",
-      "transport",
-      "trukk",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: ORKS",
+      "FRAME",
+      "SPEED FREEKS",
+      "TRANSPORT",
+      "TRUKK",
+      "VEHICLE"
     ],
     "name": "Trukk",
     "points": [
@@ -14898,7 +14898,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "cleave 1"
+              "CLEAVE 1"
             ],
             "name": "Spiked Ram"
           }
@@ -14916,8 +14916,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4"
             ],
             "name": "Dual Big Shoota",
             "range": "36\""
@@ -14945,7 +14945,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast 2"
+              "BLAST 2"
             ],
             "name": "Rokkit Launcha - Blasta",
             "range": "24\""
@@ -14962,7 +14962,7 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Grabbin' Klaw"
           }
@@ -14979,8 +14979,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "cleave 1",
-              "extra attacks"
+              "CLEAVE 1",
+              "EXTRA ATTACKS"
             ],
             "name": "Buzzsaw"
           }
@@ -15003,13 +15003,13 @@
     "faction": "orks",
     "id": "orks/upstart-gretchin-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: orks",
-      "grenades",
-      "grots",
-      "infantry",
-      "upstart gretchin"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ORKS",
+      "GRENADES",
+      "GROTS",
+      "INFANTRY",
+      "UPSTART GRETCHIN"
     ],
     "name": "Upstart Gretchin [Crucible]",
     "points": [
@@ -15842,9 +15842,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "rapid fire 2",
-              "twin linked"
+              "ASSAULT",
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin dakkagun",
             "range": "18\""
@@ -15861,7 +15861,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Squig jaws"
           }
@@ -15879,8 +15879,8 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "anti fly 3+",
-              "devastating wounds"
+              "ANTI-FLY 3+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Traktor blasta",
             "range": "36\""
@@ -15898,8 +15898,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "precision",
-              "psychic"
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "’Eadbanger",
             "range": "24\""
@@ -15917,7 +15917,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Shoota",
             "range": "18\""
@@ -15935,8 +15935,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Snazzgun",
             "range": "24\""
@@ -15954,7 +15954,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Saddlegit weapons",
             "range": "9\""
@@ -15972,8 +15972,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Burna",
             "range": "12\""
@@ -15991,7 +15991,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Big shoota",
             "range": "36\""
@@ -16009,7 +16009,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Rokkit launcha",
             "range": "24\""
@@ -16027,7 +16027,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Eyez of Mork",
             "range": "18\""
@@ -16045,9 +16045,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-weapon",
             "range": "24\""
@@ -16065,7 +16065,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom mega-blasta",
             "range": "24\""
@@ -16083,8 +16083,8 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Kustom mega-slugga",
             "range": "12\""
@@ -16102,8 +16102,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota",
             "range": "18\""
@@ -16121,8 +16121,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Shokk attack gun",
             "range": "60\""
@@ -16140,7 +16140,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Rokkit pistol",
             "range": "12\""
@@ -16158,7 +16158,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -16176,7 +16176,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Grot Blasta",
             "range": "12\""
@@ -16193,8 +16193,8 @@
             "S": "9",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Beast Snagga klaw"
           }
@@ -16286,9 +16286,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "twin linked"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "TWIN-LINKED"
             ],
             "name": "Knucklebustas"
           }
@@ -16320,8 +16320,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Smash hammer"
           }
@@ -16338,10 +16338,10 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "devastating wounds",
-              "hazardous"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "HAZARDOUS"
             ],
             "name": "Tankhammer"
           }
@@ -16388,8 +16388,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Beastchoppa"
           }
@@ -16406,7 +16406,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Weirdboy staff"
           }
@@ -16438,7 +16438,7 @@
             "S": "4",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Attack Squig"
           }
@@ -16455,10 +16455,10 @@
             "S": "2",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds: infantry",
-              "extra attacks",
-              "precision"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS: INFANTRY",
+              "EXTRA ATTACKS",
+              "PRECISION"
             ],
             "name": "’Urty syringe"
           }
@@ -16477,11 +16477,11 @@
     "faction": "orks",
     "id": "orks/warbikers",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "mounted",
-      "speed freeks",
-      "warbikers"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "MOUNTED",
+      "SPEED FREEKS",
+      "WARBIKERS"
     ],
     "name": "Warbikers",
     "points": [
@@ -16608,8 +16608,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "lethal hits: non monster/vehicle"
+              "ASSAULT",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Dual Dakkagun",
             "range": "18\""
@@ -16642,7 +16642,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Dual Kombi-rokkit - Busta Rokkit",
             "range": "24\""
@@ -16654,8 +16654,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "lethal hits: non monster/vehicle"
+              "ASSAULT",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Dual Kombi-rokkit - Dakkagun",
             "range": "18\""
@@ -16701,12 +16701,12 @@
     "faction": "orks",
     "id": "orks/warboss",
     "keywords": [
-      "character",
-      "faction: orks",
-      "grenades",
-      "infantry",
-      "leader",
-      "warboss"
+      "CHARACTER",
+      "FACTION: ORKS",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "WARBOSS"
     ],
     "name": "Warboss",
     "points": [
@@ -16833,7 +16833,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Kustom Choppa"
           }
@@ -16866,8 +16866,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota",
             "range": "18\""
@@ -16885,8 +16885,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "torrent"
+              "BLAST 1",
+              "TORRENT"
             ],
             "name": "Kombi-skorcha - Skorcha",
             "range": "12\""
@@ -16898,8 +16898,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-skorcha - Shoota",
             "range": "18\""
@@ -16927,8 +16927,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 1"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-rokkit - Shoota",
             "range": "18\""
@@ -16955,13 +16955,13 @@
     "faction": "orks",
     "id": "orks/warboss-in-mega-armour",
     "keywords": [
-      "character",
-      "faction: orks",
-      "infantry",
-      "leader",
-      "mega armour",
-      "warboss",
-      "warboss in mega armour"
+      "CHARACTER",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER",
+      "MEGA ARMOUR",
+      "WARBOSS",
+      "WARBOSS IN MEGA ARMOUR"
     ],
     "name": "Warboss in Mega Armour",
     "points": [
@@ -17039,8 +17039,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Big Shoota",
             "range": "36\""
@@ -17057,7 +17057,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "’Uge Choppa"
           }
@@ -17084,13 +17084,13 @@
     "faction": "orks",
     "id": "orks/warboss-on-warbike-legends",
     "keywords": [
-      "character",
-      "explosives",
-      "faction: orks",
-      "leader",
-      "mounted",
-      "speed freeks",
-      "warboss"
+      "CHARACTER",
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "LEADER",
+      "MOUNTED",
+      "SPEED FREEKS",
+      "WARBOSS"
     ],
     "name": "Warboss on Warbike [Legends]",
     "points": [
@@ -17212,7 +17212,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "cleave 2"
+              "CLEAVE 2"
             ],
             "name": "Big Choppa"
           }
@@ -17245,8 +17245,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "lethal hits: non monster/vehicle"
+              "ASSAULT",
+              "LETHAL HITS: NON-MONSTER/VEHICLE"
             ],
             "name": "Dual Dakkagun",
             "range": "18\""
@@ -17265,11 +17265,11 @@
     "faction": "orks",
     "id": "orks/warbuggies",
     "keywords": [
-      "explosives",
-      "faction: orks",
-      "speed freeks",
-      "vehicle",
-      "warbuggies"
+      "EXPLOSIVES",
+      "FACTION: ORKS",
+      "SPEED FREEKS",
+      "VEHICLE",
+      "WARBUGGIES"
     ],
     "name": "Warbuggies",
     "points": [
@@ -17414,10 +17414,10 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti infantry 4+",
-              "assault",
-              "devastating wounds: infantry",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "ASSAULT",
+              "DEVASTATING WOUNDS: INFANTRY",
+              "TORRENT"
             ],
             "name": "Rivet Kannon - Point Blank",
             "range": "6\""
@@ -17429,9 +17429,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti infantry 4+",
-              "assault",
-              "devastating wounds: infantry"
+              "ANTI-INFANTRY 4+",
+              "ASSAULT",
+              "DEVASTATING WOUNDS: INFANTRY"
             ],
             "name": "Rivet Kannon - Aimed",
             "range": "24\""
@@ -17449,9 +17449,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "lethal hits: non monster/vehicle",
-              "sustained hits 1"
+              "ASSAULT",
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Extra Dakka",
             "range": "12\""
@@ -17468,7 +17468,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "cleave 1"
+              "CLEAVE 1"
             ],
             "name": "Spiked Ram"
           }
@@ -17486,8 +17486,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Mek Speshul - Point Blank",
             "range": "6\""
@@ -17499,9 +17499,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "lethal hits: non monster/vehicle",
-              "sustained hits 1"
+              "ASSAULT",
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Mek Speshul - Aimed",
             "range": "24\""
@@ -17524,12 +17524,12 @@
     "faction": "orks",
     "id": "orks/warphead-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: orks",
-      "infantry",
-      "psyker",
-      "warphead"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "PSYKER",
+      "WARPHEAD"
     ],
     "name": "Warphead [Crucible]",
     "points": [
@@ -18362,9 +18362,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "rapid fire 2",
-              "twin linked"
+              "ASSAULT",
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin dakkagun",
             "range": "18\""
@@ -18381,7 +18381,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Squig jaws"
           }
@@ -18399,8 +18399,8 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "anti fly 3+",
-              "devastating wounds"
+              "ANTI-FLY 3+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Traktor blasta",
             "range": "36\""
@@ -18418,8 +18418,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "precision",
-              "psychic"
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "’Eadbanger",
             "range": "24\""
@@ -18437,7 +18437,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Shoota",
             "range": "18\""
@@ -18455,8 +18455,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Snazzgun",
             "range": "24\""
@@ -18474,7 +18474,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Saddlegit weapons",
             "range": "9\""
@@ -18492,8 +18492,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Burna",
             "range": "12\""
@@ -18511,7 +18511,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Big shoota",
             "range": "36\""
@@ -18529,7 +18529,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Rokkit launcha",
             "range": "24\""
@@ -18547,7 +18547,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Eyez of Mork",
             "range": "18\""
@@ -18565,9 +18565,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Kombi-weapon",
             "range": "24\""
@@ -18585,7 +18585,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "hazardous"
+              "HAZARDOUS"
             ],
             "name": "Kustom mega-blasta",
             "range": "24\""
@@ -18603,8 +18603,8 @@
             "D": "D6",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Kustom mega-slugga",
             "range": "12\""
@@ -18622,8 +18622,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota",
             "range": "18\""
@@ -18641,8 +18641,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Shokk attack gun",
             "range": "60\""
@@ -18660,7 +18660,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Rokkit pistol",
             "range": "12\""
@@ -18678,7 +18678,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Slugga",
             "range": "12\""
@@ -18696,7 +18696,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Grot Blasta",
             "range": "12\""
@@ -18713,8 +18713,8 @@
             "S": "9",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Beast Snagga klaw"
           }
@@ -18806,9 +18806,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "twin linked"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "TWIN-LINKED"
             ],
             "name": "Knucklebustas"
           }
@@ -18840,8 +18840,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Smash hammer"
           }
@@ -18858,10 +18858,10 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+",
-              "devastating wounds",
-              "hazardous"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS",
+              "HAZARDOUS"
             ],
             "name": "Tankhammer"
           }
@@ -18908,8 +18908,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Beastchoppa"
           }
@@ -18926,7 +18926,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Weirdboy staff"
           }
@@ -18958,7 +18958,7 @@
             "S": "4",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Attack Squig"
           }
@@ -18975,10 +18975,10 @@
             "S": "2",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds: infantry",
-              "extra attacks",
-              "precision"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS: INFANTRY",
+              "EXTRA ATTACKS",
+              "PRECISION"
             ],
             "name": "’Urty syringe"
           }
@@ -19001,10 +19001,10 @@
     "faction": "orks",
     "id": "orks/wartrakks",
     "keywords": [
-      "faction: orks",
-      "mounted",
-      "speed freeks",
-      "wartrakks"
+      "FACTION: ORKS",
+      "MOUNTED",
+      "SPEED FREEKS",
+      "WARTRAKKS"
     ],
     "name": "Wartrakks",
     "points": [
@@ -19142,8 +19142,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits: non monster/vehicle",
-              "rapid fire 2"
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 2"
             ],
             "name": "Kustom Shoota",
             "range": "18\""
@@ -19162,13 +19162,13 @@
     "faction": "orks",
     "id": "orks/wazbom-blastajet",
     "keywords": [
-      "aircraft",
-      "faction: orks",
-      "fly",
-      "smoke",
-      "speed freeks",
-      "vehicle",
-      "wazbom blastajet"
+      "AIRCRAFT",
+      "FACTION: ORKS",
+      "FLY",
+      "SMOKE",
+      "SPEED FREEKS",
+      "VEHICLE",
+      "WAZBOM BLASTAJET"
     ],
     "name": "Wazbom Blastajet",
     "points": [
@@ -19293,7 +19293,7 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "ignores cover"
+              "IGNORES COVER"
             ],
             "name": "Smasha Gun",
             "range": "48\""
@@ -19311,8 +19311,8 @@
             "D": "4",
             "S": "12",
             "keywords": [
-              "hazardous",
-              "ignores cover"
+              "HAZARDOUS",
+              "IGNORES COVER"
             ],
             "name": "Dual Wazbom Mega-kannon",
             "range": "36\""
@@ -19330,9 +19330,9 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast 1",
-              "ignores cover",
-              "rapid fire 6"
+              "BLAST 1",
+              "IGNORES COVER",
+              "RAPID FIRE 6"
             ],
             "name": "Dual Tellyport Mega-blasta",
             "range": "24\""
@@ -19350,9 +19350,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "lethal hits: non monster/vehicle",
-              "rapid fire 4"
+              "IGNORES COVER",
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "RAPID FIRE 4"
             ],
             "name": "Dual Supa-shoota",
             "range": "36\""
@@ -19398,14 +19398,14 @@
     "faction": "orks",
     "id": "orks/wazdakka-gutsmek",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: orks",
-      "mounted",
-      "smoke",
-      "speed freeks",
-      "vehicle",
-      "wazdakka gutsmek"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "MOUNTED",
+      "SMOKE",
+      "SPEED FREEKS",
+      "VEHICLE",
+      "WAZDAKKA GUTSMEK"
     ],
     "name": "Wazdakka Gutsmek",
     "points": [
@@ -19491,7 +19491,7 @@
             "S": "3",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Fixit's Wrench"
           }
@@ -19509,9 +19509,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "lethal hits: non monster/vehicle",
-              "sustained hits 1"
+              "ASSAULT",
+              "LETHAL HITS: NON-MONSTER/VEHICLE",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psyko-gatler",
             "range": "24\""
@@ -19528,8 +19528,8 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "cleave 2",
-              "lance"
+              "CLEAVE 2",
+              "LANCE"
             ],
             "name": "Grabba Dragga"
           }
@@ -19543,8 +19543,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "assault",
-              "precision"
+              "ASSAULT",
+              "PRECISION"
             ],
             "name": "Grabba Dragga",
             "range": "12\""
@@ -19561,8 +19561,8 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "cleave 1",
-              "extra attacks"
+              "CLEAVE 1",
+              "EXTRA ATTACKS"
             ],
             "name": "Speeding Bulk and Flaming Exhaust"
           }
@@ -19593,12 +19593,12 @@
     "faction": "orks",
     "id": "orks/weirdboy",
     "keywords": [
-      "character",
-      "faction: orks",
-      "infantry",
-      "psyker",
-      "support",
-      "weirdboy"
+      "CHARACTER",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "PSYKER",
+      "SUPPORT",
+      "WEIRDBOY"
     ],
     "name": "Weirdboy",
     "points": [
@@ -19675,7 +19675,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Copper Staff"
           }
@@ -19693,10 +19693,10 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "blast 1",
-              "hazardous",
-              "psychic",
-              "torrent"
+              "BLAST 1",
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Power Vomit",
             "range": "12\""
@@ -19719,13 +19719,13 @@
     "faction": "orks",
     "id": "orks/zodgrod-wortsnagga",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: orks",
-      "infantry",
-      "leader",
-      "runtherd",
-      "zodgrod wortsnagga"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ORKS",
+      "INFANTRY",
+      "LEADER",
+      "RUNTHERD",
+      "ZODGROD WORTSNAGGA"
     ],
     "name": "Zodgrod Wortsnagga",
     "points": [
@@ -19807,9 +19807,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti monster/vehicle 4+",
-              "close quarters",
-              "devastating wounds: monster/vehicle"
+              "ANTI-MONSTER/VEHICLE 4+",
+              "CLOSE-QUARTERS",
+              "DEVASTATING WOUNDS: MONSTER/VEHICLE"
             ],
             "name": "Squigstoppa",
             "range": "12\""

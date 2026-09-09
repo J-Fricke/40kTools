@@ -9,13 +9,13 @@
     "faction": "deathguard",
     "id": "deathguard/beasts-of-nurgle",
     "keywords": [
-      "beast",
-      "beasts of nurgle",
-      "chaos",
-      "daemon",
-      "faction: plague legions",
-      "nurgle",
-      "summoned"
+      "BEAST",
+      "BEASTS OF NURGLE",
+      "CHAOS",
+      "DAEMON",
+      "FACTION: PLAGUE LEGIONS",
+      "NURGLE",
+      "SUMMONED"
     ],
     "name": "Beasts of Nurgle",
     "points": [
@@ -80,7 +80,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Putrid appendages"
           }
@@ -107,14 +107,14 @@
     "faction": "deathguard",
     "id": "deathguard/biologus-putrifier",
     "keywords": [
-      "biologus putrifier",
-      "chaos",
-      "character",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "leader",
-      "nurgle"
+      "BIOLOGUS PUTRIFIER",
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE"
     ],
     "name": "Biologus Putrifier",
     "points": [
@@ -203,9 +203,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "assault",
-              "blast",
-              "lethal hits"
+              "ASSAULT",
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Hyper blight grenades",
             "range": "12\""
@@ -223,9 +223,9 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "pistol",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Injector pistol",
             "range": "3\""
@@ -242,7 +242,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague knives"
           }
@@ -261,12 +261,12 @@
     "faction": "deathguard",
     "id": "deathguard/blightlord-terminators",
     "keywords": [
-      "blightlord terminators",
-      "chaos",
-      "faction: death guard",
-      "infantry",
-      "nurgle",
-      "terminator"
+      "BLIGHTLORD TERMINATORS",
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "NURGLE",
+      "TERMINATOR"
     ],
     "name": "Blightlord Terminators",
     "points": [
@@ -583,8 +583,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -602,9 +602,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -621,7 +621,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bubotic blade"
           }
@@ -654,9 +654,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague spewer",
             "range": "12\""
@@ -673,7 +673,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Flail of corruption"
           }
@@ -691,8 +691,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Blight launcher",
             "range": "24\""
@@ -710,8 +710,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper autocannon",
             "range": "36\""
@@ -739,14 +739,14 @@
     "faction": "deathguard",
     "id": "deathguard/chaos-land-raider",
     "keywords": [
-      "chaos",
-      "faction: death guard",
-      "frame",
-      "land raider",
-      "nurgle",
-      "smoke",
-      "transport",
-      "vehicle"
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "FRAME",
+      "LAND RAIDER",
+      "NURGLE",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Chaos Land Raider",
     "points": [
@@ -902,8 +902,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -921,9 +921,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -941,7 +941,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -959,9 +959,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "sustained hits 1",
-              "twin linked"
+              "LETHAL HITS",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -988,15 +988,15 @@
     "faction": "deathguard",
     "id": "deathguard/chaos-lord-on-palanquin-of-nurgle-legends",
     "keywords": [
-      "chaos",
-      "chaos lord",
-      "character",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "leader",
-      "nurgle",
-      "palanquin of nurgle"
+      "CHAOS",
+      "CHAOS LORD",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "PALANQUIN OF NURGLE"
     ],
     "name": "Chaos Lord on Palanquin of Nurgle [Legends]",
     "points": [
@@ -1258,7 +1258,7 @@
             "S": "2",
             "WS": "5+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Nurgling's claws and teeth"
           }
@@ -1320,7 +1320,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paired accursed weapons"
           }
@@ -1338,7 +1338,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1356,7 +1356,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -1368,8 +1368,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -1387,7 +1387,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -1405,9 +1405,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -1426,13 +1426,13 @@
     "faction": "deathguard",
     "id": "deathguard/chaos-predator-annihilator",
     "keywords": [
-      "chaos",
-      "faction: death guard",
-      "frame",
-      "nurgle",
-      "predator annihilator",
-      "smoke",
-      "vehicle"
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "FRAME",
+      "NURGLE",
+      "PREDATOR ANNIHILATOR",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Chaos Predator Annihilator",
     "points": [
@@ -1594,7 +1594,7 @@
             "D": "D6+1",
             "S": "14",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Predator twin lascannon",
             "range": "48\""
@@ -1612,8 +1612,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -1631,9 +1631,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -1652,8 +1652,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "sustained hits 1"
+              "LETHAL HITS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "qty": 2,
@@ -1705,7 +1705,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -1724,13 +1724,13 @@
     "faction": "deathguard",
     "id": "deathguard/chaos-predator-destructor",
     "keywords": [
-      "chaos",
-      "faction: death guard",
-      "frame",
-      "nurgle",
-      "predator destructor",
-      "smoke",
-      "vehicle"
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "FRAME",
+      "NURGLE",
+      "PREDATOR DESTRUCTOR",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Chaos Predator Destructor",
     "points": [
@@ -1892,8 +1892,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Predator autocannon",
             "range": "48\""
@@ -1911,8 +1911,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -1930,9 +1930,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -1951,8 +1951,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "sustained hits 1"
+              "LETHAL HITS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "qty": 2,
@@ -2004,7 +2004,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -2027,15 +2027,15 @@
     "faction": "deathguard",
     "id": "deathguard/chaos-rhino",
     "keywords": [
-      "chaos",
-      "dedicated transport",
-      "faction: death guard",
-      "frame",
-      "nurgle",
-      "rhino",
-      "smoke",
-      "transport",
-      "vehicle"
+      "CHAOS",
+      "DEDICATED TRANSPORT",
+      "FACTION: DEATH GUARD",
+      "FRAME",
+      "NURGLE",
+      "RHINO",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Chaos Rhino",
     "points": [
@@ -2150,8 +2150,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -2169,9 +2169,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2204,7 +2204,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -2223,11 +2223,11 @@
     "faction": "deathguard",
     "id": "deathguard/chaos-spawn",
     "keywords": [
-      "beast",
-      "chaos",
-      "faction: death guard",
-      "nurgle",
-      "spawn"
+      "BEAST",
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "NURGLE",
+      "SPAWN"
     ],
     "name": "Chaos Spawn",
     "points": [
@@ -2317,13 +2317,13 @@
     "faction": "deathguard",
     "id": "deathguard/daemon-prince-of-nurgle",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "daemon prince",
-      "faction: death guard",
-      "monster",
-      "nurgle"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "DAEMON PRINCE",
+      "FACTION: DEATH GUARD",
+      "MONSTER",
+      "NURGLE"
     ],
     "name": "Daemon Prince of Nurgle",
     "points": [
@@ -2400,7 +2400,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hellforged weapons - strike"
           },
@@ -2411,7 +2411,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hellforged weapons - sweep"
           }
@@ -2429,7 +2429,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Infernal cannon",
             "range": "24\""
@@ -2452,14 +2452,14 @@
     "faction": "deathguard",
     "id": "deathguard/daemon-prince-of-nurgle-with-wings",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "daemon prince with wings",
-      "faction: death guard",
-      "fly",
-      "monster",
-      "nurgle"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "DAEMON PRINCE WITH WINGS",
+      "FACTION: DEATH GUARD",
+      "FLY",
+      "MONSTER",
+      "NURGLE"
     ],
     "name": "Daemon Prince of Nurgle with wings",
     "points": [
@@ -2537,7 +2537,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Infernal cannon",
             "range": "24\""
@@ -2554,7 +2554,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hellforged weapons - strike"
           },
@@ -2565,7 +2565,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hellforged weapons - sweep"
           }
@@ -2592,14 +2592,14 @@
     "faction": "deathguard",
     "id": "deathguard/death-guard-chaos-lord-in-terminator-armour-legends",
     "keywords": [
-      "chaos",
-      "chaos lord",
-      "character",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "nurgle",
-      "terminator"
+      "CHAOS",
+      "CHAOS LORD",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "TERMINATOR"
     ],
     "name": "Death Guard Chaos Lord in Terminator Armour [Legends]",
     "points": [
@@ -2775,9 +2775,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2795,8 +2795,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -2813,7 +2813,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague-encrusted exalted weapon"
           }
@@ -2830,7 +2830,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague fist"
           }
@@ -2847,7 +2847,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -2864,7 +2864,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -2891,14 +2891,14 @@
     "faction": "deathguard",
     "id": "deathguard/death-guard-chaos-lord-legends",
     "keywords": [
-      "chaos",
-      "chaos lord",
-      "character",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "leader",
-      "nurgle"
+      "CHAOS",
+      "CHAOS LORD",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE"
     ],
     "name": "Death Guard Chaos Lord [Legends]",
     "points": [
@@ -3118,7 +3118,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague fist"
           }
@@ -3135,7 +3135,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague-encrusted exalted weapon"
           }
@@ -3153,8 +3153,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "pistol"
+              "LETHAL HITS",
+              "PISTOL"
             ],
             "name": "Plague bolt pistol",
             "range": "12\""
@@ -3172,7 +3172,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -3184,8 +3184,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -3203,9 +3203,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -3222,7 +3222,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -3240,8 +3240,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -3255,11 +3255,11 @@
     "faction": "deathguard",
     "id": "deathguard/death-guard-cultists-legends",
     "keywords": [
-      "chaos",
-      "cultists",
-      "faction: death guard",
-      "infantry",
-      "nurgle"
+      "CHAOS",
+      "CULTISTS",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "NURGLE"
     ],
     "name": "Death Guard Cultists [Legends]",
     "points": [
@@ -3514,8 +3514,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -3533,7 +3533,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 3"
+              "RAPID FIRE 3"
             ],
             "name": "Heavy stubber",
             "range": "36\""
@@ -3551,7 +3551,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Grenade launcher - frag",
             "range": "24\""
@@ -3584,11 +3584,11 @@
     "faction": "deathguard",
     "id": "deathguard/death-guard-possessed-legends",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: death guard",
-      "infantry",
-      "possessed"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "POSSESSED"
     ],
     "name": "Death Guard Possessed [Legends]",
     "points": [
@@ -3687,15 +3687,15 @@
     "faction": "deathguard",
     "id": "deathguard/death-guard-sorcerer-in-terminator-armour-legends",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "nurgle",
-      "psyker",
-      "sorcerer",
-      "terminator"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "PSYKER",
+      "SORCERER",
+      "TERMINATOR"
     ],
     "name": "Death Guard Sorcerer in Terminator Armour [Legends]",
     "points": [
@@ -3892,7 +3892,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Curse of the Leper - witchfire",
             "range": "24\""
@@ -3904,8 +3904,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic"
+              "HAZARDOUS",
+              "PSYCHIC"
             ],
             "name": "Curse of the Leper - focused witchfire",
             "range": "24\""
@@ -3923,8 +3923,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -3942,9 +3942,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -3961,7 +3961,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague-encrusted exalted weapon"
           }
@@ -3978,7 +3978,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -3995,7 +3995,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -4012,7 +4012,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague fist"
           }
@@ -4029,7 +4029,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -4052,12 +4052,12 @@
     "faction": "deathguard",
     "id": "deathguard/deathshroud-terminators",
     "keywords": [
-      "chaos",
-      "deathshroud terminators",
-      "faction: death guard",
-      "infantry",
-      "nurgle",
-      "terminator"
+      "CHAOS",
+      "DEATHSHROUD TERMINATORS",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "NURGLE",
+      "TERMINATOR"
     ],
     "name": "Deathshroud Terminators",
     "points": [
@@ -4186,7 +4186,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - strike"
           },
@@ -4197,7 +4197,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - sweep"
           }
@@ -4215,10 +4215,10 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 4+",
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Plaguespurt gauntlet",
             "range": "12\""
@@ -4241,13 +4241,13 @@
     "faction": "deathguard",
     "id": "deathguard/defiler",
     "keywords": [
-      "chaos",
-      "daemon",
-      "defiler",
-      "faction: death guard",
-      "nurgle",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "DAEMON",
+      "DEFILER",
+      "FACTION: DEATH GUARD",
+      "NURGLE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Defiler",
     "points": [
@@ -4495,7 +4495,7 @@
             "S": "16",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shearing claws - strike"
           },
@@ -4506,7 +4506,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Shearing claws - sweep"
           }
@@ -4524,8 +4524,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Heavy missile launcher - frag",
             "range": "48\""
@@ -4537,7 +4537,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy missile launcher - krak",
             "range": "48\""
@@ -4554,8 +4554,8 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "extra attacks",
-              "sustained hits 2"
+              "EXTRA ATTACKS",
+              "SUSTAINED HITS 2"
             ],
             "name": "Electroscourge"
           }
@@ -4573,7 +4573,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hades lascannon",
             "range": "48\""
@@ -4591,9 +4591,9 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "devastating wounds",
-              "lethal hits",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "LETHAL HITS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy reaper autocannon",
             "range": "48\""
@@ -4611,8 +4611,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Hades battle cannon",
             "range": "48\""
@@ -4630,8 +4630,8 @@
             "D": "3",
             "S": "12",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Ectoplasma destructor",
             "range": "36\""
@@ -4649,8 +4649,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy baleflamer",
             "range": "12\""
@@ -4668,7 +4668,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Excruciator cannon",
             "range": "36\""
@@ -4686,8 +4686,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "lethal hits",
-              "melta 2"
+              "LETHAL HITS",
+              "MELTA 2"
             ],
             "name": "Magma cutter",
             "range": "12\""
@@ -4706,13 +4706,13 @@
     "faction": "deathguard",
     "id": "deathguard/foetid-bloat-drone",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: death guard",
-      "fly",
-      "foetid bloat-drone",
-      "nurgle",
-      "vehicle"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: DEATH GUARD",
+      "FLY",
+      "FOETID BLOAT-DRONE",
+      "NURGLE",
+      "VEHICLE"
     ],
     "name": "Foetid Bloat-drone",
     "points": [
@@ -4818,7 +4818,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague probe"
           }
@@ -4836,9 +4836,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plaguespitter",
             "range": "12\""
@@ -4855,7 +4855,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Fleshmower"
           }
@@ -4874,13 +4874,13 @@
     "faction": "deathguard",
     "id": "deathguard/foetid-bloat-drone-with-heavy-blight-launcher",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: death guard",
-      "fly",
-      "foetid bloat-drone",
-      "nurgle",
-      "vehicle"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: DEATH GUARD",
+      "FLY",
+      "FOETID BLOAT-DRONE",
+      "NURGLE",
+      "VEHICLE"
     ],
     "name": "Foetid Bloat-drone with heavy blight launcher",
     "points": [
@@ -4958,8 +4958,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Heavy blight launcher",
             "range": "36\""
@@ -4976,7 +4976,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague probe"
           }
@@ -5003,14 +5003,14 @@
     "faction": "deathguard",
     "id": "deathguard/foul-blightspawn",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "foul blightspawn",
-      "grenades",
-      "infantry",
-      "leader",
-      "nurgle"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "FOUL BLIGHTSPAWN",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE"
     ],
     "name": "Foul Blightspawn",
     "points": [
@@ -5103,9 +5103,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague sprayer",
             "range": "12\""
@@ -5124,11 +5124,11 @@
     "faction": "deathguard",
     "id": "deathguard/gellerpox-infected-legends",
     "keywords": [
-      "chaos",
-      "faction: death guard",
-      "gellerpox infected",
-      "infantry",
-      "nurgle"
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "GELLERPOX INFECTED",
+      "INFANTRY",
+      "NURGLE"
     ],
     "name": "Gellerpox Infected [Legends]",
     "points": [
@@ -5274,8 +5274,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Belly flamer",
             "range": "12\""
@@ -5303,15 +5303,15 @@
     "faction": "deathguard",
     "id": "deathguard/great-unclean-one",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "faction: plague legions",
-      "great unclean one",
-      "monster",
-      "nurgle",
-      "psyker",
-      "summoned"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "FACTION: PLAGUE LEGIONS",
+      "GREAT UNCLEAN ONE",
+      "MONSTER",
+      "NURGLE",
+      "PSYKER",
+      "SUMMONED"
     ],
     "name": "Great Unclean One",
     "points": [
@@ -5428,8 +5428,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Putrid vomit",
             "range": "12\""
@@ -5462,8 +5462,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "extra attacks",
-              "lethal hits"
+              "EXTRA ATTACKS",
+              "LETHAL HITS"
             ],
             "name": "Bileblade"
           }
@@ -5480,7 +5480,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bilesword - strike"
           },
@@ -5491,7 +5491,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bilesword - sweep"
           }
@@ -5508,8 +5508,8 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lethal hits",
-              "reverberating summons"
+              "LETHAL HITS",
+              "REVERBERATING SUMMONS"
             ],
             "name": "Doomsday bell"
           }
@@ -5532,12 +5532,12 @@
     "faction": "deathguard",
     "id": "deathguard/helbrute",
     "keywords": [
-      "chaos",
-      "faction: death guard",
-      "helbrute",
-      "nurgle",
-      "vehicle",
-      "walker"
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "HELBRUTE",
+      "NURGLE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Helbrute",
     "points": [
@@ -5890,8 +5890,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -5909,8 +5909,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -5943,7 +5943,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile launcher - frag",
             "range": "48\""
@@ -5986,8 +5986,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "lethal hits",
-              "melta 2"
+              "LETHAL HITS",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -6005,8 +6005,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "twin linked",
-              "lethal hits"
+              "TWIN-LINKED",
+              "LETHAL HITS"
             ],
             "name": "Twin autocannon",
             "range": "48\""
@@ -6024,9 +6024,9 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous",
-              "lethal hits"
+              "BLAST",
+              "HAZARDOUS",
+              "LETHAL HITS"
             ],
             "name": "Plasma cannon",
             "range": "36\""
@@ -6044,9 +6044,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "sustained hits 1",
-              "twin linked"
+              "LETHAL HITS",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -6064,7 +6064,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -6088,13 +6088,13 @@
     "faction": "deathguard",
     "id": "deathguard/hell-talon-legends",
     "keywords": [
-      "aircraft",
-      "chaos",
-      "faction: death guard",
-      "fly",
-      "hell talon",
-      "nurgle",
-      "vehicle"
+      "AIRCRAFT",
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "FLY",
+      "HELL TALON",
+      "NURGLE",
+      "VEHICLE"
     ],
     "name": "Hell Talon [Legends]",
     "points": [
@@ -6234,7 +6234,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Havoc launcher",
             "range": "48\""
@@ -6252,7 +6252,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -6271,13 +6271,13 @@
     "faction": "deathguard",
     "id": "deathguard/hellblade-legends",
     "keywords": [
-      "aircraft",
-      "chaos",
-      "faction: death guard",
-      "fly",
-      "hellblade",
-      "nurgle",
-      "vehicle"
+      "AIRCRAFT",
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "FLY",
+      "HELLBLADE",
+      "NURGLE",
+      "VEHICLE"
     ],
     "name": "Hellblade [Legends]",
     "points": [
@@ -6389,7 +6389,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "qty": 2,
@@ -6417,13 +6417,13 @@
     "faction": "deathguard",
     "id": "deathguard/icon-bearer",
     "keywords": [
-      "chaos",
-      "character",
-      "death guard icon bearer",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "nurgle"
+      "CHAOS",
+      "CHARACTER",
+      "DEATH GUARD ICON BEARER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "NURGLE"
     ],
     "name": "Icon Bearer",
     "points": [
@@ -6500,7 +6500,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague knife"
           }
@@ -6518,7 +6518,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -6545,15 +6545,15 @@
     "faction": "deathguard",
     "id": "deathguard/lord-of-contagion",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "leader",
-      "lord of contagion",
-      "nurgle",
-      "terminator"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "LORD OF CONTAGION",
+      "NURGLE",
+      "TERMINATOR"
     ],
     "name": "Lord of Contagion",
     "points": [
@@ -6618,7 +6618,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - strike"
           },
@@ -6629,7 +6629,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - sweep"
           }
@@ -6656,14 +6656,14 @@
     "faction": "deathguard",
     "id": "deathguard/lord-of-poxes",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "leader",
-      "lord of poxes",
-      "nurgle"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "LORD OF POXES",
+      "NURGLE"
     ],
     "name": "Lord of Poxes",
     "points": [
@@ -6740,8 +6740,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "lethal hits"
+              "DEVASTATING WOUNDS",
+              "LETHAL HITS"
             ],
             "name": "Great plague blade"
           }
@@ -6759,7 +6759,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -6771,8 +6771,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -6799,14 +6799,14 @@
     "faction": "deathguard",
     "id": "deathguard/lord-of-virulence",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "lord of virulence",
-      "nurgle",
-      "terminator"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "LORD OF VIRULENCE",
+      "NURGLE",
+      "TERMINATOR"
     ],
     "name": "Lord of Virulence",
     "points": [
@@ -6883,7 +6883,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Power fist"
           }
@@ -6901,10 +6901,10 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin plague spewer",
             "range": "12\""
@@ -6931,14 +6931,14 @@
     "faction": "deathguard",
     "id": "deathguard/malignant-plaguecaster",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "malignant plaguecaster",
-      "nurgle",
-      "psyker"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "MALIGNANT PLAGUECASTER",
+      "NURGLE",
+      "PSYKER"
     ],
     "name": "Malignant Plaguecaster",
     "points": [
@@ -7026,8 +7026,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Corrupted staff"
           }
@@ -7045,8 +7045,8 @@
             "D": "D3",
             "S": "4",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Plague Wind - witchfire",
             "range": "12\""
@@ -7058,9 +7058,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Plague Wind - focused witchfire",
             "range": "12\""
@@ -7078,8 +7078,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "pistol"
+              "LETHAL HITS",
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -7106,12 +7106,12 @@
     "faction": "deathguard",
     "id": "deathguard/miasmic-malignifier",
     "keywords": [
-      "chaos",
-      "faction: death guard",
-      "fortification",
-      "frame",
-      "miasmic malignifier",
-      "nurgle"
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "FORTIFICATION",
+      "FRAME",
+      "MIASMIC MALIGNIFIER",
+      "NURGLE"
     ],
     "name": "Miasmic Malignifier",
     "points": [
@@ -7168,8 +7168,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Miasmic gouts",
             "range": "9\""
@@ -7209,18 +7209,18 @@
     "faction": "deathguard",
     "id": "deathguard/mortarion",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "epic hero",
-      "faction: death guard",
-      "fly",
-      "grenades",
-      "monster",
-      "mortarion",
-      "nurgle",
-      "primarch",
-      "psyker"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "EPIC HERO",
+      "FACTION: DEATH GUARD",
+      "FLY",
+      "GRENADES",
+      "MONSTER",
+      "MORTARION",
+      "NURGLE",
+      "PRIMARCH",
+      "PSYKER"
     ],
     "name": "Mortarion",
     "points": [
@@ -7297,10 +7297,10 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "lethal hits",
-              "psychic"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Rotwind",
             "range": "24\""
@@ -7318,8 +7318,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "pistol",
-              "sustained hits d3"
+              "PISTOL",
+              "SUSTAINED HITS D3"
             ],
             "name": "Lantern",
             "range": "24\""
@@ -7336,8 +7336,8 @@
             "S": "14",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "lethal hits"
+              "DEVASTATING WOUNDS",
+              "LETHAL HITS"
             ],
             "name": "Silence - strike"
           },
@@ -7348,8 +7348,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits",
-              "sustained hits 1"
+              "LETHAL HITS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Silence - sweep"
           }
@@ -7368,11 +7368,11 @@
     "faction": "deathguard",
     "id": "deathguard/mutoid-vermin-legends",
     "keywords": [
-      "chaos",
-      "faction: death guard",
-      "mutoid vermin",
-      "nurgle",
-      "swarm"
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "MUTOID VERMIN",
+      "NURGLE",
+      "SWARM"
     ],
     "name": "Mutoid Vermin [Legends]",
     "points": [
@@ -7437,7 +7437,7 @@
             "S": "2",
             "WS": "4+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Diseased claws and fangs"
           }
@@ -7456,13 +7456,13 @@
     "faction": "deathguard",
     "id": "deathguard/myphitic-blight-hauler",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: death guard",
-      "myphitic blight-hauler",
-      "nurgle",
-      "smoke",
-      "vehicle"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: DEATH GUARD",
+      "MYPHITIC BLIGHT-HAULER",
+      "NURGLE",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Myphitic Blight-hauler",
     "points": [
@@ -7571,7 +7571,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bile spurt",
             "range": "12\""
@@ -7588,7 +7588,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Gnashing maw"
           }
@@ -7606,7 +7606,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile launcher - frag",
             "range": "48\""
@@ -7634,8 +7634,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "lethal hits",
-              "melta 2"
+              "LETHAL HITS",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -7662,13 +7662,13 @@
     "faction": "deathguard",
     "id": "deathguard/noxious-blightbringer",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "noxious blightbringer",
-      "nurgle"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "NOXIOUS BLIGHTBRINGER",
+      "NURGLE"
     ],
     "name": "Noxious Blightbringer",
     "points": [
@@ -7745,8 +7745,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "anti psyker 2+",
-              "lethal hits"
+              "ANTI-PSYKER 2+",
+              "LETHAL HITS"
             ],
             "name": "Cursed plague bell"
           }
@@ -7764,7 +7764,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -7776,8 +7776,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -7796,13 +7796,13 @@
     "faction": "deathguard",
     "id": "deathguard/nurglings",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: plague legions",
-      "nurgle",
-      "nurglings",
-      "summoned",
-      "swarm"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: PLAGUE LEGIONS",
+      "NURGLE",
+      "NURGLINGS",
+      "SUMMONED",
+      "SWARM"
     ],
     "name": "Nurglings",
     "points": [
@@ -7867,7 +7867,7 @@
             "S": "2",
             "WS": "5+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Diseased claws and teeth"
           }
@@ -7894,14 +7894,14 @@
     "faction": "deathguard",
     "id": "deathguard/plague-drones",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: plague legions",
-      "fly",
-      "mounted",
-      "nurgle",
-      "plague drones",
-      "summoned"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: PLAGUE LEGIONS",
+      "FLY",
+      "MOUNTED",
+      "NURGLE",
+      "PLAGUE DRONES",
+      "SUMMONED"
     ],
     "name": "Plague Drones",
     "points": [
@@ -8032,8 +8032,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Death's heads",
             "range": "12\""
@@ -8050,8 +8050,8 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks",
-              "lethal hits"
+              "EXTRA ATTACKS",
+              "LETHAL HITS"
             ],
             "name": "Foul mouthparts"
           }
@@ -8068,7 +8068,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plaguesword"
           }
@@ -8091,14 +8091,14 @@
     "faction": "deathguard",
     "id": "deathguard/plague-lord-crucible",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "leader",
-      "nurgle",
-      "plague lord"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "PLAGUE LORD"
     ],
     "name": "Plague Lord [Crucible]",
     "points": [
@@ -8586,8 +8586,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Blight launcher",
             "range": "24\""
@@ -8605,7 +8605,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -8623,8 +8623,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -8642,9 +8642,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -8662,9 +8662,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "assault",
-              "blast",
-              "lethal hits"
+              "ASSAULT",
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Hyper blight grenades",
             "range": "12\""
@@ -8682,7 +8682,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -8700,9 +8700,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague belcher",
             "range": "12\""
@@ -8720,9 +8720,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague spewer",
             "range": "12\""
@@ -8740,9 +8740,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague sprayer",
             "range": "12\""
@@ -8760,8 +8760,8 @@
             "D": "D3",
             "S": "4",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Plague Wind - witchfire",
             "range": "12\""
@@ -8773,9 +8773,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Plague Wind - focused witchfire",
             "range": "12\""
@@ -8793,7 +8793,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -8805,8 +8805,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -8824,8 +8824,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper autocannon",
             "range": "36\""
@@ -8843,10 +8843,10 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin plague spewer",
             "range": "12\""
@@ -8864,8 +8864,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "pistol"
+              "LETHAL HITS",
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "24\""
@@ -8883,8 +8883,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1",
-              "pistol"
+              "RAPID FIRE 1",
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -8896,8 +8896,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -8915,9 +8915,9 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "pistol",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Injector pistol",
             "range": "3\""
@@ -8935,10 +8935,10 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 4+",
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Plaguespurt gauntlet",
             "range": "12\""
@@ -8955,7 +8955,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Balesword"
           }
@@ -8972,7 +8972,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bubotic weapons"
           }
@@ -9004,8 +9004,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Corrupted staff"
           }
@@ -9022,7 +9022,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Flail of corruption"
           }
@@ -9039,8 +9039,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "lethal hits"
+              "DEVASTATING WOUNDS",
+              "LETHAL HITS"
             ],
             "name": "Great plague blade"
           }
@@ -9057,7 +9057,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy plague weapon"
           }
@@ -9074,7 +9074,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague knife"
           }
@@ -9091,7 +9091,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Power fist"
           }
@@ -9108,7 +9108,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - strike"
           },
@@ -9119,7 +9119,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - sweep"
           }
@@ -9138,13 +9138,13 @@
     "faction": "deathguard",
     "id": "deathguard/plague-marines",
     "keywords": [
-      "battleline",
-      "chaos",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "nurgle",
-      "plague marines"
+      "BATTLELINE",
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "NURGLE",
+      "PLAGUE MARINES"
     ],
     "name": "Plague Marines",
     "points": [
@@ -9610,7 +9610,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Power fist"
           }
@@ -9627,7 +9627,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague knives"
           }
@@ -9644,7 +9644,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bubotic weapons"
           }
@@ -9662,8 +9662,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "pistol"
+              "LETHAL HITS",
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -9681,7 +9681,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -9699,7 +9699,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -9711,8 +9711,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -9730,7 +9730,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -9742,8 +9742,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -9760,7 +9760,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy plague weapon"
           }
@@ -9778,8 +9778,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Blight launcher",
             "range": "24\""
@@ -9797,9 +9797,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague spewer",
             "range": "12\""
@@ -9817,7 +9817,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -9835,9 +9835,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague belcher",
             "range": "12\""
@@ -9860,14 +9860,14 @@
     "faction": "deathguard",
     "id": "deathguard/plague-sorcerer-crucible",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "nurgle",
-      "plague sorcerer",
-      "psyker"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "PLAGUE SORCERER",
+      "PSYKER"
     ],
     "name": "Plague Sorcerer [Crucible]",
     "points": [
@@ -10355,8 +10355,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Blight launcher",
             "range": "24\""
@@ -10374,7 +10374,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -10392,8 +10392,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -10411,9 +10411,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -10431,9 +10431,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "assault",
-              "blast",
-              "lethal hits"
+              "ASSAULT",
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Hyper blight grenades",
             "range": "12\""
@@ -10451,7 +10451,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -10469,9 +10469,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague belcher",
             "range": "12\""
@@ -10489,9 +10489,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague spewer",
             "range": "12\""
@@ -10509,9 +10509,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague sprayer",
             "range": "12\""
@@ -10529,8 +10529,8 @@
             "D": "D3",
             "S": "4",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Plague Wind - witchfire",
             "range": "12\""
@@ -10542,9 +10542,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Plague Wind - focused witchfire",
             "range": "12\""
@@ -10562,7 +10562,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -10574,8 +10574,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -10593,8 +10593,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper autocannon",
             "range": "36\""
@@ -10612,10 +10612,10 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin plague spewer",
             "range": "12\""
@@ -10633,8 +10633,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "pistol"
+              "LETHAL HITS",
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "24\""
@@ -10652,8 +10652,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1",
-              "pistol"
+              "RAPID FIRE 1",
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -10665,8 +10665,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -10684,9 +10684,9 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "pistol",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Injector pistol",
             "range": "3\""
@@ -10704,10 +10704,10 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 4+",
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Plaguespurt gauntlet",
             "range": "12\""
@@ -10724,7 +10724,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Balesword"
           }
@@ -10741,7 +10741,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bubotic weapons"
           }
@@ -10773,8 +10773,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Corrupted staff"
           }
@@ -10791,7 +10791,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Flail of corruption"
           }
@@ -10808,8 +10808,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "lethal hits"
+              "DEVASTATING WOUNDS",
+              "LETHAL HITS"
             ],
             "name": "Great plague blade"
           }
@@ -10826,7 +10826,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy plague weapon"
           }
@@ -10843,7 +10843,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague knife"
           }
@@ -10860,7 +10860,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Power fist"
           }
@@ -10877,7 +10877,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - strike"
           },
@@ -10888,7 +10888,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - sweep"
           }
@@ -10915,13 +10915,13 @@
     "faction": "deathguard",
     "id": "deathguard/plague-surgeon",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "nurgle",
-      "plague surgeon"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "PLAGUE SURGEON"
     ],
     "name": "Plague Surgeon",
     "points": [
@@ -10998,7 +10998,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Balesword"
           }
@@ -11016,8 +11016,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "pistol"
+              "LETHAL HITS",
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -11044,14 +11044,14 @@
     "faction": "deathguard",
     "id": "deathguard/plaguebearers",
     "keywords": [
-      "battleline",
-      "chaos",
-      "daemon",
-      "faction: plague legions",
-      "infantry",
-      "nurgle",
-      "plaguebearers",
-      "summoned"
+      "BATTLELINE",
+      "CHAOS",
+      "DAEMON",
+      "FACTION: PLAGUE LEGIONS",
+      "INFANTRY",
+      "NURGLE",
+      "PLAGUEBEARERS",
+      "SUMMONED"
     ],
     "name": "Plaguebearers",
     "points": [
@@ -11135,7 +11135,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plaguesword"
           }
@@ -11154,13 +11154,13 @@
     "faction": "deathguard",
     "id": "deathguard/plagueburst-crawler",
     "keywords": [
-      "chaos",
-      "daemon",
-      "faction: death guard",
-      "frame",
-      "nurgle",
-      "plagueburst crawler",
-      "vehicle"
+      "CHAOS",
+      "DAEMON",
+      "FACTION: DEATH GUARD",
+      "FRAME",
+      "NURGLE",
+      "PLAGUEBURST CRAWLER",
+      "VEHICLE"
     ],
     "name": "Plagueburst Crawler",
     "points": [
@@ -11318,9 +11318,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "indirect fire",
-              "lethal hits"
+              "BLAST",
+              "INDIRECT FIRE",
+              "LETHAL HITS"
             ],
             "name": "Plagueburst mortar",
             "range": "48\""
@@ -11338,8 +11338,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits",
-              "rapid fire 3"
+              "LETHAL HITS",
+              "RAPID FIRE 3"
             ],
             "name": "Rothail volley gun",
             "range": "36\""
@@ -11357,7 +11357,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy slugger",
             "range": "36\""
@@ -11375,7 +11375,7 @@
             "D": "D6+1",
             "S": "10",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Entropy cannon",
             "range": "36\""
@@ -11393,9 +11393,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plaguespitter",
             "range": "12\""
@@ -11429,11 +11429,11 @@
     "faction": "deathguard",
     "id": "deathguard/poxwalkers",
     "keywords": [
-      "chaos",
-      "faction: death guard",
-      "infantry",
-      "nurgle",
-      "poxwalkers"
+      "CHAOS",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "NURGLE",
+      "POXWALKERS"
     ],
     "name": "Poxwalkers",
     "points": [
@@ -11507,7 +11507,7 @@
             "S": "3",
             "WS": "5+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Improvised weapons"
           }
@@ -11535,16 +11535,16 @@
     "faction": "deathguard",
     "id": "deathguard/rotigus",
     "keywords": [
-      "chaos",
-      "character",
-      "daemon",
-      "epic hero",
-      "faction: plague legions",
-      "monster",
-      "nurgle",
-      "psyker",
-      "rotigus",
-      "summoned"
+      "CHAOS",
+      "CHARACTER",
+      "DAEMON",
+      "EPIC HERO",
+      "FACTION: PLAGUE LEGIONS",
+      "MONSTER",
+      "NURGLE",
+      "PSYKER",
+      "ROTIGUS",
+      "SUMMONED"
     ],
     "name": "Rotigus",
     "points": [
@@ -11611,9 +11611,9 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "devastating wounds",
-              "ignores cover",
-              "torrent"
+              "DEVASTATING WOUNDS",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Streams of brackish filth",
             "range": "12\""
@@ -11630,8 +11630,8 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Gnarlrod - strike"
           },
@@ -11642,8 +11642,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Gnarlrod - sweep"
           }
@@ -11670,16 +11670,16 @@
     "faction": "deathguard",
     "id": "deathguard/sorcerer-on-palanquin-of-nurgle-legends",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "leader",
-      "nurgle",
-      "palanquin of nurgle",
-      "psyker",
-      "sorcerer"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "PALANQUIN OF NURGLE",
+      "PSYKER",
+      "SORCERER"
     ],
     "name": "Sorcerer on Palanquin of Nurgle [Legends]",
     "points": [
@@ -11848,8 +11848,8 @@
             "S": "2",
             "WS": "5+",
             "keywords": [
-              "extra attacks",
-              "lethal hits"
+              "EXTRA ATTACKS",
+              "LETHAL HITS"
             ],
             "name": "Nurgling's claws and teeth"
           }
@@ -11867,7 +11867,7 @@
             "D": "D3",
             "S": "5",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Infernal Gaze - witchfire",
             "range": "24\""
@@ -11879,9 +11879,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "hazardous",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "HAZARDOUS",
+              "PSYCHIC"
             ],
             "name": "Infernal Gaze - focused witchfire",
             "range": "24\""
@@ -11898,7 +11898,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Force weapon"
           }
@@ -11916,7 +11916,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -11949,7 +11949,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -11982,7 +11982,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -11994,8 +11994,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -12028,9 +12028,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -12057,13 +12057,13 @@
     "faction": "deathguard",
     "id": "deathguard/tallyman",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "nurgle",
-      "tallyman"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "TALLYMAN"
     ],
     "name": "Tallyman",
     "points": [
@@ -12156,7 +12156,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -12168,8 +12168,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -12188,14 +12188,14 @@
     "faction": "deathguard",
     "id": "deathguard/tri-lobe-vectors-crucible",
     "keywords": [
-      "chaos",
-      "character",
-      "faction: death guard",
-      "grenades",
-      "infantry",
-      "leader",
-      "nurgle",
-      "tri-lobe vectors"
+      "CHAOS",
+      "CHARACTER",
+      "FACTION: DEATH GUARD",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "TRI-LOBE VECTORS"
     ],
     "name": "Tri-lobe Vectors [Crucible]",
     "points": [
@@ -12692,8 +12692,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "lethal hits"
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Blight launcher",
             "range": "24\""
@@ -12711,7 +12711,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -12729,8 +12729,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "rapid fire 2"
+              "LETHAL HITS",
+              "RAPID FIRE 2"
             ],
             "name": "Combi-bolter",
             "range": "24\""
@@ -12748,9 +12748,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -12768,9 +12768,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "assault",
-              "blast",
-              "lethal hits"
+              "ASSAULT",
+              "BLAST",
+              "LETHAL HITS"
             ],
             "name": "Hyper blight grenades",
             "range": "12\""
@@ -12788,7 +12788,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -12806,9 +12806,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague belcher",
             "range": "12\""
@@ -12826,9 +12826,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague spewer",
             "range": "12\""
@@ -12846,9 +12846,9 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Plague sprayer",
             "range": "12\""
@@ -12866,8 +12866,8 @@
             "D": "D3",
             "S": "4",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Plague Wind - witchfire",
             "range": "12\""
@@ -12879,9 +12879,9 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "torrent"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Plague Wind - focused witchfire",
             "range": "12\""
@@ -12899,7 +12899,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -12911,8 +12911,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -12930,8 +12930,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "devastating wounds",
-              "sustained hits 1"
+              "DEVASTATING WOUNDS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Reaper autocannon",
             "range": "36\""
@@ -12949,10 +12949,10 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin plague spewer",
             "range": "12\""
@@ -12970,8 +12970,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "lethal hits",
-              "pistol"
+              "LETHAL HITS",
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "24\""
@@ -12989,8 +12989,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1",
-              "pistol"
+              "RAPID FIRE 1",
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -13002,8 +13002,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -13021,9 +13021,9 @@
             "D": "3",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "pistol",
-              "precision"
+              "ANTI-INFANTRY 2+",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Injector pistol",
             "range": "3\""
@@ -13041,10 +13041,10 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "anti infantry 4+",
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "ANTI-INFANTRY 4+",
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Plaguespurt gauntlet",
             "range": "12\""
@@ -13061,7 +13061,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Balesword"
           }
@@ -13078,7 +13078,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Bubotic weapons"
           }
@@ -13110,8 +13110,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Corrupted staff"
           }
@@ -13128,7 +13128,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Flail of corruption"
           }
@@ -13145,8 +13145,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "lethal hits"
+              "DEVASTATING WOUNDS",
+              "LETHAL HITS"
             ],
             "name": "Great plague blade"
           }
@@ -13163,7 +13163,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Heavy plague weapon"
           }
@@ -13180,7 +13180,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Plague knife"
           }
@@ -13197,7 +13197,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Power fist"
           }
@@ -13214,7 +13214,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - strike"
           },
@@ -13225,7 +13225,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Manreaper - sweep"
           }
@@ -13252,16 +13252,16 @@
     "faction": "deathguard",
     "id": "deathguard/typhus",
     "keywords": [
-      "chaos",
-      "character",
-      "epic hero",
-      "faction: death guard",
-      "infantry",
-      "leader",
-      "nurgle",
-      "psyker",
-      "terminator",
-      "typhus"
+      "CHAOS",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: DEATH GUARD",
+      "INFANTRY",
+      "LEADER",
+      "NURGLE",
+      "PSYKER",
+      "TERMINATOR",
+      "TYPHUS"
     ],
     "name": "Typhus",
     "points": [
@@ -13317,7 +13317,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Lakrimae - strike"
           },
@@ -13328,7 +13328,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Lakrimae - sweep"
           }

@@ -14,11 +14,11 @@
     "faction": "tyranids",
     "id": "tyranids/barbed-hierodule-legends",
     "keywords": [
-      "barbed hierodule",
-      "faction: tyranids",
-      "frame",
-      "great devourer",
-      "monster"
+      "BARBED HIERODULE",
+      "FACTION: TYRANIDS",
+      "FRAME",
+      "GREAT DEVOURER",
+      "MONSTER"
     ],
     "name": "Barbed Hierodule [Legends]",
     "points": [
@@ -96,7 +96,7 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Bio-cannon",
             "range": "48\""
@@ -130,10 +130,10 @@
     "faction": "tyranids",
     "id": "tyranids/barbgaunts",
     "keywords": [
-      "barbgaunts",
-      "faction: tyranids",
-      "great devourer",
-      "infantry"
+      "BARBGAUNTS",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY"
     ],
     "name": "Barbgaunts",
     "points": [
@@ -220,8 +220,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Barblauncher",
             "range": "24\""
@@ -255,10 +255,10 @@
     "faction": "tyranids",
     "id": "tyranids/biovores",
     "keywords": [
-      "biovore",
-      "faction: tyranids",
-      "great devourer",
-      "infantry"
+      "BIOVORE",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY"
     ],
     "name": "Biovores",
     "points": [
@@ -345,10 +345,10 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "blast",
-              "devastating wounds",
-              "heavy",
-              "indirect fire"
+              "BLAST",
+              "DEVASTATING WOUNDS",
+              "HEAVY",
+              "INDIRECT FIRE"
             ],
             "name": "Spore mine launcher",
             "range": "48\""
@@ -390,15 +390,15 @@
     "faction": "tyranids",
     "id": "tyranids/broodlord",
     "keywords": [
-      "broodlord",
-      "character",
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "leader",
-      "psyker",
-      "synapse",
-      "vanguard invader"
+      "BROODLORD",
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "SYNAPSE",
+      "VANGUARD INVADER"
     ],
     "name": "Broodlord",
     "points": [
@@ -463,8 +463,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Broodlord Claws and Talons"
           }
@@ -483,10 +483,10 @@
     "faction": "tyranids",
     "id": "tyranids/carnifexes",
     "keywords": [
-      "carnifexes",
-      "faction: tyranids",
-      "great devourer",
-      "monster"
+      "CARNIFEXES",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER"
     ],
     "name": "Carnifexes",
     "points": [
@@ -725,8 +725,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Bio-plasma",
             "range": "12\""
@@ -744,7 +744,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Spine banks",
             "range": "6\""
@@ -824,7 +824,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy venom cannon",
             "range": "36\""
@@ -842,7 +842,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Stranglethorn cannon",
             "range": "36\""
@@ -859,7 +859,7 @@
             "S": "9",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Carnifex extra scything talons"
           }
@@ -886,13 +886,13 @@
     "faction": "tyranids",
     "id": "tyranids/deathleaper",
     "keywords": [
-      "character",
-      "deathleaper",
-      "epic hero",
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "vanguard invader"
+      "CHARACTER",
+      "DEATHLEAPER",
+      "EPIC HERO",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "VANGUARD INVADER"
     ],
     "name": "Deathleaper",
     "points": [
@@ -948,7 +948,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Lictor claws and talons"
           }
@@ -972,11 +972,11 @@
     "faction": "tyranids",
     "id": "tyranids/dimachaeron-legends",
     "keywords": [
-      "dimachaeron",
-      "faction: tyranids",
-      "frame",
-      "great devourer",
-      "monster"
+      "DIMACHAERON",
+      "FACTION: TYRANIDS",
+      "FRAME",
+      "GREAT DEVOURER",
+      "MONSTER"
     ],
     "name": "Dimachaeron [Legends]",
     "points": [
@@ -1041,7 +1041,7 @@
             "S": "9",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Massive scything talons"
           }
@@ -1065,10 +1065,10 @@
     "faction": "tyranids",
     "id": "tyranids/exocrine",
     "keywords": [
-      "exocrine",
-      "faction: tyranids",
-      "great devourer",
-      "monster"
+      "EXOCRINE",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER"
     ],
     "name": "Exocrine",
     "points": [
@@ -1146,8 +1146,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Bio-plasmic cannon",
             "range": "36\""
@@ -1181,14 +1181,14 @@
     "faction": "tyranids",
     "id": "tyranids/gargoyles",
     "keywords": [
-      "battleline",
-      "endless multitude",
-      "faction: tyranids",
-      "fly",
-      "gargoyles",
-      "great devourer",
-      "infantry",
-      "vanguard invader"
+      "BATTLELINE",
+      "ENDLESS MULTITUDE",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GARGOYLES",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "VANGUARD INVADER"
     ],
     "name": "Gargoyles",
     "points": [
@@ -1290,7 +1290,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Fleshborer",
             "range": "18\""
@@ -1309,11 +1309,11 @@
     "faction": "tyranids",
     "id": "tyranids/genestealers",
     "keywords": [
-      "faction: tyranids",
-      "genestealers",
-      "great devourer",
-      "infantry",
-      "vanguard invader"
+      "FACTION: TYRANIDS",
+      "GENESTEALERS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "VANGUARD INVADER"
     ],
     "name": "Genestealers",
     "points": [
@@ -1418,13 +1418,13 @@
     "faction": "tyranids",
     "id": "tyranids/harpy",
     "keywords": [
-      "aircraft",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "harpy",
-      "monster",
-      "vanguard invader"
+      "AIRCRAFT",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "HARPY",
+      "MONSTER",
+      "VANGUARD INVADER"
     ],
     "name": "Harpy",
     "points": [
@@ -1533,8 +1533,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Twin stranglethorn cannon",
             "range": "36\""
@@ -1552,8 +1552,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy venom cannon",
             "range": "36\""
@@ -1612,13 +1612,13 @@
     "faction": "tyranids",
     "id": "tyranids/harridan",
     "keywords": [
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "harridan",
-      "monster",
-      "titanic",
-      "transport"
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "HARRIDAN",
+      "MONSTER",
+      "TITANIC",
+      "TRANSPORT"
     ],
     "name": "Harridan",
     "points": [
@@ -1696,7 +1696,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Dire bio-cannon",
             "range": "48\""
@@ -1735,11 +1735,11 @@
     "faction": "tyranids",
     "id": "tyranids/haruspex",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "haruspex",
-      "harvester",
-      "monster"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HARUSPEX",
+      "HARVESTER",
+      "MONSTER"
     ],
     "name": "Haruspex",
     "points": [
@@ -1828,7 +1828,7 @@
             "D": "D6+1",
             "S": "6",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Grasping tongue",
             "range": "12\""
@@ -1845,7 +1845,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Shovelling claws"
           }
@@ -1892,14 +1892,14 @@
     "faction": "tyranids",
     "id": "tyranids/hierophant",
     "keywords": [
-      "faction: tyranids",
-      "frame",
-      "great devourer",
-      "hierophant",
-      "monster",
-      "titanic",
-      "towering",
-      "transport"
+      "FACTION: TYRANIDS",
+      "FRAME",
+      "GREAT DEVOURER",
+      "HIEROPHANT",
+      "MONSTER",
+      "TITANIC",
+      "TOWERING",
+      "TRANSPORT"
     ],
     "name": "Hierophant",
     "points": [
@@ -1999,8 +1999,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "assault",
-              "torrent"
+              "ASSAULT",
+              "TORRENT"
             ],
             "name": "Bio-plasma torrent",
             "range": "12\""
@@ -2018,7 +2018,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Dire bio-cannon",
             "range": "48\""
@@ -2035,7 +2035,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Lashwhip pods"
           }
@@ -2074,13 +2074,13 @@
     "faction": "tyranids",
     "id": "tyranids/hive-crone",
     "keywords": [
-      "aircraft",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "hive crone",
-      "monster",
-      "vanguard invader"
+      "AIRCRAFT",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "HIVE CRONE",
+      "MONSTER",
+      "VANGUARD INVADER"
     ],
     "name": "Hive Crone",
     "points": [
@@ -2191,7 +2191,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Drool cannon",
             "range": "12\""
@@ -2209,8 +2209,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti vehicle 4+",
-              "devastating wounds"
+              "ANTI-VEHICLE 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Tentaclids",
             "range": "36\""
@@ -2227,8 +2227,8 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "anti fly 2+",
-              "extra attacks"
+              "ANTI-FLY 2+",
+              "EXTRA ATTACKS"
             ],
             "name": "Thorax spur"
           }
@@ -2278,10 +2278,10 @@
     "faction": "tyranids",
     "id": "tyranids/hive-guard",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "hive guard",
-      "infantry"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HIVE GUARD",
+      "INFANTRY"
     ],
     "name": "Hive Guard",
     "points": [
@@ -2404,7 +2404,7 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Shockcannon",
             "range": "24\""
@@ -2437,8 +2437,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "indirect fire"
+              "HEAVY",
+              "INDIRECT FIRE"
             ],
             "name": "Impaler cannon",
             "range": "36\""
@@ -2465,14 +2465,14 @@
     "faction": "tyranids",
     "id": "tyranids/hive-tyrant",
     "keywords": [
-      "character",
-      "faction: tyranids",
-      "great devourer",
-      "hive tyrant",
-      "leader",
-      "monster",
-      "psyker",
-      "synapse"
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HIVE TYRANT",
+      "LEADER",
+      "MONSTER",
+      "PSYKER",
+      "SYNAPSE"
     ],
     "name": "Hive Tyrant",
     "points": [
@@ -2679,7 +2679,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Monstrous bonesword and lash whip"
           }
@@ -2697,7 +2697,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy venom cannon",
             "range": "36\""
@@ -2715,7 +2715,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Stranglethorn cannon",
             "range": "36\""
@@ -2732,7 +2732,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Monstrous scything talons"
           }
@@ -2751,12 +2751,12 @@
     "faction": "tyranids",
     "id": "tyranids/hormagaunts",
     "keywords": [
-      "battleline",
-      "endless multitude",
-      "faction: tyranids",
-      "great devourer",
-      "hormagaunts",
-      "infantry"
+      "BATTLELINE",
+      "ENDLESS MULTITUDE",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HORMAGAUNTS",
+      "INFANTRY"
     ],
     "name": "Hormagaunts",
     "points": [
@@ -2870,14 +2870,14 @@
     "faction": "tyranids",
     "id": "tyranids/hyperadapted-raveners",
     "keywords": [
-      "burrowers",
-      "character",
-      "faction: tyranids",
-      "great devourer",
-      "hyperadapted raveners",
-      "infantry",
-      "leader",
-      "vanguard invader"
+      "BURROWERS",
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HYPERADAPTED RAVENERS",
+      "INFANTRY",
+      "LEADER",
+      "VANGUARD INVADER"
     ],
     "name": "Hyperadapted Raveners",
     "points": [
@@ -3012,9 +3012,9 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster 5+",
-              "anti vehicle 5+",
-              "twin linked"
+              "ANTI-MONSTER 5+",
+              "ANTI-VEHICLE 5+",
+              "TWIN-LINKED"
             ],
             "name": "Prime claws and talons"
           }
@@ -3031,9 +3031,9 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster 5+",
-              "anti vehicle 5+",
-              "twin linked"
+              "ANTI-MONSTER 5+",
+              "ANTI-VEHICLE 5+",
+              "TWIN-LINKED"
             ],
             "name": "Ravener heavy claws and talons"
           }
@@ -3051,9 +3051,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Venom bolt",
             "range": "12\""
@@ -3076,11 +3076,11 @@
     "faction": "tyranids",
     "id": "tyranids/lictor",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "lictor",
-      "vanguard invader"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "LICTOR",
+      "VANGUARD INVADER"
     ],
     "name": "Lictor",
     "points": [
@@ -3145,7 +3145,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Lictor claws and talons"
           }
@@ -3164,12 +3164,12 @@
     "faction": "tyranids",
     "id": "tyranids/macro-organism-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: tyranids",
-      "great devourer",
-      "macro organism",
-      "monster"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MACRO ORGANISM",
+      "MONSTER"
     ],
     "name": "Macro Organism [Crucible]",
     "points": [
@@ -4130,7 +4130,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Barbed strangler",
             "range": "36\""
@@ -4148,8 +4148,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Bio-plasma",
             "range": "12\""
@@ -4167,8 +4167,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Bio-plasmic cannon",
             "range": "36\""
@@ -4250,7 +4250,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy venom cannon",
             "range": "36\""
@@ -4268,7 +4268,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Spine banks",
             "range": "6\""
@@ -4286,9 +4286,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol",
-              "twin linked"
+              "ASSAULT",
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Spinefists",
             "range": "12\""
@@ -4306,7 +4306,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Stranglethorn cannon",
             "range": "36\""
@@ -4324,7 +4324,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Thoracic bio-weapon",
             "range": "12\""
@@ -4342,7 +4342,7 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Venom cannon",
             "range": "36\""
@@ -4360,7 +4360,7 @@
             "D": "2D6",
             "S": "18",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Rupture cannon",
             "range": "48\""
@@ -4378,7 +4378,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Acid spray",
             "range": "18\""
@@ -4396,7 +4396,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Bio-electric pulse",
             "range": "12\""
@@ -4414,9 +4414,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1",
-              "twin linked"
+              "HEAVY",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Fleshborer hive",
             "range": "24\""
@@ -4434,8 +4434,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Psychic overload",
             "range": "18\""
@@ -4453,9 +4453,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic scream",
             "range": "18\""
@@ -4473,8 +4473,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Psychoclastic torrent",
             "range": "12\""
@@ -4561,7 +4561,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Piercing claws and talons"
           }
@@ -4578,7 +4578,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Ravener claws and talons"
           }
@@ -4640,7 +4640,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Monstrous scything talons"
           }
@@ -4657,7 +4657,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Monstrous bonesword and lash whip"
           }
@@ -4699,14 +4699,14 @@
     "faction": "tyranids",
     "id": "tyranids/malanthrope-legends",
     "keywords": [
-      "character",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "infantry",
-      "leader",
-      "malanthrope",
-      "synapse"
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "LEADER",
+      "MALANTHROPE",
+      "SYNAPSE"
     ],
     "name": "Malanthrope [Legends]",
     "points": [
@@ -4793,12 +4793,12 @@
     "faction": "tyranids",
     "id": "tyranids/maleceptor",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "maleceptor",
-      "monster",
-      "psyker",
-      "synapse"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MALECEPTOR",
+      "MONSTER",
+      "PSYKER",
+      "SYNAPSE"
     ],
     "name": "Maleceptor",
     "points": [
@@ -4900,8 +4900,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Psychic overload",
             "range": "18\""
@@ -4925,11 +4925,11 @@
     "faction": "tyranids",
     "id": "tyranids/mawloc",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "mawloc",
-      "monster",
-      "vanguard invader"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MAWLOC",
+      "MONSTER",
+      "VANGUARD INVADER"
     ],
     "name": "Mawloc",
     "points": [
@@ -5006,9 +5006,9 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "extra attacks"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "EXTRA ATTACKS"
             ],
             "name": "Distendible jaw"
           }
@@ -5046,11 +5046,11 @@
     "faction": "tyranids",
     "id": "tyranids/mucolid-spores",
     "keywords": [
-      "beast",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "mucolid spores"
+      "BEAST",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "MUCOLID SPORES"
     ],
     "name": "Mucolid Spores",
     "points": [
@@ -5100,12 +5100,12 @@
     "faction": "tyranids",
     "id": "tyranids/mucolid-spores-sporocyst",
     "keywords": [
-      "beast",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "mucolid spores",
-      "reference"
+      "BEAST",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "MUCOLID SPORES",
+      "REFERENCE"
     ],
     "name": "Mucolid Spores (Sporocyst)",
     "points": [
@@ -5151,11 +5151,11 @@
     "faction": "tyranids",
     "id": "tyranids/neurogaunts",
     "keywords": [
-      "endless multitude",
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "neurogaunts"
+      "ENDLESS MULTITUDE",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "NEUROGAUNTS"
     ],
     "name": "Neurogaunts",
     "points": [
@@ -5297,12 +5297,12 @@
     "faction": "tyranids",
     "id": "tyranids/neurolictor",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "neurolictor",
-      "synapse",
-      "vanguard invader"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "NEUROLICTOR",
+      "SYNAPSE",
+      "VANGUARD INVADER"
     ],
     "name": "Neurolictor",
     "points": [
@@ -5367,7 +5367,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Piercing claws and talons"
           }
@@ -5398,15 +5398,15 @@
     "faction": "tyranids",
     "id": "tyranids/neurotyrant",
     "keywords": [
-      "character",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "leader",
-      "monster",
-      "neurotyrant",
-      "psyker",
-      "synapse"
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "LEADER",
+      "MONSTER",
+      "NEUROTYRANT",
+      "PSYKER",
+      "SYNAPSE"
     ],
     "name": "Neurotyrant",
     "points": [
@@ -5499,9 +5499,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic scream",
             "range": "18\""
@@ -5524,14 +5524,14 @@
     "faction": "tyranids",
     "id": "tyranids/node-organism-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "leader",
-      "node organism",
-      "synapse"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "LEADER",
+      "NODE ORGANISM",
+      "SYNAPSE"
     ],
     "name": "Node Organism [Crucible]",
     "points": [
@@ -6492,7 +6492,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Barbed strangler",
             "range": "36\""
@@ -6510,8 +6510,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Bio-plasma",
             "range": "12\""
@@ -6529,8 +6529,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Bio-plasmic cannon",
             "range": "36\""
@@ -6612,7 +6612,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy venom cannon",
             "range": "36\""
@@ -6630,7 +6630,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Spine banks",
             "range": "6\""
@@ -6648,9 +6648,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol",
-              "twin linked"
+              "ASSAULT",
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Spinefists",
             "range": "12\""
@@ -6668,7 +6668,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Stranglethorn cannon",
             "range": "36\""
@@ -6686,7 +6686,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Thoracic bio-weapon",
             "range": "12\""
@@ -6704,7 +6704,7 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Venom cannon",
             "range": "36\""
@@ -6722,7 +6722,7 @@
             "D": "2D6",
             "S": "18",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Rupture cannon",
             "range": "48\""
@@ -6740,7 +6740,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Acid spray",
             "range": "18\""
@@ -6758,7 +6758,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Bio-electric pulse",
             "range": "12\""
@@ -6776,9 +6776,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1",
-              "twin linked"
+              "HEAVY",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Fleshborer hive",
             "range": "24\""
@@ -6796,8 +6796,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Psychic overload",
             "range": "18\""
@@ -6815,9 +6815,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic scream",
             "range": "18\""
@@ -6835,8 +6835,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Psychoclastic torrent",
             "range": "12\""
@@ -6923,7 +6923,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Piercing claws and talons"
           }
@@ -6940,7 +6940,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Ravener claws and talons"
           }
@@ -7002,7 +7002,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Monstrous scything talons"
           }
@@ -7019,7 +7019,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Monstrous bonesword and lash whip"
           }
@@ -7066,12 +7066,12 @@
     "faction": "tyranids",
     "id": "tyranids/norn-assimilator",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "harvester",
-      "monster",
-      "norn assimilator",
-      "synapse"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HARVESTER",
+      "MONSTER",
+      "NORN ASSIMILATOR",
+      "SYNAPSE"
     ],
     "name": "Norn Assimilator",
     "points": [
@@ -7163,7 +7163,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Toxinjecter Harpoon"
           }
@@ -7177,7 +7177,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "harpooned"
+              "HARPOONED"
             ],
             "name": "Toxinjecter Harpoon",
             "range": "12\""
@@ -7205,12 +7205,12 @@
     "faction": "tyranids",
     "id": "tyranids/norn-emissary",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "monster",
-      "norn emissary",
-      "psyker",
-      "synapse"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "NORN EMISSARY",
+      "PSYKER",
+      "SYNAPSE"
     ],
     "name": "Norn Emissary",
     "points": [
@@ -7298,7 +7298,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Monstrous rending claws"
           }
@@ -7331,8 +7331,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "precision",
-              "psychic"
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Psychic tendril - neuroparasite",
             "range": "18\""
@@ -7344,8 +7344,8 @@
             "D": "D6",
             "S": "12",
             "keywords": [
-              "melta 2",
-              "psychic"
+              "MELTA 2",
+              "PSYCHIC"
             ],
             "name": "Psychic tendril - neurolance",
             "range": "18\""
@@ -7357,8 +7357,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Psychic tendril - neuroblast",
             "range": "18\""
@@ -7385,13 +7385,13 @@
     "faction": "tyranids",
     "id": "tyranids/old-one-eye",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: tyranids",
-      "great devourer",
-      "leader",
-      "monster",
-      "old one eye"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "LEADER",
+      "MONSTER",
+      "OLD ONE EYE"
     ],
     "name": "Old One Eye",
     "points": [
@@ -7477,14 +7477,14 @@
     "faction": "tyranids",
     "id": "tyranids/parasite-of-mortrex",
     "keywords": [
-      "character",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "infantry",
-      "parasite of mortrex",
-      "synapse",
-      "vanguard invader"
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "PARASITE OF MORTREX",
+      "SYNAPSE",
+      "VANGUARD INVADER"
     ],
     "name": "Parasite of Mortrex",
     "points": [
@@ -7561,8 +7561,8 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 3+",
-              "extra attacks"
+              "ANTI-INFANTRY 3+",
+              "EXTRA ATTACKS"
             ],
             "name": "Barbed ovipositor"
           }
@@ -7600,13 +7600,13 @@
     "faction": "tyranids",
     "id": "tyranids/prime-organism-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: tyranids",
-      "great devourer",
-      "leader",
-      "monster",
-      "prime organism"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "LEADER",
+      "MONSTER",
+      "PRIME ORGANISM"
     ],
     "name": "Prime Organism [Crucible]",
     "points": [
@@ -8567,7 +8567,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Barbed strangler",
             "range": "36\""
@@ -8585,8 +8585,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Bio-plasma",
             "range": "12\""
@@ -8604,8 +8604,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Bio-plasmic cannon",
             "range": "36\""
@@ -8687,7 +8687,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy venom cannon",
             "range": "36\""
@@ -8705,7 +8705,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Spine banks",
             "range": "6\""
@@ -8723,9 +8723,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol",
-              "twin linked"
+              "ASSAULT",
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Spinefists",
             "range": "12\""
@@ -8743,7 +8743,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Stranglethorn cannon",
             "range": "36\""
@@ -8761,7 +8761,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Thoracic bio-weapon",
             "range": "12\""
@@ -8779,7 +8779,7 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Venom cannon",
             "range": "36\""
@@ -8797,7 +8797,7 @@
             "D": "2D6",
             "S": "18",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Rupture cannon",
             "range": "48\""
@@ -8815,7 +8815,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Acid spray",
             "range": "18\""
@@ -8833,7 +8833,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Bio-electric pulse",
             "range": "12\""
@@ -8851,9 +8851,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1",
-              "twin linked"
+              "HEAVY",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Fleshborer hive",
             "range": "24\""
@@ -8871,8 +8871,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Psychic overload",
             "range": "18\""
@@ -8890,9 +8890,9 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "psychic",
-              "torrent"
+              "IGNORES COVER",
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Psychic scream",
             "range": "18\""
@@ -8910,8 +8910,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Psychoclastic torrent",
             "range": "12\""
@@ -8998,7 +8998,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Piercing claws and talons"
           }
@@ -9015,7 +9015,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Ravener claws and talons"
           }
@@ -9077,7 +9077,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Monstrous scything talons"
           }
@@ -9094,7 +9094,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Monstrous bonesword and lash whip"
           }
@@ -9132,12 +9132,12 @@
     "faction": "tyranids",
     "id": "tyranids/psychophage",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "harvester",
-      "monster",
-      "psychophage",
-      "smoke"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HARVESTER",
+      "MONSTER",
+      "PSYCHOPHAGE",
+      "SMOKE"
     ],
     "name": "Psychophage",
     "points": [
@@ -9214,8 +9214,8 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti psyker 4+",
-              "devastating wounds"
+              "ANTI-PSYKER 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Talons and betentacled maw"
           }
@@ -9233,8 +9233,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Psychoclastic torrent",
             "range": "12\""
@@ -9253,11 +9253,11 @@
     "faction": "tyranids",
     "id": "tyranids/pyrovores",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "harvester",
-      "infantry",
-      "pyrovores"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HARVESTER",
+      "INFANTRY",
+      "PYROVORES"
     ],
     "name": "Pyrovores",
     "points": [
@@ -9344,9 +9344,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Flamespurt",
             "range": "12\""
@@ -9380,12 +9380,12 @@
     "faction": "tyranids",
     "id": "tyranids/raveners",
     "keywords": [
-      "burrowers",
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "raveners",
-      "vanguard invader"
+      "BURROWERS",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "RAVENERS",
+      "VANGUARD INVADER"
     ],
     "name": "Raveners",
     "points": [
@@ -9459,7 +9459,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Ravener claws and talons"
           }
@@ -9478,11 +9478,11 @@
     "faction": "tyranids",
     "id": "tyranids/ripper-swarms",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "harvester",
-      "ripper swarm",
-      "swarm"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HARVESTER",
+      "RIPPER SWARM",
+      "SWARM"
     ],
     "name": "Ripper Swarms",
     "points": [
@@ -9568,7 +9568,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Spinemaw",
             "range": "6\""
@@ -9585,7 +9585,7 @@
             "S": "2",
             "WS": "5+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Chitinous claws and teeth"
           }
@@ -9604,12 +9604,12 @@
     "faction": "tyranids",
     "id": "tyranids/ripper-swarms-parasite-of-mortrex",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "harvester",
-      "reference",
-      "ripper swarm",
-      "swarm"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HARVESTER",
+      "REFERENCE",
+      "RIPPER SWARM",
+      "SWARM"
     ],
     "name": "Ripper Swarms (Parasite of Mortrex)",
     "points": [
@@ -9695,7 +9695,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Spinemaw",
             "range": "6\""
@@ -9712,7 +9712,7 @@
             "S": "2",
             "WS": "5+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Chitinous claws and teeth"
           }
@@ -9731,10 +9731,10 @@
     "faction": "tyranids",
     "id": "tyranids/screamer-killer",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "monster",
-      "screamer-killer"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "SCREAMER-KILLER"
     ],
     "name": "Screamer-killer",
     "points": [
@@ -9812,8 +9812,8 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Bio-plasmic scream",
             "range": "18\""
@@ -9852,11 +9852,11 @@
     "faction": "tyranids",
     "id": "tyranids/scythed-hierodule-legends",
     "keywords": [
-      "faction: tyranids",
-      "frame",
-      "great devourer",
-      "monster",
-      "scythed hierodule"
+      "FACTION: TYRANIDS",
+      "FRAME",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "SCYTHED HIERODULE"
     ],
     "name": "Scythed Hierodule [Legends]",
     "points": [
@@ -9934,7 +9934,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Bio-acid spray",
             "range": "18\""
@@ -9968,11 +9968,11 @@
     "faction": "tyranids",
     "id": "tyranids/sky-slasher-swarms-legends",
     "keywords": [
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "sky-slasher swarms",
-      "swarm"
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "SKY-SLASHER SWARMS",
+      "SWARM"
     ],
     "name": "Sky-slasher Swarms [Legends]",
     "points": [
@@ -10078,7 +10078,7 @@
             "S": "2",
             "WS": "5+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Claws and teeth"
           }
@@ -10096,7 +10096,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Spinemaws",
             "range": "6\""
@@ -10119,11 +10119,11 @@
     "faction": "tyranids",
     "id": "tyranids/spore-mines",
     "keywords": [
-      "beast",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "spore mines"
+      "BEAST",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "SPORE MINES"
     ],
     "name": "Spore Mines",
     "points": [
@@ -10173,12 +10173,12 @@
     "faction": "tyranids",
     "id": "tyranids/spore-mines-biovore",
     "keywords": [
-      "beast",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "reference",
-      "spore mines"
+      "BEAST",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "REFERENCE",
+      "SPORE MINES"
     ],
     "name": "Spore Mines (Biovore)",
     "points": [
@@ -10228,12 +10228,12 @@
     "faction": "tyranids",
     "id": "tyranids/spore-mines-harpy",
     "keywords": [
-      "beast",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "reference",
-      "spore mines"
+      "BEAST",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "REFERENCE",
+      "SPORE MINES"
     ],
     "name": "Spore Mines (Harpy)",
     "points": [
@@ -10283,10 +10283,10 @@
     "faction": "tyranids",
     "id": "tyranids/sporocyst",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "monster",
-      "sporocyst"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "SPOROCYST"
     ],
     "name": "Sporocyst",
     "points": [
@@ -10379,7 +10379,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "hive defences"
+              "HIVE DEFENCES"
             ],
             "name": "Sporocyst bio-weapon",
             "range": "24\""
@@ -10398,12 +10398,12 @@
     "faction": "tyranids",
     "id": "tyranids/termagants",
     "keywords": [
-      "battleline",
-      "endless multitude",
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "termagants"
+      "BATTLELINE",
+      "ENDLESS MULTITUDE",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "TERMAGANTS"
     ],
     "name": "Termagants",
     "points": [
@@ -10702,7 +10702,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Fleshborer",
             "range": "18\""
@@ -10720,9 +10720,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "assault",
-              "pistol",
-              "twin linked"
+              "ASSAULT",
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Termagant spinefist",
             "range": "12\""
@@ -10771,8 +10771,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Shardlauncher",
             "range": "18\""
@@ -10790,7 +10790,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Spike rifle",
             "range": "24\""
@@ -10808,9 +10808,9 @@
             "D": "1",
             "S": "2",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "torrent"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "TORRENT"
             ],
             "name": "Strangleweb",
             "range": "18\""
@@ -10838,13 +10838,13 @@
     "faction": "tyranids",
     "id": "tyranids/tervigon",
     "keywords": [
-      "character",
-      "faction: tyranids",
-      "great devourer",
-      "monster",
-      "psyker",
-      "synapse",
-      "tervigon"
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "PSYKER",
+      "SYNAPSE",
+      "TERVIGON"
     ],
     "name": "Tervigon",
     "points": [
@@ -11002,15 +11002,15 @@
     "faction": "tyranids",
     "id": "tyranids/the-red-terror",
     "keywords": [
-      "burrowers",
-      "character",
-      "epic hero",
-      "faction: tyranids",
-      "great devourer",
-      "mobile",
-      "monster",
-      "the red terror",
-      "vanguard invader"
+      "BURROWERS",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MOBILE",
+      "MONSTER",
+      "THE RED TERROR",
+      "VANGUARD INVADER"
     ],
     "name": "The Red Terror",
     "points": [
@@ -11087,9 +11087,9 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "extra attacks",
-              "devastating wounds",
-              "precision"
+              "EXTRA ATTACKS",
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Gaping maw"
           }
@@ -11135,16 +11135,16 @@
     "faction": "tyranids",
     "id": "tyranids/the-swarmlord",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: tyranids",
-      "great devourer",
-      "hive tyrant",
-      "leader",
-      "monster",
-      "psyker",
-      "synapse",
-      "the swarmlord"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "HIVE TYRANT",
+      "LEADER",
+      "MONSTER",
+      "PSYKER",
+      "SYNAPSE",
+      "THE SWARMLORD"
     ],
     "name": "The Swarmlord",
     "points": [
@@ -11221,7 +11221,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Bone Sabres"
           }
@@ -11239,8 +11239,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "psychic",
-              "torrent"
+              "PSYCHIC",
+              "TORRENT"
             ],
             "name": "Synaptic Pulse",
             "range": "18\""
@@ -11268,10 +11268,10 @@
     "faction": "tyranids",
     "id": "tyranids/toxicrene",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "monster",
-      "toxicrene"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "TOXICRENE"
     ],
     "name": "Toxicrene",
     "points": [
@@ -11336,7 +11336,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "anti infantry 2+"
+              "ANTI-INFANTRY 2+"
             ],
             "name": "Massive toxic lashes"
           }
@@ -11350,7 +11350,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti infantry 2+"
+              "ANTI-INFANTRY 2+"
             ],
             "name": "Massive toxic lashes",
             "range": "9\""
@@ -11374,11 +11374,11 @@
     "faction": "tyranids",
     "id": "tyranids/trygon",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "monster",
-      "trygon",
-      "vanguard invader"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "TRYGON",
+      "VANGUARD INVADER"
     ],
     "name": "Trygon",
     "points": [
@@ -11471,7 +11471,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Bio-electric pulse",
             "range": "12\""
@@ -11498,13 +11498,13 @@
     "faction": "tyranids",
     "id": "tyranids/tyranid-prime-with-lash-whip",
     "keywords": [
-      "character",
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "leader",
-      "synapse",
-      "tyranid prime with lash whip"
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "LEADER",
+      "SYNAPSE",
+      "TYRANID PRIME WITH LASH WHIP"
     ],
     "name": "Tyranid Prime with Lash Whip",
     "points": [
@@ -11607,7 +11607,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Lash whip"
           }
@@ -11641,12 +11641,12 @@
     "faction": "tyranids",
     "id": "tyranids/tyranid-warriors-with-melee-bio-weapons",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "synapse",
-      "tyranid warriors",
-      "tyranid warriors with melee bio-weapons"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "SYNAPSE",
+      "TYRANID WARRIORS",
+      "TYRANID WARRIORS WITH MELEE BIO-WEAPONS"
     ],
     "name": "Tyranid Warriors with Melee Bio-Weapons",
     "points": [
@@ -11769,7 +11769,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Tyranid Warrior claws and talons"
           }
@@ -11788,11 +11788,11 @@
     "faction": "tyranids",
     "id": "tyranids/tyranid-warriors-with-ranged-bio-weapons",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "synapse",
-      "tyranid warriors with ranged bio-weapons"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "SYNAPSE",
+      "TYRANID WARRIORS WITH RANGED BIO-WEAPONS"
     ],
     "name": "Tyranid Warriors with Ranged Bio-Weapons",
     "points": [
@@ -12116,9 +12116,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "pistol",
-              "twin linked"
+              "ASSAULT",
+              "PISTOL",
+              "TWIN-LINKED"
             ],
             "name": "Spinefists",
             "range": "12\""
@@ -12136,7 +12136,7 @@
             "D": "2",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Venom cannon",
             "range": "36\""
@@ -12154,7 +12154,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Barbed strangler",
             "range": "36\""
@@ -12208,14 +12208,14 @@
     "faction": "tyranids",
     "id": "tyranids/tyrannocyte",
     "keywords": [
-      "dedicated transport",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "monster",
-      "transport",
-      "tyrannocyte",
-      "vanguard invader"
+      "DEDICATED TRANSPORT",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "TRANSPORT",
+      "TYRANNOCYTE",
+      "VANGUARD INVADER"
     ],
     "name": "Tyrannocyte",
     "points": [
@@ -12330,10 +12330,10 @@
     "faction": "tyranids",
     "id": "tyranids/tyrannofex",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "monster",
-      "tyrannofex"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "MONSTER",
+      "TYRANNOFEX"
     ],
     "name": "Tyrannofex",
     "points": [
@@ -12467,7 +12467,7 @@
             "D": "D6+6",
             "S": "18",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Rupture cannon",
             "range": "48\""
@@ -12485,9 +12485,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1",
-              "twin linked"
+              "HEAVY",
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Fleshborer hive",
             "range": "24\""
@@ -12505,7 +12505,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Acid spray",
             "range": "18\""
@@ -12540,10 +12540,10 @@
     "faction": "tyranids",
     "id": "tyranids/tyrant-guard",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "tyrant guard"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "TYRANT GUARD"
     ],
     "name": "Tyrant Guard",
     "points": [
@@ -12677,7 +12677,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Crushing claws and rending claws"
           }
@@ -12696,11 +12696,11 @@
     "faction": "tyranids",
     "id": "tyranids/venomthropes",
     "keywords": [
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "infantry",
-      "venomthropes"
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "VENOMTHROPES"
     ],
     "name": "Venomthropes",
     "points": [
@@ -12774,7 +12774,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 2+"
+              "ANTI-INFANTRY 2+"
             ],
             "name": "Toxic lashes"
           }
@@ -12793,11 +12793,11 @@
     "faction": "tyranids",
     "id": "tyranids/von-ryan-s-leapers",
     "keywords": [
-      "faction: tyranids",
-      "great devourer",
-      "infantry",
-      "vanguard invader",
-      "von ryan's leapers"
+      "FACTION: TYRANIDS",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "VANGUARD INVADER",
+      "VON RYAN'S LEAPERS"
     ],
     "name": "Von Ryan's Leapers",
     "points": [
@@ -12892,16 +12892,16 @@
     "faction": "tyranids",
     "id": "tyranids/winged-hive-tyrant",
     "keywords": [
-      "character",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "hive tyrant",
-      "monster",
-      "psyker",
-      "synapse",
-      "vanguard invader",
-      "winged hive tyrant"
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "HIVE TYRANT",
+      "MONSTER",
+      "PSYKER",
+      "SYNAPSE",
+      "VANGUARD INVADER",
+      "WINGED HIVE TYRANT"
     ],
     "name": "Winged Hive Tyrant",
     "points": [
@@ -13033,7 +13033,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Monstrous scything talons"
           }
@@ -13051,7 +13051,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Stranglethorn cannon",
             "range": "36\""
@@ -13069,7 +13069,7 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy venom cannon",
             "range": "36\""
@@ -13086,7 +13086,7 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Monstrous bonesword and lash whip"
           }
@@ -13113,15 +13113,15 @@
     "faction": "tyranids",
     "id": "tyranids/winged-tyranid-prime",
     "keywords": [
-      "character",
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "infantry",
-      "leader",
-      "synapse",
-      "vanguard invader",
-      "winged tyranid prime"
+      "CHARACTER",
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "LEADER",
+      "SYNAPSE",
+      "VANGUARD INVADER",
+      "WINGED TYRANID PRIME"
     ],
     "name": "Winged Tyranid Prime",
     "points": [
@@ -13207,13 +13207,13 @@
     "faction": "tyranids",
     "id": "tyranids/zoanthropes",
     "keywords": [
-      "faction: tyranids",
-      "fly",
-      "great devourer",
-      "infantry",
-      "psyker",
-      "synapse",
-      "zoanthropes"
+      "FACTION: TYRANIDS",
+      "FLY",
+      "GREAT DEVOURER",
+      "INFANTRY",
+      "PSYKER",
+      "SYNAPSE",
+      "ZOANTHROPES"
     ],
     "name": "Zoanthropes",
     "points": [
@@ -13355,8 +13355,8 @@
             "D": "D3",
             "S": "7",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Warp blast - witchfire",
             "range": "24\""
@@ -13368,8 +13368,8 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Warp blast - focused witchfire",
             "range": "24\""

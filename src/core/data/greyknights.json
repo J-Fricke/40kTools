@@ -17,14 +17,14 @@
     "faction": "greyknights",
     "id": "greyknights/brother-captain",
     "keywords": [
-      "brother-captain",
-      "character",
-      "faction: grey knights",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker",
-      "terminator"
+      "BROTHER-CAPTAIN",
+      "CHARACTER",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Brother-Captain",
     "points": [
@@ -142,7 +142,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -160,8 +160,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -179,7 +179,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -197,9 +197,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -216,7 +216,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -243,15 +243,15 @@
     "faction": "greyknights",
     "id": "greyknights/brother-captain-stern-legends",
     "keywords": [
-      "brother-captain stern",
-      "character",
-      "epic hero",
-      "faction: grey knights",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker",
-      "terminator"
+      "BROTHER-CAPTAIN STERN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Brother-Captain Stern [Legends]",
     "points": [
@@ -317,7 +317,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force sword"
           }
@@ -335,7 +335,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -362,13 +362,13 @@
     "faction": "greyknights",
     "id": "greyknights/brotherhood-champion",
     "keywords": [
-      "brotherhood champion",
-      "character",
-      "faction: grey knights",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker"
+      "BROTHERHOOD CHAMPION",
+      "CHARACTER",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER"
     ],
     "name": "Brotherhood Champion",
     "points": [
@@ -445,8 +445,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "precision",
-              "psychic"
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -464,7 +464,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -491,14 +491,14 @@
     "faction": "greyknights",
     "id": "greyknights/brotherhood-chaplain",
     "keywords": [
-      "brotherhood chaplain",
-      "character",
-      "faction: grey knights",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker",
-      "terminator"
+      "BROTHERHOOD CHAPLAIN",
+      "CHARACTER",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Brotherhood Chaplain",
     "points": [
@@ -591,7 +591,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -618,14 +618,14 @@
     "faction": "greyknights",
     "id": "greyknights/brotherhood-librarian",
     "keywords": [
-      "brotherhood librarian",
-      "character",
-      "faction: grey knights",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker",
-      "terminator"
+      "BROTHERHOOD LIBRARIAN",
+      "CHARACTER",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Brotherhood Librarian",
     "points": [
@@ -730,7 +730,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -748,9 +748,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -768,7 +768,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -786,8 +786,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Vortex of Doom",
             "range": "18\""
@@ -818,13 +818,13 @@
     "faction": "greyknights",
     "id": "greyknights/brotherhood-techmarine",
     "keywords": [
-      "brotherhood techmarine",
-      "character",
-      "faction: grey knights",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker"
+      "BROTHERHOOD TECHMARINE",
+      "CHARACTER",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER"
     ],
     "name": "Brotherhood Techmarine",
     "points": [
@@ -923,7 +923,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo-arm"
           }
@@ -956,8 +956,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti vehicle 2+",
-              "pistol"
+              "ANTI-VEHICLE 2+",
+              "PISTOL"
             ],
             "name": "Grav-pistol",
             "range": "12\""
@@ -992,14 +992,14 @@
     "faction": "greyknights",
     "id": "greyknights/brotherhood-terminator-squad",
     "keywords": [
-      "battleline",
-      "brotherhood terminator squad",
-      "faction: grey knights",
-      "grenades",
-      "imperium",
-      "infantry",
-      "psyker",
-      "terminator"
+      "BATTLELINE",
+      "BROTHERHOOD TERMINATOR SQUAD",
+      "FACTION: GREY KNIGHTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Brotherhood Terminator Squad",
     "points": [
@@ -1316,7 +1316,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -1334,7 +1334,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -1352,8 +1352,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -1371,7 +1371,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -1389,9 +1389,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -1418,14 +1418,14 @@
     "faction": "greyknights",
     "id": "greyknights/castellan-crowe",
     "keywords": [
-      "castellan crowe",
-      "character",
-      "epic hero",
-      "faction: grey knights",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker"
+      "CASTELLAN CROWE",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER"
     ],
     "name": "Castellan Crowe",
     "points": [
@@ -1502,9 +1502,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Purifying Flame",
             "range": "18\""
@@ -1521,8 +1521,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Black Blade of Antwyr"
           }
@@ -1540,7 +1540,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -1563,14 +1563,14 @@
     "faction": "greyknights",
     "id": "greyknights/champion-of-titan-crucible",
     "keywords": [
-      "champion of titan",
-      "character",
-      "crucible",
-      "faction: grey knights",
-      "grenades",
-      "imperium",
-      "infantry",
-      "psyker"
+      "CHAMPION OF TITAN",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: GREY KNIGHTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PSYKER"
     ],
     "name": "Champion of Titan [Crucible]",
     "points": [
@@ -2344,9 +2344,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -2364,7 +2364,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy plasma cannon - standard",
             "range": "36\""
@@ -2376,8 +2376,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Heavy plasma cannon - supercharge",
             "range": "36\""
@@ -2395,9 +2395,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Purifying Flame",
             "range": "18\""
@@ -2415,7 +2415,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -2449,7 +2449,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Fragstorm grenade launcher",
             "range": "18\""
@@ -2467,7 +2467,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -2485,8 +2485,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -2504,9 +2504,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -2524,7 +2524,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -2542,7 +2542,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -2560,8 +2560,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -2579,8 +2579,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Vortex of Doom",
             "range": "18\""
@@ -2598,8 +2598,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "sustained hits 1"
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Gatling psilencer",
             "range": "24\""
@@ -2617,8 +2617,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy incinerator",
             "range": "18\""
@@ -2636,8 +2636,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "ignores cover",
-              "psychic"
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Heavy psycannon",
             "range": "24\""
@@ -2655,9 +2655,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4",
-              "psychic",
-              "twin linked"
+              "MELTA 4",
+              "PSYCHIC",
+              "TWIN-LINKED"
             ],
             "name": "Sublimator",
             "range": "18\""
@@ -2675,8 +2675,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti vehicle 2+",
-              "pistol"
+              "ANTI-VEHICLE 2+",
+              "PISTOL"
             ],
             "name": "Grav-pistol",
             "range": "12\""
@@ -2753,7 +2753,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis daemon greathammer"
           }
@@ -2770,7 +2770,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis flail"
           }
@@ -2787,7 +2787,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -2804,7 +2804,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - strike"
           },
@@ -2815,7 +2815,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - sweep"
           }
@@ -2832,9 +2832,9 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti character 2+",
-              "precision",
-              "psychic"
+              "ANTI-CHARACTER 2+",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Nemesis mace"
           }
@@ -2866,7 +2866,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo-arm"
           }
@@ -2890,14 +2890,14 @@
     "faction": "greyknights",
     "id": "greyknights/dreadknight-champion-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "dreadknight champion",
-      "faction: grey knights",
-      "imperium",
-      "psyker",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "CRUCIBLE",
+      "DREADKNIGHT CHAMPION",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "PSYKER",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Dreadknight Champion [Crucible]",
     "points": [
@@ -3671,9 +3671,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -3691,7 +3691,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy plasma cannon - standard",
             "range": "36\""
@@ -3703,8 +3703,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Heavy plasma cannon - supercharge",
             "range": "36\""
@@ -3722,9 +3722,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Purifying Flame",
             "range": "18\""
@@ -3742,7 +3742,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -3776,7 +3776,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Fragstorm grenade launcher",
             "range": "18\""
@@ -3794,7 +3794,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -3812,8 +3812,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -3831,9 +3831,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -3851,7 +3851,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -3869,7 +3869,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -3887,8 +3887,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -3906,8 +3906,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Vortex of Doom",
             "range": "18\""
@@ -3925,8 +3925,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "sustained hits 1"
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Gatling psilencer",
             "range": "24\""
@@ -3944,8 +3944,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy incinerator",
             "range": "18\""
@@ -3963,8 +3963,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "ignores cover",
-              "psychic"
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Heavy psycannon",
             "range": "24\""
@@ -3982,9 +3982,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4",
-              "psychic",
-              "twin linked"
+              "MELTA 4",
+              "PSYCHIC",
+              "TWIN-LINKED"
             ],
             "name": "Sublimator",
             "range": "18\""
@@ -4002,8 +4002,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti vehicle 2+",
-              "pistol"
+              "ANTI-VEHICLE 2+",
+              "PISTOL"
             ],
             "name": "Grav-pistol",
             "range": "12\""
@@ -4080,7 +4080,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis daemon greathammer"
           }
@@ -4097,7 +4097,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis flail"
           }
@@ -4114,7 +4114,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -4131,7 +4131,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - strike"
           },
@@ -4142,7 +4142,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - sweep"
           }
@@ -4159,9 +4159,9 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti character 2+",
-              "precision",
-              "psychic"
+              "ANTI-CHARACTER 2+",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Nemesis mace"
           }
@@ -4193,7 +4193,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo-arm"
           }
@@ -4220,15 +4220,15 @@
     "faction": "greyknights",
     "id": "greyknights/grand-master",
     "keywords": [
-      "character",
-      "faction: grey knights",
-      "grand master",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker",
-      "terminator"
+      "CHARACTER",
+      "FACTION: GREY KNIGHTS",
+      "GRAND MASTER",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Grand Master",
     "points": [
@@ -4346,7 +4346,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -4364,8 +4364,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -4383,7 +4383,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -4401,9 +4401,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -4420,7 +4420,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -4448,13 +4448,13 @@
     "faction": "greyknights",
     "id": "greyknights/grand-master-in-nemesis-dreadknight",
     "keywords": [
-      "character",
-      "faction: grey knights",
-      "grand master in nemesis dreadknight",
-      "imperium",
-      "psyker",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "FACTION: GREY KNIGHTS",
+      "GRAND MASTER IN NEMESIS DREADKNIGHT",
+      "IMPERIUM",
+      "PSYKER",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Grand Master in Nemesis Dreadknight",
     "points": [
@@ -4628,9 +4628,9 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti character 2+",
-              "precision",
-              "psychic"
+              "ANTI-CHARACTER 2+",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Nemesis mace"
           }
@@ -4647,7 +4647,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis flail"
           }
@@ -4679,7 +4679,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis daemon greathammer"
           }
@@ -4696,7 +4696,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - strike"
           },
@@ -4707,7 +4707,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - sweep"
           }
@@ -4725,9 +4725,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4",
-              "psychic",
-              "twin linked"
+              "MELTA 4",
+              "PSYCHIC",
+              "TWIN-LINKED"
             ],
             "name": "Sublimator",
             "range": "18\""
@@ -4745,8 +4745,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "sustained hits 1"
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Gatling psilencer",
             "range": "24\""
@@ -4764,8 +4764,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy incinerator",
             "range": "18\""
@@ -4783,8 +4783,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "ignores cover",
-              "psychic"
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Heavy psycannon",
             "range": "24\""
@@ -4802,7 +4802,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Fragstorm grenade launcher",
             "range": "18\""
@@ -4829,15 +4829,15 @@
     "faction": "greyknights",
     "id": "greyknights/grand-master-voldus",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: grey knights",
-      "grand master voldus",
-      "imperium",
-      "infantry",
-      "leader",
-      "psyker",
-      "terminator"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: GREY KNIGHTS",
+      "GRAND MASTER VOLDUS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Grand Master Voldus",
     "points": [
@@ -4913,7 +4913,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Malleus Argyrum"
           }
@@ -4931,8 +4931,8 @@
             "D": "2",
             "S": "12",
             "keywords": [
-              "devastating wounds",
-              "psychic"
+              "DEVASTATING WOUNDS",
+              "PSYCHIC"
             ],
             "name": "Searing Purity",
             "range": "12\""
@@ -4950,7 +4950,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -4969,13 +4969,13 @@
     "faction": "greyknights",
     "id": "greyknights/grey-knights-dreadnought-legends",
     "keywords": [
-      "dreadnought",
-      "faction: grey knights",
-      "imperium",
-      "psyker",
-      "smoke",
-      "vehicle",
-      "walker"
+      "DREADNOUGHT",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "PSYKER",
+      "SMOKE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Grey Knights Dreadnought [Legends]",
     "points": [
@@ -5280,7 +5280,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -5298,7 +5298,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy plasma cannon - standard",
             "range": "36\""
@@ -5310,8 +5310,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Heavy plasma cannon - supercharge",
             "range": "36\""
@@ -5329,7 +5329,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -5347,7 +5347,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -5365,7 +5365,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -5398,7 +5398,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Missile launcher - frag",
             "range": "48\""
@@ -5441,8 +5441,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -5459,7 +5459,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis doomglaive"
           }
@@ -5477,7 +5477,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Heavy psycannon",
             "range": "24\""
@@ -5495,8 +5495,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -5519,13 +5519,13 @@
     "faction": "greyknights",
     "id": "greyknights/grey-knights-relic-razorback-legends",
     "keywords": [
-      "dedicated transport",
-      "faction: grey knights",
-      "imperium",
-      "relic razorback",
-      "smoke",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "RELIC RAZORBACK",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Grey Knights Relic Razorback [Legends]",
     "points": [
@@ -5671,8 +5671,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic",
-              "twin linked"
+              "PSYCHIC",
+              "TWIN-LINKED"
             ],
             "name": "Twin Psycannon",
             "range": "24\""
@@ -5690,8 +5690,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin assault cannon",
             "range": "24\""
@@ -5709,7 +5709,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -5727,8 +5727,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -5746,7 +5746,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -5764,7 +5764,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -5782,7 +5782,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -5825,13 +5825,13 @@
     "faction": "greyknights",
     "id": "greyknights/grey-knights-thunderhawk-gunship",
     "keywords": [
-      "faction: grey knights",
-      "fly",
-      "imperium",
-      "thunderhawk gunship",
-      "titanic",
-      "transport",
-      "vehicle"
+      "FACTION: GREY KNIGHTS",
+      "FLY",
+      "IMPERIUM",
+      "THUNDERHAWK GUNSHIP",
+      "TITANIC",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Grey Knights Thunderhawk Gunship",
     "points": [
@@ -6002,7 +6002,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Thunderhawk heavy cannon",
             "range": "48\""
@@ -6020,7 +6020,7 @@
             "D": "D6+6",
             "S": "20",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Turbo-laser destructor",
             "range": "96\""
@@ -6038,7 +6038,7 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "anti fly 4+"
+              "ANTI-FLY 4+"
             ],
             "name": "Hellstrike missile battery",
             "range": "72\""
@@ -6057,8 +6057,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "qty": 4,
@@ -6078,13 +6078,13 @@
     "faction": "greyknights",
     "id": "greyknights/interceptor-squad",
     "keywords": [
-      "faction: grey knights",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "interceptor squad",
-      "psyker"
+      "FACTION: GREY KNIGHTS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "INTERCEPTOR SQUAD",
+      "PSYKER"
     ],
     "name": "Interceptor Squad",
     "points": [
@@ -6332,7 +6332,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -6350,7 +6350,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -6383,8 +6383,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -6402,9 +6402,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -6422,7 +6422,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -6453,16 +6453,16 @@
     "faction": "greyknights",
     "id": "greyknights/kaldor-draigo-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: grey knights",
-      "grenades",
-      "imperium",
-      "infantry",
-      "kaldor draigo",
-      "leader",
-      "psyker",
-      "terminator"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: GREY KNIGHTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "KALDOR DRAIGO",
+      "LEADER",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Kaldor Draigo [Legends]",
     "points": [
@@ -6539,9 +6539,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "anti daemon 2+",
-              "ignores cover",
-              "psychic"
+              "ANTI-DAEMON 2+",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Scourging",
             "range": "18\""
@@ -6558,8 +6558,8 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "anti daemon 2+",
-              "psychic"
+              "ANTI-DAEMON 2+",
+              "PSYCHIC"
             ],
             "name": "The Titansword"
           }
@@ -6577,7 +6577,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -6605,13 +6605,13 @@
     "faction": "greyknights",
     "id": "greyknights/land-raider",
     "keywords": [
-      "faction: grey knights",
-      "frame",
-      "imperium",
-      "land raider",
-      "smoke",
-      "transport",
-      "vehicle"
+      "FACTION: GREY KNIGHTS",
+      "FRAME",
+      "IMPERIUM",
+      "LAND RAIDER",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Land Raider",
     "points": [
@@ -6743,7 +6743,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -6761,7 +6761,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -6779,7 +6779,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -6797,8 +6797,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -6841,14 +6841,14 @@
     "faction": "greyknights",
     "id": "greyknights/land-raider-crusader",
     "keywords": [
-      "faction: grey knights",
-      "frame",
-      "grenades",
-      "imperium",
-      "land raider crusader",
-      "smoke",
-      "transport",
-      "vehicle"
+      "FACTION: GREY KNIGHTS",
+      "FRAME",
+      "GRENADES",
+      "IMPERIUM",
+      "LAND RAIDER CRUSADER",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Land Raider Crusader",
     "points": [
@@ -6964,7 +6964,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -6982,7 +6982,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -7000,7 +7000,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -7018,8 +7018,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin assault cannon",
             "range": "24\""
@@ -7053,8 +7053,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 6",
-              "twin linked"
+              "RAPID FIRE 6",
+              "TWIN-LINKED"
             ],
             "name": "Hurricane bolter",
             "qty": 2,
@@ -7083,14 +7083,14 @@
     "faction": "greyknights",
     "id": "greyknights/land-raider-redeemer",
     "keywords": [
-      "faction: grey knights",
-      "frame",
-      "grenades",
-      "imperium",
-      "land raider redeemer",
-      "smoke",
-      "transport",
-      "vehicle"
+      "FACTION: GREY KNIGHTS",
+      "FRAME",
+      "GRENADES",
+      "IMPERIUM",
+      "LAND RAIDER REDEEMER",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Land Raider Redeemer",
     "points": [
@@ -7206,8 +7206,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamestorm cannon",
             "range": "12\""
@@ -7225,7 +7225,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -7243,7 +7243,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -7261,7 +7261,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -7279,8 +7279,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin assault cannon",
             "range": "24\""
@@ -7319,12 +7319,12 @@
     "faction": "greyknights",
     "id": "greyknights/nemesis-dreadknight",
     "keywords": [
-      "faction: grey knights",
-      "imperium",
-      "nemesis dreadknight",
-      "psyker",
-      "vehicle",
-      "walker"
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "NEMESIS DREADKNIGHT",
+      "PSYKER",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Nemesis Dreadknight",
     "points": [
@@ -7458,7 +7458,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - strike"
           },
@@ -7469,7 +7469,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - sweep"
           }
@@ -7486,7 +7486,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis daemon greathammer"
           }
@@ -7519,8 +7519,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "sustained hits 1"
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Gatling psilencer",
             "range": "24\""
@@ -7538,8 +7538,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "ignores cover",
-              "psychic"
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Heavy psycannon",
             "range": "24\""
@@ -7557,8 +7557,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy incinerator",
             "range": "18\""
@@ -7577,13 +7577,13 @@
     "faction": "greyknights",
     "id": "greyknights/paladin-squad",
     "keywords": [
-      "faction: grey knights",
-      "grenades",
-      "imperium",
-      "infantry",
-      "paladin squad",
-      "psyker",
-      "terminator"
+      "FACTION: GREY KNIGHTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PALADIN SQUAD",
+      "PSYKER",
+      "TERMINATOR"
     ],
     "name": "Paladin Squad",
     "points": [
@@ -7900,7 +7900,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -7918,7 +7918,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -7936,8 +7936,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -7955,7 +7955,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -7973,9 +7973,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -7994,12 +7994,12 @@
     "faction": "greyknights",
     "id": "greyknights/purgation-squad",
     "keywords": [
-      "faction: grey knights",
-      "grenades",
-      "imperium",
-      "infantry",
-      "psyker",
-      "purgation squad"
+      "FACTION: GREY KNIGHTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PSYKER",
+      "PURGATION SQUAD"
     ],
     "name": "Purgation Squad",
     "points": [
@@ -8246,7 +8246,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -8264,7 +8264,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -8297,8 +8297,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -8316,9 +8316,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -8336,7 +8336,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -8355,12 +8355,12 @@
     "faction": "greyknights",
     "id": "greyknights/purifier-squad",
     "keywords": [
-      "faction: grey knights",
-      "grenades",
-      "imperium",
-      "infantry",
-      "psyker",
-      "purifier squad"
+      "FACTION: GREY KNIGHTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PSYKER",
+      "PURIFIER SQUAD"
     ],
     "name": "Purifier Squad",
     "points": [
@@ -8663,7 +8663,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -8681,7 +8681,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -8699,9 +8699,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Purifying Flame",
             "range": "18\""
@@ -8734,8 +8734,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -8753,9 +8753,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -8773,7 +8773,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -8796,14 +8796,14 @@
     "faction": "greyknights",
     "id": "greyknights/razorback",
     "keywords": [
-      "dedicated transport",
-      "faction: grey knights",
-      "frame",
-      "imperium",
-      "razorback",
-      "smoke",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: GREY KNIGHTS",
+      "FRAME",
+      "IMPERIUM",
+      "RAZORBACK",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Razorback",
     "points": [
@@ -8919,7 +8919,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -8937,8 +8937,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -8956,7 +8956,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -8974,7 +8974,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -9012,14 +9012,14 @@
     "faction": "greyknights",
     "id": "greyknights/rhino",
     "keywords": [
-      "dedicated transport",
-      "faction: grey knights",
-      "frame",
-      "imperium",
-      "rhino",
-      "smoke",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: GREY KNIGHTS",
+      "FRAME",
+      "IMPERIUM",
+      "RHINO",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Rhino",
     "points": [
@@ -9105,7 +9105,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -9123,7 +9123,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -9165,11 +9165,11 @@
     "faction": "greyknights",
     "id": "greyknights/servitors-legends",
     "keywords": [
-      "faction: grey knights",
-      "imperium",
-      "infantry",
-      "servitors",
-      "support"
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "SERVITORS",
+      "SUPPORT"
     ],
     "name": "Servitors [Legends]",
     "points": [
@@ -9353,8 +9353,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -9387,8 +9387,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -9406,8 +9406,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Plasma cannon - standard",
             "range": "36\""
@@ -9419,9 +9419,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous",
-              "heavy"
+              "BLAST",
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -9440,13 +9440,13 @@
     "faction": "greyknights",
     "id": "greyknights/stormhawk-interceptor",
     "keywords": [
-      "aircraft",
-      "faction: grey knights",
-      "fly",
-      "imperium",
-      "smoke",
-      "stormhawk interceptor",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: GREY KNIGHTS",
+      "FLY",
+      "IMPERIUM",
+      "SMOKE",
+      "STORMHAWK INTERCEPTOR",
+      "VEHICLE"
     ],
     "name": "Stormhawk Interceptor",
     "points": [
@@ -9596,8 +9596,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -9615,7 +9615,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Typhoon missile launcher - frag",
             "range": "48\""
@@ -9643,7 +9643,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Skyhammer missile launcher",
             "range": "48\""
@@ -9677,7 +9677,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Icarus stormcannon",
             "range": "48\""
@@ -9695,8 +9695,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin assault cannon",
             "range": "24\""
@@ -9739,12 +9739,12 @@
     "faction": "greyknights",
     "id": "greyknights/stormraven-gunship",
     "keywords": [
-      "faction: grey knights",
-      "fly",
-      "imperium",
-      "stormraven gunship",
-      "transport",
-      "vehicle"
+      "FACTION: GREY KNIGHTS",
+      "FLY",
+      "IMPERIUM",
+      "STORMRAVEN GUNSHIP",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Stormraven Gunship",
     "points": [
@@ -9920,8 +9920,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 6",
-              "twin linked"
+              "RAPID FIRE 6",
+              "TWIN-LINKED"
             ],
             "name": "Hurricane bolter",
             "qty": 2,
@@ -9971,8 +9971,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy plasma cannon - standard",
             "range": "36\""
@@ -9984,9 +9984,9 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous",
-              "twin linked"
+              "BLAST",
+              "HAZARDOUS",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy plasma cannon - supercharge",
             "range": "36\""
@@ -10004,8 +10004,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin assault cannon",
             "range": "24\""
@@ -10023,7 +10023,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -10041,8 +10041,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin multi-melta",
             "range": "18\""
@@ -10060,8 +10060,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -10079,7 +10079,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Typhoon missile launcher - frag",
             "range": "48\""
@@ -10108,12 +10108,12 @@
     "faction": "greyknights",
     "id": "greyknights/stormtalon-gunship",
     "keywords": [
-      "aircraft",
-      "faction: grey knights",
-      "fly",
-      "imperium",
-      "stormtalon gunship",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: GREY KNIGHTS",
+      "FLY",
+      "IMPERIUM",
+      "STORMTALON GUNSHIP",
+      "VEHICLE"
     ],
     "name": "Stormtalon Gunship",
     "points": [
@@ -10242,7 +10242,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -10260,8 +10260,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -10279,7 +10279,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Typhoon missile launcher - frag",
             "range": "48\""
@@ -10307,7 +10307,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Skyhammer missile launcher",
             "range": "48\""
@@ -10325,8 +10325,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds",
-              "twin linked"
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin assault cannon",
             "range": "24\""
@@ -10360,13 +10360,13 @@
     "faction": "greyknights",
     "id": "greyknights/strike-squad",
     "keywords": [
-      "battleline",
-      "faction: grey knights",
-      "grenades",
-      "imperium",
-      "infantry",
-      "psyker",
-      "strike squad"
+      "BATTLELINE",
+      "FACTION: GREY KNIGHTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PSYKER",
+      "STRIKE SQUAD"
     ],
     "name": "Strike Squad",
     "points": [
@@ -10572,7 +10572,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -10590,7 +10590,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -10608,8 +10608,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -10627,7 +10627,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -10645,9 +10645,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -10681,15 +10681,15 @@
     "faction": "greyknights",
     "id": "greyknights/venerable-daemon-slayer-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: grey knights",
-      "imperium",
-      "psyker",
-      "smoke",
-      "vehicle",
-      "venerable daemon slayer",
-      "walker"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "PSYKER",
+      "SMOKE",
+      "VEHICLE",
+      "VENERABLE DAEMON SLAYER",
+      "WALKER"
     ],
     "name": "Venerable Daemon Slayer [Crucible]",
     "points": [
@@ -11463,9 +11463,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -11483,7 +11483,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy plasma cannon - standard",
             "range": "36\""
@@ -11495,8 +11495,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Heavy plasma cannon - supercharge",
             "range": "36\""
@@ -11514,9 +11514,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 2+",
-              "ignores cover",
-              "psychic"
+              "ANTI-INFANTRY 2+",
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Purifying Flame",
             "range": "18\""
@@ -11534,7 +11534,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -11568,7 +11568,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Fragstorm grenade launcher",
             "range": "18\""
@@ -11586,7 +11586,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -11604,8 +11604,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Incinerator",
             "range": "12\""
@@ -11623,9 +11623,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "precision",
-              "psychic",
-              "sustained hits 1"
+              "PRECISION",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Psilencer",
             "range": "24\""
@@ -11643,7 +11643,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Psycannon",
             "range": "24\""
@@ -11661,7 +11661,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -11679,8 +11679,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -11698,8 +11698,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Vortex of Doom",
             "range": "18\""
@@ -11717,8 +11717,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "psychic",
-              "sustained hits 1"
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Gatling psilencer",
             "range": "24\""
@@ -11736,8 +11736,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy incinerator",
             "range": "18\""
@@ -11755,8 +11755,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "ignores cover",
-              "psychic"
+              "IGNORES COVER",
+              "PSYCHIC"
             ],
             "name": "Heavy psycannon",
             "range": "24\""
@@ -11774,9 +11774,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 4",
-              "psychic",
-              "twin linked"
+              "MELTA 4",
+              "PSYCHIC",
+              "TWIN-LINKED"
             ],
             "name": "Sublimator",
             "range": "18\""
@@ -11794,8 +11794,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti vehicle 2+",
-              "pistol"
+              "ANTI-VEHICLE 2+",
+              "PISTOL"
             ],
             "name": "Grav-pistol",
             "range": "12\""
@@ -11872,7 +11872,7 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis daemon greathammer"
           }
@@ -11889,7 +11889,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis flail"
           }
@@ -11906,7 +11906,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis force weapon"
           }
@@ -11923,7 +11923,7 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - strike"
           },
@@ -11934,7 +11934,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Nemesis greatsword - sweep"
           }
@@ -11951,9 +11951,9 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti character 2+",
-              "precision",
-              "psychic"
+              "ANTI-CHARACTER 2+",
+              "PRECISION",
+              "PSYCHIC"
             ],
             "name": "Nemesis mace"
           }
@@ -11985,7 +11985,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo-arm"
           }
@@ -12004,14 +12004,14 @@
     "faction": "greyknights",
     "id": "greyknights/venerable-dreadnought",
     "keywords": [
-      "character",
-      "faction: grey knights",
-      "imperium",
-      "psyker",
-      "smoke",
-      "vehicle",
-      "venerable dreadnought",
-      "walker"
+      "CHARACTER",
+      "FACTION: GREY KNIGHTS",
+      "IMPERIUM",
+      "PSYKER",
+      "SMOKE",
+      "VEHICLE",
+      "VENERABLE DREADNOUGHT",
+      "WALKER"
     ],
     "name": "Venerable Dreadnought",
     "points": [
@@ -12181,7 +12181,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -12199,7 +12199,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Heavy plasma cannon - standard",
             "range": "36\""
@@ -12211,8 +12211,8 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous"
+              "BLAST",
+              "HAZARDOUS"
             ],
             "name": "Heavy plasma cannon - supercharge",
             "range": "36\""
@@ -12230,7 +12230,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lascannon",
             "range": "48\""
@@ -12248,7 +12248,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -12281,8 +12281,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""

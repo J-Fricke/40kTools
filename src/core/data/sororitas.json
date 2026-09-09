@@ -13,15 +13,15 @@
     "faction": "sororitas",
     "id": "sororitas/aestred-thurga-and-agathae-dolan",
     "keywords": [
-      "aestred thurga and agathae dolan",
-      "character",
-      "epic hero",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "sororitas character"
+      "AESTRED THURGA AND AGATHAE DOLAN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "SORORITAS CHARACTER"
     ],
     "name": "Aestred Thurga and Agathae Dolan",
     "points": [
@@ -136,7 +136,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -170,11 +170,11 @@
     "faction": "sororitas",
     "id": "sororitas/arco-flagellants",
     "keywords": [
-      "arco-flagellants",
-      "faction: adepta sororitas",
-      "imperium",
-      "infantry",
-      "penitent"
+      "ARCO-FLAGELLANTS",
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "INFANTRY",
+      "PENITENT"
     ],
     "name": "Arco-Flagellants",
     "points": [
@@ -239,7 +239,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Arco-flails"
           }
@@ -262,11 +262,11 @@
     "faction": "sororitas",
     "id": "sororitas/battle-sanctum-legends",
     "keywords": [
-      "battle sanctum",
-      "faction: adepta sororitas",
-      "fortification",
-      "imperium",
-      "towering"
+      "BATTLE SANCTUM",
+      "FACTION: ADEPTA SORORITAS",
+      "FORTIFICATION",
+      "IMPERIUM",
+      "TOWERING"
     ],
     "name": "Battle Sanctum [Legends]",
     "points": [
@@ -316,12 +316,12 @@
     "faction": "sororitas",
     "id": "sororitas/battle-sisters-squad",
     "keywords": [
-      "battle sisters squad",
-      "battleline",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry"
+      "BATTLE SISTERS SQUAD",
+      "BATTLELINE",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Battle Sisters Squad",
     "points": [
@@ -836,10 +836,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -857,9 +857,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -877,7 +877,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -895,7 +895,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -913,8 +913,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -932,9 +932,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -952,8 +952,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -965,7 +965,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -1028,7 +1028,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -1046,7 +1046,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -1064,8 +1064,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -1083,8 +1083,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -1102,8 +1102,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -1121,8 +1121,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -1145,13 +1145,13 @@
     "faction": "sororitas",
     "id": "sororitas/canoness",
     "keywords": [
-      "canoness",
-      "character",
-      "faction: adepta sororitas",
-      "grenades",
-      "infantry",
-      "leader",
-      "sororitas character"
+      "CANONESS",
+      "CHARACTER",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "INFANTRY",
+      "LEADER",
+      "SORORITAS CHARACTER"
     ],
     "name": "Canoness",
     "points": [
@@ -1316,9 +1316,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "one shot",
-              "torrent"
+              "IGNORES COVER",
+              "ONE SHOT",
+              "TORRENT"
             ],
             "name": "Brazier of Holy Fire",
             "range": "12\""
@@ -1335,7 +1335,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Blessed blade"
           }
@@ -1383,7 +1383,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt Pistol",
             "range": "12\""
@@ -1401,10 +1401,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -1422,8 +1422,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -1441,7 +1441,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -1453,8 +1453,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -1481,16 +1481,16 @@
     "faction": "sororitas",
     "id": "sororitas/canoness-with-jump-pack",
     "keywords": [
-      "canoness",
-      "character",
-      "faction: adepta sororitas",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "leader",
-      "sororitas character"
+      "CANONESS",
+      "CHARACTER",
+      "FACTION: ADEPTA SORORITAS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER",
+      "SORORITAS CHARACTER"
     ],
     "name": "Canoness with Jump Pack",
     "points": [
@@ -1628,9 +1628,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -1647,7 +1647,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Holy Eviscerator"
           }
@@ -1671,12 +1671,12 @@
     "faction": "sororitas",
     "id": "sororitas/castigator",
     "keywords": [
-      "castigator",
-      "faction: adepta sororitas",
-      "frame",
-      "imperium",
-      "smoke",
-      "vehicle"
+      "CASTIGATOR",
+      "FACTION: ADEPTA SORORITAS",
+      "FRAME",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Castigator",
     "points": [
@@ -1811,7 +1811,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -1829,8 +1829,8 @@
             "D": "3",
             "S": "9",
             "keywords": [
-              "twin linked",
-              "rapid fire 4"
+              "TWIN-LINKED",
+              "RAPID FIRE 4"
             ],
             "name": "Castigator autocannons",
             "range": "48\""
@@ -1848,8 +1848,8 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "blast",
-              "ignores cover"
+              "BLAST",
+              "IGNORES COVER"
             ],
             "name": "Castigator battle cannon",
             "range": "48\""
@@ -1867,7 +1867,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -1885,7 +1885,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -1927,12 +1927,12 @@
     "faction": "sororitas",
     "id": "sororitas/celestian-insidiants",
     "keywords": [
-      "celestian",
-      "celestian insidiants",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry"
+      "CELESTIAN",
+      "CELESTIAN INSIDIANTS",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Celestian Insidiants",
     "points": [
@@ -2198,8 +2198,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -2217,9 +2217,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 4+",
-              "devastating wounds",
-              "pistol"
+              "ANTI-PSYKER 4+",
+              "DEVASTATING WOUNDS",
+              "PISTOL"
             ],
             "name": "Condemnor bolt pistol",
             "range": "12\""
@@ -2236,8 +2236,8 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "anti psyker 4+",
-              "devastating wounds"
+              "ANTI-PSYKER 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Null mace"
           }
@@ -2255,9 +2255,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -2274,7 +2274,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Blessed sword"
           }
@@ -2291,8 +2291,8 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "anti psyker 4+",
-              "devastating wounds"
+              "ANTI-PSYKER 4+",
+              "DEVASTATING WOUNDS"
             ],
             "name": "Virge of Admonition"
           }
@@ -2315,14 +2315,14 @@
     "faction": "sororitas",
     "id": "sororitas/celestian-sacresant-aveline-legends",
     "keywords": [
-      "celestian sacresant aveline",
-      "character",
-      "epic hero",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sororitas character"
+      "CELESTIAN SACRESANT AVELINE",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SORORITAS CHARACTER"
     ],
     "name": "Celestian Sacresant Aveline [Legends]",
     "points": [
@@ -2404,9 +2404,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -2425,12 +2425,12 @@
     "faction": "sororitas",
     "id": "sororitas/celestian-sacresants",
     "keywords": [
-      "celestian",
-      "celestian sacresants",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry"
+      "CELESTIAN",
+      "CELESTIAN SACRESANTS",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Celestian Sacresants",
     "points": [
@@ -2668,7 +2668,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Anointed Halberd"
           }
@@ -2685,7 +2685,7 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hallowed Mace"
           }
@@ -2703,7 +2703,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -2721,8 +2721,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -2734,7 +2734,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -2752,8 +2752,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -2771,9 +2771,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -2796,10 +2796,10 @@
     "faction": "sororitas",
     "id": "sororitas/crusaders-legends",
     "keywords": [
-      "crusaders",
-      "faction: adepta sororitas",
-      "imperium",
-      "infantry"
+      "CRUSADERS",
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Crusaders [Legends]",
     "points": [
@@ -2885,14 +2885,14 @@
     "faction": "sororitas",
     "id": "sororitas/daemonifuge",
     "keywords": [
-      "character",
-      "daemonifuge",
-      "epic hero",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sororitas character"
+      "CHARACTER",
+      "DAEMONIFUGE",
+      "EPIC HERO",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SORORITAS CHARACTER"
     ],
     "name": "Daemonifuge",
     "points": [
@@ -2988,8 +2988,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti chaos 2+",
-              "precision"
+              "ANTI-CHAOS 2+",
+              "PRECISION"
             ],
             "name": "Sanctity"
           }
@@ -3007,7 +3007,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -3024,7 +3024,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "The Outcast's Blades"
           }
@@ -3043,10 +3043,10 @@
     "faction": "sororitas",
     "id": "sororitas/death-cult-assassins-legends",
     "keywords": [
-      "death cult assassins",
-      "faction: adepta sororitas",
-      "imperium",
-      "infantry"
+      "DEATH CULT ASSASSINS",
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Death Cult Assassins [Legends]",
     "points": [
@@ -3111,7 +3111,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Death Cult power blades"
           }
@@ -3138,13 +3138,13 @@
     "faction": "sororitas",
     "id": "sororitas/dialogus",
     "keywords": [
-      "character",
-      "dialogus",
-      "faction: adepta sororitas",
-      "imperium",
-      "infantry",
-      "sororitas character",
-      "support"
+      "CHARACTER",
+      "DIALOGUS",
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "INFANTRY",
+      "SORORITAS CHARACTER",
+      "SUPPORT"
     ],
     "name": "Dialogus",
     "points": [
@@ -3237,7 +3237,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -3264,14 +3264,14 @@
     "faction": "sororitas",
     "id": "sororitas/dogmata",
     "keywords": [
-      "character",
-      "dogmata",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sororitas character",
-      "support"
+      "CHARACTER",
+      "DOGMATA",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SORORITAS CHARACTER",
+      "SUPPORT"
     ],
     "name": "Dogmata",
     "points": [
@@ -3364,7 +3364,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -3391,11 +3391,11 @@
     "faction": "sororitas",
     "id": "sororitas/dominion-squad",
     "keywords": [
-      "dominion squad",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry"
+      "DOMINION SQUAD",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Dominion Squad",
     "points": [
@@ -3762,10 +3762,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -3783,9 +3783,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -3803,7 +3803,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -3821,7 +3821,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -3839,8 +3839,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -3858,9 +3858,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -3878,8 +3878,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -3891,7 +3891,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -3954,8 +3954,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2",
-              "assault"
+              "RAPID FIRE 2",
+              "ASSAULT"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -3973,8 +3973,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "assault"
+              "MELTA 2",
+              "ASSAULT"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -3992,9 +3992,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -4018,12 +4018,12 @@
     "faction": "sororitas",
     "id": "sororitas/exorcist",
     "keywords": [
-      "exorcist",
-      "faction: adepta sororitas",
-      "frame",
-      "imperium",
-      "smoke",
-      "vehicle"
+      "EXORCIST",
+      "FACTION: ADEPTA SORORITAS",
+      "FRAME",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Exorcist",
     "points": [
@@ -4139,7 +4139,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy Bolter",
             "range": "36\""
@@ -4157,7 +4157,7 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "indirect fire"
+              "INDIRECT FIRE"
             ],
             "name": "Exorcist Missile Launcher",
             "range": "36\""
@@ -4175,9 +4175,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "ignores cover",
-              "indirect fire"
+              "BLAST",
+              "IGNORES COVER",
+              "INDIRECT FIRE"
             ],
             "name": "Exorcist Conflagration Rockets",
             "range": "36\""
@@ -4210,7 +4210,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -4237,13 +4237,13 @@
     "faction": "sororitas",
     "id": "sororitas/hospitaller",
     "keywords": [
-      "character",
-      "faction: adepta sororitas",
-      "hospitaller",
-      "imperium",
-      "infantry",
-      "sororitas character",
-      "support"
+      "CHARACTER",
+      "FACTION: ADEPTA SORORITAS",
+      "HOSPITALLER",
+      "IMPERIUM",
+      "INFANTRY",
+      "SORORITAS CHARACTER",
+      "SUPPORT"
     ],
     "name": "Hospitaller",
     "points": [
@@ -4336,7 +4336,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -4363,13 +4363,13 @@
     "faction": "sororitas",
     "id": "sororitas/imagifier",
     "keywords": [
-      "character",
-      "faction: adepta sororitas",
-      "grenades",
-      "imagifier",
-      "imperium",
-      "infantry",
-      "sororitas character"
+      "CHARACTER",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMAGIFIER",
+      "IMPERIUM",
+      "INFANTRY",
+      "SORORITAS CHARACTER"
     ],
     "name": "Imagifier",
     "points": [
@@ -4473,7 +4473,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -4491,7 +4491,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -4514,14 +4514,14 @@
     "faction": "sororitas",
     "id": "sororitas/immolator",
     "keywords": [
-      "dedicated transport",
-      "faction: adepta sororitas",
-      "frame",
-      "immolator",
-      "imperium",
-      "smoke",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: ADEPTA SORORITAS",
+      "FRAME",
+      "IMMOLATOR",
+      "IMPERIUM",
+      "SMOKE",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Immolator",
     "points": [
@@ -4647,7 +4647,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy Bolter",
             "range": "36\""
@@ -4665,8 +4665,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Immolation Flamers",
             "range": "18\""
@@ -4684,8 +4684,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin Heavy Bolter",
             "range": "36\""
@@ -4703,8 +4703,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin Multi-melta",
             "range": "18\""
@@ -4737,7 +4737,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -4760,15 +4760,15 @@
     "faction": "sororitas",
     "id": "sororitas/inspiring-devotee-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "inspiring devotee",
-      "leader",
-      "sororitas character"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "INSPIRING DEVOTEE",
+      "LEADER",
+      "SORORITAS CHARACTER"
     ],
     "name": "Inspiring Devotee [Crucible]",
     "points": [
@@ -5200,7 +5200,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -5218,7 +5218,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -5236,8 +5236,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -5255,9 +5255,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -5275,8 +5275,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -5288,7 +5288,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -5306,7 +5306,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -5324,7 +5324,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Autogun",
             "range": "24\""
@@ -5342,7 +5342,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -5360,9 +5360,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "one shot",
-              "torrent"
+              "IGNORES COVER",
+              "ONE SHOT",
+              "TORRENT"
             ],
             "name": "Brazier of holy fire",
             "range": "12\""
@@ -5380,9 +5380,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -5400,10 +5400,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -5421,7 +5421,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -5439,8 +5439,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -5457,7 +5457,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hallowed mace"
           }
@@ -5519,7 +5519,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Blessed blade"
           }
@@ -5536,7 +5536,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Holy eviscerator"
           }
@@ -5553,7 +5553,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Neural whips"
           }
@@ -5616,8 +5616,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -5635,7 +5635,7 @@
             "D": "D3",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paragon grenade launchers",
             "range": "24\""
@@ -5653,8 +5653,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2",
-              "twin linked"
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Paragon storm bolters",
             "range": "24\""
@@ -5672,7 +5672,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "24\""
@@ -5690,7 +5690,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -5713,15 +5713,15 @@
     "faction": "sororitas",
     "id": "sororitas/intranzia-fraye",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adepta sororitas",
-      "imperium",
-      "intranzia fraye",
-      "penitent",
-      "sororitas character",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "INTRANZIA FRAYE",
+      "PENITENT",
+      "SORORITAS CHARACTER",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Intranzia Fraye",
     "points": [
@@ -5832,7 +5832,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -5850,7 +5850,7 @@
             "D": "D3",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Melta missile array",
             "range": "24\""
@@ -5867,7 +5867,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Mace of Saint Praxedes"
           }
@@ -5884,7 +5884,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Throne of Blame"
           }
@@ -5903,8 +5903,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "qty": 2,
@@ -5928,15 +5928,15 @@
     "faction": "sororitas",
     "id": "sororitas/junith-eruita",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adepta sororitas",
-      "fly",
-      "imperium",
-      "junith eruita",
-      "leader",
-      "mounted",
-      "sororitas character"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTA SORORITAS",
+      "FLY",
+      "IMPERIUM",
+      "JUNITH ERUITA",
+      "LEADER",
+      "MOUNTED",
+      "SORORITAS CHARACTER"
     ],
     "name": "Junith Eruita",
     "points": [
@@ -6003,9 +6003,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin Ministorum Heavy Flamer",
             "range": "12\""
@@ -6043,16 +6043,16 @@
     "faction": "sororitas",
     "id": "sororitas/militant-commander-crucible",
     "keywords": [
-      "canoness",
-      "character",
-      "crucible",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "militant commander",
-      "sororitas character"
+      "CANONESS",
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "MILITANT COMMANDER",
+      "SORORITAS CHARACTER"
     ],
     "name": "Militant Commander [Crucible]",
     "points": [
@@ -6484,7 +6484,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -6502,7 +6502,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -6520,8 +6520,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -6539,9 +6539,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -6559,8 +6559,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -6572,7 +6572,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -6590,7 +6590,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -6608,7 +6608,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Autogun",
             "range": "24\""
@@ -6626,7 +6626,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -6644,9 +6644,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "one shot",
-              "torrent"
+              "IGNORES COVER",
+              "ONE SHOT",
+              "TORRENT"
             ],
             "name": "Brazier of holy fire",
             "range": "12\""
@@ -6664,9 +6664,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -6684,10 +6684,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -6705,7 +6705,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -6723,8 +6723,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -6741,7 +6741,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hallowed mace"
           }
@@ -6803,7 +6803,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Blessed blade"
           }
@@ -6820,7 +6820,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Holy eviscerator"
           }
@@ -6837,7 +6837,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Neural whips"
           }
@@ -6900,8 +6900,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -6919,7 +6919,7 @@
             "D": "D3",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paragon grenade launchers",
             "range": "24\""
@@ -6937,8 +6937,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2",
-              "twin linked"
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Paragon storm bolters",
             "range": "24\""
@@ -6956,7 +6956,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "24\""
@@ -6974,7 +6974,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -7001,14 +7001,14 @@
     "faction": "sororitas",
     "id": "sororitas/ministorum-priest",
     "keywords": [
-      "character",
-      "faction: adepta sororitas",
-      "imperium",
-      "infantry",
-      "leader",
-      "ministorum priest",
-      "penitent",
-      "sororitas character"
+      "CHARACTER",
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "MINISTORUM PRIEST",
+      "PENITENT",
+      "SORORITAS CHARACTER"
     ],
     "name": "Ministorum Priest",
     "points": [
@@ -7106,7 +7106,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Holy Pistol",
             "range": "12\""
@@ -7150,8 +7150,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Zealot's vindictor",
             "range": "12\""
@@ -7170,12 +7170,12 @@
     "faction": "sororitas",
     "id": "sororitas/mortifiers",
     "keywords": [
-      "faction: adepta sororitas",
-      "imperium",
-      "mortifiers",
-      "penitent",
-      "vehicle",
-      "walker"
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "MORTIFIERS",
+      "PENITENT",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Mortifiers",
     "points": [
@@ -7390,8 +7390,8 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin Penitent Buzz-Blades"
           }
@@ -7408,8 +7408,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin Penitent Flails"
           }
@@ -7426,7 +7426,7 @@
             "S": "10",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Penitent Buzz-Blade"
           }
@@ -7443,7 +7443,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Penitent Flail"
           }
@@ -7461,7 +7461,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy Bolter",
             "range": "36\""
@@ -7479,9 +7479,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Mortifier flamer",
             "range": "12\""
@@ -7504,14 +7504,14 @@
     "faction": "sororitas",
     "id": "sororitas/morvenn-vahl",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adepta sororitas",
-      "imperium",
-      "morvenn vahl",
-      "sororitas character",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "MORVENN VAHL",
+      "SORORITAS CHARACTER",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Morvenn Vahl",
     "points": [
@@ -7587,7 +7587,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Lance of Illumination - strike"
           },
@@ -7598,7 +7598,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Lance of Illumination - sweep"
           }
@@ -7616,7 +7616,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Fidelis",
             "range": "36\""
@@ -7644,7 +7644,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Paragon missile launcher - sanctorum",
             "range": "36\""
@@ -7671,14 +7671,14 @@
     "faction": "sororitas",
     "id": "sororitas/palatine",
     "keywords": [
-      "character",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "palatine",
-      "sororitas character"
+      "CHARACTER",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PALATINE",
+      "SORORITAS CHARACTER"
     ],
     "name": "Palatine",
     "points": [
@@ -7791,7 +7791,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -7809,8 +7809,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -7822,7 +7822,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -7841,12 +7841,12 @@
     "faction": "sororitas",
     "id": "sororitas/paragon-warsuits",
     "keywords": [
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "paragon warsuits",
-      "vehicle",
-      "walker"
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "PARAGON WARSUITS",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Paragon Warsuits",
     "points": [
@@ -8148,8 +8148,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2",
-              "twin linked"
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Paragon Storm Bolters",
             "range": "24\""
@@ -8167,7 +8167,7 @@
             "D": "D3",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paragon Grenade Launchers",
             "range": "24\""
@@ -8215,7 +8215,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy Bolter",
             "range": "36\""
@@ -8233,7 +8233,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -8251,8 +8251,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -8270,7 +8270,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -8289,12 +8289,12 @@
     "faction": "sororitas",
     "id": "sororitas/penitent-engines",
     "keywords": [
-      "faction: adepta sororitas",
-      "imperium",
-      "penitent",
-      "penitent engines",
-      "vehicle",
-      "walker"
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "PENITENT",
+      "PENITENT ENGINES",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Penitent Engines",
     "points": [
@@ -8441,10 +8441,10 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Penitent Flamers",
             "range": "12\""
@@ -8461,8 +8461,8 @@
             "S": "10",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin Penitent Buzz-Blades"
           }
@@ -8479,8 +8479,8 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin Penitent Flails"
           }
@@ -8497,7 +8497,7 @@
             "S": "10",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Penitent Buzz-Blade"
           }
@@ -8514,7 +8514,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Penitent Flail"
           }
@@ -8537,17 +8537,17 @@
     "faction": "sororitas",
     "id": "sororitas/reliquant-knight-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "leader",
-      "paragon warsuits",
-      "reliquant knight",
-      "sororitas character",
-      "vehicle",
-      "walker"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "LEADER",
+      "PARAGON WARSUITS",
+      "RELIQUANT KNIGHT",
+      "SORORITAS CHARACTER",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Reliquant Knight [Crucible]",
     "points": [
@@ -8979,7 +8979,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autopistol",
             "range": "12\""
@@ -8997,7 +8997,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -9015,8 +9015,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -9034,9 +9034,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -9054,8 +9054,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -9067,7 +9067,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -9085,7 +9085,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Artificer-crafted storm bolter",
             "range": "24\""
@@ -9103,7 +9103,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Autogun",
             "range": "24\""
@@ -9121,7 +9121,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -9139,9 +9139,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "one shot",
-              "torrent"
+              "IGNORES COVER",
+              "ONE SHOT",
+              "TORRENT"
             ],
             "name": "Brazier of holy fire",
             "range": "12\""
@@ -9159,9 +9159,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -9179,10 +9179,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -9200,7 +9200,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -9218,8 +9218,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -9236,7 +9236,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Hallowed mace"
           }
@@ -9298,7 +9298,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Blessed blade"
           }
@@ -9315,7 +9315,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Holy eviscerator"
           }
@@ -9332,7 +9332,7 @@
             "S": "3",
             "WS": "2+",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Neural whips"
           }
@@ -9395,8 +9395,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -9414,7 +9414,7 @@
             "D": "D3",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Paragon grenade launchers",
             "range": "24\""
@@ -9432,8 +9432,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2",
-              "twin linked"
+              "RAPID FIRE 2",
+              "TWIN-LINKED"
             ],
             "name": "Paragon storm bolters",
             "range": "24\""
@@ -9451,7 +9451,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "24\""
@@ -9469,7 +9469,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -9488,12 +9488,12 @@
     "faction": "sororitas",
     "id": "sororitas/repentia-squad",
     "keywords": [
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "penitent",
-      "repentia squad"
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PENITENT",
+      "REPENTIA SQUAD"
     ],
     "name": "Repentia Squad",
     "points": [
@@ -9589,7 +9589,7 @@
             "S": "6",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Penitent Eviscerator"
           }
@@ -9606,7 +9606,7 @@
             "S": "3",
             "WS": "3+",
             "keywords": [
-              "anti infantry 4+"
+              "ANTI-INFANTRY 4+"
             ],
             "name": "Neural Whips"
           }
@@ -9624,7 +9624,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -9647,14 +9647,14 @@
     "faction": "sororitas",
     "id": "sororitas/repressor-legends",
     "keywords": [
-      "dedicated transport",
-      "faction: adepta sororitas",
-      "imperium",
-      "repressor",
-      "smoke",
-      "sororitas rhino",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: ADEPTA SORORITAS",
+      "IMPERIUM",
+      "REPRESSOR",
+      "SMOKE",
+      "SORORITAS RHINO",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Repressor [Legends]",
     "points": [
@@ -9794,9 +9794,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent",
-              "twin linked"
+              "IGNORES COVER",
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Repressor twin heavy flamer",
             "range": "12\""
@@ -9814,8 +9814,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -9833,7 +9833,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -9851,7 +9851,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -9874,11 +9874,11 @@
     "faction": "sororitas",
     "id": "sororitas/retributor-squad",
     "keywords": [
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "retributor squad"
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "RETRIBUTOR SQUAD"
     ],
     "name": "Retributor Squad",
     "points": [
@@ -10175,10 +10175,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 2+",
-              "devastating wounds",
-              "precision",
-              "rapid fire 1"
+              "ANTI-PSYKER 2+",
+              "DEVASTATING WOUNDS",
+              "PRECISION",
+              "RAPID FIRE 1"
             ],
             "name": "Condemnor boltgun",
             "range": "24\""
@@ -10196,9 +10196,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -10216,7 +10216,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -10234,7 +10234,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -10252,8 +10252,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -10271,9 +10271,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -10291,8 +10291,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -10304,7 +10304,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -10352,8 +10352,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum heavy flamer",
             "range": "12\""
@@ -10371,8 +10371,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -10390,8 +10390,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -10418,14 +10418,14 @@
     "faction": "sororitas",
     "id": "sororitas/saint-celestine",
     "keywords": [
-      "epic hero",
-      "faction: adepta sororitas",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "leader"
+      "EPIC HERO",
+      "FACTION: ADEPTA SORORITAS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER"
     ],
     "name": "Saint Celestine",
     "points": [
@@ -10521,7 +10521,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "The Ardent Blade"
           }
@@ -10535,8 +10535,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "The Ardent Blade",
             "range": "12\""
@@ -10569,7 +10569,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt Pistol",
             "range": "12\""
@@ -10596,11 +10596,11 @@
     "faction": "sororitas",
     "id": "sororitas/sanctifiers",
     "keywords": [
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sanctifiers"
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SANCTIFIERS"
     ],
     "name": "Sanctifiers",
     "points": [
@@ -10940,9 +10940,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "range": "12\""
@@ -10961,9 +10961,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "qty": 2,
@@ -10982,9 +10982,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "ignores cover",
-              "one shot",
-              "torrent"
+              "IGNORES COVER",
+              "ONE SHOT",
+              "TORRENT"
             ],
             "name": "Holy fire",
             "range": "12\""
@@ -11002,7 +11002,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -11014,8 +11014,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -11033,7 +11033,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -11065,7 +11065,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Burning hands"
           }
@@ -11082,7 +11082,7 @@
             "S": "4",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Death Cult blades"
           }
@@ -11105,13 +11105,13 @@
     "faction": "sororitas",
     "id": "sororitas/seraphim-squad",
     "keywords": [
-      "faction: adepta sororitas",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "seraphim squad"
+      "FACTION: ADEPTA SORORITAS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "SERAPHIM SQUAD"
     ],
     "name": "Seraphim Squad",
     "points": [
@@ -11502,7 +11502,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "qty": 2,
@@ -11521,7 +11521,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -11539,8 +11539,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -11552,7 +11552,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -11616,9 +11616,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Ministorum hand flamer",
             "qty": 2,
@@ -11637,8 +11637,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -11657,11 +11657,11 @@
     "faction": "sororitas",
     "id": "sororitas/sisters-novitiate-squad",
     "keywords": [
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sisters novitiate squad"
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SISTERS NOVITIATE SQUAD"
     ],
     "name": "Sisters Novitiate Squad",
     "points": [
@@ -12007,7 +12007,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -12025,7 +12025,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Boltgun",
             "range": "24\""
@@ -12058,8 +12058,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -12071,7 +12071,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -12104,7 +12104,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Novitiate autopistol",
             "range": "12\""
@@ -12122,8 +12122,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Ministorum flamer",
             "range": "12\""
@@ -12141,7 +12141,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Novitiate autogun",
             "range": "24\""
@@ -12179,14 +12179,14 @@
     "faction": "sororitas",
     "id": "sororitas/sororitas-rhino",
     "keywords": [
-      "dedicated transport",
-      "faction: adepta sororitas",
-      "frame",
-      "imperium",
-      "smoke",
-      "sororitas rhino",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: ADEPTA SORORITAS",
+      "FRAME",
+      "IMPERIUM",
+      "SMOKE",
+      "SORORITAS RHINO",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Sororitas Rhino",
     "points": [
@@ -12287,7 +12287,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -12305,7 +12305,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -12357,15 +12357,15 @@
     "faction": "sororitas",
     "id": "sororitas/triumph-of-saint-katherine",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adepta sororitas",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "sororitas character",
-      "triumph of saint katherine"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTA SORORITAS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "SORORITAS CHARACTER",
+      "TRIUMPH OF SAINT KATHERINE"
     ],
     "name": "Triumph of Saint Katherine",
     "points": [
@@ -12432,7 +12432,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt Pistols",
             "range": "12\""
@@ -12470,13 +12470,13 @@
     "faction": "sororitas",
     "id": "sororitas/zephyrim-squad",
     "keywords": [
-      "faction: adepta sororitas",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "zephyrim squad"
+      "FACTION: ADEPTA SORORITAS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "ZEPHYRIM SQUAD"
     ],
     "name": "Zephyrim Squad",
     "points": [
@@ -12620,7 +12620,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -12638,8 +12638,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -12651,7 +12651,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""

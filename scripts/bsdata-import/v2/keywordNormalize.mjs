@@ -1,37 +1,29 @@
-// ─── WEAPON KEYWORD CANONICALISER (Story A / task A3) ───────────────────────
-// Canonicalises the STRING ONLY — lowercase, collapse separators, trim. It
-// does NOT parse "N+" / ": qualifier" or know what a keyword does — that is
-// Story B's dictionary (`parseKeyword` below is provided for it, not used by
-// the ingester). P1 found 157 raw strings that collapse to ~40 real
-// keywords; the difference is casing / hyphen-vs-space / Ork ALL-CAPS.
+// ─── WEAPON KEYWORD HANDLING (Story A / task A3) ────────────────────────────
+// The ingester keeps keyword strings VERBATIM apart from `.toUpperCase()`
+// (lossless — casing carries no meaning, and CAPS is GW's own style and
+// stands out if it leaks to UI). It does NOT collapse separators, parse
+// "N+" / ": qualifier", or know what a keyword does.
 //
-// canonicalKeyword("Twin-linked")  -> "twin linked"
-// canonicalKeyword("TWIN-LINKED")   -> "twin linked"
-// canonicalKeyword("Anti-Fly 4+")   -> "anti fly 4+"
-// canonicalKeyword("Lethal Hits: non-MONSTER/VEHICLE") -> "lethal hits: non monster/vehicle"
+// BSData's remaining inconsistency (e.g. both "TWIN-LINKED" and "TWIN
+// LINKED" appear) is Story B's dictionary's job to map — that is where
+// "these strings mean the same effect" lives.
+//
+// keywordList("Twin-linked, Devastating Wounds")
+//   -> ["TWIN-LINKED", "DEVASTATING WOUNDS"]
 
-export function canonicalKeyword(raw) {
-  const s = String(raw ?? "").trim();
-  if (!s || s === "-") return null;
-  return s.toLowerCase()
-    .normalize("NFKD")
-    .replace(/[‐-―‑\-]+/g, " ")   // hyphen variants -> space
-    .replace(/\s*:\s*/g, ": ")           // normalise the qualifier separator
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-export function canonicalKeywordList(str) {
+export function keywordList(str) {
   return String(str ?? "")
     .split(",")
-    .map(canonicalKeyword)
-    .filter(Boolean);
+    .map(s => s.trim().toUpperCase())
+    .filter(s => s && s !== "-");
 }
 
 // ── For Story B's dictionary (NOT used by the ingester) ─────────────────────
-// parse a canonical keyword string into { kw, on?, val?, vs? }.
-export function parseKeyword(canonical) {
-  let s = canonical;
+// parse a keyword string into { kw, on?, val?, vs? } after normalising
+// separators. Provided here so Story B has a starting point.
+export function parseKeyword(raw) {
+  let s = String(raw).toLowerCase()
+    .replace(/[‐-―‑\-]+/g, " ").replace(/\s*:\s*/g, ": ").replace(/\s+/g, " ").trim();
   let vs;
   const colon = s.split(/:\s*/);
   if (colon.length > 1) { s = colon[0]; vs = colon.slice(1).join(": ").trim(); }

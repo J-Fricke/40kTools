@@ -17,15 +17,15 @@
     "faction": "spacewolves",
     "id": "spacewolves/arjac-rockfist",
     "keywords": [
-      "arjac rockfist",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "leader",
-      "terminator"
+      "ARJAC ROCKFIST",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TERMINATOR"
     ],
     "name": "Arjac Rockfist",
     "points": [
@@ -81,9 +81,9 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+",
-              "precision"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+",
+              "PRECISION"
             ],
             "name": "Foehammer"
           }
@@ -97,9 +97,9 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+",
-              "assault"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+",
+              "ASSAULT"
             ],
             "name": "Foehammer",
             "range": "6\""
@@ -122,16 +122,16 @@
     "faction": "spacewolves",
     "id": "spacewolves/bjorn-the-fell-handed",
     "keywords": [
-      "bjorn the fell-handed",
-      "character",
-      "dreadnought",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "smoke",
-      "vehicle",
-      "walker"
+      "BJORN THE FELL-HANDED",
+      "CHARACTER",
+      "DREADNOUGHT",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Bjorn the Fell-Handed",
     "points": [
@@ -237,7 +237,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Trueclaw"
           }
@@ -255,7 +255,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault cannon",
             "range": "24\""
@@ -273,7 +273,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -291,7 +291,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Helfrost cannon - dispersed",
             "range": "12\""
@@ -319,8 +319,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -339,14 +339,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/blood-claws",
     "keywords": [
-      "battleline",
-      "blood claws",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tacticus"
+      "BATTLELINE",
+      "BLOOD CLAWS",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
     ],
     "name": "Blood Claws",
     "points": [
@@ -525,7 +525,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -543,8 +543,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -556,7 +556,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -598,13 +598,13 @@
     "faction": "spacewolves",
     "id": "spacewolves/canis-wolfborn-legends",
     "keywords": [
-      "canis wolfborn",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "mounted"
+      "CANIS WOLFBORN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "MOUNTED"
     ],
     "name": "Canis Wolfborn [Legends]",
     "points": [
@@ -681,7 +681,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -698,7 +698,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Wolf claws"
           }
@@ -715,7 +715,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Crushing teeth and claws"
           }
@@ -746,12 +746,12 @@
     "faction": "spacewolves",
     "id": "spacewolves/cyberwolf-legends",
     "keywords": [
-      "beast",
-      "character",
-      "cyberwolf",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium"
+      "BEAST",
+      "CHARACTER",
+      "CYBERWOLF",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM"
     ],
     "name": "Cyberwolf [Legends]",
     "points": [
@@ -837,11 +837,11 @@
     "faction": "spacewolves",
     "id": "spacewolves/fenrisian-wolves",
     "keywords": [
-      "beast",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "fenrisian wolves",
-      "imperium"
+      "BEAST",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "FENRISIAN WOLVES",
+      "IMPERIUM"
     ],
     "name": "Fenrisian Wolves",
     "points": [
@@ -932,14 +932,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/grey-hunters",
     "keywords": [
-      "battleline",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "grey hunters",
-      "imperium",
-      "infantry",
-      "tacticus"
+      "BATTLELINE",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "GREY HUNTERS",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
     ],
     "name": "Grey Hunters",
     "points": [
@@ -1176,7 +1176,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Bolt Carbine",
             "range": "24\""
@@ -1194,8 +1194,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -1207,7 +1207,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -1225,7 +1225,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1252,15 +1252,15 @@
     "faction": "spacewolves",
     "id": "spacewolves/harald-deathwolf-legends",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "harald deathwolf",
-      "imperium",
-      "mounted"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "HARALD DEATHWOLF",
+      "IMPERIUM",
+      "MOUNTED"
     ],
     "name": "Harald Deathwolf [Legends]",
     "points": [
@@ -1351,7 +1351,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Crushing teeth and claws"
           }
@@ -1369,7 +1369,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1396,14 +1396,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/hounds-of-morkai-legends",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "hounds of morkai",
-      "imperium",
-      "infantry",
-      "phobos",
-      "smoke"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "HOUNDS OF MORKAI",
+      "IMPERIUM",
+      "INFANTRY",
+      "PHOBOS",
+      "SMOKE"
     ],
     "name": "Hounds of Morkai [Legends]",
     "points": [
@@ -1490,10 +1490,10 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti psyker 4+",
-              "devastating wounds",
-              "pistol",
-              "precision"
+              "ANTI-PSYKER 4+",
+              "DEVASTATING WOUNDS",
+              "PISTOL",
+              "PRECISION"
             ],
             "name": "Morkai bolt pistol",
             "range": "12\""
@@ -1510,9 +1510,9 @@
             "S": "4",
             "WS": "3+",
             "keywords": [
-              "anti psyker 4+",
-              "devastating wounds",
-              "precision"
+              "ANTI-PSYKER 4+",
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "Morkai combat knife"
           }
@@ -1543,14 +1543,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/iron-priest",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "iron priest",
-      "leader",
-      "techmarine"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "IRON PRIEST",
+      "LEADER",
+      "TECHMARINE"
     ],
     "name": "Iron Priest",
     "points": [
@@ -1628,8 +1628,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol",
-              "torrent"
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Helfrost pistol - dispersed",
             "range": "12\""
@@ -1641,7 +1641,7 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Helfrost pistol - focused",
             "range": "12\""
@@ -1687,13 +1687,13 @@
     "faction": "spacewolves",
     "id": "spacewolves/iron-priest-on-thunderwolf-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "iron priest",
-      "mounted"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "IRON PRIEST",
+      "MOUNTED"
     ],
     "name": "Iron Priest on Thunderwolf [Legends]",
     "points": [
@@ -1836,7 +1836,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Servo-arm"
           }
@@ -1854,8 +1854,8 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "pistol",
-              "torrent"
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Helfrost pistol - dispersed",
             "range": "12\""
@@ -1867,7 +1867,7 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Helfrost pistol - focused",
             "range": "12\""
@@ -1885,7 +1885,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -1918,7 +1918,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Crushing teeth and claws"
           }
@@ -1945,15 +1945,15 @@
     "faction": "spacewolves",
     "id": "spacewolves/krom-dragongaze-legends",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "krom dragongaze"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "KROM DRAGONGAZE"
     ],
     "name": "Krom Dragongaze [Legends]",
     "points": [
@@ -2019,7 +2019,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Wyrmclaw"
           }
@@ -2037,7 +2037,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -2068,16 +2068,16 @@
     "faction": "spacewolves",
     "id": "spacewolves/logan-grimnar",
     "keywords": [
-      "chapter master",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "leader",
-      "logan grimnar",
-      "terminator"
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "LOGAN GRIMNAR",
+      "TERMINATOR"
     ],
     "name": "Logan Grimnar",
     "points": [
@@ -2153,7 +2153,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Tyrnak and Fenrir"
           }
@@ -2171,7 +2171,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -2218,14 +2218,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/logan-grimnar-on-stormrider-legends",
     "keywords": [
-      "chapter master",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "logan grimnar on stormrider",
-      "mounted"
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "LOGAN GRIMNAR ON STORMRIDER",
+      "MOUNTED"
     ],
     "name": "Logan Grimnar on Stormrider [Legends]",
     "points": [
@@ -2301,7 +2301,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Flurry of teeth and claws"
           }
@@ -2343,7 +2343,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -2370,12 +2370,12 @@
     "faction": "spacewolves",
     "id": "spacewolves/long-fangs-legends",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "long fangs"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LONG FANGS"
     ],
     "name": "Long Fangs [Legends]",
     "points": [
@@ -2938,8 +2938,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -2957,7 +2957,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Grav-gun",
             "range": "18\""
@@ -2975,7 +2975,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -2987,8 +2987,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "rapid fire 1",
-              "hazardous"
+              "RAPID FIRE 1",
+              "HAZARDOUS"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -3006,7 +3006,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -3024,8 +3024,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -3037,7 +3037,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -3115,7 +3115,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -3133,7 +3133,7 @@
             "D": "D6+1",
             "S": "12",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Lascannon",
             "range": "48\""
@@ -3151,8 +3151,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy bolter",
             "range": "36\""
@@ -3170,8 +3170,8 @@
             "D": "3",
             "S": "6",
             "keywords": [
-              "anti vehicle 2+",
-              "heavy"
+              "ANTI-VEHICLE 2+",
+              "HEAVY"
             ],
             "name": "Grav-cannon",
             "range": "24\""
@@ -3189,8 +3189,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Missile launcher - frag",
             "range": "48\""
@@ -3202,7 +3202,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Missile launcher - krak",
             "range": "48\""
@@ -3220,8 +3220,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Plasma cannon - standard",
             "range": "36\""
@@ -3233,9 +3233,9 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "blast",
-              "hazardous",
-              "heavy"
+              "BLAST",
+              "HAZARDOUS",
+              "HEAVY"
             ],
             "name": "Plasma cannon - supercharge",
             "range": "36\""
@@ -3253,8 +3253,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy",
-              "melta 2"
+              "HEAVY",
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -3272,9 +3272,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "heavy",
-              "ignores cover",
-              "torrent"
+              "HEAVY",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy flamer",
             "range": "12\""
@@ -3305,14 +3305,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/lukas-the-trickster-legends",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "lukas the trickster"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LUKAS THE TRICKSTER"
     ],
     "name": "Lukas the Trickster [Legends]",
     "points": [
@@ -3394,8 +3394,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -3407,7 +3407,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -3434,16 +3434,16 @@
     "faction": "spacewolves",
     "id": "spacewolves/murderfang",
     "keywords": [
-      "character",
-      "dreadnought",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "murderfang",
-      "vehicle",
-      "walker",
-      "wulfen"
+      "CHARACTER",
+      "DREADNOUGHT",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "MURDERFANG",
+      "VEHICLE",
+      "WALKER",
+      "WULFEN"
     ],
     "name": "Murderfang",
     "points": [
@@ -3519,8 +3519,8 @@
             "S": "14",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Murderclaws"
           }
@@ -3538,7 +3538,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -3556,8 +3556,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -3584,16 +3584,16 @@
     "faction": "spacewolves",
     "id": "spacewolves/njal-stormcaller",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "leader",
-      "njal stormcaller",
-      "psyker",
-      "tacticus"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "NJAL STORMCALLER",
+      "PSYKER",
+      "TACTICUS"
     ],
     "name": "Njal Stormcaller",
     "points": [
@@ -3669,8 +3669,8 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "psychic",
-              "sustained hits 2"
+              "PSYCHIC",
+              "SUSTAINED HITS 2"
             ],
             "name": "Staff of the Stormcaller"
           }
@@ -3688,8 +3688,8 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "psychic",
-              "sustained hits 2"
+              "PSYCHIC",
+              "SUSTAINED HITS 2"
             ],
             "name": "Living Lightning - witchfire",
             "range": "24\""
@@ -3701,9 +3701,9 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "sustained hits 2"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "SUSTAINED HITS 2"
             ],
             "name": "Living Lightning - focused witchfire",
             "range": "24\""
@@ -3721,7 +3721,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -3748,17 +3748,17 @@
     "faction": "spacewolves",
     "id": "spacewolves/ragnar-blackmane",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "ragnar blackmane",
-      "tacticus"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "RAGNAR BLACKMANE",
+      "TACTICUS"
     ],
     "name": "Ragnar Blackmane",
     "points": [
@@ -3824,7 +3824,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Frostfang"
           }
@@ -3842,7 +3842,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -3865,14 +3865,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/skyclaws-legends",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "skyclaws"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "SKYCLAWS"
     ],
     "name": "Skyclaws [Legends]",
     "points": [
@@ -4209,7 +4209,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -4227,8 +4227,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -4240,7 +4240,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -4318,8 +4318,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -4337,7 +4337,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Grav-gun",
             "range": "18\""
@@ -4355,7 +4355,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -4367,8 +4367,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 1"
+              "HAZARDOUS",
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -4386,7 +4386,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -4414,14 +4414,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/stormfang-gunship-legends",
     "keywords": [
-      "aircraft",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "fly",
-      "imperium",
-      "stormfang gunship",
-      "transport",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "FLY",
+      "IMPERIUM",
+      "STORMFANG GUNSHIP",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Stormfang Gunship [Legends]",
     "points": [
@@ -4557,7 +4557,7 @@
             "D": "7",
             "S": "11",
             "keywords": [
-              "sustained hits d3"
+              "SUSTAINED HITS D3"
             ],
             "name": "Helfrost destructor - dispersed",
             "range": "36\""
@@ -4569,7 +4569,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Helfrost destructor - focused",
             "range": "12\""
@@ -4587,7 +4587,7 @@
             "D": "3",
             "S": "10",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin stormstrike missile launcher",
             "range": "48\""
@@ -4606,7 +4606,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Skyhammer Missile Launcher",
             "qty": 2,
@@ -4626,8 +4626,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin multi-melta",
             "qty": 2,
@@ -4656,14 +4656,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/stormwolf-legends",
     "keywords": [
-      "aircraft",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "fly",
-      "imperium",
-      "stormwolf",
-      "transport",
-      "vehicle"
+      "AIRCRAFT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "FLY",
+      "IMPERIUM",
+      "STORMWOLF",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Stormwolf [Legends]",
     "points": [
@@ -4779,8 +4779,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "torrent",
-              "twin linked"
+              "TORRENT",
+              "TWIN-LINKED"
             ],
             "name": "Twin helfrost cannon - dispersed",
             "range": "12\""
@@ -4792,7 +4792,7 @@
             "D": "5",
             "S": "9",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin helfrost cannon - focused",
             "range": "36\""
@@ -4811,7 +4811,7 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "anti fly 2+"
+              "ANTI-FLY 2+"
             ],
             "name": "Skyhammer Missile Launcher",
             "qty": 2,
@@ -4831,8 +4831,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin multi-melta",
             "qty": 2,
@@ -4852,12 +4852,12 @@
     "faction": "spacewolves",
     "id": "spacewolves/thunderwolf-cavalry",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "mounted",
-      "thunderwolf cavalry"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "MOUNTED",
+      "THUNDERWOLF CAVALRY"
     ],
     "name": "Thunderwolf Cavalry",
     "points": [
@@ -5089,7 +5089,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Crushing teeth and claws"
           }
@@ -5107,8 +5107,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -5120,7 +5120,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -5154,7 +5154,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -5181,16 +5181,16 @@
     "faction": "spacewolves",
     "id": "spacewolves/ulrik-the-slayer",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "ulrik the slayer",
-      "wolf priest"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "ULRIK THE SLAYER",
+      "WOLF PRIEST"
     ],
     "name": "Ulrik the Slayer",
     "points": [
@@ -5257,7 +5257,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -5269,8 +5269,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -5287,8 +5287,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "anti monster 4+",
-              "anti vehicle 4+"
+              "ANTI-MONSTER 4+",
+              "ANTI-VEHICLE 4+"
             ],
             "name": "Artificer crozius"
           }
@@ -5307,14 +5307,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/venerable-dreadnought",
     "keywords": [
-      "dreadnought",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "smoke",
-      "vehicle",
-      "venerable dreadnought",
-      "walker"
+      "DREADNOUGHT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE",
+      "VENERABLE DREADNOUGHT",
+      "WALKER"
     ],
     "name": "Venerable Dreadnought",
     "points": [
@@ -5514,8 +5514,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -5533,7 +5533,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -5575,7 +5575,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "torrent"
+              "TORRENT"
             ],
             "name": "Helfrost cannon - dispersed",
             "range": "12\""
@@ -5603,7 +5603,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault Cannon",
             "range": "24\""
@@ -5621,7 +5621,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Multi-melta",
             "range": "18\""
@@ -5663,15 +5663,15 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-battle-leader",
     "keywords": [
-      "battle leader",
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus",
-      "wolf guard"
+      "BATTLE LEADER",
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS",
+      "WOLF GUARD"
     ],
     "name": "Wolf Guard Battle Leader",
     "points": [
@@ -5813,7 +5813,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -5847,7 +5847,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Master-crafted Heavy Bolt Pistol",
             "range": "18\""
@@ -5865,8 +5865,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -5878,7 +5878,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -5905,13 +5905,13 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-battle-leader-in-terminator-armour-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "terminator",
-      "wolf guard battle leader in terminator armour"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR",
+      "WOLF GUARD BATTLE LEADER IN TERMINATOR ARMOUR"
     ],
     "name": "Wolf Guard Battle Leader in Terminator Armour [Legends]",
     "points": [
@@ -6145,7 +6145,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -6178,9 +6178,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -6198,7 +6198,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -6215,7 +6215,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder hammer"
           }
@@ -6262,7 +6262,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -6289,13 +6289,13 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-battle-leader-on-thunderwolf-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "mounted",
-      "wolf guard battle leader on thunderwolf"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "MOUNTED",
+      "WOLF GUARD BATTLE LEADER ON THUNDERWOLF"
     ],
     "name": "Wolf Guard Battle Leader on Thunderwolf [Legends]",
     "points": [
@@ -6581,8 +6581,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -6594,7 +6594,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -6626,7 +6626,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder hammer"
           }
@@ -6643,7 +6643,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -6661,7 +6661,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -6679,9 +6679,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -6715,7 +6715,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -6732,7 +6732,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Crushing teeth and claws"
           }
@@ -6759,10 +6759,10 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-headtakers",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "infantry",
-      "wolf guard headtakers"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "INFANTRY",
+      "WOLF GUARD HEADTAKERS"
     ],
     "name": "Wolf Guard Headtakers",
     "points": [
@@ -6935,7 +6935,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -6977,9 +6977,9 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-headtakers-2",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "infantry"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "INFANTRY"
     ],
     "name": "Wolf Guard Headtakers",
     "points": [
@@ -7170,7 +7170,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -7208,12 +7208,12 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-legends",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "wolf guard"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "WOLF GUARD"
     ],
     "name": "Wolf Guard [Legends]",
     "points": [
@@ -7479,9 +7479,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -7499,8 +7499,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -7512,7 +7512,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -7530,7 +7530,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -7548,7 +7548,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -7571,15 +7571,15 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-pack-leader-in-terminator-armour-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "pack leader",
-      "terminator",
-      "wolf guard pack leader in terminator armour"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PACK LEADER",
+      "TERMINATOR",
+      "WOLF GUARD PACK LEADER IN TERMINATOR ARMOUR"
     ],
     "name": "Wolf Guard Pack Leader in Terminator Armour [Legends]",
     "points": [
@@ -7955,7 +7955,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Cyclone missile launcher - frag",
             "range": "36\""
@@ -7983,7 +7983,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault Cannon",
             "range": "24\""
@@ -8001,8 +8001,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -8020,9 +8020,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -8040,7 +8040,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -8087,7 +8087,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "anti vehicle 3+"
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Chainfist"
           }
@@ -8104,7 +8104,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -8121,7 +8121,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -8140,14 +8140,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-pack-leader-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "pack leader",
-      "wolf guard pack leader"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PACK LEADER",
+      "WOLF GUARD PACK LEADER"
     ],
     "name": "Wolf Guard Pack Leader [Legends]",
     "points": [
@@ -8428,7 +8428,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -8446,8 +8446,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -8459,7 +8459,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -8493,9 +8493,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -8513,7 +8513,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -8575,7 +8575,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -8592,7 +8592,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -8626,16 +8626,16 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-pack-leader-with-jump-pack-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "pack leader",
-      "wolf guard pack leader with jump pack"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "PACK LEADER",
+      "WOLF GUARD PACK LEADER WITH JUMP PACK"
     ],
     "name": "Wolf Guard Pack Leader with Jump Pack [Legends]",
     "points": [
@@ -8916,7 +8916,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -8934,8 +8934,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -8947,7 +8947,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -8981,9 +8981,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -9001,7 +9001,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -9063,7 +9063,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -9080,7 +9080,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -9114,13 +9114,13 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-guard-terminators",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "terminator",
-      "wolf guard",
-      "wolf guard terminators"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TERMINATOR",
+      "WOLF GUARD",
+      "WOLF GUARD TERMINATORS"
     ],
     "name": "Wolf Guard Terminators",
     "points": [
@@ -9354,7 +9354,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -9371,7 +9371,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Relic Great Axe"
           }
@@ -9404,7 +9404,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -9422,7 +9422,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Assault Cannon",
             "range": "24\""
@@ -9464,14 +9464,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-lord-on-thunderwolf-legends",
     "keywords": [
-      "captain",
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "mounted",
-      "wolf lord on thunderwolf"
+      "CAPTAIN",
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "MOUNTED",
+      "WOLF LORD ON THUNDERWOLF"
     ],
     "name": "Wolf Lord on Thunderwolf [Legends]",
     "points": [
@@ -9737,7 +9737,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -9755,9 +9755,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -9791,8 +9791,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -9804,7 +9804,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -9822,7 +9822,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -9869,7 +9869,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -9901,7 +9901,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -9918,7 +9918,7 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "extra attacks"
+              "EXTRA ATTACKS"
             ],
             "name": "Crushing teeth and claws"
           }
@@ -9945,14 +9945,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-priest",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus",
-      "wolf priest"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS",
+      "WOLF PRIEST"
     ],
     "name": "Wolf Priest",
     "points": [
@@ -10045,7 +10045,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Absolvor bolt pistol",
             "range": "18\""
@@ -10068,14 +10068,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-scouts",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "phobos",
-      "smoke",
-      "wolf scouts"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "PHOBOS",
+      "SMOKE",
+      "WOLF SCOUTS"
     ],
     "name": "Wolf Scouts",
     "points": [
@@ -10596,7 +10596,7 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Instigator Bolt Carbine",
             "range": "24\""
@@ -10629,8 +10629,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -10642,7 +10642,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -10675,7 +10675,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -10687,8 +10687,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "rapid fire 1",
-              "hazardous"
+              "RAPID FIRE 1",
+              "HAZARDOUS"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -10705,7 +10705,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Runic Stave"
           }
@@ -10723,8 +10723,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "blast",
-              "psychic"
+              "BLAST",
+              "PSYCHIC"
             ],
             "name": "Thunderclap",
             "range": "12\""
@@ -10742,7 +10742,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -10761,14 +10761,14 @@
     "faction": "spacewolves",
     "id": "spacewolves/wolf-scouts-legends",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "grenades",
-      "imperium",
-      "infantry",
-      "scout squad",
-      "smoke",
-      "wolf scouts"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SCOUT SQUAD",
+      "SMOKE",
+      "WOLF SCOUTS"
     ],
     "name": "Wolf Scouts [Legends]",
     "points": [
@@ -11429,9 +11429,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -11449,7 +11449,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -11467,7 +11467,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -11485,8 +11485,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -11498,7 +11498,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -11516,9 +11516,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -11536,8 +11536,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti vehicle 2+",
-              "pistol"
+              "ANTI-VEHICLE 2+",
+              "PISTOL"
             ],
             "name": "Grav-pistol",
             "range": "12\""
@@ -11555,8 +11555,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -11618,7 +11618,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -11635,7 +11635,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin lightning claws"
           }
@@ -11668,7 +11668,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Astartes shotgun",
             "range": "18\""
@@ -11701,8 +11701,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Flamer",
             "range": "12\""
@@ -11720,7 +11720,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Plasma gun - standard",
             "range": "24\""
@@ -11732,8 +11732,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "rapid fire 1",
-              "hazardous"
+              "RAPID FIRE 1",
+              "HAZARDOUS"
             ],
             "name": "Plasma gun - supercharge",
             "range": "24\""
@@ -11751,7 +11751,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "anti vehicle 2+"
+              "ANTI-VEHICLE 2+"
             ],
             "name": "Grav-gun",
             "range": "18\""
@@ -11769,8 +11769,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy Bolter",
             "range": "36\""
@@ -11788,7 +11788,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -11806,8 +11806,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast",
-              "heavy"
+              "BLAST",
+              "HEAVY"
             ],
             "name": "Missile Launcher - Frag",
             "range": "48\""
@@ -11819,7 +11819,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "heavy"
+              "HEAVY"
             ],
             "name": "Missile Launcher - Krak",
             "range": "48\""
@@ -11838,11 +11838,11 @@
     "faction": "spacewolves",
     "id": "spacewolves/wulfen",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "wulfen"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "WULFEN"
     ],
     "name": "Wulfen",
     "points": [
@@ -11952,7 +11952,7 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Wulfen Weapons"
           }
@@ -11970,8 +11970,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Stormfrag auto-launcher",
             "range": "12\""
@@ -11994,13 +11994,13 @@
     "faction": "spacewolves",
     "id": "spacewolves/wulfen-dreadnought",
     "keywords": [
-      "dreadnought",
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "vehicle",
-      "walker",
-      "wulfen"
+      "DREADNOUGHT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "VEHICLE",
+      "WALKER",
+      "WULFEN"
     ],
     "name": "Wulfen Dreadnought",
     "points": [
@@ -12121,7 +12121,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -12164,12 +12164,12 @@
     "faction": "spacewolves",
     "id": "spacewolves/wulfen-with-storm-shields",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: space wolves",
-      "imperium",
-      "infantry",
-      "wulfen",
-      "wulfen with storm shields"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: SPACE WOLVES",
+      "IMPERIUM",
+      "INFANTRY",
+      "WULFEN",
+      "WULFEN WITH STORM SHIELDS"
     ],
     "name": "Wulfen with Storm Shields",
     "points": [
@@ -12279,8 +12279,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Thunder Hammer"
           }
@@ -12298,8 +12298,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "blast"
+              "ASSAULT",
+              "BLAST"
             ],
             "name": "Stormfrag auto-launcher",
             "range": "12\""

@@ -17,10 +17,10 @@
     "faction": "votann",
     "id": "votann/arkanyst-evaluator",
     "keywords": [
-      "arkanyst evaluator",
-      "character",
-      "faction: leagues of votann",
-      "infantry"
+      "ARKANYST EVALUATOR",
+      "CHARACTER",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY"
     ],
     "name": "Arkanyst Evaluator",
     "points": [
@@ -98,7 +98,7 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "Transmatter inverter - half charge",
             "range": "12\""
@@ -110,8 +110,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "rapid fire 2"
+              "HAZARDOUS",
+              "RAPID FIRE 2"
             ],
             "name": "Transmatter inverter - full charge",
             "range": "18\""
@@ -123,9 +123,9 @@
             "D": "3",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "overcharge",
-              "rapid fire 3"
+              "HAZARDOUS",
+              "OVERCHARGE",
+              "RAPID FIRE 3"
             ],
             "name": "Transmatter inverter - overcharge",
             "range": "24\""
@@ -167,13 +167,13 @@
     "faction": "votann",
     "id": "votann/berehk-stornbro-w",
     "keywords": [
-      "berehk stornbröw",
-      "character",
-      "cthonian",
-      "epic hero",
-      "faction: leagues of votann",
-      "infantry",
-      "leader"
+      "BEREHK STORNBRÖW",
+      "CHARACTER",
+      "CTHONIAN",
+      "EPIC HERO",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Berehk Stornbröw",
     "points": [
@@ -239,9 +239,9 @@
             "S": "10",
             "WS": "2+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+",
-              "sustained hits 1"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+",
+              "SUSTAINED HITS 1"
             ],
             "name": "Kromlôk's Revenge - graviton strikes"
           },
@@ -252,7 +252,7 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Kromlôk's Revenge - plasma sweeps"
           }
@@ -269,8 +269,8 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "extra attacks",
-              "sustained hits 1"
+              "EXTRA ATTACKS",
+              "SUSTAINED HITS 1"
             ],
             "name": "Warforge gauntlets"
           }
@@ -309,11 +309,11 @@
     "faction": "votann",
     "id": "votann/bro-khyr-iron-master",
     "keywords": [
-      "brôkhyr",
-      "character",
-      "faction: leagues of votann",
-      "infantry",
-      "leader"
+      "BRÔKHYR",
+      "CHARACTER",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Brôkhyr Iron-master",
     "points": [
@@ -512,8 +512,8 @@
             "S": "9",
             "WS": "4+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton hammer"
           }
@@ -531,8 +531,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton rifle",
             "range": "18\""
@@ -550,7 +550,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolt pistol",
             "range": "12\""
@@ -634,11 +634,11 @@
     "faction": "votann",
     "id": "votann/bro-khyr-thunderkyn",
     "keywords": [
-      "brôkhyr",
-      "exoframe",
-      "faction: leagues of votann",
-      "infantry",
-      "thunderkyn"
+      "BRÔKHYR",
+      "EXOFRAME",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "THUNDERKYN"
     ],
     "name": "Brôkhyr Thunderkyn",
     "points": [
@@ -761,7 +761,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Bolt cannon",
             "range": "36\""
@@ -779,8 +779,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton blast cannon",
             "range": "24\""
@@ -798,8 +798,8 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "conversion",
-              "lethal hits"
+              "CONVERSION",
+              "LETHAL HITS"
             ],
             "name": "SP conversion beamer",
             "range": "24\""
@@ -826,12 +826,12 @@
     "faction": "votann",
     "id": "votann/buri-aegnirssen",
     "keywords": [
-      "buri aegnirssen",
-      "character",
-      "epic hero",
-      "faction: leagues of votann",
-      "infantry",
-      "leader"
+      "BURI AEGNIRSSEN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Buri Aegnirssen",
     "points": [
@@ -898,7 +898,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolt pistol",
             "range": "12\""
@@ -915,7 +915,7 @@
             "S": "12",
             "WS": "2+",
             "keywords": [
-              "precision"
+              "PRECISION"
             ],
             "name": "Bane - strike"
           },
@@ -947,10 +947,10 @@
     "faction": "votann",
     "id": "votann/cthonian-beserks",
     "keywords": [
-      "beserks",
-      "cthonian",
-      "faction: leagues of votann",
-      "infantry"
+      "BESERKS",
+      "CTHONIAN",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY"
     ],
     "name": "Cthonian Beserks",
     "points": [
@@ -1087,8 +1087,8 @@
             "S": "5",
             "WS": "4+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Concussion maul"
           }
@@ -1120,7 +1120,7 @@
             "S": "9",
             "WS": "4+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin concussion gauntlets"
           }
@@ -1138,8 +1138,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "blast",
-              "indirect fire"
+              "BLAST",
+              "INDIRECT FIRE"
             ],
             "name": "Mole grenade launcher",
             "range": "18\""
@@ -1158,11 +1158,11 @@
     "faction": "votann",
     "id": "votann/cthonian-earthshakers",
     "keywords": [
-      "artillery",
-      "cthonian",
-      "earthshakers",
-      "faction: leagues of votann",
-      "infantry"
+      "ARTILLERY",
+      "CTHONIAN",
+      "EARTHSHAKERS",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY"
     ],
     "name": "Cthonian Earthshakers",
     "points": [
@@ -1286,7 +1286,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolt pistol",
             "range": "12\""
@@ -1304,9 +1304,9 @@
             "D": "2",
             "S": "10",
             "keywords": [
-              "blast",
-              "heavy",
-              "indirect fire"
+              "BLAST",
+              "HEAVY",
+              "INDIRECT FIRE"
             ],
             "name": "Breacher ordnance",
             "range": "24\""
@@ -1324,9 +1324,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "blast",
-              "heavy",
-              "indirect fire"
+              "BLAST",
+              "HEAVY",
+              "INDIRECT FIRE"
             ],
             "name": "Tremor shells",
             "range": "36\""
@@ -1357,12 +1357,12 @@
     "faction": "votann",
     "id": "votann/einhyr-champion",
     "keywords": [
-      "character",
-      "einhyr champion",
-      "exoarmour",
-      "faction: leagues of votann",
-      "infantry",
-      "leader"
+      "CHARACTER",
+      "EINHYR CHAMPION",
+      "EXOARMOUR",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Einhyr Champion",
     "points": [
@@ -1511,10 +1511,10 @@
     "faction": "votann",
     "id": "votann/einhyr-hearthguard",
     "keywords": [
-      "einhyr hearthguard",
-      "exoarmour",
-      "faction: leagues of votann",
-      "infantry"
+      "EINHYR HEARTHGUARD",
+      "EXOARMOUR",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY"
     ],
     "name": "Einhyr Hearthguard",
     "points": [
@@ -1695,7 +1695,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Exo-armour grenade launcher",
             "range": "24\""
@@ -1712,8 +1712,8 @@
             "S": "9",
             "WS": "4+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton hammer"
           }
@@ -1731,7 +1731,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "EtaCarn plasma gun",
             "range": "24\""
@@ -1749,7 +1749,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkanite disintegrator",
             "range": "24\""
@@ -1814,10 +1814,10 @@
     "faction": "votann",
     "id": "votann/grimnyr",
     "keywords": [
-      "character",
-      "faction: leagues of votann",
-      "infantry",
-      "leader"
+      "CHARACTER",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "LEADER"
     ],
     "name": "Grimnyr",
     "points": [
@@ -1934,7 +1934,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Ancestral ward stave"
           }
@@ -1952,7 +1952,7 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Ancestral Wrath - witchfire",
             "range": "24\""
@@ -1964,8 +1964,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic"
+              "HAZARDOUS",
+              "PSYCHIC"
             ],
             "name": "Ancestral Wrath - focused witchfire",
             "range": "24\""
@@ -2023,11 +2023,11 @@
     "faction": "votann",
     "id": "votann/hearthkyn-warriors",
     "keywords": [
-      "battleline",
-      "faction: leagues of votann",
-      "grenades",
-      "hearthkyn warriors",
-      "infantry"
+      "BATTLELINE",
+      "FACTION: LEAGUES OF VOTANN",
+      "GRENADES",
+      "HEARTHKYN WARRIORS",
+      "INFANTRY"
     ],
     "name": "Hearthkyn Warriors",
     "points": [
@@ -2555,7 +2555,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolt pistol",
             "range": "12\""
@@ -2605,7 +2605,7 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Theyn's pistol",
             "range": "12\""
@@ -2638,8 +2638,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "heavy",
-              "sustained hits 1"
+              "HEAVY",
+              "SUSTAINED HITS 1"
             ],
             "name": "HYLas rotary cannon",
             "range": "24\""
@@ -2657,8 +2657,8 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "rapid fire 3"
+              "ASSAULT",
+              "RAPID FIRE 3"
             ],
             "name": "HYLas auto rifle",
             "range": "24\""
@@ -2676,7 +2676,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "L7 missile launcher - blast",
             "range": "24\""
@@ -2704,8 +2704,8 @@
             "D": "D3+3",
             "S": "12",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Magna-rail rifle",
             "range": "18\""
@@ -2723,7 +2723,7 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "sustained hits d3"
+              "SUSTAINED HITS D3"
             ],
             "name": "EtaCarn plasma beamer",
             "range": "18\""
@@ -2759,11 +2759,11 @@
     "faction": "votann",
     "id": "votann/hekaton-land-fortress",
     "keywords": [
-      "faction: leagues of votann",
-      "frame",
-      "hekaton land fortress",
-      "transport",
-      "vehicle"
+      "FACTION: LEAGUES OF VOTANN",
+      "FRAME",
+      "HEKATON LAND FORTRESS",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Hekaton Land Fortress",
     "points": [
@@ -2948,8 +2948,8 @@
             "D": "4",
             "S": "10",
             "keywords": [
-              "conversion",
-              "lethal hits"
+              "CONVERSION",
+              "LETHAL HITS"
             ],
             "name": "SP heavy conversion beamer",
             "range": "24\""
@@ -2967,8 +2967,8 @@
             "D": "D6+4",
             "S": "18",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Heavy magna-rail cannon",
             "range": "30\""
@@ -2986,7 +2986,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Cyclic ion cannon",
             "range": "24\""
@@ -3004,8 +3004,8 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "blast",
-              "twin linked"
+              "BLAST",
+              "TWIN-LINKED"
             ],
             "name": "Twin ion beamer",
             "range": "18\""
@@ -3023,8 +3023,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin bolt cannon",
             "range": "36\""
@@ -3042,8 +3042,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "one shot"
+              "BLAST",
+              "ONE SHOT"
             ],
             "name": "Hekaton warhead",
             "range": "36\""
@@ -3061,8 +3061,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "assault",
-              "sustained hits 1"
+              "ASSAULT",
+              "SUSTAINED HITS 1"
             ],
             "name": "MATR autocannon",
             "range": "24\""
@@ -3085,12 +3085,12 @@
     "faction": "votann",
     "id": "votann/hernkyn-pioneers",
     "keywords": [
-      "faction: leagues of votann",
-      "fly",
-      "grenades",
-      "hernkyn",
-      "mounted",
-      "pioneers"
+      "FACTION: LEAGUES OF VOTANN",
+      "FLY",
+      "GRENADES",
+      "HERNKYN",
+      "MOUNTED",
+      "PIONEERS"
     ],
     "name": "Hernkyn Pioneers",
     "points": [
@@ -3500,7 +3500,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt revolver",
             "range": "12\""
@@ -3518,7 +3518,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Bolt shotgun",
             "range": "18\""
@@ -3567,7 +3567,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "HYLas rotary cannon",
             "range": "24\""
@@ -3585,7 +3585,7 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Ion beamer",
             "range": "18\""
@@ -3608,11 +3608,11 @@
     "faction": "votann",
     "id": "votann/hernkyn-yaegirs",
     "keywords": [
-      "faction: leagues of votann",
-      "grenades",
-      "hernkyn",
-      "infantry",
-      "yaegirs"
+      "FACTION: LEAGUES OF VOTANN",
+      "GRENADES",
+      "HERNKYN",
+      "INFANTRY",
+      "YAEGIRS"
     ],
     "name": "Hernkyn Yaegirs",
     "points": [
@@ -3967,7 +3967,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Bolt shotgun",
             "range": "18\""
@@ -4000,8 +4000,8 @@
             "D": "D6",
             "S": "6",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "APM launcher",
             "range": "24\""
@@ -4019,8 +4019,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "precision"
+              "IGNORES COVER",
+              "PRECISION"
             ],
             "name": "Magna-coil rifle",
             "range": "24\""
@@ -4038,7 +4038,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt revolver",
             "range": "12\""
@@ -4076,10 +4076,10 @@
     "faction": "votann",
     "id": "votann/ironkin-steeljacks-with-heavy-volkanite-disintegrators",
     "keywords": [
-      "faction: leagues of votann",
-      "infantry",
-      "ironkin steeljacks",
-      "ironkin steeljacks with heavy volkanite disintegrators"
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "IRONKIN STEELJACKS",
+      "IRONKIN STEELJACKS WITH HEAVY VOLKANITE DISINTEGRATORS"
     ],
     "name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
     "points": [
@@ -4247,7 +4247,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy volkanite disintegrator",
             "range": "24\""
@@ -4280,7 +4280,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolter",
             "range": "24\""
@@ -4297,7 +4297,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Plasma sword"
           }
@@ -4320,10 +4320,10 @@
     "faction": "votann",
     "id": "votann/ironkin-steeljacks-with-melee-weapons",
     "keywords": [
-      "faction: leagues of votann",
-      "infantry",
-      "ironkin steeljacks",
-      "ironkin steeljacks with melee weapons"
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "IRONKIN STEELJACKS",
+      "IRONKIN STEELJACKS WITH MELEE WEAPONS"
     ],
     "name": "Ironkin Steeljacks with Melee Weapons",
     "points": [
@@ -4496,7 +4496,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Plasma sword"
           }
@@ -4513,7 +4513,7 @@
             "S": "10",
             "WS": "4+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Concussion gauntlet"
           }
@@ -4531,7 +4531,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolter",
             "range": "24\""
@@ -4562,11 +4562,11 @@
     "faction": "votann",
     "id": "votann/ka-hl",
     "keywords": [
-      "character",
-      "faction: leagues of votann",
-      "infantry",
-      "kâhl",
-      "leader"
+      "CHARACTER",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "KÂHL",
+      "LEADER"
     ],
     "name": "Kâhl",
     "points": [
@@ -4730,7 +4730,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkanite disintegrator",
             "range": "24\""
@@ -4761,14 +4761,14 @@
     "faction": "votann",
     "id": "votann/kapricus-carrier",
     "keywords": [
-      "carrier",
-      "dedicated transport",
-      "faction: leagues of votann",
-      "fly",
-      "hernkyn",
-      "kapricus",
-      "transport",
-      "vehicle"
+      "CARRIER",
+      "DEDICATED TRANSPORT",
+      "FACTION: LEAGUES OF VOTANN",
+      "FLY",
+      "HERNKYN",
+      "KAPRICUS",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Kapricus Carrier",
     "points": [
@@ -4888,7 +4888,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin magna-coil autocannon",
             "range": "24\""
@@ -4911,12 +4911,12 @@
     "faction": "votann",
     "id": "votann/kapricus-defenders",
     "keywords": [
-      "defenders",
-      "faction: leagues of votann",
-      "fly",
-      "hernkyn",
-      "kapricus",
-      "vehicle"
+      "DEFENDERS",
+      "FACTION: LEAGUES OF VOTANN",
+      "FLY",
+      "HERNKYN",
+      "KAPRICUS",
+      "VEHICLE"
     ],
     "name": "Kapricus Defenders",
     "points": [
@@ -5049,8 +5049,8 @@
             "D": "D3+3",
             "S": "14",
             "keywords": [
-              "devastating wounds",
-              "heavy"
+              "DEVASTATING WOUNDS",
+              "HEAVY"
             ],
             "name": "Magna-rail cannon",
             "range": "24\""
@@ -5068,7 +5068,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "HYLas rotary cannon",
             "range": "24\""
@@ -5086,7 +5086,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin magna-coil autocannon",
             "range": "24\""
@@ -5109,12 +5109,12 @@
     "faction": "votann",
     "id": "votann/kinhost-commander-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: leagues of votann",
-      "infantry",
-      "kinhost commander",
-      "leader"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "KINHOST COMMANDER",
+      "LEADER"
     ],
     "name": "Kinhost Commander [Crucible]",
     "points": [
@@ -5796,7 +5796,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Exo-armour grenade launcher",
             "range": "24\""
@@ -5830,7 +5830,7 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Ancestral Wrath - witchfire",
             "range": "24\""
@@ -5842,8 +5842,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic"
+              "HAZARDOUS",
+              "PSYCHIC"
             ],
             "name": "Ancestral Wrath - focused witchfire",
             "range": "24\""
@@ -5893,8 +5893,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton blast cannon",
             "range": "24\""
@@ -5912,7 +5912,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Bolt shotgun",
             "range": "18\""
@@ -5930,7 +5930,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "EtaCarn plasma gun",
             "range": "24\""
@@ -5948,7 +5948,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Bolt cannon",
             "range": "36\""
@@ -5966,8 +5966,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton rifle",
             "range": "18\""
@@ -5985,7 +5985,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy volkanite disintegrator",
             "range": "24\""
@@ -6019,8 +6019,8 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "conversion",
-              "lethal hits"
+              "CONVERSION",
+              "LETHAL HITS"
             ],
             "name": "SP conversion beamer",
             "range": "24\""
@@ -6038,7 +6038,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkanite disintegrator",
             "range": "24\""
@@ -6056,7 +6056,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolter",
             "range": "24\""
@@ -6074,7 +6074,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolt pistol",
             "range": "12\""
@@ -6092,7 +6092,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt revolver",
             "range": "12\""
@@ -6110,7 +6110,7 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Theyn's pistol",
             "range": "12\""
@@ -6127,7 +6127,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Ancestral ward stave"
           }
@@ -6159,7 +6159,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Concussion gauntlet"
           }
@@ -6176,8 +6176,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Concussion maul"
           }
@@ -6224,8 +6224,8 @@
             "S": "9",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton hammer"
           }
@@ -6317,7 +6317,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Plasma sword"
           }
@@ -6355,13 +6355,13 @@
     "faction": "votann",
     "id": "votann/living-ancestor-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: leagues of votann",
-      "infantry",
-      "leader",
-      "living ancestor",
-      "psyker"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "LEADER",
+      "LIVING ANCESTOR",
+      "PSYKER"
     ],
     "name": "Living Ancestor [Crucible]",
     "points": [
@@ -7043,7 +7043,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Exo-armour grenade launcher",
             "range": "24\""
@@ -7077,7 +7077,7 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Ancestral Wrath - witchfire",
             "range": "24\""
@@ -7089,8 +7089,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic"
+              "HAZARDOUS",
+              "PSYCHIC"
             ],
             "name": "Ancestral Wrath - focused witchfire",
             "range": "24\""
@@ -7140,8 +7140,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton blast cannon",
             "range": "24\""
@@ -7159,7 +7159,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Bolt shotgun",
             "range": "18\""
@@ -7177,7 +7177,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "EtaCarn plasma gun",
             "range": "24\""
@@ -7195,7 +7195,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Bolt cannon",
             "range": "36\""
@@ -7213,8 +7213,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton rifle",
             "range": "18\""
@@ -7232,7 +7232,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy volkanite disintegrator",
             "range": "24\""
@@ -7266,8 +7266,8 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "conversion",
-              "lethal hits"
+              "CONVERSION",
+              "LETHAL HITS"
             ],
             "name": "SP conversion beamer",
             "range": "24\""
@@ -7285,7 +7285,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkanite disintegrator",
             "range": "24\""
@@ -7303,7 +7303,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolter",
             "range": "24\""
@@ -7321,7 +7321,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolt pistol",
             "range": "12\""
@@ -7339,7 +7339,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt revolver",
             "range": "12\""
@@ -7357,7 +7357,7 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Theyn's pistol",
             "range": "12\""
@@ -7374,7 +7374,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Ancestral ward stave"
           }
@@ -7406,7 +7406,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Concussion gauntlet"
           }
@@ -7423,8 +7423,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Concussion maul"
           }
@@ -7471,8 +7471,8 @@
             "S": "9",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton hammer"
           }
@@ -7564,7 +7564,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Plasma sword"
           }
@@ -7610,11 +7610,11 @@
     "faction": "votann",
     "id": "votann/memnyr-strategist",
     "keywords": [
-      "character",
-      "faction: leagues of votann",
-      "infantry",
-      "leader",
-      "memnyr strategist"
+      "CHARACTER",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "LEADER",
+      "MEMNYR STRATEGIST"
     ],
     "name": "Memnyr Strategist",
     "points": [
@@ -7692,7 +7692,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolt pistol",
             "range": "12\""
@@ -7738,12 +7738,12 @@
     "faction": "votann",
     "id": "votann/sagitaur",
     "keywords": [
-      "dedicated transport",
-      "faction: leagues of votann",
-      "frame",
-      "sagitaur",
-      "transport",
-      "vehicle"
+      "DEDICATED TRANSPORT",
+      "FACTION: LEAGUES OF VOTANN",
+      "FRAME",
+      "SAGITAUR",
+      "TRANSPORT",
+      "VEHICLE"
     ],
     "name": "Sagitaur",
     "points": [
@@ -7930,7 +7930,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "L7 missile launcher - blast",
             "range": "24\""
@@ -7958,8 +7958,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "assault",
-              "sustained hits 1"
+              "ASSAULT",
+              "SUSTAINED HITS 1"
             ],
             "name": "MATR autocannon",
             "range": "24\""
@@ -7977,8 +7977,8 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 2",
-              "twin linked"
+              "SUSTAINED HITS 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin bolt cannon",
             "range": "36\""
@@ -8001,13 +8001,13 @@
     "faction": "votann",
     "id": "votann/steeljack-elder-crucible",
     "keywords": [
-      "character",
-      "crucible",
-      "faction: leagues of votann",
-      "infantry",
-      "ironkin steeljacks",
-      "leader",
-      "steeljack elder"
+      "CHARACTER",
+      "CRUCIBLE",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "IRONKIN STEELJACKS",
+      "LEADER",
+      "STEELJACK ELDER"
     ],
     "name": "Steeljack Elder [Crucible]",
     "points": [
@@ -8689,7 +8689,7 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Exo-armour grenade launcher",
             "range": "24\""
@@ -8723,7 +8723,7 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Ancestral Wrath - witchfire",
             "range": "24\""
@@ -8735,8 +8735,8 @@
             "D": "D3",
             "S": "6",
             "keywords": [
-              "hazardous",
-              "psychic"
+              "HAZARDOUS",
+              "PSYCHIC"
             ],
             "name": "Ancestral Wrath - focused witchfire",
             "range": "24\""
@@ -8786,8 +8786,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton blast cannon",
             "range": "24\""
@@ -8805,7 +8805,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault"
+              "ASSAULT"
             ],
             "name": "Bolt shotgun",
             "range": "18\""
@@ -8823,7 +8823,7 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "rapid fire 1"
+              "RAPID FIRE 1"
             ],
             "name": "EtaCarn plasma gun",
             "range": "24\""
@@ -8841,7 +8841,7 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "sustained hits 2"
+              "SUSTAINED HITS 2"
             ],
             "name": "Bolt cannon",
             "range": "36\""
@@ -8859,8 +8859,8 @@
             "D": "3",
             "S": "5",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton rifle",
             "range": "18\""
@@ -8878,7 +8878,7 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Heavy volkanite disintegrator",
             "range": "24\""
@@ -8912,8 +8912,8 @@
             "D": "3",
             "S": "7",
             "keywords": [
-              "conversion",
-              "lethal hits"
+              "CONVERSION",
+              "LETHAL HITS"
             ],
             "name": "SP conversion beamer",
             "range": "24\""
@@ -8931,7 +8931,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkanite disintegrator",
             "range": "24\""
@@ -8949,7 +8949,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolter",
             "range": "24\""
@@ -8967,7 +8967,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Autoch-pattern bolt pistol",
             "range": "12\""
@@ -8985,7 +8985,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt revolver",
             "range": "12\""
@@ -9003,7 +9003,7 @@
             "D": "1",
             "S": "8",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Theyn's pistol",
             "range": "12\""
@@ -9020,7 +9020,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "psychic"
+              "PSYCHIC"
             ],
             "name": "Ancestral ward stave"
           }
@@ -9052,7 +9052,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "Concussion gauntlet"
           }
@@ -9069,8 +9069,8 @@
             "S": "5",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Concussion maul"
           }
@@ -9117,8 +9117,8 @@
             "S": "9",
             "WS": "3+",
             "keywords": [
-              "anti monster 3+",
-              "anti vehicle 3+"
+              "ANTI-MONSTER 3+",
+              "ANTI-VEHICLE 3+"
             ],
             "name": "Graviton hammer"
           }
@@ -9210,7 +9210,7 @@
             "S": "6",
             "WS": "3+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Plasma sword"
           }
@@ -9260,12 +9260,12 @@
     "faction": "votann",
     "id": "votann/u-thar-the-destined",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: leagues of votann",
-      "infantry",
-      "leader",
-      "ûthar the destined"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: LEAGUES OF VOTANN",
+      "INFANTRY",
+      "LEADER",
+      "ÛTHAR THE DESTINED"
     ],
     "name": "Ûthar the Destined",
     "points": [
@@ -9331,7 +9331,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Blade of the Ancestors"
           }
@@ -9349,7 +9349,7 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Volkanite disintegrator",
             "range": "24\""

@@ -17,18 +17,18 @@
     "faction": "bloodangels",
     "id": "bloodangels/astorath",
     "keywords": [
-      "astorath",
-      "chaplain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "leader"
+      "ASTORATH",
+      "CHAPLAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER"
     ],
     "name": "Astorath",
     "points": [
@@ -84,8 +84,8 @@
             "S": "7",
             "WS": "2+",
             "keywords": [
-              "devastating wounds",
-              "precision"
+              "DEVASTATING WOUNDS",
+              "PRECISION"
             ],
             "name": "The Executioner's Axe"
           }
@@ -109,13 +109,13 @@
     "faction": "bloodangels",
     "id": "bloodangels/baal-predator",
     "keywords": [
-      "baal predator",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "frame",
-      "imperium",
-      "smoke",
-      "vehicle"
+      "BAAL PREDATOR",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FRAME",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE"
     ],
     "name": "Baal Predator",
     "points": [
@@ -277,9 +277,9 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -297,8 +297,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "assault",
-              "sustained hits 1"
+              "ASSAULT",
+              "SUSTAINED HITS 1"
             ],
             "name": "Heavy Bolter",
             "range": "36\""
@@ -316,9 +316,9 @@
             "D": "2",
             "S": "6",
             "keywords": [
-              "assault",
-              "ignores cover",
-              "torrent"
+              "ASSAULT",
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Baal Flamestorm Cannon",
             "range": "18\""
@@ -336,9 +336,9 @@
             "D": "1",
             "S": "6",
             "keywords": [
-              "assault",
-              "devastating wounds",
-              "twin linked"
+              "ASSAULT",
+              "DEVASTATING WOUNDS",
+              "TWIN-LINKED"
             ],
             "name": "Twin Assault Cannon",
             "range": "24\""
@@ -371,7 +371,7 @@
             "D": "D6",
             "S": "14",
             "keywords": [
-              "one shot"
+              "ONE SHOT"
             ],
             "name": "Hunter-killer missile",
             "range": "48\""
@@ -389,7 +389,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -416,15 +416,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/blood-angels-captain",
     "keywords": [
-      "captain",
-      "character",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus"
+      "CAPTAIN",
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Blood Angels Captain",
     "points": [
@@ -597,7 +597,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -615,8 +615,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -643,15 +643,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/brother-corbulo-legends",
     "keywords": [
-      "brother corbulo",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sanguinary priest"
+      "BROTHER CORBULO",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SANGUINARY PRIEST"
     ],
     "name": "Brother Corbulo [Legends]",
     "points": [
@@ -717,7 +717,7 @@
             "S": "5",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Heaven's Teeth"
           }
@@ -735,7 +735,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -770,15 +770,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/captain-tycho-legends",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tycho"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TYCHO"
     ],
     "name": "Captain Tycho [Legends]",
     "points": [
@@ -855,9 +855,9 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "melta 2"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "MELTA 2"
             ],
             "name": "Blood Song",
             "range": "24\""
@@ -890,7 +890,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -913,15 +913,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/chief-librarian-mephiston",
     "keywords": [
-      "character",
-      "chief librarian mephiston",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "infantry",
-      "psyker",
-      "tacticus"
+      "CHARACTER",
+      "CHIEF LIBRARIAN MEPHISTON",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "INFANTRY",
+      "PSYKER",
+      "TACTICUS"
     ],
     "name": "Chief Librarian Mephiston",
     "points": [
@@ -998,9 +998,9 @@
             "D": "D3",
             "S": "4",
             "keywords": [
-              "pistol",
-              "psychic",
-              "sustained hits 1"
+              "PISTOL",
+              "PSYCHIC",
+              "SUSTAINED HITS 1"
             ],
             "name": "Fury of the Ancients - Witchfire",
             "range": "18\""
@@ -1012,10 +1012,10 @@
             "D": "D3",
             "S": "5",
             "keywords": [
-              "hazardous",
-              "pistol",
-              "psychic",
-              "sustained hits 3"
+              "HAZARDOUS",
+              "PISTOL",
+              "PSYCHIC",
+              "SUSTAINED HITS 3"
             ],
             "name": "Fury of the Ancients - Focused Witchfire",
             "range": "18\""
@@ -1032,8 +1032,8 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "lethal hits",
-              "psychic"
+              "LETHAL HITS",
+              "PSYCHIC"
             ],
             "name": "Vitarus"
           }
@@ -1051,8 +1051,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -1064,7 +1064,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -1091,19 +1091,19 @@
     "faction": "bloodangels",
     "id": "bloodangels/commander-dante",
     "keywords": [
-      "chapter master",
-      "character",
-      "commander dante",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "leader",
-      "tacticus"
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "COMMANDER DANTE",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Commander Dante",
     "points": [
@@ -1170,9 +1170,9 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "pistol",
-              "sustained hits d3"
+              "MELTA 2",
+              "PISTOL",
+              "SUSTAINED HITS D3"
             ],
             "name": "Perdition",
             "range": "6\""
@@ -1189,7 +1189,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "The Axe Mortalis"
           }
@@ -1220,16 +1220,16 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-captain",
     "keywords": [
-      "captain",
-      "character",
-      "death company",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "leader",
-      "tacticus"
+      "CAPTAIN",
+      "CHARACTER",
+      "DEATH COMPANY",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Death Company Captain",
     "points": [
@@ -1416,8 +1416,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno pistol",
             "range": "6\""
@@ -1448,18 +1448,18 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-captain-with-jump-pack",
     "keywords": [
-      "captain",
-      "character",
-      "death company",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "leader",
-      "tacticus"
+      "CAPTAIN",
+      "CHARACTER",
+      "DEATH COMPANY",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER",
+      "TACTICUS"
     ],
     "name": "Death Company Captain with Jump Pack",
     "points": [
@@ -1658,9 +1658,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -1678,8 +1678,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -1691,7 +1691,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -1719,14 +1719,14 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-dreadnought",
     "keywords": [
-      "death company",
-      "death company dreadnought",
-      "dreadnought",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "imperium",
-      "vehicle",
-      "walker"
+      "DEATH COMPANY",
+      "DEATH COMPANY DREADNOUGHT",
+      "DREADNOUGHT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "IMPERIUM",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Death Company Dreadnought",
     "points": [
@@ -1873,7 +1873,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Blood Fists"
           }
@@ -1891,7 +1891,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Blood Fist Bolt Rifles",
             "range": "24\""
@@ -1908,7 +1908,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Blood Talons - Strike"
           },
@@ -1919,7 +1919,7 @@
             "S": "7",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Blood Talons - Sweep"
           }
@@ -1937,8 +1937,8 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "sustained hits 1",
-              "twin linked"
+              "SUSTAINED HITS 1",
+              "TWIN-LINKED"
             ],
             "name": "Twin heavy bolter",
             "range": "36\""
@@ -1956,8 +1956,8 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2",
-              "twin linked"
+              "MELTA 2",
+              "TWIN-LINKED"
             ],
             "name": "Twin multi-melta",
             "range": "18\""
@@ -1975,9 +1975,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti fly 4+",
-              "rapid fire 3",
-              "twin linked"
+              "ANTI-FLY 4+",
+              "RAPID FIRE 3",
+              "TWIN-LINKED"
             ],
             "name": "Twin Icarus ironhail heavy stubber",
             "range": "36\""
@@ -2004,14 +2004,14 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-dreadnought-with-magna-grapple-legends",
     "keywords": [
-      "death company",
-      "death company dreadnought",
-      "dreadnought",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "imperium",
-      "vehicle",
-      "walker"
+      "DEATH COMPANY",
+      "DEATH COMPANY DREADNOUGHT",
+      "DREADNOUGHT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "IMPERIUM",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Death Company Dreadnought with Magna-Grapple [Legends]",
     "points": [
@@ -2159,7 +2159,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Blood Talons"
           }
@@ -2176,7 +2176,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Furioso Fists"
           }
@@ -2194,7 +2194,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm Bolter",
             "range": "24\""
@@ -2212,8 +2212,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -2231,7 +2231,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -2254,13 +2254,13 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-intercessors",
     "keywords": [
-      "death company intercessors",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tacticus"
+      "DEATH COMPANY INTERCESSORS",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
     ],
     "name": "Death Company Intercessors",
     "points": [
@@ -2734,7 +2734,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Astartes Grenade Launcher - Frag",
             "range": "24\""
@@ -2762,7 +2762,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -2795,8 +2795,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Bolt Rifle",
             "range": "24\""
@@ -2814,7 +2814,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -2861,7 +2861,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -2894,9 +2894,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -2914,8 +2914,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -2927,7 +2927,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -2954,14 +2954,14 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-marines",
     "keywords": [
-      "death company",
-      "death company marines",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tacticus"
+      "DEATH COMPANY",
+      "DEATH COMPANY MARINES",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
     ],
     "name": "Death Company Marines",
     "points": [
@@ -3249,7 +3249,7 @@
             "S": "7",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Eviscerator"
           }
@@ -3267,7 +3267,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -3285,9 +3285,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -3305,8 +3305,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -3324,8 +3324,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -3337,7 +3337,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -3369,7 +3369,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -3426,14 +3426,14 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-marines-with-bolt-rifles",
     "keywords": [
-      "death company",
-      "death company marines with bolt rifles",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tacticus"
+      "DEATH COMPANY",
+      "DEATH COMPANY MARINES WITH BOLT RIFLES",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TACTICUS"
     ],
     "name": "Death Company Marines with Bolt Rifles",
     "points": [
@@ -3800,7 +3800,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "blast"
+              "BLAST"
             ],
             "name": "Astartes Grenade Launcher - Frag",
             "range": "24\""
@@ -3828,8 +3828,8 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "assault",
-              "heavy"
+              "ASSAULT",
+              "HEAVY"
             ],
             "name": "Bolt Rifle",
             "range": "24\""
@@ -3847,7 +3847,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -3879,7 +3879,7 @@
             "S": "7",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Eviscerator"
           }
@@ -3926,7 +3926,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -3974,9 +3974,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -3994,8 +3994,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -4013,8 +4013,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -4026,7 +4026,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -4053,13 +4053,13 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-marines-with-boltguns-and-jump-packs-legends",
     "keywords": [
-      "death company",
-      "death company marines with boltguns and jump packs",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry"
+      "DEATH COMPANY",
+      "DEATH COMPANY MARINES WITH BOLTGUNS AND JUMP PACKS",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Death Company Marines with Boltguns and Jump Packs [Legends]",
     "points": [
@@ -4354,7 +4354,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -4372,8 +4372,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -4385,7 +4385,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -4403,9 +4403,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -4423,8 +4423,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -4441,7 +4441,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -4468,13 +4468,13 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-marines-with-boltguns-legends",
     "keywords": [
-      "death company",
-      "death company marines with boltguns",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry"
+      "DEATH COMPANY",
+      "DEATH COMPANY MARINES WITH BOLTGUNS",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Death Company Marines with Boltguns [Legends]",
     "points": [
@@ -4771,7 +4771,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -4789,8 +4789,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -4802,7 +4802,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -4820,9 +4820,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -4840,8 +4840,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -4858,7 +4858,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -4885,16 +4885,16 @@
     "faction": "bloodangels",
     "id": "bloodangels/death-company-marines-with-jump-packs",
     "keywords": [
-      "death company",
-      "death company marines with jump packs",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "tacticus"
+      "DEATH COMPANY",
+      "DEATH COMPANY MARINES WITH JUMP PACKS",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "TACTICUS"
     ],
     "name": "Death Company Marines with Jump Packs",
     "points": [
@@ -5352,7 +5352,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Heavy Bolt Pistol",
             "range": "18\""
@@ -5370,8 +5370,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -5383,7 +5383,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -5401,9 +5401,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -5421,8 +5421,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -5469,7 +5469,7 @@
             "S": "7",
             "WS": "4+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Eviscerator"
           }
@@ -5488,14 +5488,14 @@
     "faction": "bloodangels",
     "id": "bloodangels/furioso-dreadnought-legends",
     "keywords": [
-      "dreadnought",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "furioso dreadnought",
-      "imperium",
-      "smoke",
-      "vehicle",
-      "walker"
+      "DREADNOUGHT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FURIOSO DREADNOUGHT",
+      "IMPERIUM",
+      "SMOKE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Furioso Dreadnought [Legends]",
     "points": [
@@ -5747,8 +5747,8 @@
             "D": "2",
             "S": "7",
             "keywords": [
-              "blast",
-              "rapid fire d6"
+              "BLAST",
+              "RAPID FIRE D6"
             ],
             "name": "Heavy Frag Cannon",
             "range": "18\""
@@ -5781,7 +5781,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -5799,7 +5799,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -5816,7 +5816,7 @@
             "S": "8",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Blood Talons"
           }
@@ -5833,7 +5833,7 @@
             "S": "12",
             "WS": "3+",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin Furioso Fists"
           }
@@ -5864,15 +5864,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/gabriel-seth-legends",
     "keywords": [
-      "chapter master",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "gabriel seth",
-      "grenades",
-      "imperium",
-      "infantry"
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GABRIEL SETH",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY"
     ],
     "name": "Gabriel Seth [Legends]",
     "points": [
@@ -5938,7 +5938,7 @@
             "S": "8",
             "WS": "2+",
             "keywords": [
-              "sustained hits 1"
+              "SUSTAINED HITS 1"
             ],
             "name": "Blood Reaver"
           }
@@ -5956,7 +5956,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -5983,18 +5983,18 @@
     "faction": "bloodangels",
     "id": "bloodangels/lemartes",
     "keywords": [
-      "chaplain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "leader",
-      "lemartes"
+      "CHAPLAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "LEADER",
+      "LEMARTES"
     ],
     "name": "Lemartes",
     "points": [
@@ -6060,7 +6060,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lethal hits"
+              "LETHAL HITS"
             ],
             "name": "The Blood Crozius"
           }
@@ -6078,7 +6078,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Absolvor Bolt Pistol",
             "range": "18\""
@@ -6101,15 +6101,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/librarian-dreadnought-legends",
     "keywords": [
-      "dreadnought",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "imperium",
-      "librarian dreadnought",
-      "psyker",
-      "smoke",
-      "vehicle",
-      "walker"
+      "DREADNOUGHT",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "IMPERIUM",
+      "LIBRARIAN DREADNOUGHT",
+      "PSYKER",
+      "SMOKE",
+      "VEHICLE",
+      "WALKER"
     ],
     "name": "Librarian Dreadnought [Legends]",
     "points": [
@@ -6239,9 +6239,9 @@
             "D": "D6+3",
             "S": "12",
             "keywords": [
-              "hazardous",
-              "psychic",
-              "sustained hits d3"
+              "HAZARDOUS",
+              "PSYCHIC",
+              "SUSTAINED HITS D3"
             ],
             "name": "Blood Lance - Focused Witchfire",
             "range": "18\""
@@ -6253,8 +6253,8 @@
             "D": "D6",
             "S": "10",
             "keywords": [
-              "psychic",
-              "sustained hits d3"
+              "PSYCHIC",
+              "SUSTAINED HITS D3"
             ],
             "name": "Blood Lance - Witchfire",
             "range": "18\""
@@ -6286,8 +6286,8 @@
             "S": "9",
             "WS": "2+",
             "keywords": [
-              "extra attacks",
-              "psychic"
+              "EXTRA ATTACKS",
+              "PSYCHIC"
             ],
             "name": "Furioso Force Halberd"
           }
@@ -6305,7 +6305,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -6323,8 +6323,8 @@
             "D": "1",
             "S": "5",
             "keywords": [
-              "ignores cover",
-              "torrent"
+              "IGNORES COVER",
+              "TORRENT"
             ],
             "name": "Heavy Flamer",
             "range": "12\""
@@ -6342,7 +6342,7 @@
             "D": "D6",
             "S": "9",
             "keywords": [
-              "melta 2"
+              "MELTA 2"
             ],
             "name": "Meltagun",
             "range": "12\""
@@ -6373,14 +6373,14 @@
     "faction": "bloodangels",
     "id": "bloodangels/sanguinary-guard",
     "keywords": [
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "sanguinary guard"
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "SANGUINARY GUARD"
     ],
     "name": "Sanguinary Guard",
     "points": [
@@ -6539,7 +6539,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "lance"
+              "LANCE"
             ],
             "name": "Encarmine Spear"
           }
@@ -6557,7 +6557,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Angelus Boltgun",
             "range": "12\""
@@ -6575,8 +6575,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -6603,14 +6603,14 @@
     "faction": "bloodangels",
     "id": "bloodangels/sanguinary-priest",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "sanguinary priest",
-      "tacticus"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "SANGUINARY PRIEST",
+      "TACTICUS"
     ],
     "name": "Sanguinary Priest",
     "points": [
@@ -6688,7 +6688,7 @@
             "D": "2",
             "S": "5",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Absolvor bolt pistol",
             "range": "18\""
@@ -6730,13 +6730,13 @@
     "faction": "bloodangels",
     "id": "bloodangels/sanguinary-priest-on-bike-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "mounted",
-      "sanguinary priest"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "MOUNTED",
+      "SANGUINARY PRIEST"
     ],
     "name": "Sanguinary Priest on Bike [Legends]",
     "points": [
@@ -6959,7 +6959,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "close quarters"
+              "CLOSE-QUARTERS"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -6977,9 +6977,9 @@
             "D": "1",
             "S": "3",
             "keywords": [
-              "ignores cover",
-              "pistol",
-              "torrent"
+              "IGNORES COVER",
+              "PISTOL",
+              "TORRENT"
             ],
             "name": "Hand flamer",
             "range": "12\""
@@ -6997,8 +6997,8 @@
             "D": "D3",
             "S": "8",
             "keywords": [
-              "melta 2",
-              "pistol"
+              "MELTA 2",
+              "PISTOL"
             ],
             "name": "Inferno Pistol",
             "range": "6\""
@@ -7016,8 +7016,8 @@
             "D": "2",
             "S": "4",
             "keywords": [
-              "anti vehicle 2+",
-              "pistol"
+              "ANTI-VEHICLE 2+",
+              "PISTOL"
             ],
             "name": "Grav-pistol",
             "range": "12\""
@@ -7035,8 +7035,8 @@
             "D": "2",
             "S": "8",
             "keywords": [
-              "hazardous",
-              "pistol"
+              "HAZARDOUS",
+              "PISTOL"
             ],
             "name": "Plasma pistol - supercharge",
             "range": "12\""
@@ -7048,7 +7048,7 @@
             "D": "1",
             "S": "7",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Plasma pistol - standard",
             "range": "12\""
@@ -7066,9 +7066,9 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "anti infantry 4+",
-              "devastating wounds",
-              "rapid fire 1"
+              "ANTI-INFANTRY 4+",
+              "DEVASTATING WOUNDS",
+              "RAPID FIRE 1"
             ],
             "name": "Combi-weapon",
             "range": "24\""
@@ -7086,7 +7086,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "rapid fire 2"
+              "RAPID FIRE 2"
             ],
             "name": "Storm bolter",
             "range": "24\""
@@ -7148,7 +7148,7 @@
             "S": "8",
             "WS": "4+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Thunder Hammer"
           }
@@ -7166,7 +7166,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "twin linked"
+              "TWIN-LINKED"
             ],
             "name": "Twin boltgun",
             "range": "24\""
@@ -7193,15 +7193,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/sanguinary-priest-with-jump-pack-legends",
     "keywords": [
-      "character",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "fly",
-      "grenades",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "sanguinary priest"
+      "CHARACTER",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FLY",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "SANGUINARY PRIEST"
     ],
     "name": "Sanguinary Priest with Jump Pack [Legends]",
     "points": [
@@ -7294,7 +7294,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
@@ -7317,15 +7317,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/the-sanguinor",
     "keywords": [
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "fly",
-      "imperium",
-      "infantry",
-      "jump pack",
-      "the sanguinor"
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "FLY",
+      "IMPERIUM",
+      "INFANTRY",
+      "JUMP PACK",
+      "THE SANGUINOR"
     ],
     "name": "The Sanguinor",
     "points": [
@@ -7381,7 +7381,7 @@
             "S": "6",
             "WS": "2+",
             "keywords": [
-              "devastating wounds"
+              "DEVASTATING WOUNDS"
             ],
             "name": "Encarmine Broadsword"
           }
@@ -7420,15 +7420,15 @@
     "faction": "bloodangels",
     "id": "bloodangels/tycho-the-lost-legends",
     "keywords": [
-      "captain",
-      "character",
-      "epic hero",
-      "faction: adeptus astartes",
-      "faction: blood angels",
-      "grenades",
-      "imperium",
-      "infantry",
-      "tycho the lost"
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: BLOOD ANGELS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "TYCHO THE LOST"
     ],
     "name": "Tycho the Lost [Legends]",
     "points": [
@@ -7485,7 +7485,7 @@
             "D": "1",
             "S": "4",
             "keywords": [
-              "pistol"
+              "PISTOL"
             ],
             "name": "Bolt pistol",
             "range": "12\""
