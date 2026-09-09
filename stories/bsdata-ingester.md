@@ -61,7 +61,7 @@ correctness can be judged without touching the UI or the damage engine.
   id,                       // stable: faction + slugified BSData name
   faction,
   name,
-  keywords: [ "vehicle", "walker", "grey knights", ... ],  // flat, lowercased, `Faction:` prefix stripped
+  keywords: [ "vehicle", "walker", "faction: grey knights", "battleline", ... ],  // every categoryLink, lowercased, verbatim
   stats: {
     M, T, Sv, W, OC,
     InvSv: null | "4+" ,                       // char OR from an ability
@@ -127,16 +127,20 @@ Enhancement currencies).
 
 ### R3 — Keywords & abilities
 
-`keywords` = one flat list from `categoryLinks`, lowercased, with the
-`Faction:` prefix stripped (`Faction: Grey Knights` → `grey knights`). No
-`unit` vs `faction` split — the engine (Story B) only ever checks
-membership of a handful (`vehicle`, `monster`, `fly`, `infantry`,
-`character`, `titanic`, `psyker`), and aura effects that key on faction
-keywords are out of scope for a 1v1 comparison. `abilities` = `{name,
-text}` for every non-weapon, non-`Unit` profile on the unit (embedded +
-`infoLinks`), plus `Transport`/`Orders`/faction-specific ability types.
-No effect typing here — Story C does that. `Damaged: 1-X` abilities are
-kept as text but flagged `bracket: true` so Story C can skip them.
+`keywords` = **every** `categoryLink` name, lowercased, kept verbatim —
+nothing stripped, split, or filtered. This includes `faction: grey
+knights`, the organizational keywords (`battleline`, `dedicated
+transport`, `epic hero`, `character`, `fly`, `titanic`, `psyker`, …), and
+anything else BSData tags. The engine (Story B) reads the handful it acts
+on (`vehicle`, `monster`, `fly`, `infantry`, `character`, `titanic`,
+`psyker`); everything else is preserved for later use (faction-keyword
+auras, `battleline`, etc.) rather than discarded at ingest.
+
+`abilities` = `{name, text}` for every non-weapon, non-`Unit` profile on
+the unit (embedded + `infoLinks`), plus `Transport` / `Orders` /
+faction-specific ability types. No effect typing here — Story C does that.
+`Damaged: 1-X` abilities are kept as text but flagged `bracket: true` so
+Story C can skip them.
 
 ### R4 — Weapons + keyword normalizer
 
@@ -337,7 +341,9 @@ Resolved in the 2026-09-09 discussion:
 
 - **Points** — BSData `costs` for every faction incl. the current 4; no MFM
   override table (R2).
-- **Keywords** — one flat lowercased list, `Faction:` stripped, no split (R3).
+- **Keywords** — every `categoryLink`, lowercased, verbatim; nothing
+  stripped/split/filtered, so faction and organizational keywords stay
+  available for later use (R3).
 - **Weapons** — stored once in `weapons[]`, referenced from wargear nodes by
   `id`, not inlined (record shape).
 - **Sync report** — no threshold; "done" = the report is a clean, fully
