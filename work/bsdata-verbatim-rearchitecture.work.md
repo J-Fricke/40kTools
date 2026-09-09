@@ -118,3 +118,21 @@ without a coordination note.
 
 Next: Story B (keyword dictionary + combat engine). Blocked only on Joshua
 choosing whether to merge the PR stack (#38→#41) to main first.
+
+### 2026-09-09 — Story B done (S-B)
+
+`src/core/model/{dice,keywords,engine}.js` + 3 test files, **17/17**.
+- `keywords.js` — 44 base keywords → declarative `Effect`; **8509 weapon
+  modes swept, 0 unknown**; no-ops explicit.
+- `engine.js` — `resolveMode` / `resolveAttack` / `effectiveWounds`;
+  formulas transcribed from `src/core/engine.js` and **parity-locked**
+  (20 damage cases + 4 durability cases, all within 1e-9).
+- Intentional deltas: Torrent = true auto-hit (nullifies Sustained/Lethal
+  on torrent weapons); Melta/Blast/RapidFire modelled (old engine ignored
+  them); Anti-X generalised against the defender's keywords. Full list in
+  `src/core/model/ENGINE-NOTES.md`.
+- `context` is the seam for Story C (all fields no-op by default).
+- **S2 contract frozen** in `engine.js` header. `src/core/engine.js` and
+  `npm run build` untouched.
+
+Next: Story C (ability / effect layer + detachment port).
