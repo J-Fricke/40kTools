@@ -17,7 +17,7 @@ the child plans** and kept for reference / until each child plan lands.
 |---|---|---|---|
 | P1 Discovery | (this plan, P1) | (this plan) | **done**, S1 reviewed |
 | A — BSData ingester (was P2+P3) | `stories/bsdata-ingester.md` | `plans/bsdata-ingester.md` | **Story + Plan ready for execution** |
-| B — Keyword dictionary + combat engine (was P4+P5) | _tbd_ | _tbd_ | not started |
+| B — Keyword dictionary + combat engine (was P4+P5) | `stories/bsdata-keyword-engine.md` | _tbd_ | Story ready |
 | C — Ability / effect layer + detachment port (was P6+P7) | _tbd_ | _tbd_ | not started |
 | D — Evaluator wiring (was P8) | _tbd_ | _tbd_ | not started |
 | E — Parity + retire old pipeline (was P9+P10) | _tbd_ | _tbd_ | not started |
