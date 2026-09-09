@@ -14,6 +14,9 @@ export const CRUFT_NAME = new RegExp([
   // roster / detachment chrome — not unit wargear (Story A non-goals; Story C/D)
   "^warlord$", "^enhancements?$", "^show/hide options$", "^detachment$",
   "^order of battle$", "^additional (rules|options)$",
+  // other game modes / non-matched-play upgrade branches
+  "boarding\\s*acti+ons?", "combat patrol", "weapon modifications?",
+  "^(abilit(y|ies|ies)|abilties)$",   // ability groups are not wargear (Story C)
 ].join("|"), "i");
 
 const SCOPE_LIST_LEGALITY = new Set(["roster", "force", "primary-catalogue"]);

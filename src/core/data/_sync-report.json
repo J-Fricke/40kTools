@@ -1,0 +1,836 @@
+{
+  "catalogues": [
+    {
+      "file": "Aeldari - Craftworlds.json",
+      "key": "aeldari",
+      "units": 102
+    },
+    {
+      "file": "Aeldari - Drukhari.json",
+      "key": "drukhari",
+      "units": 48
+    },
+    {
+      "file": "Chaos - Chaos Daemons.json",
+      "key": "daemons",
+      "units": 0
+    },
+    {
+      "file": "Chaos - Chaos Knights Library.json",
+      "key": "chaosknights",
+      "units": 20
+    },
+    {
+      "file": "Chaos - Chaos Space Marines.json",
+      "key": "csm",
+      "units": 84
+    },
+    {
+      "file": "Chaos - Death Guard.json",
+      "key": "deathguard",
+      "units": 50
+    },
+    {
+      "file": "Chaos - Emperor's Children.json",
+      "key": "emperorschildren",
+      "units": 26
+    },
+    {
+      "file": "Chaos - Thousand Sons.json",
+      "key": "thousandsons",
+      "units": 41
+    },
+    {
+      "file": "Chaos - World Eaters.json",
+      "key": "worldeaters",
+      "units": 35
+    },
+    {
+      "file": "Genestealer Cults.json",
+      "key": "gsc",
+      "units": 28
+    },
+    {
+      "file": "Imperium - Adepta Sororitas.json",
+      "key": "sororitas",
+      "units": 41
+    },
+    {
+      "file": "Imperium - Adeptus Custodes.json",
+      "key": "custodes",
+      "units": 34
+    },
+    {
+      "file": "Imperium - Adeptus Mechanicus.json",
+      "key": "admech",
+      "units": 41
+    },
+    {
+      "file": "Imperium - Agents of the Imperium.json",
+      "key": "agents",
+      "units": 48
+    },
+    {
+      "file": "Imperium - Astra Militarum.json",
+      "key": "astramilitarum",
+      "units": 138
+    },
+    {
+      "file": "Imperium - Black Templars.json",
+      "key": "blacktemplars",
+      "units": 20
+    },
+    {
+      "file": "Imperium - Blood Angels.json",
+      "key": "bloodangels",
+      "units": 27
+    },
+    {
+      "file": "Imperium - Dark Angels.json",
+      "key": "darkangels",
+      "units": 19
+    },
+    {
+      "file": "Imperium - Deathwatch.json",
+      "key": "deathwatch",
+      "units": 10
+    },
+    {
+      "file": "Imperium - Grey Knights.json",
+      "key": "greyknights",
+      "units": 34
+    },
+    {
+      "file": "Imperium - Imperial Fists.json",
+      "key": "imperialfists",
+      "units": 3
+    },
+    {
+      "file": "Imperium - Imperial Knights.json",
+      "key": "imperialknights",
+      "units": 0
+    },
+    {
+      "file": "Imperium - Iron Hands.json",
+      "key": "ironhands",
+      "units": 2
+    },
+    {
+      "file": "Imperium - Raven Guard.json",
+      "key": "ravenguard",
+      "units": 2
+    },
+    {
+      "file": "Imperium - Salamanders.json",
+      "key": "salamanders",
+      "units": 2
+    },
+    {
+      "file": "Imperium - Space Marines.json",
+      "key": "spacemarines",
+      "units": 132
+    },
+    {
+      "file": "Imperium - Space Wolves.json",
+      "key": "spacewolves",
+      "units": 42
+    },
+    {
+      "file": "Imperium - Ultramarines.json",
+      "key": "ultramarines",
+      "units": 16
+    },
+    {
+      "file": "Imperium - White Scars.json",
+      "key": "whitescars",
+      "units": 2
+    },
+    {
+      "file": "Leagues of Votann.json",
+      "key": "votann",
+      "units": 25
+    },
+    {
+      "file": "Necrons.json",
+      "key": "necrons",
+      "units": 67
+    },
+    {
+      "file": "Orks.json",
+      "key": "orks",
+      "units": 73
+    },
+    {
+      "file": "T'au Empire.json",
+      "key": "tau",
+      "units": 66
+    },
+    {
+      "file": "Tyranids.json",
+      "key": "tyranids",
+      "units": 64
+    }
+  ],
+  "damageBrackets": [
+    "blacktemplars/Chaplain Grimaldus",
+    "spacewolves/Wolf Guard Headtakers",
+    "ultramarines/Marneus Calgar",
+    "ultramarines/Wardens of Ultramar",
+    "tau/Kroot Farstalkers"
+  ],
+  "defaultRuleFallback": [
+    {
+      "group": "Cronos",
+      "rule": 4,
+      "unit": "drukhari/Cronos"
+    },
+    {
+      "group": "4 Havocs",
+      "rule": 4,
+      "unit": "csm/Havocs"
+    },
+    {
+      "group": "Wargear",
+      "rule": 4,
+      "unit": "csm/Cultist Mob with Firearms [Legends]"
+    },
+    {
+      "group": "9 - 19 Cultists",
+      "rule": 4,
+      "unit": "csm/Cultist Mob with Firearms [Legends]"
+    },
+    {
+      "group": "Sister Superior",
+      "rule": 4,
+      "unit": "sororitas/Battle Sisters Squad"
+    },
+    {
+      "group": "Dominion Superior",
+      "rule": 4,
+      "unit": "sororitas/Dominion Squad"
+    },
+    {
+      "group": "Retributor Superior",
+      "rule": 4,
+      "unit": "sororitas/Retributor Squad"
+    },
+    {
+      "group": "Skitarii Ranger Alpha",
+      "rule": 4,
+      "unit": "admech/Skitarii Rangers"
+    },
+    {
+      "group": "Skitarii Vanguard Alpha",
+      "rule": 4,
+      "unit": "admech/Skitarii Vanguard"
+    },
+    {
+      "group": "Secutarii Hoplite Alpha",
+      "rule": 4,
+      "unit": "admech/Secutarii Hoplites [Legends]"
+    },
+    {
+      "group": "Secutarii Peltast Alpha",
+      "rule": 4,
+      "unit": "admech/Secutarii Peltasts [Legends]"
+    },
+    {
+      "group": "1 - 2 Gun Servitors",
+      "rule": 4,
+      "unit": "agents/Inquisitorial Agents"
+    },
+    {
+      "group": "Sister Superior",
+      "rule": 4,
+      "unit": "agents/Sisters of Battle Squad"
+    },
+    {
+      "group": "Terminator Weapons",
+      "rule": 4,
+      "unit": "agents/Deathwatch Terminator Squad [Legends]"
+    },
+    {
+      "group": "Terminator Weapons",
+      "rule": 4,
+      "unit": "agents/Deathwatch Terminator Squad [Legends]"
+    },
+    {
+      "group": "Squad Members",
+      "rule": 4,
+      "unit": "agents/Fortis Kill Team [Legends]"
+    },
+    {
+      "group": "Squad Members",
+      "rule": 4,
+      "unit": "agents/Indomitor Kill Team [Legends]"
+    },
+    {
+      "group": "Squad Members",
+      "rule": 4,
+      "unit": "agents/Proteus Kill Team [Legends]"
+    },
+    {
+      "group": "Veteran Biker Sergeant",
+      "rule": 4,
+      "unit": "agents/Veteran Bike Squad [Legends]"
+    },
+    {
+      "group": "Veteran Biker",
+      "rule": 4,
+      "unit": "agents/Veteran Bike Squad [Legends]"
+    },
+    {
+      "group": "Missionary w/ plasma gun",
+      "rule": 4,
+      "unit": "agents/Sanctifiers"
+    },
+    {
+      "group": "Unit composition",
+      "rule": 4,
+      "unit": "agents/Aquila Kill Team"
+    },
+    {
+      "group": "Unit Composition",
+      "rule": 4,
+      "unit": "astramilitarum/Death Korps Grenadier Squad [Legends]"
+    },
+    {
+      "group": "Sternguard Veteran Sergeant",
+      "rule": 4,
+      "unit": "blacktemplars/Sternguard Veteran Squad"
+    },
+    {
+      "group": "Weapon Options",
+      "rule": 4,
+      "unit": "bloodangels/Death Company Marines with Boltguns and Jump Packs [Legends]"
+    },
+    {
+      "group": "Terminator Weapons",
+      "rule": 4,
+      "unit": "deathwatch/Deathwatch Terminator Squad"
+    },
+    {
+      "group": "Kill Team Sergeant",
+      "rule": 4,
+      "unit": "deathwatch/Fortis Kill Team"
+    },
+    {
+      "group": "Squad Members",
+      "rule": 4,
+      "unit": "deathwatch/Indomitor Kill Team"
+    },
+    {
+      "group": "Melee option",
+      "rule": 4,
+      "unit": "deathwatch/Talonstrike Kill Team"
+    },
+    {
+      "group": "Assault Sergeant",
+      "rule": 4,
+      "unit": "spacemarines/Assault Squad [Legends]"
+    },
+    {
+      "group": "Pistol Option",
+      "rule": 4,
+      "unit": "spacemarines/Assault Squad with Jump Packs [Legends]"
+    },
+    {
+      "group": "Assault Sergeant with Jump Pack",
+      "rule": 4,
+      "unit": "spacemarines/Assault Squad with Jump Packs [Legends]"
+    },
+    {
+      "group": "Assault Marines with Jump Packs",
+      "rule": 4,
+      "unit": "spacemarines/Assault Squad with Jump Packs [Legends]"
+    },
+    {
+      "group": "Centurion Option",
+      "rule": 4,
+      "unit": "spacemarines/Centurion Devastator Squad"
+    },
+    {
+      "group": "Weapon Option",
+      "rule": 4,
+      "unit": "spacemarines/Hammerfall Bunker"
+    },
+    {
+      "group": "Pistol Option",
+      "rule": 4,
+      "unit": "spacemarines/Hellblaster Squad"
+    },
+    {
+      "group": "Vanguard Veteran Sergeant",
+      "rule": 4,
+      "unit": "spacemarines/Vanguard Veteran Squad [Legends]"
+    },
+    {
+      "group": "Weapon Option",
+      "rule": 4,
+      "unit": "spacemarines/Scout Bike Squad [Legends]"
+    },
+    {
+      "group": "Relic Terminator Sergeant",
+      "rule": 4,
+      "unit": "spacemarines/Relic Terminator Squad [Legends]"
+    },
+    {
+      "group": "Tactical Marine Sergeant",
+      "rule": 4,
+      "unit": "spacemarines/Tactical Squad"
+    },
+    {
+      "group": "Sternguard Veteran Sergeant",
+      "rule": 4,
+      "unit": "spacemarines/Sternguard Veteran Squad"
+    },
+    {
+      "group": "Wargear",
+      "rule": 4,
+      "unit": "spacewolves/Wolf Guard Pack Leader in Terminator Armour [Legends]"
+    },
+    {
+      "group": "Loadout",
+      "rule": 4,
+      "unit": "spacewolves/Wolf Scouts [Legends]"
+    },
+    {
+      "group": "Wolf Scouts",
+      "rule": 4,
+      "unit": "spacewolves/Wolf Scouts"
+    },
+    {
+      "group": "Theyn",
+      "rule": 4,
+      "unit": "votann/Hearthkyn Warriors"
+    },
+    {
+      "group": "Hesyr",
+      "rule": 4,
+      "unit": "votann/Einhyr Hearthguard"
+    },
+    {
+      "group": "Main weapon",
+      "rule": 4,
+      "unit": "votann/Cthonian Earthshakers"
+    },
+    {
+      "group": "Pathfinders",
+      "rule": 4,
+      "unit": "tau/Pathfinder Team"
+    },
+    {
+      "group": "Kroot Farstalkers",
+      "rule": 4,
+      "unit": "tau/Kroot Farstalkers"
+    },
+    {
+      "group": "Ripper Swarm",
+      "rule": 4,
+      "unit": "tyranids/Ripper Swarms"
+    },
+    {
+      "group": "Ripper Swarm",
+      "rule": 4,
+      "unit": "tyranids/Ripper Swarms (Parasite of Mortrex)"
+    }
+  ],
+  "generatedAt": "2026-09-09",
+  "noStats": [
+    "sororitas/Crusaders [Legends]",
+    "blacktemplars/Crusader Squad",
+    "ultramarines/Tyrannic War Veterans [Legends]"
+  ],
+  "nonCountPointsModifiers": [
+    "aeldari/Windriders: pts modifier set with non-count condition",
+    "aeldari/Fire Dragons: pts modifier increment with non-count condition",
+    "aeldari/Night Spinner: pts modifier increment with non-count condition",
+    "aeldari/Starweaver: pts modifier increment with non-count condition",
+    "aeldari/D-Cannon Platform: pts modifier increment with non-count condition",
+    "aeldari/Swooping Hawks: pts modifier increment with non-count condition",
+    "aeldari/Warp Spiders: pts modifier increment with non-count condition",
+    "aeldari/Wave Serpent: pts modifier increment with non-count condition",
+    "aeldari/Wraithknight: pts modifier increment with non-count condition",
+    "aeldari/Ynnari Incubi: pts modifier increment with non-count condition",
+    "aeldari/Ynnari Raider: pts modifier increment with non-count condition",
+    "aeldari/Ynnari Venom: pts modifier increment with non-count condition",
+    "aeldari/Wraithknight with Ghostglaive: pts modifier increment with non-count condition",
+    "drukhari/Hellions: pts modifier increment with non-count condition",
+    "drukhari/Incubi: pts modifier increment with non-count condition",
+    "drukhari/Mandrakes: pts modifier increment with non-count condition",
+    "drukhari/Raider: pts modifier increment with non-count condition",
+    "drukhari/Reavers: pts modifier increment with non-count condition",
+    "drukhari/Scourges with Heavy Weapons: pts modifier increment with non-count condition",
+    "drukhari/Talos: pts modifier increment with non-count condition",
+    "drukhari/Venom: pts modifier increment with non-count condition",
+    "drukhari/Starweaver: pts modifier increment with non-count condition",
+    "drukhari/Scourges with Shardcarbines: pts modifier increment with non-count condition",
+    "chaosknights/Chaos Acastus Knight Asterius: pts modifier increment with non-count condition",
+    "chaosknights/Chaos Acastus Knight Porphyrion: pts modifier increment with non-count condition",
+    "chaosknights/Chaos Cerastus Knight Acheron: pts modifier increment with non-count condition",
+    "chaosknights/Chaos Cerastus Knight Atrapos: pts modifier increment with non-count condition",
+    "chaosknights/Chaos Cerastus Knight Castigator: pts modifier increment with non-count condition",
+    "chaosknights/Chaos Cerastus Knight Lancer: pts modifier increment with non-count condition",
+    "chaosknights/Chaos Questoris Knight Magaera: pts modifier increment with non-count condition",
+    "chaosknights/Chaos Questoris Knight Styrix: pts modifier increment with non-count condition",
+    "chaosknights/Knight Abominant: pts modifier increment with non-count condition",
+    "chaosknights/Knight Desecrator: pts modifier increment with non-count condition",
+    "chaosknights/Knight Despoiler: pts modifier increment with non-count condition",
+    "chaosknights/Knight Rampager: pts modifier increment with non-count condition",
+    "chaosknights/Knight Tyrant: pts modifier increment with non-count condition",
+    "chaosknights/War Dog Moirax: pts modifier increment with non-count condition",
+    "chaosknights/Knight Ruinator: pts modifier increment with non-count condition",
+    "csm/Dark Commune: pts modifier increment with non-count condition",
+    "csm/Accursed Cultists: pts modifier increment with non-count condition",
+    "csm/Possessed: pts modifier increment with non-count condition",
+    "csm/Chosen: pts modifier increment with non-count condition",
+    "csm/Noise Marines: pts modifier increment with non-count condition",
+    "csm/Venomcrawler: pts modifier increment with non-count condition",
+    "csm/Raptors: pts modifier increment with non-count condition",
+    "csm/Warp Talons: pts modifier increment with non-count condition",
+    "csm/Havocs: pts modifier increment with non-count condition",
+    "csm/Obliterators: pts modifier increment with non-count condition",
+    "csm/Chaos Land Raider: pts modifier increment with non-count condition",
+    "csm/Chaos Predator Annihilator: pts modifier increment with non-count condition",
+    "csm/Chaos Predator Destructor: pts modifier increment with non-count condition",
+    "csm/Chaos Vindicator: pts modifier increment with non-count condition",
+    "csm/Defiler: pts modifier increment with non-count condition",
+    "csm/Forgefiend: pts modifier increment with non-count condition",
+    "csm/Chaos Rhino: pts modifier increment with non-count condition",
+    "csm/Khorne Lord of Skulls: pts modifier increment with non-count condition",
+    "csm/Rubric Marines: pts modifier increment with non-count condition",
+    "csm/Mutilators: pts modifier increment with non-count condition",
+    "csm/Cultist Firebrand: pts modifier increment with non-count condition",
+    "csm/Red Corsairs Raiders: pts modifier increment with non-count condition",
+    "deathguard/Deathshroud Terminators: pts modifier increment with non-count condition",
+    "deathguard/Foetid Bloat-drone: pts modifier increment with non-count condition",
+    "deathguard/Plagueburst Crawler: pts modifier increment with non-count condition",
+    "deathguard/Chaos Land Raider: pts modifier increment with non-count condition",
+    "deathguard/Chaos Predator Annihilator: pts modifier increment with non-count condition",
+    "deathguard/Chaos Predator Destructor: pts modifier increment with non-count condition",
+    "deathguard/Defiler: pts modifier increment with non-count condition",
+    "deathguard/Chaos Rhino: pts modifier increment with non-count condition",
+    "deathguard/Great Unclean One: pts modifier increment with non-count condition",
+    "deathguard/Foetid Bloat-drone with heavy blight launcher: pts modifier increment with non-count condition",
+    "emperorschildren/Lord Exultant: pts modifier increment with non-count condition",
+    "emperorschildren/Daemon Prince of Slaanesh: pts modifier increment with non-count condition",
+    "emperorschildren/Daemon Prince of Slaanesh with Wings: pts modifier increment with non-count condition",
+    "emperorschildren/Chaos Land Raider: pts modifier increment with non-count condition",
+    "emperorschildren/Noise Marines: pts modifier increment with non-count condition",
+    "emperorschildren/Maulerfiend: pts modifier increment with non-count condition",
+    "emperorschildren/Chaos Rhino: pts modifier increment with non-count condition",
+    "emperorschildren/Keeper of Secrets: pts modifier increment with non-count condition",
+    "emperorschildren/Defiler: pts modifier increment with non-count condition",
+    "thousandsons/Chaos Land Raider: pts modifier increment with non-count condition",
+    "thousandsons/Chaos Predator Annihilator: pts modifier increment with non-count condition",
+    "thousandsons/Chaos Predator Destructor: pts modifier increment with non-count condition",
+    "thousandsons/Chaos Rhino: pts modifier increment with non-count condition",
+    "thousandsons/Chaos Vindicator: pts modifier increment with non-count condition",
+    "thousandsons/Defiler: pts modifier increment with non-count condition",
+    "thousandsons/Forgefiend: pts modifier increment with non-count condition",
+    "thousandsons/Maulerfiend: pts modifier increment with non-count condition",
+    "thousandsons/Mutalith Vortex Beast: pts modifier increment with non-count condition",
+    "thousandsons/Rubric Marines: pts modifier increment with non-count condition",
+    "thousandsons/Scarab Occult Terminators: pts modifier increment with non-count condition",
+    "thousandsons/Sorcerer: pts modifier increment with non-count condition",
+    "thousandsons/Sorcerer in Terminator Armour: pts modifier increment with non-count condition",
+    "thousandsons/Daemon Prince of Tzeentch with wings: pts modifier increment with non-count condition",
+    "thousandsons/Sekhetar Robots: pts modifier increment with non-count condition",
+    "thousandsons/Lord of Change: pts modifier increment with non-count condition",
+    "worldeaters/Chaos Terminators: pts modifier increment with non-count condition",
+    "worldeaters/Eightbound: pts modifier increment with non-count condition",
+    "worldeaters/Exalted Eightbound: pts modifier increment with non-count condition",
+    "worldeaters/Chaos Land Raider: pts modifier increment with non-count condition",
+    "worldeaters/Chaos Predator Annihilator: pts modifier increment with non-count condition",
+    "worldeaters/Chaos Predator Destructor: pts modifier increment with non-count condition",
+    "worldeaters/Defiler: pts modifier increment with non-count condition",
+    "worldeaters/Forgefiend: pts modifier increment with non-count condition",
+    "worldeaters/Maulerfiend: pts modifier increment with non-count condition",
+    "worldeaters/Chaos Rhino: pts modifier increment with non-count condition",
+    "worldeaters/Khorne Lord of Skulls: pts modifier increment with non-count condition",
+    "worldeaters/Bloodthirster: pts modifier increment with non-count condition",
+    "worldeaters/Bloodcrushers: pts modifier increment with non-count condition",
+    "gsc/Aberrants: pts modifier increment with non-count condition",
+    "gsc/Abominant: pts modifier increment with non-count condition",
+    "gsc/Achilles Ridgerunners: pts modifier increment with non-count condition",
+    "gsc/Atalan Jackals: pts modifier increment with non-count condition",
+    "gsc/Goliath Rockgrinder: pts modifier increment with non-count condition",
+    "gsc/Goliath Truck: pts modifier increment with non-count condition",
+    "gsc/Hybrid Metamorphs: pts modifier increment with non-count condition",
+    "gsc/Purestrain Genestealers: pts modifier increment with non-count condition",
+    "gsc/Reductus Saboteur: pts modifier increment with non-count condition",
+    "sororitas/Castigator: pts modifier increment with non-count condition",
+    "sororitas/Celestian Sacresants: pts modifier increment with non-count condition",
+    "sororitas/Dominion Squad: pts modifier increment with non-count condition",
+    "sororitas/Exorcist: pts modifier increment with non-count condition",
+    "sororitas/Hospitaller: pts modifier increment with non-count condition",
+    "sororitas/Immolator: pts modifier increment with non-count condition",
+    "sororitas/Paragon Warsuits: pts modifier increment with non-count condition",
+    "sororitas/Retributor Squad: pts modifier increment with non-count condition",
+    "sororitas/Seraphim Squad: pts modifier increment with non-count condition",
+    "sororitas/Sororitas Rhino: pts modifier increment with non-count condition",
+    "sororitas/Zephyrim Squad: pts modifier increment with non-count condition",
+    "custodes/Allarus Custodians: pts modifier increment with non-count condition",
+    "custodes/Custodian Guard: pts modifier increment with non-count condition",
+    "custodes/Anathema Psykana Rhino: pts modifier increment with non-count condition",
+    "custodes/Blade Champion: pts modifier increment with non-count condition",
+    "custodes/Custodian Wardens: pts modifier increment with non-count condition",
+    "custodes/Venerable Contemptor Dreadnought: pts modifier increment with non-count condition",
+    "custodes/Venerable Land Raider: pts modifier increment with non-count condition",
+    "custodes/Vertus Praetors: pts modifier increment with non-count condition",
+    "custodes/Custodian Guard with Adrasite and Pyrithite spears: pts modifier increment with non-count condition",
+    "custodes/Venatari Custodians: pts modifier increment with non-count condition",
+    "custodes/Contemptor-Galatus Dreadnought: pts modifier increment with non-count condition",
+    "custodes/Contemptor-Achillus Dreadnought: pts modifier increment with non-count condition",
+    "custodes/Caladius Grav-tank: pts modifier increment with non-count condition",
+    "custodes/Telemon Heavy Dreadnought: pts modifier increment with non-count condition",
+    "custodes/Coronus Grav-carrier: pts modifier increment with non-count condition",
+    "custodes/Ares Gunship: pts modifier increment with non-count condition",
+    "custodes/Orion Assault Dropship: pts modifier increment with non-count condition",
+    "admech/Ironstrider Ballistarii: pts modifier increment with non-count condition",
+    "admech/Kastelan Robots: pts modifier increment with non-count condition",
+    "admech/Pteraxii Skystalkers: pts modifier increment with non-count condition",
+    "admech/Pteraxii Sterylizors: pts modifier increment with non-count condition",
+    "admech/Sicarian Infiltrators: pts modifier increment with non-count condition",
+    "admech/Sicarian Ruststalkers: pts modifier increment with non-count condition",
+    "admech/Skorpius Dunerider: pts modifier increment with non-count condition",
+    "admech/Servitor Battleclade: pts modifier increment with non-count condition",
+    "admech/Hastarii Exterminators: pts modifier increment with non-count condition",
+    "admech/Hastarii Fusiliers: pts modifier increment with non-count condition",
+    "agents/Vindicare Assassin: pts modifier increment with non-count condition",
+    "agents/Eversor Assassin: pts modifier increment with non-count condition",
+    "agents/Rogue Trader Entourage: pts modifier increment with non-count condition",
+    "agents/Voidsmen-at-Arms: pts modifier increment with non-count condition",
+    "agents/Subductor Squad: pts modifier increment with non-count condition",
+    "agents/Exaction Squad: pts modifier decrement with non-count condition",
+    "agents/Inquisitor Draxus: pts modifier increment with non-count condition",
+    "agents/Inquisitor Coteaz: pts modifier increment with non-count condition",
+    "agents/Inquisitor: pts modifier increment with non-count condition",
+    "agents/Navigator: pts modifier increment with non-count condition",
+    "agents/Inquisitorial Agents: pts modifier set with non-count condition",
+    "agents/Grey Knights Terminator Squad: pts modifier increment with non-count condition",
+    "agents/Inquisitorial Chimera: pts modifier increment with non-count condition",
+    "agents/Imperial Rhino: pts modifier increment with non-count condition",
+    "agents/Sisters of Battle Squad: pts modifier increment with non-count condition",
+    "agents/Sisters of Battle Immolator: pts modifier increment with non-count condition",
+    "agents/Sisters of Battle Immolator: pts modifier increment with non-count condition",
+    "astramilitarum/Attilan Rough Riders: pts modifier increment with non-count condition",
+    "astramilitarum/Baneblade: pts modifier increment with non-count condition",
+    "astramilitarum/Banehammer: pts modifier increment with non-count condition",
+    "astramilitarum/Banesword: pts modifier increment with non-count condition",
+    "astramilitarum/Basilisk: pts modifier increment with non-count condition",
+    "astramilitarum/Bullgryn Squad: pts modifier increment with non-count condition",
+    "astramilitarum/Chimera: pts modifier increment with non-count condition",
+    "astramilitarum/Deathstrike: pts modifier increment with non-count condition",
+    "astramilitarum/Doomhammer: pts modifier increment with non-count condition",
+    "astramilitarum/Hellhammer: pts modifier increment with non-count condition",
+    "astramilitarum/Hellhound: pts modifier increment with non-count condition",
+    "astramilitarum/Kasrkin: pts modifier increment with non-count condition",
+    "astramilitarum/Leman Russ Battle Tank: pts modifier increment with non-count condition",
+    "astramilitarum/Leman Russ Eradicator: pts modifier increment with non-count condition",
+    "astramilitarum/Leman Russ Demolisher: pts modifier increment with non-count condition",
+    "astramilitarum/Leman Russ Exterminator: pts modifier increment with non-count condition",
+    "astramilitarum/Leman Russ Vanquisher: pts modifier increment with non-count condition",
+    "astramilitarum/Leman Russ Punisher: pts modifier increment with non-count condition",
+    "astramilitarum/Manticore: pts modifier increment with non-count condition",
+    "astramilitarum/Militarum Tempestus Command Squad: pts modifier increment with non-count condition",
+    "astramilitarum/Rogal Dorn Battle Tank: pts modifier increment with non-count condition",
+    "astramilitarum/Shadowsword: pts modifier increment with non-count condition",
+    "astramilitarum/Stormlord: pts modifier increment with non-count condition",
+    "astramilitarum/Leman Russ Commander: pts modifier increment with non-count condition",
+    "astramilitarum/Taurox: pts modifier increment with non-count condition",
+    "astramilitarum/Taurox Prime: pts modifier increment with non-count condition",
+    "astramilitarum/Tempestus Scions: pts modifier increment with non-count condition",
+    "astramilitarum/Valkyrie: pts modifier increment with non-count condition",
+    "astramilitarum/Wyvern: pts modifier increment with non-count condition",
+    "astramilitarum/Stormsword: pts modifier increment with non-count condition",
+    "astramilitarum/Cyclops Demolition Vehicle: pts modifier increment with non-count condition",
+    "astramilitarum/Leman Russ Executioner: pts modifier increment with non-count condition",
+    "astramilitarum/Rogal Dorn Commander: pts modifier increment with non-count condition",
+    "astramilitarum/Krieg Combat Engineers: pts modifier increment with non-count condition",
+    "astramilitarum/Centaur RSV: pts modifier increment with non-count condition",
+    "blacktemplars/Sword Brethren Squad: pts modifier increment with non-count condition",
+    "blacktemplars/Gladiator Lancer: pts modifier increment with non-count condition",
+    "blacktemplars/Gladiator Reaper: pts modifier increment with non-count condition",
+    "blacktemplars/Gladiator Valiant: pts modifier increment with non-count condition",
+    "blacktemplars/Impulsor: pts modifier increment with non-count condition",
+    "blacktemplars/Repulsor: pts modifier increment with non-count condition",
+    "blacktemplars/Repulsor Executioner: pts modifier increment with non-count condition",
+    "blacktemplars/Marshal: pts modifier increment with non-count condition",
+    "blacktemplars/Land Raider Crusader: pts modifier increment with non-count condition",
+    "blacktemplars/Emperor's Champion (Anointed): pts modifier set with non-count condition",
+    "bloodangels/Baal Predator: pts modifier increment with non-count condition",
+    "bloodangels/Sanguinary Guard: pts modifier increment with non-count condition",
+    "bloodangels/Sanguinary Priest: pts modifier increment with non-count condition",
+    "bloodangels/Death Company Marines with Jump Packs: pts modifier increment with non-count condition",
+    "bloodangels/Death Company Marines with Bolt Rifles: pts modifier increment with non-count condition",
+    "bloodangels/Death Company Marines: pts modifier increment with non-count condition",
+    "bloodangels/Death Company Dreadnought: pts modifier increment with non-count condition",
+    "darkangels/Land Speeder Vengeance: pts modifier increment with non-count condition",
+    "darkangels/Ravenwing Black Knights: pts modifier increment with non-count condition",
+    "darkangels/Ravenwing Command Squad: pts modifier increment with non-count condition",
+    "darkangels/Deathwing Knights: pts modifier increment with non-count condition",
+    "darkangels/Inner Circle Companions: pts modifier increment with non-count condition",
+    "deathwatch/Fortis Kill Team: pts modifier increment with non-count condition",
+    "deathwatch/Indomitor Kill Team: pts modifier increment with non-count condition",
+    "deathwatch/Spectrus Kill Team: pts modifier increment with non-count condition",
+    "deathwatch/Talonstrike Kill Team: pts modifier increment with non-count condition",
+    "greyknights/Brotherhood Librarian: pts modifier increment with non-count condition",
+    "greyknights/Grand Master in Nemesis Dreadknight: pts modifier increment with non-count condition",
+    "greyknights/Land Raider: pts modifier increment with non-count condition",
+    "greyknights/Land Raider Crusader: pts modifier increment with non-count condition",
+    "greyknights/Land Raider Redeemer: pts modifier increment with non-count condition",
+    "greyknights/Razorback: pts modifier increment with non-count condition",
+    "greyknights/Rhino: pts modifier increment with non-count condition",
+    "greyknights/Stormraven Gunship: pts modifier increment with non-count condition",
+    "greyknights/Venerable Dreadnought: pts modifier increment with non-count condition",
+    "greyknights/Interceptor Squad: pts modifier increment with non-count condition",
+    "greyknights/Nemesis Dreadknight: pts modifier increment with non-count condition",
+    "greyknights/Paladin Squad: pts modifier increment with non-count condition",
+    "greyknights/Grey Knights Thunderhawk Gunship: pts modifier increment with non-count condition",
+    "greyknights/Purgation Squad: pts modifier increment with non-count condition",
+    "greyknights/Purifier Squad: pts modifier increment with non-count condition",
+    "spacemarines/Aggressor Squad: pts modifier increment with non-count condition",
+    "spacemarines/Ballistus Dreadnought: pts modifier increment with non-count condition",
+    "spacemarines/Bladeguard Veteran Squad: pts modifier increment with non-count condition",
+    "spacemarines/Bladeguard Veteran Squad: pts modifier increment with non-count condition",
+    "spacemarines/Brutalis Dreadnought: pts modifier increment with non-count condition",
+    "spacemarines/Captain with Jump Pack: pts modifier increment with non-count condition",
+    "spacemarines/Chaplain with Jump Pack: pts modifier increment with non-count condition",
+    "spacemarines/Desolation Squad: pts modifier increment with non-count condition",
+    "spacemarines/Drop Pod: pts modifier increment with non-count condition",
+    "spacemarines/Eradicator Squad: pts modifier increment with non-count condition",
+    "spacemarines/Gladiator Lancer: pts modifier increment with non-count condition",
+    "spacemarines/Gladiator Reaper: pts modifier increment with non-count condition",
+    "spacemarines/Gladiator Valiant: pts modifier increment with non-count condition",
+    "spacemarines/Impulsor: pts modifier increment with non-count condition",
+    "spacemarines/Inceptor Squad: pts modifier increment with non-count condition",
+    "spacemarines/Incursor Squad: pts modifier increment with non-count condition",
+    "spacemarines/Infiltrator Squad: pts modifier increment with non-count condition",
+    "spacemarines/Land Raider: pts modifier increment with non-count condition",
+    "spacemarines/Land Raider Crusader: pts modifier increment with non-count condition",
+    "spacemarines/Land Raider Redeemer: pts modifier increment with non-count condition",
+    "spacemarines/Rhino: pts modifier increment with non-count condition",
+    "spacemarines/Predator Annihilator: pts modifier increment with non-count condition",
+    "spacemarines/Repulsor Executioner: pts modifier increment with non-count condition",
+    "spacemarines/Repulsor Executioner: pts modifier set with non-count condition",
+    "spacemarines/Predator Destructor: pts modifier increment with non-count condition",
+    "spacemarines/Redemptor Dreadnought: pts modifier increment with non-count condition",
+    "spacemarines/Razorback: pts modifier increment with non-count condition",
+    "spacemarines/Librarian: pts modifier increment with non-count condition",
+    "spacemarines/Repulsor: pts modifier increment with non-count condition",
+    "spacemarines/Scout Squad: pts modifier increment with non-count condition",
+    "spacemarines/Whirlwind: pts modifier increment with non-count condition",
+    "spacemarines/Vanguard Veteran Squad with Jump Packs: pts modifier increment with non-count condition",
+    "spacemarines/Vanguard Veteran Squad with Jump Packs: pts modifier increment with non-count condition",
+    "spacemarines/Stormraven Gunship: pts modifier increment with non-count condition",
+    "spacemarines/Storm Speeder Hailstrike: pts modifier increment with non-count condition",
+    "spacemarines/Storm Speeder Hammerstrike: pts modifier increment with non-count condition",
+    "spacemarines/Storm Speeder Thunderstrike: pts modifier increment with non-count condition",
+    "spacemarines/Vindicator: pts modifier increment with non-count condition",
+    "spacemarines/Astraeus: pts modifier increment with non-count condition",
+    "spacemarines/Assault Intercessors with Jump Packs: pts modifier increment with non-count condition",
+    "spacemarines/Assault Intercessors with Jump Packs: pts modifier increment with non-count condition",
+    "spacewolves/Wolf Guard Terminators: pts modifier increment with non-count condition",
+    "spacewolves/Wulfen: pts modifier increment with non-count condition",
+    "spacewolves/Wulfen Dreadnought: pts modifier increment with non-count condition",
+    "spacewolves/Thunderwolf Cavalry: pts modifier increment with non-count condition",
+    "spacewolves/Fenrisian Wolves: pts modifier increment with non-count condition",
+    "spacewolves/Venerable Dreadnought: pts modifier increment with non-count condition",
+    "spacewolves/Wolf Guard Headtakers: pts modifier increment with non-count condition",
+    "spacewolves/Wulfen with Storm Shields: pts modifier increment with non-count condition",
+    "ultramarines/Victrix Honour Guard: pts modifier increment with non-count condition",
+    "votann/Einhyr Hearthguard: pts modifier increment with non-count condition",
+    "votann/Hernkyn Pioneers: pts modifier increment with non-count condition",
+    "votann/Sagitaur: pts modifier increment with non-count condition",
+    "votann/Brôkhyr Thunderkyn: pts modifier increment with non-count condition",
+    "votann/Hekaton Land Fortress: pts modifier increment with non-count condition",
+    "votann/Kapricus Defenders: pts modifier increment with non-count condition",
+    "votann/Kapricus Carrier: pts modifier increment with non-count condition",
+    "votann/Ironkin Steeljacks with Heavy Volkanite Disintegrators: pts modifier increment with non-count condition",
+    "votann/Ironkin Steeljacks with Melee Weapons: pts modifier increment with non-count condition",
+    "necrons/Skorpekh Lord: pts modifier increment with non-count condition",
+    "necrons/Technomancer: pts modifier increment with non-count condition",
+    "necrons/Chronomancer: pts modifier increment with non-count condition",
+    "necrons/Deathmarks: pts modifier increment with non-count condition",
+    "necrons/Skorpekh Destroyers: pts modifier increment with non-count condition",
+    "necrons/Triarch Stalker: pts modifier increment with non-count condition",
+    "necrons/Transcendent C'tan: pts modifier increment with non-count condition",
+    "necrons/Ophydian Destroyers: pts modifier increment with non-count condition",
+    "necrons/Tomb Blades: pts modifier increment with non-count condition",
+    "necrons/Canoptek Wraiths: pts modifier increment with non-count condition",
+    "necrons/Doomsday Ark: pts modifier increment with non-count condition",
+    "necrons/Lokhust Destroyers: pts modifier increment with non-count condition",
+    "necrons/Lokhust Heavy Destroyers: pts modifier increment with non-count condition",
+    "necrons/Obelisk: pts modifier increment with non-count condition",
+    "necrons/Tesseract Vault: pts modifier increment with non-count condition",
+    "necrons/Monolith: pts modifier increment with non-count condition",
+    "necrons/Seraptek Heavy Construct: pts modifier increment with non-count condition",
+    "orks/Big Mek with Shokk Attack Gun: pts modifier increment with non-count condition",
+    "orks/Boyz: pts modifier increment with non-count condition",
+    "orks/Deff Dread: pts modifier increment with non-count condition",
+    "orks/Deffkoptas: pts modifier increment with non-count condition",
+    "orks/Flash Gitz: pts modifier increment with non-count condition",
+    "orks/Gorkanaut: pts modifier increment with non-count condition",
+    "orks/Hunta Rig: pts modifier increment with non-count condition",
+    "orks/Kill Rig: pts modifier increment with non-count condition",
+    "orks/Killa Kans: pts modifier increment with non-count condition",
+    "orks/Lootas [Legends]: pts modifier increment with non-count condition",
+    "orks/Meganobz: pts modifier increment with non-count condition",
+    "orks/Mek Gunz: pts modifier increment with non-count condition",
+    "orks/Morkanaut: pts modifier increment with non-count condition",
+    "orks/Nobz: pts modifier increment with non-count condition",
+    "orks/Painboss: pts modifier increment with non-count condition",
+    "orks/Squighog Boyz: pts modifier increment with non-count condition",
+    "orks/Stompa: pts modifier increment with non-count condition",
+    "orks/Tankbustas: pts modifier increment with non-count condition",
+    "orks/Trukk: pts modifier increment with non-count condition",
+    "orks/Warboss in Mega Armour: pts modifier increment with non-count condition",
+    "orks/Wazbom Blastajet: pts modifier increment with non-count condition",
+    "orks/Gargantuan Squiggoth: pts modifier increment with non-count condition",
+    "orks/Beastboss on Squigosaur: pts modifier increment with non-count condition",
+    "orks/Big Mek: pts modifier increment with non-count condition",
+    "orks/Breaka Boyz: pts modifier increment with non-count condition",
+    "orks/Battlewagon: pts modifier increment with non-count condition",
+    "orks/Beast Snagga Boyz: pts modifier increment with non-count condition",
+    "orks/Big Mek Dakkarig: pts modifier increment with non-count condition",
+    "orks/Gunwagon: pts modifier increment with non-count condition",
+    "tau/Stealth Battlesuits: pts modifier increment with non-count condition",
+    "tau/Ghostkeel Battlesuit: pts modifier increment with non-count condition",
+    "tau/Pathfinder Team: pts modifier increment with non-count condition",
+    "tau/Piranhas: pts modifier increment with non-count condition",
+    "tau/Broadside Battlesuits: pts modifier increment with non-count condition",
+    "tau/Riptide Battlesuit: pts modifier increment with non-count condition",
+    "tau/Hammerhead Gunship: pts modifier increment with non-count condition",
+    "tau/Devilfish: pts modifier increment with non-count condition",
+    "tau/Stormsurge: pts modifier increment with non-count condition",
+    "tau/Kroot Farstalkers: pts modifier increment with non-count condition",
+    "tau/Ta'unar Supremacy Armour: pts modifier increment with non-count condition",
+    "tau/Tiger Shark: pts modifier increment with non-count condition",
+    "tau/AX-1-0 Tiger Shark: pts modifier increment with non-count condition",
+    "tau/Crisis Sunforge Battlesuits: pts modifier increment with non-count condition",
+    "tau/Crisis Fireknife Battlesuits: pts modifier increment with non-count condition",
+    "tau/Crisis Starscythe Battlesuits: pts modifier increment with non-count condition",
+    "tau/Krootox Rampagers: pts modifier increment with non-count condition",
+    "tyranids/Maleceptor: pts modifier increment with non-count condition",
+    "tyranids/Pyrovores: pts modifier increment with non-count condition",
+    "tyranids/Haruspex: pts modifier increment with non-count condition",
+    "tyranids/Exocrine: pts modifier increment with non-count condition",
+    "tyranids/Screamer-killer: pts modifier increment with non-count condition",
+    "tyranids/Hive Guard: pts modifier increment with non-count condition",
+    "tyranids/Tyrannofex: pts modifier increment with non-count condition",
+    "tyranids/Tyrannocyte: pts modifier increment with non-count condition",
+    "tyranids/Harridan: pts modifier increment with non-count condition",
+    "tyranids/Hierophant: pts modifier increment with non-count condition",
+    "tyranids/Genestealers: pts modifier increment with non-count condition",
+    "tyranids/Raveners: pts modifier increment with non-count condition",
+    "tyranids/Neurolictor: pts modifier increment with non-count condition",
+    "tyranids/Norn Emissary: pts modifier increment with non-count condition",
+    "tyranids/Norn Assimilator: pts modifier increment with non-count condition",
+    "tyranids/Hyperadapted Raveners: pts modifier increment with non-count condition"
+  ],
+  "overridesApplied": [],
+  "parseFailures": [],
+  "unresolvedKeywordShapes": [],
+  "unresolvedNodes": []
+}

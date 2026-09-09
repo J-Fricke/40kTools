@@ -1,5 +1,5 @@
 // ─── UNIT META: stats, size, points, keywords, abilities (Story A / task A2) ─
-import { chars, resolveProfiles, children, walk } from "./resolve.mjs";
+import { chars, resolveProfiles, children, walk, unitProfiles } from "./resolve.mjs";
 import { isCruft } from "./filter.mjs";
 import { slug } from "./emit.mjs";
 
@@ -13,17 +13,15 @@ const num = (v, d = 0) => {
 
 // ── stats ──────────────────────────────────────────────────────────────────
 function findUnitProfile(unit, idx) {
-  const own = resolveProfiles(unit, idx).filter(p => p.typeName === "Unit");
+  const own = unitProfiles(unit, idx);
   if (own.length) return { profs: own, where: "unit" };
-  // model sub-entries, 1-2 deep
-  const seen = [];
-  for (const { node: k } of children(unit, idx, isCruft)) {
-    const kp = resolveProfiles(k, idx).filter(p => p.typeName === "Unit");
-    if (kp.length) return { profs: kp, where: "model" };
-    for (const { node: gk } of children(k, idx, isCruft)) {
-      const gp = resolveProfiles(gk, idx).filter(p => p.typeName === "Unit");
-      if (gp.length) return { profs: gp, where: "model" };
-    }
+  // Otherwise the first Unit profile anywhere in the (non-cruft) subtree —
+  // squads nest models under "Unit Composition" / size groups several levels
+  // deep (AM, GSC), and the profile is often an infoLink to a sharedProfile.
+  for (const n of walk(unit, idx, isCruft)) {
+    if (n === unit) continue;
+    const p = unitProfiles(n, idx);
+    if (p.length) return { profs: p, where: "model" };
   }
   return { profs: [], where: "none" };
 }

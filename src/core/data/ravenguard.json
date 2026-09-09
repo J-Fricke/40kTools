@@ -1,0 +1,264 @@
+[
+  {
+    "abilities": [
+      {
+        "name": "Chapter Master of the Raven Guard",
+        "text": "At the start of the Declare Battle Formations step, if your army includes Aethon Shaan and Kayvaan\nShrike, until the end of the battle, your Kayvaan Shrike unit loses its Lone Operative ability and it\nreplaces its Chapter Master keyword with Captain."
+      },
+      {
+        "name": "Master of Shadows",
+        "text": "In your Command phase, you can select one unit from your opponent’s army. Until the start of your next Command phase, each time an Adeptus Astartes unit from your army declares a charge while it is within 12\" of that enemy unit, you can re-roll the Charge roll, but it must declare that enemy unit as a target of that charge (if possible)."
+      },
+      {
+        "name": "Blackwing Mantle",
+        "text": "You can target this model’s unit with the Rapid Ingress and Heroic Intervention Stratagems for 0CP,\neven if you have already used that Stratagem on a different unit this phase."
+      }
+    ],
+    "faction": "ravenguard",
+    "id": "ravenguard/aethon-shaan",
+    "keywords": [
+      "aethon shaan",
+      "chapter master",
+      "character",
+      "epic hero",
+      "faction: adeptus astartes",
+      "faction: raven guard",
+      "fly",
+      "imperium",
+      "infantry",
+      "jump pack",
+      "tacticus"
+    ],
+    "name": "Aethon Shaan",
+    "points": [
+      {
+        "models": 1,
+        "pts": 100
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Raven Guard",
+      "entryId": "cbb9-15e9-16ae-6597"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "M": "14\"",
+      "OC": 1,
+      "Sv": "3+",
+      "T": 4,
+      "W": 5
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Claws of Severax",
+          "srcId": "13de-b9ab-2901-38e2",
+          "weaponRefs": [
+            "claws-of-severax"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Heavy Bolt Pistol",
+          "srcId": "eca4-d5d2-18a1-01a8",
+          "weaponRefs": [
+            "heavy-bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "claws-of-severax",
+        "melee": [
+          {
+            "A": 7,
+            "AP": -2,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "sustained hits",
+                "val": "2"
+              },
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Claws of Severax",
+            "skill": 2
+          }
+        ],
+        "name": "Claws of Severax"
+      },
+      {
+        "id": "heavy-bolt-pistol",
+        "name": "Heavy Bolt Pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Heavy Bolt Pistol",
+            "range": "18\"",
+            "skill": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Trifold Path of Shadow",
+        "text": "While this model is leading a unit, models  in this unit cannot be targeted by ranged attacks unless the attacking model is within 12\"."
+      },
+      {
+        "name": "Echo of the Ravenspire",
+        "text": "At the end of your opponent’s turn, if this model’s unit is not within Engagement Range of any enemy models, you can remove it from the battlefield and place it into Strategic Reserves."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ ASSAULT INTERCESSORS WITH JUMP PACKS\n■ VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+      },
+      {
+        "name": "Inspiring Commander",
+        "text": "If you include this model in your army, until the end of the battle, non-Character models in Assault\nIntercessors with Jump Packs units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+      }
+    ],
+    "faction": "ravenguard",
+    "id": "ravenguard/kayvaan-shrike",
+    "keywords": [
+      "chapter master",
+      "character",
+      "epic hero",
+      "faction: adeptus astartes",
+      "faction: raven guard",
+      "fly",
+      "imperium",
+      "infantry",
+      "jump pack",
+      "kayvaan shrike",
+      "phobos"
+    ],
+    "name": "Kayvaan Shrike",
+    "points": [
+      {
+        "models": 1,
+        "pts": 100
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Raven Guard",
+      "entryId": "339f-9776-243d-69a6"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "M": "12\"",
+      "OC": 1,
+      "Sv": "3+",
+      "T": 4,
+      "W": 5
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Blackout",
+          "srcId": "b2d0-b85d-3880-3efe",
+          "weaponRefs": [
+            "blackout"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "The Raven's Talons",
+          "srcId": "e4fe-9ddc-4e91-c960",
+          "weaponRefs": [
+            "the-raven-s-talons"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "blackout",
+        "name": "Blackout",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -1,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "precision"
+              }
+            ],
+            "name": "Blackout",
+            "range": "18\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "the-raven-s-talons",
+        "melee": [
+          {
+            "A": 7,
+            "AP": -2,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "precision"
+              },
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "The Raven's Talons",
+            "skill": 2
+          }
+        ],
+        "name": "The Raven's Talons"
+      }
+    ]
+  }
+]

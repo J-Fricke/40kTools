@@ -3,7 +3,7 @@
 // {min,max} nodes; conditional limits distilled for constraintEval; default
 // option resolved via R7's 4-step chain; weapon options reference weapons[]
 // by id.
-import { children, rawLimits, weaponProfiles } from "./resolve.mjs";
+import { children, rawLimits, weaponProfiles, walk } from "./resolve.mjs";
 import { isCruft } from "./filter.mjs";
 import { distillConditions } from "./constraintEval.mjs";
 import { weaponRefsFor } from "./weapons.mjs";
@@ -27,7 +27,7 @@ function equippedWithItems(unit, idx) {
   return null;
 }
 
-function buildNode(raw, idx, weapons, ctx, depth) {
+function buildNode(raw, idx, weapons, ctx, depth, mandatory) {
   if (raw._unresolved) {
     ctx.report?.unresolvedNodes.push({ unit: ctx.label, path: raw.name, reason: raw._unresolved });
     return { name: raw.name || "?", kind: "option", min: 0, max: 0, unresolved: raw._unresolved };
@@ -49,22 +49,32 @@ function buildNode(raw, idx, weapons, ctx, depth) {
     if (refs.length) node.weaponRefs = refs;
   }
 
-  // children
+  // a child chain is "mandatory" only while every ancestor is a required pick
+  const childMandatory = mandatory && (min >= 1);
+
+  // children (skip weaponless sub-branches — abilities / crests, Story C)
   const kids = [];
   for (const { node: c } of children(raw, idx, isCruft)) {
     if (depth > 8) break;
-    kids.push(buildNode(c, idx, weapons, ctx, depth + 1));
+    if (!weaponProfiles(c, idx).length && !subtreeHasWeapon(c, idx)) continue;
+    kids.push(buildNode(c, idx, weapons, ctx, depth + 1, childMandatory));
   }
   if (kids.length) node.children = kids;
 
-  // default resolution (R7) for a multi-child group
-  if (kids.length > 1) {
-    resolveDefault(raw, node, kids, idx, ctx);
+  // default resolution (R7) — only for a genuine multi-child *choice*.
+  // A group whose children are ALL mandatory (min>=1) is an
+  // "always-included siblings" list (model with several fixed weapons), not
+  // a pick — every child stays selected, no default needed.
+  const isChoice = kids.length > 1 && !kids.every(k => (k.min || 0) >= 1);
+  if (isChoice) {
+    resolveDefault(raw, node, kids, idx, ctx, mandatory);
+  } else if (kids.length > 1) {
+    for (const k of kids) k.defaultSelected = true;
   }
   return node;
 }
 
-function resolveDefault(raw, node, kids, idx, ctx) {
+function resolveDefault(raw, node, kids, idx, ctx, mandatory) {
   // (1) explicit defaultSelectionEntryId
   if (raw.defaultSelectionEntryId) {
     const target = raw.defaultSelectionEntryId;
@@ -73,7 +83,7 @@ function resolveDefault(raw, node, kids, idx, ctx) {
       if (childRaw && (childRaw.id === target || childRaw._targetId === target)) { kids[i].defaultSelected = true; return; }
     }
   }
-  const mandatory = (node.min || 0) >= 1;
+  const needsDefault = mandatory && (node.min || 0) >= 1;
   // (2) squad model group: the plain variant (no " with ")
   if (kids.every(k => k.kind === "model")) {
     const plain = kids.find(k => !NO_WITH.test(k.name));
@@ -85,18 +95,27 @@ function resolveDefault(raw, node, kids, idx, ctx) {
     const hit = kids.find(k => items.some(it => k.name.toLowerCase().includes(it) || it.includes(k.name.toLowerCase())));
     if (hit) { hit.defaultSelected = true; return; }
   }
-  // (4) first child + report (only worth flagging for mandatory picks)
-  if (mandatory) {
+  // (4) first child + report — only when this pick actually happens in the
+  // default build (mandatory chain)
+  if (needsDefault) {
     kids[0].defaultSelected = true;
     ctx.report?.defaultRuleFallback.push({ unit: ctx.label, group: node.name, rule: 4 });
   }
+}
+
+// does this raw subtree contain any weapon profile? (weaponless branches are
+// abilities / crests / psychic powers — not Story A's concern)
+function subtreeHasWeapon(raw, idx) {
+  for (const n of walk(raw, idx, isCruft)) if (weaponProfiles(n, idx).length) return true;
+  return false;
 }
 
 export function buildWargear(unit, idx, weapons, faction, report) {
   const ctx = { label: `${faction}/${(unit.name || "").trim()}`, report, equipped: equippedWithItems(unit, idx) };
   const kids = [];
   for (const { node: c } of children(unit, idx, isCruft)) {
-    kids.push(buildNode(c, idx, weapons, ctx, 1));
+    if (!subtreeHasWeapon(c, idx)) continue;   // skip pure-ability / crest branches
+    kids.push(buildNode(c, idx, weapons, ctx, 1, true));
   }
   return { name: "wargear", kind: "group", min: 0, max: null, children: kids };
 }

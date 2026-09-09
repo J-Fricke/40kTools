@@ -1,0 +1,6250 @@
+[
+  {
+    "abilities": [
+      {
+        "name": "Blackstar Cluster Launcher",
+        "text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 5+, that unit suffers 1 mortal wound."
+      },
+      {
+        "bracket": true,
+        "name": "Damaged: 1-5 Wounds Remaining",
+        "text": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+      },
+      {
+        "name": "Transport",
+        "text": "This model has a transport capacity of 12 ADEPTUS ASTARTES INFANTRY or KILL TEAM models. Each JUMP PACK, GRAVIS or TERMINATOR model takes up the space of 2 models and each CENTURION model takes up the space of 3 models."
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/corvus-blackstar",
+    "keywords": [
+      "corvus blackstar",
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "fly",
+      "frame",
+      "imperium",
+      "transport",
+      "vehicle"
+    ],
+    "name": "Corvus Blackstar",
+    "points": [
+      {
+        "models": 1,
+        "pts": 180
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "d861-972b-54f9-bdfa"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "M": "14\"",
+      "OC": 0,
+      "Sv": "3+",
+      "T": 10,
+      "W": 14
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Armoured hull",
+              "srcId": "f483-c541-62c8-5a49",
+              "weaponRefs": [
+                "armoured-hull"
+              ]
+            },
+            {
+              "kind": "option",
+              "max": 1,
+              "min": 0,
+              "name": "Hurricane bolter",
+              "srcId": "39fd-529-fe62-955e",
+              "weaponRefs": [
+                "hurricane-bolter"
+              ]
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Twin assault cannon",
+                  "srcId": "a53b-f93b-5136-1fb1",
+                  "weaponRefs": [
+                    "twin-assault-cannon"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Twin lascannon",
+                  "srcId": "ce7c-2f31-957b-e430",
+                  "weaponRefs": [
+                    "twin-lascannon"
+                  ]
+                }
+              ],
+              "kind": "group",
+              "max": 1,
+              "min": 1,
+              "name": "Centreline weapon",
+              "srcId": "cd33-acae-10d1-2db0"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "kind": "option",
+                      "max": 2,
+                      "min": 2,
+                      "name": "Blackstar rocket launcher",
+                      "srcId": "e1bb-7422-d97a-8392",
+                      "weaponRefs": [
+                        "blackstar-rocket-launcher"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 0,
+                  "name": "2 Blackstar rocket launchers",
+                  "srcId": "659f-cdb6-c687-5096"
+                },
+                {
+                  "children": [
+                    {
+                      "kind": "option",
+                      "max": 2,
+                      "min": 2,
+                      "name": "Stormstrike missile launcher",
+                      "srcId": "8d31-e74f-7724-1f53",
+                      "weaponRefs": [
+                        "stormstrike-missile-launcher"
+                      ]
+                    }
+                  ],
+                  "kind": "option",
+                  "max": 1,
+                  "min": 0,
+                  "name": "2 Stormstrike missile launchers",
+                  "srcId": "f01a-6492-a57e-31e8"
+                }
+              ],
+              "kind": "group",
+              "max": 1,
+              "min": 1,
+              "name": "Missile choice",
+              "srcId": "f7b7-2fa0-265f-69ec"
+            }
+          ],
+          "kind": "group",
+          "max": null,
+          "min": 0,
+          "name": "Wargear",
+          "srcId": "663f-d79b-25fd-b52f"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "armoured-hull",
+        "melee": [
+          {
+            "A": 3,
+            "AP": 0,
+            "D": 1,
+            "S": 6,
+            "keywords": [],
+            "name": "Armoured hull",
+            "skill": 4
+          }
+        ],
+        "name": "Armoured hull"
+      },
+      {
+        "id": "hurricane-bolter",
+        "name": "Hurricane bolter",
+        "ranged": [
+          {
+            "A": 6,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "rapid fire",
+                "val": "6"
+              },
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Hurricane bolter",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "twin-assault-cannon",
+        "name": "Twin assault cannon",
+        "ranged": [
+          {
+            "A": 6,
+            "AP": 0,
+            "D": 1,
+            "S": 6,
+            "keywords": [
+              {
+                "kw": "devastating wounds"
+              },
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Twin assault cannon",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "twin-lascannon",
+        "name": "Twin lascannon",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -3,
+            "D": 4.5,
+            "S": 12,
+            "keywords": [
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Twin lascannon",
+            "range": "48\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "blackstar-rocket-launcher",
+        "name": "Blackstar rocket launcher",
+        "ranged": [
+          {
+            "A": 4.5,
+            "AP": 0,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "blast"
+              }
+            ],
+            "name": "Blackstar rocket launcher",
+            "range": "30\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "stormstrike-missile-launcher",
+        "name": "Stormstrike missile launcher",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 3,
+            "S": 10,
+            "keywords": [],
+            "name": "Stormstrike missile launcher",
+            "range": "48\"",
+            "skill": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Terminatus Assault",
+        "text": "You can re-roll Charge rolls made for this unit. Each time this unit ends a Charge move, each enemy unit within Engagement Range of this unit must take a Battle-shock test. If that enemy unit does not have the IMPERIUM or CHAOS keywords, subtract 1 from that test."
+      },
+      {
+        "name": "Teleport Homer",
+        "text": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" of that token and not within 9\" of any enemy models. That token is then removed."
+      },
+      {
+        "name": "Attached Unit",
+        "text": "If a CHARACTER unit from your army with the Leader ability can be attached to a TERMINATOR SQUAD, it can be attached to this unit instead."
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/deathwatch-terminator-squad",
+    "keywords": [
+      "deathwatch terminator squad",
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "imperium",
+      "infantry",
+      "kill team",
+      "terminator"
+    ],
+    "name": "Deathwatch Terminator Squad",
+    "points": [
+      {
+        "models": 5,
+        "pts": 180
+      },
+      {
+        "models": 10,
+        "pts": 330
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "390e-706b-a059-378b"
+    },
+    "size": {
+      "max": 10,
+      "min": 5
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "M": "5\"",
+      "OC": 1,
+      "Sv": "2+",
+      "T": 5,
+      "W": 3
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Power Fist",
+                          "srcId": "324d-7add-8600-f3b2",
+                          "weaponRefs": [
+                            "power-fist"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm Bolter",
+                          "srcId": "8c23-c310-31f6-ad94",
+                          "weaponRefs": [
+                            "storm-bolter"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Power Fist & Storm Bolter",
+                      "srcId": "ad9-d7f5-59b8-cd0d"
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Power Weapon",
+                          "srcId": "e94e-ea43-a3a3-7c18",
+                          "weaponRefs": [
+                            "power-weapon"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm Bolter",
+                          "srcId": "4068-2896-63b9-f8f5",
+                          "weaponRefs": [
+                            "storm-bolter"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Storm Bolter & Power Weapon",
+                      "srcId": "245b-cbdd-7915-e0"
+                    },
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Thunder Hammer",
+                          "srcId": "7361-e230-fa4d-4ac4",
+                          "weaponRefs": [
+                            "thunder-hammer"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Thunder Hammer & Storm Shield",
+                      "srcId": "6d89-f8ad-8cac-18b4"
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Chainfist",
+                          "srcId": "a8c8-531b-a4b-fcb5",
+                          "weaponRefs": [
+                            "chainfist"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm Bolter",
+                          "srcId": "58a9-fab4-eba8-8c6",
+                          "weaponRefs": [
+                            "storm-bolter"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Storm Bolter & Chainfist",
+                      "srcId": "745c-a89b-7d0f-3065"
+                    },
+                    {
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Twin lightning claws",
+                      "srcId": "130e-9b77-584-a15b",
+                      "weaponRefs": [
+                        "twin-lightning-claws"
+                      ]
+                    }
+                  ],
+                  "kind": "group",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Terminator Weapons",
+                  "srcId": "ead7-caae-cc7e-f148"
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "model",
+              "max": 9,
+              "min": 1,
+              "name": "Deathwatch Terminator",
+              "srcId": "45fa-9a7-8352-362e"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Assault Cannon",
+                          "srcId": "b1c7-f5b7-e77d-94eb",
+                          "weaponRefs": [
+                            "assault-cannon"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Assault Cannon & Power fist",
+                      "srcId": "8259-a28d-949-b4fa",
+                      "weaponRefs": [
+                        "power-fist"
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Heavy flamer",
+                          "srcId": "f705-bc58-183b-767",
+                          "weaponRefs": [
+                            "heavy-flamer"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Heavy Flamer & Power Fist",
+                      "srcId": "8fef-ad24-3222-a2b8",
+                      "weaponRefs": [
+                        "power-fist"
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Plasma cannon",
+                          "srcId": "fdd7-3066-57cc-ce52",
+                          "weaponRefs": [
+                            "plasma-cannon"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Power fist",
+                          "srcId": "f8d8-7e77-4b71-faac",
+                          "weaponRefs": [
+                            "power-fist-2"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Plasma Cannon & Power Fist",
+                      "srcId": "8d7-b5ed-f870-e86e"
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Cyclone missile launcher",
+                          "srcId": "da0b-ae86-a275-13f1",
+                          "weaponRefs": [
+                            "cyclone-missile-launcher"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm bolter",
+                          "srcId": "eb61-5cd0-5242-74cc",
+                          "weaponRefs": [
+                            "storm-bolter-2"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Power fist",
+                          "srcId": "f8d8-7e77-4b71-faac",
+                          "weaponRefs": [
+                            "power-fist-2"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Cyclone Missile Launcher, Storm Bolter & Power Fist",
+                      "srcId": "6380-c14d-67da-691b"
+                    },
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Assault Cannon",
+                          "srcId": "b1c7-f5b7-e77d-94eb",
+                          "weaponRefs": [
+                            "assault-cannon"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Assault Cannon & Chainfist",
+                      "srcId": "80c0-420b-9d0c-6581",
+                      "weaponRefs": [
+                        "chainfist"
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Assault Cannon",
+                          "srcId": "b1c7-f5b7-e77d-94eb",
+                          "weaponRefs": [
+                            "assault-cannon"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Assault Cannon & Power Weapon",
+                      "srcId": "afe6-4342-76d7-7126",
+                      "weaponRefs": [
+                        "power-weapon"
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Heavy flamer",
+                          "srcId": "f705-bc58-183b-767",
+                          "weaponRefs": [
+                            "heavy-flamer"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Heavy Flamer & Chainfist",
+                      "srcId": "3dfd-61d0-51ce-d9d3",
+                      "weaponRefs": [
+                        "chainfist"
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Heavy flamer",
+                          "srcId": "f705-bc58-183b-767",
+                          "weaponRefs": [
+                            "heavy-flamer"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Heavy Flamer & Power Weapon",
+                      "srcId": "56a9-4150-f61a-cfb0",
+                      "weaponRefs": [
+                        "power-weapon"
+                      ]
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Plasma cannon",
+                          "srcId": "fdd7-3066-57cc-ce52",
+                          "weaponRefs": [
+                            "plasma-cannon"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Power weapon",
+                          "srcId": "50dd-3e76-d993-4d1a",
+                          "weaponRefs": [
+                            "power-weapon-2"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Plasma Cannon & Power Weapon",
+                      "srcId": "153b-96b7-6156-6ace"
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Plasma cannon",
+                          "srcId": "fdd7-3066-57cc-ce52",
+                          "weaponRefs": [
+                            "plasma-cannon"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Chainfist",
+                          "srcId": "cb6c-970e-444a-3ec3",
+                          "weaponRefs": [
+                            "chainfist"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Plasma Cannon & Chainfist",
+                      "srcId": "7a5-e256-10d4-14f0"
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Cyclone missile launcher",
+                          "srcId": "da0b-ae86-a275-13f1",
+                          "weaponRefs": [
+                            "cyclone-missile-launcher"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm bolter",
+                          "srcId": "eb61-5cd0-5242-74cc",
+                          "weaponRefs": [
+                            "storm-bolter-2"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Chainfist",
+                          "srcId": "cb6c-970e-444a-3ec3",
+                          "weaponRefs": [
+                            "chainfist"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Cyclone Missile Launcher, Storm Bolter & Chainfist",
+                      "srcId": "510-6f07-8f6b-818b"
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Cyclone missile launcher",
+                          "srcId": "da0b-ae86-a275-13f1",
+                          "weaponRefs": [
+                            "cyclone-missile-launcher"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm bolter",
+                          "srcId": "eb61-5cd0-5242-74cc",
+                          "weaponRefs": [
+                            "storm-bolter-2"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Power weapon",
+                          "srcId": "50dd-3e76-d993-4d1a",
+                          "weaponRefs": [
+                            "power-weapon-2"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Cyclone Missile Launcher, Storm Bolter & Power Weapon",
+                      "srcId": "7d33-edd5-7937-e331"
+                    }
+                  ],
+                  "kind": "group",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Terminator Heavy Weapons",
+                  "srcId": "77ef-f5b6-e6bc-7618"
+                }
+              ],
+              "kind": "model",
+              "max": 3,
+              "min": 0,
+              "name": "Deathwatch Terminator w/ Heavy Weapon",
+              "srcId": "259f-d98e-e052-ec64"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Power Fist",
+                          "srcId": "6196-ee27-f362-955f",
+                          "weaponRefs": [
+                            "power-fist"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm Bolter",
+                          "srcId": "bf92-a820-4863-2481",
+                          "weaponRefs": [
+                            "storm-bolter"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Power Fist & Storm Bolter",
+                      "srcId": "3a4f-9d8a-d055-f0b7"
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Power Weapon",
+                          "srcId": "0a0e-85c7-20e7-3031",
+                          "weaponRefs": [
+                            "power-weapon"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm Bolter",
+                          "srcId": "ae7d-7b73-9ef9-6191",
+                          "weaponRefs": [
+                            "storm-bolter"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Storm Bolter & Power Weapon",
+                      "srcId": "3b41-ef3b-efd7-6784"
+                    },
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Thunder Hammer",
+                          "srcId": "ff14-7e0a-4b32-6fc1",
+                          "weaponRefs": [
+                            "thunder-hammer"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Thunder Hammer & Storm Shield",
+                      "srcId": "f831-6dfb-6b1b-8112"
+                    },
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Chainfist",
+                          "srcId": "fdae-d3a9-c43d-0d92",
+                          "weaponRefs": [
+                            "chainfist"
+                          ]
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": 1,
+                          "min": 1,
+                          "name": "Storm Bolter",
+                          "srcId": "eda3-4972-c510-afc1",
+                          "weaponRefs": [
+                            "storm-bolter"
+                          ]
+                        }
+                      ],
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Storm Bolter & Chainfist",
+                      "srcId": "7adb-f0b7-a934-18ad"
+                    },
+                    {
+                      "kind": "option",
+                      "max": 1,
+                      "min": 0,
+                      "name": "Twin lightning claws",
+                      "srcId": "130e-9b77-584-a15b",
+                      "weaponRefs": [
+                        "twin-lightning-claws"
+                      ]
+                    }
+                  ],
+                  "kind": "group",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Terminator Weapons",
+                  "srcId": "52a3-786b-962d-44c3"
+                }
+              ],
+              "kind": "model",
+              "max": 1,
+              "min": 1,
+              "name": "Deathwatch Terminator Sergeant",
+              "srcId": "4595-7ad2-617a-c07d"
+            }
+          ],
+          "kind": "group",
+          "max": 10,
+          "min": 5,
+          "name": "Deathwatch Terminators",
+          "srcId": "50fb-8de8-f1cf-86b3"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "power-fist",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [],
+            "name": "Power Fist",
+            "skill": 3
+          }
+        ],
+        "name": "Power Fist"
+      },
+      {
+        "id": "storm-bolter",
+        "name": "Storm Bolter",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "rapid fire",
+                "val": "2"
+              }
+            ],
+            "name": "Storm Bolter",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "power-weapon",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [],
+            "name": "Power Weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Power Weapon"
+      },
+      {
+        "id": "thunder-hammer",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "devastating wounds"
+              }
+            ],
+            "name": "Thunder Hammer",
+            "skill": 4
+          }
+        ],
+        "name": "Thunder Hammer"
+      },
+      {
+        "id": "chainfist",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "anti vehicle",
+                "on": 3
+              }
+            ],
+            "name": "Chainfist",
+            "skill": 4
+          }
+        ],
+        "name": "Chainfist"
+      },
+      {
+        "id": "twin-lightning-claws",
+        "melee": [
+          {
+            "A": 5,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Twin lightning claws",
+            "skill": 3
+          }
+        ],
+        "name": "Twin lightning claws"
+      },
+      {
+        "id": "assault-cannon",
+        "name": "Assault Cannon",
+        "ranged": [
+          {
+            "A": 6,
+            "AP": 0,
+            "D": 1,
+            "S": 6,
+            "keywords": [
+              {
+                "kw": "devastating wounds"
+              }
+            ],
+            "name": "Assault Cannon",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "heavy-flamer",
+        "name": "Heavy flamer",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": -1,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Heavy flamer",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "plasma-cannon",
+        "name": "Plasma cannon",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 1,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "blast"
+              }
+            ],
+            "name": "Plasma cannon - standard",
+            "range": "36\"",
+            "skill": 3
+          },
+          {
+            "A": 2,
+            "AP": -3,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "blast"
+              },
+              {
+                "kw": "hazardous"
+              }
+            ],
+            "name": "Plasma cannon - supercharge",
+            "range": "36\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "power-fist-2",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [],
+            "name": "Power fist",
+            "skill": 3
+          }
+        ],
+        "name": "Power fist"
+      },
+      {
+        "id": "cyclone-missile-launcher",
+        "name": "Cyclone missile launcher",
+        "ranged": [
+          {
+            "A": 7,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "blast"
+              }
+            ],
+            "name": "Cyclone missile launcher - frag",
+            "range": "36\"",
+            "skill": 3
+          },
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 3.5,
+            "S": 9,
+            "keywords": [],
+            "name": "Cyclone missile launcher - krak",
+            "range": "36\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "storm-bolter-2",
+        "name": "Storm bolter",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "rapid fire",
+                "val": "2"
+              }
+            ],
+            "name": "Storm bolter",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "power-weapon-2",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [],
+            "name": "Power weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Power weapon"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Death to the Alien",
+        "text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the ^^**Imperium^^** or ^^**Chaos^^** keywords, you can re-roll the Hit roll instead."
+      },
+      {
+        "name": "Attached Unit",
+        "text": "If a ^^**Character^^** unit from your army can be attached to a ^^**Fortis Kill Team^^** unit, it can be attached to this unit instead."
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/decimus-kill-team",
+    "keywords": [
+      "battleline",
+      "decimus kill team",
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "grenades",
+      "imperium",
+      "infantry",
+      "kill team",
+      "tacticus"
+    ],
+    "name": "Decimus Kill Team",
+    "points": [
+      {
+        "models": 1,
+        "pts": 190
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "b169-ff89-b05e-3884"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "M": "6\"",
+      "OC": 2,
+      "Sv": "3+",
+      "T": 4,
+      "W": 2
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Plasma pistol",
+                      "srcId": "2902-b665-48b6-bb09",
+                      "weaponRefs": [
+                        "plasma-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Power weapon",
+                      "srcId": "2174-53aa-f028-b509",
+                      "weaponRefs": [
+                        "power-weapon"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Kill Team Sergeant",
+                  "srcId": "ab41-fdc1-8d0f-bb74"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Stalker bolt rifle",
+                          "srcId": "4b89-bd85-ed45-0ce4",
+                          "weaponRefs": [
+                            "stalker-bolt-rifle"
+                          ]
+                        },
+                        {
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Plasma incinerator",
+                          "srcId": "386c-b933-68ce-5e31",
+                          "weaponRefs": [
+                            "plasma-incinerator"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "group",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Exchange rifle",
+                      "srcId": "b439-6122-b494-52d7"
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "d177-4e7a-6b6b-19e5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch Veteran w/ stalker bolt rifle",
+                  "srcId": "9ae9-4f7e-a148-cbfa"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "kind": "option",
+                              "max": 1,
+                              "min": 1,
+                              "name": "Power weapon",
+                              "srcId": "2174-53aa-f028-b509",
+                              "weaponRefs": [
+                                "power-weapon"
+                              ]
+                            }
+                          ],
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Power weapon and Astartes shield",
+                          "srcId": "d289-4aa1-775c-f349"
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Heavy thunder hammer",
+                          "srcId": "f1d9-6336-7a0c-64cf",
+                          "weaponRefs": [
+                            "heavy-thunder-hammer"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "group",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Exchange hammer",
+                      "srcId": "d23a-cc50-b438-ff2b"
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "d177-4e7a-6b6b-19e5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch Veteran w/ heavy thunder hammer",
+                  "srcId": "2537-956c-98c0-bffb"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Deathwatch marksman bolt carbine",
+                          "srcId": "2fde-1e35-34a9-0b37",
+                          "weaponRefs": [
+                            "deathwatch-marksman-bolt-carbine"
+                          ]
+                        },
+                        {
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Combat knife",
+                          "srcId": "812d-8e13-8148-1db6",
+                          "weaponRefs": [
+                            "combat-knife"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "group",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Exchange carbine",
+                      "srcId": "8667-6300-4cc0-671a"
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Special-issue bolt pistol",
+                      "srcId": "bd52-0d98-f3a0-e291",
+                      "weaponRefs": [
+                        "special-issue-bolt-pistol"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch Veteran w/ carbine",
+                  "srcId": "8778-e3cb-2c6f-b23d"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Frag cannon",
+                          "srcId": "efbd-2915-b637-83f8",
+                          "weaponRefs": [
+                            "frag-cannon"
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "defaultSelected": true,
+                              "kind": "option",
+                              "max": 1,
+                              "min": 1,
+                              "name": "Hellstorm bolt rifle",
+                              "srcId": "7c66-f2f6-a3fc-0867",
+                              "weaponRefs": [
+                                "hellstorm-bolt-rifle"
+                              ]
+                            },
+                            {
+                              "defaultSelected": true,
+                              "kind": "option",
+                              "max": 1,
+                              "min": 1,
+                              "name": "Astartes grenade launcher",
+                              "srcId": "703f-ed39-cb24-5686",
+                              "weaponRefs": [
+                                "astartes-grenade-launcher"
+                              ]
+                            }
+                          ],
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Hellstorm bolt rifle and grenade launcher",
+                          "srcId": "e2b3-c14f-5a6a-b660"
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Infernus heavy bolter",
+                          "srcId": "dc61-590e-f638-6584",
+                          "weaponRefs": [
+                            "infernus-heavy-bolter"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "group",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Weapon",
+                      "srcId": "3899-8463-5291-674b"
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "d177-4e7a-6b6b-19e5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Gravis Veteran w/ infernus heavy bolter",
+                  "srcId": "550a-f5c4-d6a9-a09e"
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "option",
+              "max": null,
+              "min": 0,
+              "name": "5 models",
+              "srcId": "dc49-0e3b-208b-c2ad"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Xenophase blade",
+                      "srcId": "44ce-4256-035e-bf2a",
+                      "weaponRefs": [
+                        "xenophase-blade"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Special-issue bolt pistol",
+                      "srcId": "bd52-0d98-f3a0-e291",
+                      "weaponRefs": [
+                        "special-issue-bolt-pistol"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch Veteran w/ xenophase blade",
+                  "srcId": "407d-7aa3-78a1-0d7e"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Plasma pistol",
+                      "srcId": "2902-b665-48b6-bb09",
+                      "weaponRefs": [
+                        "plasma-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Power weapon",
+                      "srcId": "2174-53aa-f028-b509",
+                      "weaponRefs": [
+                        "power-weapon"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Kill Team Sergeant",
+                  "srcId": "ab41-fdc1-8d0f-bb74"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Stalker bolt rifle",
+                          "srcId": "4b89-bd85-ed45-0ce4",
+                          "weaponRefs": [
+                            "stalker-bolt-rifle"
+                          ]
+                        },
+                        {
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Plasma incinerator",
+                          "srcId": "386c-b933-68ce-5e31",
+                          "weaponRefs": [
+                            "plasma-incinerator"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "group",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Exchange rifle",
+                      "srcId": "b439-6122-b494-52d7"
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "d177-4e7a-6b6b-19e5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 2,
+                  "min": 2,
+                  "name": "Deathwatch Veteran w/ stalker bolt rifle",
+                  "srcId": "9ae9-4f7e-a148-cbfa"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "kind": "option",
+                              "max": 1,
+                              "min": 1,
+                              "name": "Power weapon",
+                              "srcId": "2174-53aa-f028-b509",
+                              "weaponRefs": [
+                                "power-weapon"
+                              ]
+                            }
+                          ],
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Power weapon and Astartes shield",
+                          "srcId": "d289-4aa1-775c-f349"
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Heavy thunder hammer",
+                          "srcId": "f1d9-6336-7a0c-64cf",
+                          "weaponRefs": [
+                            "heavy-thunder-hammer"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "group",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Exchange hammer",
+                      "srcId": "d23a-cc50-b438-ff2b"
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "d177-4e7a-6b6b-19e5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 2,
+                  "min": 2,
+                  "name": "Deathwatch Veteran w/ heavy thunder hammer",
+                  "srcId": "2537-956c-98c0-bffb"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Deathwatch marksman bolt carbine",
+                          "srcId": "2fde-1e35-34a9-0b37",
+                          "weaponRefs": [
+                            "deathwatch-marksman-bolt-carbine"
+                          ]
+                        },
+                        {
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Combat knife",
+                          "srcId": "812d-8e13-8148-1db6",
+                          "weaponRefs": [
+                            "combat-knife"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "group",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Exchange carbine",
+                      "srcId": "8667-6300-4cc0-671a"
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Special-issue bolt pistol",
+                      "srcId": "bd52-0d98-f3a0-e291",
+                      "weaponRefs": [
+                        "special-issue-bolt-pistol"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 2,
+                  "min": 2,
+                  "name": "Deathwatch Veteran w/ carbine",
+                  "srcId": "8778-e3cb-2c6f-b23d"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Frag cannon",
+                          "srcId": "efbd-2915-b637-83f8",
+                          "weaponRefs": [
+                            "frag-cannon"
+                          ]
+                        },
+                        {
+                          "children": [
+                            {
+                              "defaultSelected": true,
+                              "kind": "option",
+                              "max": 1,
+                              "min": 1,
+                              "name": "Hellstorm bolt rifle",
+                              "srcId": "7c66-f2f6-a3fc-0867",
+                              "weaponRefs": [
+                                "hellstorm-bolt-rifle"
+                              ]
+                            },
+                            {
+                              "defaultSelected": true,
+                              "kind": "option",
+                              "max": 1,
+                              "min": 1,
+                              "name": "Astartes grenade launcher",
+                              "srcId": "703f-ed39-cb24-5686",
+                              "weaponRefs": [
+                                "astartes-grenade-launcher"
+                              ]
+                            }
+                          ],
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Hellstorm bolt rifle and grenade launcher",
+                          "srcId": "e2b3-c14f-5a6a-b660"
+                        },
+                        {
+                          "defaultSelected": true,
+                          "kind": "option",
+                          "max": null,
+                          "min": 0,
+                          "name": "Infernus heavy bolter",
+                          "srcId": "dc61-590e-f638-6584",
+                          "weaponRefs": [
+                            "infernus-heavy-bolter"
+                          ]
+                        }
+                      ],
+                      "defaultSelected": true,
+                      "kind": "group",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Weapon",
+                      "srcId": "3899-8463-5291-674b"
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "d177-4e7a-6b6b-19e5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 2,
+                  "min": 2,
+                  "name": "Gravis Veteran w/ infernus heavy bolter",
+                  "srcId": "550a-f5c4-d6a9-a09e"
+                }
+              ],
+              "kind": "option",
+              "max": null,
+              "min": 0,
+              "name": "10 models",
+              "srcId": "7065-df9c-4dff-aa9a"
+            }
+          ],
+          "kind": "group",
+          "max": 1,
+          "min": 1,
+          "name": "Unit composition",
+          "srcId": "27aa-0757-7a11-2050"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "plasma-pistol",
+        "name": "Plasma pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 1,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Plasma pistol - Standard",
+            "range": "12\"",
+            "skill": 3
+          },
+          {
+            "A": 1,
+            "AP": -3,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "hazardous"
+              },
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Plasma pistol - Supercharge",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "power-weapon",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -2,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "sustained hits",
+                "val": "1"
+              }
+            ],
+            "name": "Power weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Power weapon"
+      },
+      {
+        "id": "stalker-bolt-rifle",
+        "name": "Stalker bolt rifle",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "lethal hits"
+              },
+              {
+                "kw": "precision"
+              }
+            ],
+            "name": "Stalker bolt rifle",
+            "range": "30\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "plasma-incinerator",
+        "name": "Plasma incinerator",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 1,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Plasma incinerator - Standard",
+            "range": "24\"",
+            "skill": 3
+          },
+          {
+            "A": 2,
+            "AP": -3,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "hazardous"
+              },
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Plasma incinerator - Supercharge",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Bolt pistol",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "close-combat-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Close combat weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Close combat weapon"
+      },
+      {
+        "id": "heavy-thunder-hammer",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 3,
+            "S": 10,
+            "keywords": [
+              {
+                "kw": "devastating wounds"
+              }
+            ],
+            "name": "Heavy thunder hammer",
+            "skill": 4
+          }
+        ],
+        "name": "Heavy thunder hammer"
+      },
+      {
+        "id": "deathwatch-marksman-bolt-carbine",
+        "name": "Deathwatch marksman bolt carbine",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -1,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Deathwatch marksman bolt carbine",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "combat-knife",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "precision"
+              }
+            ],
+            "name": "Combat knife",
+            "skill": 3
+          }
+        ],
+        "name": "Combat knife"
+      },
+      {
+        "id": "special-issue-bolt-pistol",
+        "name": "Special-issue bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "precision"
+              },
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Special-issue bolt pistol",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "frag-cannon",
+        "name": "Frag cannon",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 2,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "blast"
+              },
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "lethal hits"
+              },
+              {
+                "kw": "rapid fire",
+                "val": "d3"
+              }
+            ],
+            "name": "Frag cannon",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "hellstorm-bolt-rifle",
+        "name": "Hellstorm bolt rifle",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Hellstorm bolt rifle",
+            "range": "30\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "astartes-grenade-launcher",
+        "name": "Astartes grenade launcher",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "blast"
+              }
+            ],
+            "name": "Astartes grenade launcher - frag",
+            "range": "24\"",
+            "skill": 3
+          },
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 2,
+            "S": 9,
+            "keywords": [],
+            "name": "Astartes grenade launcher - krak",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "infernus-heavy-bolter",
+        "name": "Infernus heavy bolter",
+        "ranged": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 3,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "sustained hits",
+                "val": "1"
+              }
+            ],
+            "name": "Infernus heavy bolter - heavy bolter",
+            "range": "36\"",
+            "skill": 3
+          },
+          {
+            "A": 3.5,
+            "AP": -1,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Infernus heavy bolter - heavy flamer",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "xenophase-blade",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "devastating wounds"
+              }
+            ],
+            "name": "Xenophase blade",
+            "skill": 3
+          }
+        ],
+        "name": "Xenophase blade"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Fortis Doctrines",
+        "text": "Each time a model in this unit makes an attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll instead."
+      },
+      {
+        "name": "Attached Unit",
+        "text": "If a CHARACTER from your army with the Leader ability can be attached to an INTERCESSOR SQUAD, it can be attached to this unit instead."
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/fortis-kill-team",
+    "keywords": [
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "fortis kill team",
+      "grenades",
+      "imperium",
+      "infantry",
+      "kill team",
+      "tacticus"
+    ],
+    "name": "Fortis Kill Team",
+    "points": [
+      {
+        "models": 9,
+        "pts": 195
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "a077-e1c9-f8f0-d38"
+    },
+    "size": {
+      "max": 9,
+      "min": 9
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "M": "6\"",
+      "OC": 2,
+      "Sv": "3+",
+      "T": 4,
+      "W": 2
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Astartes Chainsword",
+                  "srcId": "efcd-180-d07-b4d6",
+                  "weaponRefs": [
+                    "astartes-chainsword"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Deathwatch bolt rifle",
+                  "srcId": "ad6a-c679-52ea-6059",
+                  "weaponRefs": [
+                    "deathwatch-bolt-rifle"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Power weapon",
+                  "srcId": "c4b5-68e-2266-f459",
+                  "weaponRefs": [
+                    "power-weapon"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Hand flamer",
+                  "srcId": "9dc6-6ad8-818e-db2e",
+                  "weaponRefs": [
+                    "hand-flamer"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Plasma pistol",
+                  "srcId": "25c2-104f-fa0c-809e",
+                  "weaponRefs": [
+                    "plasma-pistol"
+                  ]
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "group",
+              "max": 1,
+              "min": 1,
+              "name": "Replace bolt rifle",
+              "srcId": "4acb-0096-9317-afdf"
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Close combat weapon",
+                  "srcId": "6c7d-af5b-482-6fbe",
+                  "weaponRefs": [
+                    "close-combat-weapon"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Power weapon",
+                  "srcId": "c4b5-68e-2266-f459",
+                  "weaponRefs": [
+                    "power-weapon"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Power fist",
+                  "srcId": "f8d8-7e77-4b71-faac",
+                  "weaponRefs": [
+                    "power-fist"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Thunder Hammer",
+                  "srcId": "4913-96d4-2b1f-2c21",
+                  "weaponRefs": [
+                    "thunder-hammer"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Astartes Chainsword",
+                  "srcId": "efcd-180-d07-b4d6",
+                  "weaponRefs": [
+                    "astartes-chainsword"
+                  ]
+                }
+              ],
+              "kind": "group",
+              "max": 1,
+              "min": 1,
+              "name": "Replace CCW",
+              "srcId": "b3c3-8a5c-46a6-3094"
+            },
+            {
+              "conditions": [
+                {
+                  "op": "inc",
+                  "target": "max",
+                  "value": 1,
+                  "when": [
+                    {
+                      "childId": "model",
+                      "scope": "a077-e1c9-f8f0-d38",
+                      "type": "atLeast",
+                      "value": 10
+                    }
+                  ]
+                },
+                {
+                  "op": "set",
+                  "target": "max",
+                  "value": 0,
+                  "when": [
+                    {
+                      "childId": "ad6a-c679-52ea-6059",
+                      "scope": "4962-be6c-d809-e206",
+                      "type": "lessThan",
+                      "value": 1
+                    }
+                  ]
+                }
+              ],
+              "kind": "option",
+              "max": 1,
+              "min": 0,
+              "name": "Astartes grenade launcher",
+              "srcId": "ca2b-3d9a-e739-cb21",
+              "weaponRefs": [
+                "astartes-grenade-launcher"
+              ]
+            },
+            {
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt pistol",
+              "srcId": "18b0-8c2-173f-5",
+              "weaponRefs": [
+                "bolt-pistol"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Kill Team Sergeant",
+          "srcId": "4962-be6c-d809-e206"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Bolt pistol",
+                  "srcId": "18b0-8c2-173f-5",
+                  "weaponRefs": [
+                    "bolt-pistol"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Close combat weapon",
+                  "srcId": "c23d-db22-8cc8-dda9",
+                  "weaponRefs": [
+                    "close-combat-weapon"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch bolt rifle",
+                  "srcId": "ad6a-c679-52ea-6059",
+                  "weaponRefs": [
+                    "deathwatch-bolt-rifle"
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "op": "dec",
+                  "target": "min",
+                  "value": 1,
+                  "when": []
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "model",
+              "max": 9,
+              "min": 2,
+              "name": "Kill Team Intercessor",
+              "srcId": "7bf3-4c74-4427-717c"
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Bolt pistol",
+                  "srcId": "18b0-8c2-173f-5",
+                  "weaponRefs": [
+                    "bolt-pistol"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Close combat weapon",
+                  "srcId": "c23d-db22-8cc8-dda9",
+                  "weaponRefs": [
+                    "close-combat-weapon"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch bolt rifle",
+                  "srcId": "ad6a-c679-52ea-6059",
+                  "weaponRefs": [
+                    "deathwatch-bolt-rifle"
+                  ]
+                },
+                {
+                  "conditions": [
+                    {
+                      "op": "inc",
+                      "target": "max",
+                      "value": 1,
+                      "when": [
+                        {
+                          "childId": "model",
+                          "scope": "a077-e1c9-f8f0-d38",
+                          "type": "atLeast",
+                          "value": 10
+                        }
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Astartes grenade launcher",
+                  "srcId": "ca2b-3d9a-e739-cb21",
+                  "weaponRefs": [
+                    "astartes-grenade-launcher"
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 2,
+              "min": 0,
+              "name": "Kill Team Intercessor w/ grenade launcher",
+              "srcId": "ed4e-ce7a-9fc6-4225"
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Heavy bolt pistol",
+                  "srcId": "874f-5923-626a-cc1c",
+                  "weaponRefs": [
+                    "heavy-bolt-pistol"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Astartes Chainsword",
+                  "srcId": "efcd-180-d07-b4d6",
+                  "weaponRefs": [
+                    "astartes-chainsword"
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 4,
+              "min": 0,
+              "name": "Kill Team Intercessor w/ heavy bolt pistol",
+              "srcId": "3c99-1b17-8b08-ce52"
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Bolt pistol",
+                  "srcId": "18b0-8c2-173f-5",
+                  "weaponRefs": [
+                    "bolt-pistol"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Close combat weapon",
+                  "srcId": "c23d-db22-8cc8-dda9",
+                  "weaponRefs": [
+                    "close-combat-weapon"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Pyreblaster",
+                  "srcId": "2737-cb80-0c3a-3dfa",
+                  "weaponRefs": [
+                    "pyreblaster"
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 4,
+              "min": 0,
+              "name": "Kill Team Intercessor w/ pyreblaster",
+              "srcId": "2061-4f19-0a98-e5ff"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "c23d-db22-8cc8-dda9",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Plasma pistol",
+                      "srcId": "2902-b665-48b6-bb09",
+                      "weaponRefs": [
+                        "plasma-pistol-2"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Plasma incinerator",
+                      "srcId": "386c-b933-68ce-5e31",
+                      "weaponRefs": [
+                        "plasma-incinerator"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Kill Team Intercessor w/ plasma pistol and incinerator",
+                  "srcId": "dd1b-4fab-d15c-bacf"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "c23d-db22-8cc8-dda9",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Plasma incinerator",
+                      "srcId": "386c-b933-68ce-5e31",
+                      "weaponRefs": [
+                        "plasma-incinerator"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 4,
+                  "min": 0,
+                  "name": "Kill Team Intercessor w/ bolt pistol and incinerator",
+                  "srcId": "e980-d865-fec5-10d3"
+                }
+              ],
+              "kind": "group",
+              "max": 4,
+              "min": 0,
+              "name": "Kill Team Intercessor w/ plasma incinerator",
+              "srcId": "1309-c8b7-fa8c-86ab"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "c23d-db22-8cc8-dda9",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Castellan Launcher",
+                      "srcId": "566c-9e8f-3121-93b0",
+                      "weaponRefs": [
+                        "castellan-launcher"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Vengor launcher",
+                      "srcId": "7d58-3576-d40e-b858",
+                      "weaponRefs": [
+                        "vengor-launcher"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Kill Team Intercessor w/ vengor launcher",
+                  "srcId": "65e5-1485-c2a9-8cc2"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Superfrag missile launcher",
+                      "srcId": "7089-6582-2a5d-93f6",
+                      "weaponRefs": [
+                        "superfrag-missile-launcher"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "c23d-db22-8cc8-dda9",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Castellan Launcher",
+                      "srcId": "566c-9e8f-3121-93b0",
+                      "weaponRefs": [
+                        "castellan-launcher"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 2,
+                  "min": 0,
+                  "name": "Kill Team Intercessor w/ superfrag missile launcher",
+                  "srcId": "ccfb-e995-308b-4b7a"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Superkrak missile launcher",
+                      "srcId": "7ab4-5c71-f281-06e1",
+                      "weaponRefs": [
+                        "superkrak-missile-launcher"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "c23d-db22-8cc8-dda9",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Castellan Launcher",
+                      "srcId": "566c-9e8f-3121-93b0",
+                      "weaponRefs": [
+                        "castellan-launcher"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 2,
+                  "min": 0,
+                  "name": "Kill Team Intercessor w/ superkrak missile launcher",
+                  "srcId": "0690-3f67-1f92-3968"
+                }
+              ],
+              "kind": "group",
+              "max": 2,
+              "min": 0,
+              "name": "Kill Team Intercessor w/ missile launcher",
+              "srcId": "c346-db09-d839-e0b0"
+            }
+          ],
+          "kind": "group",
+          "max": 9,
+          "min": 9,
+          "name": "Squad Members",
+          "srcId": "2453-11c-9b7f-47c7"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "astartes-chainsword",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Astartes Chainsword",
+            "skill": 3
+          }
+        ],
+        "name": "Astartes Chainsword"
+      },
+      {
+        "id": "deathwatch-bolt-rifle",
+        "name": "Deathwatch bolt rifle",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Deathwatch bolt rifle",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "power-weapon",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [],
+            "name": "Power weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Power weapon"
+      },
+      {
+        "id": "hand-flamer",
+        "name": "Hand flamer",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": 0,
+            "D": 1,
+            "S": 3,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Hand flamer",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "plasma-pistol",
+        "name": "Plasma pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -3,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "hazardous"
+              },
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Plasma pistol - supercharge",
+            "range": "12\"",
+            "skill": 3
+          },
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 1,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Plasma pistol - standard",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "close-combat-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Close combat weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Close combat weapon"
+      },
+      {
+        "id": "power-fist",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [],
+            "name": "Power fist",
+            "skill": 3
+          }
+        ],
+        "name": "Power fist"
+      },
+      {
+        "id": "thunder-hammer",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "devastating wounds"
+              }
+            ],
+            "name": "Thunder Hammer",
+            "skill": 4
+          }
+        ],
+        "name": "Thunder Hammer"
+      },
+      {
+        "id": "astartes-grenade-launcher",
+        "name": "Astartes grenade launcher",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 2,
+            "S": 9,
+            "keywords": [],
+            "name": "Astartes grenade launcher - krak",
+            "range": "24\"",
+            "skill": 3
+          },
+          {
+            "A": 2,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "blast"
+              }
+            ],
+            "name": "Astartes grenade launcher - frag",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "close quarters"
+              }
+            ],
+            "name": "Bolt pistol",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "heavy-bolt-pistol",
+        "name": "Heavy bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Heavy bolt pistol",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "pyreblaster",
+        "name": "Pyreblaster",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": 0,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Pyreblaster",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "plasma-pistol-2",
+        "name": "Plasma pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 1,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Plasma pistol - Standard",
+            "range": "12\"",
+            "skill": 3
+          },
+          {
+            "A": 1,
+            "AP": -3,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "hazardous"
+              },
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Plasma pistol - Supercharge",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "plasma-incinerator",
+        "name": "Plasma incinerator",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 1,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Plasma incinerator - Standard",
+            "range": "24\"",
+            "skill": 3
+          },
+          {
+            "A": 2,
+            "AP": -3,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "hazardous"
+              },
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Plasma incinerator - Supercharge",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "castellan-launcher",
+        "name": "Castellan Launcher",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "blast"
+              },
+              {
+                "kw": "indirect fire"
+              }
+            ],
+            "name": "Castellan Launcher",
+            "range": "36\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "vengor-launcher",
+        "name": "Vengor launcher",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": -1,
+            "D": 2,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "blast"
+              },
+              {
+                "kw": "indirect fire"
+              }
+            ],
+            "name": "Vengor launcher",
+            "range": "48\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "superfrag-missile-launcher",
+        "name": "Superfrag missile launcher",
+        "ranged": [
+          {
+            "A": 4.5,
+            "AP": 0,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "blast"
+              },
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Superfrag missile launcher",
+            "range": "48\"",
+            "skill": 4
+          }
+        ]
+      },
+      {
+        "id": "superkrak-missile-launcher",
+        "name": "Superkrak missile launcher",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 4.5,
+            "S": 10,
+            "keywords": [
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Superkrak missile launcher",
+            "range": "48\"",
+            "skill": 4
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Indomitor Doctrines",
+        "text": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, or makes a melee attack in a turn in which it made a Charge move, improve the Strength characteristic of that attack by 2."
+      },
+      {
+        "name": "Attached Unit",
+        "text": "If a CHARACTER unit from your army can be attached to a HEAVY INTERCESSOR SQUAD, it can be attached to this unit instead."
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/indomitor-kill-team",
+    "keywords": [
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "gravis",
+      "grenades",
+      "imperium",
+      "indomitor kill team",
+      "infantry",
+      "kill team"
+    ],
+    "name": "Indomitor Kill Team",
+    "points": [
+      {
+        "models": 1,
+        "pts": 275
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "6cb-912c-c43-210b"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "M": "5\"",
+      "OC": 1,
+      "Sv": "3+",
+      "T": 6,
+      "W": 3
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Melta rifle",
+                      "srcId": "c88c-d4a0-4ec4-625c",
+                      "weaponRefs": [
+                        "melta-rifle"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 3,
+                  "min": 0,
+                  "name": "Kill Team Heavy Intercessor w/ melta rifle",
+                  "srcId": "d171-7d41-4be1-3382"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Multi-melta",
+                      "srcId": "59c-91b5-f87b-1395",
+                      "weaponRefs": [
+                        "multi-melta"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Kill Team Heavy Intercessor w/ multi-melta",
+                  "srcId": "a666-891-4187-a82"
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "group",
+              "max": 3,
+              "min": 0,
+              "name": "Kill Team Heavy Intercessors w/ melta weapons",
+              "srcId": "3c68-34fc-53e0-334f"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Auto boltstorm gauntlets",
+                      "srcId": "65e9-cc14-1fc1-267f",
+                      "weaponRefs": [
+                        "auto-boltstorm-gauntlets"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Twin power fists",
+                      "srcId": "9592-92a8-cd44-dcc0",
+                      "weaponRefs": [
+                        "twin-power-fists"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Fragstorm grenade launcher",
+                      "srcId": "2557-ebbd-6ea5-3785",
+                      "weaponRefs": [
+                        "fragstorm-grenade-launcher"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 3,
+                  "min": 0,
+                  "name": "Kill Team Heavy Intercessor w/ power fists & auto boltstorm gauntlets",
+                  "srcId": "31bd-dd30-6128-356e"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Flamestorm gauntlets",
+                      "srcId": "5633-82d7-6f6a-317a",
+                      "weaponRefs": [
+                        "flamestorm-gauntlets"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Twin power fists",
+                      "srcId": "5e96-4ab9-4531-8073",
+                      "weaponRefs": [
+                        "twin-power-fists"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 3,
+                  "min": 0,
+                  "name": "Kill Team Heavy Intercessor w/ power fists & flamestorm gauntlets",
+                  "srcId": "0d9b-e508-49a1-0b5f"
+                }
+              ],
+              "kind": "group",
+              "max": 3,
+              "min": 0,
+              "name": "Kill Team Heavy Intercessors w/ twin power fists",
+              "srcId": "5fc8-18a9-cf52-c762"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Deathwatch heavy bolt rifle",
+                      "srcId": "5654-5bdd-c713-10c0",
+                      "weaponRefs": [
+                        "deathwatch-heavy-bolt-rifle"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "model",
+                  "max": 10,
+                  "min": 2,
+                  "name": "Kill Team Heavy Intercessor",
+                  "srcId": "84f7-2150-fe04-4f8b"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Deathwatch heavy bolter",
+                      "srcId": "46ee-696e-8631-b41e",
+                      "weaponRefs": [
+                        "deathwatch-heavy-bolter"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "op": "set",
+                      "target": "max",
+                      "value": 2,
+                      "when": [
+                        {
+                          "childId": "model",
+                          "scope": "6cb-912c-c43-210b",
+                          "type": "atLeast",
+                          "value": 10
+                        }
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Kill Team Heavy Intercessor w/ heavy bolter",
+                  "srcId": "83ce-4339-bfd5-7635"
+                }
+              ],
+              "kind": "group",
+              "max": 10,
+              "min": 3,
+              "name": "Kill Team Heavy Intercessors",
+              "srcId": "0d29-7325-4b94-4e87"
+            }
+          ],
+          "kind": "group",
+          "max": 10,
+          "min": 10,
+          "name": "Squad Members",
+          "srcId": "cecf-b6a2-6407-628a"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "close quarters"
+              }
+            ],
+            "name": "Bolt pistol",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "close-combat-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Close combat weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Close combat weapon"
+      },
+      {
+        "id": "melta-rifle",
+        "name": "Melta rifle",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -4,
+            "D": 3.5,
+            "S": 9,
+            "keywords": [
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "melta",
+                "val": "2"
+              }
+            ],
+            "name": "Melta rifle",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "multi-melta",
+        "name": "Multi-melta",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -4,
+            "D": 3.5,
+            "S": 9,
+            "keywords": [
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "melta",
+                "val": "2"
+              }
+            ],
+            "name": "Multi-melta",
+            "range": "18\"",
+            "skill": 4
+          }
+        ]
+      },
+      {
+        "id": "auto-boltstorm-gauntlets",
+        "name": "Auto boltstorm gauntlets",
+        "ranged": [
+          {
+            "A": 3,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Auto boltstorm gauntlets",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "twin-power-fists",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Twin power fists",
+            "skill": 3
+          }
+        ],
+        "name": "Twin power fists"
+      },
+      {
+        "id": "fragstorm-grenade-launcher",
+        "name": "Fragstorm grenade launcher",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "blast"
+              }
+            ],
+            "name": "Fragstorm grenade launcher",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "flamestorm-gauntlets",
+        "name": "Flamestorm gauntlets",
+        "ranged": [
+          {
+            "A": 4.5,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "torrent"
+              },
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Flamestorm gauntlets",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "deathwatch-heavy-bolt-rifle",
+        "name": "Deathwatch heavy bolt rifle",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Deathwatch heavy bolt rifle",
+            "range": "30\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "deathwatch-heavy-bolter",
+        "name": "Deathwatch heavy bolter",
+        "ranged": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 3,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "lethal hits"
+              },
+              {
+                "kw": "sustained hits",
+                "val": "1"
+              }
+            ],
+            "name": "Deathwatch heavy bolter",
+            "range": "36\"",
+            "skill": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Catechism of Death",
+        "text": "While this unit contains Chaplain Cassius, melee weapons equipped by models in this unit have the [DEVASTATING WOUNDS] ability."
+      },
+      {
+        "name": "Unflinching",
+        "text": "You can re-roll Battle-shock tests for this unit."
+      },
+      {
+        "name": "Invulnerable Save",
+        "text": "Chaplain Cassius has a 4+ invulnerable save."
+      },
+      {
+        "name": "Jump Pack",
+        "text": "The bearer has a Move characteristic of 12\" and can move over models and terrain as if they were not there."
+      },
+      {
+        "name": "Psychic Hood",
+        "text": "Models in the bearer’s unit have the Feel No Pain 4+ ability against Psychic Attacks."
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/kill-team-cassius-legends",
+    "keywords": [
+      "deathwatch",
+      "faction: agents of the imperium",
+      "grenades",
+      "imperium",
+      "infantry",
+      "kill team",
+      "kill team cassius",
+      "ordo xenos"
+    ],
+    "name": "Kill Team Cassius [Legends]",
+    "points": [
+      {
+        "models": 1,
+        "pts": 220
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "4042-67ce-8d45-ed33"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": "4+",
+      "InvSv": "4+",
+      "M": "6\"",
+      "OC": 2,
+      "Sv": "3+",
+      "T": 4,
+      "W": 4
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Artificer crozius",
+              "srcId": "9d6-495a-ec17-7924",
+              "weaponRefs": [
+                "artificer-crozius"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt pistol",
+              "srcId": "18b0-8c2-173f-5",
+              "weaponRefs": [
+                "bolt-pistol"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Chaplain Cassius",
+          "srcId": "92eb-83bc-dcff-9386"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Close combat weapon",
+              "srcId": "38e3-8907-cd67-f400",
+              "weaponRefs": [
+                "close-combat-weapon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt pistol",
+              "srcId": "18b0-8c2-173f-5",
+              "weaponRefs": [
+                "bolt-pistol"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Boltgun",
+              "srcId": "4d-5d79-b348-19ee",
+              "weaponRefs": [
+                "boltgun"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Vael Donatus",
+          "srcId": "fe0a-b5eb-1e1a-21bc"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Long Vigil ranged weapon",
+              "srcId": "9be1-2f4b-22b5-6780",
+              "weaponRefs": [
+                "long-vigil-ranged-weapon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Long Vigil melee weapon",
+              "srcId": "e3f6-2750-6e07-a27",
+              "weaponRefs": [
+                "long-vigil-melee-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Zameon Gydrael",
+          "srcId": "743c-f14-a2c2-a12c"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Close combat weapon",
+              "srcId": "a41e-6ed3-538-1a22",
+              "weaponRefs": [
+                "close-combat-weapon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Frag cannon",
+              "srcId": "25bb-751f-5e1a-d283",
+              "weaponRefs": [
+                "frag-cannon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt pistol",
+              "srcId": "18b0-8c2-173f-5",
+              "weaponRefs": [
+                "bolt-pistol"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Rodricus Grytt",
+          "srcId": "572c-d3a3-e597-94a3"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Long Vigil ranged weapon",
+              "srcId": "9be1-2f4b-22b5-6780",
+              "weaponRefs": [
+                "long-vigil-ranged-weapon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Long Vigil melee weapon",
+              "srcId": "e3f6-2750-6e07-a27",
+              "weaponRefs": [
+                "long-vigil-melee-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Antor Delassio",
+          "srcId": "16d6-b842-a1d1-2d77"
+        },
+        {
+          "children": [
+            {
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Twin lightning claws",
+              "srcId": "e102-1304-5c21-e122",
+              "weaponRefs": [
+                "twin-lightning-claws"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Edryc Setorax",
+          "srcId": "9636-f9b-1bbf-14b9"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Psychic Cleanse",
+              "srcId": "c48b-daed-df-20b",
+              "weaponRefs": [
+                "psychic-cleanse"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Force weapon",
+              "srcId": "f536-dd2f-14d1-24c5",
+              "weaponRefs": [
+                "force-weapon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Bolt pistol",
+              "srcId": "18b0-8c2-173f-5",
+              "weaponRefs": [
+                "bolt-pistol"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Jensus Natorian",
+          "srcId": "16b6-4055-1e55-27d5"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Boltgun",
+              "srcId": "4d-5d79-b348-19ee",
+              "weaponRefs": [
+                "boltgun"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Long Vigil melee weapon",
+              "srcId": "e3f6-2750-6e07-a27",
+              "weaponRefs": [
+                "long-vigil-melee-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Drenn Redblade",
+          "srcId": "b42a-2552-4350-e1d1"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Heavy Flamer",
+              "srcId": "ad82-8000-8d9d-8fa8",
+              "weaponRefs": [
+                "heavy-flamer"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Power fist",
+              "srcId": "7828-f96a-2087-d351",
+              "weaponRefs": [
+                "power-fist"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Long Vigil ranged weapon",
+              "srcId": "9be1-2f4b-22b5-6780",
+              "weaponRefs": [
+                "long-vigil-ranged-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Garran Branatar",
+          "srcId": "7e27-9914-e88-5858"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Close combat weapon",
+              "srcId": "9a78-2788-8706-cfba",
+              "weaponRefs": [
+                "close-combat-weapon"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Long Vigil ranged weapon",
+              "srcId": "9be1-2f4b-22b5-6780",
+              "weaponRefs": [
+                "long-vigil-ranged-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Ennox Sorrlock",
+          "srcId": "3722-72d6-5151-5003"
+        },
+        {
+          "children": [
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Deathwatch twin boltgun",
+              "srcId": "eb83-8a1f-796b-5756",
+              "weaponRefs": [
+                "deathwatch-twin-boltgun"
+              ]
+            },
+            {
+              "defaultSelected": true,
+              "kind": "option",
+              "max": 1,
+              "min": 1,
+              "name": "Long Vigil melee weapon",
+              "srcId": "e3f6-2750-6e07-a27",
+              "weaponRefs": [
+                "long-vigil-melee-weapon"
+              ]
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Jetek Suberei",
+          "srcId": "cd4a-d623-f7b6-b8e6"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "artificer-crozius",
+        "melee": [
+          {
+            "A": 5,
+            "AP": -1,
+            "D": 2,
+            "S": 6,
+            "keywords": [],
+            "name": "Artificer crozius",
+            "skill": 2
+          }
+        ],
+        "name": "Artificer crozius"
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "close quarters"
+              }
+            ],
+            "name": "Bolt pistol",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "close-combat-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [],
+            "name": "Close combat weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Close combat weapon"
+      },
+      {
+        "id": "boltgun",
+        "name": "Boltgun",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Boltgun",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "long-vigil-ranged-weapon",
+        "name": "Long Vigil ranged weapon",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "anti infantry",
+                "on": 4
+              },
+              {
+                "kw": "devastating wounds"
+              },
+              {
+                "kw": "rapid fire",
+                "val": "1"
+              }
+            ],
+            "name": "Long Vigil ranged weapon",
+            "range": "24\"",
+            "skill": 4
+          }
+        ]
+      },
+      {
+        "id": "long-vigil-melee-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [],
+            "name": "Long Vigil melee weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Long Vigil melee weapon"
+      },
+      {
+        "id": "frag-cannon",
+        "name": "Frag cannon",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -1,
+            "D": 2,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "blast"
+              },
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "rapid fire",
+                "val": "d3"
+              }
+            ],
+            "name": "Frag cannon",
+            "range": "18\"",
+            "skill": 4
+          }
+        ]
+      },
+      {
+        "id": "twin-lightning-claws",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Twin lightning claws",
+            "skill": 3
+          }
+        ],
+        "name": "Twin lightning claws"
+      },
+      {
+        "id": "psychic-cleanse",
+        "name": "Psychic Cleanse",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": -1,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "psychic"
+              }
+            ],
+            "name": "Psychic Cleanse",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "force-weapon",
+        "melee": [
+          {
+            "A": 5,
+            "AP": -3,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "psychic"
+              }
+            ],
+            "name": "Force weapon",
+            "skill": 2
+          }
+        ],
+        "name": "Force weapon"
+      },
+      {
+        "id": "heavy-flamer",
+        "name": "Heavy Flamer",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": -1,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Heavy Flamer",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "power-fist",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [],
+            "name": "Power fist",
+            "skill": 3
+          }
+        ],
+        "name": "Power fist"
+      },
+      {
+        "id": "deathwatch-twin-boltgun",
+        "name": "Deathwatch twin boltgun",
+        "ranged": [
+          {
+            "A": 4,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Deathwatch twin boltgun",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Attached Unit",
+        "text": "If a CHARACTER from your army with the Leader ability can be attached to an INFILTRATOR SQUAD, it can be attached to this unit instead. \nIf this unit has a Leader unit attached to it during the Declare Battle Formations step, that Leader unit gains the Infiltrators and Scouts 6\" abilities."
+      },
+      {
+        "name": "Spectrus Doctrines",
+        "text": "At the end of your opponent’s turn, if this unit is more than 6\" away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves."
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/spectrus-kill-team",
+    "keywords": [
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "grenades",
+      "imperium",
+      "infantry",
+      "kill team",
+      "phobos",
+      "smoke",
+      "spectrus kill team"
+    ],
+    "name": "Spectrus Kill Team",
+    "points": [
+      {
+        "models": 5,
+        "pts": 170
+      },
+      {
+        "models": 10,
+        "pts": 170
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "2544-5189-7806-30f3"
+    },
+    "size": {
+      "max": 10,
+      "min": 5
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "M": "6\"",
+      "OC": 1,
+      "Sv": "3+",
+      "T": 4,
+      "W": 2
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch marksman bolt carbine",
+                  "srcId": "7ce0-d222-824c-1713",
+                  "weaponRefs": [
+                    "deathwatch-marksman-bolt-carbine"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Bolt pistol",
+                  "srcId": "18b0-8c2-173f-5",
+                  "weaponRefs": [
+                    "bolt-pistol"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Close combat weapon",
+                  "srcId": "2078-20a8-181f-a708",
+                  "weaponRefs": [
+                    "close-combat-weapon"
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "op": "dec",
+                  "target": "min",
+                  "value": 1,
+                  "when": [
+                    {
+                      "childId": "f1f0-4d9d-cb87-72cc",
+                      "scope": "2544-5189-7806-30f3",
+                      "type": "atLeast",
+                      "value": 1
+                    }
+                  ]
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "model",
+              "max": 10,
+              "min": 3,
+              "name": "Kill Team Infiltrator",
+              "srcId": "a39b-9d32-c3ee-a14f"
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch occulus bolt carbine",
+                  "srcId": "bd3-53d3-d134-ab8f",
+                  "weaponRefs": [
+                    "deathwatch-occulus-bolt-carbine"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Paired combat blades",
+                  "srcId": "3087-465d-c1b5-8ac3",
+                  "weaponRefs": [
+                    "paired-combat-blades"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Bolt pistol",
+                  "srcId": "18b0-8c2-173f-5",
+                  "weaponRefs": [
+                    "bolt-pistol"
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 4,
+              "min": 0,
+              "name": "Kill Team Infiltrator w/ occulus bolt carbine",
+              "srcId": "477e-f891-4b7c-e003"
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Deathwatch marksman bolt carbine",
+                  "srcId": "eaaa-a55e-ee06-4295",
+                  "weaponRefs": [
+                    "deathwatch-marksman-bolt-carbine"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Bolt pistol",
+                  "srcId": "18b0-8c2-173f-5",
+                  "weaponRefs": [
+                    "bolt-pistol"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Close combat weapon",
+                  "srcId": "2078-20a8-181f-a708",
+                  "weaponRefs": [
+                    "close-combat-weapon"
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 1,
+              "min": 0,
+              "name": "Kill Team Infiltrator w/ wargear",
+              "srcId": "f1f0-4d9d-cb87-72cc"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Special-issue bolt pistol",
+                      "srcId": "984b-5c36-a50f-0a21",
+                      "weaponRefs": [
+                        "special-issue-bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Combat knife",
+                      "srcId": "2277-c2cf-4759-1a25",
+                      "weaponRefs": [
+                        "combat-knife"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 4,
+                  "min": 0,
+                  "name": "Kill Team Infiltrator w/ combat knife",
+                  "srcId": "1ed9-356c-5051-e11d"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Special-issue bolt pistol",
+                      "srcId": "2bf6-dfb9-fea9-7a94",
+                      "weaponRefs": [
+                        "special-issue-bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Deathwatch bolt carbine",
+                      "srcId": "1b2b-2c12-fa9e-a9ed",
+                      "weaponRefs": [
+                        "deathwatch-bolt-carbine"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 4,
+                  "min": 0,
+                  "name": "Kill Team Infiltrator w/ bolt carbine",
+                  "srcId": "9a84-da58-e70a-f057"
+                }
+              ],
+              "kind": "group",
+              "max": 4,
+              "min": 0,
+              "name": "Kill Team Infiltrators w/ combat knives",
+              "srcId": "8cc2-90d1-c503-9e5e"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Instigator bolt carbine",
+                      "srcId": "4f5b-2465-8b5f-66b8",
+                      "weaponRefs": [
+                        "instigator-bolt-carbine"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Kill Team Infiltrator w/ instigator bolt carbine",
+                  "srcId": "b55d-e297-921b-9915"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Las fusil",
+                      "srcId": "631b-bd1f-e76a-e166",
+                      "weaponRefs": [
+                        "las-fusil"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 3,
+                  "min": 0,
+                  "name": "Kill Team Infiltrator w/ las fusil",
+                  "srcId": "e0ff-56bb-613d-802f"
+                },
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt sniper rifle",
+                      "srcId": "a0dc-70d3-af1f-f83b",
+                      "weaponRefs": [
+                        "bolt-sniper-rifle"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Bolt pistol",
+                      "srcId": "18b0-8c2-173f-5",
+                      "weaponRefs": [
+                        "bolt-pistol"
+                      ]
+                    },
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": 1,
+                      "min": 1,
+                      "name": "Close combat weapon",
+                      "srcId": "2078-20a8-181f-a708",
+                      "weaponRefs": [
+                        "close-combat-weapon"
+                      ]
+                    }
+                  ],
+                  "kind": "model",
+                  "max": 3,
+                  "min": 0,
+                  "name": "Kill Team Infiltrator w/ bolt sniper rifle",
+                  "srcId": "ca58-2c6d-1b85-bc76"
+                }
+              ],
+              "kind": "group",
+              "max": 3,
+              "min": 0,
+              "name": "Kill Team Infiltrators w/ bolt sniper rifles",
+              "srcId": "284f-9201-42f6-f4f2"
+            }
+          ],
+          "kind": "group",
+          "max": 10,
+          "min": 5,
+          "name": "Squad Members",
+          "srcId": "da91-b248-f816-b72b"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "deathwatch-marksman-bolt-carbine",
+        "name": "Deathwatch marksman bolt carbine",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -1,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Deathwatch marksman bolt carbine",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "close quarters"
+              }
+            ],
+            "name": "Bolt pistol",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "close-combat-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Close combat weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Close combat weapon"
+      },
+      {
+        "id": "deathwatch-occulus-bolt-carbine",
+        "name": "Deathwatch occulus bolt carbine",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -1,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "lethal hits"
+              }
+            ],
+            "name": "Deathwatch occulus bolt carbine",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "paired-combat-blades",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "sustained hits",
+                "val": "1"
+              }
+            ],
+            "name": "Paired combat blades",
+            "skill": 3
+          }
+        ],
+        "name": "Paired combat blades"
+      },
+      {
+        "id": "special-issue-bolt-pistol",
+        "name": "Special-issue bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "precision"
+              }
+            ],
+            "name": "Special-issue bolt pistol",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "combat-knife",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "precision"
+              }
+            ],
+            "name": "Combat knife",
+            "skill": 3
+          }
+        ],
+        "name": "Combat knife"
+      },
+      {
+        "id": "deathwatch-bolt-carbine",
+        "name": "Deathwatch Bolt carbine",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -1,
+            "D": 1,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "lethal hits"
+              },
+              {
+                "kw": "precision"
+              }
+            ],
+            "name": "Deathwatch Bolt carbine",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "instigator-bolt-carbine",
+        "name": "Instigator bolt carbine",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 2,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Instigator bolt carbine",
+            "range": "24\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "las-fusil",
+        "name": "Las fusil",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -3,
+            "D": 3.5,
+            "S": 9,
+            "keywords": [
+              {
+                "kw": "heavy"
+              }
+            ],
+            "name": "Las fusil",
+            "range": "36\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "bolt-sniper-rifle",
+        "name": "Bolt sniper rifle",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 3,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "heavy"
+              },
+              {
+                "kw": "precision"
+              }
+            ],
+            "name": "Bolt sniper rifle",
+            "range": "36\"",
+            "skill": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Talonstrike Doctrines",
+        "text": "Each time this unit is set up on the battlefield, until the end of the turn:\n- Improve the Armour Penetration characteristic of weapons equipped by models in this unit by 1. \n- Melee weapons equipped by models in this unit have the [LANCE] ability."
+      },
+      {
+        "name": "Attached Unit",
+        "text": "If a CHARACTER unit from your army with the Leader ability can be attached to an ASSAULT INTERCESSORS WITH JUMP PACKS unit, it can be attached to this unit instead."
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/talonstrike-kill-team",
+    "keywords": [
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "fly",
+      "grenades",
+      "imperium",
+      "infantry",
+      "jump pack",
+      "kill team",
+      "talonstrike kill team"
+    ],
+    "name": "Talonstrike Kill Team",
+    "points": [
+      {
+        "models": 9,
+        "pts": 265
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "c679-f252-32b1-ebcc"
+    },
+    "size": {
+      "max": 9,
+      "min": 9
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": null,
+      "M": "12\"",
+      "OC": 1,
+      "Sv": "3+",
+      "T": 4,
+      "W": 2
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Heavy Bolt Pistol",
+                  "srcId": "3b8f-1cb7-3c6e-4455",
+                  "weaponRefs": [
+                    "heavy-bolt-pistol"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Hand flamer",
+                  "srcId": "9dc6-6ad8-818e-db2e",
+                  "weaponRefs": [
+                    "hand-flamer"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Plasma pistol",
+                  "srcId": "2902-b665-48b6-bb09",
+                  "weaponRefs": [
+                    "plasma-pistol"
+                  ]
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "group",
+              "max": 1,
+              "min": 1,
+              "name": "Pistol option",
+              "srcId": "8df2-74a3-ec98-8df6"
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Astartes Chainsword",
+                  "srcId": "efcd-180-d07-b4d6",
+                  "weaponRefs": [
+                    "astartes-chainsword"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": null,
+                  "min": 0,
+                  "name": "Power fist",
+                  "srcId": "f8d8-7e77-4b71-faac",
+                  "weaponRefs": [
+                    "power-fist"
+                  ]
+                },
+                {
+                  "kind": "option",
+                  "max": 1,
+                  "min": 0,
+                  "name": "Power weapon",
+                  "srcId": "eca6-624b-8c87-5d69",
+                  "weaponRefs": [
+                    "power-weapon"
+                  ]
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "group",
+              "max": 1,
+              "min": 1,
+              "name": "Melee option",
+              "srcId": "4c4f-3851-2888-5bd7"
+            }
+          ],
+          "kind": "model",
+          "max": 1,
+          "min": 1,
+          "name": "Kill Team Sergeant w/ Jump Pack",
+          "srcId": "68d2-9aaa-f6cb-f4dc"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Astartes Chainsword",
+                  "srcId": "efcd-180-d07-b4d6",
+                  "weaponRefs": [
+                    "astartes-chainsword"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Heavy Bolt Pistol",
+                  "srcId": "3b8f-1cb7-3c6e-4455",
+                  "weaponRefs": [
+                    "heavy-bolt-pistol"
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "op": "dec",
+                  "target": "min",
+                  "value": 1,
+                  "when": []
+                }
+              ],
+              "defaultSelected": true,
+              "kind": "model",
+              "max": 9,
+              "min": 4,
+              "name": "Intercessor w/ heavy bolt pistol and Jump Pack",
+              "srcId": "13c9-7b74-3736-15b4"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "defaultSelected": true,
+                      "kind": "option",
+                      "max": null,
+                      "min": 0,
+                      "name": "Assault bolters",
+                      "srcId": "8d1c-e6d8-5d46-6a3a",
+                      "weaponRefs": [
+                        "assault-bolters"
+                      ]
+                    },
+                    {
+                      "kind": "option",
+                      "max": null,
+                      "min": 0,
+                      "name": "Plasma exterminators",
+                      "srcId": "af8e-9b8b-a106-2f1b",
+                      "weaponRefs": [
+                        "plasma-exterminators"
+                      ]
+                    }
+                  ],
+                  "defaultSelected": true,
+                  "kind": "group",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Weapons",
+                  "srcId": "8f98-cd7a-d86a-f163"
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Close combat weapon",
+                  "srcId": "6c7d-af5b-482-6fbe",
+                  "weaponRefs": [
+                    "close-combat-weapon"
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 5,
+              "min": 0,
+              "name": "Heavy Intercessor w/ Jump Pack",
+              "srcId": "d773-5ee0-d647-efaa"
+            },
+            {
+              "children": [
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Astartes Chainsword",
+                  "srcId": "efcd-180-d07-b4d6",
+                  "weaponRefs": [
+                    "astartes-chainsword"
+                  ]
+                },
+                {
+                  "defaultSelected": true,
+                  "kind": "option",
+                  "max": 1,
+                  "min": 1,
+                  "name": "Plasma pistol",
+                  "srcId": "2902-b665-48b6-bb09",
+                  "weaponRefs": [
+                    "plasma-pistol"
+                  ]
+                }
+              ],
+              "conditions": [
+                {
+                  "op": "inc",
+                  "target": "max",
+                  "value": 1,
+                  "when": [
+                    {
+                      "childId": "model",
+                      "scope": "c679-f252-32b1-ebcc",
+                      "type": "atLeast",
+                      "value": 10
+                    }
+                  ]
+                }
+              ],
+              "kind": "model",
+              "max": 1,
+              "min": 0,
+              "name": "Intercessor w/ plasma pistol and Jump Pack",
+              "srcId": "cd78-e267-5f72-a2a2"
+            }
+          ],
+          "kind": "group",
+          "max": 9,
+          "min": 9,
+          "name": "Unit Composition",
+          "srcId": "3717-7eea-6730-5de5"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "heavy-bolt-pistol",
+        "name": "Heavy Bolt Pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Heavy Bolt Pistol",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "hand-flamer",
+        "name": "Hand flamer",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": 0,
+            "D": 1,
+            "S": 3,
+            "keywords": [
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Hand flamer",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "plasma-pistol",
+        "name": "Plasma pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": -2,
+            "D": 1,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Plasma pistol - Standard",
+            "range": "12\"",
+            "skill": 3
+          },
+          {
+            "A": 1,
+            "AP": -3,
+            "D": 2,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "hazardous"
+              },
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Plasma pistol - Supercharge",
+            "range": "12\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "astartes-chainsword",
+        "melee": [
+          {
+            "A": 4,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Astartes Chainsword",
+            "skill": 3
+          }
+        ],
+        "name": "Astartes Chainsword"
+      },
+      {
+        "id": "power-fist",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [],
+            "name": "Power fist",
+            "skill": 3
+          }
+        ],
+        "name": "Power fist"
+      },
+      {
+        "id": "power-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [],
+            "name": "Power weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Power weapon"
+      },
+      {
+        "id": "assault-bolters",
+        "name": "Assault bolters",
+        "ranged": [
+          {
+            "A": 3,
+            "AP": -1,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "sustained hits",
+                "val": "2"
+              },
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Assault bolters",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "plasma-exterminators",
+        "name": "Plasma exterminators",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 2,
+            "S": 7,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Plasma exterminators - standard",
+            "range": "18\"",
+            "skill": 3
+          },
+          {
+            "A": 2,
+            "AP": -3,
+            "D": 3,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "assault"
+              },
+              {
+                "kw": "hazardous"
+              },
+              {
+                "kw": "pistol"
+              },
+              {
+                "kw": "twin linked"
+              }
+            ],
+            "name": "Plasma exterminators - supercharge",
+            "range": "18\"",
+            "skill": 3
+          }
+        ]
+      },
+      {
+        "id": "close-combat-weapon",
+        "melee": [
+          {
+            "A": 3,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [],
+            "name": "Close combat weapon",
+            "skill": 3
+          }
+        ],
+        "name": "Close combat weapon"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "text": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Tactical Instinct",
+        "text": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability."
+      },
+      {
+        "name": "Unstoppable Champion",
+        "text": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 1 wound remaining."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units: \n- DEATHWATCH VETERANS\n- FORTIS KILL TEAM"
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/watch-captain-artemis",
+    "keywords": [
+      "captain",
+      "character",
+      "epic hero",
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "grenades",
+      "imperium",
+      "infantry",
+      "watch captain artemis"
+    ],
+    "name": "Watch Captain Artemis",
+    "points": [
+      {
+        "models": 1,
+        "pts": 65
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "3d7c-2de-31ea-b028"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "M": "6\"",
+      "OC": 1,
+      "Sv": "3+",
+      "T": 4,
+      "W": 4
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Hellfire Extremis",
+          "srcId": "76ca-f0fb-310-285a",
+          "weaponRefs": [
+            "hellfire-extremis"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Master-crafted power weapon",
+          "srcId": "7c1e-5549-391f-bdbd",
+          "weaponRefs": [
+            "master-crafted-power-weapon"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "hellfire-extremis",
+        "name": "Hellfire Extremis",
+        "ranged": [
+          {
+            "A": 3.5,
+            "AP": -1,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "anti infantry",
+                "on": 4
+              },
+              {
+                "kw": "devastating wounds"
+              },
+              {
+                "kw": "ignores cover"
+              },
+              {
+                "kw": "torrent"
+              }
+            ],
+            "name": "Hellfire Extremis",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "master-crafted-power-weapon",
+        "melee": [
+          {
+            "A": 6,
+            "AP": -2,
+            "D": 2,
+            "S": 5,
+            "keywords": [],
+            "name": "Master-crafted power weapon",
+            "skill": 2
+          }
+        ],
+        "name": "Master-crafted power weapon"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Invulnerable Save",
+        "text": "This model has a 4+ invulnerable save."
+      },
+      {
+        "name": "Strategic Knowledge",
+        "text": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+      },
+      {
+        "name": "Watch Master",
+        "text": "Once per battle round, one unit from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n- DEATHWATCH VETERANS\n- FORTIS KILL TEAM"
+      }
+    ],
+    "faction": "deathwatch",
+    "id": "deathwatch/watch-master",
+    "keywords": [
+      "captain",
+      "character",
+      "faction: adeptus astartes",
+      "faction: deathwatch",
+      "grenades",
+      "imperium",
+      "infantry",
+      "watch master"
+    ],
+    "name": "Watch Master",
+    "points": [
+      {
+        "models": 1,
+        "pts": 95
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Deathwatch",
+      "entryId": "f7c3-45d2-a7ac-d8bc"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "M": "6\"",
+      "OC": 1,
+      "Sv": "2+",
+      "T": 4,
+      "W": 5
+    },
+    "wargear": {
+      "children": [
+        {
+          "children": [
+            {
+              "kind": "group",
+              "max": 1,
+              "min": 1,
+              "name": "Vigil spear",
+              "srcId": "c478-d73-a7ff-6aef",
+              "weaponRefs": [
+                "vigil-spear"
+              ]
+            }
+          ],
+          "kind": "group",
+          "max": null,
+          "min": 0,
+          "name": "Wargear",
+          "srcId": "120e-64f3-6f97-9417"
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "vigil-spear",
+        "melee": [
+          {
+            "A": 6,
+            "AP": -2,
+            "D": 2,
+            "S": 6,
+            "keywords": [
+              {
+                "kw": "lance"
+              }
+            ],
+            "name": "Vigil spear",
+            "skill": 2
+          }
+        ],
+        "name": "Vigil spear",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": -1,
+            "D": 2,
+            "S": 4,
+            "keywords": [],
+            "name": "Vigil spear",
+            "range": "24\"",
+            "skill": 2
+          }
+        ]
+      }
+    ]
+  }
+]

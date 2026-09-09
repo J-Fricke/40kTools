@@ -1,0 +1,317 @@
+[
+  {
+    "abilities": [
+      {
+        "name": "Cold and Calculating",
+        "text": "Each time a model in this model’s unit makes an attack that targets a Monster or Vehicle unit, that\nattack has the [LETHAL HITS] ability. Each time a model in this model’s unit makes an attack that targets any other unit, that attack has the [SUSTAINED HITS 1] ability."
+      },
+      {
+        "name": "Cerebrex Logic Engine",
+        "text": "■ At the start of the Declare Battle Formations step, you can select one Adeptus Astartes Infantry unit from your army. Until the end of the battle, that unit gains the Scouts 6\" ability.\n\n\n■ After both players have deployed their armies, you can select one Adeptus Astartes unit from your army and redeploy it. When doing so, you can set that unit up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units: \n\n\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD"
+      }
+    ],
+    "faction": "ironhands",
+    "id": "ironhands/caanok-var",
+    "keywords": [
+      "caanok var",
+      "captain",
+      "character",
+      "epic hero",
+      "faction: adeptus astartes",
+      "faction: iron hands",
+      "imperium",
+      "infantry",
+      "leader",
+      "terminator"
+    ],
+    "name": "Caanok Var",
+    "points": [
+      {
+        "models": 1,
+        "pts": 90
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Iron Hands",
+      "entryId": "efbb-2823-7b70-5a7a"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "M": "5\"",
+      "OC": 1,
+      "Sv": "2+",
+      "T": 5,
+      "W": 6
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Axiom",
+          "srcId": "b975-3eaa-e67e-b336",
+          "weaponRefs": [
+            "axiom"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Storm bolter",
+          "srcId": "9f00-4659-692a-9dc1",
+          "weaponRefs": [
+            "storm-bolter"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "axiom",
+        "melee": [
+          {
+            "A": 5,
+            "AP": -2,
+            "D": 2,
+            "S": 8,
+            "keywords": [],
+            "name": "Axiom - Strike",
+            "skill": 2
+          },
+          {
+            "A": 10,
+            "AP": -2,
+            "D": 1,
+            "S": 5,
+            "keywords": [],
+            "name": "Axiom - Sweep",
+            "skill": 2
+          }
+        ],
+        "name": "Axiom"
+      },
+      {
+        "id": "storm-bolter",
+        "name": "Storm bolter",
+        "ranged": [
+          {
+            "A": 2,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "rapid fire",
+                "val": "2"
+              }
+            ],
+            "name": "Storm bolter",
+            "range": "24\"",
+            "skill": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Rites of Tempering",
+        "text": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability"
+      },
+      {
+        "name": "Iron Father",
+        "text": "While this model is within 3\" of one or more friendly Adeptus Astartes Vehicle units, it has the Lone Operative ability."
+      },
+      {
+        "name": "Master of the Forge",
+        "text": "In your Command phase, select one friendly Adeptus Astartes Vehicle model within 3\" of this model. That model regains up to 3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. You cannot select a unit for this ability that has already been selected for the Blessing of the Omnissiah ability this phase, and vice versa."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD"
+      },
+      {
+        "name": "Inspiring Commander",
+        "text": "If you include this model in your army, until the end of the battle, non-Character models in Heavy\nIntercessor Squad units from your army have an Objective Control characteristic of 3 while they are\nnot Battle-shocked."
+      }
+    ],
+    "faction": "ironhands",
+    "id": "ironhands/iron-father-feirros",
+    "keywords": [
+      "character",
+      "epic hero",
+      "faction: adeptus astartes",
+      "faction: iron hands",
+      "gravis",
+      "imperium",
+      "infantry",
+      "iron father ferrios",
+      "leader"
+    ],
+    "name": "Iron Father Feirros",
+    "points": [
+      {
+        "models": 1,
+        "pts": 85
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Iron Hands",
+      "entryId": "6c9d-4ec3-69dd-90b2"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": "5+",
+      "InvSv": null,
+      "M": "5\"",
+      "OC": 1,
+      "Sv": "2+",
+      "T": 6,
+      "W": 6
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Gorgon's Wrath",
+          "srcId": "aca-2239-5f93-85ab",
+          "weaponRefs": [
+            "gorgon-s-wrath"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Harrowhand",
+          "srcId": "9953-a38d-1b9e-7ab2",
+          "weaponRefs": [
+            "harrowhand"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Medusan Manipuli",
+          "srcId": "bc62-41a7-d344-e4c8",
+          "weaponRefs": [
+            "medusan-manipuli"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Bolt pistol",
+          "srcId": "b273-b85e-4018-a0cd",
+          "weaponRefs": [
+            "bolt-pistol"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "gorgon-s-wrath",
+        "name": "Gorgon's Wrath",
+        "ranged": [
+          {
+            "A": 3,
+            "AP": -1,
+            "D": 2,
+            "S": 5,
+            "keywords": [
+              {
+                "kw": "sustained hits",
+                "val": "2"
+              }
+            ],
+            "name": "Gorgon's Wrath",
+            "range": "36\"",
+            "skill": 2
+          }
+        ]
+      },
+      {
+        "id": "harrowhand",
+        "melee": [
+          {
+            "A": 6,
+            "AP": -2,
+            "D": 2,
+            "S": 7,
+            "keywords": [],
+            "name": "Harrowhand",
+            "skill": 3
+          }
+        ],
+        "name": "Harrowhand"
+      },
+      {
+        "id": "medusan-manipuli",
+        "melee": [
+          {
+            "A": 2,
+            "AP": -2,
+            "D": 3,
+            "S": 8,
+            "keywords": [
+              {
+                "kw": "extra attacks"
+              }
+            ],
+            "name": "Medusan Manipuli",
+            "skill": 3
+          }
+        ],
+        "name": "Medusan Manipuli"
+      },
+      {
+        "id": "bolt-pistol",
+        "name": "Bolt pistol",
+        "ranged": [
+          {
+            "A": 1,
+            "AP": 0,
+            "D": 1,
+            "S": 4,
+            "keywords": [
+              {
+                "kw": "pistol"
+              }
+            ],
+            "name": "Bolt pistol",
+            "range": "12\"",
+            "skill": 2
+          }
+        ]
+      }
+    ]
+  }
+]
