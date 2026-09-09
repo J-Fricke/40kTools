@@ -1,0 +1,339 @@
+[
+  {
+    "abilities": [
+      {
+        "name": "Icon of Obstinacy",
+        "text": "Each time an attack targets this model's unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+      },
+      {
+        "name": "Rampart",
+        "text": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ TERMINATOR ASSAULT SQUAD\n■ TERMINATOR SQUAD"
+      },
+      {
+        "name": "Inspiring Commander",
+        "text": "If you include this model in your army, until the end of the battle, non-Character models in Terminator Assault Squad and Terminator Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+      }
+    ],
+    "faction": "imperialfists",
+    "id": "imperialfists/darnath-lysander",
+    "keywords": [
+      "CAPTAIN",
+      "CHARACTER",
+      "DARNATH LYSANDER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: IMPERIAL FISTS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TERMINATOR"
+    ],
+    "name": "Darnath Lysander",
+    "points": [
+      {
+        "models": 1,
+        "pts": 100
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Imperial Fists",
+      "entryId": "eecd-6976-6410-1e42"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "5\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "5",
+      "W": "7"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Fist of Dorn",
+          "srcId": "7560-433a-b4aa-94ca",
+          "weaponRefs": [
+            "fist-of-dorn"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "fist-of-dorn",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "10",
+            "WS": "2+",
+            "keywords": [
+              "DEVASTATING WOUNDS"
+            ],
+            "name": "Fist of Dorn"
+          }
+        ],
+        "name": "Fist of Dorn"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Oath of Rynn",
+        "text": "Once per battle, at the start of either player’s Command phase, this model can use this ability. When it does, until the end of the turn, add 1 to the Attacks characteristic of weapons equipped by models in this model’s unit."
+      },
+      {
+        "name": "To the Last",
+        "text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ BLADEGUARD VETERAN SQUAD\n■ COMPANY HEROES\n■ STERNGUARD VETERAN SQUAD\n■ TACTICAL SQUAD"
+      },
+      {
+        "name": "Inspiring Commander",
+        "text": "If you include this model in your army, until the end of the battle, non-Character models in Sternguard\nVeteran Squad units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+      }
+    ],
+    "faction": "imperialfists",
+    "id": "imperialfists/pedro-kantor",
+    "keywords": [
+      "CHAPTER MASTER",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: IMPERIAL FISTS",
+      "GRENADES",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "PEDRO KANTOR"
+    ],
+    "name": "Pedro Kantor",
+    "points": [
+      {
+        "models": 1,
+        "pts": 80
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Imperial Fists",
+      "entryId": "59e3-5a97-f36d-5b94"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "6\"",
+      "OC": "1",
+      "Sv": "2+",
+      "T": "4",
+      "W": "5"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Dorn's Arrow",
+          "srcId": "16e9-568f-de53-22e1",
+          "weaponRefs": [
+            "dorn-s-arrow"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Fist of Retribution",
+          "srcId": "3bd3-d7d9-3f22-6ce9",
+          "weaponRefs": [
+            "fist-of-retribution"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "dorn-s-arrow",
+        "name": "Dorn's Arrow",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "5",
+            "keywords": [
+              "RAPID FIRE 2",
+              "SUSTAINED HITS 1"
+            ],
+            "name": "Dorn's Arrow",
+            "range": "24\""
+          }
+        ]
+      },
+      {
+        "id": "fist-of-retribution",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-3",
+            "D": "3",
+            "S": "8",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Fist of Retribution"
+          }
+        ],
+        "name": "Fist of Retribution"
+      }
+    ]
+  },
+  {
+    "abilities": [
+      {
+        "name": "Signum Array",
+        "text": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [IGNORES COVER] ability."
+      },
+      {
+        "name": "Siege Captain",
+        "text": "Each time this model makes an attack that targets a Monster, Vehicle, or Fortification unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 2."
+      },
+      {
+        "name": "Leader",
+        "text": "This model can be attached to the following units:\n\n■ AGGRESSOR SQUAD\n■ ERADICATOR SQUAD\n■ HEAVY INTERCESSOR SQUAD"
+      }
+    ],
+    "faction": "imperialfists",
+    "id": "imperialfists/tor-garadon",
+    "keywords": [
+      "CAPTAIN",
+      "CHARACTER",
+      "EPIC HERO",
+      "FACTION: ADEPTUS ASTARTES",
+      "FACTION: IMPERIAL FISTS",
+      "GRAVIS",
+      "IMPERIUM",
+      "INFANTRY",
+      "LEADER",
+      "TOR GARADON"
+    ],
+    "name": "Tor Garadon",
+    "points": [
+      {
+        "models": 1,
+        "pts": 80
+      }
+    ],
+    "provenance": {
+      "catalogue": "Imperium - Adeptus Astartes - Imperial Fists",
+      "entryId": "5936-83d6-4e30-915c"
+    },
+    "size": {
+      "max": 1,
+      "min": 1
+    },
+    "stats": {
+      "FNP": null,
+      "InvSv": "4+",
+      "Ld": "6+",
+      "M": "5\"",
+      "OC": "1",
+      "Sv": "3+",
+      "T": "6",
+      "W": "6"
+    },
+    "wargear": {
+      "children": [
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Artificer Grav Gun",
+          "srcId": "660a-455b-8476-3f5d",
+          "weaponRefs": [
+            "artificer-grav-gun"
+          ]
+        },
+        {
+          "kind": "option",
+          "max": 1,
+          "min": 1,
+          "name": "Hand of Defiance",
+          "srcId": "a5c3-5888-85cf-8686",
+          "weaponRefs": [
+            "hand-of-defiance"
+          ]
+        }
+      ],
+      "kind": "group",
+      "max": null,
+      "min": 0,
+      "name": "wargear"
+    },
+    "weapons": [
+      {
+        "id": "artificer-grav-gun",
+        "name": "Artificer Grav Gun",
+        "ranged": [
+          {
+            "A": "2",
+            "AP": "-1",
+            "BS": "2+",
+            "D": "2",
+            "S": "5",
+            "keywords": [
+              "ANTI-VEHICLE 2+"
+            ],
+            "name": "Artificer Grav Gun",
+            "range": "18\""
+          }
+        ]
+      },
+      {
+        "id": "hand-of-defiance",
+        "melee": [
+          {
+            "A": "5",
+            "AP": "-2",
+            "D": "2",
+            "S": "12",
+            "WS": "2+",
+            "keywords": [],
+            "name": "Hand of Defiance"
+          }
+        ],
+        "name": "Hand of Defiance"
+      }
+    ]
+  }
+]

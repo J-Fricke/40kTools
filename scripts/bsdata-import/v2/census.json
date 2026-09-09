@@ -1,0 +1,4620 @@
+{
+  "catalogues": [
+    {
+      "key": "aeldari",
+      "file": "Aeldari - Craftworlds.json",
+      "deps": [
+        "Aeldari - Aeldari Library.json"
+      ],
+      "name": "Xenos - Aeldari",
+      "units": 102
+    },
+    {
+      "key": "drukhari",
+      "file": "Aeldari - Drukhari.json",
+      "deps": [
+        "Aeldari - Aeldari Library.json"
+      ],
+      "name": "Xenos - Drukhari",
+      "units": 48
+    },
+    {
+      "key": "daemons",
+      "file": "Chaos - Chaos Daemons.json",
+      "deps": [
+        "Chaos - Chaos Daemons Library.json"
+      ],
+      "name": "Chaos - Chaos Daemons",
+      "units": 0
+    },
+    {
+      "key": "chaosknights",
+      "file": "Chaos - Chaos Knights Library.json",
+      "deps": [
+        "Chaos - Chaos Knights.json"
+      ],
+      "name": "Chaos - Chaos Knights Library",
+      "units": 20
+    },
+    {
+      "key": "csm",
+      "file": "Chaos - Chaos Space Marines.json",
+      "deps": [],
+      "name": "Chaos - Chaos Space Marines",
+      "units": 84
+    },
+    {
+      "key": "deathguard",
+      "file": "Chaos - Death Guard.json",
+      "deps": [],
+      "name": "Chaos - Death Guard",
+      "units": 50
+    },
+    {
+      "key": "emperorschildren",
+      "file": "Chaos - Emperor's Children.json",
+      "deps": [],
+      "name": "Chaos - Emperor's Children",
+      "units": 26
+    },
+    {
+      "key": "thousandsons",
+      "file": "Chaos - Thousand Sons.json",
+      "deps": [],
+      "name": "Chaos - Thousand Sons",
+      "units": 41
+    },
+    {
+      "key": "worldeaters",
+      "file": "Chaos - World Eaters.json",
+      "deps": [],
+      "name": "Chaos - World Eaters",
+      "units": 35
+    },
+    {
+      "key": "gsc",
+      "file": "Genestealer Cults.json",
+      "deps": [],
+      "name": "Xenos - Genestealer Cults",
+      "units": 28
+    },
+    {
+      "key": "sororitas",
+      "file": "Imperium - Adepta Sororitas.json",
+      "deps": [],
+      "name": "Imperium - Adepta Sororitas",
+      "units": 41
+    },
+    {
+      "key": "custodes",
+      "file": "Imperium - Adeptus Custodes.json",
+      "deps": [],
+      "name": "Imperium - Adeptus Custodes",
+      "units": 34
+    },
+    {
+      "key": "admech",
+      "file": "Imperium - Adeptus Mechanicus.json",
+      "deps": [],
+      "name": "Imperium - Adeptus Mechanicus",
+      "units": 41
+    },
+    {
+      "key": "agents",
+      "file": "Imperium - Agents of the Imperium.json",
+      "deps": [],
+      "name": "Imperium - Agents of the Imperium",
+      "units": 49
+    },
+    {
+      "key": "astramilitarum",
+      "file": "Imperium - Astra Militarum.json",
+      "deps": [
+        "Imperium - Astra Militarum - Library.json"
+      ],
+      "name": "Imperium - Astra Militarum",
+      "units": 138
+    },
+    {
+      "key": "blacktemplars",
+      "file": "Imperium - Black Templars.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Black Templars",
+      "units": 20
+    },
+    {
+      "key": "bloodangels",
+      "file": "Imperium - Blood Angels.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Blood Angels",
+      "units": 27
+    },
+    {
+      "key": "darkangels",
+      "file": "Imperium - Dark Angels.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Dark Angels",
+      "units": 19
+    },
+    {
+      "key": "deathwatch",
+      "file": "Imperium - Deathwatch.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Deathwatch",
+      "units": 11
+    },
+    {
+      "key": "greyknights",
+      "file": "Imperium - Grey Knights.json",
+      "deps": [],
+      "name": "Imperium - Grey Knights",
+      "units": 34
+    },
+    {
+      "key": "imperialfists",
+      "file": "Imperium - Imperial Fists.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Imperial Fists",
+      "units": 3
+    },
+    {
+      "key": "imperialknights",
+      "file": "Imperium - Imperial Knights.json",
+      "deps": [
+        "Imperium - Imperial Knights - Library.json"
+      ],
+      "name": "Imperium - Imperial Knights",
+      "units": 0
+    },
+    {
+      "key": "ironhands",
+      "file": "Imperium - Iron Hands.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Iron Hands",
+      "units": 2
+    },
+    {
+      "key": "ravenguard",
+      "file": "Imperium - Raven Guard.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Raven Guard",
+      "units": 2
+    },
+    {
+      "key": "salamanders",
+      "file": "Imperium - Salamanders.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Salamanders",
+      "units": 2
+    },
+    {
+      "key": "spacemarines",
+      "file": "Imperium - Space Marines.json",
+      "deps": [],
+      "name": "Imperium - Adeptus Astartes - Space Marines",
+      "units": 132
+    },
+    {
+      "key": "spacewolves",
+      "file": "Imperium - Space Wolves.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Space Wolves",
+      "units": 42
+    },
+    {
+      "key": "ultramarines",
+      "file": "Imperium - Ultramarines.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - Ultramarines",
+      "units": 16
+    },
+    {
+      "key": "whitescars",
+      "file": "Imperium - White Scars.json",
+      "deps": [
+        "Imperium - Space Marines.json"
+      ],
+      "name": "Imperium - Adeptus Astartes - White Scars",
+      "units": 2
+    },
+    {
+      "key": "votann",
+      "file": "Leagues of Votann.json",
+      "deps": [],
+      "name": "Xenos - Leagues of Votann",
+      "units": 25
+    },
+    {
+      "key": "necrons",
+      "file": "Necrons.json",
+      "deps": [],
+      "name": "Xenos - Necrons",
+      "units": 67
+    },
+    {
+      "key": "orks",
+      "file": "Orks.json",
+      "deps": [],
+      "name": "Xenos - Orks",
+      "units": 73
+    },
+    {
+      "key": "tau",
+      "file": "T'au Empire.json",
+      "deps": [],
+      "name": "Xenos - T'au Empire",
+      "units": 66
+    },
+    {
+      "key": "tyranids",
+      "file": "Tyranids.json",
+      "deps": [
+        "Library - Tyranids.json"
+      ],
+      "name": "Xenos - Tyranids",
+      "units": 64
+    }
+  ],
+  "keywords": [
+    [
+      "Torrent",
+      623
+    ],
+    [
+      "Assault",
+      638
+    ],
+    [
+      "Twin-linked",
+      541
+    ],
+    [
+      "Sustained Hits 1",
+      482
+    ],
+    [
+      "Lethal Hits",
+      375
+    ],
+    [
+      "Pistol",
+      1492
+    ],
+    [
+      "Devastating Wounds",
+      783
+    ],
+    [
+      "Anti-Infantry 3+",
+      125
+    ],
+    [
+      "Heavy",
+      447
+    ],
+    [
+      "Ignores Cover",
+      655
+    ],
+    [
+      "Melta 3",
+      25
+    ],
+    [
+      "Twin Linked",
+      18
+    ],
+    [
+      "Lance",
+      106
+    ],
+    [
+      "Sustained Hits D3",
+      21
+    ],
+    [
+      "Rapid Fire 1",
+      466
+    ],
+    [
+      "Anti-Infantry 2+",
+      75
+    ],
+    [
+      "Twin-Linked",
+      103
+    ],
+    [
+      "Psychic",
+      459
+    ],
+    [
+      "Melta 2",
+      278
+    ],
+    [
+      "Precision",
+      290
+    ],
+    [
+      "Blast",
+      695
+    ],
+    [
+      "Indirect Fire",
+      82
+    ],
+    [
+      "Anti-character 4+",
+      1
+    ],
+    [
+      "Melta 6",
+      5
+    ],
+    [
+      "Ignores cover",
+      9
+    ],
+    [
+      "Linked Fire",
+      1
+    ],
+    [
+      "Melta 1",
+      2
+    ],
+    [
+      "Sustained hits 2",
+      1
+    ],
+    [
+      "Devastating wounds",
+      10
+    ],
+    [
+      "Anti-infantry 2+",
+      26
+    ],
+    [
+      "Anti-Monster 3+",
+      23
+    ],
+    [
+      "Anti-Vehicle 3+",
+      70
+    ],
+    [
+      "Anti-Vehicle 4+",
+      68
+    ],
+    [
+      "Sustained Hits 2",
+      80
+    ],
+    [
+      "Anti-Epic Hero 2+",
+      1
+    ],
+    [
+      "Anti-vehicle 4+",
+      4
+    ],
+    [
+      "Anti-Monster 4+",
+      24
+    ],
+    [
+      "Anti-Fly 2+",
+      20
+    ],
+    [
+      "Sustained hits 1",
+      6
+    ],
+    [
+      "Extra Attacks",
+      166
+    ],
+    [
+      "Hazardous",
+      442
+    ],
+    [
+      "Rapid Fire 2",
+      358
+    ],
+    [
+      "Devastating Wounds: non-Monster/Vehicle",
+      1
+    ],
+    [
+      "Anti-Monster/Vehicle 3+",
+      1
+    ],
+    [
+      "ANTI-non‑MONSTER/VEHICLE 2+",
+      1
+    ],
+    [
+      "PSYCHIC",
+      40
+    ],
+    [
+      "Anti-non-Monster/Vehicle 3+",
+      1
+    ],
+    [
+      "Blast 1",
+      1
+    ],
+    [
+      "Anti-infantry 3+",
+      7
+    ],
+    [
+      "One Shot",
+      122
+    ],
+    [
+      "Anti-Infantry 4+",
+      125
+    ],
+    [
+      "Sustained Hits 3",
+      9
+    ],
+    [
+      "Anti-INFANTRY 2+",
+      16
+    ],
+    [
+      "Conversion",
+      10
+    ],
+    [
+      "Anti-FLY 2+",
+      6
+    ],
+    [
+      "Anti-VEHICLE 2+",
+      7
+    ],
+    [
+      "Rapid Fire 3",
+      131
+    ],
+    [
+      "Devastating Wounds: Monster/Vehicle",
+      1
+    ],
+    [
+      "Anti-FLY 2",
+      1
+    ],
+    [
+      "Rapid Fire D6+3",
+      2
+    ],
+    [
+      "Anti-TITANIC 4+",
+      2
+    ],
+    [
+      "Melta 4",
+      21
+    ],
+    [
+      "Anti-Monster 2+",
+      2
+    ],
+    [
+      "Anti-Vehicle 2+",
+      15
+    ],
+    [
+      "Anti-PSYKER 2+",
+      13
+    ],
+    [
+      "Anti-INFANTRY 4+",
+      57
+    ],
+    [
+      "Anti-VEHICLE 3+",
+      29
+    ],
+    [
+      "Anti-VEHICLE 4+",
+      11
+    ],
+    [
+      "Anti-CHARACTER 2+",
+      1
+    ],
+    [
+      "Anti-Psyker 2+",
+      19
+    ],
+    [
+      "-",
+      8
+    ],
+    [
+      "Reverberating Summons",
+      1
+    ],
+    [
+      "Anti-MONSTER 4+",
+      6
+    ],
+    [
+      "Rapid Fire 4",
+      23
+    ],
+    [
+      "Anti-MONSTER 3+",
+      9
+    ],
+    [
+      "Rapid Fire 6",
+      17
+    ],
+    [
+      "Rapid Fire D3",
+      11
+    ],
+    [
+      "Anti-Chaos 2+",
+      2
+    ],
+    [
+      "Anti-PSYKER 4+",
+      11
+    ],
+    [
+      "Anti-Psyker 5+",
+      7
+    ],
+    [
+      "Rapid fire 2",
+      1
+    ],
+    [
+      "Rapid Fire 9",
+      3
+    ],
+    [
+      "Anti-Fly 4+",
+      4
+    ],
+    [
+      "Anti-Walker 2+",
+      4
+    ],
+    [
+      "Psychic Assassin",
+      1
+    ],
+    [
+      "Anti-INFANTRY 3+",
+      2
+    ],
+    [
+      "Anti-DAEMON 4+",
+      1
+    ],
+    [
+      "Anti-INFANTRY 5+",
+      1
+    ],
+    [
+      "Anti-CHARACTER 4+",
+      2
+    ],
+    [
+      "Plasma Warhead",
+      1
+    ],
+    [
+      "Anti-fly 2",
+      2
+    ],
+    [
+      "Anti-fly 2+",
+      13
+    ],
+    [
+      "Anti-infantry 4+",
+      13
+    ],
+    [
+      "Anti-Character 5+",
+      4
+    ],
+    [
+      "Cleave 2",
+      55
+    ],
+    [
+      "Anti-FLY 4+",
+      9
+    ],
+    [
+      "Close-Quarters",
+      150
+    ],
+    [
+      "Anti-vehicle 2+",
+      41
+    ],
+    [
+      "Rapid Fire D6",
+      1
+    ],
+    [
+      "Anti-Character 4+",
+      1
+    ],
+    [
+      "Anti-Character 2+",
+      4
+    ],
+    [
+      "Anti-Daemon 2+",
+      2
+    ],
+    [
+      "Anti Vehicle 3+",
+      1
+    ],
+    [
+      "Defensive Array",
+      2
+    ],
+    [
+      "Anti-Fly 3+",
+      6
+    ],
+    [
+      "Anti-vehicle 3+",
+      1
+    ],
+    [
+      "Anti-monster 4+",
+      1
+    ],
+    [
+      "Overcharge",
+      1
+    ],
+    [
+      "Rapid Fire 5",
+      2
+    ],
+    [
+      "EXTRA ATTACKS",
+      29
+    ],
+    [
+      "ASSAULT",
+      17
+    ],
+    [
+      "LETHAL HITS: non-MONSTER/VEHICLE",
+      107
+    ],
+    [
+      "SUSTAINED HITS 1",
+      11
+    ],
+    [
+      "CLEAVE 2",
+      15
+    ],
+    [
+      "LANCE",
+      3
+    ],
+    [
+      "PRECISION",
+      28
+    ],
+    [
+      "CLEAVE 1",
+      17
+    ],
+    [
+      "BLAST 1",
+      30
+    ],
+    [
+      "RAPID FIRE 2",
+      35
+    ],
+    [
+      "CLOSE-QUARTERS",
+      40
+    ],
+    [
+      "TORRENT",
+      29
+    ],
+    [
+      "HAZARDOUS",
+      67
+    ],
+    [
+      "RAPID FIRE 1",
+      13
+    ],
+    [
+      "RAPID FIRE 6",
+      19
+    ],
+    [
+      "BLAST 3",
+      22
+    ],
+    [
+      "LETHAL HITS",
+      23
+    ],
+    [
+      "HEAVY",
+      7
+    ],
+    [
+      "RAPID FIRE 4",
+      11
+    ],
+    [
+      "ANTI-INFANTRY 2+",
+      1
+    ],
+    [
+      "BLAST 2",
+      28
+    ],
+    [
+      "IGNORES COVER",
+      12
+    ],
+    [
+      "MELTA 2",
+      2
+    ],
+    [
+      "DEVASTATING WOUNDS",
+      5
+    ],
+    [
+      "CLEAVE 3",
+      1
+    ],
+    [
+      "INDIRECT FIRE",
+      4
+    ],
+    [
+      "ANTI-MONSTER/VEHICLE 4+",
+      14
+    ],
+    [
+      "ANTI-MONSTER/VEHICLE 2+",
+      2
+    ],
+    [
+      "ANTI-INFANTRY 4+",
+      7
+    ],
+    [
+      "DEVASTATING WOUNDS: INFANTRY",
+      7
+    ],
+    [
+      "TWIN-LINKED",
+      7
+    ],
+    [
+      "ANTI-FLY 2+",
+      2
+    ],
+    [
+      "ANTI-MONSTER/VEHICLE 3+",
+      2
+    ],
+    [
+      "CLEAVE 2+",
+      1
+    ],
+    [
+      "CLEAVE 4",
+      1
+    ],
+    [
+      "DEVASTATING WOUNDS: MONSTER/VEHICLE",
+      3
+    ],
+    [
+      "RAPID FIRE 10",
+      1
+    ],
+    [
+      "LETHAL HITS: non-",
+      1
+    ],
+    [
+      "SUSTAINED HITS 2",
+      2
+    ],
+    [
+      "ANTI-VEHICLE 3+",
+      1
+    ],
+    [
+      "SUSTAINED HITS 2: MONSTER/VEHICLE",
+      1
+    ],
+    [
+      "ANTI-INFANTRY 3+",
+      1
+    ],
+    [
+      "Hooked",
+      1
+    ],
+    [
+      "Hive Defences",
+      1
+    ],
+    [
+      "Anti-Psyker 4+",
+      1
+    ],
+    [
+      "Harpooned",
+      1
+    ],
+    [
+      "Anti-Monster 5+",
+      3
+    ],
+    [
+      "Anti-Vehicle 5+",
+      3
+    ]
+  ],
+  "constraintTypes": [
+    [
+      "min|selections|parent",
+      5162
+    ],
+    [
+      "max|selections|parent",
+      18321
+    ],
+    [
+      "max|selections|roster",
+      16414
+    ],
+    [
+      "max|selections|self",
+      367
+    ],
+    [
+      "max|selections|5452-c4a7-59fb-f05c",
+      7
+    ],
+    [
+      "max|selections|force",
+      4849
+    ],
+    [
+      "max|selections|19dd-6790-5ec9-7d3c",
+      6
+    ],
+    [
+      "min|selections|force",
+      6
+    ],
+    [
+      "max|selections|3832-4208-11e9-ca22",
+      12
+    ],
+    [
+      "min|selections|unit",
+      115
+    ],
+    [
+      "max|selections|unit",
+      142
+    ],
+    [
+      "max|selections|615-e6bf-cfd2-9384",
+      16
+    ],
+    [
+      "max|selections|4e85-615b-5d49-dfa4",
+      22
+    ],
+    [
+      "max|selections|203d-c50f-a438-4982",
+      16
+    ],
+    [
+      "max|selections|29f9-fc47-787e-d9d3",
+      2
+    ],
+    [
+      "max|selections|478-9d24-e5c8-c6f7",
+      3
+    ],
+    [
+      "max|selections|d579-88cd-c634-f800",
+      3
+    ],
+    [
+      "max|selections|2a2b-643e-860e-b524",
+      6
+    ],
+    [
+      "max|selections|5b4e-dcf1-5c6f-4d35",
+      2
+    ],
+    [
+      "max|selections|bc88-0833-743e-0146",
+      2
+    ],
+    [
+      "max|selections|5926-4deb-a85d-c73a",
+      12
+    ],
+    [
+      "max|selections|b541-3292-a5cc-dbeb",
+      2
+    ],
+    [
+      "max|selections|f158-2979-c38b-65b5",
+      2
+    ],
+    [
+      "max|selections|f909-00c7-8ba4-018a",
+      4
+    ],
+    [
+      "max|selections|45f6-8429-a1d9-2a51",
+      3
+    ],
+    [
+      "max|selections|ea51-5575-9e74-9346",
+      2
+    ],
+    [
+      "max|selections|8a84-a8fd-977e-9118",
+      1
+    ],
+    [
+      "max|selections|b5d2-8681-6bba-f05b",
+      4
+    ],
+    [
+      "max|selections|a197-f6c3-5d4a-5326",
+      1
+    ],
+    [
+      "max|selections|04cc-6196-1755-ad58",
+      1
+    ],
+    [
+      "max|selections|3c3f-f02d-c05c-492a",
+      1
+    ],
+    [
+      "max|selections|model",
+      4
+    ],
+    [
+      "max|selections|f527-0a42-15b4-1924",
+      3
+    ],
+    [
+      "max|selections|2299-bed9-3e-2b60",
+      1
+    ],
+    [
+      "max|selections|abe4-ca71-d5a7-3883",
+      5
+    ],
+    [
+      "max|selections|206c-6b4d-4aaa-7e79",
+      1
+    ],
+    [
+      "max|selections|2ed1-aba1-feec-a885",
+      2
+    ],
+    [
+      "max|selections|2544-5189-7806-30f3",
+      2
+    ],
+    [
+      "max|selections|66ab-476a-134e-ec7b",
+      4
+    ],
+    [
+      "max|75bb-ded1-c86d-bdf0|self",
+      2
+    ],
+    [
+      "max|716d-91b7-d55a-1022|self",
+      2
+    ],
+    [
+      "min|716d-91b7-d55a-1022|self",
+      2
+    ],
+    [
+      "min|selections|model",
+      204
+    ],
+    [
+      "min|selections|roster",
+      108
+    ]
+  ],
+  "modifierShapes": [
+    [
+      "set:hidden when none",
+      15625
+    ],
+    [
+      "set:hidden when notInstanceOf/ancestor",
+      7162
+    ],
+    [
+      "set:hidden when notInstanceOf/root-entry",
+      983
+    ],
+    [
+      "add:category when none",
+      698
+    ],
+    [
+      "set:hidden when notInstanceOf/parent",
+      688
+    ],
+    [
+      "add:add-info when none",
+      647
+    ],
+    [
+      "set:hidden when instanceOf/ancestor",
+      607
+    ],
+    [
+      "append:7f1b-8591-2f when none",
+      406
+    ],
+    [
+      "set:name when atLeast/parent",
+      246
+    ],
+    [
+      "add:error when none",
+      214
+    ],
+    [
+      "append:893f-9000-cc when none",
+      199
+    ],
+    [
+      "set:55a7-5b54-c6 when none",
+      193
+    ],
+    [
+      "set:hidden when notInstanceOf/primary-catalogue",
+      147
+    ],
+    [
+      "increment:750a-a2ec-90 when none",
+      130
+    ],
+    [
+      "divide:f759-1bc4-cb when equalTo/roster",
+      126
+    ],
+    [
+      "divide:f759-1bc4-cb when greaterThan/roster",
+      126
+    ],
+    [
+      "set:f4e5-2756-e1 when atLeast/unit",
+      101
+    ],
+    [
+      "increment:9896-9419-16 when none",
+      100
+    ],
+    [
+      "set:1d9d-6099-c8 when atLeast/model",
+      94
+    ],
+    [
+      "set:b67c-e301-d7 when atLeast/model",
+      94
+    ],
+    [
+      "decrement:41a0-1301-11 when none",
+      88
+    ],
+    [
+      "set:hidden when lessThan/roster",
+      84
+    ],
+    [
+      "increment:ab33-d393-96 when none",
+      77
+    ],
+    [
+      "increment:bef7-942a-1a when none",
+      75
+    ],
+    [
+      "set:hidden when lessThan/root-entry",
+      74
+    ],
+    [
+      "set:hidden when instanceOf/force",
+      69
+    ],
+    [
+      "set:hidden when instanceOf/root-entry",
+      63
+    ],
+    [
+      "set:d4ae-1dc8-3d when none",
+      61
+    ],
+    [
+      "set:hidden when lessThan/force",
+      61
+    ],
+    [
+      "increment:e703-ecb6-5c when none",
+      59
+    ],
+    [
+      "set:e703-ecb6-5c when none",
+      55
+    ],
+    [
+      "set:450-a17e-9d5 when none",
+      50
+    ],
+    [
+      "set:7dae-c48e-fe when atLeast/root-entry",
+      49
+    ],
+    [
+      "increment:2337-daa1-66 when none",
+      47
+    ],
+    [
+      "set:3bb-c35f-f54 when atLeast/root-entry",
+      37
+    ],
+    [
+      "set:b03b-c239-15 when instanceOf/ancestor",
+      36
+    ],
+    [
+      "set:9050-04a4-e5 when atLeast/roster",
+      36
+    ],
+    [
+      "set:d2e0-1a7f-b5 when atLeast/roster",
+      36
+    ],
+    [
+      "set:b154-2a39-23 when atLeast/roster",
+      36
+    ],
+    [
+      "set:9558-f0bb-b8 when atLeast/roster",
+      36
+    ],
+    [
+      "set:750a-a2ec-90 when none",
+      31
+    ],
+    [
+      "set:d29d-cf75-fc when none",
+      30
+    ],
+    [
+      "add:warning when none",
+      30
+    ],
+    [
+      "increment:d29d-cf75-fc when none",
+      24
+    ],
+    [
+      "append:annotation when none",
+      19
+    ],
+    [
+      "decrement:95d1-95f-45b when none",
+      19
+    ],
+    [
+      "floor:95d1-95f-45b when none",
+      19
+    ],
+    [
+      "set-primary:category when none",
+      19
+    ],
+    [
+      "add:add-info when notInstanceOf/root-entry",
+      18
+    ],
+    [
+      "set:hidden when lessThan/parent",
+      17
+    ],
+    [
+      "remove:category when none",
+      17
+    ],
+    [
+      "set:hidden when lessThan/model-or-unit",
+      16
+    ],
+    [
+      "set:8dc9-f8f1-45 when atLeast/model",
+      16
+    ],
+    [
+      "set:3eb9-4b59-3d when none",
+      15
+    ],
+    [
+      "set:7da8-e836-56 when atLeast/unit",
+      14
+    ],
+    [
+      "set:hidden when lessThan/unit",
+      14
+    ],
+    [
+      "set:94d-8a98-cf9 when instanceOf/ancestor",
+      13
+    ],
+    [
+      "increment:2229-f494-25 when none",
+      10
+    ],
+    [
+      "set:0e66-3ab4-67 when atLeast/roster",
+      10
+    ],
+    [
+      "increment:b113-604c-4b when instanceOf/ancestor",
+      8
+    ],
+    [
+      "set:d995-46ca-b8 when atLeast/4e85-615b-5d49-dfa4",
+      7
+    ],
+    [
+      "set:hidden when atLeast/parent",
+      7
+    ],
+    [
+      "set:dc97-25d5-52 when lessThan/203d-c50f-a438-4982",
+      6
+    ],
+    [
+      "set:8f9c-6570-5d when atLeast/4e85-615b-5d49-dfa4",
+      6
+    ],
+    [
+      "set:3e7c-bbc0-3d when atLeast/203d-c50f-a438-4982",
+      6
+    ],
+    [
+      "set:e85a-7948-8b when atLeast/4e85-615b-5d49-dfa4",
+      6
+    ],
+    [
+      "decrement:9ead-8a10-52 when none",
+      6
+    ],
+    [
+      "set:c581-329f-b3 when atLeast/roster",
+      6
+    ],
+    [
+      "increment:5083-9f38-95 when none",
+      6
+    ],
+    [
+      "set:802c-df3d-48 when instanceOf/root-entry",
+      6
+    ],
+    [
+      "set:name when instanceOf/force",
+      6
+    ],
+    [
+      "set:58d2-b879-49 when none",
+      5
+    ],
+    [
+      "add:error when greaterThan/parent",
+      5
+    ],
+    [
+      "set:1583-85b8-32 when none",
+      5
+    ],
+    [
+      "set:name when atLeast/6184-261f-65bd-1cd1",
+      4
+    ],
+    [
+      "set:name when atLeast/e36e-6206-3f00-804e",
+      4
+    ],
+    [
+      "set:name when atLeast/d94a-a685-548c-7e9c",
+      4
+    ],
+    [
+      "set:hidden when atLeast/roster",
+      4
+    ],
+    [
+      "set:5d94-8662-81 when instanceOf/ancestor",
+      4
+    ],
+    [
+      "set:3dfd-0415-ca when instanceOf/ancestor",
+      4
+    ],
+    [
+      "add:info when none",
+      4
+    ],
+    [
+      "set:0c7c-7877-d1 when none",
+      4
+    ],
+    [
+      "set:55e4-7647-d0 when lessThan/203d-c50f-a438-4982",
+      4
+    ],
+    [
+      "increment:11f5-6266-9c when atLeast/0744-61ce-619d-ffe1",
+      4
+    ],
+    [
+      "append:name when none",
+      4
+    ],
+    [
+      "set:name when atLeast/77a2-7703-4d4f-f30d",
+      4
+    ],
+    [
+      "increment:d9c8-5c2f-50 when atLeast/66ab-476a-134e-ec7b",
+      4
+    ],
+    [
+      "set:name when atLeast/550a-f5c4-d6a9-a09e",
+      4
+    ],
+    [
+      "set:1a64-a924-d8 when atLeast/parent",
+      3
+    ],
+    [
+      "decrement:f6b5-0e00-0a when none",
+      3
+    ],
+    [
+      "decrement:2af5-9f72-21 when none",
+      3
+    ],
+    [
+      "set:c915-12c6-ef when atLeast/4e85-615b-5d49-dfa4",
+      3
+    ],
+    [
+      "increment:29f0-5209-18 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:559e-1642-ac when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:9a49-60d4-a4 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:9d70-0e69-4f when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:154f-2904-62 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:5fc5-a096-e9 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:113e-2da3-d1 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:c872-10d6-af when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:bbf4-55ed-da when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:e64c-b565-0a when instanceOf/ancestor",
+      3
+    ],
+    [
+      "append:7f1b-8591-2f when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:59d7-8930-f7 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:c57c-9bf1-8e when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:688b-e17b-4b when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:8468-7f49-2b when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:8009-c3e0-c6 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:92ee-b8d0-59 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:1f65-c868-b2 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:c9aa-9922-10 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:d5b2-a263-d4 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:28a9-8dbf-7d when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:9dec-8108-c3 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:e90d-a893-27 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:18e4-7172-93 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:a425-68ca-d6 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:ad86-9c10-91 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:9c77-0b95-7d when instanceOf/ancestor",
+      3
+    ],
+    [
+      "set:4102-fc97-9b when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:2fcd-51de-ce when instanceOf/ancestor",
+      3
+    ],
+    [
+      "increment:9b0a-ee88-c2 when instanceOf/ancestor",
+      3
+    ],
+    [
+      "set:b0c6-392a-1d when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:5ba8-be94-85 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "replace:name when none",
+      3
+    ],
+    [
+      "set:c9c0-3427-52 when atLeast/roster",
+      3
+    ],
+    [
+      "increment:bd14-52e0-1f when none",
+      3
+    ],
+    [
+      "add:add-info when atLeast/root-entry",
+      3
+    ],
+    [
+      "increment:d67b-8a06-6b when atLeast/parent",
+      3
+    ],
+    [
+      "set:d67b-8a06-6b when atLeast/parent",
+      3
+    ],
+    [
+      "set:8655-e64b-9e when atLeast/parent",
+      3
+    ],
+    [
+      "set:a080-e9e7-f3 when atLeast/parent",
+      3
+    ],
+    [
+      "set:3f84-e5f3-c3 when atLeast/parent",
+      3
+    ],
+    [
+      "set:b39d-feb9-93 when atLeast/parent",
+      3
+    ],
+    [
+      "set:61c6-2162-da when atLeast/parent",
+      3
+    ],
+    [
+      "set:d613-bdd2-0d when instanceOf/primary-catalogue",
+      3
+    ],
+    [
+      "set:hidden when instanceOf/primary-catalogue",
+      3
+    ],
+    [
+      "set:49af-0823-d6 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:d1f5-e3a4-2f when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:7e0a-0d83-77 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:be8c-bc03-25 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:3ca6-edc5-84 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:2bf4-b227-30 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:cd2e-996a-bf when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:749f-e64f-69 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:140c-c434-97 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:1569-aadf-6e when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:45f8-68cf-ba when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:533c-2914-d6 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:4fc4-aeac-95 when instanceOf/root-entry",
+      3
+    ],
+    [
+      "set:acb6-e5d8-bb when atLeast/unit",
+      2
+    ],
+    [
+      "increment:d1be-d9a0-a3 when atLeast/unit",
+      2
+    ],
+    [
+      "set:bef9-e65b-4c when atLeast/unit",
+      2
+    ],
+    [
+      "set:61be-ccd4-c3 when atLeast/unit",
+      2
+    ],
+    [
+      "set:d27f-5b82-59 when atLeast/unit",
+      2
+    ],
+    [
+      "set:b36e-de16-ef when atLeast/unit",
+      2
+    ],
+    [
+      "set:43ac-f331-d3 when atLeast/unit",
+      2
+    ],
+    [
+      "set:0214-d2fb-d0 when lessThan/parent",
+      2
+    ],
+    [
+      "decrement:9a73-d7f9-81 when none",
+      2
+    ],
+    [
+      "decrement:7640-8ef0-94 when atLeast/4494-dd7d-69f7-306c",
+      2
+    ],
+    [
+      "decrement:1a92-3448-cb when none",
+      2
+    ],
+    [
+      "decrement:c842-b582-d4 when none",
+      2
+    ],
+    [
+      "increment:00fc-7500-94 when atLeast/unit",
+      2
+    ],
+    [
+      "increment:abc2-b5ad-70 when atLeast/unit",
+      2
+    ],
+    [
+      "increment:2976-c2e1-54 when atLeast/unit",
+      2
+    ],
+    [
+      "increment:c3b8-761c-14 when atLeast/unit",
+      2
+    ],
+    [
+      "decrement:50bd-938b-63 when none",
+      2
+    ],
+    [
+      "set:name when atLeast/3435-d900-05e9-19e6",
+      2
+    ],
+    [
+      "set:name when atLeast/df47-6883-78e7-d725",
+      2
+    ],
+    [
+      "set:name when atLeast/050d-797a-bb9a-2e8b",
+      2
+    ],
+    [
+      "set:137f-e676-6a when atLeast/parent",
+      2
+    ],
+    [
+      "set:b698-2196-07 when atLeast/parent",
+      2
+    ],
+    [
+      "increment:5a0e-cc48-dc when atLeast/206c-6b4d-4aaa-7e79",
+      2
+    ],
+    [
+      "increment:c21-80f5-4fe when atLeast/206c-6b4d-4aaa-7e79",
+      2
+    ],
+    [
+      "set:name when atLeast/9ae9-4f7e-a148-cbfa",
+      2
+    ],
+    [
+      "set:name when atLeast/2537-956c-98c0-bffb",
+      2
+    ],
+    [
+      "set:name when atLeast/8778-e3cb-2c6f-b23d",
+      2
+    ],
+    [
+      "set:702-d447-314 when atLeast/unit",
+      2
+    ],
+    [
+      "set:702-d447-314 when lessThan/unit",
+      2
+    ],
+    [
+      "add:error when lessThan/unit+atLeast/unit",
+      2
+    ],
+    [
+      "set:hidden when lessThan/a3ea-7a0d-fef8-23bf",
+      2
+    ],
+    [
+      "set:hidden when atLeast/9e9c-bf4d-2d40-be82",
+      2
+    ],
+    [
+      "set:hidden when equalTo/root-entry",
+      2
+    ],
+    [
+      "set:a954-ba6c-3c when atLeast/parent",
+      2
+    ],
+    [
+      "set:8da2-91d1-f2 when greaterThan/parent",
+      2
+    ],
+    [
+      "set:a464-bf49-8e when atLeast/root-entry",
+      2
+    ],
+    [
+      "set:hidden when atLeast/5b0b-c18d-1470-44bb",
+      2
+    ],
+    [
+      "decrement:6fe5-ac55-cb when atLeast/97d7-4b22-46b7-dae0",
+      2
+    ],
+    [
+      "decrement:ba0d-60c0-7e when atLeast/97d7-4b22-46b7-dae0",
+      2
+    ],
+    [
+      "decrement:a591-99fb-92 when equalTo/6cc1-586e-5d7c-9a34",
+      2
+    ],
+    [
+      "set:name when none",
+      2
+    ],
+    [
+      "set:d961-82e3-c3 when none",
+      1
+    ],
+    [
+      "decrement:4956-2870-f5 when none",
+      1
+    ],
+    [
+      "decrement:71d0-76c0-a4 when none",
+      1
+    ],
+    [
+      "increment:71d0-76c0-a4 when equalTo/915d-ad53-9518-7a85",
+      1
+    ],
+    [
+      "increment:96f6-70b4-89 when equalTo/915d-ad53-9518-7a85",
+      1
+    ],
+    [
+      "decrement:96f6-70b4-89 when none",
+      1
+    ],
+    [
+      "set:4f99-80e8-0c when lessThan/unit",
+      1
+    ],
+    [
+      "decrement:b88f-f1fe-c6 when none",
+      1
+    ],
+    [
+      "decrement:7f9e-a625-e0 when none",
+      1
+    ]
+  ],
+  "wargearShapes": [
+    [
+      "upgrade[leaf]{max1}",
+      20121
+    ],
+    [
+      "group[upgrade]{max1}",
+      5030
+    ],
+    [
+      "upgrade[leaf]*W",
+      3741
+    ],
+    [
+      "group[linkGroup]",
+      1694
+    ],
+    [
+      "upgrade[leaf]{max1,min1}*W",
+      1473
+    ],
+    [
+      "upgrade[leaf]",
+      1000
+    ],
+    [
+      "upgrade[linkGroup]{max1,min1}*W",
+      978
+    ],
+    [
+      "upgrade[leaf]{max1,max3}",
+      882
+    ],
+    [
+      "upgrade[linkGroup]*W",
+      708
+    ],
+    [
+      "upgrade[linkGroup]{max1}*W",
+      706
+    ],
+    [
+      "upgrade[leaf]{max1}*W",
+      515
+    ],
+    [
+      "group[upgrade]",
+      475
+    ],
+    [
+      "group[upgrade]{max1,min1}",
+      474
+    ],
+    [
+      "upgrade[group]*W",
+      345
+    ],
+    [
+      "upgrade[linkEntry]",
+      309
+    ],
+    [
+      "upgrade[group]{max1}*W",
+      266
+    ],
+    [
+      "group[linkEntry]{max1,min1}",
+      246
+    ],
+    [
+      "group[linkEntry+upgrade]{max1,min1}",
+      218
+    ],
+    [
+      "group[linkEntry+upgrade]",
+      199
+    ],
+    [
+      "upgrade[linkGroup]{max2}*W",
+      184
+    ],
+    [
+      "upgrade[leaf]{max1,min0}",
+      181
+    ],
+    [
+      "group[model]",
+      167
+    ],
+    [
+      "upgrade[group]{max1,min1}*W",
+      142
+    ],
+    [
+      "group[group+linkGroup]{max1}",
+      126
+    ],
+    [
+      "group[group+upgrade]",
+      120
+    ],
+    [
+      "group[group+linkEntry]",
+      117
+    ],
+    [
+      "model[linkEntry+upgrade]{max1}",
+      111
+    ],
+    [
+      "upgrade[upgrade]",
+      108
+    ],
+    [
+      "group[group]",
+      105
+    ],
+    [
+      "group[group]{max1}",
+      105
+    ],
+    [
+      "group[group+linkEntry+upgrade]",
+      105
+    ],
+    [
+      "upgrade[linkGroup]{max2,min2}*W",
+      101
+    ],
+    [
+      "model[group+linkEntry]{max1,min1}",
+      86
+    ],
+    [
+      "upgrade[leaf]{max1,min1}",
+      83
+    ],
+    [
+      "model[linkEntry]{max2}",
+      80
+    ],
+    [
+      "group[linkEntry]{max1}",
+      80
+    ],
+    [
+      "model[linkEntry+upgrade]{max2}",
+      76
+    ],
+    [
+      "upgrade[group]{max2}*W",
+      72
+    ],
+    [
+      "model[linkEntry+upgrade]{max1,min1}",
+      64
+    ],
+    [
+      "group[upgrade]{max1,min0}",
+      64
+    ],
+    [
+      "model[upgrade]{max1,min1}",
+      63
+    ],
+    [
+      "model[linkEntry]{max1,min1}",
+      62
+    ],
+    [
+      "upgrade[leaf]{min0}",
+      61
+    ],
+    [
+      "group[linkEntry]",
+      61
+    ],
+    [
+      "model[linkEntry]{max1}",
+      56
+    ],
+    [
+      "group[linkEntry+upgrade]{max1}",
+      46
+    ],
+    [
+      "group[upgrade]{max2}",
+      45
+    ],
+    [
+      "group[model]{max10,min5}",
+      43
+    ],
+    [
+      "group[model]{max9,min4}",
+      41
+    ],
+    [
+      "upgrade[linkEntry]{max1}",
+      41
+    ],
+    [
+      "model[linkEntry]",
+      41
+    ],
+    [
+      "model[linkEntry]{max4}",
+      37
+    ],
+    [
+      "model[group]{max1,min1}",
+      36
+    ],
+    [
+      "upgrade[linkEntry]{max1,max3}",
+      36
+    ],
+    [
+      "group[upgrade]{max1,max3}",
+      36
+    ],
+    [
+      "model[linkEntry]{max9}",
+      34
+    ],
+    [
+      "model[group+linkEntry]{max1}",
+      33
+    ],
+    [
+      "upgrade[linkEntry+upgrade]",
+      33
+    ],
+    [
+      "group[upgrade]{max2,min1}",
+      33
+    ],
+    [
+      "group[linkEntry+upgrade]{max2}",
+      31
+    ],
+    [
+      "upgrade[upgrade]{max1}",
+      30
+    ],
+    [
+      "upgrade[leaf]{max3}",
+      30
+    ],
+    [
+      "model[group+linkEntry]",
+      28
+    ],
+    [
+      "model[upgrade]{max1}",
+      26
+    ],
+    [
+      "group[model]{max6,min3}",
+      25
+    ],
+    [
+      "model[linkEntry]{max6}",
+      24
+    ],
+    [
+      "upgrade[linkGroup]{max3}*W",
+      24
+    ],
+    [
+      "model[linkEntry+upgrade]{max9}",
+      22
+    ],
+    [
+      "model[upgrade]",
+      21
+    ],
+    [
+      "group[model]{max2}",
+      20
+    ],
+    [
+      "model[group+upgrade]{max1,min1}",
+      19
+    ],
+    [
+      "group[linkEntry+upgrade]{max2,min1}",
+      17
+    ],
+    [
+      "group[linkEntry]{max2}",
+      17
+    ],
+    [
+      "model[linkEntry+upgrade]{max4}",
+      16
+    ],
+    [
+      "group[model]{max9,min9}",
+      16
+    ],
+    [
+      "model[group+linkEntry+linkGroup]{max1,min1}",
+      16
+    ],
+    [
+      "model[upgrade]{max9}",
+      16
+    ],
+    [
+      "model[linkEntry]{max9,min4}",
+      16
+    ],
+    [
+      "group[linkEntry+linkGroup+upgrade]",
+      16
+    ],
+    [
+      "model[group+linkEntry+upgrade]{max1,min1}",
+      15
+    ],
+    [
+      "model[upgrade]{max2,min2}",
+      15
+    ],
+    [
+      "model[linkEntry]{max3}",
+      15
+    ],
+    [
+      "group[group+model]{max9,min4}",
+      14
+    ],
+    [
+      "model[group+linkEntry]{max2,min1}",
+      14
+    ],
+    [
+      "model[upgrade]{max9,min4}",
+      13
+    ],
+    [
+      "model[linkEntry+upgrade]{max10}",
+      13
+    ],
+    [
+      "group[model]{max4,min4}",
+      13
+    ],
+    [
+      "upgrade[leaf]{max1,max2}*W",
+      13
+    ],
+    [
+      "model[upgrade]{max2}",
+      12
+    ],
+    [
+      "model[linkEntry]{max5,min2}",
+      12
+    ],
+    [
+      "model[group+linkEntry]{max2}",
+      12
+    ],
+    [
+      "upgrade[group]",
+      12
+    ],
+    [
+      "model[linkEntry]{max5}",
+      12
+    ],
+    [
+      "model[linkEntry+upgrade]{max3}",
+      12
+    ],
+    [
+      "group[linkEntry+linkGroup]",
+      12
+    ],
+    [
+      "upgrade[linkEntry+linkGroup]{max1,min1}*W",
+      12
+    ],
+    [
+      "group[group+linkEntry+linkGroup]",
+      12
+    ],
+    [
+      "model[linkEntry]{max10}",
+      11
+    ],
+    [
+      "upgrade[linkEntry]{max2}",
+      11
+    ],
+    [
+      "group[model]{max5,min2}",
+      10
+    ],
+    [
+      "model[upgrade]{max6,min3}",
+      10
+    ],
+    [
+      "group[group+model]{max9,min9}",
+      10
+    ],
+    [
+      "upgrade[linkEntry+upgrade]{max1}",
+      10
+    ],
+    [
+      "group[group+linkGroup]{max-1,max1}",
+      10
+    ],
+    [
+      "upgrade[leaf]{max2}",
+      9
+    ],
+    [
+      "model[linkEntry+upgrade]{max9,min4}",
+      9
+    ],
+    [
+      "group[upgrade]{max2,min2}",
+      9
+    ],
+    [
+      "upgrade[leaf]{max1,max4}*W",
+      9
+    ],
+    [
+      "group[model]{max4}",
+      9
+    ],
+    [
+      "group[linkEntry]{max2,min2}",
+      9
+    ],
+    [
+      "model[linkEntry+upgrade]{max5}",
+      9
+    ],
+    [
+      "model[group+linkEntry+upgrade]{max1}",
+      8
+    ],
+    [
+      "model[upgrade]{max3,min3}",
+      8
+    ],
+    [
+      "upgrade[leaf]{max2}*W",
+      8
+    ],
+    [
+      "model[group+linkEntry]{max3}",
+      8
+    ],
+    [
+      "model[linkEntry+upgrade]{max6}",
+      7
+    ],
+    [
+      "upgrade[leaf]{max1,max2,min1}*W",
+      7
+    ],
+    [
+      "group[model]{max1}",
+      7
+    ],
+    [
+      "upgrade[upgrade]{max2}",
+      7
+    ],
+    [
+      "model[upgrade]{max10,min5}",
+      7
+    ],
+    [
+      "upgrade[leaf]{max1,max6}*W",
+      7
+    ],
+    [
+      "group[model]{max5,min5}",
+      7
+    ],
+    [
+      "model[group]{max1}",
+      7
+    ],
+    [
+      "model[group+linkEntry]{max4}",
+      7
+    ],
+    [
+      "upgrade[linkEntry+model]",
+      7
+    ],
+    [
+      "upgrade[leaf]{max1,max2}",
+      7
+    ],
+    [
+      "group[group+linkGroup+upgrade]{max1}",
+      7
+    ],
+    [
+      "group[model]{max3,min1}",
+      7
+    ],
+    [
+      "model[upgrade]{max5,min2}",
+      6
+    ],
+    [
+      "upgrade[linkGroup]{max4}*W",
+      6
+    ],
+    [
+      "upgrade[leaf]{max1,max3,min3}",
+      6
+    ],
+    [
+      "model[group+linkEntry]{max2,min2}",
+      6
+    ],
+    [
+      "group[model]{max3}",
+      6
+    ],
+    [
+      "upgrade[leaf]{max2,min2}*W",
+      6
+    ],
+    [
+      "group[model]{max3,min3}",
+      6
+    ],
+    [
+      "model[linkEntry]{max9,min2}",
+      6
+    ],
+    [
+      "upgrade[group]{max3}*W",
+      6
+    ],
+    [
+      "group[group+linkGroup]",
+      6
+    ],
+    [
+      "upgrade[group+linkEntry]",
+      6
+    ],
+    [
+      "upgrade[linkEntry]{max1}*W",
+      6
+    ],
+    [
+      "upgrade[linkGroup]{max1,min0}*W",
+      6
+    ],
+    [
+      "upgrade[linkGroup]{max0,min0}*W",
+      6
+    ],
+    [
+      "group[linkGroup+upgrade]",
+      5
+    ],
+    [
+      "group[model]{max2,min1}",
+      5
+    ],
+    [
+      "group[group+model]{max10,min5}",
+      5
+    ],
+    [
+      "model[upgrade]{max3}",
+      5
+    ],
+    [
+      "model[group]{max2}",
+      5
+    ],
+    [
+      "group[model]{max19,min9}",
+      5
+    ],
+    [
+      "upgrade[leaf]{max1,max3}*W",
+      5
+    ],
+    [
+      "group[model]{max1,min1}",
+      5
+    ],
+    [
+      "model[linkEntry+upgrade]",
+      5
+    ],
+    [
+      "model[group]{max10,min5}",
+      5
+    ],
+    [
+      "model[group+linkEntry]{max8}",
+      5
+    ],
+    [
+      "model[linkEntry+linkGroup]{max1,min1}",
+      4
+    ],
+    [
+      "model[linkEntry+upgrade]{max6,min3}",
+      4
+    ],
+    [
+      "model[upgrade]{max11}",
+      4
+    ],
+    [
+      "model[linkGroup+upgrade]{max1}",
+      4
+    ],
+    [
+      "model[group+linkGroup+upgrade]{max1,min1}",
+      4
+    ],
+    [
+      "model[upgrade]{max6}",
+      4
+    ],
+    [
+      "group[upgrade]{max3}",
+      4
+    ],
+    [
+      "upgrade[leaf]{max1,max4,min1}*W",
+      4
+    ],
+    [
+      "model[linkEntry]{max9,min9}",
+      4
+    ],
+    [
+      "upgrade[linkGroup]{max3,min3}*W",
+      4
+    ],
+    [
+      "model[upgrade]{max4,min2}",
+      4
+    ],
+    [
+      "model[linkEntry]{max4,min4}",
+      4
+    ],
+    [
+      "upgrade[leaf]{max1,min-1}",
+      4
+    ],
+    [
+      "model[group]{max2,min2}",
+      4
+    ],
+    [
+      "upgrade[leaf]{max1,max2,min1}",
+      4
+    ],
+    [
+      "model[group+linkEntry]{max3,min1}",
+      4
+    ],
+    [
+      "group[model]{max20,min10}",
+      4
+    ],
+    [
+      "upgrade[linkEntry+linkGroup]{max1}*W",
+      4
+    ],
+    [
+      "upgrade[leaf]{max0,min0}",
+      4
+    ],
+    [
+      "upgrade[linkGroup]{max4,min4}*W",
+      4
+    ],
+    [
+      "model[linkEntry+upgrade]{max10,min5}",
+      3
+    ],
+    [
+      "group[model]{max10,min10}",
+      3
+    ],
+    [
+      "group[model]{max4,min2}",
+      3
+    ],
+    [
+      "group[upgrade]{max2,min0}",
+      3
+    ],
+    [
+      "model[upgrade]{max9,min9}",
+      3
+    ],
+    [
+      "group[upgrade]{max4}",
+      3
+    ],
+    [
+      "model[upgrade]{max4,min4}",
+      3
+    ],
+    [
+      "model[linkEntry]{max5,min3}",
+      3
+    ],
+    [
+      "model[group+linkEntry+upgrade]{max2}",
+      3
+    ],
+    [
+      "model[upgrade]{max19}",
+      3
+    ],
+    [
+      "model[upgrade]{max9,min3}",
+      3
+    ],
+    [
+      "model[linkEntry]{max2,min2}",
+      3
+    ],
+    [
+      "group[linkEntry+upgrade]{max3}",
+      3
+    ],
+    [
+      "group[linkEntry+upgrade]{max3,min1}",
+      3
+    ],
+    [
+      "group[model]{max5,min4}",
+      3
+    ],
+    [
+      "group[group+linkEntry+upgrade]{max2}",
+      3
+    ],
+    [
+      "model[linkEntry+upgrade]{max9,min9}",
+      3
+    ],
+    [
+      "group[group+model]",
+      3
+    ],
+    [
+      "group[group]{max10,min5}",
+      3
+    ],
+    [
+      "model[linkEntry]{max9,min3}",
+      3
+    ],
+    [
+      "model[group]",
+      3
+    ],
+    [
+      "model[upgrade]{max7}",
+      3
+    ],
+    [
+      "model[group+linkEntry]{max5,min2}",
+      3
+    ],
+    [
+      "upgrade[linkGroup]{min0}*W",
+      3
+    ],
+    [
+      "group[group+upgrade]{max2,min2}",
+      3
+    ],
+    [
+      "upgrade[linkEntry+linkGroup]*W",
+      3
+    ],
+    [
+      "group[group]{max1,min1}",
+      3
+    ]
+  ],
+  "abilityNames": [
+    [
+      "Leader",
+      349
+    ],
+    [
+      "Damaged: 1-4 Wounds Remaining",
+      61
+    ],
+    [
+      "Transport",
+      55
+    ],
+    [
+      "Support",
+      49
+    ],
+    [
+      "Damaged: 1-5 Wounds Remaining",
+      47
+    ],
+    [
+      "Attached Unit",
+      38
+    ],
+    [
+      "Mortal Sorcery (Aura)",
+      33
+    ],
+    [
+      "Damaged: 1-5 wounds remaining",
+      22
+    ],
+    [
+      "Orders",
+      21
+    ],
+    [
+      "Guerrilla Adepts",
+      21
+    ],
+    [
+      "Damaged: 1-6 Wounds Remaining",
+      19
+    ],
+    [
+      "Invulnerable Save",
+      19
+    ],
+    [
+      "*Invulnerable Save",
+      18
+    ],
+    [
+      "Assault Ramp",
+      17
+    ],
+    [
+      "Damaged: 1-8 Wounds Remaining",
+      12
+    ],
+    [
+      "Harnessed Alien Instincts",
+      12
+    ],
+    [
+      "Damaged: 1-10 wounds remaining",
+      11
+    ],
+    [
+      "Lord of Chaos",
+      11
+    ],
+    [
+      "Rites of Battle",
+      11
+    ],
+    [
+      "Black Rage",
+      11
+    ],
+    [
+      "Flip Belt",
+      10
+    ],
+    [
+      "Fire Support",
+      10
+    ],
+    [
+      "Damaged: 1-7 wounds remaining",
+      10
+    ],
+    [
+      "Supreme Commander",
+      9
+    ],
+    [
+      "Damaged: 1-7 Wounds Remaining",
+      9
+    ],
+    [
+      "Damaged: 1-9 wounds remaining",
+      8
+    ],
+    [
+      "Baffling Data Screed",
+      8
+    ],
+    [
+      "Interceptor",
+      7
+    ],
+    [
+      "Authority of the Inquisition",
+      7
+    ],
+    [
+      "Teleport Homer",
+      7
+    ],
+    [
+      "Travelling Players",
+      6
+    ],
+    [
+      "Damaged: 1-10 Wounds Remaining",
+      6
+    ],
+    [
+      "Strafing Run",
+      6
+    ],
+    [
+      "Scuttling Walker",
+      6
+    ],
+    [
+      "Daemonic Illusions (Aura)",
+      6
+    ],
+    [
+      "Fortification",
+      6
+    ],
+    [
+      "Ceaseless Vigilance",
+      6
+    ],
+    [
+      "Damaged: 1-4 wounds remaining",
+      6
+    ],
+    [
+      "Reinforced Cover",
+      6
+    ],
+    [
+      "Unit Composition",
+      6
+    ],
+    [
+      "Psychic Hood",
+      6
+    ],
+    [
+      "Tactical Precision",
+      6
+    ],
+    [
+      "Inspiring Commander",
+      6
+    ],
+    [
+      "Litany of Hate",
+      6
+    ],
+    [
+      "Distortion Fields (Aura)",
+      6
+    ],
+    [
+      "Chaos Land Raider",
+      5
+    ],
+    [
+      "Chaos Rhino",
+      5
+    ],
+    [
+      "Bomb Rack",
+      5
+    ],
+    [
+      "Damaged: 1-6 wounds remaining",
+      5
+    ],
+    [
+      "Terror of Khorne",
+      5
+    ],
+    [
+      "Self Repair",
+      5
+    ],
+    [
+      "Mindlock",
+      5
+    ],
+    [
+      "Astartes Banner",
+      5
+    ],
+    [
+      "Hunting Hounds",
+      5
+    ],
+    [
+      "Bio-minefield",
+      5
+    ],
+    [
+      "Floating Death",
+      5
+    ],
+    [
+      "Deployment",
+      4
+    ],
+    [
+      "Devoted to Destruction",
+      4
+    ],
+    [
+      "Damaged: 1-8 wounds remaining",
+      4
+    ],
+    [
+      "Airborne Predator",
+      4
+    ],
+    [
+      "Cherub",
+      4
+    ],
+    [
+      "Daughter of the Abyss",
+      4
+    ],
+    [
+      "Aerial Deployment",
+      4
+    ],
+    [
+      "Servitor Retinue",
+      4
+    ],
+    [
+      "Shadow Assignment",
+      4
+    ],
+    [
+      "Death to the Alien",
+      4
+    ],
+    [
+      "Signal Flares",
+      4
+    ],
+    [
+      "Sanguinary Priest",
+      4
+    ],
+    [
+      "Honour or Death",
+      4
+    ],
+    [
+      "Blessing of the Omnissiah",
+      4
+    ],
+    [
+      "Necrodermis",
+      4
+    ],
+    [
+      "Enslaved Star God",
+      4
+    ],
+    [
+      "Battlesuit Support System",
+      4
+    ],
+    [
+      "Weapon Support System",
+      4
+    ],
+    [
+      "Psychic Guidance",
+      3
+    ],
+    [
+      "Path of Command",
+      3
+    ],
+    [
+      "Support Artillery",
+      3
+    ],
+    [
+      "Support Weapon",
+      3
+    ],
+    [
+      "Psychic Communion (Psychic)",
+      3
+    ],
+    [
+      "Into the Foe",
+      3
+    ],
+    [
+      "Fearsome (Aura)",
+      3
+    ],
+    [
+      "Siege Shield",
+      3
+    ],
+    [
+      "Mischief Makers (Aura)",
+      3
+    ],
+    [
+      "Swift Assault",
+      3
+    ],
+    [
+      "Armoured Spearhead",
+      3
+    ],
+    [
+      "Assault Vehicle",
+      3
+    ],
+    [
+      "Damaged: 1-3 Wounds Remaining",
+      3
+    ],
+    [
+      "Spiritual Leader",
+      3
+    ],
+    [
+      "Sacred Command",
+      3
+    ],
+    [
+      "Condemnatory Psalms",
+      3
+    ],
+    [
+      "Daughters of the Abyss",
+      3
+    ],
+    [
+      "Strategic Mastery",
+      3
+    ],
+    [
+      "Turbo Boost",
+      3
+    ],
+    [
+      "Broad Spectrum Data-tether",
+      3
+    ],
+    [
+      "Backroom Deals",
+      3
+    ],
+    [
+      "Warrant of Trade",
+      3
+    ],
+    [
+      "Rapid Deployment",
+      3
+    ],
+    [
+      "Terminatus Assault",
+      3
+    ],
+    [
+      "Catechism of Death",
+      3
+    ],
+    [
+      "High-handed Authority",
+      3
+    ],
+    [
+      "Rolling Fortress",
+      3
+    ],
+    [
+      "Earthshaker Rounds",
+      3
+    ],
+    [
+      "Embarking",
+      3
+    ],
+    [
+      "Suppression Bombardment",
+      3
+    ],
+    [
+      "Pinning Bombardment",
+      3
+    ],
+    [
+      "Outflank",
+      3
+    ],
+    [
+      "Blood Chalice",
+      3
+    ],
+    [
+      "Narthecium",
+      3
+    ],
+    [
+      "Techmarine",
+      3
+    ],
+    [
+      "Wisdom of the Ancients [Aura]",
+      3
+    ],
+    [
+      "Vanguard Assault",
+      3
+    ],
+    [
+      "Unbreakable Duty",
+      3
+    ],
+    [
+      "Vengeance of the Omnissiah",
+      3
+    ],
+    [
+      "Firebase Control (Aura)",
+      3
+    ],
+    [
+      "More Dakka",
+      3
+    ],
+    [
+      "Intimidating Motivation (Once per battle round, per army)",
+      3
+    ],
+    [
+      "Targeting Array",
+      3
+    ],
+    [
+      "Tidewall Cover",
+      3
+    ],
+    [
+      "Alpha Warrior",
+      3
+    ],
+    [
+      "Feeder Tendrils",
+      3
+    ],
+    [
+      "Reavers of the Void",
+      2
+    ],
+    [
+      "Piratical Raiders",
+      2
+    ],
+    [
+      "Death is Not Enough",
+      2
+    ],
+    [
+      "Cruel Amusement",
+      2
+    ],
+    [
+      "Branching Fates (Psychic)",
+      2
+    ],
+    [
+      "Crewed Platform",
+      2
+    ],
+    [
+      "Path of the Outcast",
+      2
+    ],
+    [
+      "Fog of Dreams (Psychic)",
+      2
+    ],
+    [
+      "Treacherous Illusion (Psychic)",
+      2
+    ],
+    [
+      "Acrobatic Grace",
+      2
+    ],
+    [
+      "Blitz",
+      2
+    ],
+    [
+      "Blur of Movement",
+      2
+    ],
+    [
+      "Rapid Embarkation",
+      2
+    ],
+    [
+      "Starweaver",
+      2
+    ],
+    [
+      "Servant of the Whispering God",
+      2
+    ],
+    [
+      "Dance of Death",
+      2
+    ],
+    [
+      "Choreographer of War",
+      2
+    ],
+    [
+      "Cegorach’s Favour",
+      2
+    ],
+    [
+      "Polychromatic Camoflage",
+      2
+    ],
+    [
+      "Titanic Advance",
+      2
+    ],
+    [
+      "Towering Wraith Construct",
+      2
+    ],
+    [
+      "Devastating Assault",
+      2
+    ],
+    [
+      "Reckless Abandon",
+      2
+    ],
+    [
+      "Reaver Band",
+      2
+    ],
+    [
+      "Corsairs",
+      2
+    ],
+    [
+      "Titan Hunter",
+      2
+    ],
+    [
+      "Overlord",
+      2
+    ],
+    [
+      "Tormentors",
+      2
+    ],
+    [
+      "Aethersails",
+      2
+    ],
+    [
+      "Raider",
+      2
+    ],
+    [
+      "Eviscerating Fly-by",
+      2
+    ],
+    [
+      "Storm of Blades",
+      2
+    ],
+    [
+      "Venom",
+      2
+    ],
+    [
+      "No Escape",
+      2
+    ],
+    [
+      "Piratical Hero",
+      2
+    ],
+    [
+      "Prince of Corsairs",
+      2
+    ],
+    [
+      "Aethersense (Psychic)",
+      2
+    ],
+    [
+      "Fury of the Void (Psychic)",
+      2
+    ],
+    [
+      "Hallucinogen Grenades",
+      2
+    ],
+    [
+      "Raid and Run",
+      2
+    ],
+    [
+      "Hatred Eternal (Pain)",
+      2
+    ],
+    [
+      "Beastmaster",
+      2
+    ],
+    [
+      "Pain Adept",
+      2
+    ],
+    [
+      "Fleshcraft (Pain)",
+      2
+    ],
+    [
+      "Eradicate the Foe",
+      2
+    ],
+    [
+      "Ground-attack Craft",
+      2
+    ],
+    [
+      "Executioner",
+      2
+    ],
+    [
+      "Daemonic Destruction",
+      2
+    ],
+    [
+      "Prescience (Psychic)",
+      2
+    ],
+    [
+      "Gift of Chaos (Psychic)",
+      2
+    ],
+    [
+      "For the Dark Gods",
+      2
+    ],
+    [
+      "Trophy Taker",
+      2
+    ],
+    [
+      "Terrifying Crescendo",
+      2
+    ],
+    [
+      "Terrifying Assault",
+      2
+    ],
+    [
+      "Brutal Example",
+      2
+    ],
+    [
+      "Annihilator",
+      2
+    ],
+    [
+      "Destructor",
+      2
+    ],
+    [
+      "Self-repair",
+      2
+    ],
+    [
+      "Blood Surge",
+      2
+    ],
+    [
+      "Bringers of Change",
+      2
+    ],
+    [
+      "Infused with the Blessings of Nurgle",
+      2
+    ],
+    [
+      "Gift of Poxes (Psychic)",
+      2
+    ],
+    [
+      "Feculent Despair (Aura, Psychic)",
+      2
+    ],
+    [
+      "Lord of Fate",
+      2
+    ],
+    [
+      "Revolting Regeneration",
+      2
+    ],
+    [
+      "Bloody Stampede",
+      2
+    ],
+    [
+      "Cut Off Their Escape",
+      2
+    ],
+    [
+      "Covering Fire",
+      2
+    ],
+    [
+      "Wall of Muscle",
+      2
+    ],
+    [
+      "Psychic Barrier (Psychic)",
+      2
+    ],
+    [
+      "Chaos Lord",
+      2
+    ],
+    [
+      "Dessication Conduit (Aura)",
+      2
+    ],
+    [
+      "Gift of Contagion (Psychic)",
+      2
+    ],
+    [
+      "Gift of Poxes",
+      2
+    ],
+    [
+      "Euphoric Strikes",
+      2
+    ],
+    [
+      "Regenerating Monstrosities",
+      2
+    ],
+    [
+      "Arcane Shield (Psychic)",
+      2
+    ],
+    [
+      "Empyric Guidance (Psychic)",
+      2
+    ],
+    [
+      "Bestial Prophet",
+      2
+    ],
+    [
+      "Split",
+      2
+    ],
+    [
+      "Brazen Fury",
+      2
+    ],
+    [
+      "Feel No Pain 5+",
+      2
+    ],
+    [
+      "Bodyguard",
+      2
+    ],
+    [
+      "Psychic Familiar",
+      2
+    ],
+    [
+      "Battlefield Analysis",
+      2
+    ],
+    [
+      "Cult Demagogue",
+      2
+    ],
+    [
+      "Defenders of the Faith",
+      2
+    ],
+    [
+      "Purge and Cleanse",
+      2
+    ],
+    [
+      "Zealot",
+      2
+    ],
+    [
+      "Emergency Combat Embarkation",
+      2
+    ],
+    [
+      "Ministorum Sermon",
+      2
+    ],
+    [
+      "From Golden Light",
+      2
+    ],
+    [
+      "Stand Vigil",
+      2
+    ],
+    [
+      "Mechanicus Bodyguard",
+      2
+    ],
+    [
+      "Broad spectrum data-tether",
+      2
+    ],
+    [
+      "Enginseer",
+      2
+    ],
+    [
+      "Vengeance for the Omnissiah",
+      2
+    ],
+    [
+      "Secutarii",
+      2
+    ],
+    [
+      "Evade and Survive",
+      2
+    ],
+    [
+      "Power of the Rosette",
+      2
+    ],
+    [
+      "Hammerhand (Psychic)",
+      2
+    ],
+    [
+      "Blackstar Cluster Launcher",
+      2
+    ],
+    [
+      "Strategic Knowledge",
+      2
+    ],
+    [
+      "Tactical Instinct",
+      2
+    ],
+    [
+      "Unstoppable Champion",
+      2
+    ],
+    [
+      "Fortis Doctrines",
+      2
+    ],
+    [
+      "Indomitor Doctrines",
+      2
+    ],
+    [
+      "Spectrus Doctrines",
+      2
+    ],
+    [
+      "Turbo-boost",
+      2
+    ],
+    [
+      "Unflinching",
+      2
+    ],
+    [
+      "Get Back in the Fight",
+      2
+    ],
+    [
+      "Mobile Command Vehicle",
+      2
+    ],
+    [
+      "Summary Execution",
+      2
+    ],
+    [
+      "Political Overwatch",
+      2
+    ],
+    [
+      "Rearm, Reload, Fire",
+      2
+    ],
+    [
+      "Flak Battery",
+      2
+    ],
+    [
+      "Furious Barrage",
+      2
+    ],
+    [
+      "Loyal Protector",
+      2
+    ],
+    [
+      "Ogryn Bodyguard",
+      2
+    ],
+    [
+      "Titan-killer",
+      2
+    ],
+    [
+      "Mount Up!",
+      2
+    ],
+    [
+      "Vox-net",
+      2
+    ],
+    [
+      "Tank Hunter",
+      2
+    ],
+    [
+      "Agile Dogfighter",
+      2
+    ],
+    [
+      "Sentry Programming",
+      2
+    ],
+    [
+      "Grenadiers",
+      2
+    ],
+    [
+      "Meteoric Descent",
+      2
+    ],
+    [
+      "Blistering Advance",
+      2
+    ],
+    [
+      "Shoot Sharp and Scarper",
+      2
+    ],
+    [
+      "Mark the Target",
+      2
+    ],
+    [
+      "Brutal Disciplinarian",
+      2
+    ],
+    [
+      "Righteous Zeal",
+      2
+    ],
+    [
+      "Armour of Faith",
+      2
+    ],
+    [
+      "Sigismund's Heir",
+      2
+    ],
+    [
+      "Chosen of the Emperor",
+      2
+    ],
+    [
+      "Rotating Death",
+      2
+    ],
+    [
+      "Ferocious Assault",
+      2
+    ],
+    [
+      "Visions of Heresy",
+      2
+    ],
+    [
+      "Tycho",
+      2
+    ],
+    [
+      "Forlorn Hero",
+      2
+    ],
+    [
+      "An Honourable Death in Combat",
+      2
+    ],
+    [
+      "Attached Leader",
+      2
+    ],
+    [
+      "Finest Hour",
+      2
+    ],
+    [
+      "Death Vision of Sanguinius",
+      2
+    ],
+    [
+      "Warrior Strategist",
+      2
+    ],
+    [
+      "Armoured Resilience",
+      2
+    ],
+    [
+      "Aerial Assault",
+      2
+    ],
+    [
+      "Hammer of Wrath",
+      2
+    ],
+    [
+      "Outrider Escort",
+      2
+    ],
+    [
+      "Sentinel Protocols",
+      2
+    ],
+    [
+      "Tempormortis",
+      2
+    ],
+    [
+      "Gene Seed Recovery",
+      2
+    ],
+    [
+      "Fury of the First",
+      2
+    ],
+    [
+      "Martial Superiority",
+      2
+    ],
+    [
+      "Guerrilla Tactics",
+      2
+    ],
+    [
+      "Suppression Fire",
+      2
+    ],
+    [
+      "Armorium Cherub",
+      2
+    ],
+    [
+      "Iron Priest",
+      2
+    ],
+    [
+      "Let Loose the Wolves",
+      2
+    ],
+    [
+      "Headhunters",
+      2
+    ],
+    [
+      "Knight Champion of Macragge",
+      2
+    ],
+    [
+      "Inspiring Leader",
+      2
+    ],
+    [
+      "Master Tactician",
+      2
+    ],
+    [
+      "Honour Guard of Macragge",
+      2
+    ],
+    [
+      "Press the Attack",
+      2
+    ],
+    [
+      "Seized Opportunity",
+      2
+    ],
+    [
+      "Grimnyr's Regard",
+      2
+    ],
+    [
+      "My Will Be Done",
+      2
+    ],
+    [
+      "Targeting Relay",
+      2
+    ],
+    [
+      "Phase-shifted Cover",
+      2
+    ],
+    [
+      "Ramshackle Cover",
+      2
+    ],
+    [
+      "Ammo Runts (Once per battle, per unit)",
+      2
+    ],
+    [
+      "Gut Hatch",
+      2
+    ],
+    [
+      "Bomb Squig (Once per battle, per unit)",
+      2
+    ],
+    [
+      "Bomb Squig (Once per turn, twice per battle, per unit)",
+      2
+    ],
+    [
+      "Keep Huntin'! (Once per battle round, per army)",
+      2
+    ],
+    [
+      "Volley Fire",
+      2
+    ],
+    [
+      "Armour Hunter",
+      2
+    ],
+    [
+      "DS8 Support Turret",
+      2
+    ],
+    [
+      "Localised Stealth Projectors (Aura)",
+      2
+    ],
+    [
+      "War Leader",
+      2
+    ],
+    [
+      "Will of the Hive Mind",
+      2
+    ],
+    [
+      "Chitinous Horrors (Aura)",
+      2
+    ],
+    [
+      "Singular Purpose",
+      2
+    ],
+    [
+      "Protean Purpose",
+      2
+    ],
+    [
+      "War Construct",
+      1
+    ],
+    [
+      "Swift Demise",
+      1
+    ],
+    [
+      "Hand of Asuryan",
+      1
+    ],
+    [
+      "Tactical Acumen",
+      1
+    ],
+    [
+      "Superlative Strategist",
+      1
+    ],
+    [
+      "Aspect Training",
+      1
+    ],
+    [
+      "Ride the WInd",
+      1
+    ],
+    [
+      "Indomitable Strength of Will",
+      1
+    ],
+    [
+      "Molten Form",
+      1
+    ],
+    [
+      "The Bloody Handed (Aura)",
+      1
+    ],
+    [
+      "Cry of the Wind",
+      1
+    ],
+    [
+      "Cloudstrider",
+      1
+    ],
+    [
+      "Skyhunter",
+      1
+    ],
+    [
+      "Inescapable Accuracy",
+      1
+    ],
+    [
+      "Bladestorm",
+      1
+    ],
+    [
+      "Diviner of the Futures",
+      1
+    ],
+    [
+      "Doom (Psychic)",
+      1
+    ],
+    [
+      "Guide (Psychic)",
+      1
+    ],
+    [
+      "Misfortune (Psychic)",
+      1
+    ],
+    [
+      "Assured Destruction",
+      1
+    ],
+    [
+      "Crystal Matrix",
+      1
+    ],
+    [
+      "Burning Lance",
+      1
+    ],
+    [
+      "Unquenchable Resolve",
+      1
+    ],
+    [
+      "Fleet of Foot",
+      1
+    ],
+    [
+      "Mindshock Pod (Aura, Psychic)",
+      1
+    ],
+    [
+      "Acrobatic",
+      1
+    ],
+    [
+      "Bringer of the True Death",
+      1
+    ],
+    [
+      "Hunter Unseen",
+      1
+    ],
+    [
+      "Whirling Death",
+      1
+    ],
+    [
+      "Storm of Silence",
+      1
+    ],
+    [
+      "Shadow Hunter",
+      1
+    ],
+    [
+      "Sustained Assault",
+      1
+    ],
+    [
+      "The Scorpion's Bite",
+      1
+    ],
+    [
+      "Harvester of Souls",
+      1
+    ],
+    [
+      "Face of Death",
+      1
+    ],
+    [
+      "Monofilament Web",
+      1
+    ],
+    [
+      "Extreme Mobility",
+      1
+    ],
+    [
+      "Target Acquisition",
+      1
+    ],
+    [
+      "Spirit Mark (Psychic)",
+      1
+    ],
+    [
+      "Tears of Isha (Psychic)",
+      1
+    ],
+    [
+      "Spiritseer",
+      1
+    ],
+    [
+      "Stormblades",
+      1
+    ],
+    [
+      "Structural Collapse",
+      1
+    ],
+    [
+      "Grenade Pack Flyover",
+      1
+    ],
+    [
+      "Way of the Blade",
+      1
+    ],
+    [
+      "Yvraine's Champion",
+      1
+    ],
+    [
+      "Inevitable Death",
+      1
+    ],
+    [
+      "Ethereal Form",
+      1
+    ],
+    [
+      "Avatar of the Whispering God",
+      1
+    ],
+    [
+      "Harassment Fire",
+      1
+    ],
+    [
+      "Runes of Fortune (Psychic)",
+      1
+    ],
+    [
+      "Protect (Psychic)",
+      1
+    ],
+    [
+      "Runes of Battle (Psychic)",
+      1
+    ],
+    [
+      "Flickerjump",
+      1
+    ],
+    [
+      "Wave Serpent Shield",
+      1
+    ],
+    [
+      "Wave Serpent",
+      1
+    ],
+    [
+      "Arcane Cover",
+      1
+    ],
+    [
+      "Webway Strike",
+      1
+    ],
+    [
+      "Malevolent Souls",
+      1
+    ],
+    [
+      "Titanic Strides",
+      1
+    ],
+    [
+      "Point-blank Devastation",
+      1
+    ],
+    [
+      "Fated Hero",
+      1
+    ],
+    [
+      "Herald of Ynnead",
+      1
+    ],
+    [
+      "Word of the Phoenix (Psychic)",
+      1
+    ],
+    [
+      "Mandiblasters",
+      1
+    ],
+    [
+      "D-Rift",
+      1
+    ],
+    [
+      "Lightning Assault",
+      1
+    ],
+    [
+      "Reaper of Souls",
+      1
+    ],
+    [
+      "Shadow of Death (Aura)",
+      1
+    ],
+    [
+      "Speed of Vaul",
+      1
+    ],
+    [
+      "Lanced Obliteration",
+      1
+    ],
+    [
+      "Agile",
+      1
+    ],
+    [
+      "Webway Shunt Generator",
+      1
+    ],
+    [
+      "Shade of Twilight",
+      1
+    ],
+    [
+      "Damaged: 1-16 Wounds Remaining",
+      1
+    ],
+    [
+      "Flawless Poise",
+      1
+    ],
+    [
+      "Revenant Jet Pack",
+      1
+    ],
+    [
+      "Horrify (Psychic)",
+      1
+    ],
+    [
+      "The Path Least Travelled",
+      1
+    ],
+    [
+      "Way of the Shaper (Psychic)",
+      1
+    ],
+    [
+      "Bonesinger",
+      1
+    ],
+    [
+      "Skyfire",
+      1
+    ],
+    [
+      "Cloudbreakers",
+      1
+    ],
+    [
+      "Reborn Mastermind",
+      1
+    ],
+    [
+      "Sadistic Raiders",
+      1
+    ],
+    [
+      "Empowered by Death",
+      1
+    ],
+    [
+      "Lithe Embarkation",
+      1
+    ],
+    [
+      "Monofilament Snare",
+      1
+    ],
+    [
+      "Sonic Destruction",
+      1
+    ],
+    [
+      "Empyric Ambush",
+      1
+    ],
+    [
+      "Whispering Web",
+      1
+    ],
+    [
+      "Titanic Agility",
+      1
+    ],
+    [
+      "Guided by Fate",
+      1
+    ],
+    [
+      "Winds of War",
+      1
+    ],
+    [
+      "Awakened Spirit",
+      1
+    ]
+  ],
+  "defaultSelPresence": {
+    "withDefault": 1324,
+    "withoutDefault": 9088
+  },
+  "mandatoryGroupDefault": {
+    "withDefault": 1154,
+    "withoutDefault": 494,
+    "egsNo": [
+      "aeldari/Corsair Voidreavers › Voidreaver Felarch",
+      "aeldari/Corsair Voidscarred › Weapon",
+      "aeldari/Corsair Voidscarred › Weapon",
+      "aeldari/Corsair Voidscarred › Voidscarred Felarch",
+      "aeldari/Dark Reapers › Dark Reaper",
+      "aeldari/Dire Avengers › Dire Avenger",
+      "aeldari/Fire Dragons › Fire Dragon",
+      "aeldari/Guardian Defenders › Guardian Defender",
+      "aeldari/Guardian Defenders › Heavy Weapon Platform",
+      "aeldari/Howling Banshees › Howling Banshee",
+      "aeldari/Rangers › Ranger",
+      "aeldari/Shining Spears › Shining Spear"
+    ]
+  },
+  "unitProfileLocation": {
+    "unit": 1033,
+    "model": 303,
+    "none": 8
+  },
+  "noneProfileEgs": [
+    "agents/Fortis Kill Team [Legends] (type:unit)",
+    "agents/Indomitor Kill Team [Legends] (type:unit)",
+    "agents/Proteus Kill Team [Legends] (type:unit)",
+    "astramilitarum/Death Korps of Krieg (type:unit)",
+    "deathwatch/Indomitor Kill Team (type:unit)",
+    "spacewolves/Wulfen (type:unit)",
+    "spacewolves/Wolf Guard Headtakers (type:unit)",
+    "ultramarines/Victrix Honour Guard (type:unit)"
+  ],
+  "damageBracketUnits": [
+    "blacktemplars/Chaplain Grimaldus",
+    "spacewolves/Wolf Guard Headtakers",
+    "ultramarines/Marneus Calgar",
+    "ultramarines/Wardens of Ultramar",
+    "tau/Kroot Farstalkers"
+  ],
+  "perSizeCostUnits": [
+    "aeldari/Corsair Voidreavers",
+    "aeldari/Corsair Voidscarred",
+    "aeldari/Dark Reapers",
+    "aeldari/Dire Avengers",
+    "aeldari/Fire Dragons",
+    "aeldari/Howling Banshees",
+    "aeldari/Rangers",
+    "aeldari/Shining Spears",
+    "aeldari/Shroud Runners",
+    "aeldari/Skyweavers",
+    "aeldari/Swooping Hawks",
+    "aeldari/Vypers",
+    "aeldari/War Walkers",
+    "aeldari/Warlock Conclave",
+    "aeldari/Warlock Skyrunners",
+    "aeldari/Warp Spiders",
+    "aeldari/Striking Scorpions",
+    "aeldari/Shadow Spectres [Legends]",
+    "aeldari/Ynnari Incubi",
+    "aeldari/Ynnari Reavers",
+    "aeldari/Corsair Skyreavers",
+    "aeldari/Dragon Knights",
+    "drukhari/Cronos",
+    "drukhari/Grotesques [Legends]",
+    "drukhari/Hellions",
+    "drukhari/Incubi",
+    "drukhari/Mandrakes",
+    "drukhari/Reavers",
+    "drukhari/Talos",
+    "drukhari/Wracks",
+    "drukhari/Corsair Voidreavers",
+    "drukhari/Corsair Voidscarred",
+    "drukhari/Skyweavers",
+    "drukhari/Corsair Skyreavers",
+    "csm/Legionaries",
+    "csm/Cultist Mob",
+    "csm/Accursed Cultists",
+    "csm/Chaos Terminator Squad",
+    "csm/Possessed",
+    "csm/Chosen",
+    "csm/Chaos Bikers",
+    "csm/Raptors",
+    "csm/Warp Talons",
+    "csm/Obliterators",
+    "csm/Khorne Berzerkers",
+    "csm/Rubric Marines",
+    "csm/Plague Marines",
+    "csm/Renegade Ogryn Beast Handler [Legends]",
+    "csm/Cultist Mob with Firearms [Legends]",
+    "csm/Nemesis Claw",
+    "csm/Red Corsairs Raiders",
+    "deathguard/Plague Marines",
+    "deathguard/Death Guard Cultists [Legends]",
+    "deathguard/Poxwalkers",
+    "deathguard/Deathshroud Terminators",
+    "deathguard/Blightlord Terminators",
+    "deathguard/Death Guard Possessed [Legends]",
+    "deathguard/Plague Drones",
+    "deathguard/Nurglings",
+    "emperorschildren/Tormentors",
+    "emperorschildren/Infractors",
+    "emperorschildren/Flawless Blades",
+    "emperorschildren/Chaos Terminators",
+    "emperorschildren/Fiends",
+    "emperorschildren/Seekers",
+    "thousandsons/Rubric Marines",
+    "thousandsons/Scarab Occult Terminators",
+    "thousandsons/Tzaangor Enlightened",
+    "thousandsons/Tzaangors",
+    "thousandsons/Sekhetar Robots",
+    "thousandsons/Tzaangor Enlightened with Fatecaster greatbows",
+    "thousandsons/Flamers",
+    "thousandsons/Screamers",
+    "worldeaters/Khorne Berzerkers",
+    "worldeaters/Chaos Terminators",
+    "worldeaters/Jakhals",
+    "worldeaters/Eightbound",
+    "worldeaters/Exalted Eightbound",
+    "worldeaters/Bloodcrushers",
+    "worldeaters/Flesh Hounds",
+    "gsc/Aberrants",
+    "gsc/Achilles Ridgerunners",
+    "gsc/Atalan Jackals",
+    "gsc/Hybrid Metamorphs",
+    "gsc/Neophyte Hybrids",
+    "gsc/Purestrain Genestealers",
+    "gsc/Acolyte Hybrids with Hand Flamers",
+    "gsc/Acolyte Hybrids with Autopistols",
+    "sororitas/Arco-Flagellants",
+    "sororitas/Celestian Sacresants",
+    "sororitas/Mortifiers",
+    "sororitas/Penitent Engines",
+    "sororitas/Repentia Squad",
+    "sororitas/Seraphim Squad",
+    "sororitas/Zephyrim Squad",
+    "sororitas/Death Cult Assassins [Legends]",
+    "sororitas/Crusaders [Legends]",
+    "custodes/Allarus Custodians",
+    "custodes/Custodian Guard",
+    "custodes/Custodian Wardens",
+    "custodes/Aquilon Custodians",
+    "custodes/Agamatus Custodians",
+    "custodes/Venatari Custodians",
+    "admech/Corpuscarii Electro-Priests",
+    "admech/Fulgurite Electro-Priests",
+    "admech/Ironstrider Ballistarii",
+    "admech/Kastelan Robots",
+    "admech/Kataphron Breachers",
+    "admech/Kataphron Destroyers",
+    "admech/Pteraxii Skystalkers",
+    "admech/Pteraxii Sterylizors",
+    "admech/Serberys Raiders",
+    "admech/Serberys Sulphurhounds",
+    "admech/Sicarian Infiltrators",
+    "admech/Sicarian Ruststalkers",
+    "admech/Sydonian Dragoons with taser lances",
+    "admech/Secutarii Hoplites [Legends]",
+    "admech/Secutarii Peltasts [Legends]",
+    "admech/Sydonian Dragoons with radium jezzails",
+    "agents/Damned Legionnaires [Legends]",
+    "agents/Deathwatch Kill Team",
+    "agents/Deathwatch Terminator Squad [Legends]",
+    "agents/Fortis Kill Team [Legends]",
+    "agents/Indomitor Kill Team [Legends]",
+    "agents/Spectrus Kill Team [Legends]",
+    "agents/Proteus Kill Team [Legends]",
+    "agents/Veteran Bike Squad [Legends]",
+    "agents/Aquila Kill Team",
+    "astramilitarum/Armoured Sentinels",
+    "astramilitarum/Attilan Rough Riders",
+    "astramilitarum/Bullgryn Squad",
+    "astramilitarum/Cadian Shock Troops",
+    "astramilitarum/Death Korps of Krieg",
+    "astramilitarum/Ogryn Squad",
+    "astramilitarum/Scout Sentinels",
+    "astramilitarum/Tempestus Scions",
+    "astramilitarum/Catachan Jungle Fighters",
+    "astramilitarum/Death Riders",
+    "astramilitarum/Ratlings",
+    "astramilitarum/Krieg Combat Engineers",
+    "blacktemplars/Crusader Squad",
+    "blacktemplars/Sword Brethren Squad",
+    "blacktemplars/Crusader Squad [Legends]",
+    "blacktemplars/Terminator Squad",
+    "blacktemplars/Sternguard Veteran Squad",
+    "bloodangels/Death Company Intercessors",
+    "bloodangels/Sanguinary Guard",
+    "bloodangels/Death Company Marines with Boltguns [Legends]",
+    "bloodangels/Death Company Marines with Jump Packs",
+    "bloodangels/Death Company Marines with Bolt Rifles",
+    "bloodangels/Death Company Marines",
+    "bloodangels/Death Company Marines with Boltguns and Jump Packs [Legends]",
+    "darkangels/Ravenwing Black Knights",
+    "darkangels/Deathwing Terminator Squad",
+    "darkangels/Inner Circle Companions",
+    "darkangels/Deathwing Command Squad [Legends]",
+    "deathwatch/Deathwatch Terminator Squad",
+    "deathwatch/Deathwatch Veterans",
+    "deathwatch/Decimus Kill Team",
+    "greyknights/Brotherhood Terminator Squad",
+    "greyknights/Interceptor Squad",
+    "greyknights/Paladin Squad",
+    "greyknights/Purgation Squad",
+    "greyknights/Purifier Squad",
+    "greyknights/Strike Squad",
+    "spacemarines/Aggressor Squad",
+    "spacemarines/Assault Intercessor Squad",
+    "spacemarines/Assault Squad [Legends]",
+    "spacemarines/Assault Squad with Jump Packs [Legends]",
+    "spacemarines/Bike Squad [Legends]",
+    "spacemarines/Bladeguard Veteran Squad",
+    "spacemarines/Centurion Assault Squad",
+    "spacemarines/Centurion Devastator Squad",
+    "spacemarines/Eradicator Squad",
+    "spacemarines/Heavy Intercessor Squad",
+    "spacemarines/Hellblaster Squad",
+    "spacemarines/Inceptor Squad",
+    "spacemarines/Incursor Squad",
+    "spacemarines/Infernus Squad",
+    "spacemarines/Infiltrator Squad",
+    "spacemarines/Intercessor Squad",
+    "spacemarines/Vanguard Veteran Squad [Legends]",
+    "spacemarines/Outrider Squad",
+    "spacemarines/Scout Bike Squad [Legends]",
+    "spacemarines/Relic Terminator Squad [Legends]",
+    "spacemarines/Reiver Squad",
+    "spacemarines/Scout Sniper Squad [Legends]",
+    "spacemarines/Scout Squad",
+    "spacemarines/Terminator Squad",
+    "spacemarines/Terminator Assault Squad",
+    "spacemarines/Vanguard Veteran Squad with Jump Packs",
+    "spacemarines/Sternguard Veteran Squad",
+    "spacemarines/Devastator Squad",
+    "spacemarines/Company Veterans on Bikes [Legends]",
+    "spacemarines/Assault Intercessors with Jump Packs",
+    "spacewolves/Blood Claws",
+    "spacewolves/Wolf Guard [Legends]",
+    "spacewolves/Wolf Guard Terminators",
+    "spacewolves/Hounds of Morkai [Legends]",
+    "spacewolves/Wulfen",
+    "spacewolves/Thunderwolf Cavalry",
+    "spacewolves/Fenrisian Wolves",
+    "spacewolves/Skyclaws [Legends]",
+    "spacewolves/Long Fangs [Legends]",
+    "spacewolves/Wolf Scouts [Legends]",
+    "spacewolves/Wolf Guard Headtakers",
+    "spacewolves/Wulfen with Storm Shields",
+    "spacewolves/Wolf Scouts",
+    "ultramarines/Victrix Honour Guard",
+    "votann/Einhyr Hearthguard",
+    "votann/Cthonian Beserks",
+    "votann/Hernkyn Pioneers",
+    "votann/Brôkhyr Thunderkyn",
+    "votann/Kapricus Defenders",
+    "votann/Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+    "votann/Ironkin Steeljacks with Melee Weapons",
+    "necrons/Necron Warriors",
+    "necrons/Immortals",
+    "necrons/Lychguard",
+    "necrons/Deathmarks",
+    "necrons/Flayed Ones",
+    "necrons/Skorpekh Destroyers",
+    "necrons/Canoptek Spyders",
+    "necrons/Canoptek Scarab Swarms",
+    "necrons/Ophydian Destroyers",
+    "necrons/Tomb Blades",
+    "necrons/Triarch Praetorians",
+    "necrons/Canoptek Wraiths",
+    "necrons/Lokhust Destroyers",
+    "necrons/Lokhust Heavy Destroyers",
+    "necrons/Canoptek Acanthrites [Legends]",
+    "necrons/Dynastic Conqueror [Crucible]",
+    "necrons/Hyperscientist [Crucible]",
+    "necrons/Triarchal Overseer [Crucible]",
+    "orks/Boyz",
+    "orks/Burna Boyz [Legends]",
+    "orks/Deffkoptas",
+    "orks/Flash Gitz",
+    "orks/Gretchin",
+    "orks/Killa Kans",
+    "orks/Lootas [Legends]",
+    "orks/Meganobz",
+    "orks/Mek Gunz",
+    "orks/Nobz",
+    "orks/Rukkatrukk Squigbuggies",
+    "orks/Squighog Boyz",
+    "orks/Stormboyz",
+    "orks/Warbikers",
+    "orks/Grot Tanks [Legends]",
+    "orks/Wartrakks",
+    "orks/Warbuggies",
+    "orks/Beast Snagga Boyz",
+    "tau/Kroot Carnivores",
+    "tau/Krootox Riders",
+    "tau/Crisis Battlesuits [Legends]",
+    "tau/Piranhas",
+    "tau/Vespid Stingwings",
+    "tau/Kroot Hounds",
+    "tau/Broadside Battlesuits",
+    "tau/Tactical Drones [Legends]",
+    "tau/Tetras [Legends]",
+    "tau/Krootox Rampagers",
+    "tyranids/Tyranid Warriors with Ranged Bio-Weapons",
+    "tyranids/Tyranid Warriors with Melee Bio-Weapons",
+    "tyranids/Termagants",
+    "tyranids/Hormagaunts",
+    "tyranids/Gargoyles",
+    "tyranids/Tyrant Guard",
+    "tyranids/Pyrovores",
+    "tyranids/Venomthropes",
+    "tyranids/Von Ryan's Leapers",
+    "tyranids/Neurogaunts",
+    "tyranids/Zoanthropes",
+    "tyranids/Ripper Swarms",
+    "tyranids/Spore Mines",
+    "tyranids/Biovores",
+    "tyranids/Hive Guard",
+    "tyranids/Barbgaunts",
+    "tyranids/Genestealers"
+  ],
+  "invulnAbilityUnits": 37,
+  "fnpAbilityUnits": 71,
+  "leaderUnits": 435
+}

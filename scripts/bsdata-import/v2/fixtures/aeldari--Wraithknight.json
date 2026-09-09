@@ -1,0 +1,1259 @@
+{
+ "unit": {
+  "name": "Wraithknight",
+  "id": "bfd-df5a-b358-4cf9",
+  "collective": false,
+  "hidden": false,
+  "import": true,
+  "type": "model",
+  "categoryLinks": [
+   {
+    "name": "Wraithknight",
+    "id": "2815-6e69-bd03-b843",
+    "hidden": false,
+    "primary": false,
+    "targetId": "2683-e032-72a0-7349"
+   },
+   {
+    "name": "Wraith Construct",
+    "id": "3ef3-9bb6-fff8-d192",
+    "hidden": false,
+    "primary": false,
+    "targetId": "c250-f6c5-ffc8-bcd5"
+   },
+   {
+    "name": "Monster",
+    "id": "b146-3a50-f616-4668",
+    "hidden": false,
+    "primary": true,
+    "targetId": "9693-cf84-fe69-37a9"
+   },
+   {
+    "name": "Titanic",
+    "id": "973e-fa1d-cd7-49b1",
+    "hidden": false,
+    "primary": false,
+    "targetId": "5929-ad51-d006-e008"
+   },
+   {
+    "name": "Towering",
+    "id": "a402-7c60-c460-25a2",
+    "hidden": false,
+    "primary": false,
+    "targetId": "d666-e2c9-b6cc-5716"
+   },
+   {
+    "name": "Walker",
+    "id": "7d5f-51ff-2391-5e1",
+    "hidden": false,
+    "primary": false,
+    "targetId": "6dda-e157-334d-e93a"
+   },
+   {
+    "name": "Faction: Asuryani",
+    "id": "3015-397-bf4a-716a",
+    "hidden": false,
+    "primary": false,
+    "targetId": "4378-1827-4988-be4e"
+   },
+   {
+    "name": "Aeldari",
+    "id": "42be-2b11-586f-0c5a",
+    "primary": false,
+    "targetId": "e035-51fc-813a-1313"
+   },
+   {
+    "name": "Ynnari",
+    "id": "d300-e956-ce0a-b21a",
+    "primary": false,
+    "targetId": "9032-f917-9bc5-fd47"
+   }
+  ],
+  "constraints": [
+   {
+    "id": "f820-f441-caa0-3590",
+    "field": "75bb-ded1-c86d-bdf0",
+    "includeChildSelections": false,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   },
+   {
+    "id": "eb5d-dbee-6c44-1a50",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "max",
+    "value": 0
+   },
+   {
+    "id": "b7ca-e58d-5597-2676",
+    "field": "716d-91b7-d55a-1022",
+    "includeChildSelections": true,
+    "scope": "self",
+    "shared": true,
+    "type": "min",
+    "value": 0
+   },
+   {
+    "id": "1d61-b2f6-24a9-0704",
+    "field": "selections",
+    "includeChildSelections": true,
+    "scope": "force",
+    "shared": true,
+    "type": "max",
+    "value": 3
+   }
+  ],
+  "costs": [
+   {
+    "name": "pts",
+    "typeId": "51b2-306e-1021-d207",
+    "value": 385
+   },
+   {
+    "name": "Crusade Points",
+    "typeId": "b03b-c239-15a5-da55",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Battle Honours",
+    "typeId": "75bb-ded1-c86d-bdf0",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Experience",
+    "typeId": "a623-fe74-1d33-cddf",
+    "value": 0
+   },
+   {
+    "name": "Crusade: Weapon Modifications",
+    "typeId": "716d-91b7-d55a-1022",
+    "value": 0
+   },
+   {
+    "name": "Blackstone Fragments",
+    "typeId": "ac6b-ced3-9b5e-9a6e",
+    "value": 0
+   },
+   {
+    "name": "Detachment Points",
+    "typeId": "82ae-1066-5107-6ae0",
+    "value": 0
+   },
+   {
+    "name": "Enhancements",
+    "typeId": "f759-1bc4-cb3a-f0d2",
+    "value": 0
+   }
+  ],
+  "entryLinks": [
+   {
+    "name": "Crusade",
+    "id": "64af-ae7a-f402-51ee",
+    "hidden": false,
+    "import": true,
+    "sortIndex": 1,
+    "targetId": "eef3-eae9-ce7c-7765",
+    "type": "selectionEntryGroup"
+   }
+  ],
+  "infoLinks": [
+   {
+    "name": "Deadly Demise",
+    "id": "1ebc-7246-662f-69d2",
+    "hidden": false,
+    "targetId": "b68a-5ded-65ac-98c",
+    "type": "rule",
+    "modifiers": [
+     {
+      "field": "name",
+      "type": "append",
+      "value": "D6"
+     }
+    ]
+   },
+   {
+    "name": "Battle Focus",
+    "id": "5f11-335b-3e5c-890e",
+    "hidden": false,
+    "targetId": "c324-e193-e23c-7d2e",
+    "type": "rule"
+   }
+  ],
+  "modifierGroups": [
+   {
+    "comment": "Crusade modifiers",
+    "type": "and",
+    "modifiers": [
+     {
+      "field": "f820-f441-caa0-3590",
+      "type": "set",
+      "value": 6,
+      "conditions": [
+       {
+        "childId": "1511-18fe-f51e-7b9d",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "atLeast",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "eb5d-dbee-6c44-1a50",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "b7ca-e58d-5597-2676",
+      "type": "increment",
+      "value": 2,
+      "repeats": [
+       {
+        "childId": "d1a5-4297-168b-11cd",
+        "field": "selections",
+        "includeChildSelections": true,
+        "repeats": 1,
+        "roundUp": false,
+        "scope": "self",
+        "shared": true,
+        "value": 1
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-ready)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 5
+         },
+         {
+          "childId": "cac3-71d1-ea4b-795d",
+          "field": "forces",
+          "includeChildForces": true,
+          "includeChildSelections": true,
+          "scope": "roster",
+          "shared": true,
+          "type": "atLeast",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Blooded)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 5
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 15
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Battle-hardened)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 15
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 30
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Heroic)",
+      "conditionGroups": [
+       {
+        "type": "and",
+        "conditions": [
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "greaterThan",
+          "value": 30
+         },
+         {
+          "childId": "2dbf-4d49-5d74-85c9",
+          "field": "selections",
+          "includeChildSelections": true,
+          "scope": "self",
+          "shared": true,
+          "type": "atMost",
+          "value": 50
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "field": "name",
+      "type": "append",
+      "value": "(Legendary)",
+      "conditions": [
+       {
+        "childId": "2dbf-4d49-5d74-85c9",
+        "field": "selections",
+        "includeChildSelections": true,
+        "scope": "self",
+        "shared": true,
+        "type": "greaterThan",
+        "value": 50
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "modifiers": [
+   {
+    "field": "hidden",
+    "type": "set",
+    "value": true,
+    "conditions": [
+     {
+      "childId": "1d6e-2579-8e7f-1ed4",
+      "field": "forces",
+      "scope": "roster",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   },
+   {
+    "field": "51b2-306e-1021-d207",
+    "type": "increment",
+    "value": 20,
+    "conditionGroups": [
+     {
+      "type": "and",
+      "localConditionGroups": [
+       {
+        "field": "selections",
+        "includeChildForces": true,
+        "includeChildSelections": true,
+        "repeats": 1,
+        "scope": "parent",
+        "type": "atLeast",
+        "value": 1,
+        "conditions": [
+         {
+          "childId": "any",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "before",
+          "value": 1
+         },
+         {
+          "childId": "bfd-df5a-b358-4cf9",
+          "childName": "Wraithknight",
+          "field": "selections",
+          "scope": "self",
+          "shared": true,
+          "type": "instanceOf",
+          "value": 1
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "field": "1d61-b2f6-24a9-0704",
+    "type": "set",
+    "value": 2,
+    "conditions": [
+     {
+      "childId": "d62d-db22-4893-4bc0",
+      "childName": "1. Incursion (1000 Point limit)",
+      "field": "selections",
+      "includeChildSelections": true,
+      "scope": "roster",
+      "shared": true,
+      "type": "atLeast",
+      "value": 1
+     }
+    ]
+   }
+  ],
+  "profiles": [
+   {
+    "name": "Wraithknight",
+    "id": "2b58-961b-9cc1-6382",
+    "hidden": false,
+    "typeId": "c547-1836-d8a-ff4f",
+    "typeName": "Unit",
+    "characteristics": [
+     {
+      "name": "M",
+      "$text": "12\"",
+      "typeId": "e703-ecb6-5ce7-aec1"
+     },
+     {
+      "name": "T",
+      "$text": "12",
+      "typeId": "d29d-cf75-fc2d-34a4"
+     },
+     {
+      "name": "Sv",
+      "$text": "2+",
+      "typeId": "450-a17e-9d5e-29da"
+     },
+     {
+      "name": "W",
+      "$text": "18",
+      "typeId": "750a-a2ec-90d3-21fe"
+     },
+     {
+      "name": "LD",
+      "$text": "6+",
+      "typeId": "58d2-b879-49c7-43bc"
+     },
+     {
+      "name": "OC",
+      "$text": "10",
+      "typeId": "bef7-942a-1a23-59f8"
+     },
+     {
+      "name": "InSv",
+      "$text": "",
+      "typeId": "55a7-5b54-c60d-11dc"
+     }
+    ]
+   },
+   {
+    "name": "Damaged: 1-6 Wounds Remaining",
+    "id": "fe0f-b73b-de73-7bde",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "While this model has 1-6 wounds remaining, subtract 5 from this model’s Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   },
+   {
+    "name": "Titanic Strides",
+    "id": "fd9d-69b6-e156-dd88",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and sections of terrain features that are 4\" or less in height. When doing so:\nIt can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.\nIt can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a 1, this model is battle-shocked.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   },
+   {
+    "name": "Point-blank Devastation",
+    "id": "8e48-8384-7195-84e5",
+    "hidden": false,
+    "typeId": "9cc3-6d83-4dd3-9b64",
+    "typeName": "Abilities",
+    "characteristics": [
+     {
+      "name": "Description",
+      "$text": "Each time this model's Heavy Wraithcannon or Suncannon targets a unit within half range, you can re-roll the dice to determine the number of attacks made.",
+      "typeId": "9b8f-694b-e5e-b573"
+     }
+    ]
+   }
+  ],
+  "selectionEntryGroups": [
+   {
+    "name": "Wargear",
+    "id": "cf1d-2009-4d08-c00a",
+    "hidden": false,
+    "sortIndex": 2,
+    "selectionEntries": [
+     {
+      "name": "Titanic feet",
+      "id": "e86d-b767-a9bd-a683",
+      "hidden": false,
+      "import": true,
+      "type": "upgrade",
+      "constraints": [
+       {
+        "id": "4f95-ebcd-c245-ae23-min",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "4f95-ebcd-c245-ae23-max",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Weapon Modifications",
+        "id": "0b69-4da9-886b-0469",
+        "hidden": false,
+        "import": true,
+        "targetId": "f9da-852a-d7f0-92e9",
+        "type": "selectionEntryGroup"
+       }
+      ],
+      "profiles": [
+       {
+        "name": "Titanic Feet",
+        "id": "8f4b-7318-2a8e-588b",
+        "hidden": false,
+        "typeId": "8a40-4aaa-c780-9046",
+        "typeName": "Melee Weapons",
+        "characteristics": [
+         {
+          "name": "Range",
+          "$text": "Melee",
+          "typeId": "914c-b413-91e3-a132"
+         },
+         {
+          "name": "A",
+          "$text": "5",
+          "typeId": "2337-daa1-6682-b110"
+         },
+         {
+          "name": "WS",
+          "$text": "3+",
+          "typeId": "95d1-95f-45b4-11d6"
+         },
+         {
+          "name": "S",
+          "$text": "8",
+          "typeId": "ab33-d393-96ce-ccba"
+         },
+         {
+          "name": "AP",
+          "$text": "-1",
+          "typeId": "41a0-1301-112a-e2f2"
+         },
+         {
+          "name": "D",
+          "$text": "2",
+          "typeId": "3254-9fe6-d824-513e"
+         },
+         {
+          "name": "Keywords",
+          "$text": "",
+          "typeId": "893f-9000-ccf7-648e"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "selectionEntryGroups": [
+     {
+      "name": "Left Arm",
+      "id": "1603-a55a-1b30-74f4",
+      "defaultSelectionEntryId": "5320-0f27-5bde-cba2",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "04a8-6665-9589-5c2d",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "4adc-b134-1877-176f",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Heavy Wraithcannon",
+        "id": "45fe-f9a6-a991-a2d1",
+        "hidden": false,
+        "targetId": "7a9-ed40-b9db-b2a0",
+        "type": "selectionEntry",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "abbd-2b63-2428-7ce7",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       },
+       {
+        "name": "Scattershield",
+        "id": "5320-0f27-5bde-cba2",
+        "hidden": false,
+        "import": true,
+        "targetId": "d7cf-9b45-9800-5155",
+        "type": "selectionEntry"
+       }
+      ]
+     },
+     {
+      "name": "Right Arm",
+      "id": "3035-2757-54b9-ca6d",
+      "defaultSelectionEntryId": "a286-ba4e-bcc0-3911",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "59b5-d71c-49ad-0644",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "min",
+        "value": 1
+       },
+       {
+        "id": "039a-9228-d90a-e416",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 1
+       }
+      ],
+      "entryLinks": [
+       {
+        "name": "Heavy Wraithcannon",
+        "id": "3fa2-dd7f-26a5-53b2",
+        "hidden": false,
+        "import": true,
+        "targetId": "7a9-ed40-b9db-b2a0",
+        "type": "selectionEntry",
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 10
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "bc22-231c-257b-7e42",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ]
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Suncannon",
+        "id": "a286-ba4e-bcc0-3911",
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "6707-c292-28f5-18f5",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Blast",
+          "id": "00bc-9f6f-b242-cc1a",
+          "hidden": false,
+          "targetId": "6c1f-1cf7-ff25-c99e",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Suncannon",
+          "id": "6474-db97-fca6-b8d",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "48\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "D6+4",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "3+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "10",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-3",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "3",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Blast",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "Secondary Weapons",
+      "id": "9d23-6ba2-d5a9-42fd",
+      "hidden": false,
+      "constraints": [
+       {
+        "id": "333c-059c-3ad1-e965",
+        "field": "selections",
+        "scope": "parent",
+        "shared": true,
+        "type": "max",
+        "value": 2
+       }
+      ],
+      "selectionEntries": [
+       {
+        "name": "Scatter Laser",
+        "id": "800e-c911-429b-5c0a",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "133f-4af8-f731-12c9",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 2
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "6f04-dd09-3f64-a957",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Sustained Hits",
+          "id": "54f0-bf00-661d-fca8",
+          "hidden": false,
+          "targetId": "1897-c22c-9597-12b1",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Scatter Laser",
+          "id": "c77a-1b41-952b-a922",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "36\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "6",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "3+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "5",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "0",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "1",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Sustained Hits 1",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Shuriken Cannon",
+        "id": "9d81-8f1f-ff2e-f578",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "9885-2279-9c53-fbe0",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 2
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "d9cc-d20f-0dae-da7b",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "infoLinks": [
+         {
+          "name": "Lethal Hits",
+          "id": "447a-3946-8b39-d520",
+          "hidden": false,
+          "targetId": "d1d1-611e-5191-1095",
+          "type": "rule"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Shuriken Cannon",
+          "id": "e878-4e99-5326-29a5",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "24\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "3",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "3+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "6",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-1",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "2",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "Lethal Hits",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "name": "Starcannon",
+        "id": "5b41-e3a6-815d-60ca",
+        "collective": false,
+        "hidden": false,
+        "import": true,
+        "type": "upgrade",
+        "constraints": [
+         {
+          "id": "2027-a984-e4a1-2136",
+          "field": "selections",
+          "scope": "parent",
+          "shared": true,
+          "type": "max",
+          "value": 2
+         }
+        ],
+        "costs": [
+         {
+          "name": "pts",
+          "typeId": "51b2-306e-1021-d207",
+          "value": 0
+         }
+        ],
+        "entryLinks": [
+         {
+          "name": "Weapon Modifications",
+          "id": "5a6b-4833-00dd-8177",
+          "hidden": false,
+          "import": true,
+          "targetId": "f9da-852a-d7f0-92e9",
+          "type": "selectionEntryGroup"
+         }
+        ],
+        "profiles": [
+         {
+          "name": "Starcannon",
+          "id": "b227-1ceb-8973-957e",
+          "hidden": false,
+          "typeId": "f77d-b953-8fa4-b762",
+          "typeName": "Ranged Weapons",
+          "characteristics": [
+           {
+            "name": "Range",
+            "$text": "36\"",
+            "typeId": "9896-9419-16a1-92fc"
+           },
+           {
+            "name": "A",
+            "$text": "2",
+            "typeId": "3bb-c35f-f54-fb08"
+           },
+           {
+            "name": "BS",
+            "$text": "3+",
+            "typeId": "94d-8a98-cf90-183e"
+           },
+           {
+            "name": "S",
+            "$text": "8",
+            "typeId": "2229-f494-25db-c5d3"
+           },
+           {
+            "name": "AP",
+            "$text": "-3",
+            "typeId": "9ead-8a10-520-de15"
+           },
+           {
+            "name": "D",
+            "$text": "2",
+            "typeId": "a354-c1c8-a745-f9e3"
+           },
+           {
+            "name": "Keywords",
+            "$text": "",
+            "typeId": "7f1b-8591-2fcf-d01c"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "shared": {
+  "entries": {
+   "7a9-ed40-b9db-b2a0": {
+    "name": "Heavy Wraithcannon",
+    "id": "7a9-ed40-b9db-b2a0",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "categoryLinks": [
+     {
+      "name": "Attacks Dx Weapon",
+      "id": "e6b8-f03b-cb63-aa82",
+      "hidden": false,
+      "primary": false,
+      "targetId": "e993-e086-6de1-12af"
+     },
+     {
+      "name": "Damage Dx Weapon",
+      "id": "fc85-c87d-438d-edd0",
+      "hidden": false,
+      "primary": false,
+      "targetId": "4986-bf86-beb4-13ac"
+     }
+    ],
+    "costs": [
+     {
+      "name": "Crusade Points",
+      "typeId": "b03b-c239-15a5-da55",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Battle Honours",
+      "typeId": "75bb-ded1-c86d-bdf0",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Experience",
+      "typeId": "a623-fe74-1d33-cddf",
+      "value": 0
+     },
+     {
+      "name": "Crusade: Weapon Modifications",
+      "typeId": "716d-91b7-d55a-1022",
+      "value": 0
+     },
+     {
+      "name": "Blackstone Fragments",
+      "typeId": "ac6b-ced3-9b5e-9a6e",
+      "value": 0
+     },
+     {
+      "name": "Detachment Points",
+      "typeId": "82ae-1066-5107-6ae0",
+      "value": 0
+     },
+     {
+      "name": "Enhancements",
+      "typeId": "f759-1bc4-cb3a-f0d2",
+      "value": 0
+     }
+    ],
+    "infoLinks": [
+     {
+      "name": "Devastating Wounds",
+      "id": "f589-2e0b-f5c5-73a",
+      "hidden": false,
+      "targetId": "be1e-ac8e-1e2c-3528",
+      "type": "rule"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Heavy Wraithcannon",
+      "id": "4d4e-8abb-65ad-c0bc",
+      "hidden": false,
+      "typeId": "f77d-b953-8fa4-b762",
+      "typeName": "Ranged Weapons",
+      "characteristics": [
+       {
+        "name": "Range",
+        "$text": "36\"",
+        "typeId": "9896-9419-16a1-92fc"
+       },
+       {
+        "name": "A",
+        "$text": "D3",
+        "typeId": "3bb-c35f-f54-fb08"
+       },
+       {
+        "name": "BS",
+        "$text": "3+",
+        "typeId": "94d-8a98-cf90-183e"
+       },
+       {
+        "name": "S",
+        "$text": "20",
+        "typeId": "2229-f494-25db-c5d3"
+       },
+       {
+        "name": "AP",
+        "$text": "-4",
+        "typeId": "9ead-8a10-520-de15"
+       },
+       {
+        "name": "D",
+        "$text": "2D6",
+        "typeId": "a354-c1c8-a745-f9e3"
+       },
+       {
+        "name": "Keywords",
+        "$text": "Devastating Wounds",
+        "typeId": "7f1b-8591-2fcf-d01c"
+       }
+      ]
+     }
+    ]
+   },
+   "d7cf-9b45-9800-5155": {
+    "name": "Scattershield",
+    "id": "d7cf-9b45-9800-5155",
+    "hidden": false,
+    "import": true,
+    "type": "upgrade",
+    "modifiers": [
+     {
+      "affects": "profiles.Unit",
+      "field": "annotation",
+      "join": ", ",
+      "scope": "model",
+      "type": "append",
+      "value": "Scattershield"
+     },
+     {
+      "affects": "profiles.Unit",
+      "field": "55a7-5b54-c60d-11dc",
+      "scope": "model",
+      "type": "set",
+      "value": "4+"
+     }
+    ],
+    "profiles": [
+     {
+      "name": "Scattershield",
+      "id": "4dce-4847-6686-4832",
+      "hidden": false,
+      "typeId": "9cc3-6d83-4dd3-9b64",
+      "typeName": "Abilities",
+      "characteristics": [
+       {
+        "name": "Description",
+        "$text": "The bearer has a 4+ invulnerable save and each time an attack is allocated to the bearer, subtract 1 from the Damage characteristic of that attack.",
+        "typeId": "9b8f-694b-e5e-b573"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "groups": {},
+  "profiles": {}
+ }
+}
